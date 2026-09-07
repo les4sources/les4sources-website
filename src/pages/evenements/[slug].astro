@@ -1,11 +1,20 @@
 ---
 import type { GetStaticPaths } from "astro";
-import { getEntry, render } from "astro:content";
+import { getCollection, getEntry, render } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
+import Breadcrumbs from "@components/ui/Breadcrumbs.astro";
+import Facts from "@components/ui/Facts.astro";
 import PageHero from "@components/ui/PageHero.astro";
 import Prose from "@components/ui/Prose.astro";
+import Badge from "@components/ds/Badge.astro";
+import BlobPanel from "@components/ds/BlobPanel.astro";
+import Button from "@components/ds/Button.astro";
+import EventCard from "@components/ds/EventCard.astro";
+import PoleTag from "@components/ds/PoleTag.astro";
+import Section from "@components/ds/Section.astro";
 import { siteData } from "@lib/data";
-import { formatDate, formatTime } from "@lib/content";
+import { formatDate, formatDateRange, formatTime, upcomingEvents } from "@lib/content";
+import { isPole } from "@lib/poles";
 import { event as eventSchema, breadcrumbs } from "@lib/seo";
 import { site } from "@lib/site";
 import type { MergedEvent } from "@lib/claudy";
@@ -34,9 +43,46 @@ const legacy = event.legacyId ? await getEntry("evenements", event.legacyId) : u
 const rendered = legacy ? await render(legacy) : undefined;
 const Content = rendered?.Content;
 
-const dateLabel = formatDate(event.start);
+// La couverture d'une fiche migrée est une image locale optimisée ; celle d'un
+// événement Claudy arrive par URL. L'une ou l'autre, jamais les deux.
+const cover = legacy?.data.cover;
+const remoteCover = event.image;
+const props: Record<string, string> = legacy?.data.properties ?? {};
+const poleSlug = isPole(event.pole) ? event.pole : undefined;
+
+const dateLabel = formatDateRange(event.start, event.end);
 const timeLabel = event.allDay ? undefined : formatTime(event.start);
-const endTimeLabel = event.allDay ? undefined : formatTime(event.end);
+const dateLine = [dateLabel, timeLabel].filter(Boolean).join(" · ");
+
+// « COMPLET ! » est écrit dans le titre par l'éditrice — c'est la seule source.
+const soldOut = /complet/i.test(event.title);
+
+// Le corps porte déjà ses propres boutons d'inscription dans la plupart des
+// fiches migrées : n'en ajouter un que si le contenu n'en a aucun.
+const bodySource = legacy?.body ?? event.descriptionHtml ?? "";
+const hasBodyButton = /class="[^"]*\bbutton\b/.test(bodySource);
+const showCta = Boolean(event.registrationUrl) && !hasBodyButton;
+
+const facts = [
+  { label: "Horaires", value: props["Horaires"] ?? timeLabel },
+  { label: "Tarif", value: event.priceText ?? props["Tarif"] },
+  { label: "Type d'événement", value: props["Type d'événement"] ?? event.categoryName },
+  { label: "Lieu", value: event.location ?? props["Lieu"] },
+];
+
+// « Prochainement » : les trois prochaines fiches, celle-ci exclue.
+const { events } = await siteData();
+const legacyEvents = await getCollection("evenements");
+const coverById = new Map(legacyEvents.map((e) => [e.id, e.data.cover]));
+const soon = upcomingEvents(events)
+  .filter((e) => e.path !== event.path)
+  .slice(0, 3);
+
+const crumbs = [
+  { label: "Accueil", href: "/" },
+  { label: "Les événements", href: "/evenements" },
+  { label: event.title },
+];
 
 const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
 const url = `${siteUrl}${event.path}`;
@@ -74,60 +120,52 @@ const jsonld = [
   type="article"
   jsonld={jsonld}
 >
-  <PageHero
-    title={event.title}
-    eyebrow={dateLabel}
-    lead={event.description || undefined}
-    icon={event.icon}
-    pole={event.pole}
-    remoteCover={event.image}
-    crumbs={[
-      { label: "Accueil", href: "/" },
-      { label: "Les événements", href: "/evenements" },
-      { label: event.title },
-    ]}
-  />
+  {
+    cover || remoteCover ? (
+      <div class="mx-auto w-full max-w-site px-6 pt-[clamp(18px,3vw,32px)]">
+        <Breadcrumbs items={crumbs} />
+        {/* Motif signature n°1 : la photo, et l'aplat du pôle qui porte le titre.
+            Les deux variables règlent l'aplat sur mobile sans toucher au DS. */}
+        <div class="mt-5 [--blob-h:320px] [--blob-w:82%] md:[--blob-h:430px] md:[--blob-w:46%]">
+          <BlobPanel
+            image={cover ?? remoteCover?.url}
+            imageAlt={legacy?.data.coverAlt || remoteCover?.alt || event.title}
+            pole={poleSlug}
+            width="var(--blob-w)"
+            height="var(--blob-h)"
+          >
+            <h1 class="font-display text-[clamp(23px,4.6vw,40px)] leading-[1.1] font-bold">
+              {event.title}
+            </h1>
+          </BlobPanel>
+        </div>
+      </div>
+    ) : (
+      <PageHero title={event.title} lead={event.description || undefined} crumbs={crumbs} narrow />
+    )
+  }
 
-  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
-    <dl class="mb-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-      {
-        dateLabel && (
-          <div>
-            <dt class="text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-ink-soft">Date</dt>
-            <dd class="m-0 text-md">
-              {dateLabel}
-              {timeLabel && <> · {timeLabel}{endTimeLabel && <> – {endTimeLabel}</>}</>}
-            </dd>
-          </div>
-        )
-      }
-      {
-        event.location && (
-          <div>
-            <dt class="text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-ink-soft">Lieu</dt>
-            <dd class="m-0 text-md">{event.location}</dd>
-          </div>
-        )
-      }
-      {
-        event.priceText && (
-          <div>
-            <dt class="text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-ink-soft">Prix</dt>
-            <dd class="m-0 text-md">{event.priceText}</dd>
-          </div>
-        )
-      }
-      {
-        event.categoryName && (
-          <div>
-            <dt class="text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-ink-soft">Catégorie</dt>
-            <dd class="m-0 text-md">{event.categoryName}</dd>
-          </div>
-        )
-      }
-    </dl>
+  <Section narrow class="pt-9">
+    <div class="flex flex-wrap items-center gap-3">
+      {poleSlug && <PoleTag pole={poleSlug} />}
+      {soldOut && <Badge tone="danger">Complet !</Badge>}
+    </div>
 
-    <Prose>
+    {dateLine && <p class="mt-4 font-ui text-lead font-semibold text-ink">{dateLine}</p>}
+
+    <Facts items={facts} class="mt-7" />
+
+    {
+      showCta && (
+        <p class="mt-7">
+          <Button href={event.registrationUrl} rel="noopener" size="lg">
+            S'inscrire
+          </Button>
+        </p>
+      )
+    }
+
+    <Prose class="mt-9" width="full">
       {
         event.descriptionHtml ? (
           <Fragment set:html={event.descriptionHtml} />
@@ -136,19 +174,26 @@ const jsonld = [
         ) : null
       }
     </Prose>
+  </Section>
 
-    {
-      event.registrationUrl && (
-        <p class="mt-10">
-          <a
-            href={event.registrationUrl}
-            rel="noopener"
-            class="inline-block rounded-md bg-teal px-6 py-3 font-semibold text-cream no-underline hover:bg-teal-soft"
-          >
-            S'inscrire à cet événement
-          </a>
-        </p>
-      )
-    }
-  </div>
+  {
+    soon.length > 0 && (
+      <Section title="Prochainement aux 4 Sources ⛅" surface="subtle">
+        <ul class="m-0 grid list-none grid-cols-1 items-start gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
+          {soon.map((e) => (
+            <li>
+              <EventCard
+                title={e.title}
+                date={formatDate(e.start) ?? ""}
+                pole={isPole(e.pole) ? e.pole : undefined}
+                image={(e.legacyId ? coverById.get(e.legacyId) : undefined) ?? e.image?.url}
+                soldOut={/complet/i.test(e.title)}
+                href={e.path}
+              />
+            </li>
+          ))}
+        </ul>
+      </Section>
+    )
+  }
 </BaseLayout>

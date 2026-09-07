@@ -1,0 +1,111 @@
+---
+/**
+ * Onglets « À venir / Passés » de l'agenda — même dessin que `ds/Tabs.astro`
+ * (soulignement jaune, motif ARIA à activation manuelle), mais avec deux slots
+ * statiques : le composant du DS déclare ses panneaux par un nom de slot
+ * calculé, ce que le compilateur Astro refuse.
+ *
+ * Sans JavaScript, les onglets sont des ancres et les deux panneaux restent
+ * affichés : la page entière est lisible.
+ */
+interface Props {
+  upcomingLabel: string;
+  pastLabel: string;
+  id?: string;
+}
+
+const { upcomingLabel, pastLabel, id = "agenda" } = Astro.props;
+
+const TAB =
+  "-mb-[1.5px] shrink-0 border-b-[3px] px-3.5 py-2.5 font-ui text-ui no-underline transition-colors duration-[120ms]";
+const ON = "border-highlight font-bold text-teal";
+const OFF = "border-transparent text-ink-2 hover:text-teal";
+---
+
+<div class="l4s-tabs" data-l4s-agenda-tabs>
+  <div role="tablist" class="flex gap-1 overflow-x-auto border-b-[1.5px] border-line">
+    <a
+      role="tab"
+      id={`${id}-tab-upcoming`}
+      href={`#${id}-panel-upcoming`}
+      aria-controls={`${id}-panel-upcoming`}
+      aria-selected="true"
+      tabindex="0"
+      class:list={[TAB, ON]}>{upcomingLabel}</a
+    >
+    <a
+      role="tab"
+      id={`${id}-tab-past`}
+      href={`#${id}-panel-past`}
+      aria-controls={`${id}-panel-past`}
+      aria-selected="false"
+      tabindex="-1"
+      class:list={[TAB, OFF]}>{pastLabel}</a
+    >
+  </div>
+
+  <div
+    role="tabpanel"
+    id={`${id}-panel-upcoming`}
+    aria-labelledby={`${id}-tab-upcoming`}
+    tabindex="0"
+    data-active
+    class="pt-6 focus-visible:outline-none"
+  >
+    <slot name="upcoming" />
+  </div>
+
+  <div
+    role="tabpanel"
+    id={`${id}-panel-past`}
+    aria-labelledby={`${id}-tab-past`}
+    tabindex="0"
+    class="pt-6 focus-visible:outline-none"
+  >
+    <slot name="past" />
+  </div>
+</div>
+
+<style>
+  .l4s-tabs[data-ready] [role="tabpanel"]:not([data-active]) {
+    display: none;
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>("[data-l4s-agenda-tabs]").forEach((root) => {
+    const tabs = Array.from(root.querySelectorAll<HTMLAnchorElement>('[role="tab"]'));
+    const panels = Array.from(root.querySelectorAll<HTMLElement>('[role="tabpanel"]'));
+    if (tabs.length === 0) return;
+
+    const select = (index: number, focus = true) => {
+      tabs.forEach((tab, i) => {
+        const on = i === index;
+        tab.setAttribute("aria-selected", on ? "true" : "false");
+        tab.tabIndex = on ? 0 : -1;
+        tab.classList.toggle("border-highlight", on);
+        tab.classList.toggle("font-bold", on);
+        tab.classList.toggle("text-teal", on);
+        tab.classList.toggle("border-transparent", !on);
+        tab.classList.toggle("text-ink-2", !on);
+      });
+      panels.forEach((panel, i) => panel.toggleAttribute("data-active", i === index));
+      if (focus) tabs[index]?.focus();
+    };
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener("click", (event) => {
+        event.preventDefault();
+        select(index, false);
+      });
+      tab.addEventListener("keydown", (event) => {
+        const step = event.key === "ArrowRight" ? 1 : event.key === "ArrowLeft" ? -1 : 0;
+        if (step === 0) return;
+        event.preventDefault();
+        select((index + step + tabs.length) % tabs.length);
+      });
+    });
+
+    root.setAttribute("data-ready", "");
+  });
+</script>

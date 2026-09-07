@@ -1,11 +1,14 @@
 ---
 import type { GetStaticPaths } from "astro";
 import { getCollection, render, type CollectionEntry } from "astro:content";
-import { Image } from "astro:assets";
 import BaseLayout from "@layouts/BaseLayout.astro";
+import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
+import Gallery from "@components/ui/Gallery.astro";
 import PageHero from "@components/ui/PageHero.astro";
 import Prose from "@components/ui/Prose.astro";
-import { pathOf, visible } from "@lib/content";
+import Badge from "@components/ds/Badge.astro";
+import Section from "@components/ds/Section.astro";
+import { byPath, pathOf, visible } from "@lib/content";
 import { breadcrumbs } from "@lib/seo";
 import { site } from "@lib/site";
 
@@ -36,8 +39,35 @@ const { entry } = Astro.props;
 const { Content } = await render(entry);
 const d = entry.data;
 
+const here = pathOf(entry);
+const rest = here.slice(BASE.length + 1).split("/");
+// Un gîte est au premier niveau ; ce qui est plus profond est une pièce.
+const isLodging = rest.length === 1;
+
+const all = visible(await getCollection("hebergements"));
+const children = all
+  .filter((e) => pathOf(e).startsWith(`${here}/`))
+  .sort((a, b) => a.data.title.localeCompare(b.data.title, "fr"));
+const parent = isLodging ? undefined : byPath(all, here.slice(0, here.lastIndexOf("/")));
+
+const childItems: CardItem[] = children.map((c) => ({
+  title: c.data.title,
+  href: pathOf(c),
+  description: c.data.description,
+  icon: c.data.icon,
+  image: c.data.cover,
+}));
+
+// Les pages pratiques réellement publiées — leur libellé vient de leur titre.
+const pages = visible(await getCollection("pages"));
+const practical = ["/sejours/tarifs", "/sejours/disponibilites", "/sejours/regles-du-lieu", "/sejours/conditions"]
+  .map((path) => {
+    const page = byPath(pages, path);
+    return page ? { label: page.data.title, href: path } : undefined;
+  })
+  .filter((l): l is { label: string; href: string } => Boolean(l));
+
 // Fil d'Ariane : Accueil › Séjours › Les hébergements › (chaque niveau) › page
-const rest = pathOf(entry).slice(BASE.length + 1).split("/");
 const crumbs = [
   { label: "Accueil", href: "/" },
   { label: "Séjours", href: "/sejours" },
@@ -49,9 +79,7 @@ const crumbs = [
 ];
 
 const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
-const jsonld = [
-  breadcrumbs(crumbs.map((c) => ({ name: c.label, url: `${siteUrl}${c.href}` }))),
-];
+const jsonld = [breadcrumbs(crumbs.map((c) => ({ name: c.label, url: `${siteUrl}${c.href}` })))];
 ---
 
 <BaseLayout
@@ -63,35 +91,72 @@ const jsonld = [
 >
   <PageHero
     title={d.title}
-    eyebrow={d.capacity ? `${d.capacity} personnes` : undefined}
     lead={d.description}
     cover={d.cover}
     coverAlt={d.coverAlt}
     icon={d.icon}
-    pole={d.pole}
+    pole={d.pole ?? "hebergement"}
     crumbs={crumbs}
+    narrow={!isLodging}
   />
 
-  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
-    <Prose><Content /></Prose>
+  {
+    isLodging ? (
+      <Section class="pt-10">
+        <div class="grid gap-12 lg:grid-cols-[minmax(0,1fr)_280px]">
+          <div data-lightbox-scope>
+            {d.capacity && (
+              <p class="mb-6">
+                <Badge tone="teal">{d.capacity} personnes</Badge>
+              </p>
+            )}
 
-    {
-      d.gallery.length > 0 && (
-        <ul class="mt-12 grid list-none grid-cols-1 gap-4 p-0 sm:grid-cols-2 lg:grid-cols-3">
-          {d.gallery.map((img, i) => (
-            <li>
-              <Image
-                src={img}
-                alt={`${d.title} — photo ${i + 1}`}
-                widths={[420, 840]}
-                sizes="(min-width: 1024px) 360px, (min-width: 640px) 45vw, 100vw"
-                loading="lazy"
-                class="w-full rounded-lg object-cover shadow-sm"
-              />
-            </li>
-          ))}
-        </ul>
-      )
-    }
-  </div>
+            <Prose width="full">
+              <Content />
+            </Prose>
+
+            {d.gallery.length > 0 && (
+              <Gallery images={d.gallery} alt={d.title} class="mt-12" />
+            )}
+          </div>
+
+          <aside class="h-fit lg:sticky lg:top-24">
+            <div class="rounded-photo bg-paper p-6">
+              <h2 class="font-display text-h4 font-bold">Infos pratiques</h2>
+              <ul class="mt-4 flex list-none flex-col gap-3 p-0">
+                {practical.map((link) => (
+                  <li>
+                    <a href={link.href} class="font-ui text-ui font-semibold text-teal">
+                      {link.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </aside>
+        </div>
+
+        {children.length > 0 && (
+          <div class="mt-16">
+            <h2 class="mb-7 font-display text-h2 font-bold">Les espaces 🛏️</h2>
+            <CardGrid items={childItems} />
+          </div>
+        )}
+      </Section>
+    ) : (
+      <Section narrow class="pt-10">
+        <Prose width="full">
+          <Content />
+        </Prose>
+
+        {parent && (
+          <p class="mt-10">
+            <a href={pathOf(parent)} class="font-ui text-ui font-semibold text-teal">
+              ← {parent.data.title}
+            </a>
+          </p>
+        )}
+      </Section>
+    )
+  }
 </BaseLayout>

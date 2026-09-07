@@ -1,23 +1,122 @@
 ---
-import { getCollection, render } from "astro:content";
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
 import BaseLayout from "@layouts/BaseLayout.astro";
-import PageHero from "@components/ui/PageHero.astro";
-import Prose from "@components/ui/Prose.astro";
-import { byPath, visible } from "@lib/content";
+import Button from "@components/ds/Button.astro";
+import Card from "@components/ds/Card.astro";
+import Highlight from "@components/ds/Highlight.astro";
+import Lead from "@components/ds/Lead.astro";
+import Section from "@components/ds/Section.astro";
+import EventGrid from "@components/home/EventGrid.astro";
+import HeroCloud from "@components/home/HeroCloud.astro";
+import LegacyList from "@components/home/LegacyList.astro";
+import LinkCluster from "@components/home/LinkCluster.astro";
+import { activityByPath, eventItems } from "@components/home/events";
+import { byPath, upcomingEvents, visible } from "@lib/content";
 
-// L'accueil est l'entrée de la collection `pages` dont le legacyPath vaut "/".
+import cover from "@assets/migration/index/01-dji_fly_20260425_162224_848_1777127142778_photo_optimized.jpg";
+import sejoursPhoto from "@assets/migration/index/08-5b02a02e-c20f-46c8-9763-bbe82859cff4.jpg";
+import semisto from "@assets/migration/index/09-semisto.jpg";
+import branches from "@assets/migration/index/10-de-branches-en-planches.jpg";
+import pain from "@assets/migration/index/11-pain.jpg";
+import giphy from "@assets/migration/index/12-giphy.gif";
+import soutienWallonie from "@assets/migration/index/16-WR-complete-inblock-positif.png";
+import soutienCyrys from "@assets/migration/index/17-fondation-cyrys.png";
+import soutienTroisieme from "@assets/migration/index/18-white.png";
+
+/**
+ * L'accueil, composé section par section d'après `design/ui_kits/Home.jsx`.
+ * Le texte est celui de la page migrée (`src/content/pages/index.md`), au mot
+ * près ; seuls les rendez-vous à venir sont vivants (Claudy + collections).
+ */
 const pages = visible(await getCollection("pages"));
 const entry = byPath(pages, "/");
-
 if (!entry) {
   throw new Error(
-    "Aucune entrée `pages` avec legacyPath \"/\" — l'accueil ne peut pas être rendu. " +
+    'Aucune entrée `pages` avec legacyPath "/" — l\'accueil ne peut pas être rendu. ' +
       "Vérifie src/content/pages/index.md.",
   );
 }
-
-const { Content } = await render(entry);
 const d = entry.data;
+
+const events = await eventItems();
+const upcoming = upcomingEvents(events)
+  .filter((e) => Boolean(e.start))
+  .slice(0, 4);
+
+// Les trois activités mises en avant par la page migrée, avec leur photo de fiche.
+const featured = await Promise.all(
+  [
+    { label: "🐎 Bain d’ânes", path: "/catalogue/temps-avec-le-troupeau-d-anes" },
+    { label: "🪢 Grimpe encadrée dans les arbres", path: "/catalogue/grimpe-encadree-dans-les-arbres" },
+    { label: "🤾🏻‍♂️ Initiation au Disc-golf", path: "/catalogue/initiation-au-disc-golf" },
+  ].map(async (a) => ({ ...a, item: await activityByPath(a.path) })),
+);
+
+/** La liste d'événements de la page migrée, telle quelle. */
+const legacyRows = [
+  {
+    title: "👷🏻‍♀️ ⚡ COMPLET ! Initiation à la soudure à l’arc",
+    href: "/evenements/initiation-soudure-a-l-arc-5-septembre-2026",
+    meta: "— Artisanat · samedi 12 septembre",
+  },
+  {
+    title: "🍕Pizza Party de septembre !",
+    href: "/evenements/pizza-party-septembre-2026",
+    meta: "— Liens et convivialité · vendredi 18 septembre",
+  },
+  {
+    title: "🪵 🪓 Créer un objet en bois de palette",
+    href: "/evenements/weekend-ressources",
+    meta: "— Ressourcement, Artisanat · samedi 3 octobre",
+  },
+  {
+    title: "🌼 🌻 Plantes Papier Pigments",
+    href: "/evenements/weekend-cratif-1",
+    meta: "— Ressourcement, Artisanat · samedi 3 octobre",
+  },
+  {
+    title: "🖊️ 🖋️ Atelier d’écriture",
+    href: "/evenements/weekend-cratif",
+    meta: "— Ressourcement, Formation · samedi 3 octobre",
+  },
+  {
+    title: "🍕 Pizza Party d’octobre ! 🍕",
+    href: "/evenements/pizza-party-octobre-2026",
+    meta: "— Liens et convivialité · vendredi 9 octobre",
+  },
+  {
+    title: "👷🏻 ⚡ COMPLET ! Initiation à la soudure à l’arc",
+    href: "/evenements/initiation-soudure-a-l-arc-17-octobre-2026",
+    meta: "— Artisanat · samedi 17 octobre",
+  },
+];
+
+/** Les liens de bas de page de l'accueil migré, dans leur ordre d'origine. */
+const clusterLinks = [
+  { label: "🗓️ L’agenda des 4 Sources", href: "/agenda" },
+  { label: "🏡 Séjours et locations", href: "/sejours" },
+  { label: "⚙️ Nos projets", href: "/projets" },
+  { label: "🧉 Le bar des 4 Sources", href: "/le-bar-des-4-sources" },
+  { label: "🐸 La biodiversité aux 4 Sources", href: "/biodiversite" },
+  { label: "☺️ À propos des 4 Sources", href: "/a-propos" },
+  { label: "📬 La newsletter des 4 Sources", href: "/newsletter" },
+  { label: "📚 Retraites scolaires en pleine nature", href: "/sejours/retraites-scolaires" },
+  { label: "🎂 Fêter son anniversaire en pleine nature aux 4 Sources", href: "/anniversaire" },
+  { label: "💍 Un mariage champêtre aux 4 Sources", href: "/mariage-champetre" },
+  {
+    label: "🍃 Mise au vert aux 4 Sources, pour petites équipes engagées",
+    href: "/sejours/mises-au-vert",
+  },
+  { label: "🏨 Un team building aux 4 Sources ?", href: "/un-team-building-aux-4-sources" },
+  { label: "👪 Un temps en famille aux 4 Sources", href: "/sejours/en-famille-aux-4-sources" },
+  { label: "🤸🏻‍♂️ Nos activités", href: "/activites" },
+  { label: "📬 Nous contacter", href: "/contact" },
+  { label: "📙 Catalogue des activités", href: "/catalogue" },
+  { label: "🗓️ Événements", href: "/evenements" },
+  { label: "🥾 Carte de balades des 4 Sources", href: "/carte-de-balades-vallee-du-bocq" },
+  { label: "💼 Coworking dans la Clairière", href: "/coworking" },
+];
 ---
 
 <BaseLayout
@@ -26,16 +125,283 @@ const d = entry.data;
   ogImage={d.cover ?? d.ogImage}
   noindex={d.noindex}
 >
-  <PageHero
-    title={d.title}
-    lead={d.description}
-    cover={d.cover}
-    coverAlt={d.coverAlt}
-    icon={d.icon}
-    pole={d.pole}
+  <HeroCloud
+    image={cover}
+    imageAlt={d.coverAlt ?? ""}
+    title="Les 4 Sources"
+    subtitle="Tiers-lieu à Yvoir"
   />
 
-  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
-    <Prose><Content /></Prose>
-  </div>
+  <Section>
+    <div class="grid grid-cols-1 gap-10 md:grid-cols-3">
+      <div>
+        <h2 class="mb-3 font-display text-h3 font-bold">Lieu d’activités</h2>
+        <p class="font-body text-body">
+          Un lieu où vivre des expériences innovantes et inspirantes en famille, entre ami·e·s ou
+          entre collègues.
+        </p>
+        <p class="mt-2.5 font-body text-body">
+          Nos <a href="/sejours">hébergements et salles</a>, <a href="/activites">activités</a> et <a
+            href="/agenda">événements</a
+          >.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="mb-3 font-display text-h3 font-bold">Lieu de nature</h2>
+        <p class="font-body text-body">
+          Une clairière de 15 hectares où l’accueil de la biodiversité fait partie intégrante de
+          l’ADN du projet.
+        </p>
+        <p class="mt-2.5 font-body text-body">
+          <a href="/biodiversite">La biodiversité aux 4 Sources</a>
+        </p>
+      </div>
+
+      <div>
+        <h2 class="mb-3 font-display text-h3 font-bold">Lieu de vie collective</h2>
+        <p class="font-body text-body">
+          Un tiers-lieu sur lequel <a href="/projets">différents projets</a> se déploient et où 5 foyers
+          sont installés.
+        </p>
+        <p class="mt-2.5 font-body text-body">
+          Découvre <a href="/notre-collectif">notre collectif</a>
+        </p>
+      </div>
+    </div>
+  </Section>
+
+  <Section title="Prochainement aux 4 Sources ⛅" surface="subtle">
+    <EventGrid items={upcoming} cols={4} />
+
+    <div class="mt-7">
+      <Button variant="secondary" href="/agenda">L’agenda des 4 Sources</Button>
+    </div>
+
+    <LegacyList rows={legacyRows} heading="Événements" />
+  </Section>
+
+  <Section title="Hébergements, salles polyvalentes et cuisine professionnelle 🏡">
+    <div class="grid grid-cols-1 items-center gap-10 md:grid-cols-[1.1fr_1fr] md:gap-12">
+      <Image
+        src={sejoursPhoto}
+        alt="Hébergements et salles des 4 Sources"
+        widths={[480, 720, 960]}
+        sizes="(min-width: 768px) 560px, 100vw"
+        class="block aspect-[4/3] w-full rounded-photo object-cover"
+      />
+
+      <div>
+        <Lead class="mb-5">
+          Nos nombreux espaces accueillent tes séjours et activités entre collègues, entre amis ou
+          tout simplement en famille.
+        </Lead>
+
+        <ul class="m-0 mb-6 grid list-disc gap-2 pl-6 font-body text-body">
+          <li>
+            <b><a href="/sejours/hebergements-yvoir">2 gites</a></b> pouvant accueillir jusqu’à 25 personnes
+          </li>
+          <li><b><a href="/sejours/salles">une grande salle</a></b> pour 30 à 100 personnes</li>
+          <li><b><a href="/sejours/salles">une petite salle</a></b> pour 10 à 30 personnes</li>
+          <li>une <b><a href="/sejours/salles">cuisine professionnelle</a></b></li>
+          <li><b><a href="/sejours/bivouac">un bivouac</a></b> pour tentes et hamacs</li>
+        </ul>
+
+        <Button variant="primary" href="/sejours">Toutes nos locations</Button>
+      </div>
+    </div>
+  </Section>
+
+  <Section surface="paper" narrow>
+    <h2 class="mb-4 font-display text-h2 font-bold">La Guinguette des 4 Sources 🍹</h2>
+    <p class="font-body text-body">
+      <b>WOW, nous avons récolté près de 20.000€ grâce à plus de 115 donatrices et donateurs !</b> Merci
+      de nous avoir soutenu, maintenant à nous de jouer pour sublimer la terrasse 🙂 Et, et et… Saviez-vous
+      qu’il était toujours possible de nous soutenir ?
+    </p>
+    <div class="mt-6">
+      <Button variant="highlight" href="/nous-soutenir">Nous soutenir</Button>
+    </div>
+  </Section>
+
+  <Section title="Nos projets 🎴">
+    <Lead class="mb-7">Aux 4 Sources émergent des projets plein de sens aux valeurs partagées.</Lead>
+
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <Card hoverable image={semisto} imageAlt="Semisto" imageAspect="16/10">
+        <h3 class="mb-2 font-display text-h4 font-bold">
+          <a
+            href="/projets/semisto"
+            class="l4s-stretch-link text-inherit no-underline hover:text-teal-soft">Semisto</a
+          >
+        </h3>
+        <p class="font-body text-small text-ink-2">
+          Un collectif au service de celles et ceux qui rêvent de jardins-forêts : bureau d’études,
+          formations et pépinière-école
+        </p>
+      </Card>
+
+      <Card hoverable image={branches} imageAlt="De branches en planches" imageAspect="16/10">
+        <h3 class="mb-2 font-display text-h4 font-bold">
+          <a
+            href="/projets/de-branches-en-planches"
+            class="l4s-stretch-link text-inherit no-underline hover:text-teal-soft"
+            >De Branches en Planches</a
+          >
+        </h3>
+        <p class="font-body text-small text-ink-2">
+          Magnifier n’importe quel morceau de bois pour faire du beau, de l’utile et du durable
+        </p>
+      </Card>
+
+      <Card hoverable image={pain} imageAlt="Pain" imageAspect="16/10">
+        <h3 class="mb-2 font-display text-h4 font-bold">
+          <a
+            href="/projets/tranches-de-vie"
+            class="l4s-stretch-link text-inherit no-underline hover:text-teal-soft">Tranches de Vie</a
+          >
+        </h3>
+        <p class="font-body text-small text-ink-2">
+          De délicieux pains au levain cuits au feu de bois tous les vendredis
+        </p>
+      </Card>
+    </div>
+
+    <div class="mt-7">
+      <Button variant="secondary" href="/projets">Tous les projets</Button>
+    </div>
+  </Section>
+
+  <Section title="Randonneur ou cycliste de passage ? 🚵🏻" surface="teal">
+    <div class="grid grid-cols-1 gap-10 md:grid-cols-2">
+      <div>
+        <h3 class="mb-2.5 font-display text-h3 font-bold">
+          <a href="/le-bar-des-4-sources" class="text-white no-underline">
+            <Highlight><span class="text-teal">Le Bar des 4 Sources</span></Highlight>
+          </a>
+        </h3>
+        <p class="font-body text-body text-white/90">
+          Le bar des 4 Sources accueille les marcheur·euse·s et cyclistes du lever au coucher du
+          soleil, ainsi que toutes les personnes de passage sur le lieu pour une activité ou une
+          location.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="mb-2.5 font-display text-h3 font-bold text-white">
+          <a href="/carte-de-balades-vallee-du-bocq" class="text-white">Carte de balades</a>
+        </h3>
+        <p class="font-body text-body text-white/90">
+          Télécharge notre carte de randonnées au départ des 4 Sources, avec des balades et randos
+          adaptées aux familles et aux aventuriers.
+        </p>
+      </div>
+    </div>
+  </Section>
+
+  <Section title="Nos activités pour groupes 👥">
+    <div class="grid grid-cols-1 items-start gap-10 md:grid-cols-[1fr_1.4fr] md:gap-12">
+      <img
+        src={giphy.src}
+        width={giphy.width}
+        height={giphy.height}
+        alt="Pizza Party aux 4 Sources"
+        loading="lazy"
+        decoding="async"
+        class="block w-full rounded-photo object-cover"
+      />
+
+      <div>
+        <h3 class="mb-2.5 font-display text-h4 font-bold">
+          🍕 <a href="/catalogue/pizza-ou-camembert-party">Une Pizza Party pour ton groupe ?</a>
+        </h3>
+        <p class="font-body text-body">
+          C’est possible le mardi soir et le vendredi soir aux 4 Sources ! Par temps plus frais,
+          couplez votre Pizza Party privée avec la location de notre petite salle !
+        </p>
+        <p class="mt-2.5 font-body text-body">
+          Révise ton italien et viens chanter Eros Ramazzotti en cuisant de délicieuses pizzas avec
+          tes amis ou ta famille dans notre four à bois.
+        </p>
+        <div class="mt-5">
+          <Button variant="secondary" href="/catalogue/camembert-party"
+            >Existe aussi en Camembert Party !</Button
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-12 grid grid-cols-1 items-start gap-10 md:grid-cols-2 md:gap-12">
+      <div>
+        <p class="mb-3 font-body text-body">
+          Nous te proposons <b>une série d’activités passionnantes</b> pour tes…
+        </p>
+        <ul class="m-0 grid list-none gap-2 p-0 font-body text-body">
+          <li>✔️ <a href="/sejours/retraites-scolaires">Retraites scolaires</a></li>
+          <li>✔️ <a href="/mariage-champetre">Mariages</a></li>
+          <li>✔️ <a href="/sejours/mises-au-vert">Mises au vert</a> (associations et entreprises)</li>
+          <li>✔️ <a href="/un-team-building-aux-4-sources">Team buildings</a></li>
+          <li>
+            ✔️ <a href="/sejours/en-famille-aux-4-sources">Week-ends familiaux et entre amis</a>
+          </li>
+          <li>✔️ <a href="/coworking">Coworking</a></li>
+        </ul>
+        <div class="mt-6">
+          <Button variant="secondary" href="/activites"
+            >Tout le catalogue d’ateliers pour groupes</Button
+          >
+        </div>
+      </div>
+
+      <div>
+        <p class="mb-4 font-ui text-ui font-bold text-ink-2">Catalogue des activités</p>
+        <div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
+          {
+            featured.map((a) => (
+              <Card hoverable image={a.item?.cover} imageAlt={a.label} imageAspect="4/3" padding={16}>
+                <p class="font-display text-h4 font-bold">
+                  <a
+                    href={a.path}
+                    class="l4s-stretch-link text-inherit no-underline hover:text-teal-soft"
+                  >
+                    {a.label}
+                  </a>
+                </p>
+              </Card>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <Section title="Nos soutiens 💚">
+    <div class="grid grid-cols-1 items-center gap-10 sm:grid-cols-3">
+      <Image
+        src={soutienWallonie}
+        alt="Soutien des 4 Sources"
+        widths={[240, 360]}
+        sizes="240px"
+        class="h-20 w-auto object-contain"
+      />
+      <Image
+        src={soutienCyrys}
+        alt="La Fondation Cyrys"
+        widths={[240, 360]}
+        sizes="240px"
+        class="h-20 w-auto object-contain"
+      />
+      <Image
+        src={soutienTroisieme}
+        alt="Soutien des 4 Sources"
+        widths={[240, 360]}
+        sizes="240px"
+        class="h-20 w-auto object-contain"
+      />
+    </div>
+  </Section>
+
+  <Section class="pt-0">
+    <LinkCluster links={clusterLinks} />
+  </Section>
 </BaseLayout>

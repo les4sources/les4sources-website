@@ -3,6 +3,7 @@ import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
 import tailwindcss from "@tailwindcss/vite";
+import rehypeColumns from "./src/plugins/rehype-columns.ts";
 
 // Origine canonique de production. Surcharge possible avec la variable SITE.
 // Canonique = www (l'apex les4sources.be redirige en 301 vers www — cf deploy/nginx.conf).
@@ -24,6 +25,13 @@ export default defineConfig({
     sitemap(),
     mdx(),
   ],
+
+  markdown: {
+    // Les marqueurs `<!-- columns -->` du contenu migré deviennent une grille.
+    // Le greffon tourne avant `rehype-raw` : il voit encore les commentaires
+    // comme des nœuds bruts, exactement ce dont il a besoin.
+    rehypePlugins: [rehypeColumns],
+  },
 
   image: {
     // Optimisation locale uniquement — aucun hotlink externe (ISC-8, ISC-13).

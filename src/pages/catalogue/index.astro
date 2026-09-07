@@ -1,11 +1,14 @@
 ---
 import { getCollection, render } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
+import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
 import PageHero from "@components/ui/PageHero.astro";
 import Prose from "@components/ui/Prose.astro";
-import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
+import Section from "@components/ds/Section.astro";
+import Tag from "@components/ds/Tag.astro";
 import { siteData } from "@lib/data";
 import { byPath, visible } from "@lib/content";
+import { POLES, isPole, type PoleSlug } from "@lib/poles";
 import type { MergedExperience } from "@lib/claudy";
 
 // La page éditoriale /catalogue, si la migration en fournit une, coiffe le listing.
@@ -15,19 +18,38 @@ const rendered = entry ? await render(entry) : undefined;
 const Content = rendered?.Content;
 
 const { experiences } = await siteData();
-const items: CardItem[] = experiences
+// Les couvertures des fiches migrées sont des images locales optimisées.
+const legacyCatalogue = await getCollection("catalogue");
+const coverById = new Map(legacyCatalogue.map((e) => [e.id, e.data.cover]));
+
+const listed = experiences
   .filter((x) => x.archived !== true)
-  .sort((a, b) => a.title.localeCompare(b.title, "fr"))
-  .map((x: MergedExperience) => ({
-    title: x.title,
-    href: x.path,
-    description: x.description || undefined,
-    eyebrow: x.duration,
-    meta: x.priceText,
-    icon: x.icon,
-    pole: x.pole,
-    image: x.image,
-  }));
+  .sort((a, b) => a.title.localeCompare(b.title, "fr"));
+
+const participantsOf = (x: MergedExperience): string | undefined =>
+  x.minParticipants && x.maxParticipants
+    ? `${x.minParticipants} à ${x.maxParticipants} personnes`
+    : x.maxParticipants
+      ? `Jusqu'à ${x.maxParticipants} personnes`
+      : x.minParticipants
+        ? `À partir de ${x.minParticipants} personnes`
+        : undefined;
+
+const items: CardItem[] = listed.map((x) => ({
+  title: x.title,
+  href: x.path,
+  description: x.description || undefined,
+  eyebrow: x.duration,
+  meta: [participantsOf(x), x.priceText].filter(Boolean).join(" · ") || undefined,
+  icon: x.icon,
+  pole: x.pole,
+  image: (x.legacyId ? coverById.get(x.legacyId) : undefined) ?? x.image,
+}));
+
+// Filtres : uniquement les pôles réellement représentés dans le catalogue.
+const present: PoleSlug[] = Object.values(POLES)
+  .map((p) => p.slug)
+  .filter((slug) => listed.some((x) => isPole(x.pole) && x.pole === slug));
 
 const title = entry?.data.title ?? "Le catalogue d'activités";
 const description =
@@ -43,19 +65,67 @@ const description =
 >
   <PageHero
     title={title}
-    lead={description}
+    lead={entry?.data.description}
     cover={entry?.data.cover}
     coverAlt={entry?.data.coverAlt}
     icon={entry?.data.icon}
     crumbs={[{ label: "Accueil", href: "/" }, { label: "Le catalogue" }]}
   />
 
-  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
-    {Content && <Prose><Content /></Prose>}
+  {
+    Content && (
+      <Section class="pt-10 pb-0">
+        <Prose>
+          <Content />
+        </Prose>
+      </Section>
+    )
+  }
 
-    <section aria-labelledby="activites" class={Content ? "mt-14" : ""}>
-      <h2 id="activites" class="mb-6">Les activités</h2>
-      <CardGrid items={items} empty="Le catalogue d'activités arrive bientôt." />
-    </section>
-  </div>
+  <Section title="Les activités 🎒" id="activites">
+    {
+      present.length > 0 && (
+        <div class="mb-8 flex flex-wrap gap-2" data-pole-filter>
+          <Tag selected data-filter="all">
+            Toutes
+          </Tag>
+          {present.map((slug) => (
+            <Tag data-filter={slug}>{POLES[slug].category}</Tag>
+          ))}
+        </div>
+      )
+    }
+
+    <CardGrid items={items} empty="Le catalogue d'activités arrive bientôt." />
+  </Section>
 </BaseLayout>
+
+<script>
+  // Filtre par pôle : tout est rendu au build, le script ne fait que masquer.
+  // Sans JavaScript, la liste complète reste affichée et lisible.
+  const bar = document.querySelector<HTMLElement>("[data-pole-filter]");
+  if (bar) {
+    const tags = Array.from(bar.querySelectorAll<HTMLElement>("[data-filter]"));
+    const cards = Array.from(document.querySelectorAll<HTMLElement>("[data-card]"));
+
+    const apply = (value: string) => {
+      for (const tag of tags) {
+        const on = tag.dataset.filter === value;
+        tag.setAttribute("aria-pressed", on ? "true" : "false");
+        tag.classList.toggle("border-teal", on);
+        tag.classList.toggle("bg-teal", on);
+        tag.classList.toggle("text-white", on);
+        tag.classList.toggle("border-line", !on);
+        tag.classList.toggle("bg-white", !on);
+        tag.classList.toggle("text-ink", !on);
+      }
+      for (const card of cards) {
+        card.hidden = value !== "all" && card.dataset.pole !== value;
+      }
+    };
+
+    for (const tag of tags) {
+      tag.addEventListener("click", () => apply(tag.dataset.filter ?? "all"));
+    }
+  }
+</script>

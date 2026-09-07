@@ -28,7 +28,7 @@ const activePath = nav
 ---
 
 <header class="sticky top-0 z-50 border-b-[1.5px] border-line-soft bg-[rgba(255,255,255,0.96)]">
-  <div class="mx-auto flex h-[72px] max-w-site items-center gap-8 px-6">
+  <div class="mx-auto flex h-[72px] max-w-site items-center gap-4 px-6 min-[900px]:gap-8">
     <Logo href="/" size="md" variant="teal" class="shrink-0" />
 
     <nav aria-label="Navigation principale" class="ml-auto hidden gap-1.5 min-[900px]:flex">
@@ -52,9 +52,12 @@ const activePath = nav
     </nav>
 
     <div class="ml-auto flex items-center gap-3 min-[900px]:ml-0">
-      <Button variant="highlight" size="sm" href={BAR.path} class="hidden min-[900px]:inline-flex">
-        {BAR.label}
-      </Button>
+      {/* Le masquage vit sur l'enveloppe : `hidden` posé sur le Button perdrait
+          contre son propre `inline-flex`, l'ordre des utilitaires dans la
+          feuille l'emportant sur l'ordre des classes. */}
+      <div class="hidden min-[900px]:block">
+        <Button variant="highlight" size="sm" href={BAR.path}>{BAR.label}</Button>
+      </div>
 
       <button
         type="button"

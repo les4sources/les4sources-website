@@ -500,15 +500,23 @@ function normaliseWhitespace(s: string): string {
   return s.replace(/\s+/g, " ").trim();
 }
 
+/** Suffixe long, pour les titres courts (« Événements ») : le suffixe court seul n'atteint pas 50 caractères. */
+const SITE_SUFFIX_LONG =
+  "Les 4 Sources, tiers-lieu à Yvoir : séjours, salles, activités, événements et bar au Domaine d'Ahinvaux.";
+const SITE_SUFFIX_RE = /\s*—\s*Les 4 Sources, tiers-lieu à Yvoir\.?$/i;
+
 function fitDescription(candidate: string, title: string): string {
   let text = normaliseWhitespace(candidate);
   if (text.length > DESC_MAX) text = truncateWords(text, DESC_MAX);
   if (text.length < DESC_MIN) {
-    const padded = `${text.replace(/[.\s]+$/, "")} — ${SITE_SUFFIX}`;
+    // Jamais deux fois le suffixe : on repart du texte nu, puis suffixe court, sinon long.
+    const base = text.replace(/[.\s]+$/, "").replace(SITE_SUFFIX_RE, "");
+    const withShort = `${base} — ${SITE_SUFFIX}`;
+    const padded = withShort.length >= DESC_MIN ? withShort : `${base} — ${SITE_SUFFIX_LONG}`;
     text = padded.length > DESC_MAX ? truncateWords(padded, DESC_MAX) : padded;
   }
   if (text.length < DESC_MIN) {
-    text = normaliseWhitespace(`${title} — ${SITE_SUFFIX}`);
+    text = normaliseWhitespace(`${title} — ${SITE_SUFFIX_LONG}`);
   }
   return text;
 }

@@ -4,6 +4,7 @@ import { getCollection, render, type CollectionEntry } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import PageHero from "@components/ui/PageHero.astro";
 import Prose from "@components/ui/Prose.astro";
+import Section from "@components/ds/Section.astro";
 import { pathOf, visible } from "@lib/content";
 import { isReservedPath } from "@lib/routes";
 import { breadcrumbs } from "@lib/seo";
@@ -32,6 +33,18 @@ interface Props {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const d = entry.data;
+
+/**
+ * Colonne éditoriale à 760 px par défaut. Les pages qui portent des colonnes,
+ * une grille tarifaire ou un embed pleine largeur (le calendrier Claudy des
+ * disponibilités) prennent toute la largeur du site : les serrer les casserait.
+ */
+const body = entry.body ?? "";
+const wide =
+  /<!--\s*columns/.test(body) ||
+  /^[ \t]*\|/m.test(body) ||
+  /<table/i.test(body) ||
+  /embed-iframe|embed-tally|embed-form/.test(body);
 
 // Fil d'Ariane dérivé du chemin réel (une page profonde = un fil d'Ariane).
 const segments = pathOf(entry).split("/").filter(Boolean);
@@ -65,11 +78,12 @@ const jsonld =
     icon={d.icon}
     pole={d.pole}
     crumbs={crumbs}
+    narrow={!wide}
   />
 
-  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
+  <Section narrow={!wide} class="pt-10">
     {/* Les embeds sont rendus À LEUR PLACE dans le corps Markdown (voir
         scripts/migrate/lib/transform.ts) — ne pas les répéter ici. */}
-    <Prose><Content /></Prose>
-  </div>
+    <Prose width={wide ? "full" : "prose"}><Content /></Prose>
+  </Section>
 </BaseLayout>

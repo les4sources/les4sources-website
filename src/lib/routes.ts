@@ -8,7 +8,17 @@
  */
 
 /** Chemins exacts servis par un fichier dédié. */
-const EXACT = new Set(["/", "/agenda", "/evenements", "/catalogue", "/collectif", "/projets", "/404"]);
+const EXACT = new Set([
+  "/",
+  "/agenda",
+  "/evenements",
+  "/catalogue",
+  "/collectif",
+  "/projets",
+  "/sejours",
+  "/le-bar-des-4-sources",
+  "/404",
+]);
 
 /** Préfixes servis par une route dynamique dédiée. */
 const PREFIXES = [

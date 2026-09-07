@@ -1,9 +1,10 @@
 ---
 import { getCollection, render } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
+import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
 import PageHero from "@components/ui/PageHero.astro";
 import Prose from "@components/ui/Prose.astro";
-import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
+import Section from "@components/ds/Section.astro";
 import { byPath, visible, listable, pathOf } from "@lib/content";
 
 /**
@@ -25,6 +26,7 @@ const items: CardItem[] = projets.map((p) => ({
   description: p.data.description,
   icon: p.data.icon,
   pole: p.data.pole,
+  image: p.data.cover,
 }));
 
 const title = entry?.data.title ?? "Les projets des 4 Sources";
@@ -48,12 +50,17 @@ const description =
     crumbs={[{ label: "Accueil", href: "/" }, { label: "Les projets" }]}
   />
 
-  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
-    {Content && <Prose><Content /></Prose>}
+  {
+    Content && (
+      <Section class="pt-10 pb-0">
+        <Prose width="full">
+          <Content />
+        </Prose>
+      </Section>
+    )
+  }
 
-    <section aria-labelledby="fiches" class={Content ? "mt-14" : ""}>
-      <h2 id="fiches" class="mb-6">Les fiches projets</h2>
-      <CardGrid items={items} empty="Les fiches projets arrivent bientôt." />
-    </section>
-  </div>
+  <Section title="Les fiches projets 🎴">
+    <CardGrid items={items} aspect="16/10" empty="Les fiches projets arrivent bientôt." />
+  </Section>
 </BaseLayout>

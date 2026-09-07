@@ -93,28 +93,135 @@ export function pastEvents<T extends Datable>(events: T[], now: Date = new Date(
     .sort((a, b) => (startInstant(b) ?? 0) - (startInstant(a) ?? 0));
 }
 
-/** Date lisible en français, ex. « samedi 12 septembre 2026 ». */
-export function formatDate(value: string | Date | undefined): string | undefined {
-  if (!value) return undefined;
-  const d = value instanceof Date ? value : new Date(value);
-  if (Number.isNaN(d.getTime())) return undefined;
-  return new Intl.DateTimeFormat("fr-BE", {
-    timeZone: "Europe/Brussels",
-    weekday: "long",
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  }).format(d);
+/* ─────────────────────────── Dates en français ───────────────────────────
+ * Le site est monolingue FR : « samedi 12 septembre 2026 » (minuscules, pas de
+ * zéro de tête), les heures « 18h30 » — cf. design/README.md.
+ *
+ * Les libellés sont écrits ici plutôt que délégués à `Intl` avec la locale
+ * `fr-BE` : le build a déjà rendu des dates en anglais faute de données de
+ * locale complètes dans l'exécutable. Seul le découpage civil (quel jour,
+ * quelle heure à Bruxelles) passe par `Intl`, qui n'a besoin d'aucune donnée
+ * de langue pour cela.
+ */
+
+const TZ = "Europe/Brussels";
+
+const WEEKDAYS = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"] as const;
+
+const MONTHS = [
+  "janvier",
+  "février",
+  "mars",
+  "avril",
+  "mai",
+  "juin",
+  "juillet",
+  "août",
+  "septembre",
+  "octobre",
+  "novembre",
+  "décembre",
+] as const;
+
+interface CivilDate {
+  year: number;
+  /** 1–12 */
+  month: number;
+  day: number;
+  /** 0 = dimanche */
+  weekday: number;
+  hour: number;
+  minute: number;
 }
 
-/** Heure lisible, ex. « 17:30 ». */
-export function formatTime(value: string | Date | undefined): string | undefined {
+const CIVIL = new Intl.DateTimeFormat("en-CA", {
+  timeZone: TZ,
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+  hour: "2-digit",
+  minute: "2-digit",
+  hourCycle: "h23",
+});
+
+function toDate(value: string | Date | undefined): Date | undefined {
   if (!value) return undefined;
   const d = value instanceof Date ? value : new Date(value);
-  if (Number.isNaN(d.getTime())) return undefined;
-  return new Intl.DateTimeFormat("fr-BE", {
-    timeZone: "Europe/Brussels",
-    hour: "2-digit",
-    minute: "2-digit",
-  }).format(d);
+  return Number.isNaN(d.getTime()) ? undefined : d;
+}
+
+/** Découpe un instant en date civile bruxelloise (sans dépendre d'une locale). */
+function civil(d: Date): CivilDate {
+  const part: Record<string, string> = {};
+  for (const p of CIVIL.formatToParts(d)) part[p.type] = p.value;
+  const year = Number(part.year);
+  const month = Number(part.month);
+  const day = Number(part.day);
+  return {
+    year,
+    month,
+    day,
+    // Jour de la semaine calculé, pas traduit : pure arithmétique de calendrier.
+    weekday: new Date(Date.UTC(year, month - 1, day)).getUTCDay(),
+    hour: Number(part.hour),
+    minute: Number(part.minute),
+  };
+}
+
+const sameDay = (a: CivilDate, b: CivilDate) =>
+  a.year === b.year && a.month === b.month && a.day === b.day;
+
+/** Date lisible en français, ex. « samedi 12 septembre 2026 ». */
+export function formatDate(value: string | Date | undefined): string | undefined {
+  const d = toDate(value);
+  if (!d) return undefined;
+  const c = civil(d);
+  return `${WEEKDAYS[c.weekday]} ${c.day} ${MONTHS[c.month - 1]} ${c.year}`;
+}
+
+/** Date courte, sans le jour de la semaine : « 12 septembre 2026 ». */
+export function formatDateShort(value: string | Date | undefined): string | undefined {
+  const d = toDate(value);
+  if (!d) return undefined;
+  const c = civil(d);
+  return `${c.day} ${MONTHS[c.month - 1]} ${c.year}`;
+}
+
+/**
+ * Période lisible : une seule date quand la fin manque ou tombe le même jour,
+ * sinon « du 3 au 5 octobre 2026 » — le mois et l'année ne sont répétés que
+ * lorsqu'ils changent.
+ */
+export function formatDateRange(
+  start: string | Date | undefined,
+  end?: string | Date | undefined,
+): string | undefined {
+  const from = toDate(start);
+  if (!from) return undefined;
+  const to = toDate(end);
+  if (!to) return formatDate(from);
+  const a = civil(from);
+  const b = civil(to);
+  if (sameDay(a, b)) return formatDate(from);
+
+  if (a.year !== b.year) {
+    return `du ${a.day} ${MONTHS[a.month - 1]} ${a.year} au ${b.day} ${MONTHS[b.month - 1]} ${b.year}`;
+  }
+  if (a.month !== b.month) {
+    return `du ${a.day} ${MONTHS[a.month - 1]} au ${b.day} ${MONTHS[b.month - 1]} ${b.year}`;
+  }
+  return `du ${a.day} au ${b.day} ${MONTHS[a.month - 1]} ${a.year}`;
+}
+
+/**
+ * Heure lisible, ex. « 18h30 » (« 18h » à l'heure pile).
+ * Minuit vaut « pas d'heure connue » : les fiches sans horaire sont datées à
+ * 00:00, afficher « 0h » inventerait une information.
+ */
+export function formatTime(value: string | Date | undefined): string | undefined {
+  const d = toDate(value);
+  if (!d) return undefined;
+  const c = civil(d);
+  if (c.hour === 0 && c.minute === 0) return undefined;
+  return c.minute === 0 ? `${c.hour}h` : `${c.hour}h${String(c.minute).padStart(2, "0")}`;
 }

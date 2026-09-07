@@ -1,0 +1,54 @@
+---
+/**
+ * Bloc de faits — les informations pratiques d'une fiche (horaires, tarif,
+ * durée, public visé…). Contenu fonctionnel : tout est en Be Vietnam Pro, le
+ * libellé en capitales fines, la valeur en corps courant.
+ *
+ * Les libellés viennent des propriétés du contenu migré : rien n'est inventé,
+ * une valeur absente ne produit pas de ligne.
+ */
+export interface Fact {
+  label: string;
+  value?: string;
+  href?: string;
+}
+
+interface Props {
+  items: (Fact | undefined | false)[];
+  class?: string;
+}
+
+const { items, class: className } = Astro.props;
+
+const facts = items.filter(
+  (f): f is Fact => Boolean(f) && Boolean((f as Fact).value?.trim()),
+);
+---
+
+{
+  facts.length > 0 && (
+    <dl
+      class:list={[
+        "m-0 grid grid-cols-1 gap-x-8 gap-y-5 rounded-photo bg-surface px-6 py-5 sm:grid-cols-2 lg:grid-cols-3",
+        className,
+      ]}
+    >
+      {facts.map((fact) => (
+        <div>
+          <dt class="font-ui text-overline font-bold tracking-[0.08em] text-ink-3 uppercase">
+            {fact.label}
+          </dt>
+          <dd class="mt-1.5 m-0 font-ui text-ui text-ink">
+            {fact.href ? (
+              <a href={fact.href} class="text-teal">
+                {fact.value}
+              </a>
+            ) : (
+              fact.value
+            )}
+          </dd>
+        </div>
+      ))}
+    </dl>
+  )
+}

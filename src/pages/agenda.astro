@@ -1,41 +1,88 @@
 ---
-import { getCollection, render } from "astro:content";
+import { getCollection } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
-import PageHero from "@components/ui/PageHero.astro";
-import Prose from "@components/ui/Prose.astro";
-import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
-import { siteData } from "@lib/data";
-import { byPath, visible, upcomingEvents, formatDate } from "@lib/content";
-import type { MergedEvent } from "@lib/claudy";
+import Lead from "@components/ds/Lead.astro";
+import Section from "@components/ds/Section.astro";
+import Tag from "@components/ds/Tag.astro";
+import AgendaTabs from "@components/home/AgendaTabs.astro";
+import EventGrid from "@components/home/EventGrid.astro";
+import LegacyList from "@components/home/LegacyList.astro";
+import { categoriesOf, eventItems } from "@components/home/events";
+import { byPath, pastEvents, upcomingEvents, visible } from "@lib/content";
 
 /**
- * /agenda — si la migration fournit une page éditoriale pour ce chemin, c'est
- * elle qui est rendue (son texte fait foi) ; l'agenda des rendez-vous à venir
- * est ajouté dessous. Sinon, la page se réduit à ce listing.
+ * /agenda — d'après `design/ui_kits/Agenda.jsx` : titre, chapeau, onglets
+ * « À venir / Passés », filtres par thématique, grille de trois colonnes.
+ * Les onglets et les filtres sont progressifs : sans JavaScript, tout
+ * s'affiche et rien n'est perdu.
  */
 const pages = visible(await getCollection("pages"));
 const entry = byPath(pages, "/agenda");
-const rendered = entry ? await render(entry) : undefined;
-const Content = rendered?.Content;
 
-const { events } = await siteData();
-const upcoming = upcomingEvents(events);
+const events = await eventItems();
+// Une fiche sans date ne peut pas figurer dans un agenda : elle reste servie
+// à son URL, mais la grille des rendez-vous ne montre que des dates réelles.
+const upcoming = upcomingEvents(events).filter((e) => Boolean(e.start));
+const past = pastEvents(events);
+const categories = categoriesOf(upcoming);
 
-const toCard = (e: MergedEvent): CardItem => ({
-  title: e.title,
-  href: e.path,
-  description: e.description || undefined,
-  eyebrow: formatDate(e.start),
-  meta: e.priceText,
-  icon: e.icon,
-  pole: e.pole,
-  image: e.image,
-});
+const title = entry?.data.title ?? "L’agenda des 4 Sources";
+const icon = entry?.data.icon;
+const description = entry?.data.description ?? "Viens nous rencontrer lors de nos prochains événements !";
 
-const title = entry?.data.title ?? "L'agenda des 4 Sources";
-const description =
-  entry?.data.description ??
-  "Tous les rendez-vous à venir aux 4 Sources, à Yvoir : événements, ateliers, stages et moments de vie collective.";
+/** La liste de la page migrée, mot pour mot. */
+const legacyRows = [
+  {
+    title: "👷🏻‍♀️ ⚡ COMPLET ! Initiation à la soudure à l’arc",
+    href: "/evenements/initiation-soudure-a-l-arc-5-septembre-2026",
+    meta: "— samedi 12 septembre · Formation",
+  },
+  {
+    title: "🍕Pizza Party de septembre !",
+    href: "/evenements/pizza-party-septembre-2026",
+    meta: "— vendredi 18 septembre · Pizza Party",
+  },
+  {
+    title: "🖊️ 🖋️ Atelier d’écriture",
+    href: "/evenements/weekend-cratif",
+    meta: "— samedi 3 octobre · Nature",
+  },
+  {
+    title: "🌼 🌻 Plantes Papier Pigments",
+    href: "/evenements/weekend-cratif-1",
+    meta: "— samedi 3 octobre · Artisanat",
+  },
+  {
+    title: "🪵 🪓 Créer un objet en bois de palette",
+    href: "/evenements/weekend-ressources",
+    meta: "— samedi 3 octobre · Artisanat",
+  },
+  {
+    title: "🍕 Pizza Party d’octobre ! 🍕",
+    href: "/evenements/pizza-party-octobre-2026",
+    meta: "— vendredi 9 octobre · Pizza Party",
+  },
+  {
+    title: "👷🏻 ⚡ COMPLET ! Initiation à la soudure à l’arc",
+    href: "/evenements/initiation-soudure-a-l-arc-17-octobre-2026",
+    meta: "— samedi 17 octobre · Formation",
+  },
+  {
+    title: "🧀 Camembert Party de novembre",
+    href: "/evenements/camembert-party-13-novembre-2026",
+    meta: "— vendredi 13 novembre · Pizza Party",
+  },
+  {
+    title: "👷🏻 ⚡ Initiation à la soudure à l’arc",
+    href: "/evenements/initiation-soudure-a-l-arc-21-novembre-2026",
+    meta: "— samedi 21 novembre · Formation",
+  },
+  {
+    title: "👷🏻‍♀️ Initiation à la soudure à l’arc ⚡",
+    href: "/evenements/initiation-soudure-a-l-arc-12-dcembre-2026",
+    meta: "— samedi 12 décembre · Formation",
+  },
+];
 ---
 
 <BaseLayout
@@ -44,21 +91,70 @@ const description =
   ogImage={entry?.data.cover ?? entry?.data.ogImage}
   noindex={entry?.data.noindex ?? false}
 >
-  <PageHero
-    title={title}
-    lead={description}
-    cover={entry?.data.cover}
-    coverAlt={entry?.data.coverAlt}
-    icon={entry?.data.icon}
-    crumbs={[{ label: "Accueil", href: "/" }, { label: "L'agenda" }]}
-  />
+  <Section narrow class="pb-6">
+    <h1 class="mb-3 font-display text-h1 font-bold">{icon ? `${title} ${icon}` : title}</h1>
+    <Lead>{description}</Lead>
+  </Section>
 
-  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
-    {Content && <Prose><Content /></Prose>}
+  <Section class="pt-0">
+    <AgendaTabs upcomingLabel="À venir" pastLabel="Passés">
+      <Fragment slot="upcoming">
+        <div data-filter-root>
+          {
+            categories.length > 1 && (
+              <div class="mb-8 flex flex-wrap gap-2">
+                <Tag selected data-filter="*">
+                  Tous
+                </Tag>
+                {categories.map((c) => (
+                  <Tag data-filter={c}>{c}</Tag>
+                ))}
+              </div>
+            )
+          }
 
-    <section aria-labelledby="a-venir" class={Content ? "mt-14" : ""}>
-      <h2 id="a-venir" class="mb-6">Les prochains rendez-vous</h2>
-      <CardGrid items={upcoming.map(toCard)} empty="Aucun rendez-vous programmé pour le moment." />
-    </section>
-  </div>
+          <EventGrid items={upcoming} cols={3} />
+        </div>
+
+        <LegacyList rows={legacyRows} />
+      </Fragment>
+
+      <Fragment slot="past">
+        <EventGrid items={past} cols={3} withImages={false} />
+      </Fragment>
+    </AgendaTabs>
+  </Section>
 </BaseLayout>
+
+<script>
+  // Filtre par thématique — progressif : sans JS, toutes les cartes restent là.
+  document.querySelectorAll<HTMLElement>("[data-filter-root]").forEach((root) => {
+    const tags = Array.from(root.querySelectorAll<HTMLElement>("[data-filter]"));
+    const cards = Array.from(root.querySelectorAll<HTMLElement>("[data-event]"));
+    if (tags.length === 0) return;
+
+    const paint = (active: HTMLElement) => {
+      for (const tag of tags) {
+        const on = tag === active;
+        tag.setAttribute("aria-pressed", on ? "true" : "false");
+        tag.classList.toggle("border-teal", on);
+        tag.classList.toggle("bg-teal", on);
+        tag.classList.toggle("text-white", on);
+        tag.classList.toggle("border-line", !on);
+        tag.classList.toggle("bg-white", !on);
+        tag.classList.toggle("text-ink", !on);
+      }
+    };
+
+    for (const tag of tags) {
+      tag.addEventListener("click", () => {
+        const value = tag.dataset.filter ?? "*";
+        paint(tag);
+        for (const card of cards) {
+          const cats = (card.getAttribute("data-categories") ?? "").split("|");
+          card.hidden = value !== "*" && !cats.includes(value);
+        }
+      });
+    }
+  });
+</script>

@@ -1,10 +1,15 @@
 ---
 import type { GetStaticPaths } from "astro";
-import { getEntry, render } from "astro:content";
+import { getCollection, getEntry, render } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
+import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
+import Facts from "@components/ui/Facts.astro";
 import PageHero from "@components/ui/PageHero.astro";
 import Prose from "@components/ui/Prose.astro";
+import Button from "@components/ds/Button.astro";
+import Section from "@components/ds/Section.astro";
 import { siteData } from "@lib/data";
+import { isPole } from "@lib/poles";
 import { breadcrumbs } from "@lib/seo";
 import { site } from "@lib/site";
 import type { MergedExperience } from "@lib/claudy";
@@ -26,6 +31,7 @@ const { experience } = Astro.props;
 const legacy = experience.legacyId ? await getEntry("catalogue", experience.legacyId) : undefined;
 const rendered = legacy ? await render(legacy) : undefined;
 const Content = rendered?.Content;
+const props: Record<string, string> = legacy?.data.properties ?? {};
 
 const participants =
   experience.minParticipants && experience.maxParticipants
@@ -36,8 +42,40 @@ const participants =
         ? `à partir de ${experience.minParticipants} personnes`
         : undefined;
 
+const facts = [
+  { label: "Durée", value: experience.duration ?? props["Durée"] },
+  { label: "Participants", value: participants },
+  { label: "Tarif", value: experience.priceText ?? props["Tarif"] },
+  { label: "Public(s)-cible(s)", value: props["Public(s)-cible(s)"] },
+  { label: "Type", value: props["Type"] },
+];
+
 const description =
   experience.description || `${experience.title} — une activité proposée aux 4 Sources, à Yvoir.`;
+
+// Les autres activités du même pôle : la suite naturelle de la visite.
+const { experiences } = await siteData();
+const legacyCatalogue = await getCollection("catalogue");
+const coverById = new Map(legacyCatalogue.map((e) => [e.id, e.data.cover]));
+const related: CardItem[] = experiences
+  .filter(
+    (x) =>
+      x.archived !== true &&
+      x.path !== experience.path &&
+      Boolean(experience.pole) &&
+      x.pole === experience.pole,
+  )
+  .sort((a, b) => a.title.localeCompare(b.title, "fr"))
+  .slice(0, 3)
+  .map((x) => ({
+    title: x.title,
+    href: x.path,
+    description: x.description || undefined,
+    eyebrow: x.duration,
+    icon: x.icon,
+    pole: x.pole,
+    image: (x.legacyId ? coverById.get(x.legacyId) : undefined) ?? x.image,
+  }));
 
 const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
 const url = `${siteUrl}${experience.path}`;
@@ -53,11 +91,12 @@ const jsonld = [
 <BaseLayout title={experience.seoTitle ?? experience.title} description={description} jsonld={jsonld}>
   <PageHero
     title={experience.title}
-    eyebrow={experience.duration}
     lead={experience.description || undefined}
+    cover={legacy?.data.cover}
+    coverAlt={legacy?.data.coverAlt ?? experience.title}
+    remoteCover={legacy?.data.cover ? undefined : experience.image}
     icon={experience.icon}
-    pole={experience.pole}
-    remoteCover={experience.image}
+    pole={isPole(experience.pole) ? experience.pole : undefined}
     crumbs={[
       { label: "Accueil", href: "/" },
       { label: "Le catalogue", href: "/catalogue" },
@@ -65,35 +104,20 @@ const jsonld = [
     ]}
   />
 
-  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
-    <dl class="mb-10 grid grid-cols-1 gap-4 sm:grid-cols-3">
-      {
-        experience.duration && (
-          <div>
-            <dt class="text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-ink-soft">Durée</dt>
-            <dd class="m-0 text-md">{experience.duration}</dd>
-          </div>
-        )
-      }
-      {
-        experience.priceText && (
-          <div>
-            <dt class="text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-ink-soft">Prix</dt>
-            <dd class="m-0 text-md">{experience.priceText}</dd>
-          </div>
-        )
-      }
-      {
-        participants && (
-          <div>
-            <dt class="text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-ink-soft">Groupe</dt>
-            <dd class="m-0 text-md">{participants}</dd>
-          </div>
-        )
-      }
-    </dl>
+  <Section class="pt-10">
+    <Facts items={facts} />
 
-    <Prose>
+    {
+      experience.bookingUrl && (
+        <p class="mt-7">
+          <Button href={experience.bookingUrl} rel="noopener" size="lg">
+            Réserver cette activité
+          </Button>
+        </p>
+      )
+    }
+
+    <Prose class="mt-9" width="full">
       {
         experience.descriptionHtml ? (
           <Fragment set:html={experience.descriptionHtml} />
@@ -102,19 +126,13 @@ const jsonld = [
         ) : null
       }
     </Prose>
+  </Section>
 
-    {
-      experience.bookingUrl && (
-        <p class="mt-10">
-          <a
-            href={experience.bookingUrl}
-            rel="noopener"
-            class="inline-block rounded-md bg-teal px-6 py-3 font-semibold text-cream no-underline hover:bg-teal-soft"
-          >
-            Réserver cette activité
-          </a>
-        </p>
-      )
-    }
-  </div>
+  {
+    related.length > 0 && (
+      <Section title="D'autres activités du même pôle 🎒" surface="subtle">
+        <CardGrid items={related} />
+      </Section>
+    )
+  }
 </BaseLayout>

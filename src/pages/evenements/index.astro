@@ -1,65 +1,128 @@
 ---
-import { getCollection, render } from "astro:content";
+import { getCollection } from "astro:content";
+import Section from "@components/ds/Section.astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
-import PageHero from "@components/ui/PageHero.astro";
-import Prose from "@components/ui/Prose.astro";
-import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
-import { siteData } from "@lib/data";
-import { byPath, visible, upcomingEvents, pastEvents, formatDate } from "@lib/content";
-import type { MergedEvent } from "@lib/claudy";
+import EventGrid from "@components/home/EventGrid.astro";
+import LegacyList from "@components/home/LegacyList.astro";
+import { eventItems, type EventItem } from "@components/home/events";
+import { yearOf } from "@components/home/dates";
+import { byPath, pastEvents, upcomingEvents, visible } from "@lib/content";
 
-// La page éditoriale /evenements migrée fait foi ; le listing se pose dessous.
+/**
+ * /evenements — mêmes composants que l'agenda : la grille des rendez-vous à
+ * venir, puis la trace des événements passés, groupés par année (les plus
+ * récentes d'abord) et sans photo pour rester légers.
+ */
 const pages = visible(await getCollection("pages"));
 const entry = byPath(pages, "/evenements");
-const rendered = entry ? await render(entry) : undefined;
-const Content = rendered?.Content;
 
-const { events } = await siteData();
-const upcoming = upcomingEvents(events);
+const events = await eventItems();
+// Comme sur l'agenda : pas de date, pas de place dans la liste des rendez-vous.
+const upcoming = upcomingEvents(events).filter((e) => Boolean(e.start));
 const past = pastEvents(events);
 
-const toCard = (e: MergedEvent): CardItem => ({
-  title: e.title,
-  href: e.path,
-  description: e.description || undefined,
-  eyebrow: formatDate(e.start),
-  meta: e.priceText,
-  icon: e.icon,
-  pole: e.pole,
-  image: e.image,
-});
+const byYear = new Map<number, EventItem[]>();
+for (const e of past) {
+  const y = yearOf(e.start);
+  if (y === undefined) continue;
+  const bucket = byYear.get(y) ?? [];
+  bucket.push(e);
+  byYear.set(y, bucket);
+}
+const years = [...byYear.keys()].sort((a, b) => b - a);
 
+const title = entry?.data.title ?? "Événements";
 const description =
   entry?.data.description ??
   "Pizza parties, camembert parties, initiations à la soudure, stages et rendez-vous du tiers-lieu des 4 Sources, à Yvoir.";
+
+/** La liste de la page migrée, mot pour mot. */
+const legacyRows = [
+  {
+    title: "🥏 🤾🏻 Tournoi de disc-golf",
+    href: "/evenements/discgolf-septembre-2026",
+    meta: "— September 6, 2026 · Liens et convivialité, Sports",
+  },
+  {
+    title: "👷🏻‍♀️ ⚡ COMPLET ! Initiation à la soudure à l’arc",
+    href: "/evenements/initiation-soudure-a-l-arc-5-septembre-2026",
+    meta: "— September 12, 2026 · Artisanat",
+  },
+  {
+    title: "🍕Pizza Party de septembre !",
+    href: "/evenements/pizza-party-septembre-2026",
+    meta: "— September 18, 2026 · Liens et convivialité",
+  },
+  {
+    title: "🖊️ 🖋️ Atelier d’écriture",
+    href: "/evenements/weekend-cratif",
+    meta: "— October 3, 2026 → October 3, 2026 · Ressourcement, Formation",
+  },
+  {
+    title: "🌼 🌻 Plantes Papier Pigments",
+    href: "/evenements/weekend-cratif-1",
+    meta: "— October 3, 2026 → October 3, 2026 · Ressourcement, Artisanat",
+  },
+  {
+    title: "🪵 🪓 Créer un objet en bois de palette",
+    href: "/evenements/weekend-ressources",
+    meta: "— October 3, 2026 → October 3, 2026 · Ressourcement, Artisanat",
+  },
+  {
+    title: "🍕 Pizza Party d’octobre ! 🍕",
+    href: "/evenements/pizza-party-octobre-2026",
+    meta: "— October 9, 2026 · Liens et convivialité",
+  },
+  {
+    title: "👷🏻 ⚡ COMPLET ! Initiation à la soudure à l’arc",
+    href: "/evenements/initiation-soudure-a-l-arc-17-octobre-2026",
+    meta: "— October 17, 2026 · Artisanat",
+  },
+  {
+    title: "🧀 Camembert Party de novembre",
+    href: "/evenements/camembert-party-13-novembre-2026",
+    meta: "— November 13, 2026 · Liens et convivialité",
+  },
+  {
+    title: "👷🏻 ⚡ Initiation à la soudure à l’arc",
+    href: "/evenements/initiation-soudure-a-l-arc-21-novembre-2026",
+    meta: "— November 21, 2026 · Artisanat",
+  },
+  {
+    title: "👷🏻‍♀️ Initiation à la soudure à l’arc ⚡",
+    href: "/evenements/initiation-soudure-a-l-arc-12-dcembre-2026",
+    meta: "— December 12, 2026 · Artisanat",
+  },
+];
 ---
 
 <BaseLayout
-  title={entry?.data.seoTitle ?? entry?.data.title ?? "Les événements des 4 Sources"}
+  title={entry?.data.seoTitle ?? title}
   description={description}
   ogImage={entry?.data.cover ?? entry?.data.ogImage}
   noindex={entry?.data.noindex ?? false}
 >
-  <PageHero
-    title={entry?.data.title ?? "Les événements"}
-    lead={entry?.data.description ?? "Ce qui se passe aux 4 Sources : les rendez-vous à venir, et la trace de ceux qui ont eu lieu."}
-    cover={entry?.data.cover}
-    coverAlt={entry?.data.coverAlt}
-    icon={entry?.data.icon}
-    crumbs={[{ label: "Accueil", href: "/" }, { label: "Les événements" }]}
-  />
+  <Section narrow class="pb-6">
+    <h1 class="font-display text-h1 font-bold">
+      {entry?.data.icon ? `${title} ${entry.data.icon}` : title}
+    </h1>
+  </Section>
 
-  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
-    {Content && <Prose><Content /></Prose>}
+  <Section title="À venir" class="pt-0">
+    <EventGrid items={upcoming} cols={3} />
+    <LegacyList rows={legacyRows} heading="Événements" />
+  </Section>
 
-    <section aria-labelledby="a-venir" class={Content ? "mt-14" : ""}>
-      <h2 id="a-venir" class="mb-6">À venir</h2>
-      <CardGrid items={upcoming.map(toCard)} empty="Aucun événement à venir pour le moment." />
-    </section>
-
-    <section aria-labelledby="passes" class="mt-16">
-      <h2 id="passes" class="mb-6">Déjà passés</h2>
-      <CardGrid items={past.map(toCard)} empty="Aucun événement passé archivé pour le moment." />
-    </section>
-  </div>
+  <Section title="Passés" surface="subtle">
+    <div class="grid gap-12">
+      {
+        years.map((year) => (
+          <section>
+            <h3 class="mb-5 font-display text-h3 font-bold">{year}</h3>
+            <EventGrid items={byYear.get(year) ?? []} cols={3} withImages={false} />
+          </section>
+        ))
+      }
+    </div>
+  </Section>
 </BaseLayout>
