@@ -1,6 +1,6 @@
 ---
 title: "🤾🏻 Tournoi de disc-golf"
-description: "Tournoi de disc-golf — Les 4 Sources, tiers-lieu à Yvoir"
+description: "Disc Golf — Les 4 Sources, tiers-lieu à Yvoir : séjours, salles, activités, événements et bar au Domaine d'Ahinvaux."
 legacyPath: "/evenements/discgolf-septembre-2026"
 cover: "../../assets/migration/shared/1bb4433d2d71-evenement_gnral__a_-1.jpg"
 coverAlt: "🤾🏻 Tournoi de disc-golf"

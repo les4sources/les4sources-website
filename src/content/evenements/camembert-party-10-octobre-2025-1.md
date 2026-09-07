@@ -16,6 +16,7 @@ pole: "convivialite"
 start: "2025-10-10T18:30:00+02:00"
 category: "Liens et convivialité"
 registrationUrl: "https://www.billetweb.fr/camembert-party-doctobre-2025"
+generatedDescription: true
 ---
 
 ## Le concept de la Camembert Party ?

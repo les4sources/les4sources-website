@@ -18,6 +18,7 @@ pole: "convivialite"
 start: "2026-11-13T18:30:00+01:00"
 category: "Liens et convivialité"
 priceText: "10 €"
+generatedDescription: true
 ---
 
 ## Le concept de la Camembert Party ?

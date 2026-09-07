@@ -23,7 +23,7 @@ const projets = listable(await getCollection("projets")).sort((a, b) =>
 const items: CardItem[] = projets.map((p) => ({
   title: p.data.title,
   href: pathOf(p),
-  description: p.data.description,
+  description: p.data.generatedDescription ? undefined : p.data.description,
   icon: p.data.icon,
   pole: p.data.pole,
   image: p.data.cover,
@@ -43,7 +43,7 @@ const description =
 >
   <PageHero
     title={title}
-    lead={entry?.data.description}
+    lead={entry?.data.generatedDescription ? undefined : entry?.data.description}
     cover={entry?.data.cover}
     coverAlt={entry?.data.coverAlt}
     icon={entry?.data.icon}

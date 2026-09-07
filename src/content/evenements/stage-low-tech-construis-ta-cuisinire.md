@@ -18,6 +18,7 @@ pole: "artisanat"
 category: "Artisanat"
 priceText: "485 €"
 registrationUrl: "https://www.billetweb.fr/stage-low-tech-cuisiniere-aout"
+generatedDescription: true
 seoTitle: "Stage low-tech : construis ta… — du 20 au 22 août"
 ---
 

@@ -243,6 +243,8 @@ interface MergedBase {
   /** <title> alternatif quand le titre d'affichage dépasse 60 caractères. */
   seoTitle?: string;
   description: string;
+  /** Vrai quand la description est fabriquée : elle sert le SEO, jamais la copie affichée. */
+  generatedDescription?: boolean;
   descriptionHtml?: string;
   image?: MergedImage;
   pole?: Pole;
@@ -280,6 +282,7 @@ export interface LegacyEntry {
     title: string;
     seoTitle?: string;
     description: string;
+    generatedDescription?: boolean;
     legacyPath: string;
     draft?: boolean;
     archived?: boolean;
@@ -334,6 +337,7 @@ function fromLegacyEvent(entry: LegacyEntry): MergedEvent {
     title: entry.data.title,
     seoTitle: entry.data.seoTitle,
     description: entry.data.description,
+    generatedDescription: entry.data.generatedDescription,
     pole: entry.data.pole,
     categoryName: entry.data.category,
     source: "legacy",
@@ -420,6 +424,7 @@ function fromLegacyExperience(entry: LegacyEntry): MergedExperience {
     title: entry.data.title,
     seoTitle: entry.data.seoTitle,
     description: entry.data.description,
+    generatedDescription: entry.data.generatedDescription,
     pole: entry.data.pole,
     source: "legacy",
     legacyId: entry.id,

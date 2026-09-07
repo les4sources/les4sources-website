@@ -21,6 +21,7 @@ start: "2026-03-27"
 category: "Liens et convivialité"
 priceText: "15 €"
 registrationUrl: "https://renaudcrols.odoo.com/"
+generatedDescription: true
 ---
 
 ## En pratique

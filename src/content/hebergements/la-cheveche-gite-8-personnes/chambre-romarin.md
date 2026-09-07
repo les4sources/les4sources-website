@@ -5,6 +5,7 @@ legacyPath: "/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-ro
 properties:
   Page: "Biodiversité"
 capacity: 8
+generatedDescription: true
 ---
 
 ![Escargot de Bourgogne](../../../assets/migration/shared/4ce542448649-escargot_de_bourgogne.jpg)

@@ -37,7 +37,7 @@ const description =
 >
   <PageHero
     title={title}
-    lead={entry?.data.description}
+    lead={entry?.data.generatedDescription ? undefined : entry?.data.description}
     cover={entry?.data.cover}
     coverAlt={entry?.data.coverAlt}
     icon={entry?.data.icon}
@@ -87,7 +87,7 @@ const description =
             </h3>
             {m.data.role && (
               <p class="mt-1 font-ui text-overline font-bold tracking-[0.08em] text-ink-3 uppercase">
-                {m.data.role}
+                — {m.data.role}
               </p>
             )}
           </li>

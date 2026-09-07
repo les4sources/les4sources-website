@@ -14,6 +14,7 @@ properties:
   Statut site web: "Publié"
 category: "Environnement"
 registrationUrl: "https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret"
+generatedDescription: true
 ---
 
 ## En pratique

@@ -1,6 +1,6 @@
 ---
 title: "COMPLET ! Initiation à la soudure à l’arc ⚡"
-description: "COMPLET ! Initiation à la soudure à l’arc ⚡ — Les 4 Sources, tiers-lieu à Yvoir"
+description: "⚠️ COMPLET — Les 4 Sources, tiers-lieu à Yvoir : séjours, salles, activités, événements et bar au Domaine d'Ahinvaux."
 legacyPath: "/evenements/initiation-soudure-a-l-arc-04-avril-2026"
 cover: "../../assets/migration/shared/2229e8fad6c0-evenement_gnral__a.jpg"
 coverAlt: "COMPLET ! Initiation à la soudure à l’arc ⚡"

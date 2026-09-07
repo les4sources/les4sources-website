@@ -22,6 +22,7 @@ start: "2026-07-03T18:30:00+02:00"
 category: "Liens et convivialité"
 priceText: "10 €"
 registrationUrl: "https://www.billetweb.fr/pizza-party-de-septembre-2025"
+generatedDescription: true
 seoTitle: "Pizza Party ! — 18 septembre 2026"
 ---
 

@@ -3,6 +3,13 @@
  * EventCard — Card + PoleTag + badge « Complet ! » + titre h4 + date
  * (portage d'`EventCard` dans Surfaces.jsx).
  *
+ * L'image de la carte est la photo de couverture NUE (4/3, coins de photo en
+ * tête, `object-cover`) — jamais l'aplat organique du pôle avec le titre dedans.
+ * Ce motif appartient au héros de la fiche événement, où le titre a la place de
+ * respirer ; dans une carte il le tronque (« za Party ! »). Sans photo, la carte
+ * porte un bandeau court teinté à la couleur du pôle avec son pictogramme,
+ * jamais un cadre blanc vide.
+ *
  * La carte n'est pas elle-même un lien : c'est le titre qui l'est, étiré sur
  * toute la carte par `l4s-stretch-link`. Un seul élément interactif, une seule
  * cible de tabulation, et la zone cliquable reste celle de la carte entière.
@@ -28,7 +35,7 @@ const { title, date, pole = "convivialite", image, soldOut = false, href, class:
   Astro.props;
 ---
 
-<Card image={image} imageAlt={title} hoverable class={className}>
+<Card image={image} imageAlt={title} imageAspect="4/3" pole={pole} hoverable class={className}>
   <div class="mb-2.5 flex flex-wrap items-center gap-2">
     <PoleTag pole={pole} />
     {soldOut && <Badge tone="danger">Complet !</Badge>}

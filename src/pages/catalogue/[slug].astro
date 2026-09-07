@@ -70,7 +70,7 @@ const related: CardItem[] = experiences
   .map((x) => ({
     title: x.title,
     href: x.path,
-    description: x.description || undefined,
+    description: x.generatedDescription ? undefined : x.description || undefined,
     eyebrow: x.duration,
     icon: x.icon,
     pole: x.pole,
@@ -91,7 +91,7 @@ const jsonld = [
 <BaseLayout title={experience.seoTitle ?? experience.title} description={description} jsonld={jsonld}>
   <PageHero
     title={experience.title}
-    lead={experience.description || undefined}
+    lead={experience.generatedDescription ? undefined : experience.description || undefined}
     cover={legacy?.data.cover}
     coverAlt={legacy?.data.coverAlt ?? experience.title}
     remoteCover={legacy?.data.cover ? undefined : experience.image}
@@ -131,7 +131,7 @@ const jsonld = [
   {
     related.length > 0 && (
       <Section title="D'autres activités du même pôle 🎒" surface="subtle">
-        <CardGrid items={related} />
+        <CardGrid items={related} poleHeader />
       </Section>
     )
   }

@@ -9,8 +9,9 @@
  */
 import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
+import PoleIcon from "@components/ds/PoleIcon.astro";
 import PoleTag from "@components/ds/PoleTag.astro";
-import { isPole } from "@lib/poles";
+import { isPole, pole as resolvePole } from "@lib/poles";
 
 export interface CardItem {
   title: string;
@@ -33,10 +34,17 @@ interface Props {
   /** Rapport de la zone photo. */
   aspect?: string;
   columns?: 2 | 3;
+  /**
+   * Sans photo, remplacer la zone média par un bandeau teinté du pôle portant
+   * son pictogramme. Sinon la carte n'a simplement pas de zone média — jamais
+   * un cadre blanc vide.
+   */
+  poleHeader?: boolean;
   class?: string;
 }
 
-const { items, empty, aspect = "4/3", columns = 3, class: className } = Astro.props;
+const { items, empty, aspect = "4/3", columns = 3, poleHeader = false, class: className } =
+  Astro.props;
 
 const isLocal = (img: CardItem["image"]): img is ImageMetadata =>
   Boolean(img) && typeof (img as ImageMetadata).src === "string" && "width" in (img as object);
@@ -84,14 +92,24 @@ const isLocal = (img: CardItem["image"]): img is ImageMetadata =>
             </div>
           )}
 
+          {!item.image && poleHeader && item.pole && isPole(item.pole) && (
+            <div
+              class:list={[
+                "flex h-[120px] w-full items-center justify-center",
+                resolvePole(item.pole).classes.bgTint,
+              ]}
+              aria-hidden="true"
+            >
+              <PoleIcon
+                pole={resolvePole(item.pole).slug}
+                class:list={["h-12", resolvePole(item.pole).classes.textInk]}
+              />
+            </div>
+          )}
+
           <div class="flex flex-1 flex-col gap-2.5 p-5">
-            {(item.pole || item.badge || item.icon) && (
+            {(item.pole || item.badge) && (
               <div class="flex flex-wrap items-center gap-2">
-                {item.icon && !item.image && (
-                  <span class="text-[1.2rem] leading-none" aria-hidden="true">
-                    {item.icon}
-                  </span>
-                )}
                 {item.pole && isPole(item.pole) && <PoleTag pole={item.pole} />}
                 {item.badge && (
                   <span class="inline-flex items-center rounded-pill bg-status-danger-bg px-2.5 py-1 font-ui text-[12px] font-bold tracking-[0.06em] text-status-danger uppercase">
@@ -101,9 +119,15 @@ const isLocal = (img: CardItem["image"]): img is ImageMetadata =>
               </div>
             )}
 
+            {/* L'émoji ouvre le titre, collé à lui comme sur le site actuel :
+                l'espace est typographique (margin), jamais un blanc de texte. */}
             <h3 class="m-0 font-display text-h4 leading-snug font-bold">
               <a href={item.href} class="l4s-stretch-link text-inherit no-underline hover:text-teal-soft">
-                {item.title}
+                {item.icon && (
+                  <span class="mr-1.5 inline-block" aria-hidden="true">
+                    {item.icon}
+                  </span>
+                )}{item.title}
               </a>
             </h3>
 

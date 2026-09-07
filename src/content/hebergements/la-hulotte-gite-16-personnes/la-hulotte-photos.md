@@ -7,6 +7,7 @@ gallery:
   - "../../../assets/migration/shared/096816461c46-_G0A2754.jpg"
   - "../../../assets/migration/shared/7864d1223515-_G0A2782.jpg"
   - "../../../assets/migration/shared/45c528537c2a-_G0A2780.jpg"
+generatedDescription: true
 ---
 
 **La Hulotte (photos)**

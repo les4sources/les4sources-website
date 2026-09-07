@@ -30,6 +30,8 @@ export interface TransformOptions {
   files: Record<string, string>;
   /** Id Notion (32 hex, sans tirets) → page du site. Sert aux liens `/<32-hex>`. */
   notionPages: Record<string, { path: string; title: string }>;
+  /** Index de section : la grille vivante rend déjà ces titres, on jette la liste Notion. */
+  dropCollections?: boolean;
 }
 
 export interface TransformResult {
@@ -147,8 +149,13 @@ const COLLECTION_CLOSE = /^(>\s?)?<!--\s*\/collection\s*-->\s*$/;
  * Les blocs de collection (galeries Notion) deviennent une liste Markdown simple.
  * Le titre de la collection est rappelé en gras, sauf s'il redit le titre juste
  * au-dessus (l'extracteur pose souvent la collection sous son propre H2).
+ *
+ * `drop` les supprime purement et simplement : sur un index de section, la
+ * grille vivante rend déjà les mêmes titres, et la liste Notion les redirait
+ * une seconde fois juste au-dessus. Partout ailleurs la liste est conservée —
+ * c'est le seul chemin vers ces pages.
  */
-export function convertCollections(md: string): string {
+export function convertCollections(md: string, drop = false): string {
   const lines = md.split("\n");
   const out: string[] = [];
   let i = 0;
@@ -170,6 +177,11 @@ export function convertCollections(md: string): string {
       i++;
     }
     i++; // consomme la fermeture
+
+    if (drop) {
+      if (out.length && out[out.length - 1]!.trim() !== "") out.push("");
+      continue;
+    }
 
     const previous = [...out].reverse().find((l) => l.trim() !== "") ?? "";
     const alreadyTitled =
@@ -346,7 +358,7 @@ export function transformBody(rawMarkdown: string, opts: TransformOptions): Tran
   body = tidyEmphasis(body);
   body = rewriteLinks(body, opts.deadLinks);
   body = resolveNotionLinks(body, opts.notionPages);
-  body = convertCollections(body);
+  body = convertCollections(body, opts.dropCollections ?? false);
   const embedded = convertEmbeds(body, opts.embeds, opts.files);
   body = embedded.body;
   body = convertButtons(body);

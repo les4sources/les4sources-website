@@ -7,9 +7,15 @@
  * doit être placé à l'intérieur. Pour une carte cliquable qui garde un titre
  * lié (le cas d'EventCard), laisser `href` vide et poser `l4s-stretch-link` sur
  * le lien du titre.
+ *
+ * Sans photo, la carte ne réserve JAMAIS un cadre blanc vide : soit elle n'a
+ * aucune zone média, soit — quand `pole` est fourni — un bandeau court teinté à
+ * la couleur du pôle, portant son pictogramme dans l'encre du pôle.
  */
 import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
+import { pole as resolvePole, type PoleSlug } from "@lib/poles";
+import PoleIcon from "./PoleIcon.astro";
 
 type Surface = "white" | "paper" | "subtle" | "teal";
 
@@ -20,6 +26,8 @@ interface Props {
   imageAlt?: string;
   /** Rapport de la zone photo, en syntaxe CSS ("4/3", "16/9"…). */
   imageAspect?: string;
+  /** Sans photo : bandeau teinté du pôle avec son pictogramme, au lieu du vide. */
+  pole?: PoleSlug;
   /** Rembourrage interne : pixels (20 dans la référence) ou valeur CSS complète. */
   padding?: number | string;
   hoverable?: boolean;
@@ -40,6 +48,7 @@ const {
   image,
   imageAlt = "",
   imageAspect = "4/3",
+  pole,
   padding = 20,
   hoverable = false,
   href,
@@ -58,11 +67,13 @@ const classes = [
 
 const Tag = href ? "a" : "div";
 const hasImage = Boolean(image) || Astro.slots.has("image");
+// Repli sans photo : le bandeau du pôle. Jamais de cadre blanc vide.
+const fallbackPole = !hasImage && pole ? resolvePole(pole) : undefined;
 ---
 
 <Tag class:list={classes} {...href ? { href } : {}} {...rest}>
   {
-    hasImage && (
+    hasImage ? (
       <div class="w-full overflow-hidden" style={`aspect-ratio:${imageAspect}`}>
         {image && typeof image !== "string" ? (
           <Image src={image} alt={imageAlt} class="h-full w-full object-cover" />
@@ -72,7 +83,14 @@ const hasImage = Boolean(image) || Astro.slots.has("image");
           <slot name="image" />
         )}
       </div>
-    )
+    ) : fallbackPole ? (
+      <div
+        class:list={["flex h-[120px] w-full items-center justify-center", fallbackPole.classes.bgTint]}
+        aria-hidden="true"
+      >
+        <PoleIcon pole={fallbackPole.slug} class:list={["h-12", fallbackPole.classes.textInk]} />
+      </div>
+    ) : null
   }
   <div style={`padding:${typeof padding === "number" ? `${padding}px` : padding}`}>
     <slot />

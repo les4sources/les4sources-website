@@ -37,6 +37,8 @@ const sharedFields = {
   /** URL absolue ou /-rooted ; à défaut, l'image OG par défaut du site. */
   ogImage: z.string().optional(),
   noindex: z.boolean().default(false),
+  /** Vrai quand la description a été fabriquée (premier paragraphe, repli) et non reprise du site : elle sert le SEO, jamais la copie affichée. */
+  generatedDescription: z.boolean().default(false),
   draft: z.boolean().default(false),
   /** Page conservée (URL préservée) mais retirée des listings. */
   archived: z.boolean().default(false),

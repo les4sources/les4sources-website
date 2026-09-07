@@ -7,6 +7,7 @@ properties:
   Date (fr): "# Nouvel événement"
   Statut site web: "Publié"
 start: "2025-11-20"
+generatedDescription: true
 ---
 
 ## En pratique

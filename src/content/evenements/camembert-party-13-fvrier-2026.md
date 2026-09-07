@@ -19,6 +19,7 @@ start: "2026-03-13T18:30:00+01:00"
 category: "Liens et convivialité"
 priceText: "7 €"
 registrationUrl: "https://www.billetweb.fr/camembert-party-de-mars-2026"
+generatedDescription: true
 ---
 
 ## Le concept de la Camembert Party ?

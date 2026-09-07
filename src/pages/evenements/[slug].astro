@@ -141,7 +141,7 @@ const jsonld = [
         </div>
       </div>
     ) : (
-      <PageHero title={event.title} lead={event.description || undefined} crumbs={crumbs} narrow />
+      <PageHero title={event.title} lead={event.generatedDescription ? undefined : event.description || undefined} crumbs={crumbs} narrow />
     )
   }
 

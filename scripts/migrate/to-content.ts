@@ -32,6 +32,21 @@ const CONTENT_DIR = join(ROOT, "src/content");
 const MANIFEST = join(ROOT, "migration/generated-manifest.json");
 const REDIRECTS = join(ROOT, "public/_redirects");
 
+/**
+ * Index de section : ces pages sont coiffées d'une grille vivante qui rend déjà
+ * les mêmes fiches. La liste de collection Notion héritée dirait donc deux fois
+ * les mêmes titres, juste au-dessus de la grille — on la jette pour ces pages,
+ * et pour elles seules.
+ */
+const SECTION_INDEXES = new Set([
+  "/catalogue",
+  "/collectif",
+  "/projets",
+  "/evenements",
+  "/agenda",
+  "/sejours/hebergements-yvoir",
+]);
+
 const SITE_SUFFIX = "Les 4 Sources, tiers-lieu à Yvoir";
 const DESC_MIN = 50;
 const DESC_MAX = 160;
@@ -378,7 +393,7 @@ interface Built {
   frontmatter: Record<string, unknown>;
   body: string;
   /** Candidates de description, dans l'ordre de préférence. */
-  descriptionCandidates: string[];
+  descriptionCandidates: DescriptionCandidate[];
   /** Suffixe distinctif en cas de collision (date pour un événement, titre sinon). */
   distinguisher: string;
 }
@@ -403,6 +418,7 @@ async function buildPage(jsonFile: string, page: SourcePage): Promise<Built> {
     deadLinks: DEAD_LINKS,
     files: localFiles,
     notionPages,
+    dropCollections: SECTION_INDEXES.has(path),
   });
 
   const frontmatter: Record<string, unknown> = { title };
@@ -479,12 +495,16 @@ async function buildPage(jsonFile: string, page: SourcePage): Promise<Built> {
     if (gallery.length) frontmatter.gallery = gallery;
   }
 
+  // `generated: true` = la description ne vient PAS du site. Le premier
+  // paragraphe compte comme fabriquée : il est déjà dans le corps de la page,
+  // le réafficher en chapeau le dirait deux fois. Elle reste écrite dans le
+  // frontmatter (le SEO en a besoin), mais aucun gabarit ne l'affiche.
   const descriptionCandidates = [
-    page.metaDescription?.trim(),
-    page.headerDescription?.trim(),
-    firstParagraph(rawMarkdown),
-    `${stripLeadingEmoji(title)} — ${SITE_SUFFIX}`,
-  ].filter((s): s is string => Boolean(s && s.length > 0));
+    { text: page.metaDescription?.trim(), generated: false },
+    { text: page.headerDescription?.trim(), generated: false },
+    { text: firstParagraph(rawMarkdown), generated: true },
+    { text: `${stripLeadingEmoji(title)} — ${SITE_SUFFIX}`, generated: true },
+  ].filter((c): c is DescriptionCandidate => Boolean(c.text && c.text.length > 0));
 
   const distinguisher =
     bucket === "evenements" && properties["Date (fr)"]
@@ -521,19 +541,31 @@ function fitDescription(candidate: string, title: string): string {
   return text;
 }
 
+/** Une description candidate et son origine : le site, ou la fabrique. */
+interface DescriptionCandidate {
+  text: string;
+  /** Vrai quand le texte ne vient pas du site (premier paragraphe, repli). */
+  generated: boolean;
+}
+
 function assignDescriptions(pages: Built[]): void {
   const used = new Set<string>();
   for (const page of pages) {
     const title = stripLeadingEmoji(String(page.frontmatter.title));
     let chosen: string | undefined;
+    let generated = true;
 
     for (const candidate of page.descriptionCandidates) {
-      const fitted = fitDescription(candidate, title);
+      const fitted = fitDescription(candidate.text, title);
       if (fitted.length >= DESC_MIN && !used.has(fitted.toLowerCase())) {
         chosen = fitted;
+        generated = candidate.generated;
         break;
       }
-      chosen ??= fitted;
+      if (chosen === undefined) {
+        chosen = fitted;
+        generated = candidate.generated;
+      }
     }
 
     let text = chosen ?? fitDescription(title, title);
@@ -548,6 +580,9 @@ function assignDescriptions(pages: Built[]): void {
     }
     used.add(text.toLowerCase());
     page.frontmatter.description = text;
+    // Le champ n'est écrit que lorsqu'il vaut `true` : le schéma le défaut à
+    // `false`, inutile d'alourdir 150 frontmatters avec l'évidence.
+    if (generated) page.frontmatter.generatedDescription = true;
   }
 }
 

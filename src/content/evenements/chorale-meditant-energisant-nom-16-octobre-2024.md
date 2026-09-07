@@ -14,6 +14,7 @@ pole: "ressourcement"
 start: "2024-10-16T20:00:00+02:00"
 category: "Ressourcement"
 registrationUrl: "https://les4sources.punchpass.com/org/8599/classes/15693872"
+generatedDescription: true
 seoTitle: "Chœur méditant & énergisant : ouvert à… — 16 octobre 2024"
 ---
 

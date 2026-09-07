@@ -46,7 +46,7 @@ const jsonld = [
 >
   <PageHero
     title={d.title}
-    lead={d.description}
+    lead={d.generatedDescription ? undefined : d.description}
     cover={d.cover}
     coverAlt={d.coverAlt}
     icon={d.icon}

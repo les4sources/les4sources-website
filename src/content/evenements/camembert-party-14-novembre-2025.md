@@ -16,6 +16,7 @@ pole: "convivialite"
 start: "2025-11-14T18:30:00+01:00"
 category: "Liens et convivialité"
 registrationUrl: "https://www.billetweb.fr/camembert-party-de-novembre-2025"
+generatedDescription: true
 ---
 
 ## Le concept de la Camembert Party ?

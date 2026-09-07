@@ -20,6 +20,7 @@ gallery:
   - "../../assets/migration/shared/099d66c64244-alyte_accoucheur.jpg"
   - "../../assets/migration/shared/d36ef9512bbb-20210807_154050_CB1F3FF7.jpg"
   - "../../assets/migration/shared/4ce542448649-escargot_de_bourgogne.jpg"
+generatedDescription: true
 ---
 
 **Photos des hébergements**

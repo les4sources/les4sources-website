@@ -45,15 +45,22 @@ const rest = here.slice(BASE.length + 1).split("/");
 const isLodging = rest.length === 1;
 
 const all = visible(await getCollection("hebergements"));
+// Enfants DIRECTS seulement : `<ici>/<un-seul-segment>`. Sans ce garde-fou, les
+// chambres rangées sous une page intermédiaire (`…/la-hulotte-photos/…`)
+// remontaient une seconde fois dans « Les espaces ».
 const children = all
-  .filter((e) => pathOf(e).startsWith(`${here}/`))
+  .filter((e) => {
+    const p = pathOf(e);
+    return p.startsWith(`${here}/`) && !p.slice(here.length + 1).includes("/");
+  })
   .sort((a, b) => a.data.title.localeCompare(b.data.title, "fr"));
 const parent = isLodging ? undefined : byPath(all, here.slice(0, here.lastIndexOf("/")));
 
 const childItems: CardItem[] = children.map((c) => ({
   title: c.data.title,
   href: pathOf(c),
-  description: c.data.description,
+  // Une description fabriquée ne s'affiche pas : elle ne sert que le SEO.
+  description: c.data.generatedDescription ? undefined : c.data.description,
   icon: c.data.icon,
   image: c.data.cover,
 }));
@@ -91,7 +98,7 @@ const jsonld = [breadcrumbs(crumbs.map((c) => ({ name: c.label, url: `${siteUrl}
 >
   <PageHero
     title={d.title}
-    lead={d.description}
+    lead={d.generatedDescription ? undefined : d.description}
     cover={d.cover}
     coverAlt={d.coverAlt}
     icon={d.icon}

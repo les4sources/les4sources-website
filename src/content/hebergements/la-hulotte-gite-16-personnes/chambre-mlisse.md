@@ -5,6 +5,7 @@ legacyPath: "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/chambre-ml
 properties:
   Page: "Hulotte"
 capacity: 16
+generatedDescription: true
 seoTitle: "Chambre ‘Mélisse’ — La Hulotte"
 ---
 

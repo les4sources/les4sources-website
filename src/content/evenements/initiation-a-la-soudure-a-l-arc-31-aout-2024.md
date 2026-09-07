@@ -16,6 +16,7 @@ start: "2024-08-31T09:00:00+02:00"
 category: "Artisanat"
 priceText: "80 €"
 registrationUrl: "https://les4sources.punchpass.com/classes/15693868"
+generatedDescription: true
 seoTitle: "Initiation à la soudure à l’arc — 31 août 2024"
 ---
 
