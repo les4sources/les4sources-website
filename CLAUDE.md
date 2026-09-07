@@ -27,9 +27,12 @@ Contexte long : `ISA.md` (ce qu'il faut atteindre), `docs/CLAUDY.md` (contrat av
 
 - Toutes les couleurs, polices, rayons et échelles vivent dans `src/styles/tokens.css` (bloc `@theme`).
 - **Aucun composant ne code une valeur en dur.** On écrit `bg-teal`, `text-ink-soft`, `font-display`, `text-pole-nature`, `rounded-lg` — jamais `#0B3D3A`, jamais `bg-[#...]`.
-- Les valeurs actuelles des jetons sont **provisoires** (le brand system Claude Design les remplacera) ; les **noms**, eux, sont stables. C'est ce qui permet de changer d'habit sans toucher un composant.
-- `Header.astro` et `Footer.astro` sont provisoires et seront remplacés par les composants Nav/Footer du design system : les garder simples.
-- Polices auto-hébergées dans `public/fonts/`. **Aucune requête vers un CDN de polices.**
+- Les jetons sont ceux du brand system Claude Design (copie de référence dans `design/`, règles de marque dans `design/README.md`). Pour changer une valeur : `design/tokens/*.css` d'abord, puis `src/styles/tokens.css` — jamais l'inverse.
+- Les composants du design system vivent dans `src/components/ds/` (Button, Badge, Tag, PoleTag, Highlight, Tabs, Card, EventCard, BlobPanel, PoleIcon, Logo, Section, Lead, NewsletterBand) ; `Header.astro` et `Footer.astro` reproduisent les kits Nav/Footer. On compose avec eux, on ne réinvente pas un bouton.
+- Le blob coloré (`BlobPanel`) ne sert qu'au hero d'une fiche événement ; une carte montre la photo nue, ou un bandeau teinté du pôle avec son picto quand il n'y a pas de photo.
+- Une description marquée `generatedDescription: true` sert au SEO et ne s'affiche jamais comme accroche ou sous-titre.
+- Polices auto-hébergées via `@fontsource/averia-serif-libre` et `@fontsource/be-vietnam-pro` (woff2). **Aucune requête vers un CDN de polices.**
+- Site clair uniquement : le teal est la seule surface sombre de la charte, il n'y a pas de thème sombre.
 
 ## SEO / GEO
 

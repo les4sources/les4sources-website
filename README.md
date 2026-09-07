@@ -61,7 +61,15 @@ legacyPath: "/sejours/tarifs"
 
 `legacyPath` est le chemin **exact** de l'URL du site actuel. Il est obligatoire, et **on ne le renomme jamais** : les 209 URLs listées dans `migration/urls.txt` sont un contrat avec les moteurs de recherche et avec tous les liens déjà partagés. Renommer une page se fait en ajoutant une règle 301 dans `public/_redirects`, jamais en changeant un `legacyPath` publié.
 
-Les autres champs utiles : `seoTitle` (titre court si le titre d'affichage dépasse 60 caractères), `ogImage`, `cover` + `coverAlt`, `draft` (retire la page du site), `archived` (garde l'URL mais retire des listings), `pole` (un des sept pôles), `embeds` (iframes fonctionnelles préservées).
+Les autres champs utiles : `seoTitle` (titre court si le titre d'affichage dépasse 60 caractères), `ogImage`, `cover` + `coverAlt`, `draft` (retire la page du site), `archived` (garde l'URL mais retire des listings), `pole` (un des sept pôles), `embeds` (iframes fonctionnelles préservées), `generatedDescription` (vrai quand la description a été fabriquée par la migration : elle sert au SEO mais ne s'affiche jamais comme accroche).
+
+### Pages composées
+
+Quatre pages sont composées en Astro plutôt que rendues depuis leur Markdown, pour reproduire les kits du brand system : l'accueil (`src/pages/index.astro`), l'agenda (`agenda.astro`), le hub séjours (`sejours/index.astro`) et le bar (`le-bar-des-4-sources.astro`). Leur texte est celui du site actuel, copié mot pour mot depuis `src/content/pages/` ; pour le modifier, on édite le fichier `.astro`. Les index de sections (`/evenements`, `/catalogue`, `/collectif`, `/projets`) affichent l'intro de leur page Markdown puis une grille vivante.
+
+### Régénérer depuis le site actuel
+
+Tout le contenu de `src/content/` et `src/assets/migration/` a été produit par `bun run migrate:crawl` → `bun run migrate:extract` → `bun run migrate:content` à partir de www.les4sources.be. Les fichiers générés sont listés dans `migration/generated-manifest.json` ; relancer `migrate:content` les réécrit et ne touche jamais un fichier écrit à la main. Une fois le nouveau site en ligne, l'ancien site n'est plus une source : on édite directement `src/content/`.
 
 ## Événements et activités : le contrat Claudy
 
@@ -72,7 +80,7 @@ Le contrat complet — endpoints, champs, sémantique de publication, déclenche
 Trois sources possibles, dans l'ordre :
 
 1. `CLAUDY_PUBLIC_API_URL` — l'API publique de Claudy ;
-2. `CLAUDY_FIXTURE` (défaut `src/data/claudy.fixture.json`) — la fixture du dépôt ;
+2. `CLAUDY_FIXTURE` — une fixture locale, **uniquement si la variable est définie** (`1` pour `src/data/claudy.fixture.json`, ou un chemin) : c'est une doublure de test, un build ordinaire ne publie jamais ses fiches de démonstration ;
 3. rien — le site retombe intégralement sur le contenu migré.
 
 Règle de fusion : **un événement Claudy publié l'emporte sur son homologue migré de même slug**, et une fiche migrée sans homologue reste servie (son URL est préservée). Le build imprime une ligne de synthèse :
@@ -85,11 +93,11 @@ claudy: source=fixture events=3 experiences=2 merged=5 legacy_only=0
 
 ## Design
 
-Les jetons de design vivent dans `src/styles/tokens.css`, dans un bloc `@theme`. **Les valeurs actuelles sont provisoires** et seront remplacées par celles du brand system Claude Design. Les composants ne référencent que les noms sémantiques (`bg-teal`, `text-ink-soft`, `font-display`, `text-pole-nature`, `rounded-lg`…), donc la bascule ne touchera que ce fichier.
+Le brand system Claude Design des 4 Sources est la source de vérité visuelle. Sa copie de référence vit dans `design/` (règles de marque dans `design/README.md`, jetons dans `design/tokens/`, kits de pages et composants React de référence). Les jetons sont exposés à Tailwind v4 dans `src/styles/tokens.css` (bloc `@theme`) : teal `#224246` sur blanc, les 4 pôles et les 3 familles de pictos avec leurs teintes et encres, Averia Serif Libre pour les titres et le texte courant, Be Vietnam Pro pour l'interface. Les composants ne référencent que ces noms (`bg-teal`, `text-ink-2`, `font-display`, `text-pole-nature`, `rounded-photo`…).
 
-Les polices (Averia Serif Libre, Be Vietnam Pro) sont auto-hébergées : déposer les fichiers TTF dans `public/fonts/averia-serif-libre/` et `public/fonts/be-vietnam-pro/`, les `@font-face` les attendent déjà.
+Les composants du design system sont portés en Astro dans `src/components/ds/` (Button, Badge, Tag, PoleTag, Highlight, Tabs, Card, EventCard, BlobPanel, PoleIcon, Logo, Section, Lead, NewsletterBand). `src/components/layout/Header.astro` et `Footer.astro` reproduisent les kits Nav et Footer ; les logos et les sept pictos de pôles sont dans `src/assets/brand/`.
 
-`src/components/layout/Header.astro` et `Footer.astro` sont **provisoires** : ils seront remplacés par les composants Nav et Footer du design system.
+Les polices sont auto-hébergées via les paquets `@fontsource/averia-serif-libre` et `@fontsource/be-vietnam-pro` (woff2, licence OFL) — aucune requête vers un CDN de polices. Le site est clair uniquement : la charte n'a pas de thème sombre.
 
 ## Build et vérification
 
@@ -120,5 +128,12 @@ Ce qui est déjà décidé :
 - le slash final est normalisé (`/foo/` → `/foo`) ;
 - la variable `SITE` surcharge l'origine canonique au build ;
 - le rebuild sur publication d'un événement dans Claudy se fera par webhook — cible à définir avec l'hébergement (voir `docs/CLAUDY.md`).
+
+### Bascule depuis Super
+
+1. Déployer l'image sur l'hôte choisi et la brancher sur un sous-domaine de test (par exemple `new.les4sources.be`) avec `SITE=https://www.les4sources.be` au build, pour valider les canoniques.
+2. Vérifier sur ce sous-domaine : `bun scripts/verify/parity.ts` contre le build déployé, les 15 redirections 301 (`public/_redirects`), le calendrier Claudy, les formulaires.
+3. Basculer les enregistrements DNS de `www.les4sources.be` et de l'apex vers l'hôte ; laisser Super en place quelques jours sans le résilier.
+4. Après bascule : soumettre `https://www.les4sources.be/sitemap-index.xml` dans la Search Console, surveiller les 404 dans les journaux nginx pendant deux semaines, puis résilier Super.
 
 **Aucune bascule DNS ne sera faite sans feu vert explicite.**

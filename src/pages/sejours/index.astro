@@ -32,6 +32,9 @@ if (!entry) {
   );
 }
 const d = entry.data;
+// Une description fabriquée pour le référencement n'est pas du texte de page.
+const generatedDescription =
+  (d as { generatedDescription?: boolean }).generatedDescription === true;
 
 const toc = [
   { label: "Nos hébergements", href: "#hebergements" },
@@ -66,7 +69,7 @@ const clusterLinks = [
   <Section narrow class="pb-6">
     <PoleTag pole="hebergement" picto class="mb-4">Séjours et locations</PoleTag>
     <h1 class="mb-3 font-display text-h1 font-bold">{d.title}</h1>
-    <Lead>{d.description}</Lead>
+    {!generatedDescription && <Lead>{d.description}</Lead>}
   </Section>
 
   <Section class="pt-0">
