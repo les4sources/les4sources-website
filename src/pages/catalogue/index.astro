@@ -1,0 +1,61 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import Prose from "@components/ui/Prose.astro";
+import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
+import { siteData } from "@lib/data";
+import { byPath, visible } from "@lib/content";
+import type { MergedExperience } from "@lib/claudy";
+
+// La page éditoriale /catalogue, si la migration en fournit une, coiffe le listing.
+const pages = visible(await getCollection("pages"));
+const entry = byPath(pages, "/catalogue");
+const rendered = entry ? await render(entry) : undefined;
+const Content = rendered?.Content;
+
+const { experiences } = await siteData();
+const items: CardItem[] = experiences
+  .filter((x) => x.archived !== true)
+  .sort((a, b) => a.title.localeCompare(b.title, "fr"))
+  .map((x: MergedExperience) => ({
+    title: x.title,
+    href: x.path,
+    description: x.description || undefined,
+    eyebrow: x.duration,
+    meta: x.priceText,
+    icon: x.icon,
+    pole: x.pole,
+    image: x.image,
+  }));
+
+const title = entry?.data.title ?? "Le catalogue d'activités";
+const description =
+  entry?.data.description ??
+  "Toutes les activités proposées aux 4 Sources, à Yvoir : nature, artisanat, cuisine, intelligence collective et vie du lieu.";
+---
+
+<BaseLayout
+  title={entry?.data.seoTitle ?? title}
+  description={description}
+  ogImage={entry?.data.cover ?? entry?.data.ogImage}
+  noindex={entry?.data.noindex ?? false}
+>
+  <PageHero
+    title={title}
+    lead={description}
+    cover={entry?.data.cover}
+    coverAlt={entry?.data.coverAlt}
+    icon={entry?.data.icon}
+    crumbs={[{ label: "Accueil", href: "/" }, { label: "Le catalogue" }]}
+  />
+
+  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
+    {Content && <Prose><Content /></Prose>}
+
+    <section aria-labelledby="activites" class={Content ? "mt-14" : ""}>
+      <h2 id="activites" class="mb-6">Les activités</h2>
+      <CardGrid items={items} empty="Le catalogue d'activités arrive bientôt." />
+    </section>
+  </div>
+</BaseLayout>

@@ -1,0 +1,63 @@
+{
+  "path": "/sejours/hebergements-yvoir/photos-des-hbergements/salamandre-tachete-novembre",
+  "slug": "sejours__hebergements-yvoir__photos-des-hbergements__salamandre-tachete-novembre",
+  "rootIsCollection": false,
+  "title": "Salamandre tachetée (novembre)",
+  "metaDescription": null,
+  "ogImage": null,
+  "ogTitle": "Salamandre tachetée (novembre)",
+  "ogUrl": "https://www.les4sources.be/sejours/hebergements-yvoir/photos-des-hbergements/salamandre-tachete-novembre",
+  "canonical": null,
+  "h1": "Salamandre tachetée (novembre)",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Date de création": "Oct 23, 2025 2:16 PM",
+    "Page": "Biodiversité"
+  },
+  "propertySchema": [
+    {
+      "id": "y|zT",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "JUEM",
+      "name": "Page",
+      "type": "multi_select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "sejours-hebergements-yvoir-photos-des-hbergements-salamandre-tachete-novembre",
+    "blockId": "2950d149-3317-8083-9621-fa82a3e8d3ba",
+    "parentId": "28a0d149331781b09d9c000b678af892",
+    "type": "page",
+    "uri": "/sejours/hebergements-yvoir/photos-des-hbergements/salamandre-tachete-novembre",
+    "createdTime": "2025-10-23T14:16:47.313Z",
+    "lastEditedTime": "2025-10-23T14:34:13.980Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<div id=\"block-d1519047443f4ad0ae69b670c39177e5\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5465059a-407b-4e0b-9ff9-c11916b851ff/20221116_135325_10B47022/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5465059a-407b-4e0b-9ff9-c11916b851ff/20221116_135325_10B47022/public\"><img alt=\"Salamandre tachetée\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5465059a-407b-4e0b-9ff9-c11916b851ff/20221116_135325_10B47022/public\"></span><figcaption class=\"notion-caption notion-semantic-string\">Salamandre tachetée</figcaption></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5465059a-407b-4e0b-9ff9-c11916b851ff/20221116_135325_10B47022/public",
+      "alt": "Salamandre tachetée",
+      "role": "content",
+      "localPath": "images/_shared/f16d783c25dd-20221116_135325_10B47022.jpg",
+      "shared": true,
+      "bytes": 167127
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 2,
+  "fetchedAt": "2026-09-07T21:17:50.472Z",
+  "markdown": "![Salamandre tachetée](images/_shared/f16d783c25dd-20221116_135325_10B47022.jpg)\n*Salamandre tachetée*\n",
+  "extractedAt": "2026-09-07T21:41:44.555Z"
+}

@@ -1,0 +1,78 @@
+---
+/**
+ * Grille de cartes générique — PROVISOIRE (remplacée par Card/EventCard du DS).
+ * Sert les listings événements, agenda et catalogue.
+ */
+import { POLE_LABELS, type Pole } from "@lib/site";
+
+export interface CardItem {
+  title: string;
+  href: string;
+  description?: string;
+  /** Sur-titre : date lisible, durée, catégorie… */
+  eyebrow?: string;
+  meta?: string;
+  icon?: string;
+  pole?: Pole;
+  image?: { url: string; alt?: string; width?: number; height?: number };
+}
+
+interface Props {
+  items: CardItem[];
+  /** Message affiché quand la liste est vide (avant la migration du contenu). */
+  empty?: string;
+}
+
+const { items, empty } = Astro.props;
+---
+
+{
+  items.length === 0 ? (
+    <p class="text-ink-soft">{empty ?? "Rien à afficher pour le moment."}</p>
+  ) : (
+    <ul class="m-0 grid list-none grid-cols-1 gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
+      {items.map((item) => (
+        <li class="flex flex-col overflow-hidden rounded-lg bg-white shadow-sm transition-shadow hover:shadow-md">
+          {item.image && (
+            <img
+              src={item.image.url}
+              alt={item.image.alt ?? ""}
+              width={item.image.width}
+              height={item.image.height}
+              loading="lazy"
+              class="h-44 w-full object-cover"
+            />
+          )}
+          <div class="flex flex-1 flex-col gap-2 p-5">
+            <div class="flex flex-wrap items-center gap-2">
+              {item.icon && (
+                <span class="text-[1.15rem] leading-none" aria-hidden="true">
+                  {item.icon}
+                </span>
+              )}
+              {item.pole && (
+                <span class="rounded-full bg-teal-tint px-2.5 py-1 text-[0.68rem] font-semibold uppercase tracking-[0.08em] text-teal-deep">
+                  {POLE_LABELS[item.pole]}
+                </span>
+              )}
+              {item.eyebrow && (
+                <span class="text-[0.78rem] font-semibold uppercase tracking-[0.06em] text-ink-soft">
+                  {item.eyebrow}
+                </span>
+              )}
+            </div>
+
+            <h3 class="m-0 text-[1.2rem] leading-snug">
+              <a href={item.href} class="no-underline hover:underline">
+                {item.title}
+              </a>
+            </h3>
+
+            {item.description && <p class="m-0 text-[0.94rem] text-ink-soft">{item.description}</p>}
+            {item.meta && <p class="mt-auto pt-2 text-[0.86rem] text-ink-soft">{item.meta}</p>}
+          </div>
+        </li>
+      ))}
+    </ul>
+  )
+}

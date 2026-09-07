@@ -1,0 +1,121 @@
+{
+  "path": "/agenda/chur-mditant-nergisant-ouvert-toustes",
+  "slug": "agenda__chur-mditant-nergisant-ouvert-toustes",
+  "rootIsCollection": false,
+  "title": "Chœur méditant & énergisant : ouvert à tous.tes",
+  "metaDescription": "Profite de ce temps musical pour faire un break dans ta semaine, quitter tes préoccupations mentales, recharger ton énergie, et vibrer aux sons de chants venus du monde entier.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e0323745-b920-4fe0-ba2c-501c344de1b4/t1gakkhy8bjyatl1hmkq/public",
+  "ogTitle": "Chœur méditant & énergisant : ouvert à tous.tes",
+  "ogUrl": "https://www.les4sources.be/agenda/chur-mditant-nergisant-ouvert-toustes",
+  "canonical": null,
+  "h1": "Chœur méditant & énergisant : ouvert à tous.tes",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e0323745-b920-4fe0-ba2c-501c344de1b4/t1gakkhy8bjyatl1hmkq/public",
+    "localPath": "images/_shared/5eaebcfe8685-t1gakkhy8bjyatl1hmkq.jpg"
+  },
+  "pageIcon": "🗓️",
+  "properties": {
+    "Date": "2024-04-17",
+    "Thématique": "Ressourcement",
+    "Date (fr)": "17 avril 2024",
+    "Date de création": "Apr 3, 2024 1:14 PM",
+    "super:slug": "chœur-meditant-et-energisant-17-avril-2024"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "agenda-chur-mditant-nergisant-ouvert-toustes",
+    "blockId": "039ce251-6088-4cf9-8fb3-204d62ab33b7",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/agenda/chur-mditant-nergisant-ouvert-toustes",
+    "createdTime": "2024-04-03T13:14:51.021Z",
+    "lastEditedTime": "2024-08-17T16:53:46.747Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<h2 id=\"block-a8020195702a443c9c87d346e4e52c9d\" class=\"notion-heading notion-semantic-string\">Durant une soirée, mêle ta voix à celles des personnes présentes et découvre des chants à plusieurs voix.</h2><p id=\"block-0faeb239e83b4f339db09a9971814d28\" class=\"notion-text notion-text__content notion-semantic-string\">Profite de ce temps musical pour faire un break dans ta semaine, quitter tes préoccupations mentales, recharger ton énergie, et vibrer aux sons de chants venus du monde entier.</p><h1 id=\"block-770fbbdab4834c4a8e5aadde2065277d\" class=\"notion-heading notion-semantic-string\">En pratique</h1><ul class=\"notion-bulleted-list\"><li id=\"block-f5fd697b6e8142c38e8c83386416fa19\" class=\"notion-list-item notion-semantic-string\"><strong>Inscription nécessaire</strong>&nbsp;via le formulaire présent sur cette page</li><li id=\"block-d823d2655a484a6fa769802533c54fe8\" class=\"notion-list-item notion-semantic-string\"><strong>Tarif en conscience</strong></li><ul class=\"notion-bulleted-list\"><li id=\"block-6f1a2279dc7d471db9879d43263297cf\" class=\"notion-list-item notion-semantic-string\">Prix indicatif :&nbsp;</li><ul class=\"notion-bulleted-list\"><li id=\"block-9d224080cbed4c7a909844c27e363e62\" class=\"notion-list-item notion-semantic-string\">20€/personne pour une participation ponctuelle&nbsp;</li><li id=\"block-7e52d5dd20c84a9590de44aa9322b420\" class=\"notion-list-item notion-semantic-string\">15€/personne pour une participation régulière chaque mois</li></ul></ul><li id=\"block-1afa086ecc18461a9fc2a928206a71e4\" class=\"notion-list-item notion-semantic-string\"><strong>Pré-requis :&nbsp;</strong>aucun, juste l'élan de chanter</li><li id=\"block-d8d77b14861a4d8888da4a61c19ba3ce\" class=\"notion-list-item notion-semantic-string\"><strong>Au choix :</strong>&nbsp;venue ponctuelle ou régulière (chaque 3e mercredi du mois)</li></ul><h2 id=\"block-6ff375cac561433fa7d0e6aa609c00e8\" class=\"notion-heading notion-semantic-string\"><strong>À&nbsp;emporter avec toi</strong></h2><ul class=\"notion-bulleted-list\"><li id=\"block-2212ae4100f04438b23ebb5ae5b98282\" class=\"notion-list-item notion-semantic-string\">boissons/en-cas</li><li id=\"block-b2663972a29e47a286850c5fbc8c036a\" class=\"notion-list-item notion-semantic-string\">des vêtements confortables</li><li id=\"block-b12c53912f8145b6a938258c6cee6caa\" class=\"notion-list-item notion-semantic-string\">tapis, couverture, coussin/zafu pour être assis confortablement (peut être en extérieur par beau temps)</li><li id=\"block-b5f05557561548f5bae17d6ec487a934\" class=\"notion-list-item notion-semantic-string\">optionnel : de petites percussions (maracas, etc.)</li></ul><h1 id=\"block-030188095f554931be02c068a94071c0\" class=\"notion-heading notion-semantic-string\">Facilitatrice</h1><h2 id=\"block-d22355e1aedb4d4f8e98e86167675642\" class=\"notion-heading notion-semantic-string\"> </h2><div id=\"block-f90050008ad84b55b41576eeb8fe6287\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💁</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"><strong>Envie de loger sur place avant ou après l’événement ?</strong> Fais-nous part de ta demande à <a href=\"mailto:contact@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">contact@les4sources.be</a>.</span></div></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e0323745-b920-4fe0-ba2c-501c344de1b4/t1gakkhy8bjyatl1hmkq/public",
+      "alt": "Chœur méditant & énergisant : ouvert à tous.tes",
+      "role": "cover",
+      "localPath": "images/_shared/5eaebcfe8685-t1gakkhy8bjyatl1hmkq.jpg",
+      "shared": true,
+      "bytes": 112562
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "mailto:contact@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 142,
+  "fetchedAt": "2026-09-07T21:17:20.032Z",
+  "markdown": "### Durant une soirée, mêle ta voix à celles des personnes présentes et découvre des chants à plusieurs voix.\n\nProfite de ce temps musical pour faire un break dans ta semaine, quitter tes préoccupations mentales, recharger ton énergie, et vibrer aux sons de chants venus du monde entier.\n\n## En pratique\n\n- **Inscription nécessaire** via le formulaire présent sur cette page\n- **Tarif en conscience**\n\n- Prix indicatif : \n\n- 20€/personne pour une participation ponctuelle \n- 15€/personne pour une participation régulière chaque mois\n\n- **Pré-requis :** aucun, juste l'élan de chanter\n- **Au choix :** venue ponctuelle ou régulière (chaque 3e mercredi du mois)\n\n### **À emporter avec toi**\n\n- boissons/en-cas\n- des vêtements confortables\n- tapis, couverture, coussin/zafu pour être assis confortablement (peut être en extérieur par beau temps)\n- optionnel : de petites percussions (maracas, etc.)\n\n## Facilitatrice\n\n> 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [contact@les4sources.be](mailto:contact@les4sources.be).\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.233Z"
+}

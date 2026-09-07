@@ -1,0 +1,11 @@
+node_modules
+dist
+.output
+.astro
+.git
+.github
+.claude
+.agents
+*.log
+.DS_Store
+nginx-redirects.conf

@@ -1,0 +1,36 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import { primaryNav } from "@lib/nav";
+
+const nav = primaryNav();
+---
+
+<BaseLayout
+  title="Page introuvable"
+  description="Cette page des 4 Sources n'existe pas ou a été déplacée. Retrouvez les séjours, les activités, l'agenda et le collectif depuis les liens ci-dessous."
+  noindex={true}
+>
+  <PageHero
+    title="Cette page n'existe pas"
+    lead="Le lien est peut-être ancien, ou la page a changé d'adresse."
+  />
+
+  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
+    <p class="text-md text-ink-soft">Vous cherchiez sans doute l'une de ces pages :</p>
+    <ul class="mt-4 flex list-none flex-wrap gap-3 p-0">
+      {
+        nav.map((l) => (
+          <li>
+            <a
+              href={l.path}
+              class="inline-block rounded-md bg-teal-tint px-4 py-2 text-teal-deep no-underline hover:bg-sand"
+            >
+              {l.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</BaseLayout>

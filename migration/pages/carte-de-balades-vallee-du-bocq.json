@@ -1,0 +1,76 @@
+{
+  "path": "/carte-de-balades-vallee-du-bocq",
+  "slug": "carte-de-balades-vallee-du-bocq",
+  "rootIsCollection": false,
+  "title": "Carte de balades des 4 Sources",
+  "metaDescription": "Notre carte de balades permet de partir majoritairement des 4 Sources et de découvrir les forêts et paysages de la vallée du Bocq.",
+  "ogImage": "https://images.unsplash.com/photo-1546367564-ade1880f8921?ixlib=rb-4.1.0&cs=srgb",
+  "ogTitle": "Carte de balades des 4 Sources",
+  "ogUrl": "https://www.les4sources.be/carte-de-balades-vallee-du-bocq",
+  "canonical": null,
+  "h1": "Carte de balades des 4 Sources",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.unsplash.com/photo-1546367564-ade1880f8921?ixlib=rb-4.1.0&cs=srgb",
+    "localPath": "images/carte-de-balades-vallee-du-bocq/01-photo-1546367564-ade1880f8921.jpg"
+  },
+  "pageIcon": "🥾",
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "carte-de-balades-vallee-du-bocq",
+    "blockId": "1fe0d149-3317-8057-8711-f31ae449e5f5",
+    "parentId": "aaee8e6cac31408cad25d5a62f3e5a32",
+    "type": "page",
+    "uri": "/carte-de-balades-vallee-du-bocq",
+    "createdTime": "2025-05-25T21:46:45.708Z",
+    "lastEditedTime": "2026-05-29T08:31:40.528Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Carte de balades des 4 Sources",
+      "href": "/carte-de-balades-vallee-du-bocq",
+      "icon": "🥾"
+    }
+  ],
+  "contentHtml": "<p id=\"block-1fe0d149331780cf9351cb994917622c\" class=\"notion-text notion-text__content notion-semantic-string\">Notre carte de balades permet de partir majoritairement des 4 Sources et de découvrir les forêts et paysages de la vallée du Bocq.</p><div id=\"block-1fe0d14933178062b3d7fa31d436acce\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/27be022b-ce53-4fad-bccd-252c37c2e637/CleanShot_2025-05-25_at_23.49.202x/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/27be022b-ce53-4fad-bccd-252c37c2e637/CleanShot_2025-05-25_at_23.49.202x/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/27be022b-ce53-4fad-bccd-252c37c2e637/CleanShot_2025-05-25_at_23.49.202x/public\"></span></div><p id=\"block-1fe0d1493317804bb140eb1e555e8b83\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>À télécharger ici, et disponible sur place pour les giteurs :</strong></p><a id=\"block-1fe0d14933178037b2a6c471f48a1b92\" href=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/files/6b171c22-a3cf-4fa2-9617-25a1976a0cef/Carnet_de_balades_des_4_Sources_compressed.pdf\" class=\"notion-link notion-file\" target=\"_blank\" rel=\"noopener noreferrer\"><div><div class=\"notion-file__icon\"></div><div><span class=\"notion-file__title\">Carnet de balades des 4 Sources.pdf</span><span class=\"notion-file__size\">19369.0KB</span></div></div></a>",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1546367564-ade1880f8921?ixlib=rb-4.1.0&cs=srgb",
+      "alt": "Carte de balades des 4 Sources",
+      "role": "cover",
+      "localPath": "images/carte-de-balades-vallee-du-bocq/01-photo-1546367564-ade1880f8921.jpg",
+      "shared": false,
+      "bytes": 1895016
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/27be022b-ce53-4fad-bccd-252c37c2e637/CleanShot_2025-05-25_at_23.49.202x/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/carte-de-balades-vallee-du-bocq/02-CleanShot_2025-05-25_at_23.49.png",
+      "shared": false,
+      "bytes": 113224
+    }
+  ],
+  "embeds": [
+    {
+      "kind": "file",
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/files/6b171c22-a3cf-4fa2-9617-25a1976a0cef/Carnet_de_balades_des_4_Sources_compressed.pdf",
+      "title": "Carnet de balades des 4 Sources.pdf"
+    }
+  ],
+  "internalLinks": [],
+  "externalLinks": [
+    "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/files/6b171c22-a3cf-4fa2-9617-25a1976a0cef/Carnet_de_balades_des_4_Sources_compressed.pdf"
+  ],
+  "collections": [],
+  "wordCount": 38,
+  "fetchedAt": "2026-09-07T21:17:20.944Z",
+  "markdown": "Notre carte de balades permet de partir majoritairement des 4 Sources et de découvrir les forêts et paysages de la vallée du Bocq.\n\n![image](images/carte-de-balades-vallee-du-bocq/02-CleanShot_2025-05-25_at_23.49.png)\n\n**À télécharger ici, et disponible sur place pour les giteurs :**\n\n<!-- embed:file src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/files/6b171c22-a3cf-4fa2-9617-25a1976a0cef/Carnet_de_balades_des_4_Sources_compressed.pdf\" -->\n[Carnet de balades des 4 Sources.pdf (19369.0KB)](https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/files/6b171c22-a3cf-4fa2-9617-25a1976a0cef/Carnet_de_balades_des_4_Sources_compressed.pdf)\n",
+  "extractedAt": "2026-09-07T21:41:44.239Z"
+}

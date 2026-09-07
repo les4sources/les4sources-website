@@ -1,0 +1,86 @@
+{
+  "path": "/projets/disc-golf-attitude-yvoir",
+  "slug": "projets__disc-golf-attitude-yvoir",
+  "rootIsCollection": false,
+  "title": "Découvrir le disc-golf à Yvoir",
+  "metaDescription": "Envie de tester un sport en plein air accessible à tous, mêlant précision, stratégie et nature ? Venez jouer au disc-golf aux 4 Sources, à Yvoir, près de Namur !",
+  "ogImage": "https://images.unsplash.com/photo-1655161905949-3b5410c00e99?ixlib=rb-4.0.3&cs=srgb",
+  "ogTitle": "Découvrir le disc-golf à Yvoir",
+  "ogUrl": "https://www.les4sources.be/projets/disc-golf-attitude-yvoir",
+  "canonical": null,
+  "h1": "Découvrir le disc-golf à Yvoir",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.unsplash.com/photo-1655161905949-3b5410c00e99?ixlib=rb-4.0.3&cs=srgb",
+    "localPath": "images/projets__disc-golf-attitude-yvoir/01-photo-1655161905949-3b5410c00e99.jpg"
+  },
+  "pageIcon": null,
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "projets-disc-golf-attitude-yvoir",
+    "blockId": "bd55982c-7076-48b7-a216-14d7c88cf809",
+    "parentId": "projets",
+    "type": "page",
+    "uri": "/projets/disc-golf-attitude-yvoir",
+    "createdTime": "2024-05-28T08:35:13.215Z",
+    "lastEditedTime": "2025-03-16T22:14:07.322Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Nos projets",
+      "href": "/projets",
+      "icon": "⚙️"
+    },
+    {
+      "label": "Découvrir le disc-golf à Yvoir",
+      "href": "/projets/disc-golf-attitude-yvoir"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-1b80d14933178061aabfc04182a7d5d2\" class=\"notion-heading notion-semantic-string\">Envie de tester un sport en plein air accessible à tous, mêlant précision, stratégie et nature ? Venez jouer au <strong>disc-golf</strong> aux 4 Sources, à Yvoir, près de Namur !</h3><p id=\"block-1b80d14933178037807ade6b6ecf320f\" class=\"notion-text notion-text__content notion-semantic-string\">Nous avons la chance d’accueillir <strong>l’un des plus beaux parcours de disc-golf de Belgique</strong>, géré par le <strong>club </strong><a href=\"https://www.discgolfattitude.be\" class=\"notion-link link\" data-link-uri=\"https://www.discgolfattitude.be\">Disc-Golf Attitude</a>. Situé en pleine nature, notre terrain vallonné offre un cadre exceptionnel pour pratiquer ou découvrir ce sport.</p><div id=\"block-d9786f624de04c8b8ddef5f0151bc4e2\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f5a11b47-4656-4c7c-a44e-372eb0096d9b/photo-discgolf/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f5a11b47-4656-4c7c-a44e-372eb0096d9b/photo-discgolf/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f5a11b47-4656-4c7c-a44e-372eb0096d9b/photo-discgolf/public\"></span></div><h1 id=\"block-dcfd9218cb7745b3889afb19717ca76b\" class=\"notion-heading notion-semantic-string\">Un parcours exceptionnel</h1><p id=\"block-1b80d149331780dd8e0ec8eeeb22d8a2\" class=\"notion-text notion-text__content notion-semantic-string\">Le parcours se compose de <strong>18 trous</strong>, s’étendant sur <strong>2 kilomètres</strong> avec <strong>13% de dénivelé</strong>, offrant un défi aussi ludique que technique. Que vous soyez débutants ou joueurs confirmés, vous apprécierez la diversité du tracé et la beauté des paysages forestiers environnants.</p><div id=\"block-1b80d149331780f48241ca4cfaccd2a6\" class=\"notion-callout bg-yellow-light border\"><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"></span><p id=\"block-1b80d1493317809a9b7ae11d9e78a9b1\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Notre parcours se situe en zone privée\n</strong>Veuillez prendre contact avec le club Disc-Golf Attitude)&nbsp;avant de vous rendre sur place.</p></div></div><div id=\"block-36faafca43fb4deebf001b386119ec1c\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ee63a9b4-7f9a-4cc5-912b-e81578a2b916/disc-golf-attitude-ahinvaux/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ee63a9b4-7f9a-4cc5-912b-e81578a2b916/disc-golf-attitude-ahinvaux/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ee63a9b4-7f9a-4cc5-912b-e81578a2b916/disc-golf-attitude-ahinvaux/public\"></span></div><h1 id=\"block-c07da59b2a3146b481635fd0194f13d3\" class=\"notion-heading notion-semantic-string\">Initiation et perfectionnement</h1><p id=\"block-1b80d149331780169cceeb6334bfcf64\" class=\"notion-text notion-text__content notion-semantic-string\">Vous souhaitez vous initier en groupe au disc-golf ou améliorer votre lancer ? <strong>Des sessions d’initiation sont organisées</strong> par le club <strong>Disc-Golf Attitude</strong>, directement sur le parcours. C’est l’occasion idéale pour apprendre les bases du jeu et maîtriser vos lancers dans une ambiance conviviale.</p><p id=\"block-1b80d14933178035882dc0c230c23543\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Réserve votre initiation dès maintenant</strong> sur le site du club :</p><div><a href=\"https://www.discgolfattitude.be/reservation\" class=\"notion-link notion-page link-mention\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"notion-page__icon\"><img src=\"https://www.discgolfattitude.be/web/image/website/1/favicon?unique=7ea9436\" alt=\"Discgolf Attitude Réservation | Discgolf Attitude\" class=\"notion-icon\" data-full-size=\"https://www.discgolfattitude.be/web/image/website/1/favicon?unique=7ea9436\" data-lightbox-src=\"https://www.discgolfattitude.be/web/image/website/1/favicon?unique=7ea9436\"></span><span class=\"notion-page__title notion-semantic-string\"><span class=\"highlighted-color color-gray\">Discgolf Attitude </span>Réservation | Discgolf Attitude</span></a></div><p></p><h1 id=\"block-1b80d149331780ab8034e85088a17668\" class=\"notion-heading notion-semantic-string\">Accès et informations pratiques</h1><p id=\"block-1b80d1493317805bb7f4e146e81f9d07\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Lieu</strong> : Les 4 Sources / Domaine d’Ahinvaux, Yvoir</p><p id=\"block-1b80d14933178065b236c80ce8e33536\" class=\"notion-text notion-text__content notion-semantic-string\">→ à 20 minutes de Namur\n→ à 15 minutes de Dinant</p><p id=\"block-1b80d1493317806ea582cc574dcd58ca\" class=\"notion-text notion-text__content notion-semantic-string\">🗺️&nbsp;<a href=\"/a-propos/acces-ahinvaux\" class=\"notion-link link\" data-link-uri=\"/a-propos/acces-ahinvaux\">Accès aux 4 Sources</a></p><p id=\"block-1b80d1493317800ebc7eedc413db7eca\" class=\"notion-text notion-text__content notion-semantic-string\">🅿️ <strong>Parking sur place</strong></p><p id=\"block-1b80d149331780ce9422db2fe9f036b5\" class=\"notion-text notion-text__content notion-semantic-string\">🌳 <strong>Cadre naturel exceptionnel dans une clairière entourée de forêts</strong></p><p id=\"block-1b80d1493317802b92f6ecfffb897b4b\" class=\"notion-text notion-text__content notion-semantic-string\">Que vous soyez un passionné de disc-golf, un curieux souhaitant découvrir une nouvelle activité ou un groupe d’amis cherchant une sortie originale près de Namur, <strong>notre parcours vous attend !</strong></p><p id=\"block-1b80d1493317803f8a15d25e70214bf0\" class=\"notion-text notion-text__content notion-semantic-string\">N’hésitez pas à combiner votre partie de disc-golf avec <a href=\"/sejours/hebergements-yvoir\" class=\"notion-link link\" data-link-uri=\"/sejours/hebergements-yvoir\">une nuit en gîte ou en bivouac</a> aux 4 Sources pour une immersion totale en pleine nature.</p>",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1655161905949-3b5410c00e99?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Découvrir le disc-golf à Yvoir",
+      "role": "cover",
+      "localPath": "images/projets__disc-golf-attitude-yvoir/01-photo-1655161905949-3b5410c00e99.jpg",
+      "shared": false,
+      "bytes": 2185268
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f5a11b47-4656-4c7c-a44e-372eb0096d9b/photo-discgolf/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__disc-golf-attitude-yvoir/02-photo-discgolf.jpg",
+      "shared": false,
+      "bytes": 157820
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ee63a9b4-7f9a-4cc5-912b-e81578a2b916/disc-golf-attitude-ahinvaux/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__disc-golf-attitude-yvoir/03-disc-golf-attitude-ahinvaux.jpg",
+      "shared": false,
+      "bytes": 87567
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/a-propos/acces-ahinvaux",
+    "/sejours/hebergements-yvoir"
+  ],
+  "externalLinks": [
+    "https://www.discgolfattitude.be",
+    "https://www.discgolfattitude.be/reservation"
+  ],
+  "collections": [],
+  "wordCount": 281,
+  "fetchedAt": "2026-09-07T21:17:46.011Z",
+  "markdown": "#### Envie de tester un sport en plein air accessible à tous, mêlant précision, stratégie et nature ? Venez jouer au **disc-golf** aux 4 Sources, à Yvoir, près de Namur !\n\nNous avons la chance d’accueillir **l’un des plus beaux parcours de disc-golf de Belgique**, géré par le **club** [Disc-Golf Attitude](https://www.discgolfattitude.be). Situé en pleine nature, notre terrain vallonné offre un cadre exceptionnel pour pratiquer ou découvrir ce sport.\n\n![image](images/projets__disc-golf-attitude-yvoir/02-photo-discgolf.jpg)\n\n## Un parcours exceptionnel\n\nLe parcours se compose de **18 trous**, s’étendant sur **2 kilomètres** avec **13% de dénivelé**, offrant un défi aussi ludique que technique. Que vous soyez débutants ou joueurs confirmés, vous apprécierez la diversité du tracé et la beauté des paysages forestiers environnants.\n\n> **Notre parcours se situe en zone privée** Veuillez prendre contact avec le club Disc-Golf Attitude) avant de vous rendre sur place.\n\n![image](images/projets__disc-golf-attitude-yvoir/03-disc-golf-attitude-ahinvaux.jpg)\n\n## Initiation et perfectionnement\n\nVous souhaitez vous initier en groupe au disc-golf ou améliorer votre lancer ? **Des sessions d’initiation sont organisées** par le club **Disc-Golf Attitude**, directement sur le parcours. C’est l’occasion idéale pour apprendre les bases du jeu et maîtriser vos lancers dans une ambiance conviviale.\n\n**Réserve votre initiation dès maintenant** sur le site du club :\n\n[Discgolf Attitude Réservation | Discgolf Attitude](https://www.discgolfattitude.be/reservation)\n\n## Accès et informations pratiques\n\n**Lieu** : Les 4 Sources / Domaine d’Ahinvaux, Yvoir\n\n→ à 20 minutes de Namur → à 15 minutes de Dinant\n\n🗺️ [Accès aux 4 Sources](/a-propos/acces-ahinvaux)\n\n🅿️ **Parking sur place**\n\n🌳 **Cadre naturel exceptionnel dans une clairière entourée de forêts**\n\nQue vous soyez un passionné de disc-golf, un curieux souhaitant découvrir une nouvelle activité ou un groupe d’amis cherchant une sortie originale près de Namur, **notre parcours vous attend !**\n\nN’hésitez pas à combiner votre partie de disc-golf avec [une nuit en gîte ou en bivouac](/sejours/hebergements-yvoir) aux 4 Sources pour une immersion totale en pleine nature.\n",
+  "extractedAt": "2026-09-07T21:41:44.524Z"
+}

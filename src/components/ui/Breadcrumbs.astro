@@ -1,0 +1,33 @@
+---
+export interface Crumb {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  items: Crumb[];
+}
+
+const { items } = Astro.props;
+---
+
+<nav aria-label="Fil d'Ariane">
+  <ol class="m-0 flex list-none flex-wrap items-center gap-2 p-0 text-[0.78rem] font-semibold">
+    {
+      items.map((c, i) => (
+        <li class="flex items-center gap-2">
+          {c.href && i < items.length - 1 ? (
+            <a href={c.href} class="text-ink-soft no-underline hover:text-teal">
+              {c.label}
+            </a>
+          ) : (
+            <span class="text-teal" aria-current="page">
+              {c.label}
+            </span>
+          )}
+          {i < items.length - 1 && <span class="text-ink-soft/50" aria-hidden="true">›</span>}
+        </li>
+      ))
+    }
+  </ol>
+</nav>

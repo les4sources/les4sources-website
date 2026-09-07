@@ -1,0 +1,113 @@
+{
+  "path": "/sejours/sejours",
+  "slug": "sejours__sejours",
+  "rootIsCollection": false,
+  "title": "Un séjour aux 4 Sources",
+  "metaDescription": "Hébergements de groupes, chambres, salles, bivouac et compagnie. Tous nos tarifs s’y retrouvent.",
+  "ogImage": "https://images.unsplash.com/photo-1510018407610-ec28c7890e6d?ixlib=rb-4.0.3&cs=srgb",
+  "ogTitle": "Un séjour aux 4 Sources",
+  "ogUrl": "https://www.les4sources.be/sejours/sejours",
+  "canonical": null,
+  "h1": "Un séjour aux 4 Sources",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.unsplash.com/photo-1510018407610-ec28c7890e6d?ixlib=rb-4.0.3&cs=srgb",
+    "localPath": "images/sejours__sejours/01-photo-1510018407610-ec28c7890e6d.jpg"
+  },
+  "pageIcon": null,
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "sejours-sejours",
+    "blockId": "16f0d149-3317-8064-9a6c-d7c6fa11c3d4",
+    "parentId": "sejours",
+    "type": "page",
+    "uri": "/sejours/sejours",
+    "createdTime": "2025-01-02T14:34:35.332Z",
+    "lastEditedTime": "2026-08-20T10:45:11.794Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Séjours et locations",
+      "href": "/sejours",
+      "icon": "🏡"
+    },
+    {
+      "label": "Un séjour aux 4 Sources",
+      "href": "/sejours/sejours"
+    }
+  ],
+  "contentHtml": "<div id=\"block-32ec90b76b5140428cccfaffc47df9d5\" class=\"notion-callout bg-yellow-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💡</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour en savoir plus, pour poser une question au sujet de nos activités, pour demander le tarif pour ton groupe, une seule destination : <strong><a href=\"mailto:sejours@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">sejours@les4sources.be</a></strong><strong> 📬</strong></span></div></div><h1 id=\"block-16f0d14933178084a079c4d1320c30e3\" class=\"notion-heading notion-semantic-string\">Alors, envie de venir aux 4 Sources ?</h1><p id=\"block-16f0d1493317808c82c8d890521cb19c\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>👉 </strong><a href=\"https://formulaires.les4sources.be/sejour\" class=\"notion-link link\" data-link-uri=\"https://formulaires.les4sources.be/sejour\">Complète notre formulaire</a> pour nous envoyer une demande de réservation.</p><p id=\"block-16f0d149331780dea5e2c585a9e10c13\" class=\"notion-text notion-text__content notion-semantic-string\">Le formulaire, très complet, te permet de préciser tes besoins :<!-- --></p><p id=\"block-16f0d1493317803c83d0c29b6aa4777a\" class=\"notion-text notion-text__content notion-semantic-string\">✔️&nbsp;Hébergements\n✔️&nbsp;Salles et/ou cuisine professionnelle\n✔️&nbsp;Espace bivouac et/ou van aménagé\n✔️&nbsp;Activités\n✔️&nbsp;Repas préparés, boulangerie et pizza/camembert parties</p><div id=\"block-16f0d149331780beb2bed919b9b91b49\" class=\"notion-column-list\"><div id=\"block-16f0d1493317807cb401f282aa4801db\" class=\"notion-column\" data-width=\"50%\"><h2 id=\"block-16f0d14933178057b5fee30b858722ed\" class=\"notion-heading notion-semantic-string\"><a href=\"/sejours/tarifs\" class=\"notion-link link\" data-link-uri=\"/sejours/tarifs\">Tarifs</a></h2><div id=\"block-16f0d1493317800baea9c87de63cfe43\" class=\"notion-image align-start page-width\"><a class=\"notion-link\" href=\"/sejours/tarifs\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f78306fe-7616-42fa-af0c-37c2f51cc3d8/tarifs/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f78306fe-7616-42fa-af0c-37c2f51cc3d8/tarifs/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f78306fe-7616-42fa-af0c-37c2f51cc3d8/tarifs/public\"></span></a></div><p id=\"block-17f0d1493317805b933bf077bec33ac5\" class=\"notion-text notion-text__content notion-semantic-string\">Hébergements de groupes, chambres, salles, bivouac et compagnie. Tous nos tarifs s’y retrouvent.</p><div id=\"block-16f0d149331780d49624e72d7da04264\" class=\"notion-button\"><a class=\"notion-link notion-button__content\" href=\"/sejours/tarifs\"><span class=\"notion-semantic-string\">Tarifs des locations</span></a></div></div><div id=\"block-16f0d149331780718669f8c5c897e720\" class=\"notion-column\" data-width=\"50%\"><h2 id=\"block-16f0d149331780fab203d8f6a5025c86\" class=\"notion-heading notion-semantic-string\"><a href=\"/sejours/disponibilites\" class=\"notion-link link\" data-link-uri=\"/sejours/disponibilites\">Disponibilités</a></h2><div id=\"block-16f0d1493317809ba55ad87d486c8a38\" class=\"notion-image align-start page-width\"><a class=\"notion-link\" href=\"/sejours/disponibilites\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e4290159-7b10-4d35-9ae5-8fa682035c92/disponibilites/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e4290159-7b10-4d35-9ae5-8fa682035c92/disponibilites/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e4290159-7b10-4d35-9ae5-8fa682035c92/disponibilites/public\"></span></a></div><p id=\"block-17f0d1493317802eb0a6e99b3b94ee46\" class=\"notion-text notion-text__content notion-semantic-string\">Actuellement, tu y trouveras les disponibilités des hébergements de groupe. Pour le reste, le mieux est de nous contacter.</p><div id=\"block-16f0d149331780aba966ee8ba1756a42\" class=\"notion-button\"><a class=\"notion-link notion-button__content\" href=\"/sejours/disponibilites\"><span class=\"notion-semantic-string\">Disponibilités</span></a></div></div></div><div id=\"block-16f0d1493317804bacc8c696c104c6d1\" class=\"notion-column-list\"><div id=\"block-16f0d14933178081b2a2df464b70bdda\" class=\"notion-column\" data-width=\"50%\"><h2 id=\"block-16f0d149331780ed942be2e9863808e9\" class=\"notion-heading notion-semantic-string\"><a href=\"/activites\" class=\"notion-link link\" data-link-uri=\"/activites\">Activités</a></h2><div id=\"block-16f0d149331780049905de6307bb9f19\" class=\"notion-image align-start page-width\"><a class=\"notion-link\" href=\"/activites\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a9e1d73f-eab1-4c43-a4a8-96f86d4bc836/activites/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a9e1d73f-eab1-4c43-a4a8-96f86d4bc836/activites/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a9e1d73f-eab1-4c43-a4a8-96f86d4bc836/activites/public\"></span></a></div><p id=\"block-17f0d149331780028473faed003fa183\" class=\"notion-text notion-text__content notion-semantic-string\">Il y a tant à faire aux 4 Sources ! Y venir pour un séjour, c’est l’occasion d’expérimenter de nombreuses activités étonnantes.</p><div id=\"block-16f0d1493317803b8a40e9e409116880\" class=\"notion-button\"><a class=\"notion-link notion-button__content\" href=\"/activites\"><span class=\"notion-semantic-string\">Catalogue d'activités</span></a></div></div><div id=\"block-16f0d149331780199c27e94bc1bf87fe\" class=\"notion-column\" data-width=\"50%\"><h2 id=\"block-16f0d1493317803f9404c2639c036aef\" class=\"notion-heading notion-semantic-string\"><a href=\"/sejours/regles-du-lieu\" class=\"notion-link link\" data-link-uri=\"/sejours/regles-du-lieu\">Règles du lieu</a></h2><div id=\"block-16f0d149331780bfa419e1472666398a\" class=\"notion-image align-start page-width\"><a class=\"notion-link\" href=\"/sejours/regles-du-lieu\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6b40b2ff-cdff-492a-9911-d659a07b59fa/regles/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6b40b2ff-cdff-492a-9911-d659a07b59fa/regles/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6b40b2ff-cdff-492a-9911-d659a07b59fa/regles/public\"></span></a></div><p id=\"block-17f0d149331780308dadd9e3935f7df4\" class=\"notion-text notion-text__content notion-semantic-string\">Les 4 Sources sont un lieu de vie traversés par un sentier public. Voici les règles à suivre, notamment en matière de bruit.</p><div id=\"block-16f0d149331780fe80f6fee1b367eaeb\" class=\"notion-button\"><a class=\"notion-link notion-button__content\" href=\"/sejours/regles-du-lieu\"><span class=\"notion-semantic-string\">Règles du lieu</span></a></div></div></div><div id=\"block-16f0d149331780d9b710d672b83632a0\" class=\"notion-column-list\"><div id=\"block-73c54ab4ac6049b6b6344ad90a56d351\" class=\"notion-column\" data-width=\"50%\"><h2 id=\"block-16f0d149331780a582dbfe8dfb40a467\" class=\"notion-heading notion-semantic-string\"><a href=\"/sejours/conditions\" class=\"notion-link link\" data-link-uri=\"/sejours/conditions\">Conditions générales</a></h2><div id=\"block-16f0d149331780509f08c8e03dffa972\" class=\"notion-image align-start page-width\"><a class=\"notion-link\" href=\"/sejours/conditions\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/66c58a30-945e-4e0e-a447-21f1352dd70d/conditions/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/66c58a30-945e-4e0e-a447-21f1352dd70d/conditions/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/66c58a30-945e-4e0e-a447-21f1352dd70d/conditions/public\"></span></a></div><p id=\"block-17f0d149331780439baedfc461f0c445\" class=\"notion-text notion-text__content notion-semantic-string\">Nos conditions sont plutôt sympas, et il est toujours intéressant d’y passer pour une lecture en diagonale avant de réserver.</p><div id=\"block-16f0d149331780b8b936d4d0bcd2cc4a\" class=\"notion-button\"><a class=\"notion-link notion-button__content\" href=\"/sejours/conditions\"><span class=\"notion-semantic-string\">Conditions générales</span></a></div></div><div id=\"block-ff711bc57a844a049e7f48b54acab22c\" class=\"notion-column\" data-width=\"50%\"></div></div>",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1510018407610-ec28c7890e6d?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Un séjour aux 4 Sources",
+      "role": "cover",
+      "localPath": "images/sejours__sejours/01-photo-1510018407610-ec28c7890e6d.jpg",
+      "shared": false,
+      "bytes": 1304631
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f78306fe-7616-42fa-af0c-37c2f51cc3d8/tarifs/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours__sejours/02-tarifs.jpg",
+      "shared": false,
+      "bytes": 39811
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e4290159-7b10-4d35-9ae5-8fa682035c92/disponibilites/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours__sejours/03-disponibilites.jpg",
+      "shared": false,
+      "bytes": 43981
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a9e1d73f-eab1-4c43-a4a8-96f86d4bc836/activites/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours__sejours/04-activites.jpg",
+      "shared": false,
+      "bytes": 42709
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6b40b2ff-cdff-492a-9911-d659a07b59fa/regles/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours__sejours/05-regles.jpg",
+      "shared": false,
+      "bytes": 42833
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/66c58a30-945e-4e0e-a447-21f1352dd70d/conditions/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours__sejours/06-conditions.jpg",
+      "shared": false,
+      "bytes": 42774
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/sejour",
+    "/sejours/tarifs",
+    "/sejours/disponibilites",
+    "/activites",
+    "/sejours/regles-du-lieu",
+    "/sejours/conditions"
+  ],
+  "externalLinks": [
+    "mailto:sejours@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 175,
+  "fetchedAt": "2026-09-07T21:17:51.653Z",
+  "markdown": "> 💡 Pour en savoir plus, pour poser une question au sujet de nos activités, pour demander le tarif pour ton groupe, une seule destination : **[sejours@les4sources.be](mailto:sejours@les4sources.be)** **📬**\n\n## Alors, envie de venir aux 4 Sources ?\n\n**👉** [Complète notre formulaire](https://formulaires.les4sources.be/sejour) pour nous envoyer une demande de réservation.\n\nLe formulaire, très complet, te permet de préciser tes besoins :\n\n✔️ Hébergements ✔️ Salles et/ou cuisine professionnelle ✔️ Espace bivouac et/ou van aménagé ✔️ Activités ✔️ Repas préparés, boulangerie et pizza/camembert parties\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n### [Tarifs](/sejours/tarifs)\n\n![image](images/sejours__sejours/02-tarifs.jpg)\n\nHébergements de groupes, chambres, salles, bivouac et compagnie. Tous nos tarifs s’y retrouvent.\n\n[Tarifs des locations](/sejours/tarifs){.button}\n\n<!-- column width=\"50%\" -->\n\n### [Disponibilités](/sejours/disponibilites)\n\n![image](images/sejours__sejours/03-disponibilites.jpg)\n\nActuellement, tu y trouveras les disponibilités des hébergements de groupe. Pour le reste, le mieux est de nous contacter.\n\n[Disponibilités](/sejours/disponibilites){.button}\n<!-- /columns -->\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n### [Activités](/activites)\n\n![image](images/sejours__sejours/04-activites.jpg)\n\nIl y a tant à faire aux 4 Sources ! Y venir pour un séjour, c’est l’occasion d’expérimenter de nombreuses activités étonnantes.\n\n[Catalogue d'activités](/activites){.button}\n\n<!-- column width=\"50%\" -->\n\n### [Règles du lieu](/sejours/regles-du-lieu)\n\n![image](images/sejours__sejours/05-regles.jpg)\n\nLes 4 Sources sont un lieu de vie traversés par un sentier public. Voici les règles à suivre, notamment en matière de bruit.\n\n[Règles du lieu](/sejours/regles-du-lieu){.button}\n<!-- /columns -->\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n### [Conditions générales](/sejours/conditions)\n\n![image](images/sejours__sejours/06-conditions.jpg)\n\nNos conditions sont plutôt sympas, et il est toujours intéressant d’y passer pour une lecture en diagonale avant de réserver.\n\n[Conditions générales](/sejours/conditions){.button}\n<!-- /columns -->\n",
+  "extractedAt": "2026-09-07T21:41:44.567Z"
+}

@@ -1,0 +1,84 @@
+{
+  "path": "/collectif/stphanie-de-tige",
+  "slug": "collectif__stphanie-de-tige",
+  "rootIsCollection": false,
+  "title": "Stéphanie de Tiège",
+  "metaDescription": "Stéphanie est la boulangère - avec son projet Tranches de Vie - et la cuisinière des 4 Sources. Elle façonne des pains vivants et repas inspirants.",
+  "ogImage": null,
+  "ogTitle": "Stéphanie de Tiège",
+  "ogUrl": "https://www.les4sources.be/collectif/stphanie-de-tige",
+  "canonical": null,
+  "h1": "Stéphanie de Tiège",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Type": "Habitant·e"
+  },
+  "propertySchema": [
+    {
+      "id": "ew_Z",
+      "name": "Bio courte",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "rCb{",
+      "name": "Photo",
+      "type": "file",
+      "visibility": "show"
+    },
+    {
+      "id": "CPcu",
+      "name": "Type",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "collectif-stphanie-de-tige",
+    "blockId": "8b6e2f6a-a132-4bf5-afee-fbb0e6687d3f",
+    "parentId": "e93593be43cd488598c5226e7ba2b369",
+    "type": "page",
+    "uri": "/collectif/stphanie-de-tige",
+    "createdTime": "2024-04-03T13:50:12.282Z",
+    "lastEditedTime": "2026-07-12T16:23:00.096Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Collectif",
+      "href": "/collectif"
+    },
+    {
+      "label": "Stéphanie de Tiège",
+      "href": "/collectif/stphanie-de-tige"
+    }
+  ],
+  "contentHtml": "<div id=\"block-2720d1493317806896adcafcded9a1bc\" class=\"notion-column-list\"><div id=\"block-2720d1493317809cbe91d259c8e75055\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-2720d1493317805b8257c8dd48652e9e\" class=\"notion-text notion-text__content notion-semantic-string\">Stéphanie est la boulangère - avec son projet <em>Tranches de Vie</em> - et la cuisinière des 4 Sources. Elle façonne des pains vivants et repas inspirants.</p><p id=\"block-39b0d149331780cbb361e4809d55059f\" class=\"notion-text notion-text__content notion-semantic-string\">→ <a href=\"https://tranchesdevie.les4sources.be\" class=\"notion-link link\" data-link-uri=\"https://tranchesdevie.les4sources.be\">Tranches de Vie</a></p><p id=\"block-39b0d1493317802d8f82dea2994de154\" class=\"notion-text notion-text__content notion-semantic-string\">··· <a href=\"mailto:stephanie@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">stephanie@les4sources.be</a> </p></div><div id=\"block-2720d14933178090b6cbe603c83ca146\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2720d14933178093bb18f80381708ec6\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/300684f8-7e06-40d2-8edc-b2d9bcb129be/c52a7d16-33ad-45a6-830f-5870becf5c10/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/300684f8-7e06-40d2-8edc-b2d9bcb129be/c52a7d16-33ad-45a6-830f-5870becf5c10/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/300684f8-7e06-40d2-8edc-b2d9bcb129be/c52a7d16-33ad-45a6-830f-5870becf5c10/public\"></span></div></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/300684f8-7e06-40d2-8edc-b2d9bcb129be/c52a7d16-33ad-45a6-830f-5870becf5c10/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/collectif__stphanie-de-tige/01-c52a7d16-33ad-45a6-830f-5870becf5c10.png",
+      "shared": false,
+      "bytes": 255056
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [
+    "https://tranchesdevie.les4sources.be",
+    "mailto:stephanie@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 30,
+  "fetchedAt": "2026-09-07T21:17:29.145Z",
+  "markdown": "<!-- columns -->\n<!-- column width=\"50%\" -->\n\nStéphanie est la boulangère - avec son projet *Tranches de Vie* - et la cuisinière des 4 Sources. Elle façonne des pains vivants et repas inspirants.\n\n→ [Tranches de Vie](https://tranchesdevie.les4sources.be)\n\n··· [stephanie@les4sources.be](mailto:stephanie@les4sources.be)\n\n<!-- column width=\"50%\" -->\n\n![image](images/collectif__stphanie-de-tige/01-c52a7d16-33ad-45a6-830f-5870becf5c10.png)\n<!-- /columns -->\n",
+  "extractedAt": "2026-09-07T21:41:44.362Z"
+}

@@ -1,0 +1,64 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import Prose from "@components/ui/Prose.astro";
+import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
+import { siteData } from "@lib/data";
+import { byPath, visible, upcomingEvents, formatDate } from "@lib/content";
+import type { MergedEvent } from "@lib/claudy";
+
+/**
+ * /agenda — si la migration fournit une page éditoriale pour ce chemin, c'est
+ * elle qui est rendue (son texte fait foi) ; l'agenda des rendez-vous à venir
+ * est ajouté dessous. Sinon, la page se réduit à ce listing.
+ */
+const pages = visible(await getCollection("pages"));
+const entry = byPath(pages, "/agenda");
+const rendered = entry ? await render(entry) : undefined;
+const Content = rendered?.Content;
+
+const { events } = await siteData();
+const upcoming = upcomingEvents(events);
+
+const toCard = (e: MergedEvent): CardItem => ({
+  title: e.title,
+  href: e.path,
+  description: e.description || undefined,
+  eyebrow: formatDate(e.start),
+  meta: e.priceText,
+  icon: e.icon,
+  pole: e.pole,
+  image: e.image,
+});
+
+const title = entry?.data.title ?? "L'agenda des 4 Sources";
+const description =
+  entry?.data.description ??
+  "Tous les rendez-vous à venir aux 4 Sources, à Yvoir : événements, ateliers, stages et moments de vie collective.";
+---
+
+<BaseLayout
+  title={entry?.data.seoTitle ?? title}
+  description={description}
+  ogImage={entry?.data.cover ?? entry?.data.ogImage}
+  noindex={entry?.data.noindex ?? false}
+>
+  <PageHero
+    title={title}
+    lead={description}
+    cover={entry?.data.cover}
+    coverAlt={entry?.data.coverAlt}
+    icon={entry?.data.icon}
+    crumbs={[{ label: "Accueil", href: "/" }, { label: "L'agenda" }]}
+  />
+
+  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
+    {Content && <Prose><Content /></Prose>}
+
+    <section aria-labelledby="a-venir" class={Content ? "mt-14" : ""}>
+      <h2 id="a-venir" class="mb-6">Les prochains rendez-vous</h2>
+      <CardGrid items={upcoming.map(toCard)} empty="Aucun rendez-vous programmé pour le moment." />
+    </section>
+  </div>
+</BaseLayout>

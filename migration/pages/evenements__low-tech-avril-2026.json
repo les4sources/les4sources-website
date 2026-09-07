@@ -1,0 +1,213 @@
+{
+  "path": "/evenements/low-tech-avril-2026",
+  "slug": "evenements__low-tech-avril-2026",
+  "rootIsCollection": false,
+  "title": "🔥 COMPLET ! Low-tech : construis ta cuisinière",
+  "metaDescription": "Trois journées pour construire, comprendre et tester ta cuisinière, s’initier aux low-techs et au travail du métal. En avril 2026 aux 4 Sources à Yvoir.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8346b528-0be5-43dd-86d4-1a0ab5e6da1e/evenement_gnral__a_-5/public",
+  "ogTitle": "🔥 COMPLET ! Low-tech : construis ta cuisinière",
+  "ogUrl": "https://www.les4sources.be/evenements/low-tech-avril-2026",
+  "canonical": null,
+  "h1": "🔥 COMPLET ! Low-tech : construis ta cuisinière",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8346b528-0be5-43dd-86d4-1a0ab5e6da1e/evenement_gnral__a_-5/public",
+    "localPath": "images/evenements__low-tech-avril-2026/01-evenement_gnral__a_-5.jpg"
+  },
+  "pageIcon": "🍳",
+  "properties": {
+    "Date": "2026-04-09 → 2026-04-11",
+    "Horaires": "9h-18h",
+    "Type d'événement": "Formation",
+    "Thématique": "Artisanat",
+    "Date (fr)": "Du 9 au 11 avril 2026",
+    "Places disponibles": "6",
+    "Tarif": "€485.00",
+    "Date de création": "Jan 29, 2026 12:18 PM",
+    "Statut site web": "Publié",
+    "super:description": "Trois journées pour construire, comprendre et tester ta cuisinière, s’initier aux low-techs et au travail du métal. En avril 2026 aux 4 Sources à Yvoir.",
+    "super:slug": "low-tech-avril-2026"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-low-tech-avril-2026",
+    "blockId": "2f70d149-3317-80f4-8bc7-ef28c00d172b",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/low-tech-avril-2026",
+    "createdTime": "2026-01-29T12:18:45.324Z",
+    "lastEditedTime": "2026-04-04T09:57:22.244Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "🔥 COMPLET ! Low-tech : construis ta cuisinière",
+      "href": "/evenements/low-tech-avril-2026",
+      "icon": "🍳"
+    }
+  ],
+  "contentHtml": "<div id=\"block-3290d14933178035a173edda9e587a8b\" class=\"notion-callout bg-gray-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🔥</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"></span><p id=\"block-3290d149331780a0984aef0756651723\" class=\"notion-text notion-text__content notion-semantic-string\">Le stage est complet ! D’autres dates arriveront bientôt</p></div></div><h2 id=\"block-2f70d14933178053985effc70662bfdf\" class=\"notion-heading notion-semantic-string\"><strong>Trois journées - 9, 10 et 11 avril - pour construire et tester ta cuisinière, s’initier aux&nbsp;low-techs et au travail du métal.\n</strong></h2><ul class=\"notion-bulleted-list\"><li id=\"block-2f70d149331780a3ba15c62deec1600a\" class=\"notion-list-item notion-semantic-string\">Initiation à la soudure et à la construction métallique</li><li id=\"block-2f70d149331780b3baf3c951bb47ebb2\" class=\"notion-list-item notion-semantic-string\">Convivialité et repas : auberge espagnole le jeudi midi, pizza party le vendredi soir 🍕<!-- --></li></ul><p id=\"block-2f70d149331780e18d8ce94d3b755d76\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Tu repars avec ta propre cuisinière au terme des 3 journées d’apprentissage </strong>🔥</p><h2 id=\"block-2fd0d149331780438f43c14b0f69ff36\" class=\"notion-heading notion-semantic-string\">Choisis parmi 2 modèles de cuisinière </h2><div id=\"block-2fd0d149331780f69c35d17c53623721\" class=\"notion-column-list\"><div id=\"block-2fd0d14933178089b0e2fde08b22aac3\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2fd0d14933178009b20be85b642613d4\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/68e91568-f68f-4cb1-8a8e-49e418768cc3/_g0a6757_-1/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/68e91568-f68f-4cb1-8a8e-49e418768cc3/_g0a6757_-1/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/68e91568-f68f-4cb1-8a8e-49e418768cc3/_g0a6757_-1/public\"></span></div></div><div id=\"block-2fd0d1493317805c83b5c21912194087\" class=\"notion-column\" data-width=\"50%\"><h2 id=\"block-6ec4a55b0de44d5f8f7180a79d1fa588\" class=\"notion-heading notion-semantic-string\">👉🏻 La Bonbonne : u<strong>ne cuisinière réalisée au départ d'une bonbonne de gaz…\n</strong></h2><p id=\"block-2fd0d1493317805f9c41ec80fc559136\" class=\"notion-text notion-text__content notion-semantic-string\">Capot ouvert, elle permet de mettre à chauffer une grande casserole ou 2 petites. \nCapot fermé, elle se transforme en four d'un volume d'environ 15L, permettant d'utiliser les grands plats pour four standards (L 39cm, l 25 cm) </p></div></div><p id=\"block-2fd0d1493317803591c9eb9f9507dad7\" class=\"notion-text notion-text__content notion-semantic-string\">ou…</p><div id=\"block-2fd0d1493317802a8a0bf7a19fb57054\" class=\"notion-column-list\"><div id=\"block-2fd0d1493317801baf5cc2226672e6cd\" class=\"notion-column\" data-width=\"50%\"><h2 id=\"block-06724f649e664e0f8c80e1583d72f594\" class=\"notion-heading notion-semantic-string\">👉🏻 La Nomade : u<strong>ne cuisinière compacte. </strong></h2><p id=\"block-2fd0d149331780779f99fb14779c0bf9\" class=\"notion-text notion-text__content notion-semantic-string\">\nElle permet de réchauffer simultanément : sur le dessus, une petite casserole, et dans le tiroir four, un petit plat pour four standard (L 27cm, l 17 cm). Sa compacité permet de la déplacer facilement.</p></div><div id=\"block-2fd0d1493317802ab4a8daa8c203a35e\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2fd0d149331780db98f8e85d71487cb2\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b1246926-5f05-4527-a079-70c3f05eb68b/_g0a6765/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b1246926-5f05-4527-a079-70c3f05eb68b/_g0a6765/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b1246926-5f05-4527-a079-70c3f05eb68b/_g0a6765/public\"></span></div></div></div><p id=\"block-ef49040b4c2847aea4de3b7c2537a094\" class=\"notion-text notion-text__content notion-semantic-string\">💡 Ces 2 modèles disposent d'un four et permettent d'utiliser votre batterie de cuisine habituelle sans les noircir (pas de contact entre la flamme et les casseroles).</p><h2 id=\"block-2f70d1493317802e811be14ae59e5035\" class=\"notion-heading notion-semantic-string\">Participation</h2><p id=\"block-2f70d1493317804e9ae2d91e84ee42b9\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>485 € pour les trois journées</strong>, tout compris :</p><ul class=\"notion-bulleted-list\"><li id=\"block-2f70d149331780e6a1e9dab58373ce10\" class=\"notion-list-item notion-semantic-string\">l’encadrement et l’accompagnement par 2 artisans en ferronnerie et menuiserie ⚡</li><li id=\"block-2f70d14933178017a852c09c5099870e\" class=\"notion-list-item notion-semantic-string\">les 2 nuitées aux 4 Sources 💫</li><li id=\"block-2f70d149331780b0a5ddf3cdcaf3f8fb\" class=\"notion-list-item notion-semantic-string\">les repas frais préparés par la Cuisine des 4 Sources et la Pizza Party  🥪</li><li id=\"block-2f70d149331780fc8762d0a8158e70e7\" class=\"notion-list-item notion-semantic-string\">les collations 🥠 le café et la tisane à volonté 🍵</li><li id=\"block-2f70d149331780a4b6dffd48a16e08d3\" class=\"notion-list-item notion-semantic-string\">les fournitures pour ta cuisinière 🔨</li></ul><div id=\"block-2f70d14933178094bf91d3c74296e132\" class=\"notion-column-list\"><div id=\"block-2f70d149331780dc85c5d59e0cafb754\" class=\"notion-column\" data-width=\"50%\"><blockquote id=\"block-2f70d149331780f49384cc8be69b0f92\" class=\"notion-quote\"><span class=\"notion-semantic-string\"><em>Un tout grand merci pour l'invitation, la préparation, l'apprentissage, les échanges et l'ambiance ! C'est une réussite tant pour la fabrication d'un réchaud au bois portatif que pour le remue-méninge du low-tech. Merci aussi aux \"étudiants\" pour la bonne ambiance de travail et d'échanges.</em></span><p id=\"block-2f70d14933178028aee0e3b8aa2213a1\" class=\"notion-text notion-text__content notion-semantic-string\"><em>À nous de propager au mieux les connaissances et l'esprit de cette rencontre.\n\n</em>— André, (heureux) participant au stage du Réchaud Rocket Stove, octobre 2025</p></blockquote></div><div id=\"block-2f70d14933178007a009f81068c7963d\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2f70d149331780e2b421cc8f98fd6e48\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/41e82ec7-ad4e-4dae-92ad-07deba1c47a3/img-20250316-wa0010/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/41e82ec7-ad4e-4dae-92ad-07deba1c47a3/img-20250316-wa0010/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/41e82ec7-ad4e-4dae-92ad-07deba1c47a3/img-20250316-wa0010/public\"></span></div><p id=\"block-2f70d149331780159110efde66a575b5\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Café, tisane, fruits et biscuits !</strong></p></div></div><h2 id=\"block-2f70d149331780ef8a7ddbbbb01f9679\" class=\"notion-heading notion-semantic-string\">Inscription</h2><div id=\"block-2fd0d149331780fc982ae48d7a35611d\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/low-tech-cuisiniere\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🤩</span></div><span class=\"notion-semantic-string\">ça a l'air super, je prends ma place !</span></a></div><h2 id=\"block-2f70d14933178075adb4e8f9de13140d\" class=\"notion-heading notion-semantic-string\">Hébergement</h2><div id=\"block-2f70d1493317804cb0cad3c4817a1773\" class=\"notion-column-list\"><div id=\"block-2f70d149331780b19263c217ad2c3209\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2f70d149331780b187befe07d1e033be\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6a5f58ec-611e-49d3-9ded-26f474a43361/_g0a2772/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6a5f58ec-611e-49d3-9ded-26f474a43361/_g0a2772/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6a5f58ec-611e-49d3-9ded-26f474a43361/_g0a2772/public\"></span></div></div><div id=\"block-2f70d1493317805c8e90ca34eb647f3f\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-2f70d1493317804f9fb2da68130aeab1\" class=\"notion-text notion-text__content notion-semantic-string\">Tu logeras en chambre partagée aux 4 Sources avec l’ensemble du groupe, l’idéal pour faire connaissance et continuer à partager des idées et connaissances jusqu’en soirée.</p><p id=\"block-2f70d149331780b9ab5fc03fd4aa36f5\" class=\"notion-text notion-text__content notion-semantic-string\">L’hébergement comprend 2 chambres de 4 lits (prévois tes draps de lit), avec une salle de douche par chambre.</p></div></div><h2 id=\"block-2f70d1493317804d922adb56ffc40a1e\" class=\"notion-heading notion-semantic-string\">Repas</h2><div id=\"block-2f70d1493317807fb15ccdd633dd5572\" class=\"notion-column-list\"><div id=\"block-2f70d1493317804db9d4cd63d2e7b6e4\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2f70d149331780af83f1da9f9c493c2e\" class=\"notion-image align-start normal\"><img src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c293c7d0-7e06-4ade-96be-5c25637147e6/img-20250316-wa0016/public\" alt=\"image\" data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c293c7d0-7e06-4ade-96be-5c25637147e6/img-20250316-wa0016/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c293c7d0-7e06-4ade-96be-5c25637147e6/img-20250316-wa0016/public\"></div></div><div id=\"block-2f70d14933178098b7f8e6791a743e55\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-2f70d14933178041949cfaec47c2617e\" class=\"notion-text notion-text__content notion-semantic-string\">En dehors de l’auberge espagnole et de la Pizza Party, les repas sont végétariens et préparés par Stéphanie dans la Cuisine des 4 Sources. Des produits ultra-frais, des plats colorés et du bon pain, que demander de plus ? Mais oui bien sûr : une délicieuse collation pour le milieu d’après-midi ! 🙂</p></div></div><h2 id=\"block-2f70d14933178082ba5ddcfb64527c71\" class=\"notion-heading notion-semantic-string\">En pratique</h2><p id=\"block-2f70d149331780eeb0eace2f5a8499f4\" class=\"notion-text notion-text__content notion-semantic-string\">👥 Maximum 6 participants</p><div id=\"block-2f70d14933178086845cf405086b8079\" class=\"notion-text\"><p class=\"notion-text__content notion-semantic-string\">⏰ Horaire des journées :</p><div class=\"notion-text__children\"><ul class=\"notion-bulleted-list\"><li id=\"block-2f70d149331780038684dee4e4807479\" class=\"notion-list-item notion-semantic-string\">Le jeudi de 9h à 18h</li><li id=\"block-2f70d149331780c7921bef56fcfb526c\" class=\"notion-list-item notion-semantic-string\">Le vendredi de 9h à 18h</li><li id=\"block-2f70d1493317809d9d72d8b2c602a1f0\" class=\"notion-list-item notion-semantic-string\">Le samedi de 9h à 18h</li></ul></div></div><div id=\"block-2f70d14933178047ab72e6a51003e62f\" class=\"notion-text\"><p class=\"notion-text__content notion-semantic-string\">🧳 À prévoir :</p><div class=\"notion-text__children\"><ul class=\"notion-bulleted-list\"><li id=\"block-2f70d149331780759745db6ac39141fb\" class=\"notion-list-item notion-semantic-string\">Un plat à partager pour l’auberge espagnole du jeudi midi 🧀</li><li id=\"block-2f70d149331780baab7efefcc83eeb18\" class=\"notion-list-item notion-semantic-string\">Des vêtements adaptés à la météo ☔</li><li id=\"block-2f70d149331780eca59df28fa9d8532f\" class=\"notion-list-item notion-semantic-string\">Ton set de draps de lit pour un lit simple 🛌🏻</li><li id=\"block-2f70d1493317805bafb6ed209a2a7370\" class=\"notion-list-item notion-semantic-string\">Une boisson sympa à partager jeudi soir 🧉</li></ul></div></div><div id=\"block-2f70d149331780618301d79750643313\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/504f9863-833d-4ecf-9770-877905c35a96/img-20250316-wa0014/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/504f9863-833d-4ecf-9770-877905c35a96/img-20250316-wa0014/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/504f9863-833d-4ecf-9770-877905c35a96/img-20250316-wa0014/public\"></span></div><h2 id=\"block-2f70d149331780289556f7a03881c1e9\" class=\"notion-heading notion-semantic-string\">L’équipe</h2><p id=\"block-2f70d149331780bba760efe1e5dbf951\" class=\"notion-text notion-text__content notion-semantic-string\">2 artisan-es passionné-es par la ferronnerie et les low-techs, qui ont la transmission dans le sang !</p><div id=\"block-2f70d149331780a3bccdf8253d81926e\" class=\"notion-column-list\"><div id=\"block-2f70d1493317800c9597fdda81f70c73\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2f70d149331780da95c1f479dfba66b8\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0e80bdfd-76ab-4328-ab39-74583e5de6dc/74191f63-70e2-4cf4-a526-cbfcc252d05d/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0e80bdfd-76ab-4328-ab39-74583e5de6dc/74191f63-70e2-4cf4-a526-cbfcc252d05d/public\"><img alt=\"Sebastien, membre des 4 Sources\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0e80bdfd-76ab-4328-ab39-74583e5de6dc/74191f63-70e2-4cf4-a526-cbfcc252d05d/public\"></span><figcaption class=\"notion-caption notion-semantic-string\">Sebastien, membre des 4 Sources</figcaption></div></div><div id=\"block-2f70d1493317809f91acff05dda52af1\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2f70d149331780139b65d78c4f7fde89\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/996e774d-e98c-461c-afae-37061a6724da/20241123_170855_AFBE6ED6/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/996e774d-e98c-461c-afae-37061a6724da/20241123_170855_AFBE6ED6/public\"><img alt=\"Magali, membre des 4 Sources\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/996e774d-e98c-461c-afae-37061a6724da/20241123_170855_AFBE6ED6/public\"></span><figcaption class=\"notion-caption notion-semantic-string\">Magali, membre des 4 Sources</figcaption></div></div></div><h2 id=\"block-2f70d149331780e2a4e3debcd3b865e0\" class=\"notion-heading notion-semantic-string\">Plus d’infos ?</h2><p id=\"block-2f70d14933178028988fdadc7cf040fe\" class=\"notion-text notion-text__content notion-semantic-string\">N’hésite pas à prendre contact avec Sébastien Frennet, facilitateur des Ateliers Low-Tech des 4 Sources.</p><p id=\"block-2f70d149331780409ffac04fe2fc9f58\" class=\"notion-text notion-text__content notion-semantic-string\">📞 Tél : 0471 59 11 20\n📬&nbsp;E-mail : <a href=\"mailto:seb@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">seb@les4sources.be</a> </p><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8346b528-0be5-43dd-86d4-1a0ab5e6da1e/evenement_gnral__a_-5/public",
+      "alt": "🔥 COMPLET ! Low-tech : construis ta cuisinière",
+      "role": "cover",
+      "localPath": "images/evenements__low-tech-avril-2026/01-evenement_gnral__a_-5.jpg",
+      "shared": false,
+      "bytes": 119113
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/68e91568-f68f-4cb1-8a8e-49e418768cc3/_g0a6757_-1/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__low-tech-avril-2026/02-_g0a6757_-1.jpg",
+      "shared": false,
+      "bytes": 57013
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b1246926-5f05-4527-a079-70c3f05eb68b/_g0a6765/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__low-tech-avril-2026/03-_g0a6765.jpg",
+      "shared": false,
+      "bytes": 54079
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/41e82ec7-ad4e-4dae-92ad-07deba1c47a3/img-20250316-wa0010/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/33d5cc562b03-img-20250316-wa0010.jpg",
+      "shared": true,
+      "bytes": 281155
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6a5f58ec-611e-49d3-9ded-26f474a43361/_g0a2772/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__low-tech-avril-2026/05-_g0a2772.jpg",
+      "shared": false,
+      "bytes": 102421
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c293c7d0-7e06-4ade-96be-5c25637147e6/img-20250316-wa0016/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__low-tech-avril-2026/06-img-20250316-wa0016.jpg",
+      "shared": false,
+      "bytes": 243464
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/504f9863-833d-4ecf-9770-877905c35a96/img-20250316-wa0014/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__low-tech-avril-2026/07-img-20250316-wa0014.jpg",
+      "shared": false,
+      "bytes": 263768
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0e80bdfd-76ab-4328-ab39-74583e5de6dc/74191f63-70e2-4cf4-a526-cbfcc252d05d/public",
+      "alt": "Sebastien, membre des 4 Sources",
+      "role": "content",
+      "localPath": "images/evenements__low-tech-avril-2026/08-74191f63-70e2-4cf4-a526-cbfcc252d05d.png",
+      "shared": false,
+      "bytes": 305922
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/996e774d-e98c-461c-afae-37061a6724da/20241123_170855_AFBE6ED6/public",
+      "alt": "Magali, membre des 4 Sources",
+      "role": "content",
+      "localPath": "images/_shared/1786d19c9135-20241123_170855_AFBE6ED6.jpg",
+      "shared": true,
+      "bytes": 101502
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.billetweb.fr/low-tech-cuisiniere",
+    "mailto:seb@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 541,
+  "fetchedAt": "2026-09-07T21:17:37.880Z",
+  "markdown": "> 🔥 Le stage est complet ! D’autres dates arriveront bientôt\n\n### **Trois journées - 9, 10 et 11 avril - pour construire et tester ta cuisinière, s’initier aux low-techs et au travail du métal.**\n\n- Initiation à la soudure et à la construction métallique\n- Convivialité et repas : auberge espagnole le jeudi midi, pizza party le vendredi soir 🍕\n\n**Tu repars avec ta propre cuisinière au terme des 3 journées d’apprentissage** 🔥\n\n### Choisis parmi 2 modèles de cuisinière\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/evenements__low-tech-avril-2026/02-_g0a6757_-1.jpg)\n\n<!-- column width=\"50%\" -->\n\n### 👉🏻 La Bonbonne : u**ne cuisinière réalisée au départ d'une bonbonne de gaz…**\n\nCapot ouvert, elle permet de mettre à chauffer une grande casserole ou 2 petites. Capot fermé, elle se transforme en four d'un volume d'environ 15L, permettant d'utiliser les grands plats pour four standards (L 39cm, l 25 cm)\n<!-- /columns -->\n\nou…\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n### 👉🏻 La Nomade : u**ne cuisinière compacte.**\n\nElle permet de réchauffer simultanément : sur le dessus, une petite casserole, et dans le tiroir four, un petit plat pour four standard (L 27cm, l 17 cm). Sa compacité permet de la déplacer facilement.\n\n<!-- column width=\"50%\" -->\n\n![image](images/evenements__low-tech-avril-2026/03-_g0a6765.jpg)\n<!-- /columns -->\n\n💡 Ces 2 modèles disposent d'un four et permettent d'utiliser votre batterie de cuisine habituelle sans les noircir (pas de contact entre la flamme et les casseroles).\n\n### Participation\n\n**485 € pour les trois journées**, tout compris :\n\n- l’encadrement et l’accompagnement par 2 artisans en ferronnerie et menuiserie ⚡\n- les 2 nuitées aux 4 Sources 💫\n- les repas frais préparés par la Cuisine des 4 Sources et la Pizza Party 🥪\n- les collations 🥠 le café et la tisane à volonté 🍵\n- les fournitures pour ta cuisinière 🔨\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n> *Un tout grand merci pour l'invitation, la préparation, l'apprentissage, les échanges et l'ambiance ! C'est une réussite tant pour la fabrication d'un réchaud au bois portatif que pour le remue-méninge du low-tech. Merci aussi aux \"étudiants\" pour la bonne ambiance de travail et d'échanges.*\n>\n> *À nous de propager au mieux les connaissances et l'esprit de cette rencontre.* — André, (heureux) participant au stage du Réchaud Rocket Stove, octobre 2025\n\n<!-- column width=\"50%\" -->\n\n![image](images/_shared/33d5cc562b03-img-20250316-wa0010.jpg)\n\n**Café, tisane, fruits et biscuits !**\n<!-- /columns -->\n\n### Inscription\n\n[🤩 ça a l'air super, je prends ma place !](https://www.billetweb.fr/low-tech-cuisiniere){.button}\n\n### Hébergement\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/evenements__low-tech-avril-2026/05-_g0a2772.jpg)\n\n<!-- column width=\"50%\" -->\n\nTu logeras en chambre partagée aux 4 Sources avec l’ensemble du groupe, l’idéal pour faire connaissance et continuer à partager des idées et connaissances jusqu’en soirée.\n\nL’hébergement comprend 2 chambres de 4 lits (prévois tes draps de lit), avec une salle de douche par chambre.\n<!-- /columns -->\n\n### Repas\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/evenements__low-tech-avril-2026/06-img-20250316-wa0016.jpg)\n\n<!-- column width=\"50%\" -->\n\nEn dehors de l’auberge espagnole et de la Pizza Party, les repas sont végétariens et préparés par Stéphanie dans la Cuisine des 4 Sources. Des produits ultra-frais, des plats colorés et du bon pain, que demander de plus ? Mais oui bien sûr : une délicieuse collation pour le milieu d’après-midi ! 🙂\n<!-- /columns -->\n\n### En pratique\n\n👥 Maximum 6 participants\n\n⏰ Horaire des journées :\n\n- Le jeudi de 9h à 18h\n- Le vendredi de 9h à 18h\n- Le samedi de 9h à 18h\n\n🧳 À prévoir :\n\n- Un plat à partager pour l’auberge espagnole du jeudi midi 🧀\n- Des vêtements adaptés à la météo ☔\n- Ton set de draps de lit pour un lit simple 🛌🏻\n- Une boisson sympa à partager jeudi soir 🧉\n\n![image](images/evenements__low-tech-avril-2026/07-img-20250316-wa0014.jpg)\n\n### L’équipe\n\n2 artisan-es passionné-es par la ferronnerie et les low-techs, qui ont la transmission dans le sang !\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![Sebastien, membre des 4 Sources](images/evenements__low-tech-avril-2026/08-74191f63-70e2-4cf4-a526-cbfcc252d05d.png)\n*Sebastien, membre des 4 Sources*\n\n<!-- column width=\"50%\" -->\n\n![Magali, membre des 4 Sources](images/_shared/1786d19c9135-20241123_170855_AFBE6ED6.jpg)\n*Magali, membre des 4 Sources*\n<!-- /columns -->\n\n### Plus d’infos ?\n\nN’hésite pas à prendre contact avec Sébastien Frennet, facilitateur des Ateliers Low-Tech des 4 Sources.\n\n📞 Tél : 0471 59 11 20 📬 E-mail : [seb@les4sources.be](mailto:seb@les4sources.be)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.432Z"
+}

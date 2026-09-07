@@ -1,0 +1,145 @@
+{
+  "path": "/evenements/choeur-meditant-et-energisant-ouvert-a-tous-tes-19-juin-2024",
+  "slug": "evenements__choeur-meditant-et-energisant-ouvert-a-tous-tes-19-juin-2024",
+  "rootIsCollection": false,
+  "title": "Choeur méditant & énergisant : ouvert à tous.tes",
+  "metaDescription": "Rejoins-nous pour une soirée de chants à plusieurs voix et ressource-toi en musique. Inscris-toi dès maintenant via le formulaire Punchpass. Tarif en conscience. Pas de pré-requis. À emporter : boissons, chaussures confortables. Facilité par Claire des 4 Sources.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a92a81b1-c0e3-4694-b526-8e324110244b/IMG_5125/public",
+  "ogTitle": "Choeur méditant & énergisant : ouvert à tous.tes",
+  "ogUrl": "https://www.les4sources.be/evenements/choeur-meditant-et-energisant-ouvert-a-tous-tes-19-juin-2024",
+  "canonical": null,
+  "h1": "Choeur méditant & énergisant : ouvert à tous.tes",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a92a81b1-c0e3-4694-b526-8e324110244b/IMG_5125/public",
+    "localPath": "images/evenements__choeur-meditant-et-energisant-ouvert-a-tous-tes-19-juin-2024/01-IMG_5125.jpg"
+  },
+  "pageIcon": null,
+  "properties": {
+    "Date": "2024-06-19",
+    "Horaires": "19h45-21h30",
+    "Type d'événement": "Musique",
+    "Thématique": "Ressourcement",
+    "Date (fr)": "19 juin 2024",
+    "Date de création": "Jun 5, 2024 8:41 PM",
+    "Statut site web": "Publié",
+    "super:description": "Rejoins-nous pour une soirée de chants à plusieurs voix et ressource-toi en musique. Inscris-toi dès maintenant via le formulaire Punchpass. Tarif en conscience. Pas de pré-requis. À emporter : boissons, chaussures confortables. Facilité par Claire des 4 Sources.",
+    "super:slug": "choeur-meditant-et-energisant-ouvert-a-tous-tes-19-juin-2024"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-choeur-meditant-et-energisant-ouvert-a-tous-tes-19-juin-2024",
+    "blockId": "ccd227a7-d43f-4bd4-8301-e4e3bc0cd26f",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/choeur-meditant-et-energisant-ouvert-a-tous-tes-19-juin-2024",
+    "createdTime": "2024-06-05T20:41:36.503Z",
+    "lastEditedTime": "2026-01-29T11:14:38.468Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements"
+    },
+    {
+      "label": "Choeur méditant & énergisant : ouvert à tous.tes",
+      "href": "/evenements/choeur-meditant-et-energisant-ouvert-a-tous-tes-19-juin-2024"
+    }
+  ],
+  "contentHtml": "<p id=\"block-55ba6e4a976e44a1afaba4019f215504\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Passons ensemble une soirée à chanter 🎶</strong></p><p id=\"block-7b9fac96d8374471bf9e3535654e672c\" class=\"notion-text notion-text__content notion-semantic-string\">Durant une soirée, mêle ta voix à celles des personnes présentes et découvre des chants à plusieurs voix.</p><p id=\"block-f01e467fc7be49579a58f7bdb25e1a2f\" class=\"notion-text notion-text__content notion-semantic-string\">Profite de ce temps musical pour faire un break dans ta semaine, quitter tes préoccupations mentales, recharger ton énergie, et vibrer aux sons de chants venus du monde entier.</p><h1 id=\"block-cf657eb62c984bf2a03c8529d3e40dab\" class=\"notion-heading notion-semantic-string\">En pratique</h1><ul class=\"notion-bulleted-list\"><li id=\"block-c50e71eac03c452fb2bd93f0e5c3801c\" class=\"notion-list-item notion-semantic-string\"><strong>Inscription nécessaire</strong>&nbsp;<a href=\"https://les4sources.punchpass.com/classes/14001486?embed=true\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">via le formulaire Punchpass</a></li><li id=\"block-fea1bd0f3e92493483c7ea020074c4b2\" class=\"notion-list-item notion-semantic-string\"><strong>Tarif en conscience</strong></li><ul class=\"notion-bulleted-list\"><li id=\"block-b37aad4c6c474974ad46999bed63b46d\" class=\"notion-list-item notion-semantic-string\">Prix indicatif : 20€/personne pour une participation ponctuelle, 15€/personne pour une participation régulière chaque mois</li></ul><li id=\"block-afdfe0f11f3f46429720f133364877e9\" class=\"notion-list-item notion-semantic-string\"><strong>Pré-requis :&nbsp;</strong>aucun, juste l'élan de chanter</li><li id=\"block-7cb62b87ff1c450fa2f29ed1944965b7\" class=\"notion-list-item notion-semantic-string\"><strong>Au choix :</strong>&nbsp;venue ponctuelle ou régulière (chaque 3ème mercredi du mois)</li></ul><h3 id=\"block-52270a50dbb04ac38ff891f8c85413c0\" class=\"notion-heading notion-semantic-string\"><strong>À&nbsp;emporter avec toi</strong></h3><ul class=\"notion-bulleted-list\"><li id=\"block-d2ebb5aaf579420f85a47f6271ad32c9\" class=\"notion-list-item notion-semantic-string\">boissons/encas</li><li id=\"block-e39e1f8087f24a07990b725626761f26\" class=\"notion-list-item notion-semantic-string\">chaussures/chausson et vêtements confortables (événement exceptionnellement en extérieur si la météo le permet donc prévois des vêtements et chaussures adaptés à la météo au cas où)</li><li id=\"block-61acc28e0b31452cb85eeddb2c1986c4\" class=\"notion-list-item notion-semantic-string\">tapis, couverture, coussin/zafu pour être assis confortablement (peut-être en extérieur par beau temps)</li><li id=\"block-24069edd52b04fdda0aacc22f8fff7ef\" class=\"notion-list-item notion-semantic-string\">optionnel : de petites percussions (maracas, etc.)</li></ul><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div><h1 id=\"block-8d760f4bd9ce4dac90898fede23e8e88\" class=\"notion-heading notion-semantic-string\">Facilitateur·rice</h1><p id=\"block-3aa0a9d14f4c44e0b095e56f9b1548fb\" class=\"notion-text notion-text__content notion-semantic-string\">Facilité par Claire, membre des 4 Sources</p><div id=\"block-d7b35c1d3145456fb43212ce7390e71d\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💁</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"><strong>Envie de loger sur place avant ou après l’événement ?</strong> Fais-nous part de ta demande à <a href=\"mailto:contact@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">contact@les4sources.be</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a92a81b1-c0e3-4694-b526-8e324110244b/IMG_5125/public",
+      "alt": "Choeur méditant & énergisant : ouvert à tous.tes",
+      "role": "cover",
+      "localPath": "images/evenements__choeur-meditant-et-energisant-ouvert-a-tous-tes-19-juin-2024/01-IMG_5125.jpg",
+      "shared": false,
+      "bytes": 112562
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://les4sources.punchpass.com/classes/14001486?embed=true",
+    "mailto:contact@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 172,
+  "fetchedAt": "2026-09-07T21:17:31.157Z",
+  "markdown": "**Passons ensemble une soirée à chanter 🎶**\n\nDurant une soirée, mêle ta voix à celles des personnes présentes et découvre des chants à plusieurs voix.\n\nProfite de ce temps musical pour faire un break dans ta semaine, quitter tes préoccupations mentales, recharger ton énergie, et vibrer aux sons de chants venus du monde entier.\n\n## En pratique\n\n- **Inscription nécessaire** [via le formulaire Punchpass](https://les4sources.punchpass.com/classes/14001486?embed=true)\n- **Tarif en conscience**\n\n- Prix indicatif : 20€/personne pour une participation ponctuelle, 15€/personne pour une participation régulière chaque mois\n\n- **Pré-requis :** aucun, juste l'élan de chanter\n- **Au choix :** venue ponctuelle ou régulière (chaque 3ème mercredi du mois)\n\n#### **À emporter avec toi**\n\n- boissons/encas\n- chaussures/chausson et vêtements confortables (événement exceptionnellement en extérieur si la météo le permet donc prévois des vêtements et chaussures adaptés à la météo au cas où)\n- tapis, couverture, coussin/zafu pour être assis confortablement (peut-être en extérieur par beau temps)\n- optionnel : de petites percussions (maracas, etc.)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n\n## Facilitateur·rice\n\nFacilité par Claire, membre des 4 Sources\n\n> 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [contact@les4sources.be](mailto:contact@les4sources.be).\n",
+  "extractedAt": "2026-09-07T21:41:44.377Z"
+}

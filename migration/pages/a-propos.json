@@ -1,0 +1,141 @@
+{
+  "path": "/a-propos",
+  "slug": "a-propos",
+  "rootIsCollection": false,
+  "title": "À propos des 4 Sources",
+  "metaDescription": "Les 4 Sources sont accessibles à pied, en vélo, à cheval, en train et en voiture depuis Yvoir, Evrehailles, Crupet et la forêt 🌲",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5bf32b75-9e5a-4790-9802-020c1f546151/Design_sans_titre_(2)/public",
+  "ogTitle": "À propos des 4 Sources",
+  "ogUrl": "https://www.les4sources.be/a-propos",
+  "canonical": null,
+  "h1": "À propos des 4 Sources",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5bf32b75-9e5a-4790-9802-020c1f546151/Design_sans_titre_(2)/public",
+    "localPath": "images/a-propos/01-Design_sans_titre_-2.png"
+  },
+  "pageIcon": "☺️",
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "a-propos",
+    "blockId": "50a9a7dc-ef05-4b22-a8a5-836f3988fab9",
+    "parentId": "aaee8e6cac31408cad25d5a62f3e5a32",
+    "type": "page",
+    "uri": "/a-propos",
+    "createdTime": "2024-04-03T21:57:37.031Z",
+    "lastEditedTime": "2026-05-29T08:30:47.221Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "À propos des 4 Sources",
+      "href": "/a-propos",
+      "icon": "☺️"
+    }
+  ],
+  "contentHtml": "<div id=\"block-cde99ee52c1a469fb861fc8d4d6b8136\" class=\"notion-column-list\"><div id=\"block-06f5920d733949f89485a0f8b23835c3\" class=\"notion-column\" data-width=\"50%\"><h1 id=\"block-b4df568f4f44457794ed611e9962bf15\" class=\"notion-heading notion-semantic-string\"><a href=\"/a-propos/acces-ahinvaux\" class=\"notion-link link\" data-link-uri=\"/a-propos/acces-ahinvaux\">Accéder aux 4 Sources</a></h1><div id=\"block-03247ba87e87466886db4e5b7102541b\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/18e5613c-5cff-4a11-9db6-e15e9ad7da51/_Cover_pour_le_site_4S_(1)/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/18e5613c-5cff-4a11-9db6-e15e9ad7da51/_Cover_pour_le_site_4S_(1)/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/18e5613c-5cff-4a11-9db6-e15e9ad7da51/_Cover_pour_le_site_4S_(1)/public\"></span></div><p id=\"block-da56549fabed4937972f685c5a767d07\" class=\"notion-text notion-text__content notion-semantic-string\">Les 4 Sources sont accessibles à pied, en vélo, à cheval, en train et en voiture depuis Yvoir, Evrehailles, Crupet et la forêt 🌲</p><div id=\"block-2870d149331780059f68eebf821880fc\" class=\"notion-button\"><a class=\"notion-link notion-button__content\" href=\"/a-propos/acces-ahinvaux\"><span class=\"notion-semantic-string\">Comment accéder aux 4 sources?</span></a></div></div><div id=\"block-090c2738e2de453c956eb598510dde43\" class=\"notion-column\" data-width=\"50%\"><h1 id=\"block-72ed97cd63e84cc99b319aa47238d5be\" class=\"notion-heading notion-semantic-string\"><a href=\"/a-propos/notre-projet\" class=\"notion-link link\" data-link-uri=\"/a-propos/notre-projet\">Raison d’être du projet</a></h1><div id=\"block-2bf809f8d64440dfb9da95c38e52dbce\" class=\"notion-image align-start normal\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3ff1d855-ae6d-417b-8908-af213e857dc2/86ddfc5d-f420-4d9f-bad3-170e47039417/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3ff1d855-ae6d-417b-8908-af213e857dc2/86ddfc5d-f420-4d9f-bad3-170e47039417/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3ff1d855-ae6d-417b-8908-af213e857dc2/86ddfc5d-f420-4d9f-bad3-170e47039417/public\"></span></div><p id=\"block-45e72ba3ec5c4b68bdacf0864db2b7e2\" class=\"notion-text notion-text__content notion-semantic-string\">Les 4 Sources, c’est un écolieu / tiers-lieu avec des fondements solides, une raison d’être et une philosophie propre.</p><p id=\"block-5206d583969e4bc6b7e3fbed4da9f4f8\" class=\"notion-text notion-text__content notion-semantic-string\"><strong><a href=\"/a-propos/notre-projet\" class=\"notion-link link\" data-link-uri=\"/a-propos/notre-projet\">En savoir plus sur le projet des 4 Sources</a></strong></p></div></div><div id=\"block-27a10fc773c4418ea3f9e6e5f1e797ea\" class=\"notion-column-list\"><div id=\"block-15a3a1a59a584ece962ab65c0085ff1b\" class=\"notion-column\" data-width=\"50%\"><h1 id=\"block-4ca0fd54b7d24389aa73e43cb07a0c6f\" class=\"notion-heading notion-semantic-string\"><a href=\"/nous-soutenir\" class=\"notion-link link\" data-link-uri=\"/nous-soutenir\">Soutenir Les 4 Sources</a></h1><div id=\"block-6f5ee8d273974c5c99ae6dd5f5ab5dc0\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8a03f044-20d6-4f1c-82c6-29ba8dc0ba4a/bf56a13f-8f8c-4069-bbc7-829dfc79be7d/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8a03f044-20d6-4f1c-82c6-29ba8dc0ba4a/bf56a13f-8f8c-4069-bbc7-829dfc79be7d/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8a03f044-20d6-4f1c-82c6-29ba8dc0ba4a/bf56a13f-8f8c-4069-bbc7-829dfc79be7d/public\"></span></div><p id=\"block-b9e8bb9b0ddc478e96ea2d86ac7f4c92\" class=\"notion-text notion-text__content notion-semantic-string\">Nous mettons notre temps et notre énergie au service des 4 Sources. Tu peux également t’impliquer en nous soutenant financièrement.</p><p id=\"block-d1e6f2e9cb21456380c0206aa5f46e23\" class=\"notion-text notion-text__content notion-semantic-string\"><strong><a href=\"/nous-soutenir\" class=\"notion-link link\" data-link-uri=\"/nous-soutenir\">Comment nous soutenir</a></strong></p></div><div id=\"block-3f1136bf49fc403cbabfb3c76fa23c4a\" class=\"notion-column\" data-width=\"50%\"><h1 id=\"block-457998986b7a4085b76750d376c5a47a\" class=\"notion-heading notion-semantic-string\"><a href=\"/notre-collectif\" class=\"notion-link link\" data-link-uri=\"/notre-collectif\">Notre collectif</a></h1><div id=\"block-a1afd1f0f5484659836f91747bde27ef\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/091732ab-9607-45af-b17b-508405a8ea8f/collectif-4-sources/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/091732ab-9607-45af-b17b-508405a8ea8f/collectif-4-sources/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/091732ab-9607-45af-b17b-508405a8ea8f/collectif-4-sources/public\"></span></div><p id=\"block-2567ba7b2b964d018b5831c65dc7ea13\" class=\"notion-text notion-text__content notion-semantic-string\">6 familles habitent sur le lieu, auxquelles se joignent des personnes extérieures et tout un réseau qui permet au projet des 4 Sources de se déployer.</p><p id=\"block-04541e8f59ed47df87300d43b175d0a3\" class=\"notion-text notion-text__content notion-semantic-string\"><strong><a href=\"/notre-collectif\" class=\"notion-link link\" data-link-uri=\"/notre-collectif\">Faisons connaissance</a></strong><strong> 👋</strong></p></div></div><div id=\"block-67f638584b694ef4870ff253ffc277a2\" class=\"notion-column-list\"><div id=\"block-6cef1e99ae134fa48e0a1dcbfee0fa97\" class=\"notion-column\" data-width=\"50%\"><h1 id=\"block-3ae5413ab5fa4adca665bf4403c40664\" class=\"notion-heading notion-semantic-string\"><a href=\"/a-propos/les-animaux-des-4-sources\" class=\"notion-link link\" data-link-uri=\"/a-propos/les-animaux-des-4-sources\">Les animaux</a></h1><div id=\"block-3808151ab15f4f25ae8a0cd7e09af354\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/22c95ada-d5a7-41ae-ba05-1690f783255a/animaux/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/22c95ada-d5a7-41ae-ba05-1690f783255a/animaux/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/22c95ada-d5a7-41ae-ba05-1690f783255a/animaux/public\"></span></div><p id=\"block-6d123f2f64454199881710040938288d\" class=\"notion-text notion-text__content notion-semantic-string\">Ils vivent avec nous aux 4 Sources : 26 ânes, Eventy le cheval, 16 poules et Shiny le coq, un alpaga, un lama et quelques chats.</p><p id=\"block-eb0e2ef830d247559f2097ee94386d0c\" class=\"notion-text notion-text__content notion-semantic-string\"><strong><a href=\"/a-propos/les-animaux-des-4-sources\" class=\"notion-link link\" data-link-uri=\"/a-propos/les-animaux-des-4-sources\">Découvre les animaux</a></strong></p></div><div id=\"block-3e855fdba243469b985b1ba7ea447e81\" class=\"notion-column\" data-width=\"50%\"><h1 id=\"block-4cda0384747e42ceb6e34c0016813096\" class=\"notion-heading notion-semantic-string\"><a href=\"/a-propos/les-4-sources-dans-la-presse\" class=\"notion-link link\" data-link-uri=\"/a-propos/les-4-sources-dans-la-presse\">Dans la presse</a></h1><div id=\"block-8230ece95a0a42908d5d1cd43347f184\" class=\"notion-image align-start normal\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b9db194b-f670-4e92-9ff3-26db58e3bf3d/presse/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b9db194b-f670-4e92-9ff3-26db58e3bf3d/presse/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b9db194b-f670-4e92-9ff3-26db58e3bf3d/presse/public\"></span></div><p id=\"block-10819693b572499baa821a10ae1b18c6\" class=\"notion-text notion-text__content notion-semantic-string\">Eh oui, il arrive que des journalistes racontent nos expériences dans les journaux, à la radio et à la télévision. De quoi semer de précieuses graines !</p><p id=\"block-a630452e6b664dcba51930edc493f2b7\" class=\"notion-text notion-text__content notion-semantic-string\"><strong><a href=\"/a-propos/les-4-sources-dans-la-presse\" class=\"notion-link link\" data-link-uri=\"/a-propos/les-4-sources-dans-la-presse\">Les 4 Sources dans les médias</a></strong></p></div></div><div id=\"block-408734853bc54bc3a2ed58996a54ff75\" class=\"notion-column-list\"><div id=\"block-aa04ef98ff73483ab7d3a399aeabe129\" class=\"notion-column\" data-width=\"50%\"><h1 id=\"block-87a2798d375644f3afb4d3adf93cec5d\" class=\"notion-heading notion-semantic-string\"><a href=\"/a-propos/jardin-foret-et-verger\" class=\"notion-link link\" data-link-uri=\"/a-propos/jardin-foret-et-verger\">Un tiers-lieu nourricier</a></h1><div id=\"block-7a9b50cfc1cf4095893f04532fa7fccc\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fc438f61-3f03-483e-8307-7660a1898da9/ae92c468-098c-489c-b62c-57cc0fe6f2c5/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fc438f61-3f03-483e-8307-7660a1898da9/ae92c468-098c-489c-b62c-57cc0fe6f2c5/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fc438f61-3f03-483e-8307-7660a1898da9/ae92c468-098c-489c-b62c-57cc0fe6f2c5/public\"></span></div><p id=\"block-cb08af85c7994883970ba196aa0a4425\" class=\"notion-text notion-text__content notion-semantic-string\">Partons à la découverte du verger conservatoire et du jeune jardin-forêt.</p><p id=\"block-182dc7b6c228449ab64b8c147cd3b346\" class=\"notion-text notion-text__content notion-semantic-string\"><strong><a href=\"/a-propos/jardin-foret-et-verger\" class=\"notion-link link\" data-link-uri=\"/a-propos/jardin-foret-et-verger\">En balade parmi les arbres fruitiers</a></strong></p></div><div id=\"block-cb8cc31e6ac3491b9ba6b8bb0a492b13\" class=\"notion-column\" data-width=\"50%\"><h1 id=\"block-2caa0354faa540968a21c6573d50a5db\" class=\"notion-heading notion-semantic-string\"><a href=\"/a-propos/domaine-d-ahinvaux\" class=\"notion-link link\" data-link-uri=\"/a-propos/domaine-d-ahinvaux\">Le Domaine d’Ahinvaux</a></h1><span id=\"block-61311ec65ec042f9b5cc8dbae5fcee63\" class=\"notion-embed\"><span class=\"notion-embed__content\"><span class=\"notion-embed__container__wrapper align-start\"><span class=\"notion-embed__container\"><iframe src=\"https://www.youtube.com/embed/wU9r6iu5HxE?rel=0\" title=\"www.youtube.com\" sandbox=\"allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation\"></iframe></span></span></span></span><p id=\"block-7125c6c1c00b4c4b9266138073de19be\" class=\"notion-text notion-text__content notion-semantic-string\">Notre collectif s’est posé dans un lieu unique au cœur d’une région magnifique avec un environnement géographique incroyablement riche.</p><p id=\"block-e7fbb0dbe58f4c34849860fb58228b7a\" class=\"notion-text notion-text__content notion-semantic-string\"><strong><a href=\"/a-propos/domaine-d-ahinvaux\" class=\"notion-link link\" data-link-uri=\"/a-propos/domaine-d-ahinvaux\">L’histoire-géo du lieu</a></strong></p></div></div><div id=\"block-2567c55e65ec44008fbcfd724179df27\" class=\"notion-divider\"></div><h1 id=\"block-0c3be48b04eb43ef92239eb1a8429259\" class=\"notion-heading notion-semantic-string\">Pour nous contacter 📬</h1><div id=\"block-2870d149331780de86bfcbeb6431c487\" class=\"notion-button\"><a class=\"notion-link notion-button__content\" href=\"/a-propos\"><div class=\"notion-button__icon\"><img src=\"https://app.notion.com/icons/postcard_yellow.svg\" alt=\"icon\" class=\"notion-icon\" data-full-size=\"https://app.notion.com/icons/postcard_yellow.svg\" data-lightbox-src=\"https://app.notion.com/icons/postcard_yellow.svg\"></div><span class=\"notion-semantic-string\">Les infos de contact </span></a></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div><a id=\"block-notre-collectif\" href=\"/notre-collectif\" class=\"notion-link notion-page\" data-link-uri=\"/notre-collectif\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Notre collectif</span></a><a id=\"block-nous-soutenir\" href=\"/nous-soutenir\" class=\"notion-link notion-page\" data-link-uri=\"/nous-soutenir\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Nous soutenir</span></a><a id=\"block-a-propos-acces-ahinvaux\" href=\"/a-propos/acces-ahinvaux\" class=\"notion-link notion-page\" data-link-uri=\"/a-propos/acces-ahinvaux\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Accéder aux 4 Sources</span></a><a id=\"block-a-propos-les-animaux-des-4-sources\" href=\"/a-propos/les-animaux-des-4-sources\" class=\"notion-link notion-page\" data-link-uri=\"/a-propos/les-animaux-des-4-sources\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Les animaux des 4 Sources 🦙</span></a><a id=\"block-a-propos-les-4-sources-dans-la-presse\" href=\"/a-propos/les-4-sources-dans-la-presse\" class=\"notion-link notion-page\" data-link-uri=\"/a-propos/les-4-sources-dans-la-presse\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Les 4 Sources dans les médias</span></a><a id=\"block-a-propos-domaine-d-ahinvaux\" href=\"/a-propos/domaine-d-ahinvaux\" class=\"notion-link notion-page\" data-link-uri=\"/a-propos/domaine-d-ahinvaux\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Histoire-géo du Domaine d’Ahinvaux</span></a><a id=\"block-a-propos-notre-projet\" href=\"/a-propos/notre-projet\" class=\"notion-link notion-page\" data-link-uri=\"/a-propos/notre-projet\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">L’écolieu / tiers-lieu des 4 Sources</span></a><a id=\"block-a-propos-jardin-foret-et-verger\" href=\"/a-propos/jardin-foret-et-verger\" class=\"notion-link notion-page\" data-link-uri=\"/a-propos/jardin-foret-et-verger\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">En balade parmi les arbres fruitiers</span></a>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5bf32b75-9e5a-4790-9802-020c1f546151/Design_sans_titre_(2)/public",
+      "alt": "À propos des 4 Sources",
+      "role": "cover",
+      "localPath": "images/a-propos/01-Design_sans_titre_-2.png",
+      "shared": false,
+      "bytes": 703459
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/18e5613c-5cff-4a11-9db6-e15e9ad7da51/_Cover_pour_le_site_4S_(1)/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/a-propos/02-_Cover_pour_le_site_4S_-1.jpg",
+      "shared": false,
+      "bytes": 273990
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3ff1d855-ae6d-417b-8908-af213e857dc2/86ddfc5d-f420-4d9f-bad3-170e47039417/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/a-propos/03-86ddfc5d-f420-4d9f-bad3-170e47039417.png",
+      "shared": false,
+      "bytes": 696091
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8a03f044-20d6-4f1c-82c6-29ba8dc0ba4a/bf56a13f-8f8c-4069-bbc7-829dfc79be7d/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/a-propos/04-bf56a13f-8f8c-4069-bbc7-829dfc79be7d.png",
+      "shared": false,
+      "bytes": 684756
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/091732ab-9607-45af-b17b-508405a8ea8f/collectif-4-sources/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/a-propos/05-collectif-4-sources.jpg",
+      "shared": false,
+      "bytes": 58498
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/22c95ada-d5a7-41ae-ba05-1690f783255a/animaux/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/a-propos/06-animaux.jpg",
+      "shared": false,
+      "bytes": 39755
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b9db194b-f670-4e92-9ff3-26db58e3bf3d/presse/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/a-propos/07-presse.jpg",
+      "shared": false,
+      "bytes": 60796
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fc438f61-3f03-483e-8307-7660a1898da9/ae92c468-098c-489c-b62c-57cc0fe6f2c5/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/a-propos/08-ae92c468-098c-489c-b62c-57cc0fe6f2c5.png",
+      "shared": false,
+      "bytes": 579547
+    },
+    {
+      "src": "https://app.notion.com/icons/postcard_yellow.svg",
+      "alt": "icon",
+      "role": "content",
+      "localPath": "images/a-propos/09-postcard_yellow.svg",
+      "shared": false,
+      "bytes": 239
+    }
+  ],
+  "embeds": [
+    {
+      "kind": "video",
+      "src": "https://www.youtube.com/embed/wU9r6iu5HxE?rel=0",
+      "title": "www.youtube.com"
+    }
+  ],
+  "internalLinks": [
+    "/a-propos/acces-ahinvaux",
+    "/a-propos/notre-projet",
+    "/nous-soutenir",
+    "/notre-collectif",
+    "/a-propos/les-animaux-des-4-sources",
+    "/a-propos/les-4-sources-dans-la-presse",
+    "/a-propos/jardin-foret-et-verger",
+    "/a-propos/domaine-d-ahinvaux",
+    "/a-propos",
+    "/newsletter"
+  ],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 260,
+  "fetchedAt": "2026-09-07T21:17:18.562Z",
+  "markdown": "<!-- columns -->\n<!-- column width=\"50%\" -->\n\n## [Accéder aux 4 Sources](/a-propos/acces-ahinvaux)\n\n![image](images/a-propos/02-_Cover_pour_le_site_4S_-1.jpg)\n\nLes 4 Sources sont accessibles à pied, en vélo, à cheval, en train et en voiture depuis Yvoir, Evrehailles, Crupet et la forêt 🌲\n\n[Comment accéder aux 4 sources?](/a-propos/acces-ahinvaux){.button}\n\n<!-- column width=\"50%\" -->\n\n## [Raison d’être du projet](/a-propos/notre-projet)\n\n![image](images/a-propos/03-86ddfc5d-f420-4d9f-bad3-170e47039417.png)\n\nLes 4 Sources, c’est un écolieu / tiers-lieu avec des fondements solides, une raison d’être et une philosophie propre.\n\n**[En savoir plus sur le projet des 4 Sources](/a-propos/notre-projet)**\n<!-- /columns -->\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n## [Soutenir Les 4 Sources](/nous-soutenir)\n\n![image](images/a-propos/04-bf56a13f-8f8c-4069-bbc7-829dfc79be7d.png)\n\nNous mettons notre temps et notre énergie au service des 4 Sources. Tu peux également t’impliquer en nous soutenant financièrement.\n\n**[Comment nous soutenir](/nous-soutenir)**\n\n<!-- column width=\"50%\" -->\n\n## [Notre collectif](/notre-collectif)\n\n![image](images/a-propos/05-collectif-4-sources.jpg)\n\n6 familles habitent sur le lieu, auxquelles se joignent des personnes extérieures et tout un réseau qui permet au projet des 4 Sources de se déployer.\n\n**[Faisons connaissance](/notre-collectif)** **👋**\n<!-- /columns -->\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n## [Les animaux](/a-propos/les-animaux-des-4-sources)\n\n![image](images/a-propos/06-animaux.jpg)\n\nIls vivent avec nous aux 4 Sources : 26 ânes, Eventy le cheval, 16 poules et Shiny le coq, un alpaga, un lama et quelques chats.\n\n**[Découvre les animaux](/a-propos/les-animaux-des-4-sources)**\n\n<!-- column width=\"50%\" -->\n\n## [Dans la presse](/a-propos/les-4-sources-dans-la-presse)\n\n![image](images/a-propos/07-presse.jpg)\n\nEh oui, il arrive que des journalistes racontent nos expériences dans les journaux, à la radio et à la télévision. De quoi semer de précieuses graines !\n\n**[Les 4 Sources dans les médias](/a-propos/les-4-sources-dans-la-presse)**\n<!-- /columns -->\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n## [Un tiers-lieu nourricier](/a-propos/jardin-foret-et-verger)\n\n![image](images/a-propos/08-ae92c468-098c-489c-b62c-57cc0fe6f2c5.png)\n\nPartons à la découverte du verger conservatoire et du jeune jardin-forêt.\n\n**[En balade parmi les arbres fruitiers](/a-propos/jardin-foret-et-verger)**\n\n<!-- column width=\"50%\" -->\n\n## [Le Domaine d’Ahinvaux](/a-propos/domaine-d-ahinvaux)\n\n<!-- embed:video src=\"https://www.youtube.com/embed/wU9r6iu5HxE?rel=0\" -->\n[www.youtube.com](https://www.youtube.com/embed/wU9r6iu5HxE?rel=0)\n\nNotre collectif s’est posé dans un lieu unique au cœur d’une région magnifique avec un environnement géographique incroyablement riche.\n\n**[L’histoire-géo du lieu](/a-propos/domaine-d-ahinvaux)**\n<!-- /columns -->\n\n## Pour nous contacter 📬\n\n[Les infos de contact](/a-propos){.button}\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n\n[Notre collectif](/notre-collectif)\n\n[Nous soutenir](/nous-soutenir)\n\n[Accéder aux 4 Sources](/a-propos/acces-ahinvaux)\n\n[Les animaux des 4 Sources 🦙](/a-propos/les-animaux-des-4-sources)\n\n[Les 4 Sources dans les médias](/a-propos/les-4-sources-dans-la-presse)\n\n[Histoire-géo du Domaine d’Ahinvaux](/a-propos/domaine-d-ahinvaux)\n\n[L’écolieu / tiers-lieu des 4 Sources](/a-propos/notre-projet)\n\n[En balade parmi les arbres fruitiers](/a-propos/jardin-foret-et-verger)\n",
+  "extractedAt": "2026-09-07T21:41:44.217Z"
+}

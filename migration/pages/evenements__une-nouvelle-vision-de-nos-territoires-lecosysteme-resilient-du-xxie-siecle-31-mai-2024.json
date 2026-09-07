@@ -1,0 +1,153 @@
+{
+  "path": "/evenements/une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024",
+  "slug": "evenements__une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024",
+  "rootIsCollection": false,
+  "title": "Une nouvelle vision de nos territoires : l’écosystème résilient du XXIe siècle",
+  "metaDescription": "Découvrez comment rassembler des projets citoyens et entrepreneuriaux innovants au sein d'un même territoire. Frédéric Bosqué partage son expérience avec Tera, un écosystème rural axé sur le développement local et la création de lien social. Ne manquez pas cette conférence inspirante !",
+  "ogImage": "https://images.unsplash.com/photo-1641706531193-03f3fa564779?ixlib=rb-4.0.3&cs=srgb",
+  "ogTitle": "Une nouvelle vision de nos territoires : l’écosystème résilient du XXIe siècle",
+  "ogUrl": "https://www.les4sources.be/evenements/une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024",
+  "canonical": null,
+  "h1": "Une nouvelle vision de nos territoires : l’écosystème résilient du XXIe siècle",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.unsplash.com/photo-1641706531193-03f3fa564779?ixlib=rb-4.0.3&cs=srgb",
+    "localPath": "images/evenements__une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024/01-photo-1641706531193-03f3fa564779.jpg"
+  },
+  "pageIcon": null,
+  "properties": {
+    "Date": "2024-05-31",
+    "Horaires": "20h-22h",
+    "Type d'événement": "Conférence",
+    "Thématique": "Vie collective",
+    "Date (fr)": "31 mai 2024",
+    "Date de création": "May 28, 2024 9:50 AM",
+    "super:description": "Découvrez comment rassembler des projets citoyens et entrepreneuriaux innovants au sein d'un même territoire. Frédéric Bosqué partage son expérience avec Tera, un écosystème rural axé sur le développement local et la création de lien social. Ne manquez pas cette conférence inspirante !",
+    "super:slug": "une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024",
+    "blockId": "79ecdec7-785d-4be7-b6a4-d5503483e33d",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024",
+    "createdTime": "2024-05-28T09:50:59.621Z",
+    "lastEditedTime": "2024-05-28T09:57:48.621Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements"
+    },
+    {
+      "label": "Une nouvelle vision de nos territoires : l’écosystème résilient du XXIe siècle",
+      "href": "/evenements/une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-1883e81f69994e868b286b71daa56b99\" class=\"notion-heading notion-semantic-string\">Comment rassembler au sein d'un même territoire toute une série de projets citoyens et entrepreneuriaux innovants et inspirants ? Comment \"réempuissancer\" nos territoires ? Comment créer en même temps un futur durable et enviable ?</h3><p id=\"block-106f1ab84c054615b3030f591cc01064\" class=\"notion-text notion-text__content notion-semantic-string\">Ces sont les questions que s'est posé Frédéric Bosqué, initiateur de <a href=\"https://www.tera.coop/\" class=\"notion-link link\" data-link-uri=\"https://www.tera.coop/\">Tera - Un écosystème pour le XXIe siècle</a>, qui nous vient spécialement du sud-ouest de la France pour nous partager ses 10 années d'expérience en tant que co-fondateur de ce projet !</p><p id=\"block-025d78b4e17c483da8bdcfec18a59204\" class=\"notion-text notion-text__content notion-semantic-string\">Tera, établi sur trois communes, met l'accent sur <strong>le</strong> <strong>développement rural</strong>, <strong>l'économie locale</strong> et <strong>la création de lien social</strong>. Dans cet écosystème se trouvent non seulement des personnes de terrain, mais aussi toute une équipe de chercheurs qui travaillent main dans la main !</p><p id=\"block-5f2e1ec963114498bd20e60e9672baa0\" class=\"notion-text notion-text__content notion-semantic-string\">Découvre toutes les facettes de cet incroyable projet et rejoins-nous pour cette conférence !</p><div id=\"block-1ca8e385df5047b3a8412d6a9ba73e80\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eceeaaa3-232c-4acd-9005-61a69f2947e6/dkcezpgblrc8lwimykpz/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eceeaaa3-232c-4acd-9005-61a69f2947e6/dkcezpgblrc8lwimykpz/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eceeaaa3-232c-4acd-9005-61a69f2947e6/dkcezpgblrc8lwimykpz/public\"></span></div><div id=\"block-ad07d0a96433465e938d619c0a9004b9\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1f54c196-dd13-492e-8803-3f54464ed859/wiignvvg7ei7dkbztufc/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1f54c196-dd13-492e-8803-3f54464ed859/wiignvvg7ei7dkbztufc/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1f54c196-dd13-492e-8803-3f54464ed859/wiignvvg7ei7dkbztufc/public\"></span></div><p id=\"block-f8148352ea2f4a58a96a8ee4bdc347ae\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>19h30 : </strong>Ouverture des portes\n<strong>20h : </strong>Conférence de Frédéric Bosqué</p><h1 id=\"block-bcbf4c873fee48778c0ef23e5f7ec555\" class=\"notion-heading notion-semantic-string\">En pratique</h1><ul class=\"notion-bulleted-list\"><li id=\"block-b6cbf3a75b364cd28a584db3fb27b7c1\" class=\"notion-list-item notion-semantic-string\"><strong>Inscription obligatoire</strong> <a href=\"https://les4sources.punchpass.com/classes/14999166\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">en prenant un \"Ticket\"</a></li><ul class=\"notion-bulleted-list\"><li id=\"block-33fc6e258a3c49fca38750c2859faea4\" class=\"notion-list-item notion-semantic-string\">Offert aux habitant.es d'Anhée, Dinant, Hastière, Houyet, Onhaye et Yvoir</li><li id=\"block-57e6fc93a1674c36bf5752b1632a717a\" class=\"notion-list-item notion-semantic-string\">Participation en conscience et paiement en liquide sur place pour les autres provenances</li></ul><li id=\"block-71d7f515c6a64bf6bcabaa5455259039\" class=\"notion-list-item notion-semantic-string\">Bar accessible</li></ul><p id=\"block-e5aa69f1baed4e418ca3d6b34c3fc877\" class=\"notion-text notion-text__content notion-semantic-string\"><a href=\"https://les4sources.punchpass.com/classes/15001443\" class=\"notion-link link\" data-link-uri=\"https://les4sources.punchpass.com/classes/15001443\">Un atelier est proposé le lendemain</a> aux habitant.es d'Anhée, Dinant, Hastière, Houyet, Onhaye et Yvoir pour travailler plus spécifiquement sur ce territoire.</p><p id=\"block-93e43388a4fe47b1b03387721de48880\" class=\"notion-text notion-text__content notion-semantic-string\"><em>Conférence co-organisée par le Collectif Maison de la Transition, la Fondation Cyrys et Les 4 Sources. Événements inscrits dans le cadre d'une collaboration avec Trois-Tiers et Les Passerelles.</em></p>",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1641706531193-03f3fa564779?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Une nouvelle vision de nos territoires : l’écosystème résilient du XXIe siècle",
+      "role": "cover",
+      "localPath": "images/evenements__une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024/01-photo-1641706531193-03f3fa564779.jpg",
+      "shared": false,
+      "bytes": 5147714
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eceeaaa3-232c-4acd-9005-61a69f2947e6/dkcezpgblrc8lwimykpz/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024/02-dkcezpgblrc8lwimykpz.jpg",
+      "shared": false,
+      "bytes": 81184
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1f54c196-dd13-492e-8803-3f54464ed859/wiignvvg7ei7dkbztufc/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024/03-wiignvvg7ei7dkbztufc.jpg",
+      "shared": false,
+      "bytes": 101790
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [
+    "https://www.tera.coop/",
+    "https://les4sources.punchpass.com/classes/14999166",
+    "https://les4sources.punchpass.com/classes/15001443"
+  ],
+  "collections": [],
+  "wordCount": 219,
+  "fetchedAt": "2026-09-07T21:17:43.263Z",
+  "markdown": "#### Comment rassembler au sein d'un même territoire toute une série de projets citoyens et entrepreneuriaux innovants et inspirants ? Comment \"réempuissancer\" nos territoires ? Comment créer en même temps un futur durable et enviable ?\n\nCes sont les questions que s'est posé Frédéric Bosqué, initiateur de [Tera - Un écosystème pour le XXIe siècle](https://www.tera.coop/), qui nous vient spécialement du sud-ouest de la France pour nous partager ses 10 années d'expérience en tant que co-fondateur de ce projet !\n\nTera, établi sur trois communes, met l'accent sur **le** **développement rural**, **l'économie locale** et **la création de lien social**. Dans cet écosystème se trouvent non seulement des personnes de terrain, mais aussi toute une équipe de chercheurs qui travaillent main dans la main !\n\nDécouvre toutes les facettes de cet incroyable projet et rejoins-nous pour cette conférence !\n\n![image](images/evenements__une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024/02-dkcezpgblrc8lwimykpz.jpg)\n\n![image](images/evenements__une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024/03-wiignvvg7ei7dkbztufc.jpg)\n\n**19h30 :** Ouverture des portes **20h :** Conférence de Frédéric Bosqué\n\n## En pratique\n\n- **Inscription obligatoire** [en prenant un \"Ticket\"](https://les4sources.punchpass.com/classes/14999166)\n\n- Offert aux habitant.es d'Anhée, Dinant, Hastière, Houyet, Onhaye et Yvoir\n- Participation en conscience et paiement en liquide sur place pour les autres provenances\n\n- Bar accessible\n\n[Un atelier est proposé le lendemain](https://les4sources.punchpass.com/classes/15001443) aux habitant.es d'Anhée, Dinant, Hastière, Houyet, Onhaye et Yvoir pour travailler plus spécifiquement sur ce territoire.\n\n*Conférence co-organisée par le Collectif Maison de la Transition, la Fondation Cyrys et Les 4 Sources. Événements inscrits dans le cadre d'une collaboration avec Trois-Tiers et Les Passerelles.*\n",
+  "extractedAt": "2026-09-07T21:41:44.481Z"
+}

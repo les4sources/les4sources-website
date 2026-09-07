@@ -1,0 +1,116 @@
+{
+  "path": "/projets/semisto",
+  "slug": "projets__semisto",
+  "rootIsCollection": false,
+  "title": "Semisto",
+  "metaDescription": "Les 4 Sources sont le QG de Semisto, l’association qui oeuvre à nous faire passer dans l’ère des forêts comestibles. Semisto a été créé par Michael, co-fondateur de notre collectif.",
+  "ogImage": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/c57931e8-4eda-4e9b-8897-3cdc28115bbc/w1920quality90fitscale-down.avif",
+  "ogTitle": "Semisto",
+  "ogUrl": "https://www.les4sources.be/projets/semisto",
+  "canonical": null,
+  "h1": "Semisto",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/c57931e8-4eda-4e9b-8897-3cdc28115bbc/w1920quality90fitscale-down.avif",
+    "localPath": "images/projets__semisto/01-w1920quality90fitscale-down.avif"
+  },
+  "pageIcon": {
+    "type": "image",
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f565f81e-e622-4002-8329-55dfcc7ce4aa/semisto-main-square/public",
+    "localPath": "images/_shared/d5187e1aa2e3-semisto-main-square.png"
+  },
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "projets-semisto",
+    "blockId": "774b9de3-c770-45c9-a4cf-a2e959b77da1",
+    "parentId": "projets",
+    "type": "page",
+    "uri": "/projets/semisto",
+    "createdTime": "2024-05-28T08:42:24.463Z",
+    "lastEditedTime": "2025-07-24T14:00:00.323Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Nos projets",
+      "href": "/projets",
+      "icon": "⚙️"
+    },
+    {
+      "label": "Semisto",
+      "href": "/projets/semisto"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-9af5727f315b47b383b0f7f5c4e6c3b0\" class=\"notion-heading notion-semantic-string\"><strong>Les 4 Sources sont le QG de Semisto, l’association qui oeuvre à nous faire passer dans l’ère des forêts comestibles. Semisto a été créé par </strong><strong><a href=\"/collectif/michael-hulet\" class=\"notion-link link\" data-link-uri=\"/collectif/michael-hulet\">Michael</a></strong><strong>, co-fondateur de notre collectif.</strong></h3><div id=\"block-598fdf60e888439099478099356201f0\" class=\"notion-column-list\"><div id=\"block-397a569c9b944df38a0fd27349e13456\" class=\"notion-column\" data-width=\"50%\"><h1 id=\"block-89920238d34941d3b3a33e05de48427f\" class=\"notion-heading notion-semantic-string\"><a href=\"https://www.semisto.org/poles/bureau-d-etudes-semisto\" class=\"notion-link link\" data-link-uri=\"https://www.semisto.org/poles/bureau-d-etudes-semisto\">Bureau d’études</a></h1><div id=\"block-de3982ce82464ab1826845e3c5edf840\" class=\"notion-image align-start normal\"><a href=\"https://www.semisto.org/poles/bureau-d-etudes-semisto\" class=\"notion-link\" target=\"_blank\" rel=\"noopener noreferrer\"><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/ace05eb7-90c8-4049-86f8-203b78c139cb/design-labs.avif\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/ace05eb7-90c8-4049-86f8-203b78c139cb/design-labs.avif\"><img alt=\"Création de forêt-jardin\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/ace05eb7-90c8-4049-86f8-203b78c139cb/design-labs.avif\"></span></a></div><p id=\"block-ab07abb178994ee79a632584e3e05581\" class=\"notion-text notion-text__content notion-semantic-string\">Nous concevons en équipe des <strong>forêts-jardins</strong> <strong>et</strong> <strong>jardins nourriciers</strong> qui respectent votre vision, qui régénèrent la biosphère et vous reconnectent à votre environnement.</p></div><div id=\"block-01763030b3db4170a39461fbd5a5a3cb\" class=\"notion-column\" data-width=\"50%\"><h1 id=\"block-84de90b2e1fd46b1b9d072f74b0d93a1\" class=\"notion-heading notion-semantic-string\"><a href=\"https://www.semisto.org/poles/formations-semisto\" class=\"notion-link link\" data-link-uri=\"https://www.semisto.org/poles/formations-semisto\">Formations</a></h1><div id=\"block-bed75cea7dcd49eca1eea21c3e9df088\" class=\"notion-image align-start normal\"><a href=\"https://www.semisto.org/poles/formations-semisto\" class=\"notion-link\" target=\"_blank\" rel=\"noopener noreferrer\"><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/b1c53e33-39b6-47b8-ac63-9f1e24111d5c/academy.avif\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/b1c53e33-39b6-47b8-ac63-9f1e24111d5c/academy.avif\"><img alt=\"Formations jardins-forêts\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/b1c53e33-39b6-47b8-ac63-9f1e24111d5c/academy.avif\"></span></a></div><p id=\"block-e44b1f31f49c4253932149a22ace4cdc\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Apprends à&nbsp;faire naitre ta forêt-jardin</strong> et à l'entretenir jusqu'à ce qu'elle t’apporte ses plus belles récoltes. Ou&nbsp;<strong>apprends un nouveau métier</strong>&nbsp;et deviens concepteur·rice  de forêts comestibles !</p></div></div><div id=\"block-169ece4ff29940b1a099be116ddc7917\" class=\"notion-column-list\"><div id=\"block-17534df0be234c73b0cba4eabfafa1c9\" class=\"notion-column\" data-width=\"50%\"><h1 id=\"block-307a68898109466ba0a07effb7a5163b\" class=\"notion-heading notion-semantic-string\"><a href=\"https://www.semisto.org/poles/pepiniere-ecole-semisto\" class=\"notion-link link\" data-link-uri=\"https://www.semisto.org/poles/pepiniere-ecole-semisto\">Pépinière-école</a></h1><div id=\"block-e07e42e7ed0f4297bb06c8d4d68795a0\" class=\"notion-image align-start normal\"><a href=\"https://www.semisto.org/poles/pepiniere-ecole-semisto\" class=\"notion-link\" target=\"_blank\" rel=\"noopener noreferrer\"><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/827543f5-4552-42ab-ba77-11338baf9069/pepiniere.avif\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/827543f5-4552-42ab-ba77-11338baf9069/pepiniere.avif\"><img alt=\"image\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/827543f5-4552-42ab-ba77-11338baf9069/pepiniere.avif\"></span></a></div><p id=\"block-6df298dfaf2b40c596e8cbed11e8cfeb\" class=\"notion-text notion-text__content notion-semantic-string\">Des actions concrètes pour faire émerger et soutenir un <strong>réseau de micro-pépiniéristes</strong> réunis par des valeurs et des convictions.</p></div><div id=\"block-1b3d4ab3536f404c84ccbbf1285a550f\" class=\"notion-column\" data-width=\"50%\"><h1 id=\"block-9398cb46383b410286fbded3bc75d83a\" class=\"notion-heading notion-semantic-string\"><a href=\"https://www.semisto.org/poles/food-forest-heroes\" class=\"notion-link link\" data-link-uri=\"https://www.semisto.org/poles/food-forest-heroes\">Food Forest Heroes</a></h1><div id=\"block-18a46dbb3b614ed8ba2b6e8c9af03c17\" class=\"notion-image align-start normal\"><a href=\"https://www.semisto.org/poles/food-forest-heroes\" class=\"notion-link\" target=\"_blank\" rel=\"noopener noreferrer\"><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/db8e6319-0486-4e7f-8398-57389ef4b83b/ffh.avif\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/db8e6319-0486-4e7f-8398-57389ef4b83b/ffh.avif\"><img alt=\"image\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/db8e6319-0486-4e7f-8398-57389ef4b83b/ffh.avif\"></span></a></div><p id=\"block-a068ef90c8244271b88629565cbff30f\" class=\"notion-text notion-text__content notion-semantic-string\">Des groupes locaux de <strong>planteur·euse·s ultra-MOTIVÉS pour planter l’abondance</strong> en musique et tisser de nouveaux liens enrichissants 🧑‍🎤 🎵&nbsp;🎻&nbsp;<!-- --></p></div></div><div id=\"block-1b80d1493317805dae1cf11d3b264a29\" class=\"notion-button\"><a href=\"https://www.semisto.org\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"notion-semantic-string\">Visite le site web de Semisto</span></a></div>",
+  "images": [
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/c57931e8-4eda-4e9b-8897-3cdc28115bbc/w1920quality90fitscale-down.avif",
+      "alt": "Semisto",
+      "role": "cover",
+      "localPath": "images/projets__semisto/01-w1920quality90fitscale-down.avif",
+      "shared": false,
+      "bytes": 305894
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f565f81e-e622-4002-8329-55dfcc7ce4aa/semisto-main-square/public",
+      "alt": "icon",
+      "role": "icon",
+      "localPath": "images/_shared/d5187e1aa2e3-semisto-main-square.png",
+      "shared": true,
+      "bytes": 33819
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/ace05eb7-90c8-4049-86f8-203b78c139cb/design-labs.avif",
+      "alt": "Création de forêt-jardin",
+      "role": "content",
+      "localPath": "images/projets__semisto/03-design-labs.avif",
+      "shared": false,
+      "bytes": 59790
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/b1c53e33-39b6-47b8-ac63-9f1e24111d5c/academy.avif",
+      "alt": "Formations jardins-forêts",
+      "role": "content",
+      "localPath": "images/projets__semisto/04-academy.avif",
+      "shared": false,
+      "bytes": 70896
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/827543f5-4552-42ab-ba77-11338baf9069/pepiniere.avif",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__semisto/05-pepiniere.avif",
+      "shared": false,
+      "bytes": 112137
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/db8e6319-0486-4e7f-8398-57389ef4b83b/ffh.avif",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__semisto/06-ffh.avif",
+      "shared": false,
+      "bytes": 70686
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/collectif/michael-hulet"
+  ],
+  "externalLinks": [
+    "https://www.semisto.org/poles/bureau-d-etudes-semisto",
+    "https://www.semisto.org/poles/formations-semisto",
+    "https://www.semisto.org/poles/pepiniere-ecole-semisto",
+    "https://www.semisto.org/poles/food-forest-heroes",
+    "https://www.semisto.org"
+  ],
+  "collections": [],
+  "wordCount": 126,
+  "fetchedAt": "2026-09-07T21:17:46.203Z",
+  "markdown": "#### **Les 4 Sources sont le QG de Semisto, l’association qui oeuvre à nous faire passer dans l’ère des forêts comestibles. Semisto a été créé par** **[Michael](/collectif/michael-hulet)****, co-fondateur de notre collectif.**\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n## [Bureau d’études](https://www.semisto.org/poles/bureau-d-etudes-semisto)\n\n![Création de forêt-jardin](images/projets__semisto/03-design-labs.avif)\n\nNous concevons en équipe des **forêts-jardins** **et** **jardins nourriciers** qui respectent votre vision, qui régénèrent la biosphère et vous reconnectent à votre environnement.\n\n<!-- column width=\"50%\" -->\n\n## [Formations](https://www.semisto.org/poles/formations-semisto)\n\n![Formations jardins-forêts](images/projets__semisto/04-academy.avif)\n\n**Apprends à faire naitre ta forêt-jardin** et à l'entretenir jusqu'à ce qu'elle t’apporte ses plus belles récoltes. Ou **apprends un nouveau métier** et deviens concepteur·rice de forêts comestibles !\n<!-- /columns -->\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n## [Pépinière-école](https://www.semisto.org/poles/pepiniere-ecole-semisto)\n\n![image](images/projets__semisto/05-pepiniere.avif)\n\nDes actions concrètes pour faire émerger et soutenir un **réseau de micro-pépiniéristes** réunis par des valeurs et des convictions.\n\n<!-- column width=\"50%\" -->\n\n## [Food Forest Heroes](https://www.semisto.org/poles/food-forest-heroes)\n\n![image](images/projets__semisto/06-ffh.avif)\n\nDes groupes locaux de **planteur·euse·s ultra-MOTIVÉS pour planter l’abondance** en musique et tisser de nouveaux liens enrichissants 🧑‍🎤 🎵 🎻\n<!-- /columns -->\n\n[Visite le site web de Semisto](https://www.semisto.org){.button}\n",
+  "extractedAt": "2026-09-07T21:41:44.526Z"
+}

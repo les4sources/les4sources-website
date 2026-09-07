@@ -1,0 +1,123 @@
+{
+  "path": "/evenements/chorale-meditant-energisant-nom-16-octobre-2024",
+  "slug": "evenements__chorale-meditant-energisant-nom-16-octobre-2024",
+  "rootIsCollection": false,
+  "title": "Chœur méditant & énergisant : ouvert à tous.tes",
+  "metaDescription": "Profite de ce temps musical pour faire un break dans ta semaine, quitter tes préoccupations mentales, recharger ton énergie, et vibrer aux sons de chants venus du monde entier.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e0323745-b920-4fe0-ba2c-501c344de1b4/t1gakkhy8bjyatl1hmkq/public",
+  "ogTitle": "Chœur méditant & énergisant : ouvert à tous.tes",
+  "ogUrl": "https://www.les4sources.be/evenements/chorale-meditant-energisant-nom-16-octobre-2024",
+  "canonical": null,
+  "h1": "Chœur méditant & énergisant : ouvert à tous.tes",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e0323745-b920-4fe0-ba2c-501c344de1b4/t1gakkhy8bjyatl1hmkq/public",
+    "localPath": "images/_shared/5eaebcfe8685-t1gakkhy8bjyatl1hmkq.jpg"
+  },
+  "pageIcon": "🗓️",
+  "properties": {
+    "Date": "2024-10-16",
+    "Horaires": "20:00-22:00",
+    "Thématique": "Ressourcement",
+    "Date (fr)": "16 octobre 2024",
+    "Date de création": "Jul 20, 2024 11:13 AM",
+    "super:slug": "chorale-meditant-energisant-nom-16-octobre-2024"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-chorale-meditant-energisant-nom-16-octobre-2024",
+    "blockId": "f0503a7c-350a-4b4f-a4f1-72e04caabf21",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/chorale-meditant-energisant-nom-16-octobre-2024",
+    "createdTime": "2024-07-20T11:13:04.942Z",
+    "lastEditedTime": "2024-10-07T08:55:57.060Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<h2 id=\"block-49daa42464914798a0aff3599bc81573\" class=\"notion-heading notion-semantic-string\">Durant une soirée, mêle ta voix à celles des personnes présentes et découvre des chants à plusieurs voix.</h2><p id=\"block-5546cc4c7447490cad5116ec76092c6c\" class=\"notion-text notion-text__content notion-semantic-string\">Profite de ce temps musical pour faire un break dans ta semaine, quitter tes préoccupations mentales, recharger ton énergie, et vibrer aux sons de chants venus du monde entier.</p><h1 id=\"block-ccf80e00320946a7a3bfb9c481967c14\" class=\"notion-heading notion-semantic-string\">En pratique</h1><ul class=\"notion-bulleted-list\"><li id=\"block-1d34c24eda5a4aa39f7ed0111cc7cf95\" class=\"notion-list-item notion-semantic-string\"><strong>Inscription nécessaire</strong>&nbsp;via <a href=\"https://les4sources.punchpass.com/org/8599/classes/15693872\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">le formulaire d’inscription</a></li><li id=\"block-d10b727bb810434caca1dde1836571a6\" class=\"notion-list-item notion-semantic-string\"><strong>Tarif en conscience</strong></li><ul class=\"notion-bulleted-list\"><li id=\"block-91dd6771e6b64fbea0062dbc60d47cf2\" class=\"notion-list-item notion-semantic-string\">Prix indicatif :&nbsp;</li><ul class=\"notion-bulleted-list\"><li id=\"block-365569ce79324ed18e12550fdee96fd0\" class=\"notion-list-item notion-semantic-string\">20€/personne pour une participation ponctuelle&nbsp;</li><li id=\"block-adb97f1244ab4f9d8cb329f1be897d63\" class=\"notion-list-item notion-semantic-string\">15€/personne pour une participation régulière chaque mois</li></ul></ul><li id=\"block-9f0ef5aeab274d2fa013107f6e1f0eba\" class=\"notion-list-item notion-semantic-string\"><strong>Pré-requis :&nbsp;</strong>aucun, juste l'élan de chanter</li><li id=\"block-fcc26f5e41d94c46b8ac52e113a6e1f2\" class=\"notion-list-item notion-semantic-string\"><strong>Au choix :</strong>&nbsp;venue ponctuelle ou régulière (chaque 3e mercredi du mois)</li></ul><h2 id=\"block-3342f7f29e534c72805df7a71c026f04\" class=\"notion-heading notion-semantic-string\"><strong>À&nbsp;emporter avec toi</strong></h2><ul class=\"notion-bulleted-list\"><li id=\"block-a561e0dfed5c4c0eade6e1b2451bfb52\" class=\"notion-list-item notion-semantic-string\">boissons/en-cas</li><li id=\"block-6866d6743e994e949079a0dde09db458\" class=\"notion-list-item notion-semantic-string\">des vêtements confortables</li><li id=\"block-91f0c54bdcbb400688dafd074d19cf30\" class=\"notion-list-item notion-semantic-string\">tapis, couverture, coussin/zafu pour être assis confortablement (peut être en extérieur par beau temps)</li><li id=\"block-ccd2a2ddc6c54b049109d170ea4d807c\" class=\"notion-list-item notion-semantic-string\">optionnel : de petites percussions (maracas, etc.)</li></ul><h1 id=\"block-2acd64644b944ec7b17b8311173a61a7\" class=\"notion-heading notion-semantic-string\">Facilitatrice</h1><ul class=\"notion-bulleted-list\"><li id=\"block-2ccd07fb18c34b909d97b6f001cb56c8\" class=\"notion-list-item notion-semantic-string\">Claire Feyens</li></ul><div id=\"block-33db0feae7c945caabb3ed6f172efbbf\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💁</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"><strong>Envie de loger sur place avant ou après l’événement ?</strong> Fais-nous part de ta demande à <a href=\"mailto:contact@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">contact@les4sources.be</a>.</span></div></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e0323745-b920-4fe0-ba2c-501c344de1b4/t1gakkhy8bjyatl1hmkq/public",
+      "alt": "Chœur méditant & énergisant : ouvert à tous.tes",
+      "role": "cover",
+      "localPath": "images/_shared/5eaebcfe8685-t1gakkhy8bjyatl1hmkq.jpg",
+      "shared": true,
+      "bytes": 112562
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://les4sources.punchpass.com/org/8599/classes/15693872",
+    "mailto:contact@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 139,
+  "fetchedAt": "2026-09-07T21:17:31.893Z",
+  "markdown": "### Durant une soirée, mêle ta voix à celles des personnes présentes et découvre des chants à plusieurs voix.\n\nProfite de ce temps musical pour faire un break dans ta semaine, quitter tes préoccupations mentales, recharger ton énergie, et vibrer aux sons de chants venus du monde entier.\n\n## En pratique\n\n- **Inscription nécessaire** via [le formulaire d’inscription](https://les4sources.punchpass.com/org/8599/classes/15693872)\n- **Tarif en conscience**\n\n- Prix indicatif : \n\n- 20€/personne pour une participation ponctuelle \n- 15€/personne pour une participation régulière chaque mois\n\n- **Pré-requis :** aucun, juste l'élan de chanter\n- **Au choix :** venue ponctuelle ou régulière (chaque 3e mercredi du mois)\n\n### **À emporter avec toi**\n\n- boissons/en-cas\n- des vêtements confortables\n- tapis, couverture, coussin/zafu pour être assis confortablement (peut être en extérieur par beau temps)\n- optionnel : de petites percussions (maracas, etc.)\n\n## Facilitatrice\n\n- Claire Feyens\n\n> 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [contact@les4sources.be](mailto:contact@les4sources.be).\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.378Z"
+}

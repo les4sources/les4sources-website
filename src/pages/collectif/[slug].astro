@@ -1,0 +1,76 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import Prose from "@components/ui/Prose.astro";
+import { pathOf, visible } from "@lib/content";
+import { person, breadcrumbs } from "@lib/seo";
+import { site } from "@lib/site";
+
+/** Fiches des membres du collectif — la route vient du legacyPath. */
+export const getStaticPaths: GetStaticPaths = async () => {
+  const members = visible(await getCollection("collectif"));
+  return members.map((entry) => ({
+    params: { slug: pathOf(entry).replace(/^\/collectif\//, "") },
+    props: { entry },
+  }));
+};
+
+interface Props {
+  entry: CollectionEntry<"collectif">;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+
+const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
+const url = `${siteUrl}${pathOf(entry)}`;
+const jsonld = [
+  person({ name: d.name, url, jobTitle: d.role, description: d.description }),
+  breadcrumbs([
+    { name: "Accueil", url: `${siteUrl}/` },
+    { name: "Le collectif", url: `${siteUrl}/collectif` },
+    { name: d.name, url },
+  ]),
+];
+---
+
+<BaseLayout
+  title={d.seoTitle ?? d.title}
+  description={d.description}
+  ogImage={d.photo ?? d.cover ?? d.ogImage}
+  noindex={d.noindex}
+  jsonld={jsonld}
+>
+  <PageHero
+    title={d.name}
+    eyebrow={d.role}
+    icon={d.icon}
+    pole={d.pole}
+    crumbs={[
+      { label: "Accueil", href: "/" },
+      { label: "Le collectif", href: "/collectif" },
+      { label: d.name },
+    ]}
+  />
+
+  <div
+    class="mx-auto flex max-w-[1180px] flex-col gap-10 px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)] md:flex-row"
+  >
+    {
+      d.photo && (
+        <Image
+          src={d.photo}
+          alt={d.coverAlt ?? d.name}
+          widths={[280, 560]}
+          sizes="(min-width: 768px) 280px, 100vw"
+          class="h-fit w-full max-w-[280px] rounded-lg object-cover shadow-sm"
+        />
+      )
+    }
+    <Prose><Content /></Prose>
+  </div>
+</BaseLayout>

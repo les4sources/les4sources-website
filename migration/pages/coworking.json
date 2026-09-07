@@ -1,0 +1,94 @@
+{
+  "path": "/coworking",
+  "slug": "coworking",
+  "rootIsCollection": false,
+  "title": "Coworking dans la Clairière",
+  "metaDescription": "Tu cherches un lieu au calme, avec une nature environnante exceptionnelle pour mieux te concentrer ? Viens coworker aux 4 sources !",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a7424f35-00d2-4200-8ff8-b51dafd0b083/_G0A4642/public",
+  "ogTitle": "Coworking dans la Clairière",
+  "ogUrl": "https://www.les4sources.be/coworking",
+  "canonical": null,
+  "h1": "Coworking dans la Clairière",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a7424f35-00d2-4200-8ff8-b51dafd0b083/_G0A4642/public",
+    "localPath": "images/coworking/01-_G0A4642.jpg"
+  },
+  "pageIcon": "💼",
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "coworking",
+    "blockId": "2800d149-3317-80ca-9cb0-d8c1497f1b5b",
+    "parentId": "aaee8e6cac31408cad25d5a62f3e5a32",
+    "type": "page",
+    "uri": "/coworking",
+    "createdTime": "2025-10-02T11:15:25.226Z",
+    "lastEditedTime": "2026-05-29T08:31:28.292Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Coworking dans la Clairière",
+      "href": "/coworking",
+      "icon": "💼"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-2800d1493317806786bfddfed0022376\" class=\"notion-heading notion-semantic-string\">Tu cherches un lieu au calme, avec une nature environnante exceptionnelle pour mieux te concentrer ? Viens coworker aux 4 sources ! </h3><p id=\"block-30f0d149331780f8bb54e8960adbe781\" class=\"notion-text notion-text__content notion-semantic-string\">Ici, nous vous proposons un espace avec 3 bureaux disponibles, accessible <strong>du lundi au vendredi (excepté le jeudi) de 8h à 20h</strong>.</p><div id=\"block-2800d149331780da8349e1c3907d98e4\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6bfb3a54-c742-4d0d-b9c1-75c7f02065f6/_G0A4644/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6bfb3a54-c742-4d0d-b9c1-75c7f02065f6/_G0A4644/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6bfb3a54-c742-4d0d-b9c1-75c7f02065f6/_G0A4644/public\"></span></div><h2 id=\"block-2800d14933178003a924d33ada41f90d\" class=\"notion-heading notion-semantic-string\">Services inclus </h2><p id=\"block-2800d149331780008d67c5b2162ca3aa\" class=\"notion-text notion-text__content notion-semantic-string\">Mise à disposition d’un bureau avec câble Ethernet, écran, clavier et souris (pas de tour/ordinateur), ainsi qu’une imprimante-scanner.\n\n📇 <strong>Imprimante :</strong> son utilisation se fait de manière eco-responsable. Une petite caisse est disponible au bar en auto-gestion, afin de payer les impressions effectuées. Voir les tarifs ci-dessous.\n\n📶 <strong>Internet :</strong> via un câble Ethernet ou simplement par le Wifi disponible. \n\n🚗 <strong>Parking</strong> : un parking gratuit est à disposition devant le bâtiment. \n\n🥪 <strong>Repas et pause </strong>: tu pourras manger ton sandwich ou ta salade sur la terrasse en t’assurant de la laisser propre ensuite. Tasses, verres, couverts… sont disponibles dans la cuisine professionnelle. Merci de les nettoyer et les ranger après utilisation !\n\n🧋&nbsp;<strong>Les consommables</strong> (thé, café, tisanes, sucre, etc) sont mis à disposition au bar ; ils sont à consommer sur place et de façon raisonnable. <!-- --></p><div id=\"block-2800d149331780378364db757b92e8e1\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9bd0e1ee-3fc6-42c7-9471-ef1885faa696/_G0A2834/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9bd0e1ee-3fc6-42c7-9471-ef1885faa696/_G0A2834/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9bd0e1ee-3fc6-42c7-9471-ef1885faa696/_G0A2834/public\"></span></div><h1 id=\"block-2800d14933178031ad80e50e9d8841b9\" class=\"notion-heading notion-semantic-string\">Tarif</h1><h3 id=\"block-2800d149331780b7837de658773f0022\" class=\"notion-heading notion-semantic-string\">Venue ponctuelle ⏰</h3><p id=\"block-2800d149331780108510fccf2922e88e\" class=\"notion-text notion-text__content notion-semantic-string\">20€/journée</p><p id=\"block-2800d1493317807baf25ed09ebe98e5c\" class=\"notion-text notion-text__content notion-semantic-string\">11€/demi-journée (de 8h à 14h ou de 14h à 20h)</p><h3 id=\"block-2800d1493317808eb536ff1a36b09feb\" class=\"notion-heading notion-semantic-string\">Venue régulière 🚶🏻‍♀️</h3><p id=\"block-2800d1493317806d8434cfc31eaff15c\" class=\"notion-text notion-text__content notion-semantic-string\">1 demi-journée par semaine : 40€/mois</p><p id=\"block-2800d149331780feb200c8b62342fa5d\" class=\"notion-text notion-text__content notion-semantic-string\">1 journée par semaine : 70€/mois</p><p id=\"block-2800d149331780759c1bed54909b556f\" class=\"notion-text notion-text__content notion-semantic-string\">2 journées par semaine : 135€/mois</p><p id=\"block-2800d14933178046837ecb218e4e2d30\" class=\"notion-text notion-text__content notion-semantic-string\">Lors d’un engagement semestriel, le 6e mois est offert !</p><h3 id=\"block-2800d149331780b78dfac37ab6911547\" class=\"notion-heading notion-semantic-string\">Imprimante 📇</h3><p id=\"block-2800d149331780fca65fc6f2b77cdc0b\" class=\"notion-text notion-text__content notion-semantic-string\">Impression en noir et blanc : 0,10€</p><p id=\"block-2800d1493317802ea272eb8bd6ae73b7\" class=\"notion-text notion-text__content notion-semantic-string\">Impression couleurs : 0,50€</p><p id=\"block-2800d149331780f3b62fccd1c7a2ad93\" class=\"notion-text notion-text__content notion-semantic-string\">Les paiements peuvent s’effectuer par virement bancaire sur le compte <code class=\"code\">BE72 5230 8060 1116</code>, soit en liquide dans notre caisse située dans le bar auto-géré.</p><div id=\"block-2800d1493317804180e5d7b47b57a712\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d4b36989-ab31-4323-b624-63544ab9a58e/_G0A4642/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d4b36989-ab31-4323-b624-63544ab9a58e/_G0A4642/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d4b36989-ab31-4323-b624-63544ab9a58e/_G0A4642/public\"></span></div><h1 id=\"block-2800d149331780f2a2e8d67c76d8c56a\" class=\"notion-heading notion-semantic-string\">Conditions spécifiques</h1><h3 id=\"block-2800d14933178047b4bfc33f7038bd01\" class=\"notion-heading notion-semantic-string\">Propreté et rangement 🧹</h3><p id=\"block-2800d149331780e4874afc87786ec683\" class=\"notion-text notion-text__content notion-semantic-string\">Le nettoyage des parties communes du bâtiment est inclus dans les prestations. Toutefois, les coworkers sont invités à respecter la propreté des espaces, et sont responsables de la propreté des espaces de travail. </p><h3 id=\"block-2800d14933178050a6cde55f968d649b\" class=\"notion-heading notion-semantic-string\">Téléphone, rendez-vous, discussions ☎️</h3><p id=\"block-2800d14933178065855fcf0f5d52093b\" class=\"notion-text notion-text__content notion-semantic-string\">Les coworkers s’engagent à rester le plus discret possible au sein de l’espace de travail et à maintenir une ambiance favorable à la concentration des autres coworkers. </p><h3 id=\"block-2800d14933178093a136e28d8d6b7ce7\" class=\"notion-heading notion-semantic-string\">Respect du matériel 💻</h3><p id=\"block-2800d149331780558c6fd9de2f98e3ef\" class=\"notion-text notion-text__content notion-semantic-string\">Les coworkers s’engagent à respecter le bon état de fonctionnement du matériel mis à disposition (mobilier, équipements…) et à signaler tout incident ou toute anomalie des machines et du matériel. </p><h3 id=\"block-2800d149331780ee81dff901fe9b31aa\" class=\"notion-heading notion-semantic-string\">Cigarette et e-cigarette 🚭</h3><p id=\"block-2800d1493317806a8c62cdd3537f91c3\" class=\"notion-text notion-text__content notion-semantic-string\">L’espace de coworking, tout comme l’ensemble du bâtiment, est non-fumeur.</p><h1 id=\"block-2800d1493317801da5eddf2c29cbf772\" class=\"notion-heading notion-semantic-string\">Réservations et annulation</h1><h3 id=\"block-2800d1493317804ab0d7f7c191a1f1b2\" class=\"notion-heading notion-semantic-string\">Pour réserver ton créneau 📜</h3><p id=\"block-2800d1493317809d9efcf7811fbdacbd\" class=\"notion-text notion-text__content notion-semantic-string\">Uniquement par mail à <a href=\"mailto:contact@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">contact@les4sources.be</a>, 48h avant. Il est possible de réserver une salle plus grande pour des réunions jusqu’à 20 personnes. </p><h3 id=\"block-2800d149331780ef9574da77ecb0c2ed\" class=\"notion-heading notion-semantic-string\">Annulation ❌</h3><p id=\"block-2800d1493317806294fbe2095f05280f\" class=\"notion-text notion-text__content notion-semantic-string\">Toute annulation doit être faite au moins 24h à l’avance. En cas de non respect, des frais d’annulation seront appliqués (50% du tarif).</p><div id=\"block-2800d14933178075959deb897058efd2\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5f4d9765-f339-4d1e-9c63-9d0e254a5c45/_G0A4640/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5f4d9765-f339-4d1e-9c63-9d0e254a5c45/_G0A4640/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5f4d9765-f339-4d1e-9c63-9d0e254a5c45/_G0A4640/public\"></span></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a7424f35-00d2-4200-8ff8-b51dafd0b083/_G0A4642/public",
+      "alt": "Coworking dans la Clairière",
+      "role": "cover",
+      "localPath": "images/coworking/01-_G0A4642.jpg",
+      "shared": false,
+      "bytes": 115874
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6bfb3a54-c742-4d0d-b9c1-75c7f02065f6/_G0A4644/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/coworking/02-_G0A4644.jpg",
+      "shared": false,
+      "bytes": 78664
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9bd0e1ee-3fc6-42c7-9471-ef1885faa696/_G0A2834/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/coworking/03-_G0A2834.jpg",
+      "shared": false,
+      "bytes": 290994
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d4b36989-ab31-4323-b624-63544ab9a58e/_G0A4642/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/coworking/04-_G0A4642.jpg",
+      "shared": false,
+      "bytes": 115874
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5f4d9765-f339-4d1e-9c63-9d0e254a5c45/_G0A4640/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/coworking/05-_G0A4640.jpg",
+      "shared": false,
+      "bytes": 80836
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [
+    "mailto:contact@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 419,
+  "fetchedAt": "2026-09-07T21:17:29.140Z",
+  "markdown": "#### Tu cherches un lieu au calme, avec une nature environnante exceptionnelle pour mieux te concentrer ? Viens coworker aux 4 sources !\n\nIci, nous vous proposons un espace avec 3 bureaux disponibles, accessible **du lundi au vendredi (excepté le jeudi) de 8h à 20h**.\n\n![image](images/coworking/02-_G0A4644.jpg)\n\n### Services inclus\n\nMise à disposition d’un bureau avec câble Ethernet, écran, clavier et souris (pas de tour/ordinateur), ainsi qu’une imprimante-scanner. 📇 **Imprimante :** son utilisation se fait de manière eco-responsable. Une petite caisse est disponible au bar en auto-gestion, afin de payer les impressions effectuées. Voir les tarifs ci-dessous. 📶 **Internet :** via un câble Ethernet ou simplement par le Wifi disponible. 🚗 **Parking** : un parking gratuit est à disposition devant le bâtiment. 🥪 **Repas et pause** : tu pourras manger ton sandwich ou ta salade sur la terrasse en t’assurant de la laisser propre ensuite. Tasses, verres, couverts… sont disponibles dans la cuisine professionnelle. Merci de les nettoyer et les ranger après utilisation ! 🧋 **Les consommables** (thé, café, tisanes, sucre, etc) sont mis à disposition au bar ; ils sont à consommer sur place et de façon raisonnable.\n\n![image](images/coworking/03-_G0A2834.jpg)\n\n## Tarif\n\n#### Venue ponctuelle ⏰\n\n20€/journée\n\n11€/demi-journée (de 8h à 14h ou de 14h à 20h)\n\n#### Venue régulière 🚶🏻‍♀️\n\n1 demi-journée par semaine : 40€/mois\n\n1 journée par semaine : 70€/mois\n\n2 journées par semaine : 135€/mois\n\nLors d’un engagement semestriel, le 6e mois est offert !\n\n#### Imprimante 📇\n\nImpression en noir et blanc : 0,10€\n\nImpression couleurs : 0,50€\n\nLes paiements peuvent s’effectuer par virement bancaire sur le compte `BE72 5230 8060 1116`, soit en liquide dans notre caisse située dans le bar auto-géré.\n\n![image](images/coworking/04-_G0A4642.jpg)\n\n## Conditions spécifiques\n\n#### Propreté et rangement 🧹\n\nLe nettoyage des parties communes du bâtiment est inclus dans les prestations. Toutefois, les coworkers sont invités à respecter la propreté des espaces, et sont responsables de la propreté des espaces de travail.\n\n#### Téléphone, rendez-vous, discussions ☎️\n\nLes coworkers s’engagent à rester le plus discret possible au sein de l’espace de travail et à maintenir une ambiance favorable à la concentration des autres coworkers.\n\n#### Respect du matériel 💻\n\nLes coworkers s’engagent à respecter le bon état de fonctionnement du matériel mis à disposition (mobilier, équipements…) et à signaler tout incident ou toute anomalie des machines et du matériel.\n\n#### Cigarette et e-cigarette 🚭\n\nL’espace de coworking, tout comme l’ensemble du bâtiment, est non-fumeur.\n\n## Réservations et annulation\n\n#### Pour réserver ton créneau 📜\n\nUniquement par mail à [contact@les4sources.be](mailto:contact@les4sources.be), 48h avant. Il est possible de réserver une salle plus grande pour des réunions jusqu’à 20 personnes.\n\n#### Annulation ❌\n\nToute annulation doit être faite au moins 24h à l’avance. En cas de non respect, des frais d’annulation seront appliqués (50% du tarif).\n\n![image](images/coworking/05-_G0A4640.jpg)\n",
+  "extractedAt": "2026-09-07T21:41:44.364Z"
+}

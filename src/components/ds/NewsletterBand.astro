@@ -1,0 +1,30 @@
+---
+/**
+ * NewsletterBand — la carte newsletter de `design/ui_kits/Home.jsx`, promue en
+ * bande de bas de page présente sur toutes les pages.
+ *
+ * Carte sur fond papier (le sable chaud de la charte), emoji 🗞️ en tête,
+ * une phrase en Averia avec l'invitation en gras, et un bouton primaire.
+ * Pas de champ e-mail ici : le vrai formulaire vit sur /newsletter, et la
+ * charte proscrit les faux contrôles. L'adresse est au « tu ».
+ */
+import Button from "./Button.astro";
+import Card from "./Card.astro";
+import Section from "./Section.astro";
+---
+
+<Section class="pt-0">
+  <Card surface="paper" padding="20px 28px">
+    <div class="flex flex-wrap items-center gap-5">
+      <span class="text-[28px] leading-none" aria-hidden="true">🗞️</span>
+
+      <p class="min-w-[260px] flex-1 font-body text-body text-ink">
+        Pour être informé·e des prochains événements aux 4 Sources, <b
+          >inscris-toi à notre newsletter mensuelle</b
+        >.
+      </p>
+
+      <Button variant="primary" size="md" href="/newsletter">Je m’inscris</Button>
+    </div>
+  </Card>
+</Section>

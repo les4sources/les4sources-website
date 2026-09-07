@@ -1,0 +1,71 @@
+{
+  "path": "/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-balsamine",
+  "slug": "sejours__hebergements-yvoir__la-cheveche-gite-8-personnes__chambre-balsamine",
+  "rootIsCollection": false,
+  "title": "Cynoglosse d’Allemagne (juillet)",
+  "metaDescription": "Plants bien présents (quelques dizaines en fleurs et bien davantage en rosette : bisannuelle).",
+  "ogImage": null,
+  "ogTitle": "Cynoglosse d’Allemagne (juillet)",
+  "ogUrl": "https://www.les4sources.be/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-balsamine",
+  "canonical": null,
+  "h1": "Cynoglosse d’Allemagne (juillet)",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Date de création": "Oct 12, 2025 9:23 PM",
+    "Page": "Biodiversité"
+  },
+  "propertySchema": [
+    {
+      "id": "y|zT",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "JUEM",
+      "name": "Page",
+      "type": "multi_select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "sejours-hebergements-yvoir-la-cheveche-gite-8-personnes-chambre-balsamine",
+    "blockId": "28a0d149-3317-816e-afbf-e94453b4b2d0",
+    "parentId": "28a0d149331781b09d9c000b678af892",
+    "type": "page",
+    "uri": "/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-balsamine",
+    "createdTime": "2025-10-12T21:23:33.884Z",
+    "lastEditedTime": "2026-06-11T13:03:30.244Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<div id=\"block-37c0d1493317806e9726c2236ce20c8f\" class=\"notion-column-list\"><div id=\"block-37c0d149331780928f28ecdaae11f87d\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-37c0d149331780188d51f7ac6ec2ccf3\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/897a16e1-992b-4883-80c3-3c04715df585/p6090523_rec/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/897a16e1-992b-4883-80c3-3c04715df585/p6090523_rec/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/897a16e1-992b-4883-80c3-3c04715df585/p6090523_rec/public\"></span></div></div><div id=\"block-37c0d1493317801a85f7fba1417419cd\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-d4bdc26ac5fd41689a913f6783a27fba\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/484f10a1-cee0-4fed-97a2-6e197aa491d1/cynoglosse_dallemagne/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/484f10a1-cee0-4fed-97a2-6e197aa491d1/cynoglosse_dallemagne/public\"><img alt=\"Cynoglosse d’Allemagne\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/484f10a1-cee0-4fed-97a2-6e197aa491d1/cynoglosse_dallemagne/public\"></span><figcaption class=\"notion-caption notion-semantic-string\">Cynoglosse d’Allemagne</figcaption></div></div></div><p id=\"block-1157a1bda1a54d92931f12b6da282438\" class=\"notion-text notion-text__content notion-semantic-string\">Plants bien présents (quelques dizaines en fleurs et bien davantage en rosette : bisannuelle).</p><p id=\"block-d80449aa7edd416cb385ec9b78a0fbfa\" class=\"notion-text notion-text__content notion-semantic-string\">Délicat cousin des myosotis, couleur mauve ou framboise.</p><p id=\"block-44f5b3507e9f4472bc46d79e2d791c08\" class=\"notion-text notion-text__content notion-semantic-string\">Plante assez grande mais très petites fleurs semblant éclore une par une, sur le modèle des scrofulaires.</p><p id=\"block-e8b2643d90cb4517b6bd6fc527ad224a\" class=\"notion-text notion-text__content notion-semantic-string\">Que cherchons-nous vraiment dans la forêt ?</p>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/897a16e1-992b-4883-80c3-3c04715df585/p6090523_rec/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/bad81044223a-p6090523_rec.jpg",
+      "shared": true,
+      "bytes": 34973
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/484f10a1-cee0-4fed-97a2-6e197aa491d1/cynoglosse_dallemagne/public",
+      "alt": "Cynoglosse d’Allemagne",
+      "role": "content",
+      "localPath": "images/_shared/05f0e22b00e5-cynoglosse_dallemagne.jpg",
+      "shared": true,
+      "bytes": 262450
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 44,
+  "fetchedAt": "2026-09-07T21:17:47.586Z",
+  "markdown": "<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/_shared/bad81044223a-p6090523_rec.jpg)\n\n<!-- column width=\"50%\" -->\n\n![Cynoglosse d’Allemagne](images/_shared/05f0e22b00e5-cynoglosse_dallemagne.jpg)\n*Cynoglosse d’Allemagne*\n<!-- /columns -->\n\nPlants bien présents (quelques dizaines en fleurs et bien davantage en rosette : bisannuelle).\n\nDélicat cousin des myosotis, couleur mauve ou framboise.\n\nPlante assez grande mais très petites fleurs semblant éclore une par une, sur le modèle des scrofulaires.\n\nQue cherchons-nous vraiment dans la forêt ?\n",
+  "extractedAt": "2026-09-07T21:41:44.544Z"
+}

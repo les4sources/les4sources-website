@@ -1,0 +1,185 @@
+{
+  "path": "/evenements/pizza-party-juillet-2026-1",
+  "slug": "evenements__pizza-party-juillet-2026-1",
+  "rootIsCollection": false,
+  "title": "🍕Pizza Party de juillet",
+  "metaDescription": "Pizza Party du 17 juillet 2026 aux 4 Sources (Yvoir)",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/db5a5723-edce-48a9-8bcd-d205a52ef383/evenement_gnral__a/public",
+  "ogTitle": "🍕Pizza Party de juillet",
+  "ogUrl": "https://www.les4sources.be/evenements/pizza-party-juillet-2026-1",
+  "canonical": null,
+  "h1": "🍕Pizza Party de juillet",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/db5a5723-edce-48a9-8bcd-d205a52ef383/evenement_gnral__a/public",
+    "localPath": "images/evenements__pizza-party-juillet-2026-1/01-evenement_gnral__a.jpg"
+  },
+  "pageIcon": "🥦",
+  "properties": {
+    "Date": "2026-07-17",
+    "Horaires": "à partir de 18h30",
+    "Type d'événement": "Pizza Party",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "17 juillet 2026",
+    "Tarif": "€10.00",
+    "Date de création": "Jun 10, 2026 11:07 AM",
+    "Statut site web": "Publié",
+    "super:description": "Pizza Party du 17 juillet 2026 aux 4 Sources (Yvoir)",
+    "super:slug": "pizza-party-juillet-2026"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-pizza-party-juillet-2026-1",
+    "blockId": "37b0d149-3317-8046-9265-c727d75a137c",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/pizza-party-juillet-2026-1",
+    "createdTime": "2026-06-10T11:07:33.895Z",
+    "lastEditedTime": "2026-06-18T12:06:03.043Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "🍕Pizza Party de juillet",
+      "href": "/evenements/pizza-party-juillet-2026-1",
+      "icon": "🥦"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-37b0d14933178027bc40d6f7235d45da\" class=\"notion-heading notion-semantic-string\">En juillet, mange des pizzas comme il te plaît ! Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !  </h3><div id=\"block-37b0d1493317806d9f2deea33e870db8\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d0757704-6a03-4c87-8ad4-f51637d77ec7/_mg_0307/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d0757704-6a03-4c87-8ad4-f51637d77ec7/_mg_0307/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d0757704-6a03-4c87-8ad4-f51637d77ec7/_mg_0307/public\"></span></div><p id=\"block-37b0d149331780e5b5e2c0e4c80f5ddd\" class=\"notion-text notion-text__content notion-semantic-string\">Bienvenue <strong>ce vendredi 17 juillet, dès 18h30 :</strong></p><ul class=\"notion-bulleted-list\"><li id=\"block-37b0d1493317807f9429d4389f747d56\" class=\"notion-list-item notion-semantic-string\">nos boulangères préparent de délicieux pâtons au levain le jour même</li><li id=\"block-37b0d149331780369a0cdfeabd6fd7c6\" class=\"notion-list-item notion-semantic-string\">tu amènes ta garniture en fonction de tes envies<!-- --></li><li id=\"block-37b0d149331780509a15e92635bd9187\" class=\"notion-list-item notion-semantic-string\">nous cuisons les pizzas au feu de bois entre 19h et 20h</li><li id=\"block-37b0d14933178003ba45e62dcbfa2133\" class=\"notion-list-item notion-semantic-string\">et vous les dégustez en terrasse plein sud, 360°C nature !</li><li id=\"block-37b0d1493317801d8284f4c7c89e27ca\" class=\"notion-list-item notion-semantic-string\">en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂</li></ul><p id=\"block-37b0d149331780deaa3befbc3a4c8bdf\" class=\"notion-text notion-text__content notion-semantic-string\">👍 Le four de boulangerie est chauffé au bois\n👍 Les pâtons sont bio et au levain\n👍 Et les gens sont super cools !</p><div id=\"block-37b0d1493317808db922c6cd8272c656\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/653cea1c-c3ac-4727-8c99-cf36e5f6366c/_mg_0392/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/653cea1c-c3ac-4727-8c99-cf36e5f6366c/_mg_0392/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/653cea1c-c3ac-4727-8c99-cf36e5f6366c/_mg_0392/public\"></span></div><h1 id=\"block-37b0d1493317809f9759d554083f85b7\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-37b0d1493317809ca407dea903a28631\" class=\"notion-list-item notion-semantic-string\"><a href=\"https://www.billetweb.fr/pizza-party-de-septembre-2025\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">I</a>nscription indispensable <u>jusqu’au jeudi 16h avant l'événement</u>, ce qui nous permet de préparer le bon nombre de pâtons</li><li id=\"block-37b0d149331780e0b8a1e43d3b770e86\" class=\"notion-list-item notion-semantic-string\">Participation : 10€/adulte et 6€/enfant</li><li id=\"block-37b0d149331780339ac2ef491af28730\" class=\"notion-list-item notion-semantic-string\">Bar avec boissons bios/locales/de saison sur place 🍹</li><li id=\"block-37b0d149331780a5ad1bf7336e451284\" class=\"notion-list-item notion-semantic-string\">Paiement des consommations en cash ou par virement sur place</li></ul><p id=\"block-37b0d1493317800c98cdc1c1f14e546b\" class=\"notion-text notion-text__content notion-semantic-string\">Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h30, lorsque le four est encore chaud de la journée.</p><h1 id=\"block-37b0d14933178062aa25f796a07ece34\" class=\"notion-heading notion-semantic-string\">Olé olé, je m’inscris !</h1><div id=\"block-37b0d149331780f28fabcdbc02a8c8dd\" class=\"super-embed\">\n<a title=\"Vente de billets en ligne\" href=\"https://www.billetweb.fr/shop.php?event=pizza-party-de-juillet\" class=\"shop_frame\" target=\"_blank\" data-src=\"https://www.billetweb.fr/shop.php?event=pizza-party-de-juillet\" data-max-width=\"100%\" data-initial-height=\"600\" data-scrolling=\"no\" data-id=\"pizza-party-de-juillet\" data-resize=\"1\">Vente de billets en ligne</a></div><h3 id=\"block-37b0d1493317801f8012ee448546f9ae\" class=\"notion-heading notion-semantic-string\">Prévisions météo</h3><div id=\"block-37b0d1493317807fabc8fda52c08802b\" class=\"super-embed\">\n<iframe src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius\" name=\"CW2\" width=\"318\" height=\"318\"></iframe></div><div id=\"block-3830d14933178089a04ee5305e34f7cc\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7dd0eb2f-6cd6-4998-a77f-659178beaf16/_mg_0512/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7dd0eb2f-6cd6-4998-a77f-659178beaf16/_mg_0512/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7dd0eb2f-6cd6-4998-a77f-659178beaf16/_mg_0512/public\"></span></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/db5a5723-edce-48a9-8bcd-d205a52ef383/evenement_gnral__a/public",
+      "alt": "🍕Pizza Party de juillet",
+      "role": "cover",
+      "localPath": "images/evenements__pizza-party-juillet-2026-1/01-evenement_gnral__a.jpg",
+      "shared": false,
+      "bytes": 114260
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d0757704-6a03-4c87-8ad4-f51637d77ec7/_mg_0307/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__pizza-party-juillet-2026-1/02-_mg_0307.jpg",
+      "shared": false,
+      "bytes": 138242
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/653cea1c-c3ac-4727-8c99-cf36e5f6366c/_mg_0392/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__pizza-party-juillet-2026-1/03-_mg_0392.jpg",
+      "shared": false,
+      "bytes": 153668
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7dd0eb2f-6cd6-4998-a77f-659178beaf16/_mg_0512/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__pizza-party-juillet-2026-1/04-_mg_0512.jpg",
+      "shared": false,
+      "bytes": 220923
+    }
+  ],
+  "embeds": [
+    {
+      "kind": "other",
+      "src": "https://www.billetweb.fr/shop.php?event=pizza-party-de-juillet",
+      "title": "Vente de billets en ligne",
+      "rawHtml": "<a title=\"Vente de billets en ligne\" href=\"https://www.billetweb.fr/shop.php?event=pizza-party-de-juillet\" class=\"shop_frame\" target=\"_blank\" data-src=\"https://www.billetweb.fr/shop.php?event=pizza-party-de-juillet\" data-max-width=\"100%\" data-initial-height=\"600\" data-scrolling=\"no\" data-id=\"pizza-party-de-juillet\" data-resize=\"1\">Vente de billets en ligne</a>"
+    },
+    {
+      "kind": "other",
+      "src": "https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius",
+      "title": "api.wo-cloud.com",
+      "rawHtml": "<iframe src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius\" name=\"CW2\" width=\"318\" height=\"318\"></iframe>"
+    }
+  ],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.billetweb.fr/pizza-party-de-septembre-2025",
+    "https://www.billetweb.fr/shop.php?event=pizza-party-de-juillet"
+  ],
+  "collections": [],
+  "wordCount": 198,
+  "fetchedAt": "2026-09-07T21:17:40.021Z",
+  "markdown": "#### En juillet, mange des pizzas comme il te plaît ! Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !\n\n![image](images/evenements__pizza-party-juillet-2026-1/02-_mg_0307.jpg)\n\nBienvenue **ce vendredi 17 juillet, dès 18h30 :**\n\n- nos boulangères préparent de délicieux pâtons au levain le jour même\n- tu amènes ta garniture en fonction de tes envies\n- nous cuisons les pizzas au feu de bois entre 19h et 20h\n- et vous les dégustez en terrasse plein sud, 360°C nature !\n- en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂\n\n👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !\n\n![image](images/evenements__pizza-party-juillet-2026-1/03-_mg_0392.jpg)\n\n## **Infos pratiques**\n\n- [I](https://www.billetweb.fr/pizza-party-de-septembre-2025)nscription indispensable <u>jusqu’au jeudi 16h avant l'événement</u>, ce qui nous permet de préparer le bon nombre de pâtons\n- Participation : 10€/adulte et 6€/enfant\n- Bar avec boissons bios/locales/de saison sur place 🍹\n- Paiement des consommations en cash ou par virement sur place\n\nLes enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h30, lorsque le four est encore chaud de la journée.\n\n## Olé olé, je m’inscris !\n\n<!-- embed:other src=\"https://www.billetweb.fr/shop.php?event=pizza-party-de-juillet\" -->\n[Vente de billets en ligne](https://www.billetweb.fr/shop.php?event=pizza-party-de-juillet)\n\n#### Prévisions météo\n\n<!-- embed:other src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius\" -->\n[api.wo-cloud.com](https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius)\n\n![image](images/evenements__pizza-party-juillet-2026-1/04-_mg_0512.jpg)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.447Z"
+}

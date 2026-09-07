@@ -1,0 +1,155 @@
+{
+  "path": "/evenements/fort-et-rsilience-2026",
+  "slug": "evenements__fort-et-rsilience-2026",
+  "rootIsCollection": false,
+  "title": "Atelier forêt et résilience 🌲",
+  "metaDescription": "Ralentir et s'immerger dans l'intelligence des forêts",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/33e0448f-8acb-4053-8314-9346ba50824d/focus-foret-jardin_-2/public",
+  "ogTitle": "Atelier forêt et résilience 🌲",
+  "ogUrl": "https://www.les4sources.be/evenements/fort-et-rsilience-2026",
+  "canonical": null,
+  "h1": "Atelier forêt et résilience 🌲",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/33e0448f-8acb-4053-8314-9346ba50824d/focus-foret-jardin_-2/public",
+    "localPath": "images/evenements__fort-et-rsilience-2026/01-focus-foret-jardin_-2.jpg"
+  },
+  "pageIcon": "🌲",
+  "properties": {
+    "Date": "2026-04-03 → 2026-04-04",
+    "Horaires": "9h-17h",
+    "Type d'événement": "Formation",
+    "Thématique": "Environnement",
+    "Date (fr)": "Les 3 et 4 avril 2026",
+    "Tarif": "€180.00",
+    "Date de création": "Jan 29, 2026 1:23 PM",
+    "Statut site web": "Publié",
+    "super:description": "Ralentir et s'immerger dans l'intelligence des forêts",
+    "super:slug": "forêt-et-résilience-2026"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-fort-et-rsilience-2026",
+    "blockId": "2f70d149-3317-8037-af79-c34da2416301",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/fort-et-rsilience-2026",
+    "createdTime": "2026-01-29T13:23:55.012Z",
+    "lastEditedTime": "2026-04-04T09:57:34.374Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Atelier forêt et résilience 🌲",
+      "href": "/evenements/fort-et-rsilience-2026",
+      "icon": "🌲"
+    }
+  ],
+  "contentHtml": "<p id=\"block-2f70d149331780da98effd291cf4d989\" class=\"notion-text notion-text__content notion-semantic-string\">Un atelier proposé par notre partenaire Semisto <strong>les vendredi 3 et samedi 4 avril</strong> : avec comme intervenantes Laurence Delahaye et Laurence Thiry. </p><h1 id=\"block-2f70d14933178126aba8d2d13d44489b\" class=\"notion-heading notion-semantic-string\"><strong>Ralentir et s'immerger dans l'intelligence des forêts</strong></h1><p id=\"block-815c134899874c1696829a463fca9bbf\" class=\"notion-text notion-text__content notion-semantic-string\">Une invitation à ralentir et à s'immerger dans l'intelligence des forêts. Face aux perturbations, la forêt ne se contente pas de résister : elle s'adapte, coopère et se régénère. Cet atelier de deux jours est une rencontre entre la science forestière et la psychologie humaine. C’est une invitation à observer ces mécanismes et à les transposer à ta propre vie. Au travers d’apports théoriques, de moments sensoriels et de pratiques créatives, viens esquisser ton propre écosystème de ressources.</p><p id=\"block-2f70d1493317807a8be3f9f81ad28c6a\" class=\"notion-text notion-text__content notion-semantic-string\">📍 <strong>Lieu :</strong> <em>À l’Aurée des Sous-bois</em> - écolieu de transmission et de formation à Godinne dans la vallée de la Meuse (entre Namur et Dinant)</p><h2 id=\"block-287a6e1b6700494fbec66a86f5086c63\" class=\"notion-heading notion-semantic-string\"><strong>Pourquoi rejoindre cet atelier ?</strong></h2><p id=\"block-893e190dadb744348e36b5ceac4ee076\" class=\"notion-text notion-text__content notion-semantic-string\">La forêt est le plus ancien modèle de résilience sur Terre. En rencontrant ses cycles, on change de regard sur nos propres transitions.</p><ul class=\"notion-bulleted-list\"><li id=\"block-42eb46c06aa44e0caa3bfbf8bcbb9bb4\" class=\"notion-list-item notion-semantic-string\"><strong>Comprendre la résilience via les stratégies du vivant</strong> (diversité, coopération, temps long)</li><li id=\"block-69c75d86b2e24047ba51e845990c1a73\" class=\"notion-list-item notion-semantic-string\"><strong>Se reconnecter à soi</strong> par une immersion sensorielle et une écoute sensible de la nature</li><li id=\"block-4065cca4e0a74993b475a6afec4a7c87\" class=\"notion-list-item notion-semantic-string\"><strong>Transformer son récit</strong> grâce aux métaphores sylvestres et à la création d'un carnet personnel</li><li id=\"block-1cca8a37d47841ba8e3766887c94f898\" class=\"notion-list-item notion-semantic-string\"><strong>Partager et échanger au sein d'un groupe bienveillant</strong> pour nourrir sa pratique professionnelle ou son cheminement personnel</li></ul><h3 id=\"block-935ed9b61852402c92b9a92027be04f6\" class=\"notion-heading notion-semantic-string\"><strong>À qui s'adresse cet atelier?</strong></h3><p id=\"block-f7cb026a016a442a9aba095fa374486d\" class=\"notion-text notion-text__content notion-semantic-string\">Ce temps de pause a été pensé pour toute personne souhaitant renforcer sa capacité d'adaptation et trouver de nouveaux ancrages :</p><ul class=\"notion-bulleted-list\"><li id=\"block-a8892b0ab6554d6c9bd2187361826f53\" class=\"notion-list-item notion-semantic-string\">Adultes en quête de développement personnel et de sens</li><li id=\"block-e6852a40d1f24414a8bc79d1e4d2ee1f\" class=\"notion-list-item notion-semantic-string\">Personnes en phase de reconversion ou de transition de vie</li><li id=\"block-115d88e569a84756b27ad5c277571850\" class=\"notion-list-item notion-semantic-string\">Accompagnants (formateurs, coachs, professionnels de la santé) souhaitant intégrer la métaphore de la forêt dans leur pratique</li></ul><div id=\"block-2f70d149331780e582d0e115a3910abb\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2f4598e4-c7a1-4177-a968-1ea942a84a54/_g0a4741/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2f4598e4-c7a1-4177-a968-1ea942a84a54/_g0a4741/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2f4598e4-c7a1-4177-a968-1ea942a84a54/_g0a4741/public\"></span></div><div id=\"block-2f70d149331780059aaac290add258b6\" class=\"notion-button\"><a href=\"https://semisto.punchpass.com/series/46262\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🖍️</span></div><span class=\"notion-semantic-string\">Pour s'inscrire, c'est par là</span></a></div><h1 id=\"block-e31b68b690a74346bd19354b5b949058\" class=\"notion-heading notion-semantic-string\"><strong>Le fil conducteur des deux journées</strong></h1><h3 id=\"block-fa6e4e6f1dd04e61ab1001ecba3c2bd1\" class=\"notion-heading notion-semantic-string\"><strong>Introduction : rencontre avec les cycles de la vie</strong></h3><ul class=\"notion-bulleted-list\"><li id=\"block-353b2e90d3d4405fa86664c230c67cdd\" class=\"notion-list-item notion-semantic-string\">La forêt en libre évolution : cycles de vie, de mort et de régénération</li><li id=\"block-bb630123012b46ef92f1608e9a9f6a6b\" class=\"notion-list-item notion-semantic-string\">Parallèles entre résilience écologique et résilience humaine</li><li id=\"block-20699b6bb89448669a7ef75ff1b643ed\" class=\"notion-list-item notion-semantic-string\">Les échelles de résilience : de l'individu au collectif</li></ul><h3 id=\"block-ce4d41248be7412bae43ef5bc2afcd99\" class=\"notion-heading notion-semantic-string\"><strong>Première partie : </strong><strong><u>La forêt comme miroir de soi</u></strong></h3><ul class=\"notion-bulleted-list\"><li id=\"block-03a0772e1c07496992357dc338314bd3\" class=\"notion-list-item notion-semantic-string\">Retrouver ses ressources intérieures en s'inspirant des processus naturels</li><li id=\"block-5b3d9ed705af4dec921a1d0b8cf8c589\" class=\"notion-list-item notion-semantic-string\">Utiliser les récits de la forêt pour accompagner son propre parcours de transformation</li></ul><h3 id=\"block-745d8bb326cb4ffba9d0bb5cfa88e719\" class=\"notion-heading notion-semantic-string\"><strong>Seconde partie : </strong><strong><u>La forêt comme nature enseignante</u></strong></h3><ul class=\"notion-bulleted-list\"><li id=\"block-ac1b6f833d844ac096181b051dee3a30\" class=\"notion-list-item notion-semantic-string\">Observation des stratégies de résilience des écosystèmes (souplesse, adaptation)</li><li id=\"block-6b0cdaf778d64d58ad8490e60c15aab5\" class=\"notion-list-item notion-semantic-string\">Translation de ces dynamiques en inspirations concrètes pour son quotidien</li></ul><h2 id=\"block-a17bd2e5aa6842769e66a095c0a2b8f9\" class=\"notion-heading notion-semantic-string\"><strong>Nos méthodes de partage</strong></h2><p id=\"block-e3d15cd9df1841f3b6cc6bc3adc20aca\" class=\"notion-text notion-text__content notion-semantic-string\">Pédagogie par l'analogie\n<em>La forêt comme modèle, miroir et terrain d'expérience</em></p><p id=\"block-49fdb18d14474dd2b528c987a7622dcf\" class=\"notion-text notion-text__content notion-semantic-string\">Immersion sensorielle\n<em>Balades d'observation et temps de pleine conscience</em></p><p id=\"block-a9100219e9c9463b96968f7d7f732fa3\" class=\"notion-text notion-text__content notion-semantic-string\">Pratiques créatives\n<em>Utilisation d'un carnet comme outil d'exploration (dessin, écriture, collage)</em></p><p id=\"block-d33c109b297c412d8cb8d288dd836893\" class=\"notion-text notion-text__content notion-semantic-string\">Intelligence collective\n<em>Cercles de parole pour relier le vivant à l'humain</em></p><p id=\"block-7576298da8564bc493690f17270f97d6\" class=\"notion-text notion-text__content notion-semantic-string\">Rituel symbolique\n<em>Un moment collectif pour ancrer l'expérience</em></p><p id=\"block-25c86962d12442268c3636c8a2d5630d\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Matériel fourni :</strong></p><ul class=\"notion-bulleted-list\"><li id=\"block-495e528d4bf84291aa64e833de4607cc\" class=\"notion-list-item notion-semantic-string\">Supports pédagogiques visuels (infographies)</li><li id=\"block-1a17752c316c454f869072e7e60ea8cc\" class=\"notion-list-item notion-semantic-string\">Carnet créatif vierge et matériel de base pour les activités (crayons, feutres, colles, magazines pour collage, etc.)</li><li id=\"block-d48dc0f0f0dd4991b2cd88b4e5c4289b\" class=\"notion-list-item notion-semantic-string\">Tout le matériel nécessaire aux activités en forêt et au rituel collectif (plantation symbolique ou création de cairn)</li></ul><p id=\"block-cd72417edd654667b454d9ba5c772576\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>À prévoir :</strong></p><ul class=\"notion-bulleted-list\"><li id=\"block-d45d4a36ee2d4d03ad2158e6268cf515\" class=\"notion-list-item notion-semantic-string\">Vêtements et chaussures adaptés à une immersion en forêt (quel que soit le temps)</li><li id=\"block-e24bcaf3075242cb913daeb1e27c91a9\" class=\"notion-list-item notion-semantic-string\">Un coussin ou un plaid pour plus de confort pendant les temps assis en cercle</li><li id=\"block-7e7736b6819540c993c37d0a115d7e4b\" class=\"notion-list-item notion-semantic-string\">Ton pique-nique pour le repas de midi convivial. Tisanes et petites douceurs offertes sur place.</li></ul><div id=\"block-2f70d14933178101a49bd8d795fdf385\" class=\"notion-button\"><a href=\"https://semisto.punchpass.com/series/46262\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🖍️</span></div><span class=\"notion-semantic-string\">Pour s'inscrire, c'est par là</span></a></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/33e0448f-8acb-4053-8314-9346ba50824d/focus-foret-jardin_-2/public",
+      "alt": "Atelier forêt et résilience 🌲",
+      "role": "cover",
+      "localPath": "images/evenements__fort-et-rsilience-2026/01-focus-foret-jardin_-2.jpg",
+      "shared": false,
+      "bytes": 165844
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2f4598e4-c7a1-4177-a968-1ea942a84a54/_g0a4741/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__fort-et-rsilience-2026/02-_g0a4741.jpg",
+      "shared": false,
+      "bytes": 262896
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://semisto.punchpass.com/series/46262"
+  ],
+  "collections": [],
+  "wordCount": 511,
+  "fetchedAt": "2026-09-07T21:17:33.208Z",
+  "markdown": "Un atelier proposé par notre partenaire Semisto **les vendredi 3 et samedi 4 avril** : avec comme intervenantes Laurence Delahaye et Laurence Thiry.\n\n## **Ralentir et s'immerger dans l'intelligence des forêts**\n\nUne invitation à ralentir et à s'immerger dans l'intelligence des forêts. Face aux perturbations, la forêt ne se contente pas de résister : elle s'adapte, coopère et se régénère. Cet atelier de deux jours est une rencontre entre la science forestière et la psychologie humaine. C’est une invitation à observer ces mécanismes et à les transposer à ta propre vie. Au travers d’apports théoriques, de moments sensoriels et de pratiques créatives, viens esquisser ton propre écosystème de ressources.\n\n📍 **Lieu :** *À l’Aurée des Sous-bois* - écolieu de transmission et de formation à Godinne dans la vallée de la Meuse (entre Namur et Dinant)\n\n### **Pourquoi rejoindre cet atelier ?**\n\nLa forêt est le plus ancien modèle de résilience sur Terre. En rencontrant ses cycles, on change de regard sur nos propres transitions.\n\n- **Comprendre la résilience via les stratégies du vivant** (diversité, coopération, temps long)\n- **Se reconnecter à soi** par une immersion sensorielle et une écoute sensible de la nature\n- **Transformer son récit** grâce aux métaphores sylvestres et à la création d'un carnet personnel\n- **Partager et échanger au sein d'un groupe bienveillant** pour nourrir sa pratique professionnelle ou son cheminement personnel\n\n#### **À qui s'adresse cet atelier?**\n\nCe temps de pause a été pensé pour toute personne souhaitant renforcer sa capacité d'adaptation et trouver de nouveaux ancrages :\n\n- Adultes en quête de développement personnel et de sens\n- Personnes en phase de reconversion ou de transition de vie\n- Accompagnants (formateurs, coachs, professionnels de la santé) souhaitant intégrer la métaphore de la forêt dans leur pratique\n\n![image](images/evenements__fort-et-rsilience-2026/02-_g0a4741.jpg)\n\n[🖍️ Pour s'inscrire, c'est par là](https://semisto.punchpass.com/series/46262){.button}\n\n## **Le fil conducteur des deux journées**\n\n#### **Introduction : rencontre avec les cycles de la vie**\n\n- La forêt en libre évolution : cycles de vie, de mort et de régénération\n- Parallèles entre résilience écologique et résilience humaine\n- Les échelles de résilience : de l'individu au collectif\n\n#### **Première partie :** **<u>La forêt comme miroir de soi</u>**\n\n- Retrouver ses ressources intérieures en s'inspirant des processus naturels\n- Utiliser les récits de la forêt pour accompagner son propre parcours de transformation\n\n#### **Seconde partie :** **<u>La forêt comme nature enseignante</u>**\n\n- Observation des stratégies de résilience des écosystèmes (souplesse, adaptation)\n- Translation de ces dynamiques en inspirations concrètes pour son quotidien\n\n### **Nos méthodes de partage**\n\nPédagogie par l'analogie *La forêt comme modèle, miroir et terrain d'expérience*\n\nImmersion sensorielle *Balades d'observation et temps de pleine conscience*\n\nPratiques créatives *Utilisation d'un carnet comme outil d'exploration (dessin, écriture, collage)*\n\nIntelligence collective *Cercles de parole pour relier le vivant à l'humain*\n\nRituel symbolique *Un moment collectif pour ancrer l'expérience*\n\n**Matériel fourni :**\n\n- Supports pédagogiques visuels (infographies)\n- Carnet créatif vierge et matériel de base pour les activités (crayons, feutres, colles, magazines pour collage, etc.)\n- Tout le matériel nécessaire aux activités en forêt et au rituel collectif (plantation symbolique ou création de cairn)\n\n**À prévoir :**\n\n- Vêtements et chaussures adaptés à une immersion en forêt (quel que soit le temps)\n- Un coussin ou un plaid pour plus de confort pendant les temps assis en cercle\n- Ton pique-nique pour le repas de midi convivial. Tisanes et petites douceurs offertes sur place.\n\n[🖍️ Pour s'inscrire, c'est par là](https://semisto.punchpass.com/series/46262){.button}\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.388Z"
+}

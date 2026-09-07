@@ -1,0 +1,137 @@
+{
+  "path": "/projets/tranches-de-vie",
+  "slug": "projets__tranches-de-vie",
+  "rootIsCollection": false,
+  "title": "Tranches de Vie",
+  "metaDescription": "Tranches de Vie, c’est la boulangerie des 4 Sources, à Yvoir. Du pain qui a du goût, fait par des gens qui savent pourquoi ils le font.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b809f4bf-53b0-46b4-a78c-4b30050855f6/20251115_100710_856d96c6/public",
+  "ogTitle": "Tranches de Vie",
+  "ogUrl": "https://www.les4sources.be/projets/tranches-de-vie",
+  "canonical": null,
+  "h1": "Tranches de Vie",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b809f4bf-53b0-46b4-a78c-4b30050855f6/20251115_100710_856d96c6/public",
+    "localPath": "images/projets__tranches-de-vie/01-20251115_100710_856d96c6.jpg"
+  },
+  "pageIcon": "🍞",
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "projets-tranches-de-vie",
+    "blockId": "389c2f03-0dc7-413c-ad6d-4cf7cd286564",
+    "parentId": "projets",
+    "type": "page",
+    "uri": "/projets/tranches-de-vie",
+    "createdTime": "2024-05-28T09:20:12.002Z",
+    "lastEditedTime": "2026-08-20T12:26:40.758Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Nos projets",
+      "href": "/projets",
+      "icon": "⚙️"
+    },
+    {
+      "label": "Tranches de Vie",
+      "href": "/projets/tranches-de-vie",
+      "icon": "🍞"
+    }
+  ],
+  "contentHtml": "<h2 id=\"block-1800d149331780a5be3bcbf532e505da\" class=\"notion-heading notion-semantic-string\">La boulangerie qui raconte une histoire ✨</h2><p id=\"block-7c887f6d90cd42fcb9afcaeb18ead6c3\" class=\"notion-text notion-text__content notion-semantic-string\">Tranches de Vie, c’est la boulangerie des 4 Sources, à Yvoir. Du pain qui a du goût, fait par des gens qui savent pourquoi ils le font.</p><div id=\"block-3750d149331780f7b64cfc8c6cadfb78\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e19cb878-44f6-4dd0-85b4-c76676693022/ef43fd17-bc0f-4496-8344-50efa301a518/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e19cb878-44f6-4dd0-85b4-c76676693022/ef43fd17-bc0f-4496-8344-50efa301a518/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e19cb878-44f6-4dd0-85b4-c76676693022/ef43fd17-bc0f-4496-8344-50efa301a518/public\"></span></div><h3 id=\"block-1800d149331780399e39ded2dc02f043\" class=\"notion-heading notion-semantic-string\">Une boulangère animée par le vivant</h3><p id=\"block-1800d14933178065b405e30754dba881\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Stéphanie</strong>, notre boulangère, est bien plus qu'une artisane du pain. Son parcours résonne comme une quête d'équilibre entre l'humain, la nature et les émotions. Après avoir traversé un burn-out, Stéphanie a découvert dans le pain un ancrage, une manière de ralentir et de se reconnecter au vivant. <em>« Mettre les mains dans la pâte, observer la magie du levain et façonner chaque miche sont devenus pour moi un rituel essentiel »</em>, confie-t-elle.<!-- --></p><div id=\"block-3c20d14933178057a08df6db0c5444ad\" class=\"notion-column-list\"><div id=\"block-3c20d149331780ba8d4dc5a9a5421785\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-23a0d1493317808ca4e4dd92c9a181ee\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e91571fb-a373-4564-a3a9-2ed7033a4f02/7e1ce413-ba21-4370-8dea-a511acefbade/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e91571fb-a373-4564-a3a9-2ed7033a4f02/7e1ce413-ba21-4370-8dea-a511acefbade/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e91571fb-a373-4564-a3a9-2ed7033a4f02/7e1ce413-ba21-4370-8dea-a511acefbade/public\"></span></div></div><div id=\"block-3c20d149331780acb76add176f4c28dd\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-23a0d14933178051a6a5cc29f2e1d1be\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b7f32da1-9e34-4e9a-8546-3ee9bc9752a9/0ca4b3f3-1594-4449-b00d-03c9450d3870/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b7f32da1-9e34-4e9a-8546-3ee9bc9752a9/0ca4b3f3-1594-4449-b00d-03c9450d3870/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b7f32da1-9e34-4e9a-8546-3ee9bc9752a9/0ca4b3f3-1594-4449-b00d-03c9450d3870/public\"></span></div></div></div><div id=\"block-3750d1493317804fb1dee1b7bc0cb449\" class=\"notion-button\"><a href=\"https://tranchesdevie.les4sources.be/\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🥖</span></div><span class=\"notion-semantic-string\">Je commande mon pain</span></a></div><p id=\"block-1800d149331780d3aed3c6dcd408a745\" class=\"notion-text notion-text__content notion-semantic-string\">Dans notre boulangerie, pas de calculs complexes sur l'humidité ou le pH, mais <strong>une approche intuitive basée sur le toucher, l'observation et le ressenti.</strong> À travers ses gestes simples et précis, Stéphanie transmet un savoir-faire accessible à tous. </p><div id=\"block-1800d14933178084bdeed82c2d1356f5\" class=\"notion-column-list\"><div id=\"block-1800d1493317806ebd2ece14c2b1706d\" class=\"notion-column\" data-width=\"56.3%\"><h3 id=\"block-1800d14933178002a0b8d30559299b28\" class=\"notion-heading notion-semantic-string\">Le four à bois : un lieu de rencontres et de chaleur</h3><p id=\"block-1800d14933178030a24dcc3c97c11d5c\" class=\"notion-text notion-text__content notion-semantic-string\">Chez Tranches de Vie, le four à bois n'est pas qu'un outil de cuisson. Il est au centre d'un espace où les gens se rencontrent, discutent et partagent des moments simples et authentiques. Lors des Pizzas Parties ou des cuissons collectives, chacun peut préparer son propre pain ou sa pizza, observer la magie de la cuisson et savourer un repas convivial autour d'une grande tablée.</p></div><div id=\"block-1800d149331780af80cfcc12f2b4c685\" class=\"notion-column\" data-width=\"43.8%\"><div id=\"block-1800d1493317804190b0cf25389944bd\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a851ca7a-264a-4a4e-924c-c053912e03d5/e7a64d9f-9602-4ae2-8c44-b329e31d7d0f/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a851ca7a-264a-4a4e-924c-c053912e03d5/e7a64d9f-9602-4ae2-8c44-b329e31d7d0f/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a851ca7a-264a-4a4e-924c-c053912e03d5/e7a64d9f-9602-4ae2-8c44-b329e31d7d0f/public\"></span></div></div></div><div id=\"block-3c20d1493317808cafa6dd5fed1039ee\" class=\"notion-column-list\"><div id=\"block-3c20d1493317801e961bff18002069ee\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-1800d1493317806eb563f137e394582f\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/829e0c96-e919-47cc-8bc1-74370ef8e230/404df612-4eff-4b6a-8a0f-78921c471aa3/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/829e0c96-e919-47cc-8bc1-74370ef8e230/404df612-4eff-4b6a-8a0f-78921c471aa3/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/829e0c96-e919-47cc-8bc1-74370ef8e230/404df612-4eff-4b6a-8a0f-78921c471aa3/public\"></span></div></div><div id=\"block-3c20d149331780569fe8e7eef8431131\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-3c20d1493317803bbbfddb0bf8b05918\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/116544e5-45f9-4893-883c-1150856286c5/dscf8830/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/116544e5-45f9-4893-883c-1150856286c5/dscf8830/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/116544e5-45f9-4893-883c-1150856286c5/dscf8830/public\"></span></div></div></div><h3 id=\"block-1800d149331780f0a109dffb3978640e\" class=\"notion-heading notion-semantic-string\">Des pains qui nourrissent vraiment</h3><p id=\"block-1800d1493317807c927bedfc6758e0cc\" class=\"notion-text notion-text__content notion-semantic-string\">Produits avec des ingrédients locaux et une grande attention aux éléments naturels – eau, air, feu et terre – nos pains reflètent l’harmonie entre l’humain et son environnement. Que ce soit pour nos gîteurs, les habitants de la région ou les visiteurs de passage, chaque pain est une invitation à se recentrer et à savourer l'instant présent.</p><h3 id=\"block-1800d149331780b78823dd2fe98e16a1\" class=\"notion-heading notion-semantic-string\">Une vision pour demain</h3><p id=\"block-1800d14933178038bf51da1f6dc3e9d2\" class=\"notion-text notion-text__content notion-semantic-string\">Stéphanie rêve d'élargir la portée de Tranches de Vie en organisant des ateliers de transmission pour que chacun puisse s'initier à la boulangerie au levain. Elle imagine aussi des rendez-vous hebdomadaires où le four à bois serait au service des habitants, permettant à chacun de cuire ses plats tout en partageant un moment convivial.</p><div id=\"block-3c20d1493317803e8892c2bdb7893f55\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1bfc54ae-9eb8-456a-8d6a-9512e39b92ab/dscf8733/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1bfc54ae-9eb8-456a-8d6a-9512e39b92ab/dscf8733/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1bfc54ae-9eb8-456a-8d6a-9512e39b92ab/dscf8733/public\"></span></div><h2 id=\"block-1800d14933178097a4fddaf9e8c57569\" class=\"notion-heading notion-semantic-string\">Rejoignez-nous !</h2><p id=\"block-5f1dd75cd48349199f9d9c17314ecc9b\" class=\"notion-text notion-text__content notion-semantic-string\">Viens participer à un atelier de confection de pain avec Stéphanie, Romane et Thomas, et repars avec tes mains dans la farine (et ton pain sous le bras). Un vrai moment d'échange autour du levain, du geste, et du plaisir de faire soi-même. </p><div id=\"block-3750d149331780148c37e5dcb31ed510\" class=\"notion-button\"><a class=\"notion-link notion-button__content\" href=\"/catalogue/atelier-fabrication-de-pizza-1\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🍞</span></div><span class=\"notion-semantic-string\">Atelier de confection de pain </span></a></div><p id=\"block-18c0d14933178093b07ac94c951b991e\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Les pains de Tranches de Vie sont produits chaque vendredi et sont sur commande via </strong><strong><a href=\"https://tranchesdevie.les4sources.be\" class=\"notion-link link\" data-link-uri=\"https://tranchesdevie.les4sources.be\">le site web de Tranches de Vie</a></strong><strong>.</strong></p><div id=\"block-3920d14933178039b0cee503f0e71856\" class=\"notion-button\"><a href=\"https://tranchesdevie.les4sources.be/\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🥖</span></div><span class=\"notion-semantic-string\">Je commande mon pain</span></a></div><h1 id=\"block-1b80d14933178054b621d70567690fbe\" class=\"notion-heading notion-semantic-string\">Points de vente et marchés</h1><div id=\"block-1b80d149331780958200d2991376c207\" class=\"notion-column-list\"><div id=\"block-1b80d14933178081ac3ada4d6eff2410\" class=\"notion-column\" data-width=\"37.5%\"><div id=\"block-1b80d14933178054bbc8cba20141a867\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/01b01c87-0013-4caf-847e-63debcd32488/a4147cae-e795-42e0-8825-4b8e78b5c273/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/01b01c87-0013-4caf-847e-63debcd32488/a4147cae-e795-42e0-8825-4b8e78b5c273/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/01b01c87-0013-4caf-847e-63debcd32488/a4147cae-e795-42e0-8825-4b8e78b5c273/public\"></span></div></div><div id=\"block-1b80d14933178071b59bdd39c5008a93\" class=\"notion-column\" data-width=\"62.5%\"><p id=\"block-1b80d149331780768530ea90bb8a1752\" class=\"notion-text notion-text__content notion-semantic-string\">Nos pains sont aussi disponibles dans les distributeurs du <a href=\"https://www.vergerdelamolignee.com/espaces-de-travail\" class=\"notion-link link\" data-link-uri=\"https://www.vergerdelamolignee.com/espaces-de-travail\">Verger de la Molignée</a> à Anhée le samedi et dimanche.</p><p id=\"block-1b80d149331780879ee3c0d130f9f98e\" class=\"notion-text notion-text__content notion-semantic-string\">📍Rue de la Molignée, 39\n5537 Anhée 🗺️ <a href=\"https://maps.app.goo.gl/df4tJbhztTCgEVse7\" class=\"notion-link link\" data-link-uri=\"https://maps.app.goo.gl/df4tJbhztTCgEVse7\">Sur Google Maps</a></p><div id=\"block-34b0d1493317808a93b4ec4dd27de780\" class=\"notion-divider\"></div><p id=\"block-3050d1493317803d9c4de13e39c9bf73\" class=\"notion-text notion-text__content notion-semantic-string\">Lors des <strong><a href=\"https://www.facebook.com/VendredisDuTerroir\" class=\"notion-link link\" data-link-uri=\"https://www.facebook.com/VendredisDuTerroir\">Vendredis du Terroir</a></strong> 2026, de 16h à 20h 🐓</p><ul class=\"notion-bulleted-list\"><li id=\"block-34b0d1493317804eba86ed7079cb7a66\" class=\"notion-list-item notion-semantic-string\">Vendredi 4 septembre</li><li id=\"block-34b0d14933178012a001cf9f024cec88\" class=\"notion-list-item notion-semantic-string\">Vendredi 2 octobre </li></ul></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b809f4bf-53b0-46b4-a78c-4b30050855f6/20251115_100710_856d96c6/public",
+      "alt": "Tranches de Vie",
+      "role": "cover",
+      "localPath": "images/projets__tranches-de-vie/01-20251115_100710_856d96c6.jpg",
+      "shared": false,
+      "bytes": 141107
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e19cb878-44f6-4dd0-85b4-c76676693022/ef43fd17-bc0f-4496-8344-50efa301a518/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__tranches-de-vie/02-ef43fd17-bc0f-4496-8344-50efa301a518.png",
+      "shared": false,
+      "bytes": 607225
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e91571fb-a373-4564-a3a9-2ed7033a4f02/7e1ce413-ba21-4370-8dea-a511acefbade/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__tranches-de-vie/03-7e1ce413-ba21-4370-8dea-a511acefbade.png",
+      "shared": false,
+      "bytes": 451263
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b7f32da1-9e34-4e9a-8546-3ee9bc9752a9/0ca4b3f3-1594-4449-b00d-03c9450d3870/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__tranches-de-vie/04-0ca4b3f3-1594-4449-b00d-03c9450d3870.png",
+      "shared": false,
+      "bytes": 609310
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a851ca7a-264a-4a4e-924c-c053912e03d5/e7a64d9f-9602-4ae2-8c44-b329e31d7d0f/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__tranches-de-vie/05-e7a64d9f-9602-4ae2-8c44-b329e31d7d0f.png",
+      "shared": false,
+      "bytes": 390624
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/829e0c96-e919-47cc-8bc1-74370ef8e230/404df612-4eff-4b6a-8a0f-78921c471aa3/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__tranches-de-vie/06-404df612-4eff-4b6a-8a0f-78921c471aa3.png",
+      "shared": false,
+      "bytes": 665597
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/116544e5-45f9-4893-883c-1150856286c5/dscf8830/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__tranches-de-vie/07-dscf8830.jpg",
+      "shared": false,
+      "bytes": 113940
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1bfc54ae-9eb8-456a-8d6a-9512e39b92ab/dscf8733/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__tranches-de-vie/08-dscf8733.jpg",
+      "shared": false,
+      "bytes": 125565
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/01b01c87-0013-4caf-847e-63debcd32488/a4147cae-e795-42e0-8825-4b8e78b5c273/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__tranches-de-vie/09-a4147cae-e795-42e0-8825-4b8e78b5c273.png",
+      "shared": false,
+      "bytes": 236132
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/catalogue/atelier-fabrication-de-pizza-1"
+  ],
+  "externalLinks": [
+    "https://tranchesdevie.les4sources.be/",
+    "https://tranchesdevie.les4sources.be",
+    "https://www.vergerdelamolignee.com/espaces-de-travail",
+    "https://maps.app.goo.gl/df4tJbhztTCgEVse7",
+    "https://www.facebook.com/VendredisDuTerroir"
+  ],
+  "collections": [],
+  "wordCount": 460,
+  "fetchedAt": "2026-09-07T21:17:46.203Z",
+  "markdown": "### La boulangerie qui raconte une histoire ✨\n\nTranches de Vie, c’est la boulangerie des 4 Sources, à Yvoir. Du pain qui a du goût, fait par des gens qui savent pourquoi ils le font.\n\n![image](images/projets__tranches-de-vie/02-ef43fd17-bc0f-4496-8344-50efa301a518.png)\n\n#### Une boulangère animée par le vivant\n\n**Stéphanie**, notre boulangère, est bien plus qu'une artisane du pain. Son parcours résonne comme une quête d'équilibre entre l'humain, la nature et les émotions. Après avoir traversé un burn-out, Stéphanie a découvert dans le pain un ancrage, une manière de ralentir et de se reconnecter au vivant. *« Mettre les mains dans la pâte, observer la magie du levain et façonner chaque miche sont devenus pour moi un rituel essentiel »*, confie-t-elle.\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/projets__tranches-de-vie/03-7e1ce413-ba21-4370-8dea-a511acefbade.png)\n\n<!-- column width=\"50%\" -->\n\n![image](images/projets__tranches-de-vie/04-0ca4b3f3-1594-4449-b00d-03c9450d3870.png)\n<!-- /columns -->\n\n[🥖 Je commande mon pain](https://tranchesdevie.les4sources.be/){.button}\n\nDans notre boulangerie, pas de calculs complexes sur l'humidité ou le pH, mais **une approche intuitive basée sur le toucher, l'observation et le ressenti.** À travers ses gestes simples et précis, Stéphanie transmet un savoir-faire accessible à tous.\n\n<!-- columns -->\n<!-- column width=\"56.3%\" -->\n\n#### Le four à bois : un lieu de rencontres et de chaleur\n\nChez Tranches de Vie, le four à bois n'est pas qu'un outil de cuisson. Il est au centre d'un espace où les gens se rencontrent, discutent et partagent des moments simples et authentiques. Lors des Pizzas Parties ou des cuissons collectives, chacun peut préparer son propre pain ou sa pizza, observer la magie de la cuisson et savourer un repas convivial autour d'une grande tablée.\n\n<!-- column width=\"43.8%\" -->\n\n![image](images/projets__tranches-de-vie/05-e7a64d9f-9602-4ae2-8c44-b329e31d7d0f.png)\n<!-- /columns -->\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/projets__tranches-de-vie/06-404df612-4eff-4b6a-8a0f-78921c471aa3.png)\n\n<!-- column width=\"50%\" -->\n\n![image](images/projets__tranches-de-vie/07-dscf8830.jpg)\n<!-- /columns -->\n\n#### Des pains qui nourrissent vraiment\n\nProduits avec des ingrédients locaux et une grande attention aux éléments naturels – eau, air, feu et terre – nos pains reflètent l’harmonie entre l’humain et son environnement. Que ce soit pour nos gîteurs, les habitants de la région ou les visiteurs de passage, chaque pain est une invitation à se recentrer et à savourer l'instant présent.\n\n#### Une vision pour demain\n\nStéphanie rêve d'élargir la portée de Tranches de Vie en organisant des ateliers de transmission pour que chacun puisse s'initier à la boulangerie au levain. Elle imagine aussi des rendez-vous hebdomadaires où le four à bois serait au service des habitants, permettant à chacun de cuire ses plats tout en partageant un moment convivial.\n\n![image](images/projets__tranches-de-vie/08-dscf8733.jpg)\n\n### Rejoignez-nous !\n\nViens participer à un atelier de confection de pain avec Stéphanie, Romane et Thomas, et repars avec tes mains dans la farine (et ton pain sous le bras). Un vrai moment d'échange autour du levain, du geste, et du plaisir de faire soi-même.\n\n[🍞 Atelier de confection de pain](/catalogue/atelier-fabrication-de-pizza-1){.button}\n\n**Les pains de Tranches de Vie sont produits chaque vendredi et sont sur commande via** **[le site web de Tranches de Vie](https://tranchesdevie.les4sources.be)****.**\n\n[🥖 Je commande mon pain](https://tranchesdevie.les4sources.be/){.button}\n\n## Points de vente et marchés\n\n<!-- columns -->\n<!-- column width=\"37.5%\" -->\n\n![image](images/projets__tranches-de-vie/09-a4147cae-e795-42e0-8825-4b8e78b5c273.png)\n\n<!-- column width=\"62.5%\" -->\n\nNos pains sont aussi disponibles dans les distributeurs du [Verger de la Molignée](https://www.vergerdelamolignee.com/espaces-de-travail) à Anhée le samedi et dimanche.\n\n📍Rue de la Molignée, 39 5537 Anhée 🗺️ [Sur Google Maps](https://maps.app.goo.gl/df4tJbhztTCgEVse7)\n\nLors des **[Vendredis du Terroir](https://www.facebook.com/VendredisDuTerroir)** 2026, de 16h à 20h 🐓\n\n- Vendredi 4 septembre\n- Vendredi 2 octobre\n<!-- /columns -->\n",
+  "extractedAt": "2026-09-07T21:41:44.528Z"
+}

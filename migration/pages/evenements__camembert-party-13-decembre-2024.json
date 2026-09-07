@@ -1,0 +1,140 @@
+{
+  "path": "/evenements/camembert-party-13-decembre-2024",
+  "slug": "evenements__camembert-party-13-decembre-2024",
+  "rootIsCollection": false,
+  "title": "Camembert Party 🧀",
+  "metaDescription": "Camembert Party du 13 décembre 2024 aux 4 Sources (Yvoir).",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/76c70084-7a6b-4824-afd5-0a71afb167ad/DSC01486/public",
+  "ogTitle": "Camembert Party 🧀",
+  "ogUrl": "https://www.les4sources.be/evenements/camembert-party-13-decembre-2024",
+  "canonical": null,
+  "h1": "Camembert Party 🧀",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/76c70084-7a6b-4824-afd5-0a71afb167ad/DSC01486/public",
+    "localPath": "images/evenements__camembert-party-13-decembre-2024/01-DSC01486.jpg"
+  },
+  "pageIcon": "🧀",
+  "properties": {
+    "Date": "2024-12-13",
+    "Horaires": "à partir de 18h30",
+    "Type d'événement": "Pizza Party",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "13 décembre 2024",
+    "Tarif": "€7.00",
+    "Date de création": "Jan 18, 2025 4:32 PM",
+    "Statut site web": "Publié",
+    "super:description": "Camembert Party du 13 décembre 2024 aux 4 Sources (Yvoir).",
+    "super:slug": "camembert-party-13-decembre-2024"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-camembert-party-13-decembre-2024",
+    "blockId": "17f0d149-3317-8079-9ca9-ff7c61ea22c9",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/camembert-party-13-decembre-2024",
+    "createdTime": "2025-01-18T16:32:43.470Z",
+    "lastEditedTime": "2026-01-29T11:14:51.827Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<h2 id=\"block-17f0d149331781a4802cc1e726da64eb\" class=\"notion-heading notion-semantic-string\"><strong>Mazette, c’est la dernière Camembert Party de 2024 !</strong></h2><div id=\"block-17f0d1493317810b92bdc7f2eab982ed\" class=\"notion-button\"><a href=\"https://les4sources.punchpass.com/org/8599/classes/15693880\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><img src=\"https://app.notion.com/icons/ticket_green.svg\" alt=\"icon\" class=\"notion-icon\" data-full-size=\"https://app.notion.com/icons/ticket_green.svg\" data-lightbox-src=\"https://app.notion.com/icons/ticket_green.svg\"></div><span class=\"notion-semantic-string\">Inscription à la Camembert Party</span></a></div><p id=\"block-17f0d149331781b6ab4effeb7be350eb\" class=\"notion-text notion-text__content notion-semantic-string\">Viens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes p’tits légumes préférés ! </p><p id=\"block-17f0d149331781d8a476e1be3491afea\" class=\"notion-text notion-text__content notion-semantic-string\">Bienvenue <strong>dès 18h30</strong> :</p><ul class=\"notion-bulleted-list\"><li id=\"block-17f0d14933178133bbb0fc609caae400\" class=\"notion-list-item notion-semantic-string\">tu amènes…</li><ul class=\"notion-bulleted-list\"><li id=\"block-17f0d149331781eaac62f0e761489ed2\" class=\"notion-list-item notion-semantic-string\">🧀 ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre). Tous les fromages coulants sont les bienvenus, et si fromage et toi ne font pas bonne affaire, n’hésite pas à apporter autre chose.</li><li id=\"block-17f0d14933178128a6b7edaa2ee78e5b\" class=\"notion-list-item notion-semantic-string\">🍄‍🟫 tes p’tits légumes (inspiration : courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces ou salades froides à manger à côté)</li><li id=\"block-17f0d149331781f99bc6d709437ae216\" class=\"notion-list-item notion-semantic-string\">ton assaisonnement éventuel</li></ul><li id=\"block-17f0d1493317819d91e2df25f6d54ad4\" class=\"notion-list-item notion-semantic-string\">nous mettons à ta disposition…</li><ul class=\"notion-bulleted-list\"><li id=\"block-17f0d14933178109bda2d3dba1050ce9\" class=\"notion-list-item notion-semantic-string\">de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu</li><li id=\"block-17f0d149331781f9b39be281c6a9525a\" class=\"notion-list-item notion-semantic-string\">le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage</li><li id=\"block-17f0d1493317818593e9f5342cecd738\" class=\"notion-list-item notion-semantic-string\">la grande salle (chauffée, bien sûr) des 4 Sources</li></ul></ul><h1 id=\"block-17f0d149331781529a2cc2349271fa8d\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-17f0d14933178192a920fc8fe2d55a7c\" class=\"notion-list-item notion-semantic-string\"><strong><a href=\"https://les4sources.punchpass.com/org/8599/classes/15693880\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">Inscription indispensable</a></strong> jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer les bonnes quantités pour la préparation des pains</li><li id=\"block-17f0d14933178105bfaec6f283070661\" class=\"notion-list-item notion-semantic-string\">Tarif : 7 € par personne + cash pour le bar</li><li id=\"block-17f0d149331781b7be43c05c4eda45c5\" class=\"notion-list-item notion-semantic-string\">Bar avec boissons bios/locales/de saison sur place 🍹</li></ul><p id=\"block-17f0d149331781688c63e26c77e4cd13\" class=\"notion-text notion-text__content notion-semantic-string\">Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30, lorsque le four est encore chaud de la journée.</p><div id=\"block-17f0d149331781bc94d9ee7995a53392\" class=\"notion-button\"><a href=\"https://les4sources.punchpass.com/org/8599/classes/15693880\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><img src=\"https://app.notion.com/icons/ticket_green.svg\" alt=\"icon\" class=\"notion-icon\" data-full-size=\"https://app.notion.com/icons/ticket_green.svg\" data-lightbox-src=\"https://app.notion.com/icons/ticket_green.svg\"></div><span class=\"notion-semantic-string\">Inscription à la Camembert Party</span></a></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/76c70084-7a6b-4824-afd5-0a71afb167ad/DSC01486/public",
+      "alt": "Camembert Party 🧀",
+      "role": "cover",
+      "localPath": "images/evenements__camembert-party-13-decembre-2024/01-DSC01486.jpg",
+      "shared": false,
+      "bytes": 139221
+    },
+    {
+      "src": "https://app.notion.com/icons/ticket_green.svg",
+      "alt": "icon",
+      "role": "content",
+      "localPath": "images/_shared/53cd55516271-ticket_green.svg",
+      "shared": true,
+      "bytes": 314
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://les4sources.punchpass.com/org/8599/classes/15693880"
+  ],
+  "collections": [],
+  "wordCount": 230,
+  "fetchedAt": "2026-09-07T21:17:30.121Z",
+  "markdown": "### **Mazette, c’est la dernière Camembert Party de 2024 !**\n\n[Inscription à la Camembert Party](https://les4sources.punchpass.com/org/8599/classes/15693880){.button}\n\nViens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes p’tits légumes préférés !\n\nBienvenue **dès 18h30** :\n\n- tu amènes…\n\n- 🧀 ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre). Tous les fromages coulants sont les bienvenus, et si fromage et toi ne font pas bonne affaire, n’hésite pas à apporter autre chose.\n- 🍄‍🟫 tes p’tits légumes (inspiration : courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces ou salades froides à manger à côté)\n- ton assaisonnement éventuel\n\n- nous mettons à ta disposition…\n\n- de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu\n- le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage\n- la grande salle (chauffée, bien sûr) des 4 Sources\n\n## **Infos pratiques**\n\n- **[Inscription indispensable](https://les4sources.punchpass.com/org/8599/classes/15693880)** jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer les bonnes quantités pour la préparation des pains\n- Tarif : 7 € par personne + cash pour le bar\n- Bar avec boissons bios/locales/de saison sur place 🍹\n\nLes enfournements dans le four de tes préparations ont lieu entre 19h et 19h30, lorsque le four est encore chaud de la journée.\n\n[Inscription à la Camembert Party](https://les4sources.punchpass.com/org/8599/classes/15693880){.button}\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.370Z"
+}

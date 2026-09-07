@@ -1,0 +1,154 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getEntry, render } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import Prose from "@components/ui/Prose.astro";
+import { siteData } from "@lib/data";
+import { formatDate, formatTime } from "@lib/content";
+import { event as eventSchema, breadcrumbs } from "@lib/seo";
+import { site } from "@lib/site";
+import type { MergedEvent } from "@lib/claudy";
+
+/**
+ * Fiche d'un événement, quelle que soit sa source : un événement publié dans
+ * Claudy l'emporte sur son homologue migré de même slug ; une fiche migrée sans
+ * homologue reste servie (son URL est un contrat).
+ */
+export const getStaticPaths: GetStaticPaths = async () => {
+  const { events } = await siteData();
+  return events
+    // Seules les fiches vivant sous /evenements/ sont servies par cette route.
+    .filter((e) => e.path.startsWith("/evenements/"))
+    .map((e) => ({ params: { slug: e.slug }, props: { event: e } }));
+};
+
+interface Props {
+  event: MergedEvent;
+}
+
+const { event } = Astro.props;
+
+// Corps de page : le HTML public de Claudy, sinon le Markdown de la fiche migrée.
+const legacy = event.legacyId ? await getEntry("evenements", event.legacyId) : undefined;
+const rendered = legacy ? await render(legacy) : undefined;
+const Content = rendered?.Content;
+
+const dateLabel = formatDate(event.start);
+const timeLabel = event.allDay ? undefined : formatTime(event.start);
+const endTimeLabel = event.allDay ? undefined : formatTime(event.end);
+
+const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
+const url = `${siteUrl}${event.path}`;
+
+// La description SEO doit exister : à défaut de résumé, on la compose des faits réels.
+const description =
+  event.description ||
+  [event.title, dateLabel, event.location].filter(Boolean).join(" — ") ||
+  `${event.title} aux 4 Sources, à Yvoir.`;
+
+const jsonld = [
+  eventSchema({
+    name: event.title,
+    description,
+    url,
+    startDate: event.start,
+    endDate: event.end,
+    location: event.location,
+    image: event.image?.url,
+    priceText: event.priceText,
+    registrationUrl: event.registrationUrl,
+    pole: event.pole,
+  }),
+  breadcrumbs([
+    { name: "Accueil", url: `${siteUrl}/` },
+    { name: "Les événements", url: `${siteUrl}/evenements` },
+    { name: event.title, url },
+  ]),
+];
+---
+
+<BaseLayout
+  title={event.seoTitle ?? event.title}
+  description={description}
+  type="article"
+  jsonld={jsonld}
+>
+  <PageHero
+    title={event.title}
+    eyebrow={dateLabel}
+    lead={event.description || undefined}
+    icon={event.icon}
+    pole={event.pole}
+    remoteCover={event.image}
+    crumbs={[
+      { label: "Accueil", href: "/" },
+      { label: "Les événements", href: "/evenements" },
+      { label: event.title },
+    ]}
+  />
+
+  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
+    <dl class="mb-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {
+        dateLabel && (
+          <div>
+            <dt class="text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-ink-soft">Date</dt>
+            <dd class="m-0 text-md">
+              {dateLabel}
+              {timeLabel && <> · {timeLabel}{endTimeLabel && <> – {endTimeLabel}</>}</>}
+            </dd>
+          </div>
+        )
+      }
+      {
+        event.location && (
+          <div>
+            <dt class="text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-ink-soft">Lieu</dt>
+            <dd class="m-0 text-md">{event.location}</dd>
+          </div>
+        )
+      }
+      {
+        event.priceText && (
+          <div>
+            <dt class="text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-ink-soft">Prix</dt>
+            <dd class="m-0 text-md">{event.priceText}</dd>
+          </div>
+        )
+      }
+      {
+        event.categoryName && (
+          <div>
+            <dt class="text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-ink-soft">Catégorie</dt>
+            <dd class="m-0 text-md">{event.categoryName}</dd>
+          </div>
+        )
+      }
+    </dl>
+
+    <Prose>
+      {
+        event.descriptionHtml ? (
+          <Fragment set:html={event.descriptionHtml} />
+        ) : Content ? (
+          <Content />
+        ) : null
+      }
+    </Prose>
+
+    {
+      event.registrationUrl && (
+        <p class="mt-10">
+          <a
+            href={event.registrationUrl}
+            rel="noopener"
+            class="inline-block rounded-md bg-teal px-6 py-3 font-semibold text-cream no-underline hover:bg-teal-soft"
+          >
+            S'inscrire à cet événement
+          </a>
+        </p>
+      )
+    }
+  </div>
+</BaseLayout>

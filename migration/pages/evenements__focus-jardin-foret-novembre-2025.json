@@ -1,0 +1,155 @@
+{
+  "path": "/evenements/focus-jardin-foret-novembre-2025",
+  "slug": "evenements__focus-jardin-foret-novembre-2025",
+  "rootIsCollection": false,
+  "title": "Focus sur ton projet de jardin-forêt 🌴",
+  "metaDescription": "Une semaine intensive pour démarrer ou progresser dans ton projet de forêt-jardin.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c0029420-e3d1-4fac-8954-804c8e9ced6b/focus-foret-jardin/public",
+  "ogTitle": "Focus sur ton projet de jardin-forêt 🌴",
+  "ogUrl": "https://www.les4sources.be/evenements/focus-jardin-foret-novembre-2025",
+  "canonical": null,
+  "h1": "Focus sur ton projet de jardin-forêt 🌴",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c0029420-e3d1-4fac-8954-804c8e9ced6b/focus-foret-jardin/public",
+    "localPath": "images/evenements__focus-jardin-foret-novembre-2025/01-focus-foret-jardin.jpg"
+  },
+  "pageIcon": null,
+  "properties": {
+    "Date": "2025-11-17 → 2025-11-21",
+    "Horaires": "8h30-18h",
+    "Type d'événement": "Formation",
+    "Thématique": "Environnement",
+    "Date (fr)": "du 17 au 21 novembre 2025",
+    "Places disponibles": "8",
+    "Date de création": "May 3, 2025 1:47 PM",
+    "Statut site web": "Publié",
+    "super:description": "Une semaine intensive pour démarrer ou progresser dans ton projet de forêt-jardin.",
+    "super:slug": "focus-jardin-foret-novembre-2025"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-focus-jardin-foret-novembre-2025",
+    "blockId": "1e80d149-3317-807a-9e8f-c431c5efbde3",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/focus-jardin-foret-novembre-2025",
+    "createdTime": "2025-05-03T13:47:34.862Z",
+    "lastEditedTime": "2026-01-29T11:15:24.998Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Focus sur ton projet de jardin-forêt 🌴",
+      "href": "/evenements/focus-jardin-foret-novembre-2025"
+    }
+  ],
+  "contentHtml": "<h1 id=\"block-1e80d1493317806fa3f5f2e8391ab268\" class=\"notion-heading notion-semantic-string\">En pratique</h1><h3 id=\"block-1e80d1493317802f832bd475f63fc537\" class=\"notion-heading notion-semantic-string\"><strong>Une semaine intensive - du 17 au 21 novembre - pour démarrer ou progresser dans ton projet de forêt-jardin, organisée par notre partenaire </strong><strong><a href=\"https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret\" class=\"notion-link link\" data-link-uri=\"https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret\">Semisto</a></strong><strong>.</strong></h3><p id=\"block-1e80d1493317804bb15afd310e189b98\" class=\"notion-text notion-text__content notion-semantic-string\">Entre le moment “WOW” à la lecture d’un livre ou après avoir regardé une vidéo inspirante et les récoltes abondantes, il y a quelques étapes qui relèvent parfois du parcours du combattant.</p><p id=\"block-1e80d149331780de9204c9d2c98aa6b2\" class=\"notion-text notion-text__content notion-semantic-string\">Nous concevons des designs avec notre bureau d’études et il faut bien l’avouer : concevoir un projet avec une équipe de designers revient à minimum 5.000€. C’est beaucoup d’argent et nous voulons explorer d’autres pistes, et notamment soutenir les porteur·euse·s de projet qui veulent prendre pleinement part à la création et à l’implantation.<!-- --></p><p id=\"block-1e80d1493317803e9b31c9071a351c5b\" class=\"notion-text notion-text__content notion-semantic-string\">Semisto, avec son collectif aux expertises multiples et son réseau, soutiendra les porteur·euse·s de projet pendant 5 journées de formation et d’accompagnement sur la raison d’être de chaque projet, ses limites, ses objectifs et ses fonctions. Nos experts en design, permaculture et écologie partageront des clés permettant de créer des projets alignés avec chaque vision, avec un phasage réalisable et de nombreux conseils pour réussir l’implantation.</p><p id=\"block-1e80d149331780cdb419f4cba924c753\" class=\"notion-text notion-text__content notion-semantic-string\">Tu pourras découvrir les nombreuses fonctions de la forêt-jardin, approfondir tes connaissances en matière de biodiversité, expérimenter en pratique le design et <strong>repartir avec plus de confiance pour concrétiser ton projet (c’est notre objectif principal !)</strong>.</p><p id=\"block-1e80d14933178003ac18ccfbd15b7c61\" class=\"notion-text notion-text__content notion-semantic-string\">Pendant cette semaine résidentielle, il y aura des moments de <strong>travail individuel</strong>, des <strong>séances de coaching</strong> avec les designers Semisto et des <strong>échanges en grand groupe</strong> avec les autres porteurs de projet. Les formateurs-designers Semisto et plusieurs designers de notre <a href=\"https://www.semisto.org/poles/bureau-d-etudes-semisto\" class=\"notion-link link\" data-link-uri=\"https://www.semisto.org/poles/bureau-d-etudes-semisto\">bureau d’études</a> seront là tout au long de ces journées pour prendre le temps d’analyser avec toi ton projet.</p><div id=\"block-1e80d14933178086aa5fe2e660745def\" class=\"notion-image page-width\"><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/492b1a43-a9f7-44e0-9584-fd2320c82658/w1920quality90fitscale-down.avif\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/492b1a43-a9f7-44e0-9584-fd2320c82658/w1920quality90fitscale-down.avif\"><img alt=\"image\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/492b1a43-a9f7-44e0-9584-fd2320c82658/w1920quality90fitscale-down.avif\"></span></div><p id=\"block-1e80d149331780e6ad35fba49b62b574\" class=\"notion-text notion-text__content notion-semantic-string\">Tu trouveras tous les détails concernant cette semaine de formation <a href=\"https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret\" class=\"notion-link link\" data-link-uri=\"https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret\">sur le site web de Semisto</a>.</p><div id=\"block-1e80d149331780519954dd2a2370cc96\" class=\"notion-button\"><a href=\"https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"notion-semantic-string\">Tous les détails sur cette semaine de formation</span></a></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c0029420-e3d1-4fac-8954-804c8e9ced6b/focus-foret-jardin/public",
+      "alt": "Focus sur ton projet de jardin-forêt 🌴",
+      "role": "cover",
+      "localPath": "images/evenements__focus-jardin-foret-novembre-2025/01-focus-foret-jardin.jpg",
+      "shared": false,
+      "bytes": 87879
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/492b1a43-a9f7-44e0-9584-fd2320c82658/w1920quality90fitscale-down.avif",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/b6c72afcb36a-w1920quality90fitscale-down.avif",
+      "shared": true,
+      "bytes": 226097
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret",
+    "https://www.semisto.org/poles/bureau-d-etudes-semisto"
+  ],
+  "collections": [],
+  "wordCount": 301,
+  "fetchedAt": "2026-09-07T21:17:33.004Z",
+  "markdown": "## En pratique\n\n#### **Une semaine intensive - du 17 au 21 novembre - pour démarrer ou progresser dans ton projet de forêt-jardin, organisée par notre partenaire** **[Semisto](https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret)****.**\n\nEntre le moment “WOW” à la lecture d’un livre ou après avoir regardé une vidéo inspirante et les récoltes abondantes, il y a quelques étapes qui relèvent parfois du parcours du combattant.\n\nNous concevons des designs avec notre bureau d’études et il faut bien l’avouer : concevoir un projet avec une équipe de designers revient à minimum 5.000€. C’est beaucoup d’argent et nous voulons explorer d’autres pistes, et notamment soutenir les porteur·euse·s de projet qui veulent prendre pleinement part à la création et à l’implantation.\n\nSemisto, avec son collectif aux expertises multiples et son réseau, soutiendra les porteur·euse·s de projet pendant 5 journées de formation et d’accompagnement sur la raison d’être de chaque projet, ses limites, ses objectifs et ses fonctions. Nos experts en design, permaculture et écologie partageront des clés permettant de créer des projets alignés avec chaque vision, avec un phasage réalisable et de nombreux conseils pour réussir l’implantation.\n\nTu pourras découvrir les nombreuses fonctions de la forêt-jardin, approfondir tes connaissances en matière de biodiversité, expérimenter en pratique le design et **repartir avec plus de confiance pour concrétiser ton projet (c’est notre objectif principal !)**.\n\nPendant cette semaine résidentielle, il y aura des moments de **travail individuel**, des **séances de coaching** avec les designers Semisto et des **échanges en grand groupe** avec les autres porteurs de projet. Les formateurs-designers Semisto et plusieurs designers de notre [bureau d’études](https://www.semisto.org/poles/bureau-d-etudes-semisto) seront là tout au long de ces journées pour prendre le temps d’analyser avec toi ton projet.\n\n![image](images/_shared/b6c72afcb36a-w1920quality90fitscale-down.avif)\n\nTu trouveras tous les détails concernant cette semaine de formation [sur le site web de Semisto](https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret).\n\n[Tous les détails sur cette semaine de formation](https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret){.button}\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.386Z"
+}

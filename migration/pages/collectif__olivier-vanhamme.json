@@ -1,0 +1,84 @@
+{
+  "path": "/collectif/olivier-vanhamme",
+  "slug": "collectif__olivier-vanhamme",
+  "rootIsCollection": false,
+  "title": "Olivier Vanhamme",
+  "metaDescription": "Olivier est un artisan-designer et arboriste-grimpeur curieux et passionné. Vous retrouvez ses créations dans les gites, les salles et à l’épicerie.",
+  "ogImage": null,
+  "ogTitle": "Olivier Vanhamme",
+  "ogUrl": "https://www.les4sources.be/collectif/olivier-vanhamme",
+  "canonical": null,
+  "h1": "Olivier Vanhamme",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Type": "Habitant·e"
+  },
+  "propertySchema": [
+    {
+      "id": "ew_Z",
+      "name": "Bio courte",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "rCb{",
+      "name": "Photo",
+      "type": "file",
+      "visibility": "show"
+    },
+    {
+      "id": "CPcu",
+      "name": "Type",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "collectif-olivier-vanhamme",
+    "blockId": "6441af74-82f5-442c-852b-178ad05fd64c",
+    "parentId": "e93593be43cd488598c5226e7ba2b369",
+    "type": "page",
+    "uri": "/collectif/olivier-vanhamme",
+    "createdTime": "2024-04-03T13:48:59.010Z",
+    "lastEditedTime": "2026-04-16T13:30:00.492Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Collectif",
+      "href": "/collectif"
+    },
+    {
+      "label": "Olivier Vanhamme",
+      "href": "/collectif/olivier-vanhamme"
+    }
+  ],
+  "contentHtml": "<div id=\"block-2720d149331780048f08d301d78fdda3\" class=\"notion-column-list\"><div id=\"block-2720d149331780ba8f7ac16fc66c4220\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-2720d1493317809c88cee86bf70ca24a\" class=\"notion-text notion-text__content notion-semantic-string\">Olivier est un artisan-designer et arboriste-grimpeur curieux et passionné. Vous retrouvez ses créations dans les gites, les salles et à l’épicerie.</p><p id=\"block-a2f27a4c55b6498094491c22449ce319\" class=\"notion-text notion-text__content notion-semantic-string\">Il est celui qui donne envie de toucher les choses : créer du beau mobilier, aménager des espaces en bois de forêt ou de récup, réparer ce qui peut l'être, et réfléchir ensemble à la manière dont on prend soin de nos espaces verts. Coupes de bois, clôtures, abreuvoirs… il a l'œil et les mains 👐🏻</p><p id=\"block-e8fe69b2be0b4a96b80e795ef868e697\" class=\"notion-text notion-text__content notion-semantic-string\">Son parcours dit beaucoup de lui : scout, designer, pédagogue, élagueur grimpeur. Un homme de terrain autant que de réflexion, avec un grand intérêt pour l'humain, la nature et les beaux objets.</p><p id=\"block-1e16121e653643d3b5bc573f736e66d6\" class=\"notion-text notion-text__content notion-semantic-string\">Papa de 3 enfants - avec Stéphanie, ils ont choisi l'instruction en famille - et engagé dans des projets collectifs depuis près de 20 ans. Les arbres, le bois, la créativité, les rencontres authentiques… et aussi les patins à roulettes, les échasses, et un paquet de chips avec une bonne bière. 🍺<!-- --></p><p id=\"block-492c9704fbb44446a2c4b18eabe47b18\" class=\"notion-text notion-text__content notion-semantic-string\">On a rarement vu quelqu'un d'aussi sérieux dans ses engagements et aussi peu prise de tête dans la vie.</p><div id=\"block-0e5140e8f1524c7a8b4483130aa74c90\" class=\"notion-divider\"></div><p id=\"block-2720d14933178099acf5eacd2747b8b0\" class=\"notion-text notion-text__content notion-semantic-string\"><a href=\"https://debranchesenplanches.be/\" class=\"notion-link link\" data-link-uri=\"https://debranchesenplanches.be/\">debranchesenplanches.be</a></p><p id=\"block-2720d149331780a6bafec8eb7c6256b6\" class=\"notion-text notion-text__content notion-semantic-string\"><a href=\"mailto:\" class=\"__cf_email__\" data-cfemail=\"0e61626778676b7c4e626b7d3a7d617b7c6d6b7d206c6b\">[email&nbsp;protected]</a></p></div><div id=\"block-2720d149331780899258f5f2b6a505a2\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2720d14933178086a246e7ef4bc5ef27\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0e4335f8-3512-49db-a47f-afe9b86757e2/25f1df7d-151f-4fcc-ba1d-4571f228968a/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0e4335f8-3512-49db-a47f-afe9b86757e2/25f1df7d-151f-4fcc-ba1d-4571f228968a/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0e4335f8-3512-49db-a47f-afe9b86757e2/25f1df7d-151f-4fcc-ba1d-4571f228968a/public\"></span></div></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0e4335f8-3512-49db-a47f-afe9b86757e2/25f1df7d-151f-4fcc-ba1d-4571f228968a/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/collectif__olivier-vanhamme/01-25f1df7d-151f-4fcc-ba1d-4571f228968a.png",
+      "shared": false,
+      "bytes": 315331
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [
+    "https://debranchesenplanches.be/",
+    "mailto:"
+  ],
+  "collections": [],
+  "wordCount": 177,
+  "fetchedAt": "2026-09-07T21:17:28.198Z",
+  "markdown": "<!-- columns -->\n<!-- column width=\"50%\" -->\n\nOlivier est un artisan-designer et arboriste-grimpeur curieux et passionné. Vous retrouvez ses créations dans les gites, les salles et à l’épicerie.\n\nIl est celui qui donne envie de toucher les choses : créer du beau mobilier, aménager des espaces en bois de forêt ou de récup, réparer ce qui peut l'être, et réfléchir ensemble à la manière dont on prend soin de nos espaces verts. Coupes de bois, clôtures, abreuvoirs… il a l'œil et les mains 👐🏻\n\nSon parcours dit beaucoup de lui : scout, designer, pédagogue, élagueur grimpeur. Un homme de terrain autant que de réflexion, avec un grand intérêt pour l'humain, la nature et les beaux objets.\n\nPapa de 3 enfants - avec Stéphanie, ils ont choisi l'instruction en famille - et engagé dans des projets collectifs depuis près de 20 ans. Les arbres, le bois, la créativité, les rencontres authentiques… et aussi les patins à roulettes, les échasses, et un paquet de chips avec une bonne bière. 🍺\n\nOn a rarement vu quelqu'un d'aussi sérieux dans ses engagements et aussi peu prise de tête dans la vie.\n\n[debranchesenplanches.be](https://debranchesenplanches.be/)\n\n[\\[email protected\\]](mailto:)\n\n<!-- column width=\"50%\" -->\n\n![image](images/collectif__olivier-vanhamme/01-25f1df7d-151f-4fcc-ba1d-4571f228968a.png)\n<!-- /columns -->\n",
+  "extractedAt": "2026-09-07T21:41:44.359Z"
+}

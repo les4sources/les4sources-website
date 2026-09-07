@@ -1,0 +1,147 @@
+{
+  "path": "/evenements/pizza-party-juin-2025",
+  "slug": "evenements__pizza-party-juin-2025",
+  "rootIsCollection": false,
+  "title": "Pizza Party du mois de juin !",
+  "metaDescription": "Pizza Party du 13 juin 2025 aux 4 Sources (Yvoir)",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c3d3649e-571d-40a1-b2a8-910e77de29c4/Pizza_party/public",
+  "ogTitle": "Pizza Party du mois de juin !",
+  "ogUrl": "https://www.les4sources.be/evenements/pizza-party-juin-2025",
+  "canonical": null,
+  "h1": "Pizza Party du mois de juin !",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c3d3649e-571d-40a1-b2a8-910e77de29c4/Pizza_party/public",
+    "localPath": "images/evenements__pizza-party-juin-2025/01-Pizza_party.jpg"
+  },
+  "pageIcon": "🍕",
+  "properties": {
+    "Date": "2025-06-13",
+    "Horaires": "à partir de 18h30",
+    "Type d'événement": "Pizza Party",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "13 juin 2025",
+    "Tarif": "€7.00",
+    "Date de création": "Mar 16, 2025 4:15 PM",
+    "Statut site web": "Publié",
+    "super:description": "Pizza Party du 13 juin 2025 aux 4 Sources (Yvoir)",
+    "super:slug": "pizza-party-juin-2025"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-pizza-party-juin-2025",
+    "blockId": "1b80d149-3317-8053-bfc5-db3596004bda",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/pizza-party-juin-2025",
+    "createdTime": "2025-03-16T16:15:52.736Z",
+    "lastEditedTime": "2026-01-29T11:15:11.402Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Pizza Party du mois de juin !",
+      "href": "/evenements/pizza-party-juin-2025",
+      "icon": "🍕"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-1b80d1493317806c88a7e4d90519a1ff\" class=\"notion-heading notion-semantic-string\">Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !</h3><p id=\"block-1b80d1493317802bb4c1c15881645cad\" class=\"notion-text notion-text__content notion-semantic-string\">Bienvenue <strong>dès 18h30</strong> :</p><ul class=\"notion-bulleted-list\"><li id=\"block-1b80d149331780afb533caf5434b712f\" class=\"notion-list-item notion-semantic-string\">nos boulangères préparent de délicieux pâtons au levain le jour-même</li><li id=\"block-1b80d14933178090a641fe0434f69cc2\" class=\"notion-list-item notion-semantic-string\">tu amènes ta garniture en fonction de tes envies</li><li id=\"block-1b80d1493317807caf73ee93c272067c\" class=\"notion-list-item notion-semantic-string\">nous cuisons les pizzas au feu de bois entre 19h et 20h</li><li id=\"block-1b80d149331780eaa379d1acbb4d45d0\" class=\"notion-list-item notion-semantic-string\">et vous les dégustez en terrasse plein sud, 360°C nature !</li><li id=\"block-1b80d14933178064a113dbaf1a926c4d\" class=\"notion-list-item notion-semantic-string\">en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂</li></ul><p id=\"block-1b80d149331780439cb1e085c1410f8e\" class=\"notion-text notion-text__content notion-semantic-string\">👍 Le four de boulangerie est chauffé au bois\n👍 Les pâtons sont bio et au levain\n👍 Et les gens sont super cools !</p><h1 id=\"block-1b80d14933178095b611cf661009b64c\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-1b80d1493317806b8370ef2f37b7fbc3\" class=\"notion-list-item notion-semantic-string\"><strong><a href=\"https://www.billetweb.fr/pizza-party-de-juin-2025\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">Inscription indispensable</a></strong> jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons</li><li id=\"block-1b80d14933178076805ed69b1c0a3c43\" class=\"notion-list-item notion-semantic-string\">Participation : 7 € par personne</li><li id=\"block-1b80d149331780aea3f0e348ae630f62\" class=\"notion-list-item notion-semantic-string\">Bar avec boissons bios/locales/de saison sur place 🍹</li><li id=\"block-1e60d149331780f1af27f6e5c1ef9df2\" class=\"notion-list-item notion-semantic-string\">Paiement des consommations en cash ou par virement sur place</li></ul><p id=\"block-1b80d14933178076892adc326c49e83a\" class=\"notion-text notion-text__content notion-semantic-string\">Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h, lorsque le four est encore chaud de la journée.</p><div id=\"block-1e60d1493317803abffbf1883a214f9f\" class=\"notion-callout bg-yellow-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🆕</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"></span><p id=\"block-1e60d1493317806886c0ef80ed9cbeed\" class=\"notion-text notion-text__content notion-semantic-string\">L’inscription se passe désormais <a href=\"https://www.billetweb.fr/pizza-party-de-juin-2025\" class=\"notion-link link\" data-link-uri=\"https://www.billetweb.fr/pizza-party-de-juin-2025\">via BilletWeb</a>, ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque.</p></div></div><p id=\"block-1e60d14933178007aceacf031f0d2a9e\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>La Pizza Party est complète ! Bienvenue pour venir boire un verre - mais </strong>🅿️<strong> privilégiez de vous garer à la rue du Redeau en bas du sentier. Merci !</strong></p><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c3d3649e-571d-40a1-b2a8-910e77de29c4/Pizza_party/public",
+      "alt": "Pizza Party du mois de juin !",
+      "role": "cover",
+      "localPath": "images/evenements__pizza-party-juin-2025/01-Pizza_party.jpg",
+      "shared": false,
+      "bytes": 98834
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.billetweb.fr/pizza-party-de-juin-2025"
+  ],
+  "collections": [],
+  "wordCount": 232,
+  "fetchedAt": "2026-09-07T21:17:40.283Z",
+  "markdown": "#### Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !\n\nBienvenue **dès 18h30** :\n\n- nos boulangères préparent de délicieux pâtons au levain le jour-même\n- tu amènes ta garniture en fonction de tes envies\n- nous cuisons les pizzas au feu de bois entre 19h et 20h\n- et vous les dégustez en terrasse plein sud, 360°C nature !\n- en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂\n\n👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !\n\n## **Infos pratiques**\n\n- **[Inscription indispensable](https://www.billetweb.fr/pizza-party-de-juin-2025)** jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons\n- Participation : 7 € par personne\n- Bar avec boissons bios/locales/de saison sur place 🍹\n- Paiement des consommations en cash ou par virement sur place\n\nLes enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h, lorsque le four est encore chaud de la journée.\n\n> 🆕 L’inscription se passe désormais [via BilletWeb](https://www.billetweb.fr/pizza-party-de-juin-2025), ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque.\n\n**La Pizza Party est complète ! Bienvenue pour venir boire un verre - mais** 🅿️ **privilégiez de vous garer à la rue du Redeau en bas du sentier. Merci !**\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.447Z"
+}

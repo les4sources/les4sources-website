@@ -1,0 +1,63 @@
+{
+  "path": "/sejours/hebergements-yvoir/photos-des-hbergements/la-chambre-romarin",
+  "slug": "sejours__hebergements-yvoir__photos-des-hbergements__la-chambre-romarin",
+  "rootIsCollection": false,
+  "title": "La chambre Romarin",
+  "metaDescription": null,
+  "ogImage": null,
+  "ogTitle": "La chambre Romarin",
+  "ogUrl": "https://www.les4sources.be/sejours/hebergements-yvoir/photos-des-hbergements/la-chambre-romarin",
+  "canonical": null,
+  "h1": "La chambre Romarin",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Date de création": "Oct 23, 2025 2:22 PM",
+    "Page": "Chevêche"
+  },
+  "propertySchema": [
+    {
+      "id": "y|zT",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "JUEM",
+      "name": "Page",
+      "type": "multi_select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "sejours-hebergements-yvoir-photos-des-hbergements-la-chambre-romarin",
+    "blockId": "2950d149-3317-809a-955c-f51794da96c3",
+    "parentId": "28a0d149331781b09d9c000b678af892",
+    "type": "page",
+    "uri": "/sejours/hebergements-yvoir/photos-des-hbergements/la-chambre-romarin",
+    "createdTime": "2025-10-23T14:22:19.688Z",
+    "lastEditedTime": "2025-10-23T14:22:45.954Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<div id=\"block-2950d1493317809d883bc67c9925c78c\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/53d141e8-2b86-4d84-8e9a-a4986330ad16/IMG_8246/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/53d141e8-2b86-4d84-8e9a-a4986330ad16/IMG_8246/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/53d141e8-2b86-4d84-8e9a-a4986330ad16/IMG_8246/public\"></span></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/53d141e8-2b86-4d84-8e9a-a4986330ad16/IMG_8246/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/7feb8ae0442d-IMG_8246.jpg",
+      "shared": true,
+      "bytes": 98303
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 0,
+  "fetchedAt": "2026-09-07T21:17:50.923Z",
+  "markdown": "![image](images/_shared/7feb8ae0442d-IMG_8246.jpg)\n",
+  "extractedAt": "2026-09-07T21:41:44.554Z"
+}

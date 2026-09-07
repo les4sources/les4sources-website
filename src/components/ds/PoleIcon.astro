@@ -1,0 +1,38 @@
+---
+/**
+ * Pictogramme d'un pôle, inliné en SVG.
+ * La couleur vient de `currentColor` : `class="text-white"` sur teal,
+ * `class="text-nature"` sur blanc — jamais un fichier de couleur différent.
+ */
+import artisanat from "@assets/brand/icons/poles/pole-artisanat-current.svg?raw";
+import convivialite from "@assets/brand/icons/poles/pole-convivialite-current.svg?raw";
+import hebergement from "@assets/brand/icons/poles/pole-hebergement-current.svg?raw";
+import nature from "@assets/brand/icons/poles/pole-nature-current.svg?raw";
+import production from "@assets/brand/icons/poles/pole-production-current.svg?raw";
+import ressourcement from "@assets/brand/icons/poles/pole-ressourcement-current.svg?raw";
+import vieCollective from "@assets/brand/icons/poles/pole-vie-collective-current.svg?raw";
+
+import { pole as resolvePole, type PoleSlug } from "@lib/poles";
+import { inlineSvg } from "./inline";
+
+interface Props {
+  pole: PoleSlug;
+  class?: string;
+}
+
+const RAW: Record<PoleSlug, string> = {
+  hebergement,
+  convivialite,
+  nature,
+  artisanat,
+  ressourcement,
+  "vie-collective": vieCollective,
+  production,
+};
+
+const { pole, class: className } = Astro.props;
+// La taille et la couleur vivent sur le conteneur ; le SVG s'y ajuste.
+const svg = inlineSvg(RAW[resolvePole(pole).slug], { class: "block h-full w-auto" });
+---
+
+<span class:list={["inline-flex items-center", className]} set:html={svg} />

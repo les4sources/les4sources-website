@@ -1,0 +1,202 @@
+---
+/**
+ * Habille le Markdown des collections (et le HTML public venu de Claudy).
+ * Ne référence QUE des jetons sémantiques : quand les vrais tokens du brand
+ * system arrivent, ce fichier n'a pas à bouger.
+ */
+---
+
+<div class="prose-4s max-w-[68ch]">
+  <slot />
+</div>
+
+<style>
+  .prose-4s :global(h2) {
+    font-family: var(--font-display);
+    font-size: var(--text-2xl);
+    color: var(--color-teal);
+    margin: 1.6em 0 0.5em;
+  }
+  .prose-4s :global(h3) {
+    font-family: var(--font-display);
+    font-size: var(--text-xl);
+    color: var(--color-teal);
+    margin: 1.4em 0 0.4em;
+  }
+  .prose-4s :global(h4) {
+    font-family: var(--font-body);
+    font-weight: 600;
+    color: var(--color-ink);
+    margin: 1.3em 0 0.3em;
+  }
+  .prose-4s :global(p) {
+    font-size: var(--text-md);
+    line-height: 1.7;
+    color: var(--color-ink-soft);
+    margin: 0 0 1.1em;
+  }
+  .prose-4s :global(a) {
+    color: var(--color-teal);
+    font-weight: 500;
+  }
+  .prose-4s :global(strong) {
+    color: var(--color-ink);
+  }
+  .prose-4s :global(ul),
+  .prose-4s :global(ol) {
+    font-size: var(--text-md);
+    line-height: 1.7;
+    color: var(--color-ink-soft);
+    margin: 0 0 1.1em;
+    padding-left: 1.4em;
+  }
+  .prose-4s :global(li) {
+    margin: 0 0 0.4em;
+  }
+
+  /* Citation → encadré chaleureux (le site actuel s'en sert comme d'un callout). */
+  .prose-4s :global(blockquote) {
+    font-family: var(--font-display);
+    font-size: var(--text-lg);
+    line-height: 1.4;
+    color: var(--color-teal-deep);
+    background: var(--color-teal-tint);
+    border-left: 3px solid var(--color-teal);
+    border-radius: var(--radius-md);
+    padding: 1rem 1.25rem;
+    margin: 1.6em 0;
+  }
+  .prose-4s :global(blockquote p:last-child) {
+    margin-bottom: 0;
+  }
+
+  /* Blocs dépliants (toggles Notion migrés en <details>). */
+  .prose-4s :global(details) {
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius-md);
+    background: var(--color-white);
+    padding: 0.85rem 1.1rem;
+    margin: 0 0 0.9em;
+  }
+  .prose-4s :global(details[open]) {
+    box-shadow: var(--shadow-sm);
+  }
+  .prose-4s :global(summary) {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--color-teal);
+    list-style: none;
+  }
+  .prose-4s :global(summary::-webkit-details-marker) {
+    display: none;
+  }
+  .prose-4s :global(summary::before) {
+    content: "›";
+    display: inline-block;
+    margin-right: 0.5rem;
+    transition: transform var(--motion-swift);
+  }
+  .prose-4s :global(details[open] summary::before) {
+    transform: rotate(90deg);
+  }
+
+  /* Lien-bouton : `[Réserver](…){.button}` dans le Markdown migré. */
+  .prose-4s :global(a.button) {
+    display: inline-block;
+    background: var(--color-teal);
+    color: var(--color-cream);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.7rem 1.3rem;
+    border-radius: var(--radius-md);
+    margin: 0.3em 0.4em 0.3em 0;
+    transition: background var(--motion-swift);
+  }
+  .prose-4s :global(a.button:hover) {
+    background: var(--color-teal-soft);
+  }
+
+  /* Tableaux (tarifs, conditions) — jamais de débordement horizontal de la page. */
+  .prose-4s :global(table) {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+    margin: 1.6em 0;
+    font-size: var(--text-sm);
+    line-height: 1.45;
+  }
+  .prose-4s :global(th),
+  .prose-4s :global(td) {
+    border: 1px solid var(--border-soft);
+    padding: 10px 14px;
+    text-align: left;
+    vertical-align: top;
+    color: var(--color-ink-soft);
+  }
+  .prose-4s :global(th) {
+    background: var(--color-teal-tint);
+    color: var(--color-teal-deep);
+    font-weight: 600;
+  }
+  .prose-4s :global(tbody tr:nth-child(even) td) {
+    background: rgba(28, 38, 32, 0.02);
+  }
+
+  .prose-4s :global(img) {
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    margin: 1.4em 0;
+  }
+  .prose-4s :global(figure) {
+    margin: 1.4em 0;
+  }
+  .prose-4s :global(figcaption) {
+    font-size: var(--text-sm);
+    color: var(--color-ink-soft);
+    margin-top: 0.5em;
+  }
+  .prose-4s :global(iframe) {
+    width: 100%;
+    border: 0;
+    border-radius: var(--radius-lg);
+    margin: 1.4em 0;
+  }
+
+  /* Embeds migrés : hauteur utile par nature de contenu. */
+  .prose-4s :global(iframe.embed) {
+    display: block;
+    aspect-ratio: 16 / 9;
+    min-height: 320px;
+  }
+  .prose-4s :global(iframe.embed-iframe),
+  .prose-4s :global(iframe.embed-tally) {
+    aspect-ratio: auto;
+    min-height: 720px;
+  }
+  .prose-4s :global(iframe.embed-map) {
+    aspect-ratio: 4 / 3;
+  }
+
+  /* Signet Notion (lien enrichi) et pièce jointe téléchargeable. */
+  .prose-4s :global(a.bookmark),
+  .prose-4s :global(a.file-download) {
+    display: block;
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius-md);
+    background: var(--color-white);
+    padding: 0.9rem 1.1rem;
+    margin: 1.2em 0;
+    color: var(--color-teal-deep);
+    font-weight: 500;
+    text-decoration: none;
+    transition: box-shadow var(--motion-swift);
+  }
+  .prose-4s :global(a.bookmark:hover),
+  .prose-4s :global(a.file-download:hover) {
+    box-shadow: var(--shadow-sm);
+  }
+  .prose-4s :global(a.file-download::before) {
+    content: "↓ ";
+  }
+</style>

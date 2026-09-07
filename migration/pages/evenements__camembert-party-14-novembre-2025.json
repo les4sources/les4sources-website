@@ -1,0 +1,130 @@
+{
+  "path": "/evenements/camembert-party-14-novembre-2025",
+  "slug": "evenements__camembert-party-14-novembre-2025",
+  "rootIsCollection": false,
+  "title": "Camembert & Karoké Party🎤🧀",
+  "metaDescription": "Viens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes petits légumes préférés ! \nEt pour cette édition, on sera accompagné de Martin Gennen, pianiste talentueux qui nous proposera un karaoké sur mesure !",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dd5124e3-95e2-47c1-8a50-d39c4ba66ece/_Cover_pour_le_site_4S_(2)/public",
+  "ogTitle": "Camembert & Karoké Party🎤🧀",
+  "ogUrl": "https://www.les4sources.be/evenements/camembert-party-14-novembre-2025",
+  "canonical": null,
+  "h1": "Camembert & Karoké Party🎤🧀",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dd5124e3-95e2-47c1-8a50-d39c4ba66ece/_Cover_pour_le_site_4S_(2)/public",
+    "localPath": "images/evenements__camembert-party-14-novembre-2025/01-_Cover_pour_le_site_4S_-2.jpg"
+  },
+  "pageIcon": "🧀",
+  "properties": {
+    "Date": "2025-11-14",
+    "Horaires": "à partir de 18h30",
+    "Type d'événement": "Pizza Party",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "14 novembre 2025",
+    "Date de création": "Nov 6, 2025 3:02 PM",
+    "Statut site web": "Publié",
+    "super:slug": "camembert-party-14-novembre-2025"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-camembert-party-14-novembre-2025",
+    "blockId": "2a30d149-3317-808a-a305-f560efc6e211",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/camembert-party-14-novembre-2025",
+    "createdTime": "2025-11-06T15:02:32.986Z",
+    "lastEditedTime": "2026-01-29T11:15:23.507Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<h1 id=\"block-2a30d149331781d596c7f6ac86437346\" class=\"notion-heading notion-semantic-string\">Le concept de la Camembert Party ?</h1><p id=\"block-2a30d14933178170a6e0c429eaf56f9f\" class=\"notion-text notion-text__content notion-semantic-string\">Viens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes petits légumes préférés ! \nEt pour cette édition, on sera accompagné de Martin Gennen, pianiste talentueux qui nous proposera un karaoké sur mesure ! </p><p id=\"block-2a30d14933178154afdddbf92af4e7b2\" class=\"notion-text notion-text__content notion-semantic-string\">Bienvenue <strong>ce 14 novembre</strong> <strong>dès 18h30</strong> :</p><ul class=\"notion-bulleted-list\"><li id=\"block-2a30d149331781ad9258efbd47793d49\" class=\"notion-list-item notion-semantic-string\">tu amènes…</li><ul class=\"notion-bulleted-list\"><li id=\"block-2a30d149331781c88171e841b8d8ad89\" class=\"notion-list-item notion-semantic-string\">ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre)</li><li id=\"block-2a30d149331781928c43d80b937da2a2\" class=\"notion-list-item notion-semantic-string\">tes petits légumes<!-- --></li></ul><li id=\"block-2a30d149331781c4a31ff1c7c69d8b79\" class=\"notion-list-item notion-semantic-string\">nous mettons à ta disposition…</li><ul class=\"notion-bulleted-list\"><li id=\"block-2a30d14933178108b4ade4e93329eb9c\" class=\"notion-list-item notion-semantic-string\">de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu</li><li id=\"block-2a30d1493317815d9cbce1effb6520b1\" class=\"notion-list-item notion-semantic-string\">des planches à découper et des platines de cuisson</li><li id=\"block-2a30d149331781f9ac0cfce0b7880039\" class=\"notion-list-item notion-semantic-string\">le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage</li><li id=\"block-2a30d14933178178b6aefe8a88acb89a\" class=\"notion-list-item notion-semantic-string\">la grande salle des 4 Sources</li></ul></ul><h1 id=\"block-2a30d1493317815ca6b0d1e875acec8a\" class=\"notion-heading notion-semantic-string\">À emporter avec toi</h1><ul class=\"notion-bulleted-list\"><li id=\"block-2a30d14933178181abd8caf4d58e8f26\" class=\"notion-list-item notion-semantic-string\">Ton fromage contenu dans un emballage en bois (cf. photo de l'événement ; bienvenu aux camemberts, vacherins, chaumes, etc.)</li><ul class=\"notion-bulleted-list\"><li id=\"block-2a30d14933178164b584deb2c9104e44\" class=\"notion-list-item notion-semantic-string\">Pas très fromage ? Apporte quelque chose d'équivalent si tu le souhaites ou d'autres ingrédients pour accompagner tes légumes.</li></ul><li id=\"block-2a30d14933178100be21eae34820838d\" class=\"notion-list-item notion-semantic-string\">Tes légumes et/ou féculents (ex.: courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces) ou salades froides à manger à côté + assaisonnement</li></ul><h1 id=\"block-2a30d1493317818e8224fff9c9d5e4d5\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-2a30d14933178121a998d9083b82a109\" class=\"notion-list-item notion-semantic-string\">Inscription indispensable jusqu’au jeudi midi avant l'événement : <strong><a href=\"https://www.billetweb.fr/camembert-party-de-novembre-2025\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.billetweb.fr/camembert-party-de-novembre-2025</a></strong></li><li id=\"block-2a30d1493317819a87bde981c86d9e09\" class=\"notion-list-item notion-semantic-string\">Tarif : 7 € par personne + cash pour le bar</li><li id=\"block-2a30d1493317817a8d2be0eb449ec0fa\" class=\"notion-list-item notion-semantic-string\">À emporter</li><ul class=\"notion-bulleted-list\"><li id=\"block-2a30d149331781338345c5006bd78334\" class=\"notion-list-item notion-semantic-string\">ton fromage ou un autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre) 🧀</li><li id=\"block-2a30d14933178162ae43f4d70bd38f4a\" class=\"notion-list-item notion-semantic-string\">tes petits légumes 🍆</li><li id=\"block-2a30d1493317817fb35edff2b92410af\" class=\"notion-list-item notion-semantic-string\">tes ami·e·s 👯</li></ul><li id=\"block-2a30d1493317811696dbcfebbb0e11ca\" class=\"notion-list-item notion-semantic-string\">Bar avec boissons bios/locales/de saison sur place 🍹</li></ul><p id=\"block-2a30d1493317815f8d94d1a9a741fba0\" class=\"notion-text notion-text__content notion-semantic-string\">Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.</p><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dd5124e3-95e2-47c1-8a50-d39c4ba66ece/_Cover_pour_le_site_4S_(2)/public",
+      "alt": "Camembert & Karoké Party🎤🧀",
+      "role": "cover",
+      "localPath": "images/evenements__camembert-party-14-novembre-2025/01-_Cover_pour_le_site_4S_-2.jpg",
+      "shared": false,
+      "bytes": 116890
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.billetweb.fr/camembert-party-de-novembre-2025"
+  ],
+  "collections": [],
+  "wordCount": 265,
+  "fetchedAt": "2026-09-07T21:17:31.015Z",
+  "markdown": "## Le concept de la Camembert Party ?\n\nViens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes petits légumes préférés ! Et pour cette édition, on sera accompagné de Martin Gennen, pianiste talentueux qui nous proposera un karaoké sur mesure !\n\nBienvenue **ce 14 novembre** **dès 18h30** :\n\n- tu amènes…\n\n- ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre)\n- tes petits légumes\n\n- nous mettons à ta disposition…\n\n- de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu\n- des planches à découper et des platines de cuisson\n- le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage\n- la grande salle des 4 Sources\n\n## À emporter avec toi\n\n- Ton fromage contenu dans un emballage en bois (cf. photo de l'événement ; bienvenu aux camemberts, vacherins, chaumes, etc.)\n\n- Pas très fromage ? Apporte quelque chose d'équivalent si tu le souhaites ou d'autres ingrédients pour accompagner tes légumes.\n\n- Tes légumes et/ou féculents (ex.: courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces) ou salades froides à manger à côté + assaisonnement\n\n## **Infos pratiques**\n\n- Inscription indispensable jusqu’au jeudi midi avant l'événement : **[https://www.billetweb.fr/camembert-party-de-novembre-2025](https://www.billetweb.fr/camembert-party-de-novembre-2025)**\n- Tarif : 7 € par personne + cash pour le bar\n- À emporter\n\n- ton fromage ou un autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre) 🧀\n- tes petits légumes 🍆\n- tes ami·e·s 👯\n\n- Bar avec boissons bios/locales/de saison sur place 🍹\n\nLes enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.376Z"
+}

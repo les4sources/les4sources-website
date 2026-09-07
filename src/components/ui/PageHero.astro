@@ -1,0 +1,76 @@
+---
+/**
+ * Bandeau de titre — PROVISOIRE (sera remplacé par les blob panels du DS).
+ * Un seul <h1> par page : c'est ici qu'il vit.
+ */
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import { POLE_LABELS, type Pole } from "@lib/site";
+import Breadcrumbs, { type Crumb } from "./Breadcrumbs.astro";
+
+interface Props {
+  title: string;
+  /** Sur-titre court (date, catégorie, section). */
+  eyebrow?: string;
+  lead?: string;
+  cover?: ImageMetadata;
+  coverAlt?: string;
+  /** Image distante déjà optimisée (Claudy) — sert de repli quand `cover` est absent. */
+  remoteCover?: { url: string; alt?: string; width?: number; height?: number };
+  icon?: string;
+  pole?: Pole;
+  crumbs?: Crumb[];
+}
+
+const { title, eyebrow, lead, cover, coverAlt, remoteCover, icon, pole, crumbs = [] } = Astro.props;
+---
+
+<section class="bg-teal-tint">
+  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(28px,5vw,56px)]">
+    {crumbs.length > 0 && <Breadcrumbs items={crumbs} />}
+
+    <div class="mt-4 flex flex-wrap items-center gap-3">
+      {icon && <span class="text-[2rem] leading-none" aria-hidden="true">{icon}</span>}
+      {
+        pole && (
+          <span class="rounded-full bg-white px-3 py-1 text-[0.72rem] font-semibold uppercase tracking-[0.1em] text-teal-deep">
+            {POLE_LABELS[pole]}
+          </span>
+        )
+      }
+      {
+        eyebrow && (
+          <span class="text-[0.82rem] font-semibold uppercase tracking-[0.1em] text-ink-soft">{eyebrow}</span>
+        )
+      }
+    </div>
+
+    <h1 class="mt-3 max-w-[22ch] text-[clamp(2rem,5vw,3.4rem)]">{title}</h1>
+    {lead && <p class="mt-2 max-w-[60ch] text-md text-ink-soft">{lead}</p>}
+  </div>
+
+  {
+    cover ? (
+      <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] pb-[clamp(20px,4vw,44px)]">
+        <Image
+          src={cover}
+          alt={coverAlt ?? ""}
+          widths={[640, 960, 1440]}
+          sizes="(min-width: 1180px) 1100px, 100vw"
+          loading="eager"
+          class="w-full rounded-xl object-cover shadow-md"
+        />
+      </div>
+    ) : remoteCover ? (
+      <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] pb-[clamp(20px,4vw,44px)]">
+        <img
+          src={remoteCover.url}
+          alt={remoteCover.alt ?? ""}
+          width={remoteCover.width}
+          height={remoteCover.height}
+          class="w-full rounded-xl object-cover shadow-md"
+        />
+      </div>
+    ) : null
+  }
+</section>

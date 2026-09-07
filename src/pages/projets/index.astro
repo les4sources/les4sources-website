@@ -1,0 +1,59 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import Prose from "@components/ui/Prose.astro";
+import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
+import { byPath, visible, listable, pathOf } from "@lib/content";
+
+/**
+ * /projets — le texte migré coiffe la grille ; les fiches viennent de la
+ * collection typée `projets`.
+ */
+const pages = visible(await getCollection("pages"));
+const entry = byPath(pages, "/projets");
+const rendered = entry ? await render(entry) : undefined;
+const Content = rendered?.Content;
+
+const projets = listable(await getCollection("projets")).sort((a, b) =>
+  a.data.title.localeCompare(b.data.title, "fr"),
+);
+
+const items: CardItem[] = projets.map((p) => ({
+  title: p.data.title,
+  href: pathOf(p),
+  description: p.data.description,
+  icon: p.data.icon,
+  pole: p.data.pole,
+}));
+
+const title = entry?.data.title ?? "Les projets des 4 Sources";
+const description =
+  entry?.data.description ??
+  "Les projets qui se déploient sur le tiers-lieu des 4 Sources, à Yvoir : Semisto, la boulangerie, la ferronnerie et les autres.";
+---
+
+<BaseLayout
+  title={entry?.data.seoTitle ?? title}
+  description={description}
+  ogImage={entry?.data.cover ?? entry?.data.ogImage}
+  noindex={entry?.data.noindex ?? false}
+>
+  <PageHero
+    title={title}
+    lead={entry?.data.description}
+    cover={entry?.data.cover}
+    coverAlt={entry?.data.coverAlt}
+    icon={entry?.data.icon}
+    crumbs={[{ label: "Accueil", href: "/" }, { label: "Les projets" }]}
+  />
+
+  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
+    {Content && <Prose><Content /></Prose>}
+
+    <section aria-labelledby="fiches" class={Content ? "mt-14" : ""}>
+      <h2 id="fiches" class="mb-6">Les fiches projets</h2>
+      <CardGrid items={items} empty="Les fiches projets arrivent bientôt." />
+    </section>
+  </div>
+</BaseLayout>

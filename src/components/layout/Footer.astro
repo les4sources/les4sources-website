@@ -1,0 +1,132 @@
+---
+/**
+ * Pied de page — portage de `design/ui_kits/Footer.jsx`.
+ *
+ * Aplat teal (la seule surface sombre de la charte), texte et pictogrammes en
+ * blanc. Colonne 1 : le logo blanc, le bandeau des 7 pictogrammes de pôle et le
+ * bloc NAP. Colonnes 2 à 5 : les groupes de `nav.footer`, tels que le site
+ * actuel les affiche. Barre du bas : la phrase de licence, verbatim du site
+ * actuel (`migration/nav.json` → `footer.footnote`), et les réseaux sociaux.
+ *
+ * Règle stricte héritée de src/lib/site.ts : une donnée inconnue n'est pas
+ * affichée. Rien n'est inventé ici — ni rue, ni e-mail, ni réseau social.
+ */
+import { Image } from "astro:assets";
+import logoWhite from "@assets/brand/logo/logo-white.png";
+import PoleIcon from "@components/ds/PoleIcon.astro";
+import { footerGroups, socials, contactDetails } from "@lib/nav";
+import { POLE_STRIP } from "@lib/poles";
+import { site } from "@lib/site";
+
+const groups = footerGroups();
+const socialLinks = socials();
+const contact = contactDetails();
+
+// Le href reste en E.164, l'affichage garde les espaces.
+const telHref = `tel:${contact.phone.replace(/\s+/g, "")}`;
+
+/**
+ * Le site actuel n'expose aucun téléphone dans son pied de page
+ * (`migration/nav.json` → `footer.contact.phone` vaut `null`) et le numéro de
+ * `site.ts` est celui du lieu, pas une ligne réservations. L'étiquette rouge
+ * « pour les réservations uniquement » de la maquette ne s'applique donc pas :
+ * la passer à `true` le jour où le numéro affiché devient réservations-only.
+ */
+const phoneIsReservationsOnly = false;
+
+/** Verbatim de `footer.footnote` dans migration/nav.json — orthographe comprise. */
+const LICENCE =
+  "Ce site web et nos photos sont sous license Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License";
+---
+
+<footer class="bg-teal text-white">
+  <div class="mx-auto max-w-site px-6 pt-14 pb-8">
+    <div
+      class="grid grid-cols-1 gap-8 min-[640px]:grid-cols-2 min-[1000px]:grid-cols-[1.2fr_repeat(4,1fr)]"
+    >
+      <div>
+        <Image
+          src={logoWhite}
+          alt={site.name}
+          height={120}
+          width={120}
+          class="-ml-3 h-[120px] w-auto"
+          loading="lazy"
+        />
+
+        <ul class="mt-3 flex list-none flex-wrap items-center gap-2.5 p-0">
+          {
+            POLE_STRIP.map((slug) => (
+              <li class="flex">
+                <PoleIcon pole={slug} class="h-7 text-white" />
+              </li>
+            ))
+          }
+        </ul>
+
+        <address class="mt-4 font-ui text-[13px] leading-relaxed text-white/90 not-italic">
+          {contact.address && <span class="block">{contact.address}</span>}
+          <span class="block">{site.address.locality}, Belgique</span>
+          {
+            contact.email && (
+              <a href={`mailto:${contact.email}`} class="block text-white no-underline hover:underline">
+                {contact.email}
+              </a>
+            )
+          }
+          <span class="mt-1 flex flex-wrap items-center gap-2">
+            <a href={telHref} class="text-white no-underline hover:underline">{contact.phone}</a>
+            {
+              phoneIsReservationsOnly && (
+                <span class="rounded-xs bg-hebergement px-1.5 py-0.5 font-ui text-[11px] font-bold text-white">
+                  pour les réservations uniquement
+                </span>
+              )
+            }
+          </span>
+        </address>
+      </div>
+
+      {
+        groups.map((group) => (
+          <nav aria-label={group.title}>
+            <p class="mb-3.5 font-ui text-overline font-bold tracking-[0.08em] uppercase text-white/70">
+              {group.title}
+            </p>
+            <ul class="grid list-none gap-2 p-0">
+              {group.links.map((link) => (
+                <li>
+                  <a
+                    href={link.path}
+                    class="font-ui text-ui font-normal text-white no-underline hover:underline"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        ))
+      }
+    </div>
+
+    <div
+      class="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-white/20 pt-5 font-ui text-caption text-white/75"
+    >
+      <p class="max-w-[62ch]">{LICENCE}</p>
+      {
+        socialLinks.length > 0 && (
+          <ul class="flex list-none flex-wrap gap-4 p-0">
+            {socialLinks.map((s) => (
+              <li>
+                <a href={s.url} rel="noopener" class="text-white/75 no-underline hover:text-white">
+                  {s.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        )
+      }
+    </div>
+  </div>
+</footer>

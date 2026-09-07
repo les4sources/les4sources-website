@@ -1,0 +1,67 @@
+---
+import type { ImageMetadata } from "astro";
+import { site } from "@lib/site";
+import { ogImage as buildOgImage } from "@lib/og";
+
+interface Props {
+  title: string;
+  description: string;
+  /** URL (absolue ou /-rooted) — ou l'ImageMetadata du hero, croppée en OG au build. */
+  ogImage?: string | ImageMetadata;
+  ogImageWidth?: number;
+  ogImageHeight?: number;
+  type?: "website" | "article";
+  noindex?: boolean;
+  jsonld?: object[];
+}
+
+const {
+  title,
+  description,
+  ogImage,
+  ogImageWidth: ogImageWidthProp,
+  ogImageHeight: ogImageHeightProp,
+  type = "website",
+  noindex = false,
+  jsonld = [],
+} = Astro.props;
+
+// Site monolingue FR sans préfixe de langue : pas de hreflang, une seule URL par page.
+const siteUrl = Astro.site ?? new URL(site.url);
+const pathname = Astro.url.pathname.replace(/\/+$/, "") || "/";
+const canonical = new URL(pathname, siteUrl).href;
+
+// ImageMetadata (asset importé, typiquement la cover) → crop OG 1200×630 généré
+// au build ; string → URL telle quelle ; absent → image OG par défaut du site.
+const generated = typeof ogImage === "object" ? await buildOgImage(ogImage, siteUrl) : undefined;
+const ogImageAbs =
+  generated?.url ?? new URL((ogImage as string | undefined) ?? site.defaultOgImage, siteUrl).href;
+const ogImageWidth = generated?.width ?? ogImageWidthProp ?? 1200;
+const ogImageHeight = generated?.height ?? ogImageHeightProp ?? 630;
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex, nofollow" />}
+
+{/* Open Graph */}
+<meta property="og:type" content={type} />
+<meta property="og:site_name" content={site.name} />
+<meta property="og:locale" content="fr_BE" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImageAbs} />
+<meta property="og:image:width" content={String(ogImageWidth)} />
+<meta property="og:image:height" content={String(ogImageHeight)} />
+<meta property="og:image:alt" content={title} />
+
+{/* Twitter */}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImageAbs} />
+
+{/* JSON-LD */}
+{jsonld.map((schema) => <script type="application/ld+json" set:html={JSON.stringify(schema)} />)}

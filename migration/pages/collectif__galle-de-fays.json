@@ -1,0 +1,84 @@
+{
+  "path": "/collectif/galle-de-fays",
+  "slug": "collectif__galle-de-fays",
+  "rootIsCollection": false,
+  "title": "Gaëlle de Fays",
+  "metaDescription": "Gaëlle amène la culture et le bien-être aux 4 Sources. Elle est aussi la fondatrice d’Arts Emoi, une association qui propose des cours de musique et de conscience corporelle.",
+  "ogImage": null,
+  "ogTitle": "Gaëlle de Fays",
+  "ogUrl": "https://www.les4sources.be/collectif/galle-de-fays",
+  "canonical": null,
+  "h1": "Gaëlle de Fays",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Type": "Habitant·e"
+  },
+  "propertySchema": [
+    {
+      "id": "ew_Z",
+      "name": "Bio courte",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "rCb{",
+      "name": "Photo",
+      "type": "file",
+      "visibility": "show"
+    },
+    {
+      "id": "CPcu",
+      "name": "Type",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "collectif-galle-de-fays",
+    "blockId": "f5f5bb23-b4f6-46f0-87be-c08c95fe5ea4",
+    "parentId": "e93593be43cd488598c5226e7ba2b369",
+    "type": "page",
+    "uri": "/collectif/galle-de-fays",
+    "createdTime": "2024-04-03T13:49:46.298Z",
+    "lastEditedTime": "2026-07-12T16:23:19.163Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Collectif",
+      "href": "/collectif"
+    },
+    {
+      "label": "Gaëlle de Fays",
+      "href": "/collectif/galle-de-fays"
+    }
+  ],
+  "contentHtml": "<div id=\"block-2720d1493317806da9a5d9a50c7a18ce\" class=\"notion-column-list\"><div id=\"block-2720d14933178041a8f3f20af58116ed\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-2720d149331780b39641c8e79d95bab9\" class=\"notion-text notion-text__content notion-semantic-string\">Gaëlle amène la culture et le bien-être aux 4 Sources. Elle est aussi la fondatrice d’Arts Emoi, une association qui propose des cours de musique et de conscience corporelle.</p><p id=\"block-2720d149331780278dd0c95ecda265ec\" class=\"notion-text notion-text__content notion-semantic-string\">→ <a href=\"http://artsemoi.be/\" class=\"notion-link link\" data-link-uri=\"http://artsemoi.be/\">artsemoi.be</a></p><p id=\"block-2720d14933178061b2aede23a2991815\" class=\"notion-text notion-text__content notion-semantic-string\">··· <a href=\"mailto:gaelle@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">gaelle@les4sources.be</a></p></div><div id=\"block-2720d14933178017b9e0d2a44f584f3c\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2720d1493317804f817cc21b2c9ae28d\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/aba1c616-c188-4b9e-853a-c9f7caf2fdc6/bd330128-8a3e-45b8-878f-2b13e495ed1c/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/aba1c616-c188-4b9e-853a-c9f7caf2fdc6/bd330128-8a3e-45b8-878f-2b13e495ed1c/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/aba1c616-c188-4b9e-853a-c9f7caf2fdc6/bd330128-8a3e-45b8-878f-2b13e495ed1c/public\"></span></div></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/aba1c616-c188-4b9e-853a-c9f7caf2fdc6/bd330128-8a3e-45b8-878f-2b13e495ed1c/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/collectif__galle-de-fays/01-bd330128-8a3e-45b8-878f-2b13e495ed1c.png",
+      "shared": false,
+      "bytes": 410437
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [
+    "http://artsemoi.be/",
+    "mailto:gaelle@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 31,
+  "fetchedAt": "2026-09-07T21:17:27.240Z",
+  "markdown": "<!-- columns -->\n<!-- column width=\"50%\" -->\n\nGaëlle amène la culture et le bien-être aux 4 Sources. Elle est aussi la fondatrice d’Arts Emoi, une association qui propose des cours de musique et de conscience corporelle.\n\n→ [artsemoi.be](http://artsemoi.be/)\n\n··· [gaelle@les4sources.be](mailto:gaelle@les4sources.be)\n\n<!-- column width=\"50%\" -->\n\n![image](images/collectif__galle-de-fays/01-bd330128-8a3e-45b8-878f-2b13e495ed1c.png)\n<!-- /columns -->\n",
+  "extractedAt": "2026-09-07T21:41:44.357Z"
+}

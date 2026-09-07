@@ -1,0 +1,65 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import Prose from "@components/ui/Prose.astro";
+import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
+import { siteData } from "@lib/data";
+import { byPath, visible, upcomingEvents, pastEvents, formatDate } from "@lib/content";
+import type { MergedEvent } from "@lib/claudy";
+
+// La page éditoriale /evenements migrée fait foi ; le listing se pose dessous.
+const pages = visible(await getCollection("pages"));
+const entry = byPath(pages, "/evenements");
+const rendered = entry ? await render(entry) : undefined;
+const Content = rendered?.Content;
+
+const { events } = await siteData();
+const upcoming = upcomingEvents(events);
+const past = pastEvents(events);
+
+const toCard = (e: MergedEvent): CardItem => ({
+  title: e.title,
+  href: e.path,
+  description: e.description || undefined,
+  eyebrow: formatDate(e.start),
+  meta: e.priceText,
+  icon: e.icon,
+  pole: e.pole,
+  image: e.image,
+});
+
+const description =
+  entry?.data.description ??
+  "Pizza parties, camembert parties, initiations à la soudure, stages et rendez-vous du tiers-lieu des 4 Sources, à Yvoir.";
+---
+
+<BaseLayout
+  title={entry?.data.seoTitle ?? entry?.data.title ?? "Les événements des 4 Sources"}
+  description={description}
+  ogImage={entry?.data.cover ?? entry?.data.ogImage}
+  noindex={entry?.data.noindex ?? false}
+>
+  <PageHero
+    title={entry?.data.title ?? "Les événements"}
+    lead={entry?.data.description ?? "Ce qui se passe aux 4 Sources : les rendez-vous à venir, et la trace de ceux qui ont eu lieu."}
+    cover={entry?.data.cover}
+    coverAlt={entry?.data.coverAlt}
+    icon={entry?.data.icon}
+    crumbs={[{ label: "Accueil", href: "/" }, { label: "Les événements" }]}
+  />
+
+  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
+    {Content && <Prose><Content /></Prose>}
+
+    <section aria-labelledby="a-venir" class={Content ? "mt-14" : ""}>
+      <h2 id="a-venir" class="mb-6">À venir</h2>
+      <CardGrid items={upcoming.map(toCard)} empty="Aucun événement à venir pour le moment." />
+    </section>
+
+    <section aria-labelledby="passes" class="mt-16">
+      <h2 id="passes" class="mb-6">Déjà passés</h2>
+      <CardGrid items={past.map(toCard)} empty="Aucun événement passé archivé pour le moment." />
+    </section>
+  </div>
+</BaseLayout>

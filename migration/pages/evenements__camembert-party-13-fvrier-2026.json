@@ -1,0 +1,149 @@
+{
+  "path": "/evenements/camembert-party-13-fvrier-2026",
+  "slug": "evenements__camembert-party-13-fvrier-2026",
+  "rootIsCollection": false,
+  "title": "Camembert Party et disc-golf nocturne 🧀",
+  "metaDescription": "Viens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes petits légumes préférés !",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d3e8a0a2-cb97-47de-aeb6-0612206a316b/evenement_gnral__a_-1/public",
+  "ogTitle": "Camembert Party et disc-golf nocturne 🧀",
+  "ogUrl": "https://www.les4sources.be/evenements/camembert-party-13-fvrier-2026",
+  "canonical": null,
+  "h1": "Camembert Party et disc-golf nocturne 🧀",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d3e8a0a2-cb97-47de-aeb6-0612206a316b/evenement_gnral__a_-1/public",
+    "localPath": "images/evenements__camembert-party-13-fvrier-2026/01-evenement_gnral__a_-1.jpg"
+  },
+  "pageIcon": "🧀",
+  "properties": {
+    "Date": "2026-03-13",
+    "Horaires": "à partir de 18h30",
+    "Type d'événement": "Pizza Party",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "13 mars 2026",
+    "Places disponibles": "65",
+    "Tarif": "€7.00",
+    "Date de création": "Jan 8, 2026 1:43 PM",
+    "Statut site web": "Publié",
+    "super:slug": "camembert-party-13-mars-2026"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-camembert-party-13-fvrier-2026",
+    "blockId": "2e20d149-3317-806e-b313-fddfc1909ad7",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/camembert-party-13-fvrier-2026",
+    "createdTime": "2026-01-08T13:43:38.564Z",
+    "lastEditedTime": "2026-03-05T16:54:06.594Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<h1 id=\"block-2e20d1493317806b8cc8d873cd78298e\" class=\"notion-heading notion-semantic-string\">Le concept de la Camembert Party ?</h1><p id=\"block-2e20d14933178059b1e1cd3e78f2cefb\" class=\"notion-text notion-text__content notion-semantic-string\">Viens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes petits légumes préférés ! </p><p id=\"block-2e20d14933178057b91aee198d364abe\" class=\"notion-text notion-text__content notion-semantic-string\">Bienvenue <strong>ce 13 mars, dès 18h30</strong> :</p><ul class=\"notion-bulleted-list\"><li id=\"block-2e20d149331780fda0b0e6a9c7bb3fd5\" class=\"notion-list-item notion-semantic-string\">tu amènes…</li><ul class=\"notion-bulleted-list\"><li id=\"block-2e20d149331780098c81e47e0aa051df\" class=\"notion-list-item notion-semantic-string\">ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre)</li><li id=\"block-2e20d14933178010911afc0fd0613ecf\" class=\"notion-list-item notion-semantic-string\">tes petits légumes</li></ul><li id=\"block-2e20d149331780858392d0b87ca229d6\" class=\"notion-list-item notion-semantic-string\">nous mettons à ta disposition…<!-- --></li><ul class=\"notion-bulleted-list\"><li id=\"block-2e20d149331780bcbf66d9684263ea2e\" class=\"notion-list-item notion-semantic-string\">de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu</li><li id=\"block-2e20d149331780a79afecc1719b5cb61\" class=\"notion-list-item notion-semantic-string\">des planches à découper et des platines de cuisson</li><li id=\"block-2e20d14933178004be22e2da2ccdbbac\" class=\"notion-list-item notion-semantic-string\">le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage</li><li id=\"block-2e20d149331780bf9360c09854b79ec8\" class=\"notion-list-item notion-semantic-string\">la grande salle des 4 Sources</li></ul></ul><h1 id=\"block-3170d1493317801eb1b2f68490518279\" class=\"notion-heading notion-semantic-string\">Et pour cette édition, notre partenaire <a href=\"https://www.discgolfattitude.be/\" class=\"notion-link link\" data-link-uri=\"https://www.discgolfattitude.be/\">DiscGolf</a> propose…</h1><p id=\"block-afcaef21b9054cd89d734587363e0331\" class=\"notion-text notion-text__content notion-semantic-string\">Au programme : la mythique Camembert Party (attention aux drives bien coulants) suivie d'un petit Glow Contest après le repas. L'occasion parfaite de tester vos plus belles lignes... même dans la nuit !</p><p id=\"block-af81304d73cc4379a1fd66d8c92b80fa\" class=\"notion-text notion-text__content notion-semantic-string\">Que votre putting soit aussi précis que votre découpe de fromage !</p><p id=\"block-9765b272d2ec47bb99519dbdbbce5384\" class=\"notion-text notion-text__content notion-semantic-string\">Cerise sur le panier : le club a réussi un joli coup (presque un ace !) en achetant des disques Glow à prix très intéressant : ils seront en vente pendant le souper au prix d'achat de 14 €. De quoi illuminer vos prochains parcours !</p><p id=\"block-31a0d149331780f3becfe42ab45282db\" class=\"notion-text notion-text__content notion-semantic-string\">Vous pouvez donc participer, ou non, à une session de disc-golf ce 13 mars ! Pas besoin d’inscription si ce n’est celle de la Camembert Party. </p><div id=\"block-3170d149331780c89f8ee0823aa40a9b\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b0717c36-623e-4972-8f84-76e6ccd41c0e/202210910_2981222505532898_253882220115932684_n/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b0717c36-623e-4972-8f84-76e6ccd41c0e/202210910_2981222505532898_253882220115932684_n/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b0717c36-623e-4972-8f84-76e6ccd41c0e/202210910_2981222505532898_253882220115932684_n/public\"></span></div><div id=\"block-2fd0d149331780758947dc6b6671cb63\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2581f2f4-f434-4ca8-a760-dc99d4962ef2/img-20250316-wa0025/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2581f2f4-f434-4ca8-a760-dc99d4962ef2/img-20250316-wa0025/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2581f2f4-f434-4ca8-a760-dc99d4962ef2/img-20250316-wa0025/public\"></span></div><div id=\"block-2e90d1493317803691e3da2a00191317\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/camembert-party-de-mars-2026\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🧀</span></div><span class=\"notion-semantic-string\">Je prends ma place !</span></a></div><h1 id=\"block-2e20d14933178079a911eb46fe035b8f\" class=\"notion-heading notion-semantic-string\">À emporter avec toi</h1><ul class=\"notion-bulleted-list\"><li id=\"block-2e20d149331780afacb7dfbf0c5147d7\" class=\"notion-list-item notion-semantic-string\">Ton fromage contenu dans un emballage en bois (cf. photo de l'événement ; bienvenu aux camemberts, vacherins, chaumes, etc.)</li><ul class=\"notion-bulleted-list\"><li id=\"block-2e20d14933178058a322ef7ceeb9924f\" class=\"notion-list-item notion-semantic-string\">Pas très fromage ? Apporte quelque chose d'équivalent si tu le souhaites ou d'autres ingrédients pour accompagner tes légumes.</li></ul><li id=\"block-2e20d149331780e3a7dcfa438913fc34\" class=\"notion-list-item notion-semantic-string\">Tes légumes et/ou féculents (ex.: courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces) ou salades froides à manger à côté + assaisonnement</li></ul><div id=\"block-2e90d149331780af9abbd5f1100b0dcd\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/camembert-party-de-mars-2026\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🧀</span></div><span class=\"notion-semantic-string\">Je prends ma place !</span></a></div><h1 id=\"block-2e20d149331780089aebf73bd49b4e06\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-2e20d149331780179646efa686b490b9\" class=\"notion-list-item notion-semantic-string\">Tarif : 7 € par personne + cash pour le bar</li><li id=\"block-2e20d1493317809c9f1ce9dc6c73f8e6\" class=\"notion-list-item notion-semantic-string\">À emporter</li><ul class=\"notion-bulleted-list\"><li id=\"block-2e20d1493317809cb2bbf1d65ba83ba6\" class=\"notion-list-item notion-semantic-string\">ton fromage ou un autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre) 🧀</li><li id=\"block-2e20d149331780698e5ecb1dd3418845\" class=\"notion-list-item notion-semantic-string\">tes petits légumes 🍆</li><li id=\"block-2e20d1493317807e9363ef804bd2e811\" class=\"notion-list-item notion-semantic-string\">tes ami·e·s 👯</li></ul><li id=\"block-2e20d1493317800c8206fa884f2f72d8\" class=\"notion-list-item notion-semantic-string\">Bar avec boissons bios/locales/de saison sur place 🍹</li></ul><p id=\"block-2e20d149331780f7baaafb2028324354\" class=\"notion-text notion-text__content notion-semantic-string\">Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.</p><div id=\"block-2e90d1493317809cb907e9144d6ea2b2\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/camembert-party-de-mars-2026\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🧀</span></div><span class=\"notion-semantic-string\">Je prends ma place !</span></a></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d3e8a0a2-cb97-47de-aeb6-0612206a316b/evenement_gnral__a_-1/public",
+      "alt": "Camembert Party et disc-golf nocturne 🧀",
+      "role": "cover",
+      "localPath": "images/evenements__camembert-party-13-fvrier-2026/01-evenement_gnral__a_-1.jpg",
+      "shared": false,
+      "bytes": 127503
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b0717c36-623e-4972-8f84-76e6ccd41c0e/202210910_2981222505532898_253882220115932684_n/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__camembert-party-13-fvrier-2026/02-202210910_2981222505532898_253882220115932684_n.jpg",
+      "shared": false,
+      "bytes": 124421
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2581f2f4-f434-4ca8-a760-dc99d4962ef2/img-20250316-wa0025/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__camembert-party-13-fvrier-2026/03-img-20250316-wa0025.jpg",
+      "shared": false,
+      "bytes": 183037
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.discgolfattitude.be/",
+    "https://www.billetweb.fr/camembert-party-de-mars-2026"
+  ],
+  "collections": [],
+  "wordCount": 370,
+  "fetchedAt": "2026-09-07T21:17:30.476Z",
+  "markdown": "## Le concept de la Camembert Party ?\n\nViens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes petits légumes préférés !\n\nBienvenue **ce 13 mars, dès 18h30** :\n\n- tu amènes…\n\n- ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre)\n- tes petits légumes\n\n- nous mettons à ta disposition…\n\n- de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu\n- des planches à découper et des platines de cuisson\n- le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage\n- la grande salle des 4 Sources\n\n## Et pour cette édition, notre partenaire [DiscGolf](https://www.discgolfattitude.be/) propose…\n\nAu programme : la mythique Camembert Party (attention aux drives bien coulants) suivie d'un petit Glow Contest après le repas. L'occasion parfaite de tester vos plus belles lignes... même dans la nuit !\n\nQue votre putting soit aussi précis que votre découpe de fromage !\n\nCerise sur le panier : le club a réussi un joli coup (presque un ace !) en achetant des disques Glow à prix très intéressant : ils seront en vente pendant le souper au prix d'achat de 14 €. De quoi illuminer vos prochains parcours !\n\nVous pouvez donc participer, ou non, à une session de disc-golf ce 13 mars ! Pas besoin d’inscription si ce n’est celle de la Camembert Party.\n\n![image](images/evenements__camembert-party-13-fvrier-2026/02-202210910_2981222505532898_253882220115932684_n.jpg)\n\n![image](images/evenements__camembert-party-13-fvrier-2026/03-img-20250316-wa0025.jpg)\n\n[🧀 Je prends ma place !](https://www.billetweb.fr/camembert-party-de-mars-2026){.button}\n\n## À emporter avec toi\n\n- Ton fromage contenu dans un emballage en bois (cf. photo de l'événement ; bienvenu aux camemberts, vacherins, chaumes, etc.)\n\n- Pas très fromage ? Apporte quelque chose d'équivalent si tu le souhaites ou d'autres ingrédients pour accompagner tes légumes.\n\n- Tes légumes et/ou féculents (ex.: courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces) ou salades froides à manger à côté + assaisonnement\n\n[🧀 Je prends ma place !](https://www.billetweb.fr/camembert-party-de-mars-2026){.button}\n\n## **Infos pratiques**\n\n- Tarif : 7 € par personne + cash pour le bar\n- À emporter\n\n- ton fromage ou un autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre) 🧀\n- tes petits légumes 🍆\n- tes ami·e·s 👯\n\n- Bar avec boissons bios/locales/de saison sur place 🍹\n\nLes enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.\n\n[🧀 Je prends ma place !](https://www.billetweb.fr/camembert-party-de-mars-2026){.button}\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.371Z"
+}

@@ -1,0 +1,63 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import Prose from "@components/ui/Prose.astro";
+import { pathOf, visible } from "@lib/content";
+import { breadcrumbs } from "@lib/seo";
+import { site } from "@lib/site";
+
+/** Fiches des projets du lieu (Semisto, Claudy, la ferronnerie…). */
+export const getStaticPaths: GetStaticPaths = async () => {
+  const projets = visible(await getCollection("projets"));
+  return projets.map((entry) => ({
+    params: { slug: pathOf(entry).replace(/^\/projets\//, "") },
+    props: { entry },
+  }));
+};
+
+interface Props {
+  entry: CollectionEntry<"projets">;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+
+const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
+const url = `${siteUrl}${pathOf(entry)}`;
+const jsonld = [
+  breadcrumbs([
+    { name: "Accueil", url: `${siteUrl}/` },
+    { name: "Les projets", url: `${siteUrl}/projets` },
+    { name: d.title, url },
+  ]),
+];
+---
+
+<BaseLayout
+  title={d.seoTitle ?? d.title}
+  description={d.description}
+  ogImage={d.cover ?? d.ogImage}
+  noindex={d.noindex}
+  jsonld={jsonld}
+>
+  <PageHero
+    title={d.title}
+    lead={d.description}
+    cover={d.cover}
+    coverAlt={d.coverAlt}
+    icon={d.icon}
+    pole={d.pole}
+    crumbs={[
+      { label: "Accueil", href: "/" },
+      { label: "Les projets", href: "/projets" },
+      { label: d.title },
+    ]}
+  />
+
+  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
+    <Prose><Content /></Prose>
+  </div>
+</BaseLayout>

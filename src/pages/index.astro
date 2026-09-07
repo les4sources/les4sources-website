@@ -1,0 +1,41 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import Prose from "@components/ui/Prose.astro";
+import { byPath, visible } from "@lib/content";
+
+// L'accueil est l'entrée de la collection `pages` dont le legacyPath vaut "/".
+const pages = visible(await getCollection("pages"));
+const entry = byPath(pages, "/");
+
+if (!entry) {
+  throw new Error(
+    "Aucune entrée `pages` avec legacyPath \"/\" — l'accueil ne peut pas être rendu. " +
+      "Vérifie src/content/pages/index.md.",
+  );
+}
+
+const { Content } = await render(entry);
+const d = entry.data;
+---
+
+<BaseLayout
+  title={d.seoTitle ?? d.title}
+  description={d.description}
+  ogImage={d.cover ?? d.ogImage}
+  noindex={d.noindex}
+>
+  <PageHero
+    title={d.title}
+    lead={d.description}
+    cover={d.cover}
+    coverAlt={d.coverAlt}
+    icon={d.icon}
+    pole={d.pole}
+  />
+
+  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
+    <Prose><Content /></Prose>
+  </div>
+</BaseLayout>

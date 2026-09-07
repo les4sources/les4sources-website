@@ -1,0 +1,97 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import Prose from "@components/ui/Prose.astro";
+import { pathOf, visible } from "@lib/content";
+import { breadcrumbs } from "@lib/seo";
+import { site } from "@lib/site";
+
+/**
+ * Hébergements — arborescence imbriquée (gîte › chambre), donc route attrape-tout.
+ * Chaque niveau du chemin d'origine est préservé tel quel.
+ */
+const BASE = "/sejours/hebergements-yvoir";
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  // `getStaticPaths` est hissée dans son propre module par Astro : elle ne voit
+  // pas les constantes du frontmatter, d'où la répétition du préfixe ici.
+  const base = "/sejours/hebergements-yvoir";
+  const entries = visible(await getCollection("hebergements"));
+  return entries
+    .filter((entry) => pathOf(entry).startsWith(`${base}/`))
+    .map((entry) => ({
+      params: { slug: pathOf(entry).slice(base.length + 1) },
+      props: { entry },
+    }));
+};
+
+interface Props {
+  entry: CollectionEntry<"hebergements">;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+
+// Fil d'Ariane : Accueil › Séjours › Les hébergements › (chaque niveau) › page
+const rest = pathOf(entry).slice(BASE.length + 1).split("/");
+const crumbs = [
+  { label: "Accueil", href: "/" },
+  { label: "Séjours", href: "/sejours" },
+  { label: "Les hébergements", href: BASE },
+  ...rest.map((seg, i) => ({
+    label: i === rest.length - 1 ? d.title : seg.replace(/-/g, " "),
+    href: `${BASE}/${rest.slice(0, i + 1).join("/")}`,
+  })),
+];
+
+const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
+const jsonld = [
+  breadcrumbs(crumbs.map((c) => ({ name: c.label, url: `${siteUrl}${c.href}` }))),
+];
+---
+
+<BaseLayout
+  title={d.seoTitle ?? d.title}
+  description={d.description}
+  ogImage={d.cover ?? d.ogImage}
+  noindex={d.noindex}
+  jsonld={jsonld}
+>
+  <PageHero
+    title={d.title}
+    eyebrow={d.capacity ? `${d.capacity} personnes` : undefined}
+    lead={d.description}
+    cover={d.cover}
+    coverAlt={d.coverAlt}
+    icon={d.icon}
+    pole={d.pole}
+    crumbs={crumbs}
+  />
+
+  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
+    <Prose><Content /></Prose>
+
+    {
+      d.gallery.length > 0 && (
+        <ul class="mt-12 grid list-none grid-cols-1 gap-4 p-0 sm:grid-cols-2 lg:grid-cols-3">
+          {d.gallery.map((img, i) => (
+            <li>
+              <Image
+                src={img}
+                alt={`${d.title} — photo ${i + 1}`}
+                widths={[420, 840]}
+                sizes="(min-width: 1024px) 360px, (min-width: 640px) 45vw, 100vw"
+                loading="lazy"
+                class="w-full rounded-lg object-cover shadow-sm"
+              />
+            </li>
+          ))}
+        </ul>
+      )
+    }
+  </div>
+</BaseLayout>

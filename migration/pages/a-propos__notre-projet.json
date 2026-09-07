@@ -1,0 +1,84 @@
+{
+  "path": "/a-propos/notre-projet",
+  "slug": "a-propos__notre-projet",
+  "rootIsCollection": false,
+  "title": "L’écolieu / tiers-lieu des 4 Sources",
+  "metaDescription": "Les 4 Sources, c’est un lieu de nature, d'habitat collectif et d'activités.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dd929643-9a67-44d4-bb42-33a13815690b/_G0A4757/public",
+  "ogTitle": "L’écolieu / tiers-lieu des 4 Sources",
+  "ogUrl": "https://www.les4sources.be/a-propos/notre-projet",
+  "canonical": null,
+  "h1": "L’écolieu / tiers-lieu des 4 Sources",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dd929643-9a67-44d4-bb42-33a13815690b/_G0A4757/public",
+    "localPath": "images/a-propos__notre-projet/01-_G0A4757.jpg"
+  },
+  "pageIcon": null,
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "a-propos-notre-projet",
+    "blockId": "a53735a7-8587-4196-a766-3cc0050ae0aa",
+    "parentId": "a-propos",
+    "type": "page",
+    "uri": "/a-propos/notre-projet",
+    "createdTime": "2024-05-29T13:26:07.229Z",
+    "lastEditedTime": "2025-10-09T11:02:51.075Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "À propos des 4 Sources",
+      "href": "/a-propos",
+      "icon": "☺️"
+    },
+    {
+      "label": "L’écolieu / tiers-lieu des 4 Sources",
+      "href": "/a-propos/notre-projet"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-1e19764970b745f48817766a8398693e\" class=\"notion-heading notion-semantic-string\">Les 4 Sources, c’est un lieu de nature, d'habitat collectif et d'activités.</h3><div id=\"block-b3451c5481884d16a21d576c714e54e6\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/94417952-dd36-4078-af77-4dbdb1b58b4b/4sources/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/94417952-dd36-4078-af77-4dbdb1b58b4b/4sources/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/94417952-dd36-4078-af77-4dbdb1b58b4b/4sources/public\"></span></div><p id=\"block-7f785122e6cd4bbbbcd952597acbee62\" class=\"notion-text notion-text__content notion-semantic-string\">Différents pôles prennent soin de chacune de ces 3 facettes et de tout ce qu'elles contiennent.</p><h3 id=\"block-66cc564bdafb404d81807c1665e52a3e\" class=\"notion-heading notion-semantic-string\"><strong>Un lieu de nature </strong>(15 hectares composés de 13 hectares de prés classés Natura 2000 + 2 hectares de bois) animé par 2 pôles</h3><ul class=\"notion-bulleted-list\"><li id=\"block-12b37a9bc9c4480f8511fedc0d9d4c20\" class=\"notion-list-item notion-semantic-string\"><strong><a class=\"notion-link link\" href=\"/biodiversite\"><u>Pôle Biodiversité</u></a></strong> : préservation et déploiement de la faune et de la flore sur le lieu</li><li id=\"block-169c8a1006364b15a6aaddc512f2a5bf\" class=\"notion-list-item notion-semantic-string\"><strong><a class=\"notion-link link\" href=\"/a-propos/les-animaux-des-4-sources\"><u>Pôle Animaux</u></a></strong> : soin au troupeau et autres animaux domestiques</li></ul><h3 id=\"block-ec191426f29046d7a7cc4a3563d96ba5\" class=\"notion-heading notion-semantic-string\"><strong>Un lieu d'habitat collectif</strong> animé par 1 pôle</h3><ul class=\"notion-bulleted-list\"><li id=\"block-e3e764e545e04ff8a8abd78bdf6a7c54\" class=\"notion-list-item notion-semantic-string\"><strong><a class=\"notion-link link\" href=\"/notre-collectif\"><u>Pôle Habitants</u></a></strong> : 6 foyers habitent sur place et comprennent au total 10 adultes et 10 enfants</li></ul><h3 id=\"block-d238aae4e3a644448f9a071edd9dc290\" class=\"notion-heading notion-semantic-string\"><strong>Un lieu d'activités</strong> animé par 5 pôles</h3><ul class=\"notion-bulleted-list\"><li id=\"block-d43bb5d4909248ffa3f5e21e2d178a5c\" class=\"notion-list-item notion-semantic-string\"><strong>Pôle Artisanat</strong> : <a class=\"notion-link link\" href=\"/projets/la-ferronnerie\">ferronnerie</a>, <a class=\"notion-link link\" href=\"/projets/de-branches-en-planches\">travail du bois</a>, petit artisanat et <a class=\"notion-link link\" href=\"/activites\">activités de transmission</a></li><li id=\"block-c536e00ec4ef4ddd8d91c6e6c43de192\" class=\"notion-list-item notion-semantic-string\"><strong>Pôle Transformation/Production/Ventes</strong> : <a class=\"notion-link link\" href=\"/le-bar-des-4-sources\">bar champêtre</a>, <a class=\"notion-link link\" href=\"/projets/tranches-de-vie\">production de pain</a>, verger conservatoire, potager, jardin-forêt et <a class=\"notion-link link\" href=\"/activites\">activités de transmission</a></li><li id=\"block-80596e77621147e096e71ceb3eb2e14b\" class=\"notion-list-item notion-semantic-string\"><strong>Pôle Ateliers/Événements</strong> : tous nos <a class=\"notion-link link\" href=\"/activites\">ateliers</a> et <a class=\"notion-link link\" href=\"/agenda\">événements</a></li><li id=\"block-5f9c1796d00e4bd18d1d117d2eb4f3a7\" class=\"notion-list-item notion-semantic-string\"><strong>Pôle Hébergements et Salles</strong> : la <a class=\"notion-link link\" href=\"/sejours\">location</a> de différents espaces et le soin mis dans l’accueil</li><li id=\"block-9922149973274648b3582ac0105a63e1\" class=\"notion-list-item notion-semantic-string\"><strong>Pôle Liens Locaux et Inter-Projets</strong> : la création d’espaces de maintien et de développement de liens entre les citoyen.nes, ainsi qu’avec différents projets locaux et/ou partageant notre <a class=\"notion-link link\" href=\"/a-propos/notre-projet\">raison d’être</a></li></ul><h1 id=\"block-a6aaee61c69643d3ac6499600b437a9d\" class=\"notion-heading notion-semantic-string\">Enjeux sociétaux</h1><p id=\"block-e1b4f9765db94eca92cdc6d9bf26d8a6\" class=\"notion-text notion-text__content notion-semantic-string\">A travers le projet des 4 Sources, nous nous penchons sur <strong>différents enjeux sociétaux</strong> et explorons des facettes de :</p><ul class=\"notion-bulleted-list\"><li id=\"block-e1606bad183c453ba9baea9210c72d91\" class=\"notion-list-item notion-semantic-string\"><strong>la sobriété</strong></li><li id=\"block-fb8d5ebbba704b1080c446a4bc1ce8f3\" class=\"notion-list-item notion-semantic-string\"><strong>la permaculture</strong></li><li id=\"block-1ef37fa6d90644f2854821f318b446f6\" class=\"notion-list-item notion-semantic-string\"><strong>la connexion à soi, aux autres et au Vivant</strong></li><li id=\"block-dfe77c43c9e042e7b79fd2a28b57de64\" class=\"notion-list-item notion-semantic-string\"><strong>la co-création</strong></li></ul><h2 id=\"block-ec3c7c845fe348cca1bda7af8be2551c\" class=\"notion-heading notion-semantic-string\"><strong>Comment explorons-nous ces enjeux</strong> dans notre projet ?</h2><ul class=\"notion-bulleted-list\"><li id=\"block-0bc6bec0ad8f4c0bbe7302ef057e5499\" class=\"notion-list-item notion-semantic-string\">Via l'<strong>expérimentation</strong></li><li id=\"block-4926825ca00d4ddd8cb586a601c611b0\" class=\"notion-list-item notion-semantic-string\">Via la <strong>transmission</strong></li><li id=\"block-33fa8a433d8f40d7acbb445a138db1c9\" class=\"notion-list-item notion-semantic-string\">Favorisant une <strong>transformation individuelle, sociétale et environnementale</strong></li></ul>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dd929643-9a67-44d4-bb42-33a13815690b/_G0A4757/public",
+      "alt": "L’écolieu / tiers-lieu des 4 Sources",
+      "role": "cover",
+      "localPath": "images/a-propos__notre-projet/01-_G0A4757.jpg",
+      "shared": false,
+      "bytes": 192494
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/94417952-dd36-4078-af77-4dbdb1b58b4b/4sources/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/a-propos__notre-projet/02-4sources.jpg",
+      "shared": false,
+      "bytes": 231461
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/biodiversite",
+    "/a-propos/les-animaux-des-4-sources",
+    "/notre-collectif",
+    "/projets/la-ferronnerie",
+    "/projets/de-branches-en-planches",
+    "/activites",
+    "/le-bar-des-4-sources",
+    "/projets/tranches-de-vie",
+    "/agenda",
+    "/sejours",
+    "/a-propos/notre-projet"
+  ],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 227,
+  "fetchedAt": "2026-09-07T21:17:19.467Z",
+  "markdown": "#### Les 4 Sources, c’est un lieu de nature, d'habitat collectif et d'activités.\n\n![image](images/a-propos__notre-projet/02-4sources.jpg)\n\nDifférents pôles prennent soin de chacune de ces 3 facettes et de tout ce qu'elles contiennent.\n\n#### **Un lieu de nature** (15 hectares composés de 13 hectares de prés classés Natura 2000 + 2 hectares de bois) animé par 2 pôles\n\n- **[<u>Pôle Biodiversité</u>](/biodiversite)** : préservation et déploiement de la faune et de la flore sur le lieu\n- **[<u>Pôle Animaux</u>](/a-propos/les-animaux-des-4-sources)** : soin au troupeau et autres animaux domestiques\n\n#### **Un lieu d'habitat collectif** animé par 1 pôle\n\n- **[<u>Pôle Habitants</u>](/notre-collectif)** : 6 foyers habitent sur place et comprennent au total 10 adultes et 10 enfants\n\n#### **Un lieu d'activités** animé par 5 pôles\n\n- **Pôle Artisanat** : [ferronnerie](/projets/la-ferronnerie), [travail du bois](/projets/de-branches-en-planches), petit artisanat et [activités de transmission](/activites)\n- **Pôle Transformation/Production/Ventes** : [bar champêtre](/le-bar-des-4-sources), [production de pain](/projets/tranches-de-vie), verger conservatoire, potager, jardin-forêt et [activités de transmission](/activites)\n- **Pôle Ateliers/Événements** : tous nos [ateliers](/activites) et [événements](/agenda)\n- **Pôle Hébergements et Salles** : la [location](/sejours) de différents espaces et le soin mis dans l’accueil\n- **Pôle Liens Locaux et Inter-Projets** : la création d’espaces de maintien et de développement de liens entre les citoyen.nes, ainsi qu’avec différents projets locaux et/ou partageant notre [raison d’être](/a-propos/notre-projet)\n\n## Enjeux sociétaux\n\nA travers le projet des 4 Sources, nous nous penchons sur **différents enjeux sociétaux** et explorons des facettes de :\n\n- **la sobriété**\n- **la permaculture**\n- **la connexion à soi, aux autres et au Vivant**\n- **la co-création**\n\n### **Comment explorons-nous ces enjeux** dans notre projet ?\n\n- Via l'**expérimentation**\n- Via la **transmission**\n- Favorisant une **transformation individuelle, sociétale et environnementale**\n",
+  "extractedAt": "2026-09-07T21:41:44.225Z"
+}

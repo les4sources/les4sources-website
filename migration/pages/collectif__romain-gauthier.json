@@ -1,0 +1,72 @@
+{
+  "path": "/collectif/romain-gauthier",
+  "slug": "collectif__romain-gauthier",
+  "rootIsCollection": false,
+  "title": "Romain Gauthier",
+  "metaDescription": "Pour contacter Romain : romain@les4sources.be",
+  "ogImage": null,
+  "ogTitle": "Romain Gauthier",
+  "ogUrl": "https://www.les4sources.be/collectif/romain-gauthier",
+  "canonical": null,
+  "h1": "Romain Gauthier",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {},
+  "propertySchema": [
+    {
+      "id": "ew_Z",
+      "name": "Bio courte",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "rCb{",
+      "name": "Photo",
+      "type": "file",
+      "visibility": "show"
+    },
+    {
+      "id": "CPcu",
+      "name": "Type",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "collectif-romain-gauthier",
+    "blockId": "b91ecf84-e174-431f-9687-af32a5d36d11",
+    "parentId": "e93593be43cd488598c5226e7ba2b369",
+    "type": "page",
+    "uri": "/collectif/romain-gauthier",
+    "createdTime": "2024-04-03T13:50:06.593Z",
+    "lastEditedTime": "2025-01-18T16:50:02.766Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Collectif",
+      "href": "/collectif"
+    },
+    {
+      "label": "Romain Gauthier",
+      "href": "/collectif/romain-gauthier"
+    }
+  ],
+  "contentHtml": "<p id=\"block-17f0d149331780f68100f6930e6988ec\" class=\"notion-text notion-text__content notion-semantic-string\">Pour contacter Romain : <a href=\"mailto:romain@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">romain@les4sources.be</a></p>",
+  "images": [],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [
+    "mailto:romain@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 5,
+  "fetchedAt": "2026-09-07T21:17:28.198Z",
+  "markdown": "Pour contacter Romain : [romain@les4sources.be](mailto:romain@les4sources.be)\n",
+  "extractedAt": "2026-09-07T21:41:44.360Z"
+}

@@ -1,0 +1,155 @@
+{
+  "path": "/evenements/renaud-crols",
+  "slug": "evenements__renaud-crols",
+  "rootIsCollection": false,
+  "title": "Concert : Carte Blanche de Renaud Crols 🎻",
+  "metaDescription": "Nouvel événement passionnant avec facilitateur·rice. Logement sur place disponible. Contactez-nous pour plus d'informations.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/490d4e04-8463-42f6-9d16-56a8bf6f783a/evenement_gnral__a_-2/public",
+  "ogTitle": "Concert : Carte Blanche de Renaud Crols 🎻",
+  "ogUrl": "https://www.les4sources.be/evenements/renaud-crols",
+  "canonical": null,
+  "h1": "Concert : Carte Blanche de Renaud Crols 🎻",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/490d4e04-8463-42f6-9d16-56a8bf6f783a/evenement_gnral__a_-2/public",
+    "localPath": "images/evenements__renaud-crols/01-evenement_gnral__a_-2.jpg"
+  },
+  "pageIcon": null,
+  "properties": {
+    "Date": "2026-03-27",
+    "Type d'événement": "Célébration",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "27 mars 2026",
+    "Places disponibles": "60",
+    "Tarif": "€15.00",
+    "Date de création": "Mar 5, 2026 1:39 PM",
+    "Statut site web": "Publié",
+    "super:description": "Nouvel événement passionnant avec facilitateur·rice. Logement sur place disponible. Contactez-nous pour plus d'informations.",
+    "super:slug": "renaud-crols"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-renaud-crols",
+    "blockId": "31a0d149-3317-80fb-b4e4-ddeef0c04cde",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/renaud-crols",
+    "createdTime": "2026-03-05T13:39:29.607Z",
+    "lastEditedTime": "2026-03-05T17:31:49.468Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Concert : Carte Blanche de Renaud Crols 🎻",
+      "href": "/evenements/renaud-crols"
+    }
+  ],
+  "contentHtml": "<h1 id=\"block-31a0d149331780779fb4c2a3f59159a2\" class=\"notion-heading notion-semantic-string\">En pratique</h1><p id=\"block-65e5970c65e34e1c9d2e5831a8a78bb9\" class=\"notion-text notion-text__content notion-semantic-string\">Viens écouter de la musique de qualité aux 4 Sources !&nbsp;🎶</p><p id=\"block-31a0d149331780dc8dfdd8e2fe2b1157\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Dès 18h30 ce vendredi 27 mars</strong>, viens avec un plat à déguster (qu'il sera possible de cuir ou chauffer dans notre four à pain). Notre bar extérieur sera disponible, tu auras donc l'occasion de boire un verre et de prendre du temps avant le concert, rencontrer des gens bien et profiter d'un cadre splendide, parce que oui, on a commandé du soleil 🌞</p><p id=\"block-31a0d149331780ff9b5ef442fad491ea\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Dès 20h30</strong>, nous aurons la joie de recevoir Renaud Crols.</p><div id=\"block-31a0d149331780bfb1f5d59df6acd2ec\" class=\"notion-button\"><a href=\"https://renaudcrols.odoo.com/\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🎶</span></div><span class=\"notion-semantic-string\">Je jette un oeil et une oreille sur son site</span></a></div><p id=\"block-31a0d149331780a58227cb0b9f1faee8\" class=\"notion-text notion-text__content notion-semantic-string\">Violoniste, pianiste et chanteur, sa curiosité l'a amené à explorer de nombreux styles musicaux différents tout au long de son parcours. 🎻 🎹</p><p id=\"block-31a0d1493317804da368ca1c2f3d63cf\" class=\"notion-text notion-text__content notion-semantic-string\">Il nous propose donc un voyage riche et coloré qui nous emmènera à la découverte de beaux standards de jazz dans le style de Django Reinhardt et Stéphane Grapelli, de perles de la musique classique, de fougueuses mélodies des Balkans, de chansons françaises, nord-américaines et sud-américaines, et plus encore.</p><p id=\"block-953d36e95caf4a519e89a35303d7b0a8\" class=\"notion-text notion-text__content notion-semantic-string\">N'hésite pas à venir faire ce beau voyage musical avec nous !</p><div id=\"block-31a0d14933178057b292d853b5c8228e\" class=\"super-embed\">\n<a title=\"Vente de billets en ligne\" href=\"https://www.billetweb.fr/shop.php?event=concert-carte-blanche-de-renaud-crols\" class=\"shop_frame\" target=\"_blank\" data-src=\"https://www.billetweb.fr/shop.php?event=concert-carte-blanche-de-renaud-crols\" data-max-width=\"100%\" data-initial-height=\"600\" data-scrolling=\"no\" data-id=\"concert-carte-blanche-de-renaud-crols\" data-resize=\"1\">Vente de billets en ligne</a></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div><div id=\"block-31a0d1493317800b8fd4e0d5403c1919\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💁</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"><strong>Envie de loger sur place avant ou après l’événement ?</strong> Fais-nous part de ta demande à <a href=\"mailto:contact@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">contact@les4sources.be</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/490d4e04-8463-42f6-9d16-56a8bf6f783a/evenement_gnral__a_-2/public",
+      "alt": "Concert : Carte Blanche de Renaud Crols 🎻",
+      "role": "cover",
+      "localPath": "images/evenements__renaud-crols/01-evenement_gnral__a_-2.jpg",
+      "shared": false,
+      "bytes": 129470
+    }
+  ],
+  "embeds": [
+    {
+      "kind": "other",
+      "src": "https://www.billetweb.fr/shop.php?event=concert-carte-blanche-de-renaud-crols",
+      "title": "Vente de billets en ligne",
+      "rawHtml": "<a title=\"Vente de billets en ligne\" href=\"https://www.billetweb.fr/shop.php?event=concert-carte-blanche-de-renaud-crols\" class=\"shop_frame\" target=\"_blank\" data-src=\"https://www.billetweb.fr/shop.php?event=concert-carte-blanche-de-renaud-crols\" data-max-width=\"100%\" data-initial-height=\"600\" data-scrolling=\"no\" data-id=\"concert-carte-blanche-de-renaud-crols\" data-resize=\"1\">Vente de billets en ligne</a>"
+    }
+  ],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://renaudcrols.odoo.com/",
+    "https://www.billetweb.fr/shop.php?event=concert-carte-blanche-de-renaud-crols",
+    "mailto:contact@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 208,
+  "fetchedAt": "2026-09-07T21:17:41.293Z",
+  "markdown": "## En pratique\n\nViens écouter de la musique de qualité aux 4 Sources ! 🎶\n\n**Dès 18h30 ce vendredi 27 mars**, viens avec un plat à déguster (qu'il sera possible de cuir ou chauffer dans notre four à pain). Notre bar extérieur sera disponible, tu auras donc l'occasion de boire un verre et de prendre du temps avant le concert, rencontrer des gens bien et profiter d'un cadre splendide, parce que oui, on a commandé du soleil 🌞\n\n**Dès 20h30**, nous aurons la joie de recevoir Renaud Crols.\n\n[🎶 Je jette un oeil et une oreille sur son site](https://renaudcrols.odoo.com/){.button}\n\nVioloniste, pianiste et chanteur, sa curiosité l'a amené à explorer de nombreux styles musicaux différents tout au long de son parcours. 🎻 🎹\n\nIl nous propose donc un voyage riche et coloré qui nous emmènera à la découverte de beaux standards de jazz dans le style de Django Reinhardt et Stéphane Grapelli, de perles de la musique classique, de fougueuses mélodies des Balkans, de chansons françaises, nord-américaines et sud-américaines, et plus encore.\n\nN'hésite pas à venir faire ce beau voyage musical avec nous !\n\n<!-- embed:other src=\"https://www.billetweb.fr/shop.php?event=concert-carte-blanche-de-renaud-crols\" -->\n[Vente de billets en ligne](https://www.billetweb.fr/shop.php?event=concert-carte-blanche-de-renaud-crols)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n\n> 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [contact@les4sources.be](mailto:contact@les4sources.be).\n",
+  "extractedAt": "2026-09-07T21:41:44.466Z"
+}

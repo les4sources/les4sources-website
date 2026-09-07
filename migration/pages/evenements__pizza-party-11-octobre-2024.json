@@ -1,0 +1,129 @@
+{
+  "path": "/evenements/pizza-party-11-octobre-2024",
+  "slug": "evenements__pizza-party-11-octobre-2024",
+  "rootIsCollection": false,
+  "title": "Pizza Party 🍕",
+  "metaDescription": "Bienvenue dès 18h30 :",
+  "ogImage": "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?ixlib=rb-4.0.3&cs=srgb",
+  "ogTitle": "Pizza Party 🍕",
+  "ogUrl": "https://www.les4sources.be/evenements/pizza-party-11-octobre-2024",
+  "canonical": null,
+  "h1": "Pizza Party 🍕",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?ixlib=rb-4.0.3&cs=srgb",
+    "localPath": "images/_shared/aa5c88fe0b2c-photo-1595854341625-f33ee10dbf94.jpg"
+  },
+  "pageIcon": "🍕",
+  "properties": {
+    "Date": "2024-10-11",
+    "Horaires": "à partir de 18h30",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "11 octobre 2024",
+    "Date de création": "Sep 16, 2024 3:56 PM",
+    "Statut site web": "Publié",
+    "super:slug": "pizza-party-11-octobre-2024"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-pizza-party-11-octobre-2024",
+    "blockId": "1030d149-3317-8080-8375-d3deee2e6797",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/pizza-party-11-octobre-2024",
+    "createdTime": "2024-09-16T15:56:31.851Z",
+    "lastEditedTime": "2026-01-29T11:14:45.115Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<h1 id=\"block-cce5e767a00a4d06b90296f8914729c9\" class=\"notion-heading notion-semantic-string\">Le concept de la Pizza Party ? </h1><p id=\"block-3bf23d4638cd4723894f07e496ddaa25\" class=\"notion-text notion-text__content notion-semantic-string\">Bienvenue dès 18h30 :</p><ul class=\"notion-bulleted-list\"><li id=\"block-8ff8ea96fd9a48e7a597929277b5063a\" class=\"notion-list-item notion-semantic-string\">tu amènes ta garniture ;</li><li id=\"block-22f048ef588d401b8f45a1b440045b6b\" class=\"notion-list-item notion-semantic-string\">nous mettons à ta disposition : une pâte à pizza, un four à pizza chaud (four à bois), une platine à cuisson, des planches à découper, un rouleau à tarte et des assiettes ;</li><li id=\"block-9d214d08009644cd95cbc7500e091feb\" class=\"notion-list-item notion-semantic-string\">tu cuis ta pizza entre 19h et 20h et la déguste en terrasse plein sud, 360°C nature ! (salle de repli prévue en cas de pluie / de froid)</li></ul><h1 id=\"block-b35622bbae6a48c094a8a80ebe1850c6\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-a536b36b07a74cdd9857bc4ee3c19ed6\" class=\"notion-list-item notion-semantic-string\"><strong><a href=\"https://les4sources.punchpass.com/classes/15693878\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">Inscription indispensable</a></strong> jusqu’à 2 jours avant l'événement<!-- --></li><li id=\"block-dcb7f264cc1141608c3ffc198e7c5705\" class=\"notion-list-item notion-semantic-string\">Tarif : 7 € par pâte à pizza (avec la pâte, tout ce que nous mettons à ta disposition et une place en terrasse/salle) + cash pour le bar</li><li id=\"block-a7b52437d283460ab967922de8b247bc\" class=\"notion-list-item notion-semantic-string\">À emporter</li><ul class=\"notion-bulleted-list\"><li id=\"block-71a9c6dc2daf4ecdb80e0dd8d94f1447\" class=\"notion-list-item notion-semantic-string\">Tes garnitures préférées</li><li id=\"block-fe2271d33afc41409d1a758a9e6039a3\" class=\"notion-list-item notion-semantic-string\">Tes ami·e·s</li></ul><li id=\"block-1e8473bafe2e44549e7068a908a1cffb\" class=\"notion-list-item notion-semantic-string\">Bar avec boissons bios/locales sur place 🍹</li></ul><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Pizza Party 🍕",
+      "role": "cover",
+      "localPath": "images/_shared/aa5c88fe0b2c-photo-1595854341625-f33ee10dbf94.jpg",
+      "shared": true,
+      "bytes": 7002306
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://les4sources.punchpass.com/classes/15693878"
+  ],
+  "collections": [],
+  "wordCount": 134,
+  "fetchedAt": "2026-09-07T21:17:39.196Z",
+  "markdown": "## Le concept de la Pizza Party ?\n\nBienvenue dès 18h30 :\n\n- tu amènes ta garniture ;\n- nous mettons à ta disposition : une pâte à pizza, un four à pizza chaud (four à bois), une platine à cuisson, des planches à découper, un rouleau à tarte et des assiettes ;\n- tu cuis ta pizza entre 19h et 20h et la déguste en terrasse plein sud, 360°C nature ! (salle de repli prévue en cas de pluie / de froid)\n\n## **Infos pratiques**\n\n- **[Inscription indispensable](https://les4sources.punchpass.com/classes/15693878)** jusqu’à 2 jours avant l'événement\n- Tarif : 7 € par pâte à pizza (avec la pâte, tout ce que nous mettons à ta disposition et une place en terrasse/salle) + cash pour le bar\n- À emporter\n\n- Tes garnitures préférées\n- Tes ami·e·s\n\n- Bar avec boissons bios/locales sur place 🍹\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.441Z"
+}

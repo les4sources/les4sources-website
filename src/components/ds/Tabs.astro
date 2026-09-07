@@ -1,0 +1,119 @@
+---
+/**
+ * Tabs — onglets soulignés de jaune (portage de `Tabs` dans Display.jsx).
+ *
+ * Sans JavaScript : les onglets sont de simples ancres vers leurs panneaux,
+ * tous visibles — la page reste entièrement lisible et navigable.
+ * Avec JavaScript : le script ci-dessous marque le conteneur, masque les
+ * panneaux inactifs, bascule au clic et gère les flèches ← → (motif ARIA
+ * « tabs with manual activation », adapté à des ancres).
+ *
+ * Les panneaux passent par des slots nommés `panel-<value>`.
+ */
+export interface TabItem {
+  value: string;
+  label: string;
+}
+
+interface Props {
+  items: TabItem[];
+  /** Valeur de l'onglet actif au chargement (défaut : le premier). */
+  active?: string;
+  /** Préfixe des identifiants — à fournir si deux Tabs coexistent sur la page. */
+  id?: string;
+  class?: string;
+}
+
+const { items, active, id, class: className } = Astro.props;
+const base = id ?? `tabs-${Math.random().toString(36).slice(2, 8)}`;
+const activeValue = items.some((i) => i.value === active) ? active : items[0]?.value;
+---
+
+<div class:list={["l4s-tabs", className]} data-l4s-tabs>
+  <div role="tablist" class="flex gap-1 overflow-x-auto border-b-[1.5px] border-line">
+    {
+      items.map((item) => {
+        const on = item.value === activeValue;
+        return (
+          <a
+            role="tab"
+            id={`${base}-tab-${item.value}`}
+            href={`#${base}-panel-${item.value}`}
+            aria-controls={`${base}-panel-${item.value}`}
+            aria-selected={on ? "true" : "false"}
+            tabindex={on ? 0 : -1}
+            class:list={[
+              "-mb-[1.5px] shrink-0 border-b-[3px] px-3.5 py-2.5 font-ui text-ui no-underline transition-colors duration-[120ms]",
+              on
+                ? "border-highlight font-bold text-teal"
+                : "border-transparent text-ink-2 hover:text-teal",
+            ]}
+          >
+            {item.label}
+          </a>
+        );
+      })
+    }
+  </div>
+
+  {
+    items.map((item) => (
+      <div
+        role="tabpanel"
+        id={`${base}-panel-${item.value}`}
+        aria-labelledby={`${base}-tab-${item.value}`}
+        tabindex="0"
+        data-active={item.value === activeValue ? "" : undefined}
+        class="pt-6 focus-visible:outline-none"
+      >
+        <slot name={`panel-${item.value}`} />
+      </div>
+    ))
+  }
+</div>
+
+<style>
+  /* Sans JS le conteneur n'est jamais marqué : tous les panneaux restent
+     affichés et les onglets se comportent en ancres. */
+  .l4s-tabs[data-l4s-ready] [role="tabpanel"]:not([data-active]) {
+    display: none;
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>("[data-l4s-tabs]").forEach((root) => {
+    const tabs = Array.from(root.querySelectorAll<HTMLAnchorElement>('[role="tab"]'));
+    const panels = Array.from(root.querySelectorAll<HTMLElement>('[role="tabpanel"]'));
+    if (tabs.length === 0) return;
+
+    const select = (index: number, focus = true) => {
+      tabs.forEach((tab, i) => {
+        const on = i === index;
+        tab.setAttribute("aria-selected", on ? "true" : "false");
+        tab.tabIndex = on ? 0 : -1;
+        tab.classList.toggle("border-highlight", on);
+        tab.classList.toggle("font-bold", on);
+        tab.classList.toggle("text-teal", on);
+        tab.classList.toggle("border-transparent", !on);
+        tab.classList.toggle("text-ink-2", !on);
+      });
+      panels.forEach((panel, i) => panel.toggleAttribute("data-active", i === index));
+      if (focus) tabs[index]?.focus();
+    };
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener("click", (event) => {
+        event.preventDefault();
+        select(index, false);
+      });
+      tab.addEventListener("keydown", (event) => {
+        const step = event.key === "ArrowRight" ? 1 : event.key === "ArrowLeft" ? -1 : 0;
+        if (step === 0) return;
+        event.preventDefault();
+        select((index + step + tabs.length) % tabs.length);
+      });
+    });
+
+    root.setAttribute("data-l4s-ready", "");
+  });
+</script>

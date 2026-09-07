@@ -1,0 +1,83 @@
+{
+  "path": "/collectif/sbastien-frennet",
+  "slug": "collectif__sbastien-frennet",
+  "rootIsCollection": false,
+  "title": "Sébastien Frennet",
+  "metaDescription": "Seb est notre artisan-ferronnier passionné de lowtech. Il réalise toute structure métallique et propose régulièrement des ateliers pour apprendre la soudure et des stages low-tech.",
+  "ogImage": null,
+  "ogTitle": "Sébastien Frennet",
+  "ogUrl": "https://www.les4sources.be/collectif/sbastien-frennet",
+  "canonical": null,
+  "h1": "Sébastien Frennet",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Type": "Habitant·e"
+  },
+  "propertySchema": [
+    {
+      "id": "ew_Z",
+      "name": "Bio courte",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "rCb{",
+      "name": "Photo",
+      "type": "file",
+      "visibility": "show"
+    },
+    {
+      "id": "CPcu",
+      "name": "Type",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "collectif-sbastien-frennet",
+    "blockId": "f4e0b068-8c2a-4769-88ca-8991ee91e714",
+    "parentId": "e93593be43cd488598c5226e7ba2b369",
+    "type": "page",
+    "uri": "/collectif/sbastien-frennet",
+    "createdTime": "2024-04-03T13:48:59.010Z",
+    "lastEditedTime": "2025-09-18T14:43:47.397Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Collectif",
+      "href": "/collectif"
+    },
+    {
+      "label": "Sébastien Frennet",
+      "href": "/collectif/sbastien-frennet"
+    }
+  ],
+  "contentHtml": "<div id=\"block-2720d149331780d5ae6fee24a4c21609\" class=\"notion-column-list\"><div id=\"block-2720d14933178016a317fe461e34f65b\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-2720d14933178073b8d1d2c1dfcb8b51\" class=\"notion-text notion-text__content notion-semantic-string\">Seb est notre artisan-ferronnier passionné de lowtech. Il réalise toute structure métallique et propose régulièrement des ateliers pour apprendre la soudure et des stages low-tech.\n</p><p id=\"block-187560ff304b41969232308a9d486ad8\" class=\"notion-text color-gray notion-text__content notion-semantic-string\">✉️  Pour contacter Seb : <a href=\"mailto:seb@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">seb@les4sources.be</a></p></div><div id=\"block-2720d1493317800f9ba1cef6da58cd9b\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2720d149331780249f80c04751b84b06\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f367b93d-84b8-49b3-98dc-b51a3c58aff8/2decabea-a234-49ae-b410-ce6a7c52305a/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f367b93d-84b8-49b3-98dc-b51a3c58aff8/2decabea-a234-49ae-b410-ce6a7c52305a/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f367b93d-84b8-49b3-98dc-b51a3c58aff8/2decabea-a234-49ae-b410-ce6a7c52305a/public\"></span></div></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f367b93d-84b8-49b3-98dc-b51a3c58aff8/2decabea-a234-49ae-b410-ce6a7c52305a/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/collectif__sbastien-frennet/01-2decabea-a234-49ae-b410-ce6a7c52305a.png",
+      "shared": false,
+      "bytes": 297970
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [
+    "mailto:seb@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 31,
+  "fetchedAt": "2026-09-07T21:17:28.902Z",
+  "markdown": "<!-- columns -->\n<!-- column width=\"50%\" -->\n\nSeb est notre artisan-ferronnier passionné de lowtech. Il réalise toute structure métallique et propose régulièrement des ateliers pour apprendre la soudure et des stages low-tech.\n\n✉️ Pour contacter Seb : [seb@les4sources.be](mailto:seb@les4sources.be)\n\n<!-- column width=\"50%\" -->\n\n![image](images/collectif__sbastien-frennet/01-2decabea-a234-49ae-b410-ce6a7c52305a.png)\n<!-- /columns -->\n",
+  "extractedAt": "2026-09-07T21:41:44.362Z"
+}

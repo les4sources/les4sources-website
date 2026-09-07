@@ -1,0 +1,44 @@
+# Redirections du site des 4 Sources — format Cloudflare Pages.
+#
+# Ce fichier est l'UNIQUE source de vérité des redirections. Il est rejoué en
+# configuration nginx au build par `scripts/redirects-to-nginx.ts` (voir le
+# Dockerfile) ; ne jamais éditer `nginx-redirects.conf`, qui est généré.
+#
+# Ordre = du plus spécifique au plus général (première règle qui matche gagne).
+#
+# Normalisations déjà assurées par nginx (deploy/nginx.conf), à NE PAS répéter ici :
+#   - http → https : terminé par le reverse proxy en amont ;
+#   - apex → www   : `if ($host != "www.les4sources.be")` ;
+#   - slash final  : `rewrite ^/(.*)/$ /$1 permanent` (/foo/ → /foo).
+#
+# Il n'y a pour l'instant AUCUNE règle : les 209 URLs du site actuel sont servies
+# telles quelles par le nouveau site (champ `legacyPath` de chaque entrée de
+# collection), donc rien à rediriger. La migration ajoutera ici les seules URLs
+# anciennes qui n'existent PAS dans migration/urls.txt (variantes, typos
+# historiques, URLs Notion brutes), au format :
+#
+#   /ancienne-url                    /nouvelle-url                    301
+#   /ancienne-section/*              /nouvelle-section/:splat         301
+
+# >>> migration : URLs mortes du sitemap (générées par scripts/migrate/to-content.ts)
+#
+# Ces 15 chemins figurent au sitemap du site actuel mais y répondent 404.
+# Ils sont redirigés vers leur section plutôt que servis en 404 (ISC-6).
+
+/catalogue/atelier-fabrication-de-pizza                                   /catalogue                              301
+/catalogue/modle-pour-un-nouvel-atelier                                   /catalogue                              301
+/catalogue/participation-la-production-du-pain                            /catalogue                              301
+/collectif/claire-feyens                                                  /collectif                              301
+/evenements/choeur-meditant-et-energisant-18-decembre-2024                /evenements                             301
+/evenements/chorale-meditant-energisant-20-novembre-2024                  /evenements                             301
+/evenements/chur-meditant-energisant-ouvert-a-tous-tes-18-septembre-2024  /evenements                             301
+/evenements/immersion-novembre-2024                                       /evenements                             301
+/evenements/stage-8-12-ans-yvoir-aout-2025                                /evenements                             301
+/evenements/weekend-ressources-fev-2026                                   /evenements                             301
+/projets/environnement                                                    /biodiversite                           301
+/projets/le-bar-des-4-sources                                             /le-bar-des-4-sources                   301
+/projets/production-et-transformation                                     /projets                                301
+/sejours/entre-amis-aux-4-sources                                         /sejours/en-famille-aux-4-sources       301
+/teams-buildings                                                          /un-team-building-aux-4-sources         301
+
+# <<< fin des redirections de migration

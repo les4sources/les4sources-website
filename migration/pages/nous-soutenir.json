@@ -1,0 +1,61 @@
+{
+  "path": "/nous-soutenir",
+  "slug": "nous-soutenir",
+  "rootIsCollection": false,
+  "title": "Nous soutenir",
+  "metaDescription": "Le groupe fondateur des 4 Sources a choisi de baliser l’achat du lieu de façon à ce que celui-ci reste à destination d’un collectif à impact social et environnemental au-delà des choix de vie ultérieurs des personnes qui l’énergisent. Les habitant.es qui vivent sur place consacrent au quotidien du temps pour le projet, mais ne sont pas propriétaires des lieux.",
+  "ogImage": "https://images.unsplash.com/photo-1560012324-d539f7ba539d?ixlib=rb-4.0.3&cs=srgb",
+  "ogTitle": "Nous soutenir",
+  "ogUrl": "https://www.les4sources.be/nous-soutenir",
+  "canonical": null,
+  "h1": "Nous soutenir",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.unsplash.com/photo-1560012324-d539f7ba539d?ixlib=rb-4.0.3&cs=srgb",
+    "localPath": "images/nous-soutenir/01-photo-1560012324-d539f7ba539d.jpg"
+  },
+  "pageIcon": null,
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "nous-soutenir",
+    "blockId": "23357a92-725e-481c-b520-a901bf9c67b2",
+    "parentId": "a-propos",
+    "type": "page",
+    "uri": "/nous-soutenir",
+    "createdTime": "2024-04-03T13:10:02.285Z",
+    "lastEditedTime": "2024-07-20T21:20:06.117Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Nous soutenir",
+      "href": "/nous-soutenir"
+    }
+  ],
+  "contentHtml": "<h1 id=\"block-84aa4a13c1714a7b9e5f23539d2fb4c0\" class=\"notion-heading notion-semantic-string\">Les 4 Sources, un projet dont l’ambition est de préserver un lieu à destination d’un collectif à impact social et environnemental!</h1><p id=\"block-1bbc649504564a8c8398d245b580f914\" class=\"notion-text notion-text__content notion-semantic-string\">\nLe groupe fondateur des 4 Sources a choisi de baliser l’achat du lieu de façon à ce que celui-ci reste à destination d’un collectif à impact social et environnemental au-delà des choix de vie ultérieurs des personnes qui l’énergisent. Les habitant.es qui vivent sur place consacrent au quotidien du temps pour le projet, mais ne sont pas propriétaires des lieux.</p><p id=\"block-676cfc19a9a84faab3ffcccc4d8310ec\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Lorsque tu loues des hébergements, des salles ou accéde au bar, tu participes au remboursement des prêts contractés pour l’achat du lieu, ainsi qu’à son bon fonctionnement. Aucune de ces rentrées ne revient actuellement aux personnes qui permettent à ce lieu d’exister.</strong></p><p id=\"block-5249d9e8d5ea4384ac1893f56d13731e\" class=\"notion-text notion-text__content notion-semantic-string\">Si tu souhaites toi aussi soutenir cette initiative et permettre de pérenniser le projet, l’achat et le développement du lieu, n’hésite pas à prendre contact avec Les 4 Sources via <a href=\"mailto:contact@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">contact@les4sources.be</a> ou à soutenir le projet via le numéro de compte de la Fondation Privée Les 4 Sources : <code class=\"code\">BE72 5230 8060 1116</code> en indiquant <em>“Dons”</em> ainsi que ton adresse email afin que nous puissions vous remercier.<!-- --></p><div id=\"block-7b675848b03040489c2339c700fb03cd\" class=\"notion-callout bg-blue-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🙏</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">M·E·R·C·I à tous.tes celles.eux qui soutiennent le projet via leurs passages aux 4 Sources et/ou leurs soutiens via le temps et l’argent qu’iels y consacrent !</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1560012324-d539f7ba539d?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Nous soutenir",
+      "role": "cover",
+      "localPath": "images/nous-soutenir/01-photo-1560012324-d539f7ba539d.jpg",
+      "shared": false,
+      "bytes": 2054968
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [
+    "mailto:contact@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 213,
+  "fetchedAt": "2026-09-07T21:17:44.244Z",
+  "markdown": "## Les 4 Sources, un projet dont l’ambition est de préserver un lieu à destination d’un collectif à impact social et environnemental!\n\nLe groupe fondateur des 4 Sources a choisi de baliser l’achat du lieu de façon à ce que celui-ci reste à destination d’un collectif à impact social et environnemental au-delà des choix de vie ultérieurs des personnes qui l’énergisent. Les habitant.es qui vivent sur place consacrent au quotidien du temps pour le projet, mais ne sont pas propriétaires des lieux.\n\n**Lorsque tu loues des hébergements, des salles ou accéde au bar, tu participes au remboursement des prêts contractés pour l’achat du lieu, ainsi qu’à son bon fonctionnement. Aucune de ces rentrées ne revient actuellement aux personnes qui permettent à ce lieu d’exister.**\n\nSi tu souhaites toi aussi soutenir cette initiative et permettre de pérenniser le projet, l’achat et le développement du lieu, n’hésite pas à prendre contact avec Les 4 Sources via [contact@les4sources.be](mailto:contact@les4sources.be) ou à soutenir le projet via le numéro de compte de la Fondation Privée Les 4 Sources : `BE72 5230 8060 1116` en indiquant *“Dons”* ainsi que ton adresse email afin que nous puissions vous remercier.\n\n> 🙏 M·E·R·C·I à tous.tes celles.eux qui soutiennent le projet via leurs passages aux 4 Sources et/ou leurs soutiens via le temps et l’argent qu’iels y consacrent !\n",
+  "extractedAt": "2026-09-07T21:41:44.508Z"
+}

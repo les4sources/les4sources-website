@@ -1,0 +1,84 @@
+{
+  "path": "/sejours/bivouac",
+  "slug": "sejours__bivouac",
+  "rootIsCollection": false,
+  "title": "Notre espace pour camper",
+  "metaDescription": "Profite d’une nuit au plus proche de la nature dans notre cadre exceptionnel :",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ed4dd1fe-ea34-45ac-a08c-fdea4ac3acda/_G0A3624/public",
+  "ogTitle": "Notre espace pour camper",
+  "ogUrl": "https://www.les4sources.be/sejours/bivouac",
+  "canonical": null,
+  "h1": "Notre espace pour camper",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ed4dd1fe-ea34-45ac-a08c-fdea4ac3acda/_G0A3624/public",
+    "localPath": "images/sejours__bivouac/01-_G0A3624.jpg"
+  },
+  "pageIcon": null,
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "sejours-bivouac",
+    "blockId": "dc515995-10f3-4cf8-94b2-fcfcc2c64ad8",
+    "parentId": "sejours",
+    "type": "page",
+    "uri": "/sejours/bivouac",
+    "createdTime": "2024-04-03T13:26:17.729Z",
+    "lastEditedTime": "2025-10-23T13:31:07.710Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Séjours et locations",
+      "href": "/sejours",
+      "icon": "🏡"
+    },
+    {
+      "label": "Notre espace pour camper",
+      "href": "/sejours/bivouac"
+    }
+  ],
+  "contentHtml": "<h1 id=\"block-06f8d527d9244d40b507d14ecb56932b\" class=\"notion-heading notion-semantic-string\">Avec ta tente ou hamac</h1><div id=\"block-02e4986a9e6a4e0f9efb85f999e6c6f0\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e61d67a2-b858-455b-8247-e254d07596d6/Untitled/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e61d67a2-b858-455b-8247-e254d07596d6/Untitled/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e61d67a2-b858-455b-8247-e254d07596d6/Untitled/public\"></span></div><p id=\"block-b03fcc073e42428585519a5efa1870af\" class=\"notion-text notion-text__content notion-semantic-string\">Profite d’une nuit au plus proche de la nature dans notre cadre exceptionnel :</p><div id=\"block-47579c3124ff479fb55fa0d07e640378\" class=\"notion-column-list\"><div id=\"block-d626fae20a7842daa884ebfb682444f6\" class=\"notion-column\" data-width=\"50%\"><ul class=\"notion-bulleted-list\"><li id=\"block-bc41ffee052645f4883ec61a1054469c\" class=\"notion-list-item notion-semantic-string\"><strong>Un espace pour ta tente ou hamac</strong> dans le bois des 4 Sources ou dans nos pâtures pour de plus grands groupes</li></ul></div><div id=\"block-7361028b609c4afd9db802cd4c739df0\" class=\"notion-column\" data-width=\"50%\"><ul class=\"notion-bulleted-list\"><li id=\"block-ae461481f9984c7180f0fa56538b16ea\" class=\"notion-list-item notion-semantic-string\">Des <strong>sanitaires</strong> dans le bâtiment (WC, évier et douche)</li><li id=\"block-985973caf2544ef4a706b0e1752c5579\" class=\"notion-list-item notion-semantic-string\">Une <strong>cuisinière</strong> sur la terrasse partagée avec les locataires des hébergements et salles</li></ul></div></div><h1 id=\"block-0b319dca4b984bdd961dac13b1604821\" class=\"notion-heading notion-semantic-string\">Loue un hamac </h1><p id=\"block-5d6142a05bfc4d9d97c5523a97e9a627\" class=\"notion-text notion-text__content notion-semantic-string\">Voyage léger en louant hamac, tarp et matelas isolant.</p><h2 id=\"block-dfe89e56e40e4157bbd411098c56c536\" class=\"notion-heading notion-semantic-string\">⛺️ Pour camper, en van aménagé ou camping-car</h2><div id=\"block-21d9201a95c74e148e18bda36a7239ba\" class=\"notion-column-list\"><div id=\"block-6676184832c14e9fa570473203d5809d\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-632fdbcb4e344a99ad3189d17657198f\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>En tente ou en hamac</strong></p><p id=\"block-d53552c374c34b978a77e697bd1f0199\" class=\"notion-text notion-text__content notion-semantic-string\">✔️&nbsp;Accès aux sanitaires</p><p id=\"block-9bc7b65d8c7d43c394e69fdf47cb8d2f\" class=\"notion-text notion-text__content notion-semantic-string\">✔️&nbsp;Cuisine extérieure</p><ul class=\"notion-bulleted-list\"><li id=\"block-cf4884ae98d744a18912541032fd3ffc\" class=\"notion-list-item notion-semantic-string\">7,5 €/nuit/personne</li><li id=\"block-1097ff9ac771404986be0e4d28268c04\" class=\"notion-list-item notion-semantic-string\">Location hamac/tarp/matelas isolant : 10 €</li></ul></div><div id=\"block-9f0f45e8d4964eeca3b3cee0ac4bec87\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-a59d0c9e0980429aaa89b623d934c4ed\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>En van aménagé / camping-car</strong></p><p id=\"block-9543562439274647a4b6b20085a066db\" class=\"notion-text notion-text__content notion-semantic-string\">✔️&nbsp;Avec raccord électrique</p><ul class=\"notion-bulleted-list\"><li id=\"block-bec2ebe5ca3c458da53e2d819999112f\" class=\"notion-list-item notion-semantic-string\">15 €/nuit</li></ul></div></div><div id=\"block-2950d1493317808981f1ca31e9d6bc50\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/efce9279-a0a6-4521-897a-d4721ba5c18b/20240808_080152_29FD74F5/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/efce9279-a0a6-4521-897a-d4721ba5c18b/20240808_080152_29FD74F5/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/efce9279-a0a6-4521-897a-d4721ba5c18b/20240808_080152_29FD74F5/public\"></span></div><div id=\"block-32ec90b76b5140428cccfaffc47df9d5\" class=\"notion-callout bg-yellow-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💡</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour en savoir plus, pour poser une question au sujet de nos activités, pour demander le tarif pour ton groupe, une seule destination : <strong><a href=\"mailto:sejours@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">sejours@les4sources.be</a></strong><strong> 📬</strong></span></div></div><h1 id=\"block-16f0d14933178084a079c4d1320c30e3\" class=\"notion-heading notion-semantic-string\">Alors, envie de venir aux 4 Sources ?</h1><p id=\"block-16f0d1493317808c82c8d890521cb19c\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>👉 </strong><a href=\"https://formulaires.les4sources.be/sejour\" class=\"notion-link link\" data-link-uri=\"https://formulaires.les4sources.be/sejour\">Complète notre formulaire</a> pour nous envoyer une demande de réservation.</p><p id=\"block-16f0d149331780dea5e2c585a9e10c13\" class=\"notion-text notion-text__content notion-semantic-string\">Le formulaire, très complet, te permet de préciser tes besoins :</p><p id=\"block-16f0d1493317803c83d0c29b6aa4777a\" class=\"notion-text notion-text__content notion-semantic-string\">✔️&nbsp;Hébergements\n✔️&nbsp;Salles et/ou cuisine professionnelle\n✔️&nbsp;Espace bivouac et/ou van aménagé\n✔️&nbsp;Activités\n✔️&nbsp;Repas préparés, boulangerie et pizza/camembert parties</p>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ed4dd1fe-ea34-45ac-a08c-fdea4ac3acda/_G0A3624/public",
+      "alt": "Notre espace pour camper",
+      "role": "cover",
+      "localPath": "images/sejours__bivouac/01-_G0A3624.jpg",
+      "shared": false,
+      "bytes": 89726
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e61d67a2-b858-455b-8247-e254d07596d6/Untitled/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours__bivouac/02-Untitled.jpg",
+      "shared": false,
+      "bytes": 206471
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/efce9279-a0a6-4521-897a-d4721ba5c18b/20240808_080152_29FD74F5/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/6c76e91841bc-20240808_080152_29FD74F5.jpg",
+      "shared": true,
+      "bytes": 241968
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/sejour"
+  ],
+  "externalLinks": [
+    "mailto:sejours@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 173,
+  "fetchedAt": "2026-09-07T21:17:46.536Z",
+  "markdown": "## Avec ta tente ou hamac\n\n![image](images/sejours__bivouac/02-Untitled.jpg)\n\nProfite d’une nuit au plus proche de la nature dans notre cadre exceptionnel :\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n- **Un espace pour ta tente ou hamac** dans le bois des 4 Sources ou dans nos pâtures pour de plus grands groupes\n\n<!-- column width=\"50%\" -->\n\n- Des **sanitaires** dans le bâtiment (WC, évier et douche)\n- Une **cuisinière** sur la terrasse partagée avec les locataires des hébergements et salles\n<!-- /columns -->\n\n## Loue un hamac\n\nVoyage léger en louant hamac, tarp et matelas isolant.\n\n### ⛺️ Pour camper, en van aménagé ou camping-car\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n**En tente ou en hamac**\n\n✔️ Accès aux sanitaires\n\n✔️ Cuisine extérieure\n\n- 7,5 €/nuit/personne\n- Location hamac/tarp/matelas isolant : 10 €\n\n<!-- column width=\"50%\" -->\n\n**En van aménagé / camping-car**\n\n✔️ Avec raccord électrique\n\n- 15 €/nuit\n<!-- /columns -->\n\n![image](images/_shared/6c76e91841bc-20240808_080152_29FD74F5.jpg)\n\n> 💡 Pour en savoir plus, pour poser une question au sujet de nos activités, pour demander le tarif pour ton groupe, une seule destination : **[sejours@les4sources.be](mailto:sejours@les4sources.be)** **📬**\n\n## Alors, envie de venir aux 4 Sources ?\n\n**👉** [Complète notre formulaire](https://formulaires.les4sources.be/sejour) pour nous envoyer une demande de réservation.\n\nLe formulaire, très complet, te permet de préciser tes besoins :\n\n✔️ Hébergements ✔️ Salles et/ou cuisine professionnelle ✔️ Espace bivouac et/ou van aménagé ✔️ Activités ✔️ Repas préparés, boulangerie et pizza/camembert parties\n",
+  "extractedAt": "2026-09-07T21:41:44.533Z"
+}

@@ -1,0 +1,132 @@
+{
+  "path": "/sejours",
+  "slug": "sejours",
+  "rootIsCollection": false,
+  "title": "Gites et salles polyvalentes à Yvoir",
+  "metaDescription": "Gites de 4 à 25 personnes, chambres et bivouac tentes/hamacs. Salles polyvalentes pour conférences, ateliers ou conseils d’administration.",
+  "ogImage": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/uploads/cover/2afe7591-dd7f-4991-9d79-2d6b5a5ea816.jpeg",
+  "ogTitle": "Gites et salles polyvalentes à Yvoir",
+  "ogUrl": "https://www.les4sources.be/sejours",
+  "canonical": null,
+  "h1": "Séjours et locations",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ba9381b0-2a31-4bb5-82cd-bc179e98425f/20240825_122817_01629579_(1)/public",
+    "localPath": "images/sejours/01-20240825_122817_01629579_-1.jpg"
+  },
+  "pageIcon": "🏡",
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "sejours",
+    "blockId": "60542ea2-27ae-464e-a79d-98e21ad46a48",
+    "parentId": "aaee8e6cac31408cad25d5a62f3e5a32",
+    "type": "page",
+    "uri": "/sejours",
+    "createdTime": "2024-04-03T13:09:51.037Z",
+    "lastEditedTime": "2026-05-29T08:29:38.110Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Séjours et locations",
+      "href": "/sejours",
+      "icon": "🏡"
+    }
+  ],
+  "contentHtml": "<div id=\"block-1e80d149331780658a2ac7645fb2290c\" class=\"notion-column-list\"><div id=\"block-1e80d1493317801e853dedf588a6e4cc\" class=\"notion-column\" data-width=\"50%\"><h1 id=\"block-190bdbfe9dc542fb82e17f14a221e2ae\" class=\"notion-heading notion-semantic-string\"><a href=\"/sejours/hebergements-yvoir\" class=\"notion-link link\" data-link-uri=\"/sejours/hebergements-yvoir\">Nos hébergements</a></h1><div id=\"block-9227c0e29c8640c7a64bb7c4a1664e4d\" class=\"notion-image align-start page-width\"><a class=\"notion-link\" href=\"/sejours/hebergements-yvoir\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fc02d045-ec6e-436b-bb98-8e8da3834bdb/5b02a02e-c20f-46c8-9763-bbe82859cff4/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fc02d045-ec6e-436b-bb98-8e8da3834bdb/5b02a02e-c20f-46c8-9763-bbe82859cff4/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fc02d045-ec6e-436b-bb98-8e8da3834bdb/5b02a02e-c20f-46c8-9763-bbe82859cff4/public\"></span></a></div><p id=\"block-d729449c5f7b4ca397159912f3e02dad\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>2 hébergements</strong> pour venir en famille, entre collègues ou entre ami.es jusqu’à 25 personnes. En semaine, des <strong>chambres et lits</strong> accessibles dès 35€ par personne (et même 15€ par enfant).</p><p id=\"block-198ea6176fa14d89a415d3f3f0f8ec3c\" class=\"notion-text notion-text__content notion-semantic-string\">🏕️ À la belle saison, un <strong>espace pour camper</strong> seul·e ou en groupe de 20 personnes et des espaces pour poser un hamac.<!-- --></p></div><div id=\"block-1e80d149331780c2b843efc695da31b4\" class=\"notion-column\" data-width=\"50%\"><h1 id=\"block-83f7f538ada24948b013b635a4d6bee8\" class=\"notion-heading notion-semantic-string\"><a href=\"/sejours/salles\" class=\"notion-link link\" data-link-uri=\"/sejours/salles\">Nos salles et la cuisine</a></h1><div id=\"block-8761320abe344a51a0d25b2924d24d49\" class=\"notion-image align-start page-width\"><a class=\"notion-link\" href=\"/sejours/salles\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d2bc2cf9-ebf9-4f53-b0d5-ec6cbc7bdc04/DSC00960/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d2bc2cf9-ebf9-4f53-b0d5-ec6cbc7bdc04/DSC00960/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d2bc2cf9-ebf9-4f53-b0d5-ec6cbc7bdc04/DSC00960/public\"></span></a></div><p id=\"block-938b2d6afe1c47bc9d58e8c4df6d91d1\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Des espaces polyvalents pour 10 à 100 personnes</strong>, pour vos conférences, ateliers et autres événements enrichissants.</p><p id=\"block-1600d1493317808da7fadd0da57bc70f\" class=\"notion-text notion-text__content notion-semantic-string\">Notamment <strong>notre petite salle</strong>, idéale pour une journée de mise au vert, une formation, une réunion, un conseil d’administration ou un atelier en cercle.</p></div></div><div id=\"block-1390d149331780f6be89eab4ac512282\" class=\"notion-button\"><a class=\"notion-link notion-button__content\" href=\"/sejours/tarifs\"><span class=\"notion-semantic-string\">Tarifs des hébergements et salles</span></a></div><div id=\"block-1390d149331780e19895ea5ca9416567\" class=\"notion-button\"><a class=\"notion-link notion-button__content\" href=\"/sejours/disponibilites\"><span class=\"notion-semantic-string\">Disponibilités</span></a></div><div id=\"block-1390d1493317807c9d94efacc3d92a66\" class=\"notion-button\"><a class=\"notion-link notion-button__content\" href=\"/sejours/sejours\"><span class=\"notion-semantic-string\">Faire une demande de séjour</span></a></div><div id=\"block-13a0d149331780b1938aed2d58a65406\" class=\"notion-image normal\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1f69b28b-811d-4819-86a5-fd5b545d0ecb/51167fb3-8ae5-440a-bdef-030372dd22e7/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1f69b28b-811d-4819-86a5-fd5b545d0ecb/51167fb3-8ae5-440a-bdef-030372dd22e7/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1f69b28b-811d-4819-86a5-fd5b545d0ecb/51167fb3-8ae5-440a-bdef-030372dd22e7/public\"></span></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div><h1 id=\"block-eef36c70acc94d63b0134ef7cf835b60\" class=\"notion-heading notion-semantic-string\">Le Bar des 4 Sources</h1><div id=\"block-fdd28ad8675c4f88822f651642002d3b\" class=\"notion-column-list\"><div id=\"block-0ff6084a28644d318e6a47a48c940984\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-d8049b418543469a94aa88389f9a4662\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/074d06b5-9e35-4ead-9b2c-00bbffa0ed47/_G0A3514_(1)/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/074d06b5-9e35-4ead-9b2c-00bbffa0ed47/_G0A3514_(1)/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/074d06b5-9e35-4ead-9b2c-00bbffa0ed47/_G0A3514_(1)/public\"></span></div></div><div id=\"block-21d3417e182e46349a281292d17c795c\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-7ed9ebb2a146458389b587374246412e\" class=\"notion-text notion-text__content notion-semantic-string\">Notre magnifique terrasse plein sud et son tilleul centenaire, entourée de 360° de pleine nature, dispose d’un <a href=\"/le-bar-des-4-sources\" class=\"notion-link link\" data-link-uri=\"/le-bar-des-4-sources\">bar champêtre</a> ouvert du lever au coucher du soleil.</p><p id=\"block-d49b0d83a698448f972b55b9a30481cb\" class=\"notion-text notion-text__content notion-semantic-string\">La terrasse<strong> est un espace partagé par toutes les personnes de passage sur le lieu</strong> (personnes hébergées, locataires de salles, participant.es à des activités, promeneur.euses).</p><p id=\"block-f9e48197150e43029aef18d7663e16ee\" class=\"notion-text notion-text__content notion-semantic-string\">Elle est accessible à pied, à cheval ou à vélo.</p><p id=\"block-2244079ad0db4298a2b2ec421ffdd267\" class=\"notion-text notion-text__content notion-semantic-string\"><strong><a href=\"/le-bar-des-4-sources\" class=\"notion-link link\" data-link-uri=\"/le-bar-des-4-sources\">Le bar des 4 Sources</a></strong></p></div></div><h1 id=\"block-687fb768f7e042f2bd0f1fffbe28c8e6\" class=\"notion-heading notion-semantic-string\">Le bois des 4 Sources</h1><p id=\"block-f8bfc3e295634a04b30a3566829d1109\" class=\"notion-text notion-text__content notion-semantic-string\">Avec ta location, tu peux demander l’accès à notre petit bois privé de 1,5 hectare. Accessible par le sentier qui traverse nos prairies, il se trouve à 5 minutes à pied de votre logement. De quoi faire un feu de camp, réaliser des cabanes avec vos enfants, passer du temps en nature et vous ressourcer.</p><p id=\"block-1320d14933178028b1e7c2fc07c227fe\" class=\"notion-text notion-text__content notion-semantic-string\">Envoie un e-mail à <a href=\"mailto:sejours@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">sejours@les4sources.be</a> ou demande le jour même à la personne qui vous accueille s’il est accessible ou s’il y a déjà une activité qui s’y passe durant ton séjour.</p><div id=\"block-2790d1493317806faa9fcc8266479e40\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d62300a2-cf77-4a66-b587-5ecc3c5a69b0/20250719_150904_3017005B_(1)/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d62300a2-cf77-4a66-b587-5ecc3c5a69b0/20250719_150904_3017005B_(1)/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d62300a2-cf77-4a66-b587-5ecc3c5a69b0/20250719_150904_3017005B_(1)/public\"></span></div><h1 id=\"block-ce81c7c38d124c6ea30be53f75ca44b6\" class=\"notion-heading notion-semantic-string\">Les balades des 4 Sources</h1><div id=\"block-a4f37ae7f53f4d73b11da8e4e94b7304\" class=\"notion-column-list\"><div id=\"block-90f5d04490244a9b8c2a489c6cd7db80\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-4ad6b496af824f43b22049332dca5e6f\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5f9fae1b-161a-45da-9e37-0e2fefc2c52f/randonnees-yvoir/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5f9fae1b-161a-45da-9e37-0e2fefc2c52f/randonnees-yvoir/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5f9fae1b-161a-45da-9e37-0e2fefc2c52f/randonnees-yvoir/public\"></span></div></div><div id=\"block-a3b108ef373648848a9d85a747a99626\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-3ce3db0603594f2f9789d431659ba378\" class=\"notion-text notion-text__content notion-semantic-string\">Tu trouveras dans chaque gite <strong>un carnet de randonnées</strong> pour explorer la région, que tu sois plus <em>«&nbsp;petite balade digestive&nbsp;» </em>entre deux activités ou <em>«&nbsp;challenge grande rando&nbsp;»</em>.</p><p id=\"block-1d5c989eb6e741ea8628895f49026c94\" class=\"notion-text notion-text__content notion-semantic-string\">Adeptes de la marche, il est aussi possible de <a href=\"/a-propos/acces-ahinvaux\" class=\"notion-link link\" data-link-uri=\"/a-propos/acces-ahinvaux\">rejoindre Les 4 sources à pied</a> depuis la gare d’Yvoir ou de Godinne.</p></div></div><h1 id=\"block-8345d59d22ae43b6be5eb50c6c42b3de\" class=\"notion-heading notion-semantic-string\">Nos autres services</h1><ul class=\"notion-bulleted-list\"><li id=\"block-a1769e5bc02e472ba031a77768b62175\" class=\"notion-list-item notion-semantic-string\"><strong>Besoin de délicieux repas ?</strong> Demande-nous notre listing de traiteurs partageant la philosophie des 4 Sources.</li><li id=\"block-30f0d149331780e68226f448de86f450\" class=\"notion-list-item notion-semantic-string\"><strong>Envie d’un petit déjeuner ?</strong> Nous serons ravis de vous proposer de bons produits bio ou locaux.</li><li id=\"block-30cc46dbdaaf4dc4bf25f01222a82032\" class=\"notion-list-item notion-semantic-string\">Sur demande, profite du four au feu de bois le vendredi soir, après la cuisson des pains, et <strong><a class=\"notion-link link\" href=\"/catalogue/pizza-ou-camembert-party\">organise ta Pizza/Camembert Party</a></strong><strong> 🍕</strong></li><li id=\"block-1390d14933178072a18ec0fd05d7b3b0\" class=\"notion-list-item notion-semantic-string\">Un grand <strong>barbecue</strong> est à la disposition des locataires des espaces (hébergements et salles) sur la terrasse. Le matériel est disponible, mais il faut prévoir du charbon.</li></ul><div id=\"block-32ec90b76b5140428cccfaffc47df9d5\" class=\"notion-callout bg-yellow-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💡</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour en savoir plus, pour poser une question au sujet de nos activités, pour demander le tarif pour ton groupe, une seule destination : <strong><a href=\"mailto:sejours@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">sejours@les4sources.be</a></strong><strong> 📬</strong></span></div></div><h1 id=\"block-16f0d14933178084a079c4d1320c30e3\" class=\"notion-heading notion-semantic-string\">Alors, envie de venir aux 4 Sources ?</h1><p id=\"block-16f0d1493317808c82c8d890521cb19c\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>👉 </strong><a href=\"https://formulaires.les4sources.be/sejour\" class=\"notion-link link\" data-link-uri=\"https://formulaires.les4sources.be/sejour\">Complète notre formulaire</a> pour nous envoyer une demande de réservation.</p><p id=\"block-16f0d149331780dea5e2c585a9e10c13\" class=\"notion-text notion-text__content notion-semantic-string\">Le formulaire, très complet, te permet de préciser tes besoins :</p><p id=\"block-16f0d1493317803c83d0c29b6aa4777a\" class=\"notion-text notion-text__content notion-semantic-string\">✔️&nbsp;Hébergements\n✔️&nbsp;Salles et/ou cuisine professionnelle\n✔️&nbsp;Espace bivouac et/ou van aménagé\n✔️&nbsp;Activités\n✔️&nbsp;Repas préparés, boulangerie et pizza/camembert parties</p><div id=\"block-1e80d14933178054be2ef7c16fe0dcb3\" class=\"notion-callout bg-yellow-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💁</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"></span><p id=\"block-1e80d149331780a0ad39d5026a010f8a\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Une question au sujet des séjours ?</strong> Contacte Malau à <a href=\"mailto:sejours@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">sejours@les4sources.be</a> ou au +32 (0)490 46 77 10.</p></div></div><p id=\"block-16f0d14933178005a285c98d67144e8b\" class=\"notion-text notion-text__content notion-semantic-string\">👉&nbsp;<a href=\"/sejours/conditions#block-1420d149331780c1a5abc508422bf971\" class=\"notion-link link\" data-link-uri=\"/sejours/conditions#block-1420d149331780c1a5abc508422bf971\">Conditions générales des séjours aux 4 Sources</a></p><a id=\"block-sejours-hebergements-yvoir\" href=\"/sejours/hebergements-yvoir\" class=\"notion-link notion-page\" data-link-uri=\"/sejours/hebergements-yvoir\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Nos hébergements</span></a><a id=\"block-sejours-salles\" href=\"/sejours/salles\" class=\"notion-link notion-page\" data-link-uri=\"/sejours/salles\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Nos salles et la cuisine</span></a><a id=\"block-sejours-bivouac\" href=\"/sejours/bivouac\" class=\"notion-link notion-page\" data-link-uri=\"/sejours/bivouac\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Notre espace pour camper</span></a><a id=\"block-sejours-tarifs\" href=\"/sejours/tarifs\" class=\"notion-link notion-page\" data-link-uri=\"/sejours/tarifs\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Tarifs des hébergements et salles</span></a><a id=\"block-sejours-disponibilites\" href=\"/sejours/disponibilites\" class=\"notion-link notion-page\" data-link-uri=\"/sejours/disponibilites\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Disponibilités</span></a><a id=\"block-sejours-sejours\" href=\"/sejours/sejours\" class=\"notion-link notion-page\" data-link-uri=\"/sejours/sejours\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Un séjour aux 4 Sources</span></a><a id=\"block-sejours-regles-du-lieu\" href=\"/sejours/regles-du-lieu\" class=\"notion-link notion-page\" data-link-uri=\"/sejours/regles-du-lieu\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Règles du lieu</span></a><a id=\"block-sejours-conditions\" href=\"/sejours/conditions\" class=\"notion-link notion-page\" data-link-uri=\"/sejours/conditions\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Conditions générales des séjours aux 4 Sources</span></a>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ba9381b0-2a31-4bb5-82cd-bc179e98425f/20240825_122817_01629579_(1)/public",
+      "alt": "Séjours et locations",
+      "role": "cover",
+      "localPath": "images/sejours/01-20240825_122817_01629579_-1.jpg",
+      "shared": false,
+      "bytes": 129536
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fc02d045-ec6e-436b-bb98-8e8da3834bdb/5b02a02e-c20f-46c8-9763-bbe82859cff4/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours/02-5b02a02e-c20f-46c8-9763-bbe82859cff4.jpg",
+      "shared": false,
+      "bytes": 106295
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d2bc2cf9-ebf9-4f53-b0d5-ec6cbc7bdc04/DSC00960/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours/03-DSC00960.jpg",
+      "shared": false,
+      "bytes": 170050
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1f69b28b-811d-4819-86a5-fd5b545d0ecb/51167fb3-8ae5-440a-bdef-030372dd22e7/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours/04-51167fb3-8ae5-440a-bdef-030372dd22e7.png",
+      "shared": false,
+      "bytes": 2024623
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/074d06b5-9e35-4ead-9b2c-00bbffa0ed47/_G0A3514_(1)/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours/05-_G0A3514_-1.jpg",
+      "shared": false,
+      "bytes": 97391
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d62300a2-cf77-4a66-b587-5ecc3c5a69b0/20250719_150904_3017005B_(1)/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours/06-20250719_150904_3017005B_-1.jpg",
+      "shared": false,
+      "bytes": 102989
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5f9fae1b-161a-45da-9e37-0e2fefc2c52f/randonnees-yvoir/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours/07-randonnees-yvoir.jpg",
+      "shared": false,
+      "bytes": 145133
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/uploads/cover/2afe7591-dd7f-4991-9d79-2d6b5a5ea816.jpeg",
+      "alt": "Gites et salles polyvalentes à Yvoir",
+      "role": "og",
+      "localPath": "images/sejours/08-2afe7591-dd7f-4991-9d79-2d6b5a5ea816.jpg",
+      "shared": false,
+      "bytes": 790947
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/sejours/hebergements-yvoir",
+    "/sejours/salles",
+    "/sejours/tarifs",
+    "/sejours/disponibilites",
+    "/sejours/sejours",
+    "/newsletter",
+    "/le-bar-des-4-sources",
+    "/a-propos/acces-ahinvaux",
+    "/catalogue/pizza-ou-camembert-party",
+    "/sejour",
+    "/sejours/conditions",
+    "/sejours/bivouac",
+    "/sejours/regles-du-lieu"
+  ],
+  "externalLinks": [
+    "mailto:sejours@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 528,
+  "fetchedAt": "2026-09-07T21:17:45.573Z",
+  "markdown": "<!-- columns -->\n<!-- column width=\"50%\" -->\n\n## [Nos hébergements](/sejours/hebergements-yvoir)\n\n![image](images/sejours/02-5b02a02e-c20f-46c8-9763-bbe82859cff4.jpg)\n\n**2 hébergements** pour venir en famille, entre collègues ou entre ami.es jusqu’à 25 personnes. En semaine, des **chambres et lits** accessibles dès 35€ par personne (et même 15€ par enfant).\n\n🏕️ À la belle saison, un **espace pour camper** seul·e ou en groupe de 20 personnes et des espaces pour poser un hamac.\n\n<!-- column width=\"50%\" -->\n\n## [Nos salles et la cuisine](/sejours/salles)\n\n![image](images/sejours/03-DSC00960.jpg)\n\n**Des espaces polyvalents pour 10 à 100 personnes**, pour vos conférences, ateliers et autres événements enrichissants.\n\nNotamment **notre petite salle**, idéale pour une journée de mise au vert, une formation, une réunion, un conseil d’administration ou un atelier en cercle.\n<!-- /columns -->\n\n[Tarifs des hébergements et salles](/sejours/tarifs){.button}\n\n[Disponibilités](/sejours/disponibilites){.button}\n\n[Faire une demande de séjour](/sejours/sejours){.button}\n\n![image](images/sejours/04-51167fb3-8ae5-440a-bdef-030372dd22e7.png)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n\n## Le Bar des 4 Sources\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/sejours/05-_G0A3514_-1.jpg)\n\n<!-- column width=\"50%\" -->\n\nNotre magnifique terrasse plein sud et son tilleul centenaire, entourée de 360° de pleine nature, dispose d’un [bar champêtre](/le-bar-des-4-sources) ouvert du lever au coucher du soleil.\n\nLa terrasse **est un espace partagé par toutes les personnes de passage sur le lieu** (personnes hébergées, locataires de salles, participant.es à des activités, promeneur.euses).\n\nElle est accessible à pied, à cheval ou à vélo.\n\n**[Le bar des 4 Sources](/le-bar-des-4-sources)**\n<!-- /columns -->\n\n## Le bois des 4 Sources\n\nAvec ta location, tu peux demander l’accès à notre petit bois privé de 1,5 hectare. Accessible par le sentier qui traverse nos prairies, il se trouve à 5 minutes à pied de votre logement. De quoi faire un feu de camp, réaliser des cabanes avec vos enfants, passer du temps en nature et vous ressourcer.\n\nEnvoie un e-mail à [sejours@les4sources.be](mailto:sejours@les4sources.be) ou demande le jour même à la personne qui vous accueille s’il est accessible ou s’il y a déjà une activité qui s’y passe durant ton séjour.\n\n![image](images/sejours/06-20250719_150904_3017005B_-1.jpg)\n\n## Les balades des 4 Sources\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/sejours/07-randonnees-yvoir.jpg)\n\n<!-- column width=\"50%\" -->\n\nTu trouveras dans chaque gite **un carnet de randonnées** pour explorer la région, que tu sois plus *« petite balade digestive »* entre deux activités ou *« challenge grande rando »*.\n\nAdeptes de la marche, il est aussi possible de [rejoindre Les 4 sources à pied](/a-propos/acces-ahinvaux) depuis la gare d’Yvoir ou de Godinne.\n<!-- /columns -->\n\n## Nos autres services\n\n- **Besoin de délicieux repas ?** Demande-nous notre listing de traiteurs partageant la philosophie des 4 Sources.\n- **Envie d’un petit déjeuner ?** Nous serons ravis de vous proposer de bons produits bio ou locaux.\n- Sur demande, profite du four au feu de bois le vendredi soir, après la cuisson des pains, et **[organise ta Pizza/Camembert Party](/catalogue/pizza-ou-camembert-party)** **🍕**\n- Un grand **barbecue** est à la disposition des locataires des espaces (hébergements et salles) sur la terrasse. Le matériel est disponible, mais il faut prévoir du charbon.\n\n> 💡 Pour en savoir plus, pour poser une question au sujet de nos activités, pour demander le tarif pour ton groupe, une seule destination : **[sejours@les4sources.be](mailto:sejours@les4sources.be)** **📬**\n\n## Alors, envie de venir aux 4 Sources ?\n\n**👉** [Complète notre formulaire](https://formulaires.les4sources.be/sejour) pour nous envoyer une demande de réservation.\n\nLe formulaire, très complet, te permet de préciser tes besoins :\n\n✔️ Hébergements ✔️ Salles et/ou cuisine professionnelle ✔️ Espace bivouac et/ou van aménagé ✔️ Activités ✔️ Repas préparés, boulangerie et pizza/camembert parties\n\n> 💁 **Une question au sujet des séjours ?** Contacte Malau à [sejours@les4sources.be](mailto:sejours@les4sources.be) ou au +32 (0)490 46 77 10.\n\n👉 [Conditions générales des séjours aux 4 Sources](/sejours/conditions#block-1420d149331780c1a5abc508422bf971)\n\n[Nos hébergements](/sejours/hebergements-yvoir)\n\n[Nos salles et la cuisine](/sejours/salles)\n\n[Notre espace pour camper](/sejours/bivouac)\n\n[Tarifs des hébergements et salles](/sejours/tarifs)\n\n[Disponibilités](/sejours/disponibilites)\n\n[Un séjour aux 4 Sources](/sejours/sejours)\n\n[Règles du lieu](/sejours/regles-du-lieu)\n\n[Conditions générales des séjours aux 4 Sources](/sejours/conditions)\n",
+  "extractedAt": "2026-09-07T21:41:44.532Z"
+}

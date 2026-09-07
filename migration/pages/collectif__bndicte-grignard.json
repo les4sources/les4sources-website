@@ -1,0 +1,89 @@
+{
+  "path": "/collectif/bndicte-grignard",
+  "slug": "collectif__bndicte-grignard",
+  "rootIsCollection": false,
+  "title": "Bénédicte Grignard",
+  "metaDescription": "Bénédicte fait partie du collectif des 4 sources.",
+  "ogImage": null,
+  "ogTitle": "Bénédicte Grignard",
+  "ogUrl": "https://www.les4sources.be/collectif/bndicte-grignard",
+  "canonical": null,
+  "h1": "Bénédicte Grignard",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Type": "Habitant·e"
+  },
+  "propertySchema": [
+    {
+      "id": "ew_Z",
+      "name": "Bio courte",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "rCb{",
+      "name": "Photo",
+      "type": "file",
+      "visibility": "show"
+    },
+    {
+      "id": "CPcu",
+      "name": "Type",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "collectif-bndicte-grignard",
+    "blockId": "cfee0c73-f674-4420-9962-53844472ccb9",
+    "parentId": "e93593be43cd488598c5226e7ba2b369",
+    "type": "page",
+    "uri": "/collectif/bndicte-grignard",
+    "createdTime": "2024-04-04T10:45:38.055Z",
+    "lastEditedTime": "2026-07-12T16:23:35.076Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Collectif",
+      "href": "/collectif"
+    },
+    {
+      "label": "Bénédicte Grignard",
+      "href": "/collectif/bndicte-grignard"
+    }
+  ],
+  "contentHtml": "<h1 id=\"block-3360d149331780e99ce1c5159dacb5cc\" class=\"notion-heading notion-semantic-string\">Bénédicte 🐎</h1><div id=\"block-39b0d149331780feb01ed3681cf7f7cc\" class=\"notion-column-list\"><div id=\"block-39b0d14933178000bd7bd6c28b7c71e2\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-6cb15f503e814906aaa20128ef0add39\" class=\"notion-text notion-text__content notion-semantic-string\">Bénédicte fait partie du collectif des 4 sources.</p><p id=\"block-2f4da360be694b249ade0af8efd3a4d9\" class=\"notion-text notion-text__content notion-semantic-string\">Elle s'occupe principalement des animaux - ânes et cheval - et propose des bains d'ânes, une expérience douce et originale au cœur de la nature 💚</p><p id=\"block-d10fa9de52364ce3911eafc61100a763\" class=\"notion-text notion-text__content notion-semantic-string\">Ancienne professeure d'anglais, elle a troqué les salles de classe pour la vie au grand air, sans pour autant mettre de côté sa curiosité : musique (elle joue de la harpe 🎵), randonnées, géopolitique… elle cultive des intérêts aussi variés que les jolis de pots de fleurs que vous trouverez sur la terrasse au printemps.</p><p id=\"block-332af838493b4f4ba41c0d3af00d487d\" class=\"notion-text notion-text__content notion-semantic-string\">Egalement sensible à la méditation, elle apporte au projet une dimension intérieure et humaine qui lui tient profondément à cœur (et au nôtre aussi).<!-- --></p></div><div id=\"block-39b0d14933178035ba9dd29d5a15ca76\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-3360d149331780e48817c24c39300cc4\" class=\"notion-image align-start normal\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d194a08a-5000-4dc2-b3ca-368de5f0a81c/01476a3f-eaa5-4c9c-94cb-f53cad6c84e4/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d194a08a-5000-4dc2-b3ca-368de5f0a81c/01476a3f-eaa5-4c9c-94cb-f53cad6c84e4/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d194a08a-5000-4dc2-b3ca-368de5f0a81c/01476a3f-eaa5-4c9c-94cb-f53cad6c84e4/public\"></span></div></div></div><div id=\"block-3360d1493317807e8a7ee3b6f3ecf5e1\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3d625683-58a8-4c3a-8dd7-ca116d7cb5c6/407ce023-5af3-4ab9-bec5-f3e9be1003d9/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3d625683-58a8-4c3a-8dd7-ca116d7cb5c6/407ce023-5af3-4ab9-bec5-f3e9be1003d9/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3d625683-58a8-4c3a-8dd7-ca116d7cb5c6/407ce023-5af3-4ab9-bec5-f3e9be1003d9/public\"></span></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d194a08a-5000-4dc2-b3ca-368de5f0a81c/01476a3f-eaa5-4c9c-94cb-f53cad6c84e4/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/collectif__bndicte-grignard/01-01476a3f-eaa5-4c9c-94cb-f53cad6c84e4.png",
+      "shared": false,
+      "bytes": 311451
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3d625683-58a8-4c3a-8dd7-ca116d7cb5c6/407ce023-5af3-4ab9-bec5-f3e9be1003d9/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/collectif__bndicte-grignard/02-407ce023-5af3-4ab9-bec5-f3e9be1003d9.png",
+      "shared": false,
+      "bytes": 327191
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 111,
+  "fetchedAt": "2026-09-07T21:17:26.825Z",
+  "markdown": "## Bénédicte 🐎\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\nBénédicte fait partie du collectif des 4 sources.\n\nElle s'occupe principalement des animaux - ânes et cheval - et propose des bains d'ânes, une expérience douce et originale au cœur de la nature 💚\n\nAncienne professeure d'anglais, elle a troqué les salles de classe pour la vie au grand air, sans pour autant mettre de côté sa curiosité : musique (elle joue de la harpe 🎵), randonnées, géopolitique… elle cultive des intérêts aussi variés que les jolis de pots de fleurs que vous trouverez sur la terrasse au printemps.\n\nEgalement sensible à la méditation, elle apporte au projet une dimension intérieure et humaine qui lui tient profondément à cœur (et au nôtre aussi).\n\n<!-- column width=\"50%\" -->\n\n![image](images/collectif__bndicte-grignard/01-01476a3f-eaa5-4c9c-94cb-f53cad6c84e4.png)\n<!-- /columns -->\n\n![image](images/collectif__bndicte-grignard/02-407ce023-5af3-4ab9-bec5-f3e9be1003d9.png)\n",
+  "extractedAt": "2026-09-07T21:41:44.356Z"
+}

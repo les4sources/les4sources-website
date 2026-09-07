@@ -1,0 +1,70 @@
+:root{
+/* Brand core */
+--c-teal:#224246;
+--c-white:#FFFFFF;
+/* 4 pôles */
+--c-accueil:#e35543;
+--c-microferme:#acc037;
+--c-artisanat:#ddbfa1;
+--c-socioculturel:#EAC20B;
+/* Pictogram families (7 pictos; colours sampled from the supplied artwork) */
+--c-nature:#00A96D;
+--c-ressourcement:#72A1FF;
+--c-vie-collective:#FF8A5A;
+--c-convivialite:var(--c-socioculturel);
+--c-hebergement:var(--c-accueil);
+--c-production:var(--c-microferme);
+/* Pôle tints (backgrounds behind pôle text) */
+--c-accueil-tint:#fbe6e2;
+--c-microferme-tint:#f1f5d9;
+--c-artisanat-tint:#f6ece1;
+--c-socioculturel-tint:#fcf4cc;
+--c-nature-tint:#dcf3ea;
+--c-ressourcement-tint:#e4ecff;
+--c-vie-collective-tint:#ffe6db;
+/* Pôle ink (darkened for text on light surfaces) */
+--c-accueil-ink:#b83a2a;
+--c-microferme-ink:#6f7f1d;
+--c-artisanat-ink:#8d6a44;
+--c-socioculturel-ink:#8a7205;
+--c-nature-ink:#00744b;
+--c-ressourcement-ink:#3a63b8;
+--c-vie-collective-ink:#c2532a;
+/* Neutrals derived from teal */
+--c-ink:#224246;
+--c-ink-2:#4b6265;
+--c-ink-3:#7a8d8f;
+--c-ink-4:#a9b6b7;
+--c-line:#d8e0e0;
+--c-line-soft:#e9eeee;
+--c-surface:#f3f6f5;
+--c-paper:#faf6f0;
+--c-teal-deep:#182f32;
+--c-teal-soft:#2e585d;
+/* Semantic */
+--text-primary:var(--c-ink);
+--text-secondary:var(--c-ink-2);
+--text-muted:var(--c-ink-3);
+--text-on-dark:var(--c-white);
+--text-link:var(--c-teal);
+--text-link-hover:var(--c-teal-soft);
+--surface-page:var(--c-white);
+--surface-paper:var(--c-paper);
+--surface-card:var(--c-white);
+--surface-subtle:var(--c-surface);
+--surface-inverse:var(--c-teal);
+--border-default:var(--c-line);
+--border-soft:var(--c-line-soft);
+--border-strong:var(--c-teal);
+--accent:var(--c-teal);
+--accent-hover:var(--c-teal-soft);
+--accent-active:var(--c-teal-deep);
+--highlight:var(--c-socioculturel);
+--focus-ring:0 0 0 3px rgba(34,66,70,.25);
+--status-success:var(--c-microferme-ink);
+--status-warning:var(--c-socioculturel-ink);
+--status-danger:var(--c-accueil-ink);
+--status-success-bg:var(--c-microferme-tint);
+--status-warning-bg:var(--c-socioculturel-tint);
+--status-danger-bg:var(--c-accueil-tint);
+}

@@ -1,0 +1,63 @@
+{
+  "path": "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-cuisine",
+  "slug": "sejours__hebergements-yvoir__la-hulotte-gite-16-personnes__la-cuisine",
+  "rootIsCollection": false,
+  "title": "La cuisine (2ème étage)",
+  "metaDescription": null,
+  "ogImage": null,
+  "ogTitle": "La cuisine (2ème étage)",
+  "ogUrl": "https://www.les4sources.be/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-cuisine",
+  "canonical": null,
+  "h1": "La cuisine (2ème étage)",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Date de création": "Oct 12, 2025 9:23 PM",
+    "Page": "Hulotte"
+  },
+  "propertySchema": [
+    {
+      "id": "y|zT",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "JUEM",
+      "name": "Page",
+      "type": "multi_select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "sejours-hebergements-yvoir-la-hulotte-gite-16-personnes-la-cuisine",
+    "blockId": "28a0d149-3317-817b-b2a1-debf52d0ee71",
+    "parentId": "28a0d149331781b09d9c000b678af892",
+    "type": "page",
+    "uri": "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-cuisine",
+    "createdTime": "2025-10-12T21:23:33.884Z",
+    "lastEditedTime": "2025-10-12T21:31:38.138Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<div id=\"block-28a0d1493317819d85dcf146929a66b2\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a0cb3111-7a61-443c-a8ca-2caa209d844f/_G0A2782/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a0cb3111-7a61-443c-a8ca-2caa209d844f/_G0A2782/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a0cb3111-7a61-443c-a8ca-2caa209d844f/_G0A2782/public\"></span></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a0cb3111-7a61-443c-a8ca-2caa209d844f/_G0A2782/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/7864d1223515-_G0A2782.jpg",
+      "shared": true,
+      "bytes": 112260
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 0,
+  "fetchedAt": "2026-09-07T21:17:48.474Z",
+  "markdown": "![image](images/_shared/7864d1223515-_G0A2782.jpg)\n",
+  "extractedAt": "2026-09-07T21:41:44.547Z"
+}

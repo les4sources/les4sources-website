@@ -1,0 +1,161 @@
+{
+  "path": "/evenements/spectacle-la-petite-chaperonne-rouge",
+  "slug": "evenements__spectacle-la-petite-chaperonne-rouge",
+  "rootIsCollection": false,
+  "title": "Spectacle 16h : La petite chaperonne rouge 🎪",
+  "metaDescription": "Revisitez l’histoire du Petit Chaperon Rouge dans un spectacle qui dérape joyeusement, le dimanche 31 mai à 16h 😊",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fad3b3f4-9b24-4cc2-814d-4612849522ca/evenement_gnral__a_-3/public",
+  "ogTitle": "Spectacle 16h : La petite chaperonne rouge 🎪",
+  "ogUrl": "https://www.les4sources.be/evenements/spectacle-la-petite-chaperonne-rouge",
+  "canonical": null,
+  "h1": "Spectacle 16h : La petite chaperonne rouge 🎪",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fad3b3f4-9b24-4cc2-814d-4612849522ca/evenement_gnral__a_-3/public",
+    "localPath": "images/evenements__spectacle-la-petite-chaperonne-rouge/01-evenement_gnral__a_-3.jpg"
+  },
+  "pageIcon": "🎭",
+  "properties": {
+    "Date": "2026-05-31",
+    "Horaires": "16:00",
+    "Type d'événement": "Célébration",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "31 mai 2026",
+    "Tarif": "€15.00",
+    "Date de création": "May 7, 2026 8:34 AM",
+    "Statut site web": "Publié"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-spectacle-la-petite-chaperonne-rouge",
+    "blockId": "3590d149-3317-808a-b6a2-d94085accb08",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/spectacle-la-petite-chaperonne-rouge",
+    "createdTime": "2026-05-07T08:34:24.082Z",
+    "lastEditedTime": "2026-05-31T10:32:00.211Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Spectacle 16h : La petite chaperonne rouge 🎪",
+      "href": "/evenements/spectacle-la-petite-chaperonne-rouge",
+      "icon": "🎭"
+    }
+  ],
+  "contentHtml": "<h1 id=\"block-3590d14933178087b448e82b42c0e03b\" class=\"notion-heading notion-semantic-string\">La Petite Chaperonne Rouge s’invite aux 4 Sources </h1><div id=\"block-3710d149331780efb2eff7933c31b16d\" class=\"notion-callout bg-yellow-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🤒</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"></span><p id=\"block-3710d1493317809ebb8bf04555dd832b\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Reporté ! Jean-Jérôme est malade ! </strong>Nous allons fixer une nouvelle date et revenons vers toutes les personnes inscrites.</p></div></div><p id=\"block-3590d149331780c3ade5ff232b007086\" class=\"notion-text notion-text__content notion-semantic-string\">Revisitez l’histoire du Petit Chaperon Rouge dans un spectacle qui dérape joyeusement, le dimanche 31 mai à 16h 😊</p><p id=\"block-3590d1493317801da6aee0a51550dec1\" class=\"notion-text notion-text__content notion-semantic-string\">Prêts à se déchaîner, Harmonie et Jean-Jérôme revêtent leur plus beau costume pour nous narrer l’histoire du Petit Chaperon Rouge.</p><p id=\"block-3590d14933178006997be0eeb89b763a\" class=\"notion-text notion-text__content notion-semantic-string\">Attachants, animés de l’envie de bien faire, ils voient malgré tout leur spectacle déraper, submergés par leur sensibilité et de nombreuses déceptions.</p><p id=\"block-3590d1493317806195f8c223e6128901\" class=\"notion-text notion-text__content notion-semantic-string\">Harmonie, trop influencée par les débats sur les réseaux sociaux, est facilement perturbée.\nEt à la moindre frustration, elle est sur le point de dérailler !</p><p id=\"block-3590d149331780548cc8ddace42786e8\" class=\"notion-text notion-text__content notion-semantic-string\">Comment Jean-Jérôme va-t-il l’aider à profiter de ce moment scénique tant attendu ?\nPréparez-vous à des moments de rires intenses et à des explosions d’émotions 💕</p><div id=\"block-3590d1493317803a82ffc998248a8f82\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/spectacle-la-petite-chaperonne-rouge\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🤩</span></div><span class=\"notion-semantic-string\">Je prends ma place !</span></a></div><div id=\"block-3590d1493317807dae33e61ed35b709b\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5c5d60c6-b87f-4f32-ad62-f0ac3342aeaf/cie_artifice_2025-029_-5/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5c5d60c6-b87f-4f32-ad62-f0ac3342aeaf/cie_artifice_2025-029_-5/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5c5d60c6-b87f-4f32-ad62-f0ac3342aeaf/cie_artifice_2025-029_-5/public\"></span></div><h1 id=\"block-3590d1493317809aa116c35b8a7d746b\" class=\"notion-heading notion-semantic-string\">En pratique</h1><ul class=\"notion-bulleted-list\"><li id=\"block-1fcd2e06380e429582710cb469852034\" class=\"notion-list-item notion-semantic-string\">Durée : 35 minutes</li><li id=\"block-02ecf94840ee4950a7f94ea9b556faa4\" class=\"notion-list-item notion-semantic-string\">Public : tout public, dès 8 ans</li><li id=\"block-54dfe7bed8a349fba263fd31075860ae\" class=\"notion-list-item notion-semantic-string\">Humour pimenté, piano en liberté et interactions avec le public</li><li id=\"block-3590d1493317807ab718e952c5a7a7df\" class=\"notion-list-item notion-semantic-string\">Prix adulte : 15€ | Prix enfant : 8€ </li></ul><div id=\"block-3590d149331780548817e73e0c6e75a6\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/spectacle-la-petite-chaperonne-rouge\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🤩</span></div><span class=\"notion-semantic-string\">Je prends ma place !</span></a></div><div id=\"block-3590d149331780c7a8dae5fc1cb2e8bd\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eff2aae7-d05b-482b-8ac7-25186244cdb7/cie_artifice_2025-029_-4/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eff2aae7-d05b-482b-8ac7-25186244cdb7/cie_artifice_2025-029_-4/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eff2aae7-d05b-482b-8ac7-25186244cdb7/cie_artifice_2025-029_-4/public\"></span></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fad3b3f4-9b24-4cc2-814d-4612849522ca/evenement_gnral__a_-3/public",
+      "alt": "Spectacle 16h : La petite chaperonne rouge 🎪",
+      "role": "cover",
+      "localPath": "images/evenements__spectacle-la-petite-chaperonne-rouge/01-evenement_gnral__a_-3.jpg",
+      "shared": false,
+      "bytes": 118630
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5c5d60c6-b87f-4f32-ad62-f0ac3342aeaf/cie_artifice_2025-029_-5/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__spectacle-la-petite-chaperonne-rouge/02-cie_artifice_2025-029_-5.jpg",
+      "shared": false,
+      "bytes": 111295
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eff2aae7-d05b-482b-8ac7-25186244cdb7/cie_artifice_2025-029_-4/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__spectacle-la-petite-chaperonne-rouge/03-cie_artifice_2025-029_-4.jpg",
+      "shared": false,
+      "bytes": 78000
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.billetweb.fr/spectacle-la-petite-chaperonne-rouge"
+  ],
+  "collections": [],
+  "wordCount": 184,
+  "fetchedAt": "2026-09-07T21:17:42.218Z",
+  "markdown": "## La Petite Chaperonne Rouge s’invite aux 4 Sources\n\n> 🤒 **Reporté ! Jean-Jérôme est malade !** Nous allons fixer une nouvelle date et revenons vers toutes les personnes inscrites.\n\nRevisitez l’histoire du Petit Chaperon Rouge dans un spectacle qui dérape joyeusement, le dimanche 31 mai à 16h 😊\n\nPrêts à se déchaîner, Harmonie et Jean-Jérôme revêtent leur plus beau costume pour nous narrer l’histoire du Petit Chaperon Rouge.\n\nAttachants, animés de l’envie de bien faire, ils voient malgré tout leur spectacle déraper, submergés par leur sensibilité et de nombreuses déceptions.\n\nHarmonie, trop influencée par les débats sur les réseaux sociaux, est facilement perturbée. Et à la moindre frustration, elle est sur le point de dérailler !\n\nComment Jean-Jérôme va-t-il l’aider à profiter de ce moment scénique tant attendu ? Préparez-vous à des moments de rires intenses et à des explosions d’émotions 💕\n\n[🤩 Je prends ma place !](https://www.billetweb.fr/spectacle-la-petite-chaperonne-rouge){.button}\n\n![image](images/evenements__spectacle-la-petite-chaperonne-rouge/02-cie_artifice_2025-029_-5.jpg)\n\n## En pratique\n\n- Durée : 35 minutes\n- Public : tout public, dès 8 ans\n- Humour pimenté, piano en liberté et interactions avec le public\n- Prix adulte : 15€ | Prix enfant : 8€\n\n[🤩 Je prends ma place !](https://www.billetweb.fr/spectacle-la-petite-chaperonne-rouge){.button}\n\n![image](images/evenements__spectacle-la-petite-chaperonne-rouge/03-cie_artifice_2025-029_-4.jpg)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.468Z"
+}

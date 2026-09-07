@@ -1,0 +1,157 @@
+{
+  "path": "/evenements/weekend-ressources",
+  "slug": "evenements__weekend-ressources",
+  "rootIsCollection": false,
+  "title": "🪓 Créer un objet en bois de palette",
+  "metaDescription": "…construire l’objet de ton choix en bois de palette. Tu viens avec une idée précise ou tu peux réfléchir le jour J de ce qui est possible de faire avec Olivier. Cela peut être un objet d’aménagement, de déco, de petit mobilier...",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/91f9e200-613a-4053-8fbf-50a94a651795/evenement_gnral__a_-1/public",
+  "ogTitle": "🪓 Créer un objet en bois de palette",
+  "ogUrl": "https://www.les4sources.be/evenements/weekend-ressources",
+  "canonical": null,
+  "h1": "🪓 Créer un objet en bois de palette",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/91f9e200-613a-4053-8fbf-50a94a651795/evenement_gnral__a_-1/public",
+    "localPath": "images/_shared/395a27efd845-evenement_gnral__a_-1.jpg"
+  },
+  "pageIcon": "🪵",
+  "properties": {
+    "Date": "2026-10-03 → 2026-10-03",
+    "Horaires": "9h30 à 21h",
+    "Type d'événement": "Artisanat",
+    "Thématique": "Ressourcement, Artisanat",
+    "Date (fr)": "samedi 3 octobre",
+    "Places disponibles": "8",
+    "Tarif": "€75.00",
+    "Date de création": "Feb 12, 2026 11:50 AM",
+    "Statut site web": "Publié",
+    "super:slug": "journée-créative-objet-bois-palette"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-weekend-ressources",
+    "blockId": "3050d149-3317-8001-a9a7-ff4bce656ac4",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/weekend-ressources",
+    "createdTime": "2026-02-12T11:50:48.195Z",
+    "lastEditedTime": "2026-09-03T13:09:45.153Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<h1 id=\"block-3050d1493317800b8ae9d89c79f7a905\" class=\"notion-heading notion-semantic-string\"><strong>Une belle journée - le samedi 3 octobre - pour…</strong></h1><p id=\"block-3c90d14933178063bb87f890d104dbcc\" class=\"notion-text notion-text__content notion-semantic-string\">…construire l’objet de ton choix en bois de palette. Tu viens avec une idée précise ou tu peux réfléchir le jour J de ce qui est possible de faire avec Olivier. Cela peut être un objet d’aménagement, de déco, de petit mobilier... </p><p id=\"block-aa84e616158d4188b1c6e5290f30adea\" class=\"notion-text notion-text__content notion-semantic-string\">Aucune connaissance requise particulière !</p><p id=\"block-8b2d87847558461199a77742a99d5c57\" class=\"notion-text notion-text__content notion-semantic-string\">Pic-nic le midi et Pizza party au soir pour clôturer en beauté la journée 🍕</p><div id=\"block-3c90d14933178004b3a4d3e5df55c137\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/journee-creative-construis-ton-objet-en-bois-de-palette\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🪓</span></div><span class=\"notion-semantic-string\">Je prends ma place !</span></a></div><div id=\"block-34b0d14933178078bb8cc9c53e80184c\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ca5d74d9-080e-4027-8de2-cb1c33b45bb4/img_20240225_150154/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ca5d74d9-080e-4027-8de2-cb1c33b45bb4/img_20240225_150154/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ca5d74d9-080e-4027-8de2-cb1c33b45bb4/img_20240225_150154/public\"></span></div><p id=\"block-ec09eda909b544aa95ee8ffd9edb676a\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Bien évidemment, tu repars avec l’objet construit de tes mains au terme des trois jours </strong>🪑</p><h1 id=\"block-34c0d1493317800ab430e58db390f43e\" class=\"notion-heading notion-semantic-string\">Avec Olivier, membre des 4 Sources</h1><blockquote id=\"block-3050d1493317804bac2af5ff927946de\" class=\"notion-quote\"><span class=\"notion-semantic-string\"><em>J’ai une formation de base en design industriel. Je me suis aussi formé à la pédagogie, à l’écologie, à l’élagage. Dans mes différents engagements j’ai toujours accordé une grande importance à l’accompagnement dans les apprentissages, aussi bien avec des enfants, des jeunes que des adultes, avec une attention au pouvoir de la créativité. </em></span></blockquote><div id=\"block-34b0d1493317808aadb7d4c94140b1e4\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/edb66325-bdf1-468d-a41f-827fe33f54c1/_g0a7706/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/edb66325-bdf1-468d-a41f-827fe33f54c1/_g0a7706/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/edb66325-bdf1-468d-a41f-827fe33f54c1/_g0a7706/public\"></span></div><p id=\"block-34c0d14933178009bf1af7465ee74e05\" class=\"notion-text notion-text__content notion-semantic-string\">Un coup d’oeil sur son site → <a href=\"https://debranchesenplanches.be/\" class=\"notion-link link\" data-link-uri=\"https://debranchesenplanches.be/\">https://debranchesenplanches.be</a> 🌳</p><h1 id=\"block-34b0d1493317808b9b30c4ecdcbf5432\" class=\"notion-heading notion-semantic-string\"><strong>En pratique</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-34b0d14933178021841be87d6dc1b580\" class=\"notion-list-item notion-semantic-string\">Au coeur de la clairière des 4 Sources: 📍 Fonds d’Ahinvaux, 1 à Yvoir, entre Namur et Dinant</li><li id=\"block-3d00d149331780e29270c6250f0f9b22\" class=\"notion-list-item notion-semantic-string\">Le samedi 3 octobre de 9h30 à 21h</li><li id=\"block-3d00d149331780d0ad6bec607e036a79\" class=\"notion-list-item notion-semantic-string\">Maximum 8 participant-es par atelier : 75€ la place</li><li id=\"block-3d00d1493317802f9b9be640d8a1b62d\" class=\"notion-list-item notion-semantic-string\">Clôture le samedi soir avec une Pizza Party (cuisson au feu de bois)</li><li id=\"block-3d00d1493317802b903ee3673b1ba106\" class=\"notion-list-item notion-semantic-string\">Apporter son pic-nic et les garnitures pour la pizza 🍕</li></ul><div id=\"block-3c90d14933178060b1c8c5a40e5136dc\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/journee-creative-construis-ton-objet-en-bois-de-palette\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🪓</span></div><span class=\"notion-semantic-string\">Je prends ma place !</span></a></div><h2 id=\"block-34c0d14933178099955fc971172ac62a\" class=\"notion-heading notion-semantic-string\">Cette journée créative est entièrement organisée par nos trois intervenant-es : Bénédicte, Olivier et Marianne !</h2><div id=\"block-34c0d14933178097a36ff5540a2b3e32\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/26cbd826-63a6-4ed9-b63b-86cfbd0327ce/pxl_20260211_115416194/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/26cbd826-63a6-4ed9-b63b-86cfbd0327ce/pxl_20260211_115416194/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/26cbd826-63a6-4ed9-b63b-86cfbd0327ce/pxl_20260211_115416194/public\"></span></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/91f9e200-613a-4053-8fbf-50a94a651795/evenement_gnral__a_-1/public",
+      "alt": "🪓 Créer un objet en bois de palette",
+      "role": "cover",
+      "localPath": "images/_shared/395a27efd845-evenement_gnral__a_-1.jpg",
+      "shared": true,
+      "bytes": 109703
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ca5d74d9-080e-4027-8de2-cb1c33b45bb4/img_20240225_150154/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-ressources/02-img_20240225_150154.jpg",
+      "shared": false,
+      "bytes": 187783
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/edb66325-bdf1-468d-a41f-827fe33f54c1/_g0a7706/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-ressources/03-_g0a7706.jpg",
+      "shared": false,
+      "bytes": 124444
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/26cbd826-63a6-4ed9-b63b-86cfbd0327ce/pxl_20260211_115416194/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-ressources/04-pxl_20260211_115416194.jpg",
+      "shared": false,
+      "bytes": 140344
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.billetweb.fr/journee-creative-construis-ton-objet-en-bois-de-palette",
+    "https://debranchesenplanches.be/"
+  ],
+  "collections": [],
+  "wordCount": 241,
+  "fetchedAt": "2026-09-07T21:17:43.915Z",
+  "markdown": "## **Une belle journée - le samedi 3 octobre - pour…**\n\n…construire l’objet de ton choix en bois de palette. Tu viens avec une idée précise ou tu peux réfléchir le jour J de ce qui est possible de faire avec Olivier. Cela peut être un objet d’aménagement, de déco, de petit mobilier...\n\nAucune connaissance requise particulière !\n\nPic-nic le midi et Pizza party au soir pour clôturer en beauté la journée 🍕\n\n[🪓 Je prends ma place !](https://www.billetweb.fr/journee-creative-construis-ton-objet-en-bois-de-palette){.button}\n\n![image](images/evenements__weekend-ressources/02-img_20240225_150154.jpg)\n\n**Bien évidemment, tu repars avec l’objet construit de tes mains au terme des trois jours** 🪑\n\n## Avec Olivier, membre des 4 Sources\n\n> *J’ai une formation de base en design industriel. Je me suis aussi formé à la pédagogie, à l’écologie, à l’élagage. Dans mes différents engagements j’ai toujours accordé une grande importance à l’accompagnement dans les apprentissages, aussi bien avec des enfants, des jeunes que des adultes, avec une attention au pouvoir de la créativité.*\n\n![image](images/evenements__weekend-ressources/03-_g0a7706.jpg)\n\nUn coup d’oeil sur son site → [https://debranchesenplanches.be](https://debranchesenplanches.be/) 🌳\n\n## **En pratique**\n\n- Au coeur de la clairière des 4 Sources: 📍 Fonds d’Ahinvaux, 1 à Yvoir, entre Namur et Dinant\n- Le samedi 3 octobre de 9h30 à 21h\n- Maximum 8 participant-es par atelier : 75€ la place\n- Clôture le samedi soir avec une Pizza Party (cuisson au feu de bois)\n- Apporter son pic-nic et les garnitures pour la pizza 🍕\n\n[🪓 Je prends ma place !](https://www.billetweb.fr/journee-creative-construis-ton-objet-en-bois-de-palette){.button}\n\n### Cette journée créative est entièrement organisée par nos trois intervenant-es : Bénédicte, Olivier et Marianne !\n\n![image](images/evenements__weekend-ressources/04-pxl_20260211_115416194.jpg)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.486Z"
+}

@@ -1,0 +1,64 @@
+{
+  "path": "/sejours/regles-du-lieu",
+  "slug": "sejours__regles-du-lieu",
+  "rootIsCollection": false,
+  "title": "Règles du lieu",
+  "metaDescription": "Les 4 Sources étant notamment un lieu de vie et un lieu de biodiversité classé Natura 2000, voici le cadre demandé pour le bruit  :",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c58f7c24-8eda-4438-9511-da9b1f252537/met_william_morris_1877_willow/public",
+  "ogTitle": "Règles du lieu",
+  "ogUrl": "https://www.les4sources.be/sejours/regles-du-lieu",
+  "canonical": null,
+  "h1": "Règles du lieu",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c58f7c24-8eda-4438-9511-da9b1f252537/met_william_morris_1877_willow/public",
+    "localPath": "images/sejours__regles-du-lieu/01-met_william_morris_1877_willow.jpg"
+  },
+  "pageIcon": null,
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "sejours-regles-du-lieu",
+    "blockId": "16f0d149-3317-8063-895f-ebc04f249617",
+    "parentId": "sejours",
+    "type": "page",
+    "uri": "/sejours/regles-du-lieu",
+    "createdTime": "2025-01-02T11:19:59.234Z",
+    "lastEditedTime": "2025-01-02T14:48:45.404Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Séjours et locations",
+      "href": "/sejours",
+      "icon": "🏡"
+    },
+    {
+      "label": "Règles du lieu",
+      "href": "/sejours/regles-du-lieu"
+    }
+  ],
+  "contentHtml": "<h1 id=\"block-16f0d149331780ddb286fa15e9339fa2\" class=\"notion-heading notion-semantic-string\">🔊&nbsp;<strong>Vigilance au bruit</strong></h1><p id=\"block-16f0d1493317805d9fede99205378eb3\" class=\"notion-text notion-text__content notion-semantic-string\">Les 4 Sources étant notamment un lieu de vie et un lieu de biodiversité classé Natura 2000, voici le cadre demandé pour le bruit&nbsp;&nbsp;:</p><ul class=\"notion-bulleted-list\"><li id=\"block-16f0d1493317804aa45ef5547175bfac\" class=\"notion-list-item notion-semantic-string\">À <strong>l’extérieur</strong>\n→ Pas de son amplifié\n→ À partir de 22h, vigilance au bruit (y compris sur le parking)</li><li id=\"block-16f0d14933178074891fe045963992fb\" class=\"notion-list-item notion-semantic-string\">Dans les <strong>hébergements</strong>\n→ À partir de 22h : son amplifié modéré et vigilance au bruit</li><li id=\"block-16f0d149331780a79e8fcff6a233303d\" class=\"notion-list-item notion-semantic-string\">Dans la <strong>grande salle</strong>\n→ À partir de 23h : fenêtres fermées\n→ Avant 1h du matin : son amplifié autorisé\n→ À partir d’1h du matin : pas de son amplifié</li><li id=\"block-16f0d149331780f2b3c3e6b0c8ba3ed4\" class=\"notion-list-item notion-semantic-string\">Dans la <strong>petite salle</strong>\n→ À partir de 23h : fenêtres fermées\n→ Son amplifié autorisé jusqu’à 2h</li></ul><h1 id=\"block-16f0d149331780baa65de3c047f61f07\" class=\"notion-heading notion-semantic-string\"><strong>Espaces accessibles et espaces privés</strong></h1><p id=\"block-16f0d149331780c6b6f0f0c730b5f214\" class=\"notion-text notion-text__content notion-semantic-string\">Différents espaces privatifs, représentés par une barrière basse en bois, sont réservés aux habitants et donc interdits d’accès.</p><h1 id=\"block-16f0d149331780fd9883de9f9ecc4ad9\" class=\"notion-heading notion-semantic-string\"><strong>Accès aux pâtures</strong></h1><p id=\"block-16f0d149331780348938ee5506c50c84\" class=\"notion-text notion-text__content notion-semantic-string\">Les prairies sont réservées aux animaux (ânes, lama, alpaga et cheval) et ne sont accessibles qu’avec l’accompagnement d’un habitant.</p><h1 id=\"block-16f0d149331780bb8dc0c7c1a1fab56b\" class=\"notion-heading notion-semantic-string\"><strong>La terrasse</strong></h1><p id=\"block-16f0d149331780e9851df7c882f89a5d\" class=\"notion-text notion-text__content notion-semantic-string\">La terrasse est utilisée par les habitants, les personnes qui séjournent et les personnes de passage qui viennent boire un verre ou pique-niquer, le domaine étant traversé par un sentier de balade.</p><p id=\"block-16f0d149331780a58bb0e95205d4780e\" class=\"notion-text notion-text__content notion-semantic-string\">Un espace distinct pour les personnes qui séjournent peut être envisagé.</p>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c58f7c24-8eda-4438-9511-da9b1f252537/met_william_morris_1877_willow/public",
+      "alt": "Règles du lieu",
+      "role": "cover",
+      "localPath": "images/sejours__regles-du-lieu/01-met_william_morris_1877_willow.jpg",
+      "shared": false,
+      "bytes": 159759
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 193,
+  "fetchedAt": "2026-09-07T21:17:50.731Z",
+  "markdown": "## 🔊 **Vigilance au bruit**\n\nLes 4 Sources étant notamment un lieu de vie et un lieu de biodiversité classé Natura 2000, voici le cadre demandé pour le bruit  :\n\n- À **l’extérieur** → Pas de son amplifié → À partir de 22h, vigilance au bruit (y compris sur le parking)\n- Dans les **hébergements** → À partir de 22h : son amplifié modéré et vigilance au bruit\n- Dans la **grande salle** → À partir de 23h : fenêtres fermées → Avant 1h du matin : son amplifié autorisé → À partir d’1h du matin : pas de son amplifié\n- Dans la **petite salle** → À partir de 23h : fenêtres fermées → Son amplifié autorisé jusqu’à 2h\n\n## **Espaces accessibles et espaces privés**\n\nDifférents espaces privatifs, représentés par une barrière basse en bois, sont réservés aux habitants et donc interdits d’accès.\n\n## **Accès aux pâtures**\n\nLes prairies sont réservées aux animaux (ânes, lama, alpaga et cheval) et ne sont accessibles qu’avec l’accompagnement d’un habitant.\n\n## **La terrasse**\n\nLa terrasse est utilisée par les habitants, les personnes qui séjournent et les personnes de passage qui viennent boire un verre ou pique-niquer, le domaine étant traversé par un sentier de balade.\n\nUn espace distinct pour les personnes qui séjournent peut être envisagé.\n",
+  "extractedAt": "2026-09-07T21:41:44.560Z"
+}

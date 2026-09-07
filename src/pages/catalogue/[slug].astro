@@ -1,0 +1,120 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getEntry, render } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import Prose from "@components/ui/Prose.astro";
+import { siteData } from "@lib/data";
+import { breadcrumbs } from "@lib/seo";
+import { site } from "@lib/site";
+import type { MergedExperience } from "@lib/claudy";
+
+/** Fiche d'activité — Claudy fait foi, la fiche migrée sert de repli. */
+export const getStaticPaths: GetStaticPaths = async () => {
+  const { experiences } = await siteData();
+  return experiences
+    .filter((x) => x.path.startsWith("/catalogue/"))
+    .map((x) => ({ params: { slug: x.slug }, props: { experience: x } }));
+};
+
+interface Props {
+  experience: MergedExperience;
+}
+
+const { experience } = Astro.props;
+
+const legacy = experience.legacyId ? await getEntry("catalogue", experience.legacyId) : undefined;
+const rendered = legacy ? await render(legacy) : undefined;
+const Content = rendered?.Content;
+
+const participants =
+  experience.minParticipants && experience.maxParticipants
+    ? `de ${experience.minParticipants} à ${experience.maxParticipants} personnes`
+    : experience.maxParticipants
+      ? `jusqu'à ${experience.maxParticipants} personnes`
+      : experience.minParticipants
+        ? `à partir de ${experience.minParticipants} personnes`
+        : undefined;
+
+const description =
+  experience.description || `${experience.title} — une activité proposée aux 4 Sources, à Yvoir.`;
+
+const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
+const url = `${siteUrl}${experience.path}`;
+const jsonld = [
+  breadcrumbs([
+    { name: "Accueil", url: `${siteUrl}/` },
+    { name: "Le catalogue", url: `${siteUrl}/catalogue` },
+    { name: experience.title, url },
+  ]),
+];
+---
+
+<BaseLayout title={experience.seoTitle ?? experience.title} description={description} jsonld={jsonld}>
+  <PageHero
+    title={experience.title}
+    eyebrow={experience.duration}
+    lead={experience.description || undefined}
+    icon={experience.icon}
+    pole={experience.pole}
+    remoteCover={experience.image}
+    crumbs={[
+      { label: "Accueil", href: "/" },
+      { label: "Le catalogue", href: "/catalogue" },
+      { label: experience.title },
+    ]}
+  />
+
+  <div class="mx-auto max-w-[1180px] px-[clamp(16px,4vw,44px)] py-[clamp(32px,6vw,72px)]">
+    <dl class="mb-10 grid grid-cols-1 gap-4 sm:grid-cols-3">
+      {
+        experience.duration && (
+          <div>
+            <dt class="text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-ink-soft">Durée</dt>
+            <dd class="m-0 text-md">{experience.duration}</dd>
+          </div>
+        )
+      }
+      {
+        experience.priceText && (
+          <div>
+            <dt class="text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-ink-soft">Prix</dt>
+            <dd class="m-0 text-md">{experience.priceText}</dd>
+          </div>
+        )
+      }
+      {
+        participants && (
+          <div>
+            <dt class="text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-ink-soft">Groupe</dt>
+            <dd class="m-0 text-md">{participants}</dd>
+          </div>
+        )
+      }
+    </dl>
+
+    <Prose>
+      {
+        experience.descriptionHtml ? (
+          <Fragment set:html={experience.descriptionHtml} />
+        ) : Content ? (
+          <Content />
+        ) : null
+      }
+    </Prose>
+
+    {
+      experience.bookingUrl && (
+        <p class="mt-10">
+          <a
+            href={experience.bookingUrl}
+            rel="noopener"
+            class="inline-block rounded-md bg-teal px-6 py-3 font-semibold text-cream no-underline hover:bg-teal-soft"
+          >
+            Réserver cette activité
+          </a>
+        </p>
+      )
+    }
+  </div>
+</BaseLayout>

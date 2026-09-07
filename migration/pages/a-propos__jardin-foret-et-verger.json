@@ -1,0 +1,107 @@
+{
+  "path": "/a-propos/jardin-foret-et-verger",
+  "slug": "a-propos__jardin-foret-et-verger",
+  "rootIsCollection": false,
+  "title": "En balade parmi les arbres fruitiers",
+  "metaDescription": "Le Domaine d’Ahinvaux est divisé en plusieurs espaces, dont le verger conservatoire implanté entre 2005 et 2015. On y trouve de nombreuses variétés de pommiers, poiriers et pruniers de conservation.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6f764eca-4e2c-4f5a-aa9f-2a27867ad485/dji_fly_20240825_143408_2_1724589438992_photo_optimized/public",
+  "ogTitle": "En balade parmi les arbres fruitiers",
+  "ogUrl": "https://www.les4sources.be/a-propos/jardin-foret-et-verger",
+  "canonical": null,
+  "h1": "En balade parmi les arbres fruitiers",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6f764eca-4e2c-4f5a-aa9f-2a27867ad485/dji_fly_20240825_143408_2_1724589438992_photo_optimized/public",
+    "localPath": "images/a-propos__jardin-foret-et-verger/01-dji_fly_20240825_143408_2_1724589438992_photo_optimized.jpg"
+  },
+  "pageIcon": null,
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "a-propos-jardin-foret-et-verger",
+    "blockId": "bdcfd507-4c08-4aff-88a0-1a9668719f33",
+    "parentId": "a-propos",
+    "type": "page",
+    "uri": "/a-propos/jardin-foret-et-verger",
+    "createdTime": "2024-08-26T13:40:19.297Z",
+    "lastEditedTime": "2025-10-09T12:16:24.082Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "À propos des 4 Sources",
+      "href": "/a-propos",
+      "icon": "☺️"
+    },
+    {
+      "label": "En balade parmi les arbres fruitiers",
+      "href": "/a-propos/jardin-foret-et-verger"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-afb8db23e6484370ae9eeedda27e83a5\" class=\"notion-heading notion-semantic-string\">Le Domaine d’Ahinvaux est divisé en plusieurs espaces, dont le verger conservatoire implanté entre 2005 et 2015. On y trouve de nombreuses variétés de pommiers, poiriers et pruniers de conservation.</h3><h1 id=\"block-17495d4b499141b4bdbeae71e96d2433\" class=\"notion-heading notion-semantic-string\">La palette végétale 🍃</h1><p id=\"block-614e7c3fb367453cbb16da73ca7d1a8c\" class=\"notion-text notion-text__content notion-semantic-string\">En cliquant sur le lien ci-dessous, tu accèdes à la liste des plantations gérée par le collectif <a href=\"https://www.semisto.org\" class=\"notion-link link\" data-link-uri=\"https://www.semisto.org\">Semisto</a>. Chaque plantation est répertoriée et un suivi est organisé.</p><p id=\"block-737a08a3e24f49ea839dbd39652a8d2c\" class=\"notion-text notion-text__content notion-semantic-string\"><strong><a href=\"https://les4sources.semisto.org\" class=\"notion-link link\" data-link-uri=\"https://les4sources.semisto.org\">La palette végétale du Domaine d’Ahinvaux</a></strong></p><h1 id=\"block-c57c0c9e1b4b476da2b34b26ce13f932\" class=\"notion-heading notion-semantic-string\">Au verger conservatoire 🍎</h1><p id=\"block-b7201df5ba9947b6b80d016b1fed62a7\" class=\"notion-text notion-text__content notion-semantic-string\">Un verger de pommiers, poiriers et pruniers sur 75 ares en bordure de forêt, longé par le sentier de randonnée menant à la ferme de Venatte.</p><div id=\"block-2883c62d2f174ac2b1d163aca26c921c\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1032b63f-5892-4582-a107-5a87e60eeec2/dji_fly_20240825_142334_973_1724589555431_photo_optimized/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1032b63f-5892-4582-a107-5a87e60eeec2/dji_fly_20240825_142334_973_1724589555431_photo_optimized/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1032b63f-5892-4582-a107-5a87e60eeec2/dji_fly_20240825_142334_973_1724589555431_photo_optimized/public\"></span></div><div id=\"block-3c6db4ede30d49e3b762093a18dbbd0f\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/01fc3bc3-5c0e-4159-b87f-3a0507034453/dji_fly_20240825_142602_979_1724589528208_photo_optimized/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/01fc3bc3-5c0e-4159-b87f-3a0507034453/dji_fly_20240825_142602_979_1724589528208_photo_optimized/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/01fc3bc3-5c0e-4159-b87f-3a0507034453/dji_fly_20240825_142602_979_1724589528208_photo_optimized/public\"></span></div><h1 id=\"block-c54c6977f7744000ba1c9d2e19b9b5fd\" class=\"notion-heading notion-semantic-string\">Au jardin-forêt 🌲</h1><p id=\"block-e0eeeeff73524108b3aefc08f9698328\" class=\"notion-text notion-text__content notion-semantic-string\">Un espace ressourçant parsemé d’arbres fruitiers basse tige et mi-tige, de nombreux petits fruits (cassis, groseilliers et groseilliers à maquereaux), 3 jeunes chataigniers, un abricotier, de jeunes kiwaïs, les poules marans et Shiny le coq.</p><div id=\"block-5f5269dad3cb444d90735f2151d87859\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e9176d82-98c9-41ac-a029-096ac7520978/dji_fly_20240825_143116_995_1724589470432_photo_optimized/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e9176d82-98c9-41ac-a029-096ac7520978/dji_fly_20240825_143116_995_1724589470432_photo_optimized/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e9176d82-98c9-41ac-a029-096ac7520978/dji_fly_20240825_143116_995_1724589470432_photo_optimized/public\"></span></div><div id=\"block-b04aa37a91364f419156e6a3a215b911\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/afc8e60a-667f-4dbd-8d78-beb29b5b2386/dji_fly_20240825_143154_996_1724589465821_photo_optimized/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/afc8e60a-667f-4dbd-8d78-beb29b5b2386/dji_fly_20240825_143154_996_1724589465821_photo_optimized/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/afc8e60a-667f-4dbd-8d78-beb29b5b2386/dji_fly_20240825_143154_996_1724589465821_photo_optimized/public\"></span></div><h1 id=\"block-2870d149331780f4833ac3b19151c2bd\" class=\"notion-heading notion-semantic-string\">Le jus des 4 Sources🧃</h1><p id=\"block-2870d149331780c099eee307bdf441bb\" class=\"notion-text notion-text__content notion-semantic-string\">Saviez-vous que de toutes ces pommes récoltées, nous en faisions du jus ? En cubis ou en bouteilles, retrouvez notre production à l’épicerie !</p><div id=\"block-2870d14933178074b013d9708a0951e8\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5996eb72-9ca6-40d7-a3a7-d4308ac5c5a2/e099bd41-d607-40e1-bce6-6e931bf06e6e/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5996eb72-9ca6-40d7-a3a7-d4308ac5c5a2/e099bd41-d607-40e1-bce6-6e931bf06e6e/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5996eb72-9ca6-40d7-a3a7-d4308ac5c5a2/e099bd41-d607-40e1-bce6-6e931bf06e6e/public\"></span></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6f764eca-4e2c-4f5a-aa9f-2a27867ad485/dji_fly_20240825_143408_2_1724589438992_photo_optimized/public",
+      "alt": "En balade parmi les arbres fruitiers",
+      "role": "cover",
+      "localPath": "images/a-propos__jardin-foret-et-verger/01-dji_fly_20240825_143408_2_1724589438992_photo_optimized.jpg",
+      "shared": false,
+      "bytes": 282789
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1032b63f-5892-4582-a107-5a87e60eeec2/dji_fly_20240825_142334_973_1724589555431_photo_optimized/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/a-propos__jardin-foret-et-verger/02-dji_fly_20240825_142334_973_1724589555431_photo_optimized.jpg",
+      "shared": false,
+      "bytes": 364297
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/01fc3bc3-5c0e-4159-b87f-3a0507034453/dji_fly_20240825_142602_979_1724589528208_photo_optimized/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/a-propos__jardin-foret-et-verger/03-dji_fly_20240825_142602_979_1724589528208_photo_optimized.jpg",
+      "shared": false,
+      "bytes": 364120
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e9176d82-98c9-41ac-a029-096ac7520978/dji_fly_20240825_143116_995_1724589470432_photo_optimized/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/a-propos__jardin-foret-et-verger/04-dji_fly_20240825_143116_995_1724589470432_photo_optimized.jpg",
+      "shared": false,
+      "bytes": 419736
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/afc8e60a-667f-4dbd-8d78-beb29b5b2386/dji_fly_20240825_143154_996_1724589465821_photo_optimized/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/a-propos__jardin-foret-et-verger/05-dji_fly_20240825_143154_996_1724589465821_photo_optimized.jpg",
+      "shared": false,
+      "bytes": 404517
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5996eb72-9ca6-40d7-a3a7-d4308ac5c5a2/e099bd41-d607-40e1-bce6-6e931bf06e6e/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/a-propos__jardin-foret-et-verger/06-e099bd41-d607-40e1-bce6-6e931bf06e6e.png",
+      "shared": false,
+      "bytes": 403586
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [
+    "https://www.semisto.org",
+    "https://les4sources.semisto.org"
+  ],
+  "collections": [],
+  "wordCount": 155,
+  "fetchedAt": "2026-09-07T21:17:19.007Z",
+  "markdown": "#### Le Domaine d’Ahinvaux est divisé en plusieurs espaces, dont le verger conservatoire implanté entre 2005 et 2015. On y trouve de nombreuses variétés de pommiers, poiriers et pruniers de conservation.\n\n## La palette végétale 🍃\n\nEn cliquant sur le lien ci-dessous, tu accèdes à la liste des plantations gérée par le collectif [Semisto](https://www.semisto.org). Chaque plantation est répertoriée et un suivi est organisé.\n\n**[La palette végétale du Domaine d’Ahinvaux](https://les4sources.semisto.org)**\n\n## Au verger conservatoire 🍎\n\nUn verger de pommiers, poiriers et pruniers sur 75 ares en bordure de forêt, longé par le sentier de randonnée menant à la ferme de Venatte.\n\n![image](images/a-propos__jardin-foret-et-verger/02-dji_fly_20240825_142334_973_1724589555431_photo_optimized.jpg)\n\n![image](images/a-propos__jardin-foret-et-verger/03-dji_fly_20240825_142602_979_1724589528208_photo_optimized.jpg)\n\n## Au jardin-forêt 🌲\n\nUn espace ressourçant parsemé d’arbres fruitiers basse tige et mi-tige, de nombreux petits fruits (cassis, groseilliers et groseilliers à maquereaux), 3 jeunes chataigniers, un abricotier, de jeunes kiwaïs, les poules marans et Shiny le coq.\n\n![image](images/a-propos__jardin-foret-et-verger/04-dji_fly_20240825_143116_995_1724589470432_photo_optimized.jpg)\n\n![image](images/a-propos__jardin-foret-et-verger/05-dji_fly_20240825_143154_996_1724589465821_photo_optimized.jpg)\n\n## Le jus des 4 Sources🧃\n\nSaviez-vous que de toutes ces pommes récoltées, nous en faisions du jus ? En cubis ou en bouteilles, retrouvez notre production à l’épicerie !\n\n![image](images/a-propos__jardin-foret-et-verger/06-e099bd41-d607-40e1-bce6-6e931bf06e6e.png)\n",
+  "extractedAt": "2026-09-07T21:41:44.221Z"
+}

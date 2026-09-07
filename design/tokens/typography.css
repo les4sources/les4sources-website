@@ -1,0 +1,41 @@
+:root{
+--font-display:'Averia Serif Libre',Georgia,'Times New Roman',serif;
+--font-body:'Averia Serif Libre',Georgia,serif;
+--font-ui:'Be Vietnam Pro',system-ui,-apple-system,'Segoe UI',sans-serif;
+/* Scale */
+--fs-display:64px;
+--fs-h1:48px;
+--fs-h2:36px;
+--fs-h3:28px;
+--fs-h4:22px;
+--fs-lead:20px;
+--fs-body:17px;
+--fs-small:15px;
+--fs-caption:13px;
+--fs-overline:12px;
+--lh-tight:1.05;
+--lh-heading:1.15;
+--lh-body:1.55;
+--ls-overline:.08em;
+--ls-heading:-.01em;
+/* Weights */
+--fw-light:300;
+--fw-regular:400;
+--fw-medium:500;
+--fw-semibold:600;
+--fw-bold:700;
+--fw-black:900;
+/* Composite */
+--text-display:var(--fw-bold) var(--fs-display)/var(--lh-tight) var(--font-display);
+--text-h1:var(--fw-bold) var(--fs-h1)/var(--lh-heading) var(--font-display);
+--text-h2:var(--fw-bold) var(--fs-h2)/var(--lh-heading) var(--font-display);
+--text-h3:var(--fw-regular) var(--fs-h3)/var(--lh-heading) var(--font-display);
+--text-h4:var(--fw-bold) var(--fs-h4)/var(--lh-heading) var(--font-display);
+--text-lead:var(--fw-regular) var(--fs-lead)/var(--lh-body) var(--font-body);
+--text-body:var(--fw-regular) var(--fs-body)/var(--lh-body) var(--font-body);
+--text-small:var(--fw-regular) var(--fs-small)/var(--lh-body) var(--font-body);
+--text-ui:var(--fw-medium) var(--fs-small)/1.3 var(--font-ui);
+--text-ui-bold:var(--fw-bold) var(--fs-small)/1.3 var(--font-ui);
+--text-caption:var(--fw-regular) var(--fs-caption)/1.4 var(--font-ui);
+--text-overline:var(--fw-bold) var(--fs-overline)/1.2 var(--font-ui);
+}

@@ -1,0 +1,154 @@
+{
+  "path": "/evenements/l-autre-connexion-projection-et-temps-d-echanges-12-juin-2024",
+  "slug": "evenements__l-autre-connexion-projection-et-temps-d-echanges-12-juin-2024",
+  "rootIsCollection": false,
+  "title": "L'Autre Connexion : Projection et temps d'échanges",
+  "metaDescription": "Viens partager un moment autour du documentaire \"L'Autre connexion\". Découvre une école de la forêt inspirante, nourrie de pratiques de connexion transmises par les peuples premiers. Soirée pour se rencontrer, se questionner et découvrir des projets et des outils en lien avec la nature pour les enfants et les familles. Inscris-toi maintenant !",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eac42d35-deba-483e-8e24-8898d3069baa/IMG_5124/public",
+  "ogTitle": "L'Autre Connexion : Projection et temps d'échanges",
+  "ogUrl": "https://www.les4sources.be/evenements/l-autre-connexion-projection-et-temps-d-echanges-12-juin-2024",
+  "canonical": null,
+  "h1": "L'Autre Connexion : Projection et temps d'échanges",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eac42d35-deba-483e-8e24-8898d3069baa/IMG_5124/public",
+    "localPath": "images/evenements__l-autre-connexion-projection-et-temps-d-echanges-12-juin-2024/01-IMG_5124.jpg"
+  },
+  "pageIcon": "🎞️",
+  "properties": {
+    "Date": "2024-06-12",
+    "Horaires": "20h-22h",
+    "Type d'événement": "Projection",
+    "Thématique": "Education",
+    "Date (fr)": "12 juin 2024",
+    "Date de création": "Jun 5, 2024 8:02 PM",
+    "Statut site web": "Publié",
+    "super:description": "Viens partager un moment autour du documentaire \"L'Autre connexion\". Découvre une école de la forêt inspirante, nourrie de pratiques de connexion transmises par les peuples premiers. Soirée pour se rencontrer, se questionner et découvrir des projets et des outils en lien avec la nature pour les enfants et les familles. Inscris-toi maintenant !",
+    "super:slug": "l-autre-connexion-projection-et-temps-d-echanges-12-juin-2024"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-l-autre-connexion-projection-et-temps-d-echanges-12-juin-2024",
+    "blockId": "0d7e3341-11a4-4b4b-9822-83fc7589ff4e",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/l-autre-connexion-projection-et-temps-d-echanges-12-juin-2024",
+    "createdTime": "2024-06-05T20:02:15.947Z",
+    "lastEditedTime": "2026-01-29T11:14:37.695Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "L'Autre Connexion : Projection et temps d'échanges",
+      "href": "/evenements/l-autre-connexion-projection-et-temps-d-echanges-12-juin-2024",
+      "icon": "🎞️"
+    }
+  ],
+  "contentHtml": "<p id=\"block-5a5428d01d064ea08a746aa30101cb86\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Viens partager un moment autour du documentaire </strong><em><strong>\"L'Autre connexion\"</strong></em><strong>. Un film inspirant qui raconte l'expérience d'une école de la forêt nourrie de pratiques de connexion transmises par les peuples premiers, la Wolf-Kid au Canada.</strong></p><p id=\"block-9110a995119f450c8f94ac8c2b9dde1d\" class=\"notion-text notion-text__content notion-semantic-string\">Une soirée pour se rencontrer, se questionner, découvrir des projets existants en Wallonie et des outils en lien avec la nature à destination des enfants et des familles, applicables par tous.tes.</p><span id=\"block-60486442da1f40f9b078c575b4b80133\" class=\"notion-embed\"><span class=\"notion-embed__content\"><span class=\"notion-embed__container__wrapper\"><span class=\"notion-embed__container\"><iframe src=\"https://www.youtube.com/embed/Voptaq1CKU8?rel=0&amp;start=51\" title=\"www.youtube.com\" sandbox=\"allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation\"></iframe></span></span></span></span><h1 id=\"block-ab8c25a1f68f4bbc819b5c5be751bb5a\" class=\"notion-heading notion-semantic-string\">En pratique</h1><ul class=\"notion-bulleted-list\"><li id=\"block-adf52300d4274c898ea13de8eb55a55c\" class=\"notion-list-item notion-semantic-string\">Inscris-toi <a href=\"https://les4sources.punchpass.com/classes/15451408?embed=true\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">en prenant un \"Ticket\" via Punchpass</a></li><li id=\"block-d0a808004c404cef9b195012594cabdd\" class=\"notion-list-item notion-semantic-string\">Tarif au chapeau pour participer aux frais liés à l'événement</li><li id=\"block-c16a8004079b4188b2e7a58c2df25298\" class=\"notion-list-item notion-semantic-string\">Bar accessible sur place avant et après l'événement</li></ul><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div><h1 id=\"block-c0d86d01df99449c8abe754c5edb41c0\" class=\"notion-heading notion-semantic-string\">Organisateurs</h1><p id=\"block-9c9a684694c14f2ebec61e31ebe7cd2b\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Cet événement est co-organisé</strong>&nbsp;par <a href=\"https://www.proximitycyrys.be/projets/liens-vivants/\" class=\"notion-link link\" data-link-uri=\"https://www.proximitycyrys.be/projets/liens-vivants/\">Liens Vivants</a>, l'ASBL Les 4 Directions et Les 4 Sources.</p><div id=\"block-cda1327135134d9580b6551e66f6ff17\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💁</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"><strong>Envie de loger sur place avant ou après l’événement ?</strong> Fais-nous part de ta demande à <a href=\"mailto:contact@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">contact@les4sources.be</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eac42d35-deba-483e-8e24-8898d3069baa/IMG_5124/public",
+      "alt": "L'Autre Connexion : Projection et temps d'échanges",
+      "role": "cover",
+      "localPath": "images/evenements__l-autre-connexion-projection-et-temps-d-echanges-12-juin-2024/01-IMG_5124.jpg",
+      "shared": false,
+      "bytes": 153336
+    }
+  ],
+  "embeds": [
+    {
+      "kind": "video",
+      "src": "https://www.youtube.com/embed/Voptaq1CKU8?rel=0&start=51",
+      "title": "www.youtube.com"
+    }
+  ],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://les4sources.punchpass.com/classes/15451408?embed=true",
+    "https://www.proximitycyrys.be/projets/liens-vivants/",
+    "mailto:contact@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 130,
+  "fetchedAt": "2026-09-07T21:17:37.820Z",
+  "markdown": "**Viens partager un moment autour du documentaire** ***\"L'Autre connexion\"*****. Un film inspirant qui raconte l'expérience d'une école de la forêt nourrie de pratiques de connexion transmises par les peuples premiers, la Wolf-Kid au Canada.**\n\nUne soirée pour se rencontrer, se questionner, découvrir des projets existants en Wallonie et des outils en lien avec la nature à destination des enfants et des familles, applicables par tous.tes.\n\n<!-- embed:video src=\"https://www.youtube.com/embed/Voptaq1CKU8?rel=0&start=51\" -->\n[www.youtube.com](https://www.youtube.com/embed/Voptaq1CKU8?rel=0&start=51)\n\n## En pratique\n\n- Inscris-toi [en prenant un \"Ticket\" via Punchpass](https://les4sources.punchpass.com/classes/15451408?embed=true)\n- Tarif au chapeau pour participer aux frais liés à l'événement\n- Bar accessible sur place avant et après l'événement\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n\n## Organisateurs\n\n**Cet événement est co-organisé** par [Liens Vivants](https://www.proximitycyrys.be/projets/liens-vivants/), l'ASBL Les 4 Directions et Les 4 Sources.\n\n> 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [contact@les4sources.be](mailto:contact@les4sources.be).\n",
+  "extractedAt": "2026-09-07T21:41:44.424Z"
+}

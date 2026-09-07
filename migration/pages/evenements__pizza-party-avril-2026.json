@@ -1,0 +1,163 @@
+{
+  "path": "/evenements/pizza-party-avril-2026",
+  "slug": "evenements__pizza-party-avril-2026",
+  "rootIsCollection": false,
+  "title": "🍕Pizza Party d’avril",
+  "metaDescription": "Pizza Party du 10 avril 2026 aux 4 Sources (Yvoir)",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ecc5688d-fb79-4544-a2e5-59fa8632ad42/evenement_gnral__a_-3/public",
+  "ogTitle": "🍕Pizza Party d’avril",
+  "ogUrl": "https://www.les4sources.be/evenements/pizza-party-avril-2026",
+  "canonical": null,
+  "h1": "🍕Pizza Party d’avril",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ecc5688d-fb79-4544-a2e5-59fa8632ad42/evenement_gnral__a_-3/public",
+    "localPath": "images/evenements__pizza-party-avril-2026/01-evenement_gnral__a_-3.jpg"
+  },
+  "pageIcon": "🍕",
+  "properties": {
+    "Date": "2026-04-10",
+    "Horaires": "à partir de 18h30",
+    "Type d'événement": "Pizza Party",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "10 avril 2026",
+    "Tarif": "€10.00",
+    "Date de création": "Jan 8, 2026 1:44 PM",
+    "Statut site web": "Publié",
+    "super:description": "Pizza Party du 10 avril 2026 aux 4 Sources (Yvoir)",
+    "super:slug": "pizza-party-avril-2026"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-pizza-party-avril-2026",
+    "blockId": "2e20d149-3317-8037-b884-e0b70e65df55",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/pizza-party-avril-2026",
+    "createdTime": "2026-01-08T13:44:59.258Z",
+    "lastEditedTime": "2026-04-04T09:54:21.130Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "🍕Pizza Party d’avril",
+      "href": "/evenements/pizza-party-avril-2026",
+      "icon": "🍕"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-2e20d149331780b59992d71243f50655\" class=\"notion-heading notion-semantic-string\">Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée ! \n\nBienvenue <strong>ce vendredi 10 avril, dès 18h30</strong> :</h3><ul class=\"notion-bulleted-list\"><li id=\"block-2e20d14933178048a7cbc41cfeccffac\" class=\"notion-list-item notion-semantic-string\">nos boulangères préparent de délicieux pâtons au levain le jour même</li><li id=\"block-2e20d1493317809181b8d77f810d4555\" class=\"notion-list-item notion-semantic-string\">tu amènes ta garniture en fonction de tes envies</li><li id=\"block-2e20d149331780e98120dde4716e664a\" class=\"notion-list-item notion-semantic-string\">nous cuisons les pizzas au feu de bois entre 19h et 20h</li><li id=\"block-2e20d14933178036abd4ec74d900081a\" class=\"notion-list-item notion-semantic-string\">et vous les dégustez en terrasse plein sud, 360°C nature !</li><li id=\"block-2e20d14933178017836dffd0c7f1df49\" class=\"notion-list-item notion-semantic-string\">en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂</li></ul><p id=\"block-2e20d14933178092bc1bd68186bb35a9\" class=\"notion-text notion-text__content notion-semantic-string\">👍 Le four de boulangerie est chauffé au bois\n👍 Les pâtons sont bio et au levain\n👍 Et les gens sont super cools !\n</p><div id=\"block-2f70d149331780d0b8cdec2af276347e\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/pizza-party-davril-2026\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🍕</span></div><span class=\"notion-semantic-string\">Je m'inscris de ce pas !</span></a></div><div id=\"block-2e20d1493317808a93bef9d909fcd0ad\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9697ac54-afaa-4b03-98ef-7d3822a0da03/IMG_2254/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9697ac54-afaa-4b03-98ef-7d3822a0da03/IMG_2254/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9697ac54-afaa-4b03-98ef-7d3822a0da03/IMG_2254/public\"></span></div><h1 id=\"block-2e20d149331780d5869cd172beff188c\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-2e20d149331780119a32ef5998f2205f\" class=\"notion-list-item notion-semantic-string\"><a href=\"https://www.billetweb.fr/pizza-party-de-septembre-2025\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">I</a>nscription indispensable jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons</li><li id=\"block-2e20d149331780949f28c936249d4dc6\" class=\"notion-list-item notion-semantic-string\">Participation : 10 €/adulte et 6/enfant (jusqu’à 15 ans)</li><li id=\"block-2e20d149331780288dd2d068c6eaf530\" class=\"notion-list-item notion-semantic-string\">Bar avec boissons bios/locales/de saison sur place 🍹</li><li id=\"block-2e20d149331780aaae31d53e66eb82e4\" class=\"notion-list-item notion-semantic-string\">Paiement des consommations en cash ou par virement sur place</li></ul><p id=\"block-2e20d149331780cda79be5306940e567\" class=\"notion-text notion-text__content notion-semantic-string\">Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h30, lorsque le four est encore chaud de la journée.\n</p><div id=\"block-2f70d1493317807381cbd9f749df2483\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/pizza-party-davril-2026\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🍕</span></div><span class=\"notion-semantic-string\">Je m'inscris de ce pas !</span></a></div><div id=\"block-2e20d149331780af8270e01ce6c50472\" class=\"notion-callout bg-yellow-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🆕</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"></span><p id=\"block-2e20d149331780cbb713d4ef1dbe8c92\" class=\"notion-text notion-text__content notion-semantic-string\">L’inscription se passe désormais via billetweb.fr ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque ou passer par l’app Payconiq.</p></div></div><h3 id=\"block-2e20d1493317808597fef78a4c5af852\" class=\"notion-heading notion-semantic-string\">Prévisions météo</h3><div id=\"block-2e20d1493317800abd19f488fbaea48f\" class=\"super-embed\">\n<iframe src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius\" name=\"CW2\" width=\"318\" height=\"318\"></iframe></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ecc5688d-fb79-4544-a2e5-59fa8632ad42/evenement_gnral__a_-3/public",
+      "alt": "🍕Pizza Party d’avril",
+      "role": "cover",
+      "localPath": "images/evenements__pizza-party-avril-2026/01-evenement_gnral__a_-3.jpg",
+      "shared": false,
+      "bytes": 166984
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9697ac54-afaa-4b03-98ef-7d3822a0da03/IMG_2254/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/f5cc30e0084a-IMG_2254.jpg",
+      "shared": true,
+      "bytes": 121904
+    }
+  ],
+  "embeds": [
+    {
+      "kind": "other",
+      "src": "https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius",
+      "title": "api.wo-cloud.com",
+      "rawHtml": "<iframe src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius\" name=\"CW2\" width=\"318\" height=\"318\"></iframe>"
+    }
+  ],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.billetweb.fr/pizza-party-davril-2026",
+    "https://www.billetweb.fr/pizza-party-de-septembre-2025"
+  ],
+  "collections": [],
+  "wordCount": 231,
+  "fetchedAt": "2026-09-07T21:17:40.245Z",
+  "markdown": "#### Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée ! Bienvenue **ce vendredi 10 avril, dès 18h30** :\n\n- nos boulangères préparent de délicieux pâtons au levain le jour même\n- tu amènes ta garniture en fonction de tes envies\n- nous cuisons les pizzas au feu de bois entre 19h et 20h\n- et vous les dégustez en terrasse plein sud, 360°C nature !\n- en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂\n\n👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !\n\n[🍕 Je m'inscris de ce pas !](https://www.billetweb.fr/pizza-party-davril-2026){.button}\n\n![image](images/_shared/f5cc30e0084a-IMG_2254.jpg)\n\n## **Infos pratiques**\n\n- [I](https://www.billetweb.fr/pizza-party-de-septembre-2025)nscription indispensable jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons\n- Participation : 10 €/adulte et 6/enfant (jusqu’à 15 ans)\n- Bar avec boissons bios/locales/de saison sur place 🍹\n- Paiement des consommations en cash ou par virement sur place\n\nLes enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h30, lorsque le four est encore chaud de la journée.\n\n[🍕 Je m'inscris de ce pas !](https://www.billetweb.fr/pizza-party-davril-2026){.button}\n\n> 🆕 L’inscription se passe désormais via billetweb.fr ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque ou passer par l’app Payconiq.\n\n#### Prévisions météo\n\n<!-- embed:other src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius\" -->\n[api.wo-cloud.com](https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.445Z"
+}

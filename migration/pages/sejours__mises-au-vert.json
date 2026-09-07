@@ -1,0 +1,472 @@
+{
+  "path": "/sejours/mises-au-vert",
+  "slug": "sejours__mises-au-vert",
+  "rootIsCollection": false,
+  "title": "Mises au vert pour petites équipes en Wallonie - Les 4 Sources (Yvoir)",
+  "metaDescription": "Votre mise au vert au cœur d'un tiers-lieu de 15 ha à Yvoir. Salles, hébergements et ateliers pour 6 à 25 personnes. Devis sur demande.",
+  "ogImage": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/uploads/cover/c7ed24e5-1dcc-44b5-aef2-6f4339e811f5.jpeg",
+  "ogTitle": "Mises au vert pour petites équipes en Wallonie - Les 4 Sources (Yvoir)",
+  "ogUrl": "https://www.les4sources.be/sejours/mises-au-vert",
+  "canonical": "https://www.les4sources.be/sejours/mises-au-vert",
+  "h1": "Mise au vert aux 4 Sources, pour petites équipes engagées",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/10dc7211-98f5-4439-91ac-666953a3a8f2/img_4040/public",
+    "localPath": "images/sejours__mises-au-vert/01-img_4040.jpg"
+  },
+  "pageIcon": "🍃",
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "sejours-mises-au-vert",
+    "blockId": "0e626c4e-f4fa-4620-814d-60b3ec38fbf5",
+    "parentId": "aaee8e6cac31408cad25d5a62f3e5a32",
+    "type": "page",
+    "uri": "/sejours/mises-au-vert",
+    "createdTime": "2024-04-03T16:54:37.151Z",
+    "lastEditedTime": "2026-08-20T13:00:35.023Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Séjours et locations",
+      "href": "/sejours",
+      "icon": "🏡"
+    },
+    {
+      "label": "Mise au vert aux 4 Sources, pour petites équipes engagées",
+      "href": "/sejours/mises-au-vert",
+      "icon": "🍃"
+    }
+  ],
+  "contentHtml": "<div id=\"block-674b85592c7340129d1b547ab18b2dd6\" class=\"notion-divider\"></div><p id=\"block-afe206f8f89e4a799501c591a1ccdddc\" class=\"notion-text notion-text__content notion-semantic-string\">Les 4 Sources, c'est 15 hectares de nature entre Namur et Dinant, à Yvoir ; un vrai bol d'air pour les équipes qui ont besoin de se retrouver ailleurs qu'au bureau. ASBL, professions libérales, collectifs, startups : de 6 à 25 personnes, on vous accueille les bras ouverts pour une mise au vert qui fait du bien.</p><div id=\"block-3c20d149331780a3915fd4ee32990fa7\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b2cfd815-6350-4dd7-acdd-c4ed0957acac/dclic_1/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b2cfd815-6350-4dd7-acdd-c4ed0957acac/dclic_1/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b2cfd815-6350-4dd7-acdd-c4ed0957acac/dclic_1/public\"></span></div><h2 id=\"block-34b0d149331780588c18db625f911016\" class=\"notion-heading notion-semantic-string\">Pour quel type d’équipe ?</h2><p id=\"block-34b0d14933178027aa9dfc3afdcc837f\" class=\"notion-text notion-text__content notion-semantic-string\">Les 4 Sources accueille les équipes qui ont besoin de souffler, de réfléchir ensemble et de reprendre de la hauteur.</p><p id=\"block-34b0d14933178029b90be7a4424009c6\" class=\"notion-text notion-text__content notion-semantic-string\">On nous choisit particulièrement quand on est :</p><ul class=\"notion-bulleted-list\"><li id=\"block-34b0d149331780c292cef2ddb1394f44\" class=\"notion-list-item notion-semantic-string\">Une <strong>ASBL</strong> qui prépare son AG, son plan d'action ou la cohésion de son équipe salariée</li><li id=\"block-34b0d149331780279762f086ded47b09\" class=\"notion-list-item notion-semantic-string\">Une <strong>profession libérale</strong> (avocats, kinés, architectes, médecins) qui veut travailler sa stratégie entre associés<!-- --></li><li id=\"block-34b0d149331780c1931ade1cf6d7e6ea\" class=\"notion-list-item notion-semantic-string\">Un <strong>collectif</strong> qui a besoin d'un cadre pour une journée de gouvernance ou de prise de décision</li><li id=\"block-34b0d1493317803eb68ac85936b70e6f\" class=\"notion-list-item notion-semantic-string\">Une <strong>petite startup</strong> ou une <strong>PME</strong> qui veut sortir du bureau pour un lancement, un bilan, un sprint ou un hackaton</li></ul><p id=\"block-34b0d1493317803bb5f9c68c4983eeeb\" class=\"notion-text notion-text__content notion-semantic-string\">Les groupes que nous recevons comptent généralement entre <strong>6 et 25 personnes</strong>.</p><div id=\"block-3c20d149331780fbb058e8b513f70b01\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/19bec52d-5270-4c19-bdcb-922cba1f82b3/img_4040/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/19bec52d-5270-4c19-bdcb-922cba1f82b3/img_4040/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/19bec52d-5270-4c19-bdcb-922cba1f82b3/img_4040/public\"></span></div><h2 id=\"block-34b0d14933178019bbebeb4689c11f8a\" class=\"notion-heading notion-semantic-string\">Nos formules</h2><p id=\"block-34b0d14933178007a1e2fe6256750d5a\" class=\"notion-text notion-text__content notion-semantic-string\">Trois formats, selon ce dont vous avez besoin.</p><h3 id=\"block-34b0d149331780d18c7ae447d7972d3e\" class=\"notion-heading notion-semantic-string\">☀️ La journée au vert</h3><p id=\"block-34b0d1493317807bb417c932372de0d7\" class=\"notion-text notion-text__content notion-semantic-string\">Pour une journée stratégique, un bilan trimestriel, un atelier de cohésion.\nDe <strong>8h à 18h</strong>, salle de travail privative, café - thé - tisane, jusqu'à 50 personnes.\nIdéale pour un CODIR, une journée de rentrée d'équipe ou une réunion de gouvernance.</p><h3 id=\"block-34b0d14933178091b67edc64b972c0e3\" class=\"notion-heading notion-semantic-string\">🌙 Le 24 h résidentiel</h3><p id=\"block-34b0d1493317800aa854fec03b816462\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Une journée + une nuit sur place.</strong> Le format que nos équipes préfèrent : un souper partagé le soir, un petit-déjeuner copieux, et une seconde demi-journée pour consolider.\nArrivée la veille 16h, départ le lendemain 17h.\nDe 6 à 25 personnes.</p><h3 id=\"block-34b0d1493317804fb4b1d8e581cea0ef\" class=\"notion-heading notion-semantic-string\">🌿 La longue mise au vert</h3><p id=\"block-34b0d149331780388333e9b53c613188\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Deux nuits, trois jours.</strong> Pour un séminaire complet, une retraite d'équipe, ou un moment de ressourcement en profondeur. Idéal en semaine.\nPossibilité d'intégrer <a href=\"/catalogue\" class=\"notion-link link\" data-link-uri=\"/catalogue\">un ou plusieurs ateliers de notre catalogue</a>.\nDe 6 à 25 personnes.</p><div id=\"block-3c20d1493317802b90beff90b00c999c\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/591d3796-defb-4bf2-a738-c3dbd6470864/img_6987/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/591d3796-defb-4bf2-a738-c3dbd6470864/img_6987/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/591d3796-defb-4bf2-a738-c3dbd6470864/img_6987/public\"></span></div><h2 id=\"block-34b0d1493317801f9658e282f62f9fd6\" class=\"notion-heading notion-semantic-string\">Ce qui est inclus (plus de détails en bas de page)</h2><p id=\"block-34b0d149331780d29cd2cd1eefa78211\" class=\"notion-text notion-text__content notion-semantic-string\">Pour que tu puisses te concentrer sur ton équipe et rien d'autre :</p><ul class=\"notion-bulleted-list\"><li id=\"block-34b0d1493317800fa0ccdeff099b8930\" class=\"notion-list-item notion-semantic-string\">🏡 <strong>Hébergement</strong> en gîte résidentiel (jusqu’à 25 personnes)</li><li id=\"block-34b0d1493317807c8956ccfd44b38838\" class=\"notion-list-item notion-semantic-string\">🪑 <strong>Salle de travail privative</strong> lumineuse et équipée (vidéoprojecteur et écran, flipchart, WiFi, jusqu’à 25 personnes)</li><li id=\"block-34b0d14933178017b51aff0010a9d239\" class=\"notion-list-item notion-semantic-string\">☕ <strong>Pauses café-thé</strong> avec viennoiseries maison ou goûter aux plantes sauvages</li><li id=\"block-34b0d149331780a1907ae02da45cce26\" class=\"notion-list-item notion-semantic-string\">🔥 <strong>Espaces communs</strong> : terrasse, jardin</li><li id=\"block-34b0d149331780ae9cc2f0e33b5c5b7c\" class=\"notion-list-item notion-semantic-string\">🌳 <strong>Accès libre</strong> aux sentiers de randonnée traversant le Domaine</li></ul><p id=\"block-34b0d1493317801b90adf9a39df68d9b\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>En option</strong> : repas préparés sur place (selon disponibilité), <a href=\"/catalogue\" class=\"notion-link link\" data-link-uri=\"/catalogue\">ateliers thématiques</a>, <a href=\"/catalogue/pizza-ou-camembert-party\" class=\"notion-link link\" data-link-uri=\"/catalogue/pizza-ou-camembert-party\">souper pizzas au feu de bois</a>, <a href=\"/catalogue/grimpe-encadree-dans-les-arbres\" class=\"notion-link link\" data-link-uri=\"/catalogue/grimpe-encadree-dans-les-arbres\">initiation grimpe dans les arbres</a>, <a href=\"/catalogue/decouverte-du-projet-des-4-sources\" class=\"notion-link link\" data-link-uri=\"/catalogue/decouverte-du-projet-des-4-sources\">visite guidée du projet</a>.</p><div id=\"block-3c20d149331780aca93bf2a2701c8b41\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/cbd36e50-92e5-4915-9104-4c38c272b4b0/img_4049/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/cbd36e50-92e5-4915-9104-4c38c272b4b0/img_4049/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/cbd36e50-92e5-4915-9104-4c38c272b4b0/img_4049/public\"></span></div><h2 id=\"block-34b0d14933178044ba2edbba8db6602d\" class=\"notion-heading notion-semantic-string\">Questions fréquentes</h2><h3 id=\"block-34b0d149331780a6902ffc4fda6c16de\" class=\"notion-heading notion-semantic-string\">Qu'est-ce qu'une mise au vert exactement ?</h3><p id=\"block-34b0d149331780148b7fe7fad05382ab\" class=\"notion-text notion-text__content notion-semantic-string\">Une mise au vert, c'est un moment hors-bureau que s'offre une équipe pour prendre de la distance, poser sa stratégie, renforcer sa cohésion ou simplement recharger les batteries. Le principe : changer de cadre pour changer de regard.</p><h3 id=\"block-34b0d149331780b388b4e5e9c23c1732\" class=\"notion-heading notion-semantic-string\">Combien de personnes pouvez-vous accueillir ?</h3><p id=\"block-34b0d149331780b39b0cd1ba5efb8d55\" class=\"notion-text notion-text__content notion-semantic-string\">De <strong>6 à 25 personnes en formule résidentielle</strong> (avec hébergement sur place). Jusqu'à <strong>50-60 personnes en journée</strong> sans nuitée.</p><h3 id=\"block-34b0d149331780c4bb43d042b9202d3c\" class=\"notion-heading notion-semantic-string\">Faut-il une voiture pour venir ?</h3><p id=\"block-34b0d149331780f6a260cb337f7a2cb3\" class=\"notion-text notion-text__content notion-semantic-string\">Non. La gare d'Yvoir (ligne Namur–Dinant) est à 1h10 à pied, et nous pouvons organiser une navette pour ton groupe si besoin (selon disponibilité à vérifier).</p><h3 id=\"block-34b0d149331780b4a5dadc36d77b8f4f\" class=\"notion-heading notion-semantic-string\">Et si certaines personnes ont des régimes alimentaires particuliers ?</h3><p id=\"block-34b0d1493317800789c8febd3dbade33\" class=\"notion-text notion-text__content notion-semantic-string\">Les options végétariennes et sans gluten font partie de notre standard. Pour les autres allergies ou régimes (vegan, sans lactose, sans porc…), préviens-nous au moment de la réservation : on s'adapte.</p><h3 id=\"block-34b0d1493317809899aaf4c50c1e2102\" class=\"notion-heading notion-semantic-string\">Peut-on venir avec notre propre facilitateur ou animateur ?</h3><p id=\"block-34b0d149331780b28575c07f6da9483e\" class=\"notion-text notion-text__content notion-semantic-string\">Oui, bien sûr. Tu peux venir avec ton propre facilitateur interne ou externe.</p><h3 id=\"block-34b0d14933178090ac87e8a5bd82ff6f\" class=\"notion-heading notion-semantic-string\">Les espaces sont-ils connectés (WiFi, écrans) ?</h3><p id=\"block-34b0d14933178011b610e92260eaa71a\" class=\"notion-text notion-text__content notion-semantic-string\">Oui. WiFi accessible dans toutes les salles, vidéoprojecteur et écran de projection, flipchart. On a pensé à tout pour que tu puisses travailler sereinement — et débrancher quand tu veux.</p><h3 id=\"block-34b0d149331780638d2cf19967962fce\" class=\"notion-heading notion-semantic-string\">Peut-on organiser une mise au vert en hiver ?</h3><p id=\"block-34b0d14933178097b5bac70e0d866b92\" class=\"notion-text notion-text__content notion-semantic-string\">Absolument. Les salles sont chauffées, les gîtes aussi, et une mise au vert en hiver au coin du feu a vraiment son charme. Nous accueillons toute l'année.</p><h3 id=\"block-34b0d149331780388dfcc731a68a33b9\" class=\"notion-heading notion-semantic-string\">Combien de temps à l'avance faut-il réserver ?</h3><p id=\"block-34b0d1493317807bae9aea04915ee930\" class=\"notion-text notion-text__content notion-semantic-string\">Idéalement <strong>3 à 4 mois à l'avance</strong>, surtout pour le résidentiel de printemps et d'automne qui sont nos saisons les plus demandées. Pour une journée sans hébergement en semaine, on peut parfois s'arranger à plus courte échéance.</p><h2 id=\"block-2630d149331780babcbee71d13492fe7\" class=\"notion-heading notion-semantic-string\">Des hébergements accueillants 🏡</h2><div id=\"block-34b0d1493317803483f8ef17da13211c\" class=\"notion-column-list\"><div id=\"block-34b0d14933178089beacc233fec846d3\" class=\"notion-column\" data-width=\"50%\"><h3 id=\"block-34b0d1493317804b9cb1cd264e65384c\" class=\"notion-heading notion-semantic-string\"><a href=\"/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes\" class=\"notion-link link\" data-link-uri=\"/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes\">La Chevêche</a></h3><div id=\"block-1630d1493317802a8296fe1cbedac9a9\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3a4023d6-c71a-450a-a38b-ff1d57e2c34f/e74d6a3d-5207-42ea-a090-d5e4185e62d7/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3a4023d6-c71a-450a-a38b-ff1d57e2c34f/e74d6a3d-5207-42ea-a090-d5e4185e62d7/public\"><img alt=\"Hébergement pour une équipe de 8 personnes à Yvoir\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3a4023d6-c71a-450a-a38b-ff1d57e2c34f/e74d6a3d-5207-42ea-a090-d5e4185e62d7/public\"></span></div><ul class=\"notion-bulleted-list\"><li id=\"block-c0316958803d4085a7ce3244db819e4c\" class=\"notion-list-item notion-semantic-string\">Accueille jusqu’à<strong> 8 personnes</strong></li><li id=\"block-7654d246c89143939d3f5d4a63f4a9ba\" class=\"notion-list-item notion-semantic-string\">Au rez-de-chaussée</li><li id=\"block-6210a8b050d241c8bb59a6e184006afd\" class=\"notion-list-item notion-semantic-string\">2 chambres, chacune avec salle de douche</li><li id=\"block-bbce5ba8cbd2408ebb82bf4cac6bbe47\" class=\"notion-list-item notion-semantic-string\">Cuisine et séjour</li></ul></div><div id=\"block-34b0d149331780c7ab2df757c637a3bb\" class=\"notion-column\" data-width=\"50%\"><h3 id=\"block-34b0d1493317804c92fad88a0b940463\" class=\"notion-heading notion-semantic-string\"><a href=\"/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes\" class=\"notion-link link\" data-link-uri=\"/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes\">La Hulotte<!-- --></a></h3><div id=\"block-ed974fe95f96437aa65716a7e358869e\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c56438f0-6da4-4668-908e-ef3d710dc287/981dc533-fce0-417b-9f7c-ffd762e22873/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c56438f0-6da4-4668-908e-ef3d710dc287/981dc533-fce0-417b-9f7c-ffd762e22873/public\"><img alt=\"Hébergement pour 4 à 25 personnes à Yvoir\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c56438f0-6da4-4668-908e-ef3d710dc287/981dc533-fce0-417b-9f7c-ffd762e22873/public\"></span></div><ul class=\"notion-bulleted-list\"><li id=\"block-0db9732dc8a74b77ada310aac93fde25\" class=\"notion-list-item notion-semantic-string\">Accueille jusqu’à<strong> 15 personnes</strong></li><li id=\"block-b9c587b6d4cc43ef8f185bcf3144f71f\" class=\"notion-list-item notion-semantic-string\">Aux 1er et 2ème étages</li><li id=\"block-f3dbd6b35f824f088d7a8b03fc2a001f\" class=\"notion-list-item notion-semantic-string\">4 chambres, chacune avec salle de douche</li><li id=\"block-deebc51084df4482bf0eedfa67a486b3\" class=\"notion-list-item notion-semantic-string\">Une mezzanine avec 2 lits d’appoint</li><li id=\"block-e94a9aa55a334e6aa830d75a91e0a4bb\" class=\"notion-list-item notion-semantic-string\">Cuisine et séjour</li></ul></div></div><h2 id=\"block-2630d149331780389a87d170aa47d10f\" class=\"notion-heading notion-semantic-string\">Des ateliers à faire entre collègues 👩🏻‍💼</h2><div id=\"block-2630d149331780718dded01b3f36a522\" class=\"notion-collection inline\"><div class=\"notion-collection-gallery no-border-top small\"><div id=\"block-catalogue-ateliers-cuisine-sucr-ou-sal\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-ateliers-cuisine-sucr-ou-sal\" href=\"/catalogue/ateliers-cuisine-sucr-ou-sal\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/ateliers-cuisine-sucr-ou-sal\">Ateliers cuisine (sucré ou salé)</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/13cb90cf-e9cb-4b57-993c-10b4051249ac/_mg_8590/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/13cb90cf-e9cb-4b57-993c-10b4051249ac/_mg_8590/public\"><img alt=\"Ateliers cuisine (sucré ou salé)\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/13cb90cf-e9cb-4b57-993c-10b4051249ac/_mg_8590/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"><span class=\"notion-icon text\">🥧</span></div>Ateliers cuisine (sucré ou salé)</div><div class=\"notion-property notion-property__select wrap property-3d696768 notion-collection-card__property\"><span class=\"notion-pill pill-yellow first\">Sur demande</span></div></div></div><div id=\"block-catalogue-atelier-pizza\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-atelier-pizza\" href=\"/catalogue/atelier-pizza\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/atelier-pizza\">Atelier pizza</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fd3adad5-0105-4945-b37a-44b21e1f3400/_mg_0320/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fd3adad5-0105-4945-b37a-44b21e1f3400/_mg_0320/public\"><img alt=\"Atelier pizza\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fd3adad5-0105-4945-b37a-44b21e1f3400/_mg_0320/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"><span class=\"notion-icon text\">🍕</span></div>Atelier pizza</div><div class=\"notion-property notion-property__select wrap property-3d696768 notion-collection-card__property\"><span class=\"notion-pill pill-yellow first\">Sur demande</span></div></div></div><div id=\"block-catalogue-atelier-fabrication-de-pizza-1\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-atelier-fabrication-de-pizza-1\" href=\"/catalogue/atelier-fabrication-de-pizza-1\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/atelier-fabrication-de-pizza-1\">Atelier pain au levain</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a4032d75-20c4-4b97-bbb9-799b76d48637/20260522_155714_6fed2a9a/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a4032d75-20c4-4b97-bbb9-799b76d48637/20260522_155714_6fed2a9a/public\"><img alt=\"Atelier pain au levain\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a4032d75-20c4-4b97-bbb9-799b76d48637/20260522_155714_6fed2a9a/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"><span class=\"notion-icon text\">🥖</span></div>Atelier pain au levain</div><div class=\"notion-property notion-property__select wrap property-3d696768 notion-collection-card__property\"><span class=\"notion-pill pill-yellow first\">Sur demande</span></div></div></div><div id=\"block-catalogue-fabrication-de-bombes-graines\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-fabrication-de-bombes-graines\" href=\"/catalogue/fabrication-de-bombes-graines\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/fabrication-de-bombes-graines\">Fabrication de bombes à graines   </a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/add038ff-b2fe-4ced-b58b-06d9ea7f281c/2g0a1423/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/add038ff-b2fe-4ced-b58b-06d9ea7f281c/2g0a1423/public\"><img alt=\"Fabrication de bombes à graines\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/add038ff-b2fe-4ced-b58b-06d9ea7f281c/2g0a1423/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"><span class=\"notion-icon text\">🌸</span></div>Fabrication de bombes à graines<!-- -->   </div><div class=\"notion-property notion-property__select wrap property-3d696768 notion-collection-card__property\"><span class=\"notion-pill pill-pink first\">En saison</span></div></div></div><div id=\"block-catalogue-echanges-sur-les-4-sources-autour-dun-repas\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-echanges-sur-les-4-sources-autour-dun-repas\" href=\"/catalogue/echanges-sur-les-4-sources-autour-dun-repas\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/echanges-sur-les-4-sources-autour-dun-repas\">Echanges sur les 4 Sources autour d’un repas   </a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/29ef8a12-191c-4c87-ac0f-3fc778d7af11/img-20250316-wa0022/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/29ef8a12-191c-4c87-ac0f-3fc778d7af11/img-20250316-wa0022/public\"><img alt=\"Echanges sur les 4 Sources autour d’un repas\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/29ef8a12-191c-4c87-ac0f-3fc778d7af11/img-20250316-wa0022/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"><span class=\"notion-icon text\">🍴</span></div>Echanges sur les 4 Sources autour d’un repas<!-- -->   </div><div class=\"notion-property notion-property__select wrap property-3d696768 notion-collection-card__property\"><span class=\"notion-pill pill-yellow first\">Sur demande</span></div></div></div><div id=\"block-catalogue-fabrication-dallume-feux\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-fabrication-dallume-feux\" href=\"/catalogue/fabrication-dallume-feux\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/fabrication-dallume-feux\">Fabrication d’allume-feux</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ef34cfb7-75ab-493d-84e5-06f32ef96b46/20260416_212002/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ef34cfb7-75ab-493d-84e5-06f32ef96b46/20260416_212002/public\"><img alt=\"Fabrication d’allume-feux\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ef34cfb7-75ab-493d-84e5-06f32ef96b46/20260416_212002/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"><span class=\"notion-icon text\">🔥</span></div>Fabrication d’allume-feux</div><div class=\"notion-property notion-property__select wrap property-3d696768 notion-collection-card__property\"><span class=\"notion-pill pill-yellow first\">Sur demande</span></div></div></div><div id=\"block-catalogue-visite-de-la-micro-ferme\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-visite-de-la-micro-ferme\" href=\"/catalogue/visite-de-la-micro-ferme\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/visite-de-la-micro-ferme\">Visite de la micro-ferme</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/752d9454-b9e0-49d1-8741-4b6702387dc6/_g0a4637/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/752d9454-b9e0-49d1-8741-4b6702387dc6/_g0a4637/public\"><img alt=\"Visite de la micro-ferme\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/752d9454-b9e0-49d1-8741-4b6702387dc6/_g0a4637/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"><span class=\"notion-icon text\">🦙</span></div>Visite de la micro-ferme</div><div class=\"notion-property notion-property__select wrap property-3d696768 notion-collection-card__property\"><span class=\"notion-pill pill-yellow first\">Sur demande</span></div></div></div><div id=\"block-catalogue-zythologie\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-zythologie\" href=\"/catalogue/zythologie\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/zythologie\">Introduction à la zythologie</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7a1f5ca6-fbed-47aa-acad-d02cee15e987/img-20250522-wa0047/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7a1f5ca6-fbed-47aa-acad-d02cee15e987/img-20250522-wa0047/public\"><img alt=\"Introduction à la zythologie\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7a1f5ca6-fbed-47aa-acad-d02cee15e987/img-20250522-wa0047/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"><span class=\"notion-icon text\">🍺</span></div>Introduction à la zythologie</div><div class=\"notion-property notion-property__select wrap property-3d696768 notion-collection-card__property\"><span class=\"notion-pill pill-yellow first\">Sur demande</span></div></div></div><div id=\"block-catalogue-pizza-ou-camembert-party\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-pizza-ou-camembert-party\" href=\"/catalogue/pizza-ou-camembert-party\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/pizza-ou-camembert-party\">Pizza Party pour groupes</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/10bf9e37-3d34-408b-9873-89cf235cf221/_mg_0392/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/10bf9e37-3d34-408b-9873-89cf235cf221/_mg_0392/public\"><img alt=\"Pizza Party pour groupes\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/10bf9e37-3d34-408b-9873-89cf235cf221/_mg_0392/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"><span class=\"notion-icon text\">🍕</span></div>Pizza Party pour groupes</div><div class=\"notion-property notion-property__select wrap property-3d696768 notion-collection-card__property\"><span class=\"notion-pill pill-green first\">Toujours disponible</span></div></div></div><div id=\"block-catalogue-decouverte-du-projet-des-4-sources\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-decouverte-du-projet-des-4-sources\" href=\"/catalogue/decouverte-du-projet-des-4-sources\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/decouverte-du-projet-des-4-sources\">Un tour à la découverte du projet des 4 Sources</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6e7f902e-efca-4c22-af35-d08cc27398b1/_mg_9000/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6e7f902e-efca-4c22-af35-d08cc27398b1/_mg_9000/public\"><img alt=\"Un tour à la découverte du projet des 4 Sources\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6e7f902e-efca-4c22-af35-d08cc27398b1/_mg_9000/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"><span class=\"notion-icon text\">🍃</span></div>Un tour à la découverte du projet des 4 Sources</div><div class=\"notion-property notion-property__select wrap property-3d696768 notion-collection-card__property\"><span class=\"notion-pill pill-green first\">Toujours disponible</span></div></div></div><div id=\"block-catalogue-initiation-au-disc-golf\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-initiation-au-disc-golf\" href=\"/catalogue/initiation-au-disc-golf\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/initiation-au-disc-golf\">Initiation au Disc-golf</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4b6c93e0-20d2-4654-b8b7-207c067748a5/20250510_153904_37c36bca/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4b6c93e0-20d2-4654-b8b7-207c067748a5/20250510_153904_37c36bca/public\"><img alt=\"Initiation au Disc-golf\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4b6c93e0-20d2-4654-b8b7-207c067748a5/20250510_153904_37c36bca/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"><span class=\"notion-icon text\">🤾🏻‍♂️</span></div>Initiation au Disc-golf</div><div class=\"notion-property notion-property__select wrap property-3d696768 notion-collection-card__property\"><span class=\"notion-pill pill-yellow first\">Sur demande</span></div></div></div><div id=\"block-catalogue-grimpe-encadree-dans-les-arbres\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-grimpe-encadree-dans-les-arbres\" href=\"/catalogue/grimpe-encadree-dans-les-arbres\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/grimpe-encadree-dans-les-arbres\">Grimpe encadrée dans les arbres</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eb3229c1-0a9e-4052-9401-813447ae198a/_mg_8964/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eb3229c1-0a9e-4052-9401-813447ae198a/_mg_8964/public\"><img alt=\"Grimpe encadrée dans les arbres\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eb3229c1-0a9e-4052-9401-813447ae198a/_mg_8964/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"><span class=\"notion-icon text\">🪢</span></div>Grimpe encadrée dans les arbres</div><div class=\"notion-property notion-property__select wrap property-3d696768 notion-collection-card__property\"><span class=\"notion-pill pill-yellow first\">Sur demande</span></div></div></div><div id=\"block-catalogue-temps-avec-le-troupeau-d-anes\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-temps-avec-le-troupeau-d-anes\" href=\"/catalogue/temps-avec-le-troupeau-d-anes\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/temps-avec-le-troupeau-d-anes\">Bain d’ânes</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9381c49d-8acc-4ea0-8325-7d3b7ee26fa3/_G0A4772/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9381c49d-8acc-4ea0-8325-7d3b7ee26fa3/_G0A4772/public\"><img alt=\"Bain d’ânes\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9381c49d-8acc-4ea0-8325-7d3b7ee26fa3/_G0A4772/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"><span class=\"notion-icon text\">🐎</span></div>Bain d’ânes</div><div class=\"notion-property notion-property__select wrap property-3d696768 notion-collection-card__property\"><span class=\"notion-pill pill-green first\">Toujours disponible</span></div></div></div><div id=\"block-catalogue-cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages\" href=\"/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages\">Cuisine d’un repas ou d’un goûter aux plantes sauvages</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/89f941f1-ad6b-4c5c-a315-fbe4bde2e9c2/20260611_120942/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/89f941f1-ad6b-4c5c-a315-fbe4bde2e9c2/20260611_120942/public\"><img alt=\"Cuisine d’un repas ou d’un goûter aux plantes sauvages\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/89f941f1-ad6b-4c5c-a315-fbe4bde2e9c2/20260611_120942/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"><span class=\"notion-icon text\">🥧</span></div>Cuisine d’un repas ou d’un goûter aux plantes sauvages</div><div class=\"notion-property notion-property__select wrap property-3d696768 notion-collection-card__property\"><span class=\"notion-pill pill-pink first\">En saison</span></div></div></div></div></div><h2 id=\"block-2800d1493317803c9f32c621077eca02\" class=\"notion-heading notion-semantic-string\">Travailler au calme… 🍃</h2><p id=\"block-19f15423d93b469694374c0ee0e0097a\" class=\"notion-text notion-text__content notion-semantic-string\">Vous souhaitez trouver un lieu au calme, avec une nature environnante exceptionnelle pour mieux vous concentrer pendant certaines périodes de votre mise au vert ? Profitez de <a href=\"/coworking\" class=\"notion-link link\" data-link-uri=\"/coworking\">notre coworking</a> avec 3 bureaux. Chaises confortables, wifi, imprimante et écrans 24” HDMI.</p><div id=\"block-3c20d14933178062bb59d2cc4285e4fc\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/deb30bce-1c11-44b1-be4b-61dda0b94482/img-20240314-wa0036/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/deb30bce-1c11-44b1-be4b-61dda0b94482/img-20240314-wa0036/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/deb30bce-1c11-44b1-be4b-61dda0b94482/img-20240314-wa0036/public\"></span></div><h2 id=\"block-34b0d149331780e88287fb4f699737b2\" class=\"notion-heading notion-semantic-string\">Tarifs</h2><p id=\"block-34b0d1493317805f8ef0d8da9df6c92a\" class=\"notion-text notion-text__content notion-semantic-string\">Nos formules démarrent <strong>à partir de 95€ par personne et par jour</strong> en résidentiel tout compris (hébergement, trois repas, salle, pauses).</p><p id=\"block-34b0d1493317801382d9de1e4dea8498\" class=\"notion-text notion-text__content notion-semantic-string\">Le tarif final dépend de la taille du groupe, de la saison, et des options choisies.</p><blockquote id=\"block-34b0d149331780d199bfcdeafcf20596\" class=\"notion-quote\"><span class=\"notion-semantic-string\"><strong>Demande un devis personnalisé à Malau</strong> — réponse sous 48h ouvrées.</span><p id=\"block-34b0d14933178024874de215cc877dc4\" class=\"notion-text notion-text__content notion-semantic-string\">Contacte Malau à <a href=\"mailto:sejours@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">sejours@les4sources.be</a> ou par téléphone au +32(0)490/46.77.10. Dans le rush ? Alors par téléphone ce sera plus rapide.</p></blockquote><h2 id=\"block-2630d14933178000accfd200e64a2ceb\" class=\"notion-heading notion-semantic-string\">Comment venir aux 4 Sources ?</h2><p id=\"block-34b0d1493317805da51ef990de578c37\" class=\"notion-text notion-text__content notion-semantic-string\">Les 4 Sources se trouvent à <strong>Yvoir, en province de Namur</strong>, entre Namur (20 min) et Dinant (10 min).</p><ul class=\"notion-bulleted-list\"><li id=\"block-34b0d14933178065ba15c54d063a9816\" class=\"notion-list-item notion-semantic-string\"><strong>En train</strong> : gare d'Yvoir (ligne IC directe depuis Bruxelles et Luxembourg), à 1h10 à pied et 25 minutes en vélo. Une navette peut être organisée sur demande et selon disponibilité.</li><li id=\"block-34b0d149331780478bb1f7bd7e50935d\" class=\"notion-list-item notion-semantic-string\"><strong>En voiture</strong> : sortie 18 Courrière ou 19 Spontin depuis l'E411, puis 15 min. Parking gratuit sur place.</li><li id=\"block-34b0d149331780df899ce71ca7a60590\" class=\"notion-list-item notion-semantic-string\"><strong>Depuis Bruxelles</strong> : en voiture (1h30) ou en train.</li><li id=\"block-34b0d149331780fab6a3ef96c486daf6\" class=\"notion-list-item notion-semantic-string\"><strong>Depuis Liège</strong> : 1 heure en voiture.</li><li id=\"block-34b0d149331780679bf2d06401951c13\" class=\"notion-list-item notion-semantic-string\"><strong>Accessibilité PMR</strong> : pas évidente — contacte-nous pour valider les besoins spécifiques.</li></ul><div id=\"block-34b0d14933178052b37dc2ee6dd95f09\" class=\"notion-button\"><a class=\"notion-link notion-button__content\" href=\"/a-propos/acces-ahinvaux\"><span class=\"notion-semantic-string\">Accéder aux 4 Sources</span></a></div><div id=\"block-3c20d149331780b992c0c1f78d6aee9d\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c00195f1-0c6c-4d6c-b507-ee972d467278/dclic_8/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c00195f1-0c6c-4d6c-b507-ee972d467278/dclic_8/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c00195f1-0c6c-4d6c-b507-ee972d467278/dclic_8/public\"></span></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/10dc7211-98f5-4439-91ac-666953a3a8f2/img_4040/public",
+      "alt": "Mise au vert aux 4 Sources, pour petites équipes engagées",
+      "role": "cover",
+      "localPath": "images/sejours__mises-au-vert/01-img_4040.jpg",
+      "shared": false,
+      "bytes": 298064
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b2cfd815-6350-4dd7-acdd-c4ed0957acac/dclic_1/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours__mises-au-vert/02-dclic_1.jpg",
+      "shared": false,
+      "bytes": 132762
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/19bec52d-5270-4c19-bdcb-922cba1f82b3/img_4040/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours__mises-au-vert/03-img_4040.jpg",
+      "shared": false,
+      "bytes": 298064
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/591d3796-defb-4bf2-a738-c3dbd6470864/img_6987/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours__mises-au-vert/04-img_6987.jpg",
+      "shared": false,
+      "bytes": 200515
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/cbd36e50-92e5-4915-9104-4c38c272b4b0/img_4049/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours__mises-au-vert/05-img_4049.jpg",
+      "shared": false,
+      "bytes": 203581
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3a4023d6-c71a-450a-a38b-ff1d57e2c34f/e74d6a3d-5207-42ea-a090-d5e4185e62d7/public",
+      "alt": "Hébergement pour une équipe de 8 personnes à Yvoir",
+      "role": "content",
+      "localPath": "images/_shared/9c01de4e1305-e74d6a3d-5207-42ea-a090-d5e4185e62d7.png",
+      "shared": true,
+      "bytes": 764574
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c56438f0-6da4-4668-908e-ef3d710dc287/981dc533-fce0-417b-9f7c-ffd762e22873/public",
+      "alt": "Hébergement pour 4 à 25 personnes à Yvoir",
+      "role": "content",
+      "localPath": "images/_shared/b1dc51d286e7-981dc533-fce0-417b-9f7c-ffd762e22873.png",
+      "shared": true,
+      "bytes": 450434
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/13cb90cf-e9cb-4b57-993c-10b4051249ac/_mg_8590/public",
+      "alt": "Ateliers cuisine (sucré ou salé)",
+      "role": "content",
+      "localPath": "images/_shared/92faea9fd74f-_mg_8590.jpg",
+      "shared": true,
+      "bytes": 80438
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fd3adad5-0105-4945-b37a-44b21e1f3400/_mg_0320/public",
+      "alt": "Atelier pizza",
+      "role": "content",
+      "localPath": "images/_shared/6856cf1c31e9-_mg_0320.jpg",
+      "shared": true,
+      "bytes": 97389
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a4032d75-20c4-4b97-bbb9-799b76d48637/20260522_155714_6fed2a9a/public",
+      "alt": "Atelier pain au levain",
+      "role": "content",
+      "localPath": "images/_shared/c98f7a2d3f02-20260522_155714_6fed2a9a.jpg",
+      "shared": true,
+      "bytes": 178249
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/add038ff-b2fe-4ced-b58b-06d9ea7f281c/2g0a1423/public",
+      "alt": "Fabrication de bombes à graines",
+      "role": "content",
+      "localPath": "images/_shared/db41e2df0458-2g0a1423.jpg",
+      "shared": true,
+      "bytes": 178823
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/29ef8a12-191c-4c87-ac0f-3fc778d7af11/img-20250316-wa0022/public",
+      "alt": "Echanges sur les 4 Sources autour d’un repas",
+      "role": "content",
+      "localPath": "images/_shared/978e8f8350cd-img-20250316-wa0022.jpg",
+      "shared": true,
+      "bytes": 231822
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ef34cfb7-75ab-493d-84e5-06f32ef96b46/20260416_212002/public",
+      "alt": "Fabrication d’allume-feux",
+      "role": "content",
+      "localPath": "images/_shared/d6c901565b9e-20260416_212002.jpg",
+      "shared": true,
+      "bytes": 20358
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/752d9454-b9e0-49d1-8741-4b6702387dc6/_g0a4637/public",
+      "alt": "Visite de la micro-ferme",
+      "role": "content",
+      "localPath": "images/_shared/05cf40cc86d5-_g0a4637.jpg",
+      "shared": true,
+      "bytes": 91036
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7a1f5ca6-fbed-47aa-acad-d02cee15e987/img-20250522-wa0047/public",
+      "alt": "Introduction à la zythologie",
+      "role": "content",
+      "localPath": "images/_shared/0caec834de45-img-20250522-wa0047.jpg",
+      "shared": true,
+      "bytes": 108379
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/10bf9e37-3d34-408b-9873-89cf235cf221/_mg_0392/public",
+      "alt": "Pizza Party pour groupes",
+      "role": "content",
+      "localPath": "images/_shared/47db306b75bf-_mg_0392.jpg",
+      "shared": true,
+      "bytes": 153668
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6e7f902e-efca-4c22-af35-d08cc27398b1/_mg_9000/public",
+      "alt": "Un tour à la découverte du projet des 4 Sources",
+      "role": "content",
+      "localPath": "images/_shared/013598df6bef-_mg_9000.jpg",
+      "shared": true,
+      "bytes": 627900
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4b6c93e0-20d2-4654-b8b7-207c067748a5/20250510_153904_37c36bca/public",
+      "alt": "Initiation au Disc-golf",
+      "role": "content",
+      "localPath": "images/_shared/1ac3a09656ae-20250510_153904_37c36bca.jpg",
+      "shared": true,
+      "bytes": 125243
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eb3229c1-0a9e-4052-9401-813447ae198a/_mg_8964/public",
+      "alt": "Grimpe encadrée dans les arbres",
+      "role": "content",
+      "localPath": "images/_shared/f0e535e70a28-_mg_8964.jpg",
+      "shared": true,
+      "bytes": 452580
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9381c49d-8acc-4ea0-8325-7d3b7ee26fa3/_G0A4772/public",
+      "alt": "Bain d’ânes",
+      "role": "content",
+      "localPath": "images/_shared/8310a8380629-_G0A4772.jpg",
+      "shared": true,
+      "bytes": 89995
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/89f941f1-ad6b-4c5c-a315-fbe4bde2e9c2/20260611_120942/public",
+      "alt": "Cuisine d’un repas ou d’un goûter aux plantes sauvages",
+      "role": "content",
+      "localPath": "images/_shared/17025bcde3f3-20260611_120942.jpg",
+      "shared": true,
+      "bytes": 258031
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/deb30bce-1c11-44b1-be4b-61dda0b94482/img-20240314-wa0036/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours__mises-au-vert/22-img-20240314-wa0036.jpg",
+      "shared": false,
+      "bytes": 260615
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c00195f1-0c6c-4d6c-b507-ee972d467278/dclic_8/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/sejours__mises-au-vert/23-dclic_8.jpg",
+      "shared": false,
+      "bytes": 144046
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/uploads/cover/c7ed24e5-1dcc-44b5-aef2-6f4339e811f5.jpeg",
+      "alt": "Mises au vert pour petites équipes en Wallonie - Les 4 Sources (Yvoir)",
+      "role": "og",
+      "localPath": "images/sejours__mises-au-vert/24-c7ed24e5-1dcc-44b5-aef2-6f4339e811f5.jpg",
+      "shared": false,
+      "bytes": 631463
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/catalogue",
+    "/catalogue/pizza-ou-camembert-party",
+    "/catalogue/grimpe-encadree-dans-les-arbres",
+    "/catalogue/decouverte-du-projet-des-4-sources",
+    "/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes",
+    "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes",
+    "/catalogue/ateliers-cuisine-sucr-ou-sal",
+    "/catalogue/atelier-pizza",
+    "/catalogue/atelier-fabrication-de-pizza-1",
+    "/catalogue/fabrication-de-bombes-graines",
+    "/catalogue/echanges-sur-les-4-sources-autour-dun-repas",
+    "/catalogue/fabrication-dallume-feux",
+    "/catalogue/visite-de-la-micro-ferme",
+    "/catalogue/zythologie",
+    "/catalogue/initiation-au-disc-golf",
+    "/catalogue/temps-avec-le-troupeau-d-anes",
+    "/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages",
+    "/coworking",
+    "/a-propos/acces-ahinvaux"
+  ],
+  "externalLinks": [
+    "mailto:sejours@les4sources.be"
+  ],
+  "collections": [
+    {
+      "id": "2630d149331780718dded01b3f36a522",
+      "title": "Catalogue des activités",
+      "source": {
+        "id": "catalogue",
+        "uri": "/catalogue",
+        "title": "Catalogue des activités",
+        "inferred": true
+      },
+      "view": "Galerie",
+      "views": [
+        "Galerie"
+      ],
+      "layout": "gallery",
+      "grouped": false,
+      "items": [
+        {
+          "title": "🥧Ateliers cuisine (sucré ou salé)",
+          "href": "/catalogue/ateliers-cuisine-sucr-ou-sal",
+          "icon": "🥧",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/13cb90cf-e9cb-4b57-993c-10b4051249ac/_mg_8590/public",
+          "props": [
+            "Sur demande"
+          ],
+          "properties": {
+            "Type": "Sur demande"
+          },
+          "coverLocalPath": "images/_shared/92faea9fd74f-_mg_8590.jpg"
+        },
+        {
+          "title": "🍕Atelier pizza",
+          "href": "/catalogue/atelier-pizza",
+          "icon": "🍕",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fd3adad5-0105-4945-b37a-44b21e1f3400/_mg_0320/public",
+          "props": [
+            "Sur demande"
+          ],
+          "properties": {
+            "Type": "Sur demande"
+          },
+          "coverLocalPath": "images/_shared/6856cf1c31e9-_mg_0320.jpg"
+        },
+        {
+          "title": "🥖Atelier pain au levain",
+          "href": "/catalogue/atelier-fabrication-de-pizza-1",
+          "icon": "🥖",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a4032d75-20c4-4b97-bbb9-799b76d48637/20260522_155714_6fed2a9a/public",
+          "props": [
+            "Sur demande"
+          ],
+          "properties": {
+            "Type": "Sur demande"
+          },
+          "coverLocalPath": "images/_shared/c98f7a2d3f02-20260522_155714_6fed2a9a.jpg"
+        },
+        {
+          "title": "🌸Fabrication de bombes à graines",
+          "href": "/catalogue/fabrication-de-bombes-graines",
+          "icon": "🌸",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/add038ff-b2fe-4ced-b58b-06d9ea7f281c/2g0a1423/public",
+          "props": [
+            "En saison"
+          ],
+          "properties": {
+            "Type": "En saison"
+          },
+          "coverLocalPath": "images/_shared/db41e2df0458-2g0a1423.jpg"
+        },
+        {
+          "title": "🍴Echanges sur les 4 Sources autour d’un repas",
+          "href": "/catalogue/echanges-sur-les-4-sources-autour-dun-repas",
+          "icon": "🍴",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/29ef8a12-191c-4c87-ac0f-3fc778d7af11/img-20250316-wa0022/public",
+          "props": [
+            "Sur demande"
+          ],
+          "properties": {
+            "Type": "Sur demande"
+          },
+          "coverLocalPath": "images/_shared/978e8f8350cd-img-20250316-wa0022.jpg"
+        },
+        {
+          "title": "🔥Fabrication d’allume-feux",
+          "href": "/catalogue/fabrication-dallume-feux",
+          "icon": "🔥",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ef34cfb7-75ab-493d-84e5-06f32ef96b46/20260416_212002/public",
+          "props": [
+            "Sur demande"
+          ],
+          "properties": {
+            "Type": "Sur demande"
+          },
+          "coverLocalPath": "images/_shared/d6c901565b9e-20260416_212002.jpg"
+        },
+        {
+          "title": "🦙Visite de la micro-ferme",
+          "href": "/catalogue/visite-de-la-micro-ferme",
+          "icon": "🦙",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/752d9454-b9e0-49d1-8741-4b6702387dc6/_g0a4637/public",
+          "props": [
+            "Sur demande"
+          ],
+          "properties": {
+            "Type": "Sur demande"
+          },
+          "coverLocalPath": "images/_shared/05cf40cc86d5-_g0a4637.jpg"
+        },
+        {
+          "title": "🍺Introduction à la zythologie",
+          "href": "/catalogue/zythologie",
+          "icon": "🍺",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7a1f5ca6-fbed-47aa-acad-d02cee15e987/img-20250522-wa0047/public",
+          "props": [
+            "Sur demande"
+          ],
+          "properties": {
+            "Type": "Sur demande"
+          },
+          "coverLocalPath": "images/_shared/0caec834de45-img-20250522-wa0047.jpg"
+        },
+        {
+          "title": "🍕Pizza Party pour groupes",
+          "href": "/catalogue/pizza-ou-camembert-party",
+          "icon": "🍕",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/10bf9e37-3d34-408b-9873-89cf235cf221/_mg_0392/public",
+          "props": [
+            "Toujours disponible"
+          ],
+          "properties": {
+            "Type": "Toujours disponible"
+          },
+          "coverLocalPath": "images/_shared/47db306b75bf-_mg_0392.jpg"
+        },
+        {
+          "title": "🍃Un tour à la découverte du projet des 4 Sources",
+          "href": "/catalogue/decouverte-du-projet-des-4-sources",
+          "icon": "🍃",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6e7f902e-efca-4c22-af35-d08cc27398b1/_mg_9000/public",
+          "props": [
+            "Toujours disponible"
+          ],
+          "properties": {
+            "Type": "Toujours disponible"
+          },
+          "coverLocalPath": "images/_shared/013598df6bef-_mg_9000.jpg"
+        },
+        {
+          "title": "🤾🏻‍♂️Initiation au Disc-golf",
+          "href": "/catalogue/initiation-au-disc-golf",
+          "icon": "🤾🏻‍♂️",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4b6c93e0-20d2-4654-b8b7-207c067748a5/20250510_153904_37c36bca/public",
+          "props": [
+            "Sur demande"
+          ],
+          "properties": {
+            "Type": "Sur demande"
+          },
+          "coverLocalPath": "images/_shared/1ac3a09656ae-20250510_153904_37c36bca.jpg"
+        },
+        {
+          "title": "🪢Grimpe encadrée dans les arbres",
+          "href": "/catalogue/grimpe-encadree-dans-les-arbres",
+          "icon": "🪢",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/eb3229c1-0a9e-4052-9401-813447ae198a/_mg_8964/public",
+          "props": [
+            "Sur demande"
+          ],
+          "properties": {
+            "Type": "Sur demande"
+          },
+          "coverLocalPath": "images/_shared/f0e535e70a28-_mg_8964.jpg"
+        },
+        {
+          "title": "🐎Bain d’ânes",
+          "href": "/catalogue/temps-avec-le-troupeau-d-anes",
+          "icon": "🐎",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9381c49d-8acc-4ea0-8325-7d3b7ee26fa3/_G0A4772/public",
+          "props": [
+            "Toujours disponible"
+          ],
+          "properties": {
+            "Type": "Toujours disponible"
+          },
+          "coverLocalPath": "images/_shared/8310a8380629-_G0A4772.jpg"
+        },
+        {
+          "title": "🥧Cuisine d’un repas ou d’un goûter aux plantes sauvages",
+          "href": "/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages",
+          "icon": "🥧",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/89f941f1-ad6b-4c5c-a315-fbe4bde2e9c2/20260611_120942/public",
+          "props": [
+            "En saison"
+          ],
+          "properties": {
+            "Type": "En saison"
+          },
+          "coverLocalPath": "images/_shared/17025bcde3f3-20260611_120942.jpg"
+        }
+      ]
+    }
+  ],
+  "wordCount": 1029,
+  "fetchedAt": "2026-09-07T21:17:51.577Z",
+  "markdown": "Les 4 Sources, c'est 15 hectares de nature entre Namur et Dinant, à Yvoir ; un vrai bol d'air pour les équipes qui ont besoin de se retrouver ailleurs qu'au bureau. ASBL, professions libérales, collectifs, startups : de 6 à 25 personnes, on vous accueille les bras ouverts pour une mise au vert qui fait du bien.\n\n![image](images/sejours__mises-au-vert/02-dclic_1.jpg)\n\n### Pour quel type d’équipe ?\n\nLes 4 Sources accueille les équipes qui ont besoin de souffler, de réfléchir ensemble et de reprendre de la hauteur.\n\nOn nous choisit particulièrement quand on est :\n\n- Une **ASBL** qui prépare son AG, son plan d'action ou la cohésion de son équipe salariée\n- Une **profession libérale** (avocats, kinés, architectes, médecins) qui veut travailler sa stratégie entre associés\n- Un **collectif** qui a besoin d'un cadre pour une journée de gouvernance ou de prise de décision\n- Une **petite startup** ou une **PME** qui veut sortir du bureau pour un lancement, un bilan, un sprint ou un hackaton\n\nLes groupes que nous recevons comptent généralement entre **6 et 25 personnes**.\n\n![image](images/sejours__mises-au-vert/03-img_4040.jpg)\n\n### Nos formules\n\nTrois formats, selon ce dont vous avez besoin.\n\n#### ☀️ La journée au vert\n\nPour une journée stratégique, un bilan trimestriel, un atelier de cohésion. De **8h à 18h**, salle de travail privative, café - thé - tisane, jusqu'à 50 personnes. Idéale pour un CODIR, une journée de rentrée d'équipe ou une réunion de gouvernance.\n\n#### 🌙 Le 24 h résidentiel\n\n**Une journée + une nuit sur place.** Le format que nos équipes préfèrent : un souper partagé le soir, un petit-déjeuner copieux, et une seconde demi-journée pour consolider. Arrivée la veille 16h, départ le lendemain 17h. De 6 à 25 personnes.\n\n#### 🌿 La longue mise au vert\n\n**Deux nuits, trois jours.** Pour un séminaire complet, une retraite d'équipe, ou un moment de ressourcement en profondeur. Idéal en semaine. Possibilité d'intégrer [un ou plusieurs ateliers de notre catalogue](/catalogue). De 6 à 25 personnes.\n\n![image](images/sejours__mises-au-vert/04-img_6987.jpg)\n\n### Ce qui est inclus (plus de détails en bas de page)\n\nPour que tu puisses te concentrer sur ton équipe et rien d'autre :\n\n- 🏡 **Hébergement** en gîte résidentiel (jusqu’à 25 personnes)\n- 🪑 **Salle de travail privative** lumineuse et équipée (vidéoprojecteur et écran, flipchart, WiFi, jusqu’à 25 personnes)\n- ☕ **Pauses café-thé** avec viennoiseries maison ou goûter aux plantes sauvages\n- 🔥 **Espaces communs** : terrasse, jardin\n- 🌳 **Accès libre** aux sentiers de randonnée traversant le Domaine\n\n**En option** : repas préparés sur place (selon disponibilité), [ateliers thématiques](/catalogue), [souper pizzas au feu de bois](/catalogue/pizza-ou-camembert-party), [initiation grimpe dans les arbres](/catalogue/grimpe-encadree-dans-les-arbres), [visite guidée du projet](/catalogue/decouverte-du-projet-des-4-sources).\n\n![image](images/sejours__mises-au-vert/05-img_4049.jpg)\n\n### Questions fréquentes\n\n#### Qu'est-ce qu'une mise au vert exactement ?\n\nUne mise au vert, c'est un moment hors-bureau que s'offre une équipe pour prendre de la distance, poser sa stratégie, renforcer sa cohésion ou simplement recharger les batteries. Le principe : changer de cadre pour changer de regard.\n\n#### Combien de personnes pouvez-vous accueillir ?\n\nDe **6 à 25 personnes en formule résidentielle** (avec hébergement sur place). Jusqu'à **50-60 personnes en journée** sans nuitée.\n\n#### Faut-il une voiture pour venir ?\n\nNon. La gare d'Yvoir (ligne Namur–Dinant) est à 1h10 à pied, et nous pouvons organiser une navette pour ton groupe si besoin (selon disponibilité à vérifier).\n\n#### Et si certaines personnes ont des régimes alimentaires particuliers ?\n\nLes options végétariennes et sans gluten font partie de notre standard. Pour les autres allergies ou régimes (vegan, sans lactose, sans porc…), préviens-nous au moment de la réservation : on s'adapte.\n\n#### Peut-on venir avec notre propre facilitateur ou animateur ?\n\nOui, bien sûr. Tu peux venir avec ton propre facilitateur interne ou externe.\n\n#### Les espaces sont-ils connectés (WiFi, écrans) ?\n\nOui. WiFi accessible dans toutes les salles, vidéoprojecteur et écran de projection, flipchart. On a pensé à tout pour que tu puisses travailler sereinement — et débrancher quand tu veux.\n\n#### Peut-on organiser une mise au vert en hiver ?\n\nAbsolument. Les salles sont chauffées, les gîtes aussi, et une mise au vert en hiver au coin du feu a vraiment son charme. Nous accueillons toute l'année.\n\n#### Combien de temps à l'avance faut-il réserver ?\n\nIdéalement **3 à 4 mois à l'avance**, surtout pour le résidentiel de printemps et d'automne qui sont nos saisons les plus demandées. Pour une journée sans hébergement en semaine, on peut parfois s'arranger à plus courte échéance.\n\n### Des hébergements accueillants 🏡\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n#### [La Chevêche](/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes)\n\n![Hébergement pour une équipe de 8 personnes à Yvoir](images/_shared/9c01de4e1305-e74d6a3d-5207-42ea-a090-d5e4185e62d7.png)\n\n- Accueille jusqu’à **8 personnes**\n- Au rez-de-chaussée\n- 2 chambres, chacune avec salle de douche\n- Cuisine et séjour\n\n<!-- column width=\"50%\" -->\n\n#### [La Hulotte](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes)\n\n![Hébergement pour 4 à 25 personnes à Yvoir](images/_shared/b1dc51d286e7-981dc533-fce0-417b-9f7c-ffd762e22873.png)\n\n- Accueille jusqu’à **15 personnes**\n- Aux 1er et 2ème étages\n- 4 chambres, chacune avec salle de douche\n- Une mezzanine avec 2 lits d’appoint\n- Cuisine et séjour\n<!-- /columns -->\n\n### Des ateliers à faire entre collègues 👩🏻‍💼\n\n<!-- collection \"Catalogue des activités\" view=\"Galerie\" layout=\"gallery\" -->\n- [🥧Ateliers cuisine (sucré ou salé)](/catalogue/ateliers-cuisine-sucr-ou-sal) — Sur demande\n- [🍕Atelier pizza](/catalogue/atelier-pizza) — Sur demande\n- [🥖Atelier pain au levain](/catalogue/atelier-fabrication-de-pizza-1) — Sur demande\n- [🌸Fabrication de bombes à graines](/catalogue/fabrication-de-bombes-graines) — En saison\n- [🍴Echanges sur les 4 Sources autour d’un repas](/catalogue/echanges-sur-les-4-sources-autour-dun-repas) — Sur demande\n- [🔥Fabrication d’allume-feux](/catalogue/fabrication-dallume-feux) — Sur demande\n- [🦙Visite de la micro-ferme](/catalogue/visite-de-la-micro-ferme) — Sur demande\n- [🍺Introduction à la zythologie](/catalogue/zythologie) — Sur demande\n- [🍕Pizza Party pour groupes](/catalogue/pizza-ou-camembert-party) — Toujours disponible\n- [🍃Un tour à la découverte du projet des 4 Sources](/catalogue/decouverte-du-projet-des-4-sources) — Toujours disponible\n- [🤾🏻‍♂️Initiation au Disc-golf](/catalogue/initiation-au-disc-golf) — Sur demande\n- [🪢Grimpe encadrée dans les arbres](/catalogue/grimpe-encadree-dans-les-arbres) — Sur demande\n- [🐎Bain d’ânes](/catalogue/temps-avec-le-troupeau-d-anes) — Toujours disponible\n- [🥧Cuisine d’un repas ou d’un goûter aux plantes sauvages](/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages) — En saison\n<!-- /collection -->\n\n### Travailler au calme… 🍃\n\nVous souhaitez trouver un lieu au calme, avec une nature environnante exceptionnelle pour mieux vous concentrer pendant certaines périodes de votre mise au vert ? Profitez de [notre coworking](/coworking) avec 3 bureaux. Chaises confortables, wifi, imprimante et écrans 24” HDMI.\n\n![image](images/sejours__mises-au-vert/22-img-20240314-wa0036.jpg)\n\n### Tarifs\n\nNos formules démarrent **à partir de 95€ par personne et par jour** en résidentiel tout compris (hébergement, trois repas, salle, pauses).\n\nLe tarif final dépend de la taille du groupe, de la saison, et des options choisies.\n\n> **Demande un devis personnalisé à Malau** — réponse sous 48h ouvrées.\n>\n> Contacte Malau à [sejours@les4sources.be](mailto:sejours@les4sources.be) ou par téléphone au +32(0)490/46.77.10. Dans le rush ? Alors par téléphone ce sera plus rapide.\n\n### Comment venir aux 4 Sources ?\n\nLes 4 Sources se trouvent à **Yvoir, en province de Namur**, entre Namur (20 min) et Dinant (10 min).\n\n- **En train** : gare d'Yvoir (ligne IC directe depuis Bruxelles et Luxembourg), à 1h10 à pied et 25 minutes en vélo. Une navette peut être organisée sur demande et selon disponibilité.\n- **En voiture** : sortie 18 Courrière ou 19 Spontin depuis l'E411, puis 15 min. Parking gratuit sur place.\n- **Depuis Bruxelles** : en voiture (1h30) ou en train.\n- **Depuis Liège** : 1 heure en voiture.\n- **Accessibilité PMR** : pas évidente — contacte-nous pour valider les besoins spécifiques.\n\n[Accéder aux 4 Sources](/a-propos/acces-ahinvaux){.button}\n\n![image](images/sejours__mises-au-vert/23-dclic_8.jpg)\n",
+  "extractedAt": "2026-09-07T21:41:44.558Z"
+}

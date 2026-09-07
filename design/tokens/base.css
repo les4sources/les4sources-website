@@ -1,0 +1,10 @@
+html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body{margin:0;font:var(--text-body);color:var(--text-primary);background:var(--surface-page)}
+a{color:var(--text-link);text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px;transition:color var(--dur-fast) var(--ease)}
+a:hover{color:var(--text-link-hover);text-decoration-color:var(--highlight)}
+h1,h2,h3,h4{margin:0;color:var(--text-primary);text-wrap:balance}
+h1{font:var(--text-h1)}h2{font:var(--text-h2)}h3{font:var(--text-h3)}h4{font:var(--text-h4)}
+p{margin:0;text-wrap:pretty}
+::selection{background:var(--c-socioculturel);color:var(--c-teal)}
+.l4s-highlight{background:linear-gradient(transparent 55%,var(--c-socioculturel) 55%,var(--c-socioculturel) 92%,transparent 92%);padding:0 .1em}
+.l4s-overline{font:var(--text-overline);letter-spacing:var(--ls-overline);text-transform:uppercase;color:var(--text-primary)}

@@ -1,0 +1,63 @@
+{
+  "path": "/sejours/hebergements-yvoir/photos-des-hbergements/la-terrasse-et-lentre-du-gte",
+  "slug": "sejours__hebergements-yvoir__photos-des-hbergements__la-terrasse-et-lentre-du-gte",
+  "rootIsCollection": false,
+  "title": "La terrasse et l’entrée du gîte",
+  "metaDescription": null,
+  "ogImage": null,
+  "ogTitle": "La terrasse et l’entrée du gîte",
+  "ogUrl": "https://www.les4sources.be/sejours/hebergements-yvoir/photos-des-hbergements/la-terrasse-et-lentre-du-gte",
+  "canonical": null,
+  "h1": "La terrasse et l’entrée du gîte",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Date de création": "Oct 23, 2025 2:21 PM",
+    "Page": "Chevêche"
+  },
+  "propertySchema": [
+    {
+      "id": "y|zT",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "JUEM",
+      "name": "Page",
+      "type": "multi_select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "sejours-hebergements-yvoir-photos-des-hbergements-la-terrasse-et-lentre-du-gte",
+    "blockId": "2950d149-3317-80d1-91bf-deb9f7c59478",
+    "parentId": "28a0d149331781b09d9c000b678af892",
+    "type": "page",
+    "uri": "/sejours/hebergements-yvoir/photos-des-hbergements/la-terrasse-et-lentre-du-gte",
+    "createdTime": "2025-10-23T14:21:54.016Z",
+    "lastEditedTime": "2025-10-23T14:22:10.040Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<div id=\"block-2950d149331780b4b9e9d5cf06ab7581\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1d0e5625-a638-49a9-995f-a39fe283353d/_G0A2834/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1d0e5625-a638-49a9-995f-a39fe283353d/_G0A2834/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1d0e5625-a638-49a9-995f-a39fe283353d/_G0A2834/public\"></span></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1d0e5625-a638-49a9-995f-a39fe283353d/_G0A2834/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/3c1f3720ab07-_G0A2834.jpg",
+      "shared": true,
+      "bytes": 290994
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 0,
+  "fetchedAt": "2026-09-07T21:17:51.323Z",
+  "markdown": "![image](images/_shared/3c1f3720ab07-_G0A2834.jpg)\n",
+  "extractedAt": "2026-09-07T21:41:44.554Z"
+}

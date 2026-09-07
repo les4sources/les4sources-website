@@ -1,0 +1,155 @@
+{
+  "path": "/evenements/focus-jardin-foret-mars-2026",
+  "slug": "evenements__focus-jardin-foret-mars-2026",
+  "rootIsCollection": false,
+  "title": "Focus sur ton projet de jardin-forêt 🎋",
+  "metaDescription": "Une semaine intensive pour démarrer ou progresser dans ton projet de forêt-jardin.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/78809225-c6bb-4b28-8e2b-e9e799088206/focus-foret-jardin_-1/public",
+  "ogTitle": "Focus sur ton projet de jardin-forêt 🎋",
+  "ogUrl": "https://www.les4sources.be/evenements/focus-jardin-foret-mars-2026",
+  "canonical": null,
+  "h1": "Focus sur ton projet de jardin-forêt 🎋",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/78809225-c6bb-4b28-8e2b-e9e799088206/focus-foret-jardin_-1/public",
+    "localPath": "images/evenements__focus-jardin-foret-mars-2026/01-focus-foret-jardin_-1.jpg"
+  },
+  "pageIcon": null,
+  "properties": {
+    "Date": "2026-03-17 → 2026-03-21",
+    "Horaires": "8h30-18h",
+    "Type d'événement": "Formation",
+    "Thématique": "Environnement",
+    "Date (fr)": "Du 17 au 21 mars 2026",
+    "Places disponibles": "8",
+    "Date de création": "Jan 29, 2026 12:53 PM",
+    "Statut site web": "Préparation en cours",
+    "super:description": "Une semaine intensive pour démarrer ou progresser dans ton projet de forêt-jardin.",
+    "super:slug": "focus-jardin-foret-mars-2026"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-focus-jardin-foret-mars-2026",
+    "blockId": "2f70d149-3317-8024-9398-fdee497b7f50",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/focus-jardin-foret-mars-2026",
+    "createdTime": "2026-01-29T12:53:27.460Z",
+    "lastEditedTime": "2026-03-05T13:53:32.612Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Focus sur ton projet de jardin-forêt 🎋",
+      "href": "/evenements/focus-jardin-foret-mars-2026"
+    }
+  ],
+  "contentHtml": "<h1 id=\"block-2f70d149331780ca8ba4d917004db0a7\" class=\"notion-heading notion-semantic-string\">En pratique 🌳</h1><h3 id=\"block-2f70d149331780a59c8ad414820129a1\" class=\"notion-heading notion-semantic-string\"><strong>Une semaine intensive - du 17 au 21 mars - pour démarrer ou progresser dans ton projet de forêt-jardin, organisée par notre partenaire </strong><strong><a href=\"https://www.semisto.org\" class=\"notion-link link\" data-link-uri=\"https://www.semisto.org\">Semisto.</a></strong></h3><p id=\"block-9b2ce0e1fc7f48179501595135456a50\" class=\"notion-text notion-text__content notion-semantic-string\">Faire appel à un bureau d'études pour concevoir ton projet de forêt-jardin représente un investissement important. C'est pourquoi nous proposons une alternative plus accessible. Notre ambition : te permettre de devenir pleinement acteur de ta forêt-jardin en acquérant les compétences pour la concevoir et la réaliser toi-même.</p><p id=\"block-85b48825a57144a685d2baf41cac8244\" class=\"notion-text notion-text__content notion-semantic-string\">Pendant cinq jours, notre collectif d'experts en design, permaculture et écologie t'accompagne pas à pas. Nous t'aidons à définir<strong> la raison d'être de ton projet</strong>, à identifier tes <strong>objectifs</strong> et à établir un <strong>planning réaliste</strong>. Tu découvriras les multiples fonctions de la forêt-jardin et approfondiras tes connaissances en biodiversité, le tout adapté à ton terrain et ta vision.<!-- --></p><p id=\"block-e893d4b5c1de403aba61066d8875a7fd\" class=\"notion-text notion-text__content notion-semantic-string\">Notre approche alterne travail individuel sur ton projet, séances de coaching personnalisées avec nos designers et partages d'expérience avec le groupe. Notre équipe sera là pour analyser ton projet sous tous ses angles et répondre à tes questions.</p><p id=\"block-320db52161954ca2a9fb1eca8ed043ad\" class=\"notion-text notion-text__content notion-semantic-string\">À l'issue de cette semaine, tu repartiras avec des <strong>méthodes concrètes</strong> et surtout, avec une <strong>confiance </strong>renouvelée dans ta capacité à concrétiser ton projet. Notre objectif est que tu sois autonome et serein pour démarrer l'implantation de ta forêt-jardin dans les meilleures conditions.\n</p><div id=\"block-2f70d149331780eaa7ccc134e1682aad\" class=\"notion-button\"><a href=\"https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret-mars-2026\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">💡</span></div><span class=\"notion-semantic-string\">Tous les détails sur cette semaine de formation</span></a></div><h2 id=\"block-2f70d1493317801a87c1fca3a13dce33\" class=\"notion-heading notion-semantic-string\">Contenu de la formation 📝</h2><ul class=\"notion-bulleted-list\"><li id=\"block-d6cd097d4e3c4271be5d0be49a377d47\" class=\"notion-list-item notion-semantic-string\"><strong>5 jours d’ateliers théoriques et pratiques</strong> avec nos formateurs et designers</li><li id=\"block-ebb83150d3154f27a3969347b3e7f405\" class=\"notion-list-item notion-semantic-string\">Des<strong> moments de travail individuel, en binôme et en groupe</strong></li><li id=\"block-9f3c2be7259047e78d53d23a7e9444bf\" class=\"notion-list-item notion-semantic-string\">Des <strong>partages inspirants</strong> avec les autres porteurs de projets, formateurs et assistants</li></ul><h1 id=\"block-2f70d1493317809fbc83c429e9993407\" class=\"notion-heading notion-semantic-string\">Prérequis </h1><p id=\"block-2f70d14933178047bd65feb311a7a365\" class=\"notion-text notion-text__content notion-semantic-string\">Cette semaine de formation s’adresse aux personnes <strong>disposant d’un lieu</strong> où implanter une nouvelle forêt-jardin, ou avec une forêt-jardin dont l’implantation a démarré. </p><div id=\"block-2f70d149331780ceadfafcaee6162dd2\" class=\"notion-image page-width\"><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/492b1a43-a9f7-44e0-9584-fd2320c82658/w1920quality90fitscale-down.avif\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/492b1a43-a9f7-44e0-9584-fd2320c82658/w1920quality90fitscale-down.avif\"><img alt=\"image\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/492b1a43-a9f7-44e0-9584-fd2320c82658/w1920quality90fitscale-down.avif\"></span></div><h1 id=\"block-2f70d149331780e58e49d47f54021638\" class=\"notion-heading notion-semantic-string\"><strong>Concentre-toi sur l'essentiel : nous nous occupons du reste ! </strong></h1><p id=\"block-869a42c745724db78e3f685800377061\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Ton hébergement</strong> est réservé dans l’un de nos gîtes, à deux pas de la salle de formation. Des repas savoureux et des boissons chaudes (café, thé, chocolat) te seront servis tout au long du séjour.</p><p id=\"block-617585f39f114e56a3faf0235a8c2692\" class=\"notion-text notion-text__content notion-semantic-string\">Cette semaine intensive laissera aussi place à la détente : balades en forêt, moments de calme et rencontres avec le troupeau d'ânes t'aideront à recharger tes batteries.</p><p id=\"block-ac89c7899fe74c7886683aea28c7a1ef\" class=\"notion-text notion-text__content notion-semantic-string\">Une expérience unique pour faire avancer ton projet dans un cadre inspirant, acquérir de nouvelles compétences et partager des moments enrichissants avec une communauté passionnée.</p><p id=\"block-89ab2eb006e245e6851241333e2bc9aa\" class=\"notion-text notion-text__content notion-semantic-string\"><em><strong>Une semaine où tout est pensé pour ton confort et ton inspiration.</strong></em></p><p id=\"block-1ba60169bd5b4de586a28e1a4cb9e70d\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Tu ne devras pas te préoccuper des repas </strong>: pour plus de facilité, ceux-ci sont inclus dans le prix de la formation. Nous te proposons des plats sains et variés, et pour les petits déjeuners, il y a de délicieux pains au levain cuits au four à bois des 4 Sources et des oeufs frais des poules. 🐔</p><p id=\"block-e79b6d5d9a404bd6af19afa08b232451\" class=\"notion-text notion-text__content notion-semantic-string\">👌 Des intolérances à nous signaler ? Un formulaire envoyé aux participants permettra de t’assurer des repas adaptés.</p><h2 id=\"block-6d6ddff2513c40f5875452aff3805893\" class=\"notion-heading notion-semantic-string\"><strong>Prix et inscription</strong></h2><p id=\"block-902ca83678be4ae3984dd66a8a1c0627\" class=\"notion-text notion-text__content notion-semantic-string\">Les coûts de la formation induits à <a href=\"https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret-mars-2026\" class=\"notion-link link\" data-link-uri=\"https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret-mars-2026\">Semisto</a> concernent majoritairement :</p><ul class=\"notion-bulleted-list\"><li id=\"block-6f65f64a4ea34142a0c7994ff2425458\" class=\"notion-list-item notion-semantic-string\">la rémunération des formateurs et le remboursement de leurs frais de déplacements</li><li id=\"block-e41e60a8e6a44cddb688cf72908cc877\" class=\"notion-list-item notion-semantic-string\">les 4 nuitées en chambre partagée</li><li id=\"block-4d6fe9b9e6a5467fa02124b7a9b0f3c7\" class=\"notion-list-item notion-semantic-string\">les repas matin, midi et soir</li><li id=\"block-4c272091eb8b4f8482a0b5c0f99b9465\" class=\"notion-list-item notion-semantic-string\">la location d’une salle polyvalente</li></ul><p id=\"block-a255a7bd94f140c899d7913cffb441c7\" class=\"notion-text notion-text__content notion-semantic-string\">L’inscription à la semaine résidentielle de design s’élève à&nbsp;<strong>980 € TVAC</strong>, hébergement et repas inclus.</p><p id=\"block-01cd0a2be22c4b508d8d90e67c3be30a\" class=\"notion-text notion-text__content notion-semantic-string\">Pour les professionnel·le·s, le tarif est de&nbsp;<strong>1 450€</strong>. Les professionnel·le·s (architectes, paysagistes, entrepreneur·e·s de jardin, etc.) peuvent obtenir une facture sur demande.</p><div id=\"block-2f70d14933178009b69bdcc8700affb4\" class=\"notion-button\"><a href=\"https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret-mars-2026\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">💡</span></div><span class=\"notion-semantic-string\">Tous les détails sur cette semaine de formation</span></a></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/78809225-c6bb-4b28-8e2b-e9e799088206/focus-foret-jardin_-1/public",
+      "alt": "Focus sur ton projet de jardin-forêt 🎋",
+      "role": "cover",
+      "localPath": "images/evenements__focus-jardin-foret-mars-2026/01-focus-foret-jardin_-1.jpg",
+      "shared": false,
+      "bytes": 76824
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/492b1a43-a9f7-44e0-9584-fd2320c82658/w1920quality90fitscale-down.avif",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/b6c72afcb36a-w1920quality90fitscale-down.avif",
+      "shared": true,
+      "bytes": 226097
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.semisto.org",
+    "https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret-mars-2026"
+  ],
+  "collections": [],
+  "wordCount": 547,
+  "fetchedAt": "2026-09-07T21:17:32.905Z",
+  "markdown": "## En pratique 🌳\n\n#### **Une semaine intensive - du 17 au 21 mars - pour démarrer ou progresser dans ton projet de forêt-jardin, organisée par notre partenaire** **[Semisto.](https://www.semisto.org)**\n\nFaire appel à un bureau d'études pour concevoir ton projet de forêt-jardin représente un investissement important. C'est pourquoi nous proposons une alternative plus accessible. Notre ambition : te permettre de devenir pleinement acteur de ta forêt-jardin en acquérant les compétences pour la concevoir et la réaliser toi-même.\n\nPendant cinq jours, notre collectif d'experts en design, permaculture et écologie t'accompagne pas à pas. Nous t'aidons à définir **la raison d'être de ton projet**, à identifier tes **objectifs** et à établir un **planning réaliste**. Tu découvriras les multiples fonctions de la forêt-jardin et approfondiras tes connaissances en biodiversité, le tout adapté à ton terrain et ta vision.\n\nNotre approche alterne travail individuel sur ton projet, séances de coaching personnalisées avec nos designers et partages d'expérience avec le groupe. Notre équipe sera là pour analyser ton projet sous tous ses angles et répondre à tes questions.\n\nÀ l'issue de cette semaine, tu repartiras avec des **méthodes concrètes** et surtout, avec une **confiance** renouvelée dans ta capacité à concrétiser ton projet. Notre objectif est que tu sois autonome et serein pour démarrer l'implantation de ta forêt-jardin dans les meilleures conditions.\n\n[💡 Tous les détails sur cette semaine de formation](https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret-mars-2026){.button}\n\n### Contenu de la formation 📝\n\n- **5 jours d’ateliers théoriques et pratiques** avec nos formateurs et designers\n- Des **moments de travail individuel, en binôme et en groupe**\n- Des **partages inspirants** avec les autres porteurs de projets, formateurs et assistants\n\n## Prérequis\n\nCette semaine de formation s’adresse aux personnes **disposant d’un lieu** où implanter une nouvelle forêt-jardin, ou avec une forêt-jardin dont l’implantation a démarré.\n\n![image](images/_shared/b6c72afcb36a-w1920quality90fitscale-down.avif)\n\n## **Concentre-toi sur l'essentiel : nous nous occupons du reste !**\n\n**Ton hébergement** est réservé dans l’un de nos gîtes, à deux pas de la salle de formation. Des repas savoureux et des boissons chaudes (café, thé, chocolat) te seront servis tout au long du séjour.\n\nCette semaine intensive laissera aussi place à la détente : balades en forêt, moments de calme et rencontres avec le troupeau d'ânes t'aideront à recharger tes batteries.\n\nUne expérience unique pour faire avancer ton projet dans un cadre inspirant, acquérir de nouvelles compétences et partager des moments enrichissants avec une communauté passionnée.\n\n***Une semaine où tout est pensé pour ton confort et ton inspiration.***\n\n**Tu ne devras pas te préoccuper des repas** : pour plus de facilité, ceux-ci sont inclus dans le prix de la formation. Nous te proposons des plats sains et variés, et pour les petits déjeuners, il y a de délicieux pains au levain cuits au four à bois des 4 Sources et des oeufs frais des poules. 🐔\n\n👌 Des intolérances à nous signaler ? Un formulaire envoyé aux participants permettra de t’assurer des repas adaptés.\n\n### **Prix et inscription**\n\nLes coûts de la formation induits à [Semisto](https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret-mars-2026) concernent majoritairement :\n\n- la rémunération des formateurs et le remboursement de leurs frais de déplacements\n- les 4 nuitées en chambre partagée\n- les repas matin, midi et soir\n- la location d’une salle polyvalente\n\nL’inscription à la semaine résidentielle de design s’élève à **980 € TVAC**, hébergement et repas inclus.\n\nPour les professionnel·le·s, le tarif est de **1 450€**. Les professionnel·le·s (architectes, paysagistes, entrepreneur·e·s de jardin, etc.) peuvent obtenir une facture sur demande.\n\n[💡 Tous les détails sur cette semaine de formation](https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret-mars-2026){.button}\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.385Z"
+}

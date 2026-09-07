@@ -1,0 +1,323 @@
+{
+  "path": "/notre-collectif",
+  "slug": "notre-collectif",
+  "rootIsCollection": false,
+  "title": "Le collectif des 4 Sources",
+  "metaDescription": "Des personnes aux profils complémentaires et entrepreneuriaux.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8f075c5b-5e31-4473-a0b1-79743bbe7c55/_g0a4741/public",
+  "ogTitle": "Le collectif des 4 Sources",
+  "ogUrl": "https://www.les4sources.be/notre-collectif",
+  "canonical": null,
+  "h1": "Notre collectif",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8f075c5b-5e31-4473-a0b1-79743bbe7c55/_g0a4741/public",
+    "localPath": "images/notre-collectif/01-_g0a4741.jpg"
+  },
+  "pageIcon": null,
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "notre-collectif",
+    "blockId": "0ae2ec62-afc9-4afe-abe9-bde05608062f",
+    "parentId": "a-propos",
+    "type": "page",
+    "uri": "/notre-collectif",
+    "createdTime": "2024-04-03T13:11:59.884Z",
+    "lastEditedTime": "2026-04-23T13:06:48.953Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Notre collectif",
+      "href": "/notre-collectif"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-32b962c6438040f3885c3637bd167008\" class=\"notion-heading notion-semantic-string\">Des personnes aux profils complémentaires et entrepreneuriaux.</h3><div id=\"block-25b04db3ce9a4396bd59dcfeabf6d022\" class=\"notion-collection inline collection-e93593be43cd488598c5226e7ba2b369\"><div class=\"notion-collection-gallery no-border-top medium\"><div id=\"block-collectif-bndicte-grignard\" class=\"notion-collection-card gallery\"><a id=\"block-collectif-bndicte-grignard\" href=\"/collectif/bndicte-grignard\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/collectif/bndicte-grignard\">Bénédicte Grignard</a><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/72079134-6470-46c8-a4fa-674b40b362a9/benedicte-grignard.jpg\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/72079134-6470-46c8-a4fa-674b40b362a9/benedicte-grignard.jpg\"><img alt=\"Bénédicte Grignard\" class=\"notion-collection-card__cover medium\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/72079134-6470-46c8-a4fa-674b40b362a9/benedicte-grignard.jpg\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Bénédicte Grignard</div><div class=\"notion-property notion-property__select wrap property-43506375 notion-collection-card__property\"><span class=\"notion-pill pill-blue first\">Habitant·e</span></div></div></div><div id=\"block-collectif-emilie-tralongo\" class=\"notion-collection-card gallery\"><a id=\"block-collectif-emilie-tralongo\" href=\"/collectif/emilie-tralongo\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/collectif/emilie-tralongo\">Emilie Tralongo</a><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/7d75c625-1c54-44d9-ae58-38f10bdf77ec/emilie.jpg\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/7d75c625-1c54-44d9-ae58-38f10bdf77ec/emilie.jpg\"><img alt=\"Emilie Tralongo\" class=\"notion-collection-card__cover medium\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/7d75c625-1c54-44d9-ae58-38f10bdf77ec/emilie.jpg\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Emilie Tralongo</div></div></div><div id=\"block-collectif-galle-de-fays\" class=\"notion-collection-card gallery\"><a id=\"block-collectif-galle-de-fays\" href=\"/collectif/galle-de-fays\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/collectif/galle-de-fays\">Gaëlle de Fays</a><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/0b572212-c5fb-4b51-81bc-cec992c00c4d/38e371b2-485d-469b-87ce-9f8decf2338a.jpeg\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/0b572212-c5fb-4b51-81bc-cec992c00c4d/38e371b2-485d-469b-87ce-9f8decf2338a.jpeg\"><img alt=\"Gaëlle de Fays\" class=\"notion-collection-card__cover medium\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/0b572212-c5fb-4b51-81bc-cec992c00c4d/38e371b2-485d-469b-87ce-9f8decf2338a.jpeg\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Gaëlle de Fays</div><div class=\"notion-property notion-property__select wrap property-43506375 notion-collection-card__property\"><span class=\"notion-pill pill-blue first\">Habitant·e</span></div></div></div><div id=\"block-collectif-magali-deheneffe\" class=\"notion-collection-card gallery\"><a id=\"block-collectif-magali-deheneffe\" href=\"/collectif/magali-deheneffe\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/collectif/magali-deheneffe\">Magali Deheneffe</a><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/ec349b0f-11df-4812-876c-9510e94a4fd4/20241123_170855_AFBE6ED6.heic\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/ec349b0f-11df-4812-876c-9510e94a4fd4/20241123_170855_AFBE6ED6.heic\"><img alt=\"Magali Deheneffe\" class=\"notion-collection-card__cover medium\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/ec349b0f-11df-4812-876c-9510e94a4fd4/20241123_170855_AFBE6ED6.heic\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Magali Deheneffe</div><div class=\"notion-property notion-property__select wrap property-43506375 notion-collection-card__property\"><span class=\"notion-pill pill-blue first\">Habitant·e</span></div></div></div><div id=\"block-collectif-malau-bombo\" class=\"notion-collection-card gallery\"><a id=\"block-collectif-malau-bombo\" href=\"/collectif/malau-bombo\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/collectif/malau-bombo\">Malau Bombo</a><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/b21d03c3-4b78-4d79-aec0-b6166a5b7ddc/IMG_1921.jpeg\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/b21d03c3-4b78-4d79-aec0-b6166a5b7ddc/IMG_1921.jpeg\"><img alt=\"Malau Bombo\" class=\"notion-collection-card__cover medium\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/b21d03c3-4b78-4d79-aec0-b6166a5b7ddc/IMG_1921.jpeg\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Malau Bombo</div><div class=\"notion-property notion-property__select wrap property-43506375 notion-collection-card__property\"><span class=\"notion-pill pill-blue first\">Habitant·e</span></div></div></div><div id=\"block-collectif-manon-lefebvre\" class=\"notion-collection-card gallery\"><a id=\"block-collectif-manon-lefebvre\" href=\"/collectif/manon-lefebvre\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/collectif/manon-lefebvre\">Manon Lefebvre</a><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/edc00fa5-19ab-4415-8801-04bb3605fc51/BROBROCELIANDE-6.jpg\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/edc00fa5-19ab-4415-8801-04bb3605fc51/BROBROCELIANDE-6.jpg\"><img alt=\"Manon Lefebvre\" class=\"notion-collection-card__cover medium\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/edc00fa5-19ab-4415-8801-04bb3605fc51/BROBROCELIANDE-6.jpg\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Manon Lefebvre</div></div></div><div id=\"block-collectif-michael-hulet\" class=\"notion-collection-card gallery\"><a id=\"block-collectif-michael-hulet\" href=\"/collectif/michael-hulet\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/collectif/michael-hulet\">Michael Hulet</a><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/68061fae-3d28-4488-9719-eb03333d6684/2024-07-michael-hulet-square.jpeg\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/68061fae-3d28-4488-9719-eb03333d6684/2024-07-michael-hulet-square.jpeg\"><img alt=\"Michael Hulet\" class=\"notion-collection-card__cover medium\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/68061fae-3d28-4488-9719-eb03333d6684/2024-07-michael-hulet-square.jpeg\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Michael Hulet</div><div class=\"notion-property notion-property__select wrap property-43506375 notion-collection-card__property\"><span class=\"notion-pill pill-blue first\">Habitant·e</span></div></div></div><div id=\"block-collectif-olivier-vanhamme\" class=\"notion-collection-card gallery\"><a id=\"block-collectif-olivier-vanhamme\" href=\"/collectif/olivier-vanhamme\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/collectif/olivier-vanhamme\">Olivier Vanhamme</a><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/951eb5ef-ec04-487f-89d2-ce34a9608eb2/IMG_1706.jpeg\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/951eb5ef-ec04-487f-89d2-ce34a9608eb2/IMG_1706.jpeg\"><img alt=\"Olivier Vanhamme\" class=\"notion-collection-card__cover medium\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/951eb5ef-ec04-487f-89d2-ce34a9608eb2/IMG_1706.jpeg\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Olivier Vanhamme</div><div class=\"notion-property notion-property__select wrap property-43506375 notion-collection-card__property\"><span class=\"notion-pill pill-blue first\">Habitant·e</span></div></div></div><div id=\"block-collectif-romain-gauthier\" class=\"notion-collection-card gallery\"><a id=\"block-collectif-romain-gauthier\" href=\"/collectif/romain-gauthier\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/collectif/romain-gauthier\">Romain Gauthier</a><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/29a4ee38-f7e3-4428-a6df-c17857a5261a/CleanShot_2025-01-18_at_17.49.212x.png\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/29a4ee38-f7e3-4428-a6df-c17857a5261a/CleanShot_2025-01-18_at_17.49.212x.png\"><img alt=\"Romain Gauthier\" class=\"notion-collection-card__cover medium\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/29a4ee38-f7e3-4428-a6df-c17857a5261a/CleanShot_2025-01-18_at_17.49.212x.png\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Romain Gauthier</div></div></div><div id=\"block-collectif-sbastien-frennet\" class=\"notion-collection-card gallery\"><a id=\"block-collectif-sbastien-frennet\" href=\"/collectif/sbastien-frennet\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/collectif/sbastien-frennet\">Sébastien Frennet</a><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/2b9c2c24-5cb4-4ea6-9d69-885d6c28e0b2/20241123_171142_BD183ECA.heic\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/2b9c2c24-5cb4-4ea6-9d69-885d6c28e0b2/20241123_171142_BD183ECA.heic\"><img alt=\"Sébastien Frennet\" class=\"notion-collection-card__cover medium\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/2b9c2c24-5cb4-4ea6-9d69-885d6c28e0b2/20241123_171142_BD183ECA.heic\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Sébastien Frennet</div><div class=\"notion-property notion-property__select wrap property-43506375 notion-collection-card__property\"><span class=\"notion-pill pill-blue first\">Habitant·e</span></div></div></div><div id=\"block-collectif-stphanie-de-tige\" class=\"notion-collection-card gallery\"><a id=\"block-collectif-stphanie-de-tige\" href=\"/collectif/stphanie-de-tige\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/collectif/stphanie-de-tige\">Stéphanie de Tiège</a><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/b916461b-213c-4d67-9668-a1962f644c0f/CleanShot_2025-01-18_at_17.53.502x.png\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/b916461b-213c-4d67-9668-a1962f644c0f/CleanShot_2025-01-18_at_17.53.502x.png\"><img alt=\"Stéphanie de Tiège\" class=\"notion-collection-card__cover medium\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/b916461b-213c-4d67-9668-a1962f644c0f/CleanShot_2025-01-18_at_17.53.502x.png\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Stéphanie de Tiège</div><div class=\"notion-property notion-property__select wrap property-43506375 notion-collection-card__property\"><span class=\"notion-pill pill-blue first\">Habitant·e</span></div></div></div></div></div><h1 id=\"block-aecafdd8462a4c288d3892b17c5c36dc\" class=\"notion-heading notion-semantic-string\">Notre réseau</h1><div id=\"block-5640a05b31e845de96c21290d2d09a27\" class=\"notion-column-list\"><div id=\"block-dad438913e4d4889aa6b7c511408ee7a\" class=\"notion-column\" data-width=\"50%\"><h3 id=\"block-fbdfb1e006214de0a8ca002c48d75156\" class=\"notion-heading notion-semantic-string\"><strong>Production et transformation</strong></h3><p id=\"block-379b005fa4634edcaa08d9b3d2f42000\" class=\"notion-text notion-text__content notion-semantic-string\">💛&nbsp;<a href=\"https://fermedegrange.com/\" class=\"notion-link link\" data-link-uri=\"https://fermedegrange.com/\">Ferme de Grange</a> \n💛 <a href=\"https://www.facebook.com/les3petitspoids\" class=\"notion-link link\" data-link-uri=\"https://www.facebook.com/les3petitspoids\">Les 3 Petits Poids</a> \n💛 <a href=\"https://www.reseau-radis.be/\" class=\"notion-link link\" data-link-uri=\"https://www.reseau-radis.be/\">Réseau Radis</a> \n💛 <a href=\"https://laflobette.be/\" class=\"notion-link link\" data-link-uri=\"https://laflobette.be/\">La Flobette</a> \n💛 <a href=\"http://www.materrenourriciere.be/\" class=\"notion-link link\" data-link-uri=\"http://www.materrenourriciere.be/\">Ma Terre Nourricière</a> \n💛 <a href=\"https://www.facebook.com/people/Chocamel/61550969679434/\" class=\"notion-link link\" data-link-uri=\"https://www.facebook.com/people/Chocamel/61550969679434/\">Chocamel</a> \n💛 <a href=\"/collectif/olivier-vanhamme\" class=\"notion-link link\" data-link-uri=\"/collectif/olivier-vanhamme\">Savonnerie Snoap</a></p><h3 id=\"block-88769f6fc8234ecfaee7f7d1b798a66c\" class=\"notion-heading notion-semantic-string\">Arts</h3><p id=\"block-b6bda95618dd45fd828291f452ede256\" class=\"notion-text notion-text__content notion-semantic-string\">🧡&nbsp;<a href=\"https://artsemoi.be\" class=\"notion-link link\" data-link-uri=\"https://artsemoi.be\">Arts Emoi</a></p><h3 id=\"block-8b9ba7312c2f481bbf7ef34ff0466524\" class=\"notion-heading notion-semantic-string\">Economie circulaire</h3><p id=\"block-fcf4868c354440438f7d934930bb56cb\" class=\"notion-text notion-text__content notion-semantic-string\">💙&nbsp;<a href=\"https://www.petitkiwi.be\" class=\"notion-link link\" data-link-uri=\"https://www.petitkiwi.be\">Petit Kiwi</a></p></div><div id=\"block-96c125de51574b4893c8f72efce0ee15\" class=\"notion-column\" data-width=\"50%\"><h3 id=\"block-e0fedaf307424d73af262427582bec54\" class=\"notion-heading notion-semantic-string\"><strong>Nature et environnement</strong></h3><p id=\"block-74e81644d5804cdea354d0f233f49159\" class=\"notion-text notion-text__content notion-semantic-string\">💚&nbsp;<a href=\"http://www.epiphytia.be/\" class=\"notion-link link\" data-link-uri=\"http://www.epiphytia.be/\">Epiphytia</a> \n💚&nbsp;<a href=\"https://thomasmeunier.be/\" class=\"notion-link link\" data-link-uri=\"https://thomasmeunier.be/\">Thomas Meunier - Photography</a> \n💚 Liens Vivants\n💚 Benoît Pernechele</p><h3 id=\"block-b972966f4fa945a38002a38048c0d60e\" class=\"notion-heading notion-semantic-string\"><strong>Vie collective</strong></h3><p id=\"block-1fdc14684cac432b86186fa35a77d254\" class=\"notion-text notion-text__content notion-semantic-string\">💜&nbsp;<a href=\"https://www.lespasserelles.be/\" class=\"notion-link link\" data-link-uri=\"https://www.lespasserelles.be/\">Les Passerelles</a>\n💜&nbsp;<a href=\"https://www.troistiers.space/\" class=\"notion-link link\" data-link-uri=\"https://www.troistiers.space/\">Trois-Tiers</a> </p></div></div><h3 id=\"block-1360d1493317806f92ede7de4311186a\" class=\"notion-heading notion-semantic-string\">Restauration</h3><p id=\"block-1360d14933178075b48dce8dd1784d86\" class=\"notion-text notion-text__content notion-semantic-string\">❤️&nbsp;<a href=\"https://www.aufildelo.net/\" class=\"notion-link link\" data-link-uri=\"https://www.aufildelo.net/\">Au fil de l’O</a></p>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8f075c5b-5e31-4473-a0b1-79743bbe7c55/_g0a4741/public",
+      "alt": "Notre collectif",
+      "role": "cover",
+      "localPath": "images/notre-collectif/01-_g0a4741.jpg",
+      "shared": false,
+      "bytes": 262896
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/72079134-6470-46c8-a4fa-674b40b362a9/benedicte-grignard.jpg",
+      "alt": "Bénédicte Grignard",
+      "role": "content",
+      "localPath": "images/_shared/767987a1a13b-benedicte-grignard.jpg",
+      "shared": true,
+      "bytes": 21446
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/7d75c625-1c54-44d9-ae58-38f10bdf77ec/emilie.jpg",
+      "alt": "Emilie Tralongo",
+      "role": "content",
+      "localPath": "images/_shared/2ae1e0998a38-emilie.jpg",
+      "shared": true,
+      "bytes": 24237
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/0b572212-c5fb-4b51-81bc-cec992c00c4d/38e371b2-485d-469b-87ce-9f8decf2338a.jpeg",
+      "alt": "Gaëlle de Fays",
+      "role": "content",
+      "localPath": "images/_shared/ff76ac82db90-38e371b2-485d-469b-87ce-9f8decf2338a.jpg",
+      "shared": true,
+      "bytes": 371423
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/ec349b0f-11df-4812-876c-9510e94a4fd4/20241123_170855_AFBE6ED6.heic",
+      "alt": "Magali Deheneffe",
+      "role": "content",
+      "localPath": "images/_shared/ab2de3d24243-20241123_170855_AFBE6ED6.jpg",
+      "shared": true,
+      "bytes": 595353
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/b21d03c3-4b78-4d79-aec0-b6166a5b7ddc/IMG_1921.jpeg",
+      "alt": "Malau Bombo",
+      "role": "content",
+      "localPath": "images/_shared/038f315b734b-IMG_1921.jpg",
+      "shared": true,
+      "bytes": 794678
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/edc00fa5-19ab-4415-8801-04bb3605fc51/BROBROCELIANDE-6.jpg",
+      "alt": "Manon Lefebvre",
+      "role": "content",
+      "localPath": "images/_shared/67e7deba9712-BROBROCELIANDE-6.jpg",
+      "shared": true,
+      "bytes": 1011081
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/68061fae-3d28-4488-9719-eb03333d6684/2024-07-michael-hulet-square.jpeg",
+      "alt": "Michael Hulet",
+      "role": "content",
+      "localPath": "images/_shared/d87aa1c790ab-2024-07-michael-hulet-square.jpg",
+      "shared": true,
+      "bytes": 104268
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/951eb5ef-ec04-487f-89d2-ce34a9608eb2/IMG_1706.jpeg",
+      "alt": "Olivier Vanhamme",
+      "role": "content",
+      "localPath": "images/_shared/f094600136ac-IMG_1706.jpg",
+      "shared": true,
+      "bytes": 406230
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/29a4ee38-f7e3-4428-a6df-c17857a5261a/CleanShot_2025-01-18_at_17.49.212x.png",
+      "alt": "Romain Gauthier",
+      "role": "content",
+      "localPath": "images/_shared/add0f999a98b-CleanShot_2025-01-18_at_17.49.212x.png",
+      "shared": true,
+      "bytes": 734081
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/2b9c2c24-5cb4-4ea6-9d69-885d6c28e0b2/20241123_171142_BD183ECA.heic",
+      "alt": "Sébastien Frennet",
+      "role": "content",
+      "localPath": "images/_shared/275756de6e10-20241123_171142_BD183ECA.jpg",
+      "shared": true,
+      "bytes": 288347
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/b916461b-213c-4d67-9668-a1962f644c0f/CleanShot_2025-01-18_at_17.53.502x.png",
+      "alt": "Stéphanie de Tiège",
+      "role": "content",
+      "localPath": "images/_shared/b626f7ff0421-CleanShot_2025-01-18_at_17.53.502x.png",
+      "shared": true,
+      "bytes": 948937
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/collectif/bndicte-grignard",
+    "/collectif/emilie-tralongo",
+    "/collectif/galle-de-fays",
+    "/collectif/magali-deheneffe",
+    "/collectif/malau-bombo",
+    "/collectif/manon-lefebvre",
+    "/collectif/michael-hulet",
+    "/collectif/olivier-vanhamme",
+    "/collectif/romain-gauthier",
+    "/collectif/sbastien-frennet",
+    "/collectif/stphanie-de-tige"
+  ],
+  "externalLinks": [
+    "https://fermedegrange.com/",
+    "https://www.facebook.com/les3petitspoids",
+    "https://www.reseau-radis.be/",
+    "https://laflobette.be/",
+    "http://www.materrenourriciere.be/",
+    "https://www.facebook.com/people/Chocamel/61550969679434/",
+    "https://artsemoi.be",
+    "https://www.petitkiwi.be",
+    "http://www.epiphytia.be/",
+    "https://thomasmeunier.be/",
+    "https://www.lespasserelles.be/",
+    "https://www.troistiers.space/",
+    "https://www.aufildelo.net/"
+  ],
+  "collections": [
+    {
+      "id": "25b04db3ce9a4396bd59dcfeabf6d022",
+      "title": "Collectif",
+      "source": {
+        "id": "collectif",
+        "uri": "/collectif",
+        "title": "Collectif",
+        "inferred": true
+      },
+      "view": "Gallery",
+      "views": [
+        "Gallery"
+      ],
+      "layout": "gallery",
+      "grouped": false,
+      "items": [
+        {
+          "title": "Bénédicte Grignard",
+          "href": "/collectif/bndicte-grignard",
+          "icon": null,
+          "cover": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/72079134-6470-46c8-a4fa-674b40b362a9/benedicte-grignard.jpg",
+          "props": [
+            "Habitant·e"
+          ],
+          "properties": {
+            "Type": "Habitant·e"
+          },
+          "coverLocalPath": "images/_shared/767987a1a13b-benedicte-grignard.jpg"
+        },
+        {
+          "title": "Emilie Tralongo",
+          "href": "/collectif/emilie-tralongo",
+          "icon": null,
+          "cover": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/7d75c625-1c54-44d9-ae58-38f10bdf77ec/emilie.jpg",
+          "props": [],
+          "properties": {},
+          "coverLocalPath": "images/_shared/2ae1e0998a38-emilie.jpg"
+        },
+        {
+          "title": "Gaëlle de Fays",
+          "href": "/collectif/galle-de-fays",
+          "icon": null,
+          "cover": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/0b572212-c5fb-4b51-81bc-cec992c00c4d/38e371b2-485d-469b-87ce-9f8decf2338a.jpeg",
+          "props": [
+            "Habitant·e"
+          ],
+          "properties": {
+            "Type": "Habitant·e"
+          },
+          "coverLocalPath": "images/_shared/ff76ac82db90-38e371b2-485d-469b-87ce-9f8decf2338a.jpg"
+        },
+        {
+          "title": "Magali Deheneffe",
+          "href": "/collectif/magali-deheneffe",
+          "icon": null,
+          "cover": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/ec349b0f-11df-4812-876c-9510e94a4fd4/20241123_170855_AFBE6ED6.heic",
+          "props": [
+            "Habitant·e"
+          ],
+          "properties": {
+            "Type": "Habitant·e"
+          },
+          "coverLocalPath": "images/_shared/ab2de3d24243-20241123_170855_AFBE6ED6.jpg"
+        },
+        {
+          "title": "Malau Bombo",
+          "href": "/collectif/malau-bombo",
+          "icon": null,
+          "cover": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/b21d03c3-4b78-4d79-aec0-b6166a5b7ddc/IMG_1921.jpeg",
+          "props": [
+            "Habitant·e"
+          ],
+          "properties": {
+            "Type": "Habitant·e"
+          },
+          "coverLocalPath": "images/_shared/038f315b734b-IMG_1921.jpg"
+        },
+        {
+          "title": "Manon Lefebvre",
+          "href": "/collectif/manon-lefebvre",
+          "icon": null,
+          "cover": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/edc00fa5-19ab-4415-8801-04bb3605fc51/BROBROCELIANDE-6.jpg",
+          "props": [],
+          "properties": {},
+          "coverLocalPath": "images/_shared/67e7deba9712-BROBROCELIANDE-6.jpg"
+        },
+        {
+          "title": "Michael Hulet",
+          "href": "/collectif/michael-hulet",
+          "icon": null,
+          "cover": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/68061fae-3d28-4488-9719-eb03333d6684/2024-07-michael-hulet-square.jpeg",
+          "props": [
+            "Habitant·e"
+          ],
+          "properties": {
+            "Type": "Habitant·e"
+          },
+          "coverLocalPath": "images/_shared/d87aa1c790ab-2024-07-michael-hulet-square.jpg"
+        },
+        {
+          "title": "Olivier Vanhamme",
+          "href": "/collectif/olivier-vanhamme",
+          "icon": null,
+          "cover": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/951eb5ef-ec04-487f-89d2-ce34a9608eb2/IMG_1706.jpeg",
+          "props": [
+            "Habitant·e"
+          ],
+          "properties": {
+            "Type": "Habitant·e"
+          },
+          "coverLocalPath": "images/_shared/f094600136ac-IMG_1706.jpg"
+        },
+        {
+          "title": "Romain Gauthier",
+          "href": "/collectif/romain-gauthier",
+          "icon": null,
+          "cover": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/29a4ee38-f7e3-4428-a6df-c17857a5261a/CleanShot_2025-01-18_at_17.49.212x.png",
+          "props": [],
+          "properties": {},
+          "coverLocalPath": "images/_shared/add0f999a98b-CleanShot_2025-01-18_at_17.49.212x.png"
+        },
+        {
+          "title": "Sébastien Frennet",
+          "href": "/collectif/sbastien-frennet",
+          "icon": null,
+          "cover": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/2b9c2c24-5cb4-4ea6-9d69-885d6c28e0b2/20241123_171142_BD183ECA.heic",
+          "props": [
+            "Habitant·e"
+          ],
+          "properties": {
+            "Type": "Habitant·e"
+          },
+          "coverLocalPath": "images/_shared/275756de6e10-20241123_171142_BD183ECA.jpg"
+        },
+        {
+          "title": "Stéphanie de Tiège",
+          "href": "/collectif/stphanie-de-tige",
+          "icon": null,
+          "cover": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/b916461b-213c-4d67-9668-a1962f644c0f/CleanShot_2025-01-18_at_17.53.502x.png",
+          "props": [
+            "Habitant·e"
+          ],
+          "properties": {
+            "Type": "Habitant·e"
+          },
+          "coverLocalPath": "images/_shared/b626f7ff0421-CleanShot_2025-01-18_at_17.53.502x.png"
+        }
+      ]
+    }
+  ],
+  "wordCount": 88,
+  "fetchedAt": "2026-09-07T21:17:43.989Z",
+  "markdown": "#### Des personnes aux profils complémentaires et entrepreneuriaux.\n\n<!-- collection \"Collectif\" view=\"Gallery\" layout=\"gallery\" -->\n- [Bénédicte Grignard](/collectif/bndicte-grignard) — Habitant·e\n- [Emilie Tralongo](/collectif/emilie-tralongo)\n- [Gaëlle de Fays](/collectif/galle-de-fays) — Habitant·e\n- [Magali Deheneffe](/collectif/magali-deheneffe) — Habitant·e\n- [Malau Bombo](/collectif/malau-bombo) — Habitant·e\n- [Manon Lefebvre](/collectif/manon-lefebvre)\n- [Michael Hulet](/collectif/michael-hulet) — Habitant·e\n- [Olivier Vanhamme](/collectif/olivier-vanhamme) — Habitant·e\n- [Romain Gauthier](/collectif/romain-gauthier)\n- [Sébastien Frennet](/collectif/sbastien-frennet) — Habitant·e\n- [Stéphanie de Tiège](/collectif/stphanie-de-tige) — Habitant·e\n<!-- /collection -->\n\n## Notre réseau\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n#### **Production et transformation**\n\n💛 [Ferme de Grange](https://fermedegrange.com/) 💛 [Les 3 Petits Poids](https://www.facebook.com/les3petitspoids) 💛 [Réseau Radis](https://www.reseau-radis.be/) 💛 [La Flobette](https://laflobette.be/) 💛 [Ma Terre Nourricière](http://www.materrenourriciere.be/) 💛 [Chocamel](https://www.facebook.com/people/Chocamel/61550969679434/) 💛 [Savonnerie Snoap](/collectif/olivier-vanhamme)\n\n#### Arts\n\n🧡 [Arts Emoi](https://artsemoi.be)\n\n#### Economie circulaire\n\n💙 [Petit Kiwi](https://www.petitkiwi.be)\n\n<!-- column width=\"50%\" -->\n\n#### **Nature et environnement**\n\n💚 [Epiphytia](http://www.epiphytia.be/) 💚 [Thomas Meunier - Photography](https://thomasmeunier.be/) 💚 Liens Vivants 💚 Benoît Pernechele\n\n#### **Vie collective**\n\n💜 [Les Passerelles](https://www.lespasserelles.be/) 💜 [Trois-Tiers](https://www.troistiers.space/)\n<!-- /columns -->\n\n#### Restauration\n\n❤️ [Au fil de l’O](https://www.aufildelo.net/)\n",
+  "extractedAt": "2026-09-07T21:41:44.491Z"
+}
