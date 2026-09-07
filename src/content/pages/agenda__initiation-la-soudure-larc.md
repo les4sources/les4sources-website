@@ -12,6 +12,7 @@ properties:
   Date (fr): "21 septembre 2024"
   Tarif: "€80.00"
 pole: "artisanat"
+seoTitle: "Initiation à la soudure à l’arc — agenda"
 ---
 
 ## **Objectifs**
@@ -44,5 +45,3 @@ pole: "artisanat"
 ## Instructeur
 
 - Sébastien Frennet, membre des 4 Sources
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

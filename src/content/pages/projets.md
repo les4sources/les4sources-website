@@ -73,8 +73,6 @@ Un parcours de disc-golf 18 trous pour les passionnés de nature
 Notre logiciel de gestion open source
 <!-- /columns -->
 
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
-
 [Découvrir le disc-golf à Yvoir](/projets/disc-golf-attitude-yvoir)
 
 [![Semisto](../../assets/migration/shared/d5187e1aa2e3-semisto-main-square.png) Semisto](/projets/semisto)

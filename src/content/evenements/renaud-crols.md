@@ -41,6 +41,4 @@ N'hésite pas à venir faire ce beau voyage musical avec nous !
 
 <a title="Vente de billets en ligne" href="https://www.billetweb.fr/shop.php?event=concert-carte-blanche-de-renaud-crols" class="shop_frame" target="_blank" data-src="https://www.billetweb.fr/shop.php?event=concert-carte-blanche-de-renaud-crols" data-max-width="100%" data-initial-height="600" data-scrolling="no" data-id="concert-carte-blanche-de-renaud-crols" data-resize="1">Vente de billets en ligne</a>
 
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
-
 > 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [contact@les4sources.be](mailto:contact@les4sources.be).

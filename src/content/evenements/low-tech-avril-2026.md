@@ -153,5 +153,3 @@ En dehors de l’auberge espagnole et de la Pizza Party, les repas sont végéta
 N’hésite pas à prendre contact avec Sébastien Frennet, facilitateur des Ateliers Low-Tech des 4 Sources.
 
 📞 Tél : 0471 59 11 20 📬 E-mail : [seb@les4sources.be](mailto:seb@les4sources.be)
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

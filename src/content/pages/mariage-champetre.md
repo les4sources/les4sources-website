@@ -50,13 +50,6 @@ C'est avec une immense joie que nous vous le proposons : venez célébrer votre 
 - Un bar en intérieur et en extérieur
 - Le parking
 
-- [](/3c20d149331780b39f2acde0ca98a398)
-- [](/3c20d149331780ad946ffee918fd14f6)
-- [](/3c20d1493317800d89ffd1dc5e4c31e7)
-- [](/3c20d1493317800b81a7c0794fbd4f2c)
-- [](/3c20d1493317804fbfb3ee15a3956648)
-- [](/3c20d14933178060b2edd9d4f0dd7d4b)
-
 ![20250510 123633 eb5e90f7](../../assets/migration/mariage-champetre/15-20250510_123633_eb5e90f7.jpg)
 
 ![20260704 173323 11de7180](../../assets/migration/mariage-champetre/16-20260704_173323_11de7180.jpg)

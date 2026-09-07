@@ -50,5 +50,3 @@ Quand la clown dé-couvre une femme !
 **Photo** : Emilie Tralongo
 
 <a class="button" href="https://www.billetweb.fr/clown-toi-maime">🤡 Je prends ma place !</a>
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

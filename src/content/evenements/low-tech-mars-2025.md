@@ -19,6 +19,7 @@ pole: "artisanat"
 category: "Artisanat"
 priceText: "295 €"
 registrationUrl: "https://les4sources.punchpass.com/classes/16842918"
+seoTitle: "Low-tech: réchaud rocket stove et… — 14 et 15 mars 2025"
 ---
 
 <!-- columns -->
@@ -122,5 +123,3 @@ N’hésite pas à prendre contact avec Sébastien Frennet, facilitateur des Ate
 <!-- /columns -->
 
 ![20241123 171029 08A6BFCD](../../assets/migration/shared/86683b92d916-20241123_171029_08A6BFCD.jpg)
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

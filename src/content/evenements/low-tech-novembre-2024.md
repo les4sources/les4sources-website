@@ -15,6 +15,7 @@ pole: "artisanat"
 category: "Artisanat"
 priceText: "210 €"
 registrationUrl: "https://les4sources.punchpass.com/classes/16300562"
+seoTitle: "Low-tech: réchaud rocket stove et… — 23 et 24 novembre 2024"
 ---
 
 ### **Au programme**
@@ -83,5 +84,3 @@ Réservations de l’hébergement par e-mail à [sejours@les4sources.be](mailto:
 Prends contact avec Sébastien Frennet, facilitateur des Ateliers Low-Tech des 4 Sources.
 
 📞 Tél : 0471 59 11 20 📬 E-mail : [sebastien.frennet@skynet.be](mailto:sebastien.frennet@skynet.be)
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

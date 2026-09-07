@@ -10,11 +10,6 @@ Lors de votre visite, vous aurez l'occasion de faire la rencontre de notre chept
 
 ## Les ânes des 4 Sources 🐎
 
-- [](/2950d14933178023aa06fddb228afa57)
-- [](/2950d149331780098a45cf1a675b22ad)
-- [](/2950d1493317807988a5ddaecbf8871e)
-- [](/2950d149331780059b36f15c4e45700d)
-
 Nous partageons les espaces avec 26 ânes qui passent d’une prairie à l’autre au fil des saisons. Ce sont des partenaires d’entretien des pâtures incroyables qui œuvrent 7 jours sur 7, 24h sur 24h.
 
 ## Eventy, the one and only one cheval 🐴

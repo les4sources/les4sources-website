@@ -16,6 +16,7 @@ properties:
 pole: "artisanat"
 minParticipants: 1
 maxParticipants: 3
+seoTitle: "Initiation à la soudure à l’arc — Artisanat"
 ---
 
 ### **Vous voulez ajouter une corde à votre arc et vous familiariser avec les techniques de soudure ?**

@@ -23,6 +23,7 @@ start: "2026-07-11T09:00:00+02:00"
 category: "Artisanat"
 priceText: "80 €"
 registrationUrl: "https://www.billetweb.fr/initiation-a-la-soudure-a-larc"
+seoTitle: "COMPLET ! Initiation à la soudure à l’arc — 11 juillet 2026"
 ---
 
 **NOUVELLE SESSION DU 11 JUILLET 2026 (9h-12h30) : COMPLET** ⚠️
@@ -69,5 +70,3 @@ Sébastien Frennet, membre des 4 Sources
 - [👷🏻 ⚡ COMPLET ! Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-17-octobre-2026) — 17 octobre 2026 · Formation
 - [👷🏻 ⚡ Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-21-novembre-2026) — 21 novembre 2026 · Formation
 - [👷🏻‍♀️ Initiation à la soudure à l’arc ⚡](/evenements/initiation-soudure-a-l-arc-12-dcembre-2026) — 12 décembre 2026 · Formation
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

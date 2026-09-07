@@ -41,5 +41,3 @@ Bienvenue dès 18h30 :
 - Tes garnitures préférées
 
 - Bar avec boissons bios/locales/de saison sur place
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

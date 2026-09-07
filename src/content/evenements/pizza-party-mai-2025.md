@@ -44,5 +44,3 @@ Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h, lorsqu
 > 🆕 L’inscription se passe désormais [via BilletWeb](https://www.billetweb.fr/pizza-party-de-mai-2025), ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque.
 
 <a class="button" href="https://www.billetweb.fr/pizza-party-de-mai-2025">Inscription à la Pizza Party</a>
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

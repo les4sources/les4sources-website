@@ -18,6 +18,7 @@ pole: "artisanat"
 category: "Artisanat"
 priceText: "485 €"
 registrationUrl: "https://www.billetweb.fr/stage-low-tech-cuisiniere-aout"
+seoTitle: "Stage low-tech : construis ta… — du 20 au 22 août"
 ---
 
 ## **Trois journées - 20, 21 et 22 août - pour construire et tester ta cuisinière, s’initier aux low-techs et au travail du métal.**
@@ -111,7 +112,5 @@ En dehors de l’auberge espagnole et de la Pizza Party privée, les repas sont 
 *Sébastien et Magali, tous deux membres des 4 Sources*
 
 ![Newsletter 5](../../assets/migration/shared/f03a52265c7d-newsletter_-5.jpg)
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
 
 > 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [contact@les4sources.be](mailto:contact@les4sources.be).

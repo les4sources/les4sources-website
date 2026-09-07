@@ -70,5 +70,3 @@ L’inscription à la semaine résidentielle de design s’élève à **980 €
 Pour les professionnel·le·s, le tarif est de **1 450€**. Les professionnel·le·s (architectes, paysagistes, entrepreneur·e·s de jardin, etc.) peuvent obtenir une facture sur demande.
 
 <a class="button" href="https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret-mars-2026">💡 Tous les détails sur cette semaine de formation</a>
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

@@ -23,6 +23,7 @@ start: "2026-05-16T09:00:00+02:00"
 category: "Artisanat"
 priceText: "80 €"
 registrationUrl: "https://www.billetweb.fr/shop.php?event=initiation-a-la-soudure-a-larc-fev-2026"
+seoTitle: "COMPLET ! Initiation à la soudure à l’arc — 16 mai 2026"
 ---
 
 **NOUVELLE SESSION DU 16 MAI 2026 (9h-12h30) COMPLET** ⚠️
@@ -67,5 +68,3 @@ Sébastien Frennet, membre des 4 Sources
 - [👷🏻 ⚡ COMPLET ! Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-17-octobre-2026) — samedi 17 octobre · Formation
 - [👷🏻 ⚡ Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-21-novembre-2026) — samedi 21 novembre · Formation
 - [👷🏻‍♀️ Initiation à la soudure à l’arc ⚡](/evenements/initiation-soudure-a-l-arc-12-dcembre-2026) — samedi 12 décembre · Formation
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

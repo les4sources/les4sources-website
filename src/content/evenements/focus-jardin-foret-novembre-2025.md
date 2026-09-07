@@ -18,7 +18,7 @@ registrationUrl: "https://www.semisto.org/poles/formations-semisto/toutes-les-fo
 
 ## En pratique
 
-#### **Une semaine intensive - du 17 au 21 novembre - pour démarrer ou progresser dans ton projet de forêt-jardin, organisée par notre partenaire** **[Semisto](https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret)****.**
+#### **Une semaine intensive - du 17 au 21 novembre - pour démarrer ou progresser dans ton projet de forêt-jardin, organisée par notre partenaire** **[Semisto](https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret).**
 
 Entre le moment “WOW” à la lecture d’un livre ou après avoir regardé une vidéo inspirante et les récoltes abondantes, il y a quelques étapes qui relèvent parfois du parcours du combattant.
 
@@ -35,5 +35,3 @@ Pendant cette semaine résidentielle, il y aura des moments de **travail individ
 Tu trouveras tous les détails concernant cette semaine de formation [sur le site web de Semisto](https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret).
 
 <a class="button" href="https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret">Tous les détails sur cette semaine de formation</a>
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

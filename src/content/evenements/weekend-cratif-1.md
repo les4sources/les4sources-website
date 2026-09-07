@@ -79,5 +79,3 @@ Pas de connaissances requises, viens comme tu es !
 ### Cette journée créative est entièrement organisée par nos trois intervenant-es, Bénédicte, Olivier et Marianne
 
 ![Pxl 20260211 115416194](../../assets/migration/evenements__weekend-cratif-1/09-pxl_20260211_115416194.jpg)
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

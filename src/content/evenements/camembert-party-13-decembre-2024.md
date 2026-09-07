@@ -18,6 +18,7 @@ start: "2024-12-13T18:30:00+01:00"
 category: "Liens et convivialité"
 priceText: "7 €"
 registrationUrl: "https://les4sources.punchpass.com/org/8599/classes/15693880"
+seoTitle: "Camembert Party — 13 décembre 2024"
 ---
 
 ### **Mazette, c’est la dernière Camembert Party de 2024 !**
@@ -49,5 +50,3 @@ Bienvenue **dès 18h30** :
 Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30, lorsque le four est encore chaud de la journée.
 
 <a class="button" href="https://les4sources.punchpass.com/org/8599/classes/15693880">Inscription à la Camembert Party</a>
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

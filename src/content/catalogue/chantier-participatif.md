@@ -12,6 +12,7 @@ properties:
   Participants max: "20"
   Sur la page d'accueil: "false"
 maxParticipants: 20
+seoTitle: "Chantier participatif — catalogue"
 ---
 
 #### Pailler les boxes, placer une clôture, nettoyer le poulailler, réparer et construire, approvisionner, récolter…

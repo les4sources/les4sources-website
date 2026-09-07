@@ -101,8 +101,6 @@ Le formulaire, très complet, te permet de préciser tes besoins :
 
 ✔️ Hébergements ✔️ Salles et/ou cuisine professionnelle ✔️ Espace bivouac et/ou van aménagé ✔️ Activités ✔️ Repas préparés, boulangerie et pizza/camembert parties
 
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
-
 **Les 4 Sources** Fonds d’Ahinvaux, 1 5530 Yvoir [Accès](/a-propos/acces-ahinvaux) [Nous contacter](/contact)
 
 [La Chevêche](/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes)

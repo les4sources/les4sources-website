@@ -18,6 +18,7 @@ start: "2025-11-22T09:00:00+01:00"
 category: "Artisanat"
 priceText: "80 €"
 registrationUrl: "https://les4sources.punchpass.com/classes/17827253"
+seoTitle: "Initiation à la soudure à l’arc — 22 novembre 2025"
 ---
 
 **→ Session du 22 novembre 2025 (9h-12h30)**
@@ -61,5 +62,3 @@ registrationUrl: "https://les4sources.punchpass.com/classes/17827253"
 - [👷🏻 ⚡ COMPLET ! Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-17-octobre-2026) — samedi 17 octobre · Formation
 - [👷🏻 ⚡ Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-21-novembre-2026) — samedi 21 novembre · Formation
 - [👷🏻‍♀️ Initiation à la soudure à l’arc ⚡](/evenements/initiation-soudure-a-l-arc-12-dcembre-2026) — samedi 12 décembre · Formation
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

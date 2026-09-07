@@ -15,6 +15,7 @@ pole: "vie-collective"
 minParticipants: 1
 maxParticipants: 25
 archived: true
+seoTitle: "Chantier participatif — Vie collective"
 ---
 
 #### Découvre les 4 Sources d’une autre façon !

@@ -14,6 +14,7 @@ pole: "convivialite"
 start: "2024-09-13T18:30:00+02:00"
 category: "Liens et convivialité"
 registrationUrl: "https://les4sources.punchpass.com/classes/15693839"
+seoTitle: "Pizza Party — 13 septembre 2024"
 ---
 
 **[Réserve ta place pour la Pizza Party](https://les4sources.punchpass.com/classes/15693839)** et prévois du cash pour le bar
@@ -36,5 +37,3 @@ Bienvenue dès 18h30 :
 - Tes ami·e·s
 
 - Bar avec boissons bios/locales sur place 🍹
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

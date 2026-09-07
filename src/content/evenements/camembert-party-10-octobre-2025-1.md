@@ -59,5 +59,3 @@ Bienvenue **ce 10 octobre, dès 18h30** :
 Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.
 
 **[Formulaire d’inscription à la Camembert Party](https://www.billetweb.fr/camembert-party-doctobre-2025)**
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

@@ -22,6 +22,7 @@ start: "2026-07-03T18:30:00+02:00"
 category: "Liens et convivialité"
 priceText: "10 €"
 registrationUrl: "https://www.billetweb.fr/pizza-party-de-septembre-2025"
+seoTitle: "Pizza Party ! — 18 septembre 2026"
 ---
 
 #### Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !
@@ -58,5 +59,3 @@ Le lien de l’inscription arrive bientôt ❤️
 #### Prévisions météo
 
 <iframe src="https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius" name="CW2" width="318" height="318"></iframe>
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

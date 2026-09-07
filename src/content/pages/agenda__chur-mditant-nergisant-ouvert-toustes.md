@@ -10,6 +10,7 @@ properties:
   Thématique: "Ressourcement"
   Date (fr): "17 avril 2024"
 pole: "ressourcement"
+seoTitle: "Chœur méditant & énergisant : ouvert à tous.tes — agenda"
 ---
 
 ### Durant une soirée, mêle ta voix à celles des personnes présentes et découvre des chants à plusieurs voix.
@@ -39,5 +40,3 @@ Profite de ce temps musical pour faire un break dans ta semaine, quitter tes pr�
 ## Facilitatrice
 
 > 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [contact@les4sources.be](mailto:contact@les4sources.be).
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

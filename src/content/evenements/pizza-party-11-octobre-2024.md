@@ -15,6 +15,7 @@ pole: "convivialite"
 start: "2024-10-11T18:30:00+02:00"
 category: "Liens et convivialité"
 registrationUrl: "https://les4sources.punchpass.com/classes/15693878"
+seoTitle: "Pizza Party — 11 octobre 2024"
 ---
 
 ## Le concept de la Pizza Party ?
@@ -35,5 +36,3 @@ Bienvenue dès 18h30 :
 - Tes ami·e·s
 
 - Bar avec boissons bios/locales sur place 🍹
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

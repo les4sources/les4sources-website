@@ -16,6 +16,7 @@ start: "2024-04-27T09:00:00+02:00"
 category: "Artisanat"
 priceText: "80 €"
 registrationUrl: "https://les4sources.punchpass.com/classes/15034158?embed=true"
+seoTitle: "Initiation à la soudure à l’arc — 27 avril 2024"
 ---
 
 ## **Objectifs**
@@ -49,7 +50,6 @@ registrationUrl: "https://les4sources.punchpass.com/classes/15034158?embed=true"
 
 [Sébastien Frennet](/collectif/sbastien-frennet)
 
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
 <!-- /columns -->
 
 ## **Inscription et tarifs**

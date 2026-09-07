@@ -57,5 +57,3 @@ Bienvenue **ce 14 novembre** **dès 18h30** :
 - Bar avec boissons bios/locales/de saison sur place 🍹
 
 Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

@@ -64,6 +64,11 @@ function normalize(s: string): string {
     .replace(/…/g, "...")
     .replace(/[–—]/g, "-")
     .replace(/\\([\\`*_{}\[\]()#+\-.!|>~])/g, "$1") // échappements Markdown (tableaux, parenthèses)
+    // Les marqueurs d'emphase et les barres de tableau sont du balisage, pas du
+    // texte : la source les porte, le HTML rendu non. On les efface des deux
+    // côtés — sans insérer d'espace, car ils collent aux mots (`l'**Open**`).
+    .replace(/[*_`~]+/g, "")
+    .replace(/\|+/g, " ")
     .replace(/\s+/g, " ")
     .replace(/\s+([,.;:!?)])/g, "$1") // pas d'espace avant la ponctuation (artefact du gras/lien)
     .replace(/\(\s+/g, "(")
@@ -77,9 +82,13 @@ function sentencesOf(markdown: string): string[] {
     .replace(/^---[\s\S]*?---\s*/m, "")
     .replace(/<!--[\s\S]*?-->/g, " ")
     .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
-    .replace(/\[([^\]]*)\]\([^)]*\)(\{[^}]*\})?/g, "$1")
+    // Le libellé peut contenir des crochets échappés (`[\\[email protected\\]](mailto:)`).
+    .replace(/\[((?:\\[^\n]|[^\]\\\n])*)\]\(([^)\n]*)\)(\{[^}]*\})?/g, "$1")
     .replace(/<\/?[a-z][^>]*>/gi, " ")
-    .replace(/[#>*_`|~]+/g, " ")
+    // `>` et `#` ne sont du balisage QU'EN début de ligne : « Yvoir > Les 4
+    // sources » est du texte, et le HTML rendu le garde.
+    .replace(/^[ \t]*(?:>[ \t]?)+/gm, "")
+    .replace(/^[ \t]*#{1,6}[ \t]+/gm, " ")
     .replace(/^\s*[-+]\s+/gm, " ")
     .replace(/^\s*\d+\.\s+/gm, " ");
   const out: string[] = [];
@@ -119,10 +128,17 @@ for (const f of files) {
   const found = sentences.length - missing.length;
   const ratio = sentences.length === 0 ? 1 : found / sentences.length;
   const h1 = page.h1 ? text.includes(normalize(page.h1)) : true;
-  const embeds: { src: string }[] = (page.embeds ?? []).filter((e: any) => e?.src);
+  const embeds: { src: string; kind?: string }[] = (page.embeds ?? []).filter((e: any) => e?.src);
   // Astro ré-encode `&` en `&#x26;` dans les attributs du HTML brut : on compare sur une forme décodée.
   const htmlDecoded = html.replace(/&#x26;/gi, "&").replace(/&#38;/g, "&").replace(/&amp;/g, "&");
-  const embedsFound = embeds.filter((e) => htmlDecoded.includes(e.src)).length;
+  // Une pièce jointe (PDF) est RÉHÉBERGÉE sous /files/ : son URL super.so ne peut
+  // pas survivre dans dist/ (ISC-13). C'est le fichier local qui prouve l'embed.
+  const localFileOf = (src: string) =>
+    `/files/${decodeURIComponent(src.split("/").pop() ?? "").replace(/[^\w.-]+/g, "-")}`;
+  const embedsFound = embeds.filter((e: any) => {
+    if (htmlDecoded.includes(e.src)) return true;
+    return e.kind === "file" && htmlDecoded.includes(localFileOf(e.src));
+  }).length;
   const exception = exceptions[path];
   const pass = exists && h1 && ratio >= THRESHOLD && embedsFound === embeds.length;
   rows.push({ path, exists, h1, total: sentences.length, found, ratio, embedsTotal: embeds.length, embedsFound, missing: missing.slice(0, 5), exception, pass: pass || Boolean(exception) });

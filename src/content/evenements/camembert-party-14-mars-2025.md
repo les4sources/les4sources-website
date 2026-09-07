@@ -19,6 +19,7 @@ start: "2025-03-14T18:30:00+01:00"
 category: "Liens et convivialité"
 priceText: "7 €"
 registrationUrl: "https://les4sources.punchpass.com/classes/16926850"
+seoTitle: "Camembert Party — 14 mars 2025"
 ---
 
 Viens déguster une "mini-fondue" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes p’tits légumes préférés !
@@ -65,5 +66,3 @@ Nicolas Meulebrouck, aussi appelé The Beer Linguist, zythologue venu tout droit
 Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30, lorsque le four est encore chaud de la journée.
 
 <a class="button" href="https://les4sources.punchpass.com/classes/16926850">Inscription à la Camembert Party</a>
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

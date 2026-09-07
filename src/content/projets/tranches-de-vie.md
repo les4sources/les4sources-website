@@ -69,7 +69,7 @@ Viens participer à un atelier de confection de pain avec Stéphanie, Romane et 
 
 <a class="button" href="/catalogue/atelier-fabrication-de-pizza-1">🍞 Atelier de confection de pain</a>
 
-**Les pains de Tranches de Vie sont produits chaque vendredi et sont sur commande via** **[le site web de Tranches de Vie](https://tranchesdevie.les4sources.be)****.**
+**Les pains de Tranches de Vie sont produits chaque vendredi et sont sur commande via** **[le site web de Tranches de Vie](https://tranchesdevie.les4sources.be).**
 
 <a class="button" href="https://tranchesdevie.les4sources.be/">🥖 Je commande mon pain</a>
 

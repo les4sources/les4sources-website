@@ -19,6 +19,7 @@ start: "2025-02-14T18:30:00+01:00"
 category: "Liens et convivialité"
 priceText: "7 €"
 registrationUrl: "https://les4sources.punchpass.com/classes/16842890"
+seoTitle: "Camembert Party — 14 février 2025"
 ---
 
 ### **Mazette, c’est la première Camembert Party de 2025 !**
@@ -52,5 +53,3 @@ Bienvenue **dès 18h30** :
 Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30, lorsque le four est encore chaud de la journée.
 
 <a class="button" href="https://les4sources.punchpass.com/classes/16842890">Inscription à la Camembert Party</a>
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

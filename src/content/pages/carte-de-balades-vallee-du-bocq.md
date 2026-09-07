@@ -17,4 +17,4 @@ Notre carte de balades permet de partir majoritairement des 4 Sources et de déc
 
 **À télécharger ici, et disponible sur place pour les giteurs :**
 
-<a class="file-download" href="/files/Carnet_de_balades_des_4_Sources_compressed.pdf" download>Carnet de balades des 4 Sources.pdf</a>
+<a class="file-download" href="/files/Carnet_de_balades_des_4_Sources_compressed.pdf" download>Carnet de balades des 4 Sources.pdf (19369.0KB)</a>

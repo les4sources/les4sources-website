@@ -40,8 +40,6 @@ Profite de ce temps musical pour faire un break dans ta semaine, quitter tes pr�
 - tapis, couverture, coussin/zafu pour être assis confortablement (peut-être en extérieur par beau temps)
 - optionnel : de petites percussions (maracas, etc.)
 
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
-
 ## Facilitateur·rice
 
 Facilité par Claire, membre des 4 Sources

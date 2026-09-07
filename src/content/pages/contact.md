@@ -44,5 +44,3 @@ Nous comprenons que chaque question est unique et nous nous efforçons d'apporte
 
 Nous nous efforçons de répondre à tous les emails le plus rapidement possible, mais nous te demandons de nous accorder ta patience car le volume d’emails que nous recevons peut affecter notre temps de réponse, qui nécessite plusieurs heures par semaine pour l’ensemble des réponses.
 <!-- /columns -->
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

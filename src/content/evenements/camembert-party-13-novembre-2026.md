@@ -69,5 +69,3 @@ Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.
 Les inscriptions arrivent bientôt ! <3
 
 ![Img 20240308 210554](../../assets/migration/evenements__camembert-party-13-novembre-2026/05-img_20240308_210554.jpg)
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

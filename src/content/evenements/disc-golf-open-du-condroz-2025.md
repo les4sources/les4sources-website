@@ -56,5 +56,3 @@ Que vous soyez un joueur expérimenté ou un amateur désireux de relever un dé
 #### 🏆 **Rejoignez-nous pour une journée de compétition et de convivialité !**
 
 Venez affronter des joueurs de toute la Belgique et d’ailleurs dans une ambiance sportive et amicale.
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

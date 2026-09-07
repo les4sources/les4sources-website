@@ -69,5 +69,3 @@ Allez, plongez ! Offrez-vous ce temps souple et liquide…
 ### Ce weekend créatif est entièrement organisé par nos trois intervenant-es, Bénédicte, Olivier et Marianne
 
 ![Pxl 20260211 115416194](../../assets/migration/evenements__weekend-cratif/07-pxl_20260211_115416194.jpg)
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

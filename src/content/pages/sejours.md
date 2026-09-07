@@ -37,8 +37,6 @@ Notamment **notre petite salle**, idéale pour une journée de mise au vert, une
 
 ![51167fb3 8ae5 440a bdef 030372dd22e7](../../assets/migration/sejours/04-51167fb3-8ae5-440a-bdef-030372dd22e7.png)
 
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
-
 ## Le Bar des 4 Sources
 
 <!-- columns -->

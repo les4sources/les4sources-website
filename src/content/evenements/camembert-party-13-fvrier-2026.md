@@ -79,5 +79,3 @@ Vous pouvez donc participer, ou non, à une session de disc-golf ce 13 mars ! Pa
 Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.
 
 <a class="button" href="https://www.billetweb.fr/camembert-party-de-mars-2026">🧀 Je prends ma place !</a>
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

@@ -41,5 +41,3 @@ Bienvenue **dès 18h30** :
 Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h, lorsque le four est encore chaud de la journée.
 
 <a class="button" href="https://les4sources.punchpass.com/classes/17202681">Inscription à la Pizza Party</a>
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

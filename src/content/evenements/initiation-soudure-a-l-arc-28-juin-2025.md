@@ -17,6 +17,7 @@ start: "2025-06-28T09:00:00+02:00"
 category: "Artisanat"
 priceText: "80 €"
 registrationUrl: "https://les4sources.punchpass.com/classes/16927397"
+seoTitle: "Initiation à la soudure à l’arc — 28 juin 2025"
 ---
 
 ## **Objectifs**
@@ -49,5 +50,3 @@ registrationUrl: "https://les4sources.punchpass.com/classes/16927397"
 ## Instructeur
 
 - Sébastien Frennet, membre des 4 Sources
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

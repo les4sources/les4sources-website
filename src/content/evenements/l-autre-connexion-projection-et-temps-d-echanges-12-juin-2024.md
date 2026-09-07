@@ -21,7 +21,7 @@ category: "Education"
 registrationUrl: "https://les4sources.punchpass.com/classes/15451408?embed=true"
 ---
 
-**Viens partager un moment autour du documentaire** ***"L'Autre connexion"*****. Un film inspirant qui raconte l'expérience d'une école de la forêt nourrie de pratiques de connexion transmises par les peuples premiers, la Wolf-Kid au Canada.**
+**Viens partager un moment autour du documentaire** ***"L'Autre connexion"*. Un film inspirant qui raconte l'expérience d'une école de la forêt nourrie de pratiques de connexion transmises par les peuples premiers, la Wolf-Kid au Canada.**
 
 Une soirée pour se rencontrer, se questionner, découvrir des projets existants en Wallonie et des outils en lien avec la nature à destination des enfants et des familles, applicables par tous.tes.
 
@@ -32,8 +32,6 @@ Une soirée pour se rencontrer, se questionner, découvrir des projets existants
 - Inscris-toi [en prenant un "Ticket" via Punchpass](https://les4sources.punchpass.com/classes/15451408?embed=true)
 - Tarif au chapeau pour participer aux frais liés à l'événement
 - Bar accessible sur place avant et après l'événement
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
 
 ## Organisateurs
 

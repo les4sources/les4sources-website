@@ -32,5 +32,3 @@ L’accès en voiture est réservé à celles et ceux qui viennent pour une loca
 ![La protection de notre super four à pain !](../../assets/migration/le-bar-des-4-sources/05-_g0a7358.jpg)
 *La protection de notre super four à pain !*
 <!-- /columns -->
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

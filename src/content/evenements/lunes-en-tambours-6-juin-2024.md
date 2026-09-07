@@ -32,8 +32,6 @@ registrationUrl: "https://les4sources.punchpass.com/classes/15334517?embed=true"
 - boissons/encas
 - vêtements confortables et chaussures tous-terrains adaptés au temps extérieur ou intérieur (choix du lieu en fonction de la météo et du nombre de personnes présentes)
 
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
-
 <!-- columns -->
 <!-- column width="50%" -->
 

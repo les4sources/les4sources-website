@@ -32,8 +32,6 @@ Un tiers-lieu sur lequel [différents projets](/projets) se déploient et où 5 
 Découvre [notre collectif](/notre-collectif)
 <!-- /columns -->
 
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
-
 ## Prochainement aux 4 Sources ⛅
 
 **Événements**

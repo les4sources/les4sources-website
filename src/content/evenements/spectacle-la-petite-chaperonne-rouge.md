@@ -48,5 +48,3 @@ Comment Jean-Jérôme va-t-il l’aider à profiter de ce moment scénique tant 
 <a class="button" href="https://www.billetweb.fr/spectacle-la-petite-chaperonne-rouge">🤩 Je prends ma place !</a>
 
 ![Cie artifice 2025 029 4](../../assets/migration/evenements__spectacle-la-petite-chaperonne-rouge/03-cie_artifice_2025-029_-4.jpg)
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

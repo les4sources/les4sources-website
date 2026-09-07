@@ -16,6 +16,7 @@ start: "2024-08-31T09:00:00+02:00"
 category: "Artisanat"
 priceText: "80 €"
 registrationUrl: "https://les4sources.punchpass.com/classes/15693868"
+seoTitle: "Initiation à la soudure à l’arc — 31 août 2024"
 ---
 
 ## **Objectifs**
@@ -48,5 +49,3 @@ registrationUrl: "https://les4sources.punchpass.com/classes/15693868"
 ## Instructeur
 
 - Sébastien Frennet, membre des 4 Sources
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

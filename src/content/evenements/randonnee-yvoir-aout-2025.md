@@ -54,8 +54,6 @@ Si le prix est un frein, merci de revenir vers nous
 - Une visio d’information (en ligne) sera organisée mi-juillet pour les précisions, questions… Un lien avec plus d’infos sera envoyé par e-mail
 - La liste du matériel vous sera communiqué après la visioconférence
 
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
-
 ## **Un p’tit mot sur le guide**
 
 Colin habite dans le magnifique domaine où est implanté le tiers-lieu des 4 Sources. Il suit une formation de guide nature et de guide de randonnée (de moyenne montagne). Il a 18 ans et a la chance de pouvoir vous proposer ce magnifique séjour dans le cadre de sa formation de guide de randonnée, comme stage pratique, accompagné de Samuel Demont, son maître de stage. Il se réjouit de vous partager ses passions, entre randonnée et nature, à travers des moments de contemplation, de partage, de réflexion et de plaisir.

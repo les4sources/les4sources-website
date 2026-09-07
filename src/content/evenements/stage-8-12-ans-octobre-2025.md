@@ -17,6 +17,7 @@ pole: "artisanat"
 category: "Artisanat"
 priceText: "175 €"
 registrationUrl: "https://les4sources.punchpass.com/series/41687"
+seoTitle: "Les p’tits menuisiers dans la… — 20 au 24 octobre 2025"
 ---
 
 ## En pratique
@@ -72,8 +73,6 @@ Cet espace lumineux accueille les p’tits menuisiers avec du matériel et des p
 
 ![20241123 170702 EB504299](../../assets/migration/shared/d037324589d1-20241123_170702_EB504299.jpg)
 <!-- /columns -->
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
 
 ## Des animateurs motivés
 

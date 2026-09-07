@@ -90,5 +90,3 @@ Rituel symbolique *Un moment collectif pour ancrer l'expérience*
 - Ton pique-nique pour le repas de midi convivial. Tisanes et petites douceurs offertes sur place.
 
 <a class="button" href="https://semisto.punchpass.com/series/46262">🖍️ Pour s'inscrire, c'est par là</a>
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

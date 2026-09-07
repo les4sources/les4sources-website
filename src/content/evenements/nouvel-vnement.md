@@ -1,6 +1,6 @@
 ---
 title: "Nouvel événement"
-description: "🗞️ Pour être informé·e des prochains événements aux 4 Sources, inscris-toi à notre newsletter mensuelle."
+description: "💁 Envie de loger sur place avant ou après l’événement ? Fais-nous part de ta demande à contact@les4sources.be."
 legacyPath: "/evenements/nouvel-vnement"
 properties:
   Date: "2025-11-20"
@@ -10,8 +10,6 @@ start: "2025-11-20"
 ---
 
 ## En pratique
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
 
 ## Facilitateur·rice
 

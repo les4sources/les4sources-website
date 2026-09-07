@@ -26,12 +26,6 @@ Proche d'Yvoir, de Crupet et d'Evrehailles, c'est l'endroit idéal pour une esca
 - [Chambre ‘Mélisse’](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/chambre-mlisse)
 - [La cuisine (2ème étage)](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-cuisine)
 - [Le séjour (2ème étage)](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/le-sjour)
-- [](/3c20d14933178060b2edd9d4f0dd7d4b)
-- [](/3c20d1493317804fbfb3ee15a3956648)
-- [](/3c20d1493317800b81a7c0794fbd4f2c)
-- [](/3c20d1493317800d89ffd1dc5e4c31e7)
-- [](/3c20d149331780ad946ffee918fd14f6)
-- [](/3c20d149331780b39f2acde0ca98a398)
 
 ## Pour 25 personnes
 

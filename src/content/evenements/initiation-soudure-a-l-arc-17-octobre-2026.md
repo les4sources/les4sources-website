@@ -19,6 +19,7 @@ start: "2026-10-17T09:00:00+02:00"
 category: "Artisanat"
 priceText: "80 €"
 registrationUrl: "https://www.billetweb.fr/initiation-a-la-soudure-a-larc"
+seoTitle: "COMPLET ! Initiation à la soudure à… — samedi 17 octobre"
 ---
 
 ⚠️ COMPLET : **SESSION DU 17 OCTOBRE 2026 (9h-12h30)**
@@ -65,5 +66,3 @@ Sébastien Frennet, membre des 4 Sources
 - [👷🏻 ⚡ COMPLET ! Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-17-octobre-2026) — samedi 17 octobre · Formation
 - [👷🏻 ⚡ Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-21-novembre-2026) — samedi 21 novembre · Formation
 - [👷🏻‍♀️ Initiation à la soudure à l’arc ⚡](/evenements/initiation-soudure-a-l-arc-12-dcembre-2026) — samedi 12 décembre · Formation
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

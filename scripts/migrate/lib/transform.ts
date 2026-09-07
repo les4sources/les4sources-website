@@ -28,6 +28,8 @@ export interface TransformOptions {
   deadLinks: Record<string, string>;
   /** URL de fichier joint (PDF…) → chemin local servi par le site. */
   files: Record<string, string>;
+  /** Id Notion (32 hex, sans tirets) → page du site. Sert aux liens `/<32-hex>`. */
+  notionPages: Record<string, { path: string; title: string }>;
 }
 
 export interface TransformResult {
@@ -42,6 +44,68 @@ export interface TransformResult {
 export function stripFrontmatter(md: string): string {
   const m = md.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/);
   return m ? md.slice(m[0].length) : md;
+}
+
+/* ──────────────────── 0. Bloc newsletter (bloc de site) ──────────────────── */
+
+/**
+ * « 🗞️ Pour être informé·e des prochains événements aux 4 Sources, inscris-toi à
+ * notre newsletter mensuelle. » n'est PAS du contenu de page : c'est un bloc que
+ * Super répétait en pied de presque toutes les pages. Le gabarit le rend
+ * désormais une fois pour toutes (`NewsletterBand` dans BaseLayout), donc on le
+ * retire des corps migrés — sinon la phrase apparaîtrait deux fois.
+ */
+export function stripNewsletterBlock(md: string): string {
+  const kept = md.split("\n").filter((line) => {
+    const text = line.replace(/^\s*(?:>\s*)*/, "").replace(/[*_`]+/g, "").trim();
+    return !(/newsletter mensuelle/i.test(text) && /pour [êe]tre inform/i.test(text));
+  });
+  // Un `>` orphelin resterait si le bloc était le seul contenu de sa citation.
+  return kept.filter((line, i) => !(/^\s*>\s*$/.test(line) && isBlankAround(kept, i))).join("\n");
+}
+
+function isBlankAround(lines: string[], i: number): boolean {
+  const before = lines[i - 1]?.trim() ?? "";
+  const after = lines[i + 1]?.trim() ?? "";
+  return !before.startsWith(">") && !after.startsWith(">");
+}
+
+/* ───────────────── 0 bis. Liens Notion bruts (`/<32-hex>`) ───────────────── */
+
+const NOTION_LINK = /\[([^\]]*)\]\(\/([0-9a-f]{32})\)/gi;
+
+/**
+ * Super laissait passer des liens vers l'id Notion brut (`/3c20d1493317…`).
+ * Ils sont résolus vers le `legacyPath` de la page correspondante ; quand aucune
+ * page ne porte cet id (carte de galerie supprimée), le lien disparaît et seul
+ * son texte survit — un lien mort est pire qu'un lien absent.
+ */
+export function resolveNotionLinks(
+  md: string,
+  pages: Record<string, { path: string; title: string }>,
+): string {
+  const resolved = md.replace(NOTION_LINK, (_all, label: string, id: string) => {
+    const hit = pages[id.toLowerCase()];
+    if (!hit) return label;
+    // Les cartes de galerie Notion n'ont pas de libellé : le titre de la cible en tient lieu.
+    return `[${(label.trim() || hit.title).replace(/[[\]]/g, "")}](${hit.path})`;
+  });
+  // Un item de liste dont le lien était tout le contenu ne doit pas rester vide.
+  return resolved
+    .split("\n")
+    .filter((line) => !/^\s*(?:>\s*)*[-*+]\s*$/.test(line))
+    .join("\n");
+}
+
+/* ────────────────── 0 ter. Marqueurs de gras accolés ────────────────── */
+
+/**
+ * Turndown accole les runs de gras voisins (`**A****B**`), ce qui laisse quatre
+ * astérisques littérales dans la page rendue. Les fusionner rend le gras unique
+ * et fait disparaître le `****` visible.
+ */
+export function tidyEmphasis(md: string): string {
+  return md.replace(/\*{4}/g, "");
 }
 
 /* ─────────────────────────── 7. Liens ─────────────────────────── */
@@ -188,7 +252,12 @@ export function convertEmbeds(
       i = j;
     }
 
-    const title = record?.title ?? linkLabel ?? kind;
+    // Pour une pièce jointe, le libellé du lien porte le poids du fichier
+    // (« … .pdf (19369.0KB) ») : c'est lui le texte de la page, pas le titre nu.
+    const title =
+      kind === "file"
+        ? (linkLabel ?? record?.title ?? kind)
+        : (record?.title ?? linkLabel ?? kind);
     out.push("", ...renderEmbed(kind, src, title, record, files), "");
     if (kind === "tally") usesTally = true;
   }
@@ -273,7 +342,10 @@ export function rewriteImages(
 
 export function transformBody(rawMarkdown: string, opts: TransformOptions): TransformResult {
   let body = stripFrontmatter(rawMarkdown);
+  body = stripNewsletterBlock(body);
+  body = tidyEmphasis(body);
   body = rewriteLinks(body, opts.deadLinks);
+  body = resolveNotionLinks(body, opts.notionPages);
   body = convertCollections(body);
   const embedded = convertEmbeds(body, opts.embeds, opts.files);
   body = embedded.body;

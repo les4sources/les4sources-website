@@ -17,6 +17,7 @@ properties:
 pole: "artisanat"
 category: "Artisanat, Formation"
 priceText: "485 €"
+seoTitle: "Stage low-tech : construis ta… — du 8 au 10 octobre"
 ---
 
 ## **Trois journées - 8, 9 et 10 octobre - pour construire et tester ta cuisinière, s’initier aux low-techs et au travail du métal.**
@@ -96,8 +97,6 @@ En dehors de l’auberge espagnole et de la Pizza Party privée, les repas sont 
 - Des vêtements adaptés à la météo ☔
 - Ton set de draps de lit pour un lit simple 🛌🏻
 - Une boisson sympa à partager jeudi soir 🧉
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
 
 ## Facilitateur·rice
 

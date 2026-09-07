@@ -103,8 +103,6 @@ Notre collectif s’est posé dans un lieu unique au cœur d’une région magni
 
 <a class="button" href="/a-propos">Les infos de contact</a>
 
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
-
 [Notre collectif](/notre-collectif)
 
 [Nous soutenir](/nous-soutenir)

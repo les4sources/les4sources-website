@@ -20,7 +20,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { join, dirname, relative } from "node:path";
 import { stringify } from "yaml";
 import { optimiseImage, assetRelPath, humaniseFilename } from "./lib/optimise";
-import { transformBody, stripFrontmatter } from "./lib/transform";
+import { transformBody, stripFrontmatter, stripNewsletterBlock } from "./lib/transform";
 
 /* ──────────────────────────── Constantes ──────────────────────────── */
 
@@ -96,6 +96,8 @@ interface SourcePage {
   images?: SourceImage[];
   embeds?: { kind: string; src: string; title?: string; rawHtml?: string }[];
   externalLinks?: string[];
+  internalLinks?: string[];
+  notion?: { id?: string; blockId?: string; parentId?: string; collectionId?: string | null };
 }
 
 /* ──────────────────────────── Aides ──────────────────────────── */
@@ -133,8 +135,16 @@ function assetPrefixFor(outFile: string): string {
 
 const EMOJI_HEAD = /^(?:[\p{Extended_Pictographic}‍️\u{1F3FB}-\u{1F3FF}\s]+)/u;
 
+const EMOJI_TAIL = /(?:[\p{Extended_Pictographic}\u200d\ufe0f\u{1F3FB}-\u{1F3FF}\s]+)$/u;
+
 function stripLeadingEmoji(title: string): string {
   return title.replace(EMOJI_HEAD, "").trim() || title.trim();
+}
+
+/** « ⚡ COMPLET ! … ⚡ » → « COMPLET ! … » — l'émoji décore, il ne distingue pas. */
+function stripEdgeEmoji(title: string): string {
+  const out = title.replace(EMOJI_HEAD, "").replace(EMOJI_TAIL, "").trim();
+  return out || title.trim();
 }
 
 function truncateWords(text: string, max: number, ellipsis = "…"): string {
@@ -158,7 +168,7 @@ function markdownToText(md: string): string {
 
 /** Premier vrai paragraphe du corps (le site pose souvent son chapô en `####`). */
 function firstParagraph(md: string): string | undefined {
-  for (const block of stripFrontmatter(md).split(/\n\s*\n/)) {
+  for (const block of stripNewsletterBlock(stripFrontmatter(md)).split(/\n\s*\n/)) {
     const line = block.trim();
     if (!line || line.startsWith("<!--") || line.startsWith("![")) continue;
     if (/^[-*]\s/.test(line)) continue; // liste : rarement une bonne description
@@ -264,6 +274,32 @@ function hostOf(url: string): string {
   }
 }
 
+/* ──────────────────────────── Index des ids Notion ──────────────────────────── */
+
+/** Id Notion (32 hex sans tirets) → page du site. Rempli avant toute construction. */
+const notionPages: Record<string, { path: string; title: string }> = {};
+
+const bareId = (v: unknown): string | undefined => {
+  if (typeof v !== "string") return undefined;
+  const bare = v.replace(/-/g, "").toLowerCase();
+  return /^[0-9a-f]{32}$/.test(bare) ? bare : undefined;
+};
+
+/**
+ * Super laissait dans le HTML des liens vers l'id Notion brut. Les ids
+ * apparaissent avec ou sans tirets selon l'endroit : on indexe la forme nue.
+ * `blockId` d'abord — c'est lui que portent les liens de cartes de galerie.
+ */
+function indexNotionIds(pages: SourcePage[]): void {
+  for (const key of ["blockId", "id", "parentId", "collectionId"] as const) {
+    for (const page of pages) {
+      const id = bareId(page.notion?.[key]);
+      if (!id || notionPages[id]) continue;
+      notionPages[id] = { path: clean(page.path), title: (page.h1 || page.title || "").trim() };
+    }
+  }
+}
+
 /* ──────────────────────────── Images ──────────────────────────── */
 
 const plannedAssets = new Map<string, string>(); // localPath → chemin relatif d'asset
@@ -366,6 +402,7 @@ async function buildPage(jsonFile: string, page: SourcePage): Promise<Built> {
     embeds: page.embeds ?? [],
     deadLinks: DEAD_LINKS,
     files: localFiles,
+    notionPages,
   });
 
   const frontmatter: Record<string, unknown> = { title };
@@ -506,6 +543,106 @@ function assignDescriptions(pages: Built[]): void {
   }
 }
 
+/* ──────────────────────────── Titres uniques (≤ 60, ISC-25) ──────────────────────────── */
+
+const MONTHS_FR = [
+  "janvier", "février", "mars", "avril", "mai", "juin",
+  "juillet", "août", "septembre", "octobre", "novembre", "décembre",
+];
+
+/** « 2025-04-26 » → « 26 avril 2025 ». Rien d'autre n'est accepté : pas de date inventée. */
+function frenchDate(iso?: unknown): string | undefined {
+  const m = typeof iso === "string" ? iso.match(/^(\d{4})-(\d{2})-(\d{2})/) : null;
+  if (!m) return undefined;
+  return `${Number(m[3])} ${MONTHS_FR[Number(m[2]) - 1]} ${m[1]}`;
+}
+
+/** Section du site, dernier recours pour distinguer deux titres identiques. */
+function sectionLabel(path: string): string {
+  if (path.startsWith("/evenements/")) return "événements";
+  if (path.startsWith("/agenda/")) return "agenda";
+  if (path.startsWith("/catalogue/")) return "catalogue";
+  if (path.startsWith("/collectif/")) return "collectif";
+  if (path.startsWith("/projets/")) return "projets";
+  if (path.startsWith(`${HEBERGEMENTS_BASE}/`)) return "hébergements";
+  if (path.startsWith("/sejours/")) return "séjours";
+  if (path.startsWith("/a-propos/")) return "à propos";
+  return "Les 4 Sources";
+}
+
+/**
+ * Ce qui distingue vraiment cette page de ses homonymes :
+ *  - un événement, c'est sa date ;
+ *  - une sous-page d'hébergement (chambre, photos), c'est le gîte dont elle relève ;
+ *  - une fiche du catalogue, c'est sa thématique ;
+ *  - une page d'agenda, c'est l'agenda lui-même ;
+ *  - à défaut, la section du site.
+ */
+function distinguisherFor(page: Built, byPath: Map<string, Built>): string {
+  const props = (page.frontmatter.properties ?? {}) as Record<string, string>;
+  if (page.bucket === "evenements") {
+    const date =
+      props["Date (fr)"]?.trim() || frenchDate(page.frontmatter.start) || frenchDate(props.Date);
+    if (date) return date;
+  }
+  if (page.bucket === "hebergements") {
+    const parent = byPath.get(page.path.slice(0, page.path.lastIndexOf("/")) || "/");
+    if (parent) return stripEdgeEmoji(String(parent.frontmatter.title));
+  }
+  if (page.bucket === "catalogue") {
+    const theme = props["Thématique"]?.split(",")[0]?.trim();
+    if (theme) return theme;
+  }
+  return sectionLabel(page.path);
+}
+
+/** `base — suffixe`, jamais plus de 60 caractères, coupé sur un mot. */
+function joinTitle(base: string, suffix: string): string {
+  const full = `${base} — ${suffix}`;
+  if (full.length <= TITLE_MAX) return full;
+  const room = TITLE_MAX - suffix.length - 3;
+  if (room < 12) return truncateWords(full, TITLE_MAX);
+  return `${truncateWords(base, room)} — ${suffix}`;
+}
+
+/**
+ * Deux pages ne peuvent pas partager un `<title>` (ISC-25). Les titres déjà
+ * uniques sont laissés intacts ; les homonymes reçoivent un `seoTitle` distingué
+ * par ce qui les sépare réellement (date, gîte parent, thématique, section).
+ */
+function assignTitles(pages: Built[]): void {
+  const byPath = new Map(pages.map((p) => [p.path, p]));
+  const effective = (p: Built) => String(p.frontmatter.seoTitle ?? p.frontmatter.title);
+
+  const groups = new Map<string, Built[]>();
+  for (const page of pages) {
+    const key = effective(page);
+    (groups.get(key) ?? groups.set(key, []).get(key)!).push(page);
+  }
+
+  // Les titres déjà uniques sont réservés : un titre distingué ne doit pas tomber dessus.
+  const used = new Set<string>();
+  for (const [key, group] of groups) if (group.length === 1) used.add(key.toLowerCase());
+
+  for (const group of groups.values()) {
+    if (group.length === 1) continue;
+    for (const page of group) {
+      const base = stripEdgeEmoji(String(page.frontmatter.title));
+      const suffix = distinguisherFor(page, byPath);
+      let candidate = joinTitle(base, suffix);
+      if (used.has(candidate.toLowerCase())) {
+        candidate = joinTitle(base, `${suffix}, ${sectionLabel(page.path)}`);
+      }
+      let n = 2;
+      while (used.has(candidate.toLowerCase())) {
+        candidate = joinTitle(base, `${suffix} (${n++})`);
+      }
+      used.add(candidate.toLowerCase());
+      page.frontmatter.seoTitle = candidate;
+    }
+  }
+}
+
 /* ──────────────────────────── Manifeste et écriture ──────────────────────────── */
 
 async function readManifest(): Promise<string[]> {
@@ -600,6 +737,8 @@ async function main(): Promise<void> {
     sources.push({ file, page });
   }
 
+  indexNotionIds(sources.map((s) => s.page));
+
   const attachments = await fetchAttachments(sources.map((s) => s.page));
 
   const built: Built[] = [];
@@ -608,6 +747,7 @@ async function main(): Promise<void> {
   // Ordre stable : le tri par chemin rend l'attribution des descriptions déterministe.
   built.sort((a, b) => a.path.localeCompare(b.path));
   assignDescriptions(built);
+  assignTitles(built);
 
   const perBucket: Record<string, number> = {};
   const written: string[] = [];

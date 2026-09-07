@@ -14,6 +14,7 @@ pole: "ressourcement"
 start: "2024-10-16T20:00:00+02:00"
 category: "Ressourcement"
 registrationUrl: "https://les4sources.punchpass.com/org/8599/classes/15693872"
+seoTitle: "Chœur méditant & énergisant : ouvert à… — 16 octobre 2024"
 ---
 
 ### Durant une soirée, mêle ta voix à celles des personnes présentes et découvre des chants à plusieurs voix.
@@ -45,5 +46,3 @@ Profite de ce temps musical pour faire un break dans ta semaine, quitter tes pr�
 - Claire Feyens
 
 > 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [contact@les4sources.be](mailto:contact@les4sources.be).
-
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).

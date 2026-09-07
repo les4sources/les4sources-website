@@ -44,8 +44,6 @@ Cette formation est ouverte à tous, des jardiniers amateurs aux professionnels 
 
 **Rejoins-nous pour une journée riche en apprentissages et en partages, et repars avec la confiance et les compétences nécessaires pour prendre soin de tes pommiers et poiriers.**
 
-> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).
-
 ## Facilitateur
 
 <!-- columns -->
