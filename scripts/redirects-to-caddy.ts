@@ -5,11 +5,15 @@
  * redirections).
  *
  * Hatchbox sert une app statique avec Caddy (`root = current/public`,
- * `file_server`, compression) et accepte, par app, un Caddyfile personnalisé
- * dont les règles précèdent `%{default}`. Ce fichier est à coller dans
- * Hatchbox › app `les4sources-website` › Settings › Caddyfile. Il est COMMITÉ
- * (pour être relu et diffé) et vérifié à jour par `--check` (dans `verify` et
- * dans `.hatchbox/build`).
+ * `file_server`, compression, `handle_errors` qui sert `404.html`) et accepte,
+ * par app, un Caddyfile personnalisé dont les règles précèdent son bloc par
+ * défaut. Ce bloc est injecté à la place du marqueur « %{default} » — PARTOUT
+ * où la chaîne apparaît, commentaires compris : le marqueur ne doit donc
+ * figurer qu'une fois, en dernière ligne (leçon du 2026-09-08 : un « %{default} »
+ * dans le commentaire d'en-tête a fait définir `@assets` deux fois et Caddy a
+ * refusé toute la configuration du serveur). Ce fichier est enregistré sur
+ * l'app (API ou Settings › Caddyfile), COMMITÉ pour être relu et diffé, et
+ * vérifié à jour par `--check` (dans `verify` et dans `.hatchbox/build`).
  *
  * Règles émises, dans l'ordre :
  *  - apex → www (origine canonique `https://www.les4sources.be`) ;
@@ -18,8 +22,9 @@
  *    `:splat`) — première règle qui matche gagne, Caddy évalue dans l'ordre ;
  *  - `/_redirects` lui-même n'est pas servi ;
  *  - cache long sur les assets hachés d'Astro (`/_astro/*`) ;
- *  - `try_files` pour servir `/foo/index.html` sur `/foo` sans redirection ;
- *  - la page 404 du site.
+ *  - `try_files` pour servir `/foo/index.html` sur `/foo` sans redirection.
+ * La page 404 est servie par le `handle_errors` d'Hatchbox (`404.html` à la
+ * racine du site) : aucun bloc d'erreur ici, il ferait doublon.
  *
  * Usage : `bun run scripts/redirects-to-caddy.ts [--check] [source] [sortie]`
  *   défauts : public/_redirects → deploy/Caddyfile
@@ -80,8 +85,9 @@ for (const line of raw.split("\n")) {
 
 const out = [
   "# GÉNÉRÉ par scripts/redirects-to-caddy.ts depuis public/_redirects — ne pas éditer à la main.",
-  "# À coller dans Hatchbox › app les4sources-website › Settings › Caddyfile (les règles",
-  "# précèdent %{default}, qui garde le root, la compression et le file_server d'Hatchbox).",
+  "# Caddyfile de l'app Hatchbox les4sources-website : ces règles précèdent le bloc par défaut",
+  "# d'Hatchbox (root, cache des assets, page d'erreur, compression, file_server), injecté à la",
+  "# place du marqueur de la dernière ligne — ne jamais répéter ce marqueur ailleurs.",
   "",
   "# Origine canonique : l'apex part vers www.",
   `@apex host ${APEX_HOST}`,
@@ -102,15 +108,9 @@ const out = [
   "@astro path /_astro/*",
   'header @astro Cache-Control "public, max-age=31536000, immutable"',
   "",
-  "# Pages : /foo sert /foo/index.html sans redirection vers /foo/.",
+  "# Pages : /foo sert /foo/index.html sans redirection vers /foo/. La page 404 du site",
+  "# (404.html) est servie par le bloc d'erreur d'Hatchbox.",
   "try_files {path} {path}/index.html",
-  "",
-  "# Page 404 du site.",
-  "handle_errors {",
-  "  @notfound expression `{err.status_code} == 404`",
-  "  rewrite @notfound /404.html",
-  "  file_server",
-  "}",
   "",
   "%{default}",
   "",
