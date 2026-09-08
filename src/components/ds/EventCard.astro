@@ -35,7 +35,7 @@ const { title, date, pole = "convivialite", image, soldOut = false, href, class:
   Astro.props;
 ---
 
-<Card image={image} imageAlt={title} imageAspect="4/3" pole={pole} hoverable class={className}>
+<Card image={image} imageAlt={title} imageAspect="16/10" pole={pole} hoverable class={["[&_img]:object-left", className].filter(Boolean).join(" ")}>
   <div class="mb-2.5 flex flex-wrap items-center gap-2">
     <PoleTag pole={pole} />
     {soldOut && <Badge tone="danger">Complet !</Badge>}

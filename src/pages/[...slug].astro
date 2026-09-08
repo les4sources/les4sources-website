@@ -48,10 +48,25 @@ const wide =
 
 // Fil d'Ariane dérivé du chemin réel (une page profonde = un fil d'Ariane).
 const segments = pathOf(entry).split("/").filter(Boolean);
+// Libellés des sections du site actuel ; à défaut, le segment est humanisé (majuscule, tirets → espaces).
+const CRUMB_LABELS: Record<string, string> = {
+  sejours: "Séjours",
+  "hebergements-yvoir": "Hébergements",
+  evenements: "Événements",
+  catalogue: "Catalogue",
+  collectif: "Collectif",
+  projets: "Projets",
+  "a-propos": "À propos",
+  agenda: "Agenda",
+};
+const humanise = (seg: string) => {
+  const s = seg.replace(/-/g, " ");
+  return s.charAt(0).toUpperCase() + s.slice(1);
+};
 const crumbs = [
   { label: "Accueil", href: "/" },
   ...segments.map((seg, i) => ({
-    label: i === segments.length - 1 ? d.title : seg.replace(/-/g, " "),
+    label: i === segments.length - 1 ? d.title : (CRUMB_LABELS[seg] ?? humanise(seg)),
     href: `/${segments.slice(0, i + 1).join("/")}`,
   })),
 ];
