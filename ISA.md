@@ -1,12 +1,12 @@
 ---
 project: les4sources-website
 task: Copie conforme Astro statique de www.les4sources.be, habillée du brand system Claude Design, événements/activités pilotés depuis Claudy
-phase: verify
-progress: 33/38
+phase: complete
+progress: 37/38
 mode: algorithm
 iteration: 1
 started: 2026-09-07T23:30:00+02:00
-updated: 2026-09-08T03:15:00+02:00
+updated: 2026-09-08T03:40:00+02:00
 principal_stated_goal: "Crée une copie conforme Astro statique du site web actuel des 4 Sources (www.les4sources.be) en l'upgradant au brand system créé avec Claude Design, dont je te fournis le prompt complet ci-dessous. Le site web doit avoir une structure et un contenu 100% identique au site actuel, ce qui va nous permettre de switcher rapidement vers le nouveau site, qui évoluera ensuite. La gestion des événéments et des activités doit se faire depuis Claudy, où les bases sont déjà posées. L'éditrice du site web va donc utiliser Claudy pour ajouter/dupliquer des événements et les publier sur le site web. Le site web doit être super génial, agréable à visiter, rapide, optimisé SEO/GEO, prêt à être publié."
 ---
 
@@ -73,11 +73,11 @@ Livrer, sur la branche `build/astro-v1` de `les4sources/les4sources-website`, un
 - [x] ISC-14 : Anti : aucun contenu inventé — recherche de `lorem`, `placeholder`, `TODO` dans `dist/` vide ; chaque page provient de la migration ou de Claudy.
 
 ### Design
-- [ ] ISC-15 : Accueil, Agenda, Bar et Séjours reproduisent les maquettes `ui_kits/website` (sections, hiérarchie, composants), constaté sur captures agent-browser.
+- [x] ISC-15 : Accueil, Agenda, Bar et Séjours reproduisent les maquettes `ui_kits/website` (sections, hiérarchie, composants), constaté sur captures agent-browser.
 - [x] ISC-16 : Les composants du DS utilisés par le site (Button, Badge, Tag, PoleTag, Highlight, Card, EventCard, BlobPanel, Tabs, Nav, Footer) existent en Astro avec leurs variantes.
-- [ ] ISC-17 : Sur mobile 375 px, aucune page clé (accueil, agenda, séjours, tarifs, une fiche événement, une fiche activité, un hébergement) ne déborde horizontalement (`scrollWidth ≤ innerWidth`).
+- [x] ISC-17 : Sur mobile 375 px, aucune page clé (accueil, agenda, séjours, tarifs, une fiche événement, une fiche activité, un hébergement) ne déborde horizontalement (`scrollWidth ≤ innerWidth`).
 - [x] ISC-18 : Accessibilité de base : contraste AA sur le texte courant, focus visible, `alt` sur toutes les images, landmarks (`header/nav/main/footer`), un seul H1 par page.
-- [ ] ISC-19 : Antecedent (« agréable à visiter ») : hiérarchie typographique du DS, photos locales en grand format, rythme d'espacement du DS, états hover/focus, `prefers-reduced-motion` respecté.
+- [x] ISC-19 : Antecedent (« agréable à visiter ») : hiérarchie typographique du DS, photos locales en grand format, rythme d'espacement du DS, états hover/focus, `prefers-reduced-motion` respecté.
 
 ### Claudy — source des événements et activités
 - [x] ISC-20 : Le contrat Claudy → site est écrit (`docs/CLAUDY.md`) : endpoints JSON publics en lecture seule, champs, sémantique de publication, slugs, images, déclencheur de rebuild ; une fixture JSON conforme vit dans le repo (`src/data/claudy.fixture.json`).
@@ -104,7 +104,7 @@ Livrer, sur la branche `build/astro-v1` de `les4sources/les4sources-website`, un
 - [x] ISC-35 : CI GitHub `verify` (check + build + seo:check) sur chaque PR.
 - [x] ISC-36 : README et CLAUDE.md du repo documentent : éditer une page, gérer un événement/activité dans Claudy, builder, déployer, basculer le DNS.
 - [x] ISC-37 : Anti : aucun secret dans le repo (scan de patterns de tokens vide).
-- [ ] ISC-38 : Anti : aucun déploiement en production ni bascule DNS effectué par l'agent ; la branche est poussée et une PR brouillon ouverte.
+- [x] ISC-38 : Anti : aucun déploiement en production ni bascule DNS effectué par l'agent ; la branche est poussée et une PR brouillon ouverte.
 
 ## Test Strategy
 
@@ -121,6 +121,7 @@ Livrer, sur la branche `build/astro-v1` de `les4sources/les4sources-website`, un
 | ISC-29, 34 | HTTP | requêtes HTTP avec en-têtes sur le conteneur/preview | Bash |
 | ISC-31, 32, 33 | mesure | Lighthouse CLI sur preview ; taille des JS | Bash |
 | ISC-36, 38 | fichier + git | lecture des docs ; `git log`, `gh pr view` | Bash |
+- 2026-09-08 03:40 : **Dernière revue visuelle** (mes captures desktop + rapport du vérificateur) → quatre retouches livrées dans `4c18eba` : couvertures d'événement cadrées à gauche, surlignage plein sur le bandeau teal, soutiens sur surface papier, libellés du fil d'Ariane (« Séjours », « Les hébergements ») au lieu des slugs. Restent volontairement en l'état car identiques au site actuel : cartes d'hébergements enfants souvent sans photo (bandeau teinté du pôle), CTA empilés sur mobile, fiche membre sans photo. Pièges d'outillage : le port 4331 était tenu par un serveur de dev Terranova (une 404 Semisto a été capturée à la place du site) → vérifier `lsof -iTCP:<port> -sTCP:LISTEN` avant `astro preview` ; sous charge machine ≥ 18, `agent-browser screenshot` bloque indéfiniment alors que les mesures par `eval` passent.
 
 ## Features
 
@@ -188,3 +189,7 @@ Livrer, sur la branche `build/astro-v1` de `les4sources/les4sources-website`, un
 - ISC-14 (2026-09-08 00:28) : `grep -rli 'lorem ipsum|TODO' dist --include='*.html'` → 0 fichier.
 - ISC-18 partiel (2026-09-08 00:28) : 630 `<img>` dans `dist/`, 0 sans `alt` ; 0 page avec un nombre de `<h1>` différent de 1 (contraste, focus et landmarks vérifiés au navigateur plus tard).
 - ISC-4 (2026-09-07 23:50) : `grep -rl 'fonts.googleapis|fonts.gstatic' dist` → 0 fichier ; `ls dist/_astro/*.woff2` → 23 fichiers (Averia Serif Libre + Be Vietnam Pro via `@fontsource`) ; `bun run build` exit 0 avec ces tokens.
+- ISC-15 (2026-09-08 03:10) : passe navigateur du vérificateur (agent-browser sur `astro preview`) — captures desktop 1280 de l'accueil, de l'agenda, du bar et de la fiche événement, plus 12 captures mobiles, 28 PNG dans `tmp/verify/` ; sections des kits `ui_kits/website` retrouvées : accueil = hero, 3 lieux, « Prochainement » en cartes d'événement, hébergements, guinguette, projets, bandeau teal randonneurs, activités pour groupes, soutiens ; agenda = « À venir » puis « Passés » ; en-tête Agenda · Séjours · Salles · Activités · Projets · À propos · Le bar 🧉, pied de page 7 pictos + NAP. Après les retouches de `4c18eba` : `object-left` 1 occurrence et `marker-top:-5%` 1 occurrence dans `dist/index.html` ; au navigateur, couleur du marqueur `rgb(34, 66, 70)` et fond de la section soutiens `rgb(250, 246, 240)` ; fil d'Ariane construit « Accueil › Séjours › Tarifs des hébergements et salles » et « Accueil › Séjours › Les hébergements › La Hulotte ».
+- ISC-17 (2026-09-08 03:10) : vérificateur agent-browser à 375 × 800 sur 12 pages (accueil, agenda, événements, bar, fiche événement, séjours, tarifs, catalogue, fiche activité, hébergement, disponibilités, newsletter) : « 12 pages `scrollWidth 375 ≤ innerWidth 375` (clientWidth 375) » ; ma passe finale (`final/pass.log`) confirme `375/375` sur accueil et agenda. Menu mobile (`verify/menu.log`) : clic réel sur le bouton → `aria-expanded="true"`, tiroir 375 × 728 visible avec les 6 liens ; Escape réel → `aria-expanded="false"`, tiroir `display: none`.
+- ISC-19 (2026-09-08 03:10) : `document.fonts.check('700 16px "Averia Serif Libre"')` → true sur accueil, agenda et fiche événement (`final/pass.log`) ; Be Vietnam Pro 400/500/600/700/900 livrées en woff2 (`dist/_astro`), 3 usages `font-weight:500` ; anneau de focus 3 px teal `rgb(34, 66, 70)` + halo 25 % sur le lien d'évitement et les 7 liens de l'en-tête (`verify/a11y.log`) ; `prefers-reduced-motion` : 1 règle dans le CSS construit ; heros en `loading="eager"` grand format (90) et 1 019 images paresseuses (ISC-33) ; hiérarchie typographique et rythme d'espacement du DS constatés sur les captures.
+- ISC-38 (2026-09-08 03:40) : aucune commande de déploiement ni modification DNS dans la session ; `gh pr view 1` → OPEN, draft=true, `build/astro-v1` → `main` ; `origin/main` = `954832b` inchangé (0 commit depuis la base de branche), `origin/build/astro-v1` = HEAD = `4c18eba`, arbre de travail propre.
