@@ -1,0 +1,23 @@
+---
+/**
+ * Highlight — dalle de surligneur jaune derrière le texte
+ * (motif n°3 de la charte, portage de `Highlight` dans Display.jsx).
+ *
+ * `thickness` = part de la hauteur de ligne couverte (0 → 1). Le dégradé est
+ * dur : deux arrêts au même pourcentage, donc un aplat, jamais un fondu.
+ * `box-decoration-break: clone` fait suivre le surlignage sur chaque ligne.
+ */
+interface Props {
+  /** 0.4 par défaut, comme la référence. */
+  thickness?: number;
+  class?: string;
+}
+
+const { thickness = 0.4, class: className } = Astro.props;
+// Même calcul que Display.jsx : top = (1 - thickness) * 100 - 5, bas figé à 92 %.
+const top = Math.round((1 - Math.min(Math.max(thickness, 0), 1)) * 100 - 5);
+---
+
+<span class:list={["l4s-marker", className]} style={`--marker-top:${top}%`}>
+  <slot />
+</span>

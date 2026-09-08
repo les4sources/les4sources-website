@@ -1,0 +1,80 @@
+---
+/**
+ * Sommaire collant de la page Séjours — une simple liste d'ancres, sans
+ * bibliothèque d'animation. Le repérage de la section courante se fait à
+ * l'IntersectionObserver ; sans JavaScript, la liste reste une liste de liens.
+ * Sous 1024 px, elle disparaît : la page est déjà en une seule colonne.
+ */
+export interface TocItem {
+  label: string;
+  href: string;
+}
+
+interface Props {
+  items: TocItem[];
+  title?: string;
+}
+
+const { items, title = "Sommaire" } = Astro.props;
+---
+
+<nav class="sticky top-24 hidden lg:block" aria-label={title} data-toc>
+  <p class="l4s-overline mb-3 text-ink-3">{title}</p>
+  <ul class="m-0 grid list-none gap-1 p-0">
+    {
+      items.map((item) => (
+        <li>
+          <a
+            href={item.href}
+            class="block rounded-sm border-l-[3px] border-transparent py-1.5 pl-3 font-ui text-ui text-ink-2 no-underline transition-colors duration-[120ms] hover:text-teal aria-[current=true]:border-highlight aria-[current=true]:font-bold aria-[current=true]:text-teal"
+          >
+            {item.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>
+
+<script>
+  const nav = document.querySelector<HTMLElement>("[data-toc]");
+  if (nav) {
+    const links = Array.from(nav.querySelectorAll<HTMLAnchorElement>('a[href^="#"]'));
+    const byId = new Map<string, HTMLAnchorElement>();
+    const targets: HTMLElement[] = [];
+
+    for (const link of links) {
+      const id = decodeURIComponent(link.hash.slice(1));
+      const target = id ? document.getElementById(id) : null;
+      if (!target) continue;
+      byId.set(id, link);
+      targets.push(target);
+    }
+
+    if (targets.length > 0) {
+      const seen = new Set<string>();
+      const mark = () => {
+        // La section active est la dernière encore visible dans le haut de page.
+        let current = "";
+        for (const target of targets) if (seen.has(target.id)) current = target.id;
+        for (const [id, link] of byId) {
+          if (id === current) link.setAttribute("aria-current", "true");
+          else link.removeAttribute("aria-current");
+        }
+      };
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting) seen.add(entry.target.id);
+            else seen.delete(entry.target.id);
+          }
+          mark();
+        },
+        { rootMargin: "-96px 0px -60% 0px", threshold: 0 },
+      );
+
+      for (const target of targets) observer.observe(target);
+    }
+  }
+</script>

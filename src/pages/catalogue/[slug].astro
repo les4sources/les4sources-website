@@ -1,0 +1,138 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection, getEntry, render } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
+import Facts from "@components/ui/Facts.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import Prose from "@components/ui/Prose.astro";
+import Button from "@components/ds/Button.astro";
+import Section from "@components/ds/Section.astro";
+import { siteData } from "@lib/data";
+import { isPole } from "@lib/poles";
+import { breadcrumbs } from "@lib/seo";
+import { site } from "@lib/site";
+import type { MergedExperience } from "@lib/claudy";
+
+/** Fiche d'activité — Claudy fait foi, la fiche migrée sert de repli. */
+export const getStaticPaths: GetStaticPaths = async () => {
+  const { experiences } = await siteData();
+  return experiences
+    .filter((x) => x.path.startsWith("/catalogue/"))
+    .map((x) => ({ params: { slug: x.slug }, props: { experience: x } }));
+};
+
+interface Props {
+  experience: MergedExperience;
+}
+
+const { experience } = Astro.props;
+
+const legacy = experience.legacyId ? await getEntry("catalogue", experience.legacyId) : undefined;
+const rendered = legacy ? await render(legacy) : undefined;
+const Content = rendered?.Content;
+const props: Record<string, string> = legacy?.data.properties ?? {};
+
+const participants =
+  experience.minParticipants && experience.maxParticipants
+    ? `de ${experience.minParticipants} à ${experience.maxParticipants} personnes`
+    : experience.maxParticipants
+      ? `jusqu'à ${experience.maxParticipants} personnes`
+      : experience.minParticipants
+        ? `à partir de ${experience.minParticipants} personnes`
+        : undefined;
+
+const facts = [
+  { label: "Durée", value: experience.duration ?? props["Durée"] },
+  { label: "Participants", value: participants },
+  { label: "Tarif", value: experience.priceText ?? props["Tarif"] },
+  { label: "Public(s)-cible(s)", value: props["Public(s)-cible(s)"] },
+  { label: "Type", value: props["Type"] },
+];
+
+const description =
+  experience.description || `${experience.title} — une activité proposée aux 4 Sources, à Yvoir.`;
+
+// Les autres activités du même pôle : la suite naturelle de la visite.
+const { experiences } = await siteData();
+const legacyCatalogue = await getCollection("catalogue");
+const coverById = new Map(legacyCatalogue.map((e) => [e.id, e.data.cover]));
+const related: CardItem[] = experiences
+  .filter(
+    (x) =>
+      x.archived !== true &&
+      x.path !== experience.path &&
+      Boolean(experience.pole) &&
+      x.pole === experience.pole,
+  )
+  .sort((a, b) => a.title.localeCompare(b.title, "fr"))
+  .slice(0, 3)
+  .map((x) => ({
+    title: x.title,
+    href: x.path,
+    description: x.generatedDescription ? undefined : x.description || undefined,
+    eyebrow: x.duration,
+    icon: x.icon,
+    pole: x.pole,
+    image: (x.legacyId ? coverById.get(x.legacyId) : undefined) ?? x.image,
+  }));
+
+const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
+const url = `${siteUrl}${experience.path}`;
+const jsonld = [
+  breadcrumbs([
+    { name: "Accueil", url: `${siteUrl}/` },
+    { name: "Le catalogue", url: `${siteUrl}/catalogue` },
+    { name: experience.title, url },
+  ]),
+];
+---
+
+<BaseLayout title={experience.seoTitle ?? experience.title} description={description} jsonld={jsonld}>
+  <PageHero
+    title={experience.title}
+    lead={experience.generatedDescription ? undefined : experience.description || undefined}
+    cover={legacy?.data.cover}
+    coverAlt={legacy?.data.coverAlt ?? experience.title}
+    remoteCover={legacy?.data.cover ? undefined : experience.image}
+    icon={experience.icon}
+    pole={isPole(experience.pole) ? experience.pole : undefined}
+    crumbs={[
+      { label: "Accueil", href: "/" },
+      { label: "Le catalogue", href: "/catalogue" },
+      { label: experience.title },
+    ]}
+  />
+
+  <Section class="pt-10">
+    <Facts items={facts} />
+
+    {
+      experience.bookingUrl && (
+        <p class="mt-7">
+          <Button href={experience.bookingUrl} rel="noopener" size="lg">
+            Réserver cette activité
+          </Button>
+        </p>
+      )
+    }
+
+    <Prose class="mt-9" width="full">
+      {
+        experience.descriptionHtml ? (
+          <Fragment set:html={experience.descriptionHtml} />
+        ) : Content ? (
+          <Content />
+        ) : null
+      }
+    </Prose>
+  </Section>
+
+  {
+    related.length > 0 && (
+      <Section title="D'autres activités du même pôle 🎒" surface="subtle">
+        <CardGrid items={related} poleHeader />
+      </Section>
+    )
+  }
+</BaseLayout>

@@ -1,0 +1,197 @@
+{
+  "path": "/evenements/weekend-cratif-1",
+  "slug": "evenements__weekend-cratif-1",
+  "rootIsCollection": false,
+  "title": "🌻 Plantes Papier Pigments",
+  "metaDescription": "…cueillir les plantes en pleine nature pour en extraire leurs empreintes et leur silhouette.\nAller à la rencontre des pigments végétaux, observer comment ils se déposent sur le papier,\ncomment ils se transforment ou se révèlent selon différents processus. Tester trois\ntechniques différentes (Anthotypes, écoprint et tatakizomé). Terminer en beauté en reliant\nnos explorations végétales sous forme d’un petit carnet à emporter.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/bcd00262-b017-44c2-a2cd-d6e655a789f6/evenement_gnral__a_-2/public",
+  "ogTitle": "🌻 Plantes Papier Pigments",
+  "ogUrl": "https://www.les4sources.be/evenements/weekend-cratif-1",
+  "canonical": null,
+  "h1": "🌻 Plantes Papier Pigments",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/bcd00262-b017-44c2-a2cd-d6e655a789f6/evenement_gnral__a_-2/public",
+    "localPath": "images/_shared/c012588143c2-evenement_gnral__a_-2.jpg"
+  },
+  "pageIcon": "🌼",
+  "properties": {
+    "Date": "2026-10-03 → 2026-10-03",
+    "Horaires": "9h30 à 21h",
+    "Type d'événement": "Artisanat",
+    "Thématique": "Ressourcement, Artisanat",
+    "Date (fr)": "samedi 3 octobre",
+    "Places disponibles": "8",
+    "Tarif": "€75.00",
+    "Date de création": "Mar 26, 2026 11:40 AM",
+    "Statut site web": "Publié",
+    "super:slug": "weekend-creatif-teinture"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-weekend-cratif-1",
+    "blockId": "32f0d149-3317-80f2-9a41-c854e5b7ece3",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/weekend-cratif-1",
+    "createdTime": "2026-03-26T11:40:10.292Z",
+    "lastEditedTime": "2026-09-03T11:52:29.663Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<h1 id=\"block-32f0d149331780fba752d8f95b707e42\" class=\"notion-heading notion-semantic-string\"><strong>Une belle journée - le samedi 3 octobre - pour…</strong></h1><p id=\"block-e63440e5329b4fb79988b099bd855d42\" class=\"notion-text notion-text__content notion-semantic-string\">…cueillir les plantes en pleine nature pour en extraire leurs empreintes et leur silhouette.\nAller à la rencontre des pigments végétaux, observer comment ils se déposent sur le papier,\ncomment ils se transforment ou se révèlent selon différents processus. Tester trois\ntechniques différentes (Anthotypes, écoprint et tatakizomé). Terminer en beauté en reliant\nnos explorations végétales sous forme d’un petit carnet à emporter.</p><p id=\"block-34c0d1493317801bbac3d35bdf0d3559\" class=\"notion-text notion-text__content notion-semantic-string\">Pas de connaissances requises, viens comme tu es ! </p><div id=\"block-3c60d149331780bf8533e69a34e9a51d\" class=\"notion-column-list\"><div id=\"block-3c60d149331780368386ce227f2c84fd\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-3c60d14933178074a826fba1412dab0e\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/10fe0d93-9773-4d76-8c0a-a57e2b3a085b/pxl_20260823_162349510/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/10fe0d93-9773-4d76-8c0a-a57e2b3a085b/pxl_20260823_162349510/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/10fe0d93-9773-4d76-8c0a-a57e2b3a085b/pxl_20260823_162349510/public\"></span></div></div><div id=\"block-3c60d149331780faa3c0f52d50559a5a\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-3c60d149331780c8bc5ccb31b58f83dd\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6eb0c711-a3d1-4c5d-9f6b-a8ce5ab2e501/pxl_20260823_154130954/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6eb0c711-a3d1-4c5d-9f6b-a8ce5ab2e501/pxl_20260823_154130954/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6eb0c711-a3d1-4c5d-9f6b-a8ce5ab2e501/pxl_20260823_154130954/public\"></span></div></div></div><div id=\"block-3c90d1493317809088f8e69547fbcf2a\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/plantes-papier-pigments\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🍃</span></div><span class=\"notion-semantic-string\">Je prends ma place !</span></a></div><h1 id=\"block-32f0d14933178083ba68fa4dece46fb1\" class=\"notion-heading notion-semantic-string\">Bénédicte, d’Explorations Végétales 🌿</h1><div id=\"block-3c60d14933178053b64cf30a29a250a1\" class=\"notion-column-list\"><div id=\"block-3c60d149331780b889b2d72a92892c9e\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-3c60d1493317800c9bb5e22b0e1b3ef7\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/88919083-3594-47c0-93d8-c67dad4ddf03/pxl_20260531_165543798/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/88919083-3594-47c0-93d8-c67dad4ddf03/pxl_20260531_165543798/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/88919083-3594-47c0-93d8-c67dad4ddf03/pxl_20260531_165543798/public\"></span></div></div><div id=\"block-3c60d1493317802399b9e239812518bd\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-3c60d149331780d888c9e7f6f4eb7614\" class=\"notion-image align-end page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d9ce0749-2ea4-4aa6-b3d0-5e822987ac1f/pxl_20260823_161747313/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d9ce0749-2ea4-4aa6-b3d0-5e822987ac1f/pxl_20260823_161747313/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d9ce0749-2ea4-4aa6-b3d0-5e822987ac1f/pxl_20260823_161747313/public\"></span></div></div></div><blockquote id=\"block-32f0d149331780f59507df4840093ed6\" class=\"notion-quote\"><span class=\"notion-semantic-string\"><em> Depuis toujours, c’est au calme et dans la nature que je me ressource. Les plantes\nm’apportent joie, admiration, surprise, questionnement et beaucoup d’autres choses\nencore. Cet émerveillement et cet enthousiasme débordent à tel point que j’ai choisi de les\npartager autour de moi. J’anime des balades plantes sauvages comestibles et médicinales\nmais aussi des ateliers divers et variés autour des plantes via l’herboristerie, les cosmétiques\nnaturels, la saponification à froid, la cuisine sauvage, la teinture végétale et la botanique\ncréative.\nBiologiste de formation, je chemine de formations en expériences personnelles. Chaque\nnouvelle saison m’offre son lot de découvertes et d’ancrage dans de plus en plus de\npratique. J’ai aussi la joie de donner des cours à l’IFAPME dans les sections de fleuristerie et\nde guide-nature. Au plaisir de vous rencontrer.</em></span></blockquote><p id=\"block-32f0d14933178058bbf2d003d51bbada\" class=\"notion-text notion-text__content notion-semantic-string\">→ <a href=\"https://benedictegerard.be/\" class=\"notion-link link\" data-link-uri=\"https://benedictegerard.be/\">https://benedictegerard.be</a></p><div id=\"block-3c60d1493317808e9a68d1c1257619b8\" class=\"notion-column-list\"><div id=\"block-3c60d149331780b5b95ff3b1a059574f\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-3c60d1493317806aa11ad100f376a8e3\" class=\"notion-image align-start normal\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b5d63cd2-329d-49fd-afc2-4410312c7265/pxl_20260823_151654285/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b5d63cd2-329d-49fd-afc2-4410312c7265/pxl_20260823_151654285/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b5d63cd2-329d-49fd-afc2-4410312c7265/pxl_20260823_151654285/public\"></span></div></div><div id=\"block-3c60d1493317803b89affe88863d5a16\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-3c60d1493317803097c4f11c9ffac484\" class=\"notion-image align-start normal\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8fcee912-e457-4c6b-bbe3-e7547e2e269c/pxl_20260823_132108645/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8fcee912-e457-4c6b-bbe3-e7547e2e269c/pxl_20260823_132108645/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8fcee912-e457-4c6b-bbe3-e7547e2e269c/pxl_20260823_132108645/public\"></span></div></div></div><h1 id=\"block-32f0d14933178018951bca36c94d5532\" class=\"notion-heading notion-semantic-string\"><strong>En pratique</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-3c40d1493317805b93e7ffce8f8ebd52\" class=\"notion-list-item notion-semantic-string\">Au coeur de la clairière des 4 Sources: 📍 Fonds d’Ahinvaux, 1 à Yvoir, entre Namur et Dinant</li><li id=\"block-3c40d1493317800b9ba5e562432d8441\" class=\"notion-list-item notion-semantic-string\">Le samedi 3 octobre de 9h30 à 21h</li><li id=\"block-3c40d149331780d3bb2bf7324783afb7\" class=\"notion-list-item notion-semantic-string\">Maximum 8 participant-es par atelier : 75€ la place</li><li id=\"block-3c40d1493317806eb009e1d402fdd8d4\" class=\"notion-list-item notion-semantic-string\">Clôture le samedi soir avec une Pizza Party (cuisson au feu de bois)</li><li id=\"block-3c40d149331780c3b6a2f5f29f537eb2\" class=\"notion-list-item notion-semantic-string\">Apporter son pic-nic et les garnitures pour la pizza 🍕</li></ul><div id=\"block-3c90d14933178049a28bd3f63fa0cf73\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/plantes-papier-pigments\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🍃</span></div><span class=\"notion-semantic-string\">Je prends ma place !</span></a></div><div id=\"block-3c60d14933178021807fc8cf67a91625\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/571206cf-d530-4739-ad7d-59ba7aa990c3/_mg_0384/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/571206cf-d530-4739-ad7d-59ba7aa990c3/_mg_0384/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/571206cf-d530-4739-ad7d-59ba7aa990c3/_mg_0384/public\"></span></div><h2 id=\"block-3560d14933178086ae05d0fe9fcad2d4\" class=\"notion-heading notion-semantic-string\">Cette journée créative est entièrement organisée par nos trois intervenant-es, Bénédicte, Olivier et Marianne</h2><div id=\"block-34c0d14933178045a101d4740773b410\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/794a7f65-9215-4a85-bda9-0b41a2bea004/pxl_20260211_115416194/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/794a7f65-9215-4a85-bda9-0b41a2bea004/pxl_20260211_115416194/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/794a7f65-9215-4a85-bda9-0b41a2bea004/pxl_20260211_115416194/public\"></span></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/bcd00262-b017-44c2-a2cd-d6e655a789f6/evenement_gnral__a_-2/public",
+      "alt": "🌻 Plantes Papier Pigments",
+      "role": "cover",
+      "localPath": "images/_shared/c012588143c2-evenement_gnral__a_-2.jpg",
+      "shared": true,
+      "bytes": 151219
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/10fe0d93-9773-4d76-8c0a-a57e2b3a085b/pxl_20260823_162349510/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-cratif-1/02-pxl_20260823_162349510.jpg",
+      "shared": false,
+      "bytes": 107571
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6eb0c711-a3d1-4c5d-9f6b-a8ce5ab2e501/pxl_20260823_154130954/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-cratif-1/03-pxl_20260823_154130954.jpg",
+      "shared": false,
+      "bytes": 93000
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/88919083-3594-47c0-93d8-c67dad4ddf03/pxl_20260531_165543798/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-cratif-1/04-pxl_20260531_165543798.jpg",
+      "shared": false,
+      "bytes": 109255
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d9ce0749-2ea4-4aa6-b3d0-5e822987ac1f/pxl_20260823_161747313/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-cratif-1/05-pxl_20260823_161747313.jpg",
+      "shared": false,
+      "bytes": 99818
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b5d63cd2-329d-49fd-afc2-4410312c7265/pxl_20260823_151654285/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-cratif-1/06-pxl_20260823_151654285.jpg",
+      "shared": false,
+      "bytes": 81037
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8fcee912-e457-4c6b-bbe3-e7547e2e269c/pxl_20260823_132108645/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-cratif-1/07-pxl_20260823_132108645.jpg",
+      "shared": false,
+      "bytes": 74422
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/571206cf-d530-4739-ad7d-59ba7aa990c3/_mg_0384/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-cratif-1/08-_mg_0384.jpg",
+      "shared": false,
+      "bytes": 109312
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/794a7f65-9215-4a85-bda9-0b41a2bea004/pxl_20260211_115416194/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-cratif-1/09-pxl_20260211_115416194.jpg",
+      "shared": false,
+      "bytes": 140344
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.billetweb.fr/plantes-papier-pigments",
+    "https://benedictegerard.be/"
+  ],
+  "collections": [],
+  "wordCount": 302,
+  "fetchedAt": "2026-09-07T21:17:43.916Z",
+  "markdown": "## **Une belle journée - le samedi 3 octobre - pour…**\n\n…cueillir les plantes en pleine nature pour en extraire leurs empreintes et leur silhouette. Aller à la rencontre des pigments végétaux, observer comment ils se déposent sur le papier, comment ils se transforment ou se révèlent selon différents processus. Tester trois techniques différentes (Anthotypes, écoprint et tatakizomé). Terminer en beauté en reliant nos explorations végétales sous forme d’un petit carnet à emporter.\n\nPas de connaissances requises, viens comme tu es !\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/evenements__weekend-cratif-1/02-pxl_20260823_162349510.jpg)\n\n<!-- column width=\"50%\" -->\n\n![image](images/evenements__weekend-cratif-1/03-pxl_20260823_154130954.jpg)\n<!-- /columns -->\n\n[🍃 Je prends ma place !](https://www.billetweb.fr/plantes-papier-pigments){.button}\n\n## Bénédicte, d’Explorations Végétales 🌿\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/evenements__weekend-cratif-1/04-pxl_20260531_165543798.jpg)\n\n<!-- column width=\"50%\" -->\n\n![image](images/evenements__weekend-cratif-1/05-pxl_20260823_161747313.jpg)\n<!-- /columns -->\n\n> *Depuis toujours, c’est au calme et dans la nature que je me ressource. Les plantes m’apportent joie, admiration, surprise, questionnement et beaucoup d’autres choses encore. Cet émerveillement et cet enthousiasme débordent à tel point que j’ai choisi de les partager autour de moi. J’anime des balades plantes sauvages comestibles et médicinales mais aussi des ateliers divers et variés autour des plantes via l’herboristerie, les cosmétiques naturels, la saponification à froid, la cuisine sauvage, la teinture végétale et la botanique créative. Biologiste de formation, je chemine de formations en expériences personnelles. Chaque nouvelle saison m’offre son lot de découvertes et d’ancrage dans de plus en plus de pratique. J’ai aussi la joie de donner des cours à l’IFAPME dans les sections de fleuristerie et de guide-nature. Au plaisir de vous rencontrer.*\n\n→ [https://benedictegerard.be](https://benedictegerard.be/)\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/evenements__weekend-cratif-1/06-pxl_20260823_151654285.jpg)\n\n<!-- column width=\"50%\" -->\n\n![image](images/evenements__weekend-cratif-1/07-pxl_20260823_132108645.jpg)\n<!-- /columns -->\n\n## **En pratique**\n\n- Au coeur de la clairière des 4 Sources: 📍 Fonds d’Ahinvaux, 1 à Yvoir, entre Namur et Dinant\n- Le samedi 3 octobre de 9h30 à 21h\n- Maximum 8 participant-es par atelier : 75€ la place\n- Clôture le samedi soir avec une Pizza Party (cuisson au feu de bois)\n- Apporter son pic-nic et les garnitures pour la pizza 🍕\n\n[🍃 Je prends ma place !](https://www.billetweb.fr/plantes-papier-pigments){.button}\n\n![image](images/evenements__weekend-cratif-1/08-_mg_0384.jpg)\n\n### Cette journée créative est entièrement organisée par nos trois intervenant-es, Bénédicte, Olivier et Marianne\n\n![image](images/evenements__weekend-cratif-1/09-pxl_20260211_115416194.jpg)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.485Z"
+}

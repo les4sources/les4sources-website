@@ -1,0 +1,66 @@
+{
+  "path": "/contact",
+  "slug": "contact",
+  "rootIsCollection": false,
+  "title": "Contacter Les 4 Sources",
+  "metaDescription": "Nous sommes joignables par email.",
+  "ogImage": "https://images.unsplash.com/photo-1561617428-59b5ca6335cc?ixlib=rb-4.0.3&cs=srgb",
+  "ogTitle": "Contacter Les 4 Sources",
+  "ogUrl": "https://www.les4sources.be/contact",
+  "canonical": null,
+  "h1": "Nous contacter",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.unsplash.com/photo-1561617428-59b5ca6335cc?ixlib=rb-4.0.3&cs=srgb",
+    "localPath": "images/contact/01-photo-1561617428-59b5ca6335cc.jpg"
+  },
+  "pageIcon": "📬",
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "contact",
+    "blockId": "d48f1ca6-8a5a-45ca-a896-54196d2cc63f",
+    "parentId": "aaee8e6cac31408cad25d5a62f3e5a32",
+    "type": "page",
+    "uri": "/contact",
+    "createdTime": "2024-06-05T21:07:02.937Z",
+    "lastEditedTime": "2026-08-07T12:45:27.823Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Nous contacter",
+      "href": "/contact",
+      "icon": "📬"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-3b50d1493317809fa707e6e1925295e5\" class=\"notion-heading notion-semantic-string\">Informations générales</h3><p id=\"block-3b50d14933178038b0a8f04e7f742234\" class=\"notion-text notion-text__content notion-semantic-string\">Pour des informations au sujet des 4 Sources.</p><p id=\"block-3b50d1493317806ab97fe969403e24fb\" class=\"notion-text notion-text__content notion-semantic-string\">✉️  <a href=\"mailto:contact@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">contact@les4sources.be</a></p><div id=\"block-3b50d14933178073b6fdf7305c026a3b\" class=\"notion-column-list\"><div id=\"block-3b50d14933178080a5cbd161c0b34d30\" class=\"notion-column\" data-width=\"50%\"><h3 id=\"block-3b50d149331780dfb8d0e28f16aea9fd\" class=\"notion-heading notion-semantic-string\">Séjours et réservations</h3><p id=\"block-3b50d149331780d0bc5bc54ea8bebfe1\" class=\"notion-text notion-text__content notion-semantic-string\">Pour les demandes concernant les <strong>séjours</strong>, <strong>hébergements</strong>, <strong>espaces</strong> et <strong>activités</strong> aux 4 Sources.</p><p id=\"block-3b50d14933178087acfed6dafb1fcf20\" class=\"notion-text notion-text__content notion-semantic-string\">✉️  <a href=\"mailto:sejours@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">sejours@les4sources.be</a> <!-- --></p><p id=\"block-3b50d149331780b5ae49d2eba7ac4110\" class=\"notion-text notion-text__content notion-semantic-string\">📞  +32(0)490/46.77.10</p></div><div id=\"block-3b50d149331780f8b00acce35dfc3d0c\" class=\"notion-column\" data-width=\"50%\"><h3 id=\"block-3b50d149331780a9abf5dbf4b2715aee\" class=\"notion-heading notion-semantic-string\">Boulangerie</h3><p id=\"block-3b50d149331780d1b1d3f4263cfd7ee7\" class=\"notion-text notion-text__content notion-semantic-string\">✉️  <a href=\"mailto:boulangerie@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">boulangerie@les4sources.be</a></p></div></div><div id=\"block-3b50d149331780d980a8f1ad486aad57\" class=\"notion-divider\"></div><div id=\"block-68f6d2bde5314eb386cdd7891e1b3950\" class=\"notion-column-list\"><div id=\"block-ed1130f82ad649baacb73f865f66d0d5\" class=\"notion-column\" data-width=\"50%\"><h2 id=\"block-673e7cd21cc14c1783e8c568d3b2e9d3\" class=\"notion-heading notion-semantic-string\">Chaque email compte</h2><p id=\"block-52005ef57d534973bd4e4a98b4b0d937\" class=\"notion-text notion-text__content notion-semantic-string\">Nous comprenons que chaque question est unique et nous nous efforçons d'apporter une réponse personnalisée à chacune d'elles. Qu'il s'agisse d'une question sur nos projets, d'une suggestion ou simplement d'un bonjour amical, nous sommes toujours ravi.es de recevoir de tes nouvelles.</p></div><div id=\"block-912795e814eb4096afcaf431fe4944bb\" class=\"notion-column\" data-width=\"50%\"><h2 id=\"block-28ab9039d3f048339dba36d2d47c743b\" class=\"notion-heading notion-semantic-string\">Patience, patience !</h2><p id=\"block-915a55c19fec4c458cf8da9ecab8dc2c\" class=\"notion-text notion-text__content notion-semantic-string\">Nous nous efforçons de répondre à tous les emails le plus rapidement possible, mais nous te demandons de nous accorder ta patience car le volume d’emails que nous recevons peut affecter notre temps de réponse, qui nécessite plusieurs heures par semaine pour l’ensemble des réponses.</p></div></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1561617428-59b5ca6335cc?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Nous contacter",
+      "role": "cover",
+      "localPath": "images/contact/01-photo-1561617428-59b5ca6335cc.jpg",
+      "shared": false,
+      "bytes": 3563115
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "mailto:contact@les4sources.be",
+    "mailto:sejours@les4sources.be",
+    "mailto:boulangerie@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 129,
+  "fetchedAt": "2026-09-07T21:17:29.569Z",
+  "markdown": "#### Informations générales\n\nPour des informations au sujet des 4 Sources.\n\n✉️ [contact@les4sources.be](mailto:contact@les4sources.be)\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n#### Séjours et réservations\n\nPour les demandes concernant les **séjours**, **hébergements**, **espaces** et **activités** aux 4 Sources.\n\n✉️ [sejours@les4sources.be](mailto:sejours@les4sources.be)\n\n📞 +32(0)490/46.77.10\n\n<!-- column width=\"50%\" -->\n\n#### Boulangerie\n\n✉️ [boulangerie@les4sources.be](mailto:boulangerie@les4sources.be)\n<!-- /columns -->\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n### Chaque email compte\n\nNous comprenons que chaque question est unique et nous nous efforçons d'apporter une réponse personnalisée à chacune d'elles. Qu'il s'agisse d'une question sur nos projets, d'une suggestion ou simplement d'un bonjour amical, nous sommes toujours ravi.es de recevoir de tes nouvelles.\n\n<!-- column width=\"50%\" -->\n\n### Patience, patience !\n\nNous nous efforçons de répondre à tous les emails le plus rapidement possible, mais nous te demandons de nous accorder ta patience car le volume d’emails que nous recevons peut affecter notre temps de réponse, qui nécessite plusieurs heures par semaine pour l’ensemble des réponses.\n<!-- /columns -->\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.363Z"
+}

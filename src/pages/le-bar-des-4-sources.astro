@@ -1,0 +1,106 @@
+---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import Highlight from "@components/ds/Highlight.astro";
+import Lead from "@components/ds/Lead.astro";
+import Logo from "@components/ds/Logo.astro";
+import Section from "@components/ds/Section.astro";
+import { byPath, visible } from "@lib/content";
+
+import cover from "@assets/migration/le-bar-des-4-sources/01-IMG_2199.jpg";
+import pizzaParty from "@assets/migration/le-bar-des-4-sources/02-_mg_0514.jpg";
+import automne from "@assets/migration/le-bar-des-4-sources/03-292e29f3-981b-43a1-ad97-a7e32c75c9b5.png";
+import avant from "@assets/migration/le-bar-des-4-sources/04-2g0a1417.jpg";
+import four from "@assets/migration/le-bar-des-4-sources/05-_g0a7358.jpg";
+
+/**
+ * /le-bar-des-4-sources — d'après `design/ui_kits/Bar.jsx` : la marque à côté
+ * du titre surligné, le chapeau, la photo en bandeau, puis les vues du bar.
+ *
+ * La page migrée ne porte PAS de carte des consommations : pas de lignes de
+ * prix ici, et pas d'autocollant « paie avec ton app bancaire » — rien qui ne
+ * soit dans le contenu d'origine.
+ */
+const pages = visible(await getCollection("pages"));
+const entry = byPath(pages, "/le-bar-des-4-sources");
+if (!entry) {
+  throw new Error(
+    'Aucune entrée `pages` avec legacyPath "/le-bar-des-4-sources" — vérifie le contenu migré.',
+  );
+}
+const d = entry.data;
+
+const gallery = [
+  { image: pizzaParty, caption: "Pizza Party de nos 5 ans, juin 2025" },
+  { image: avant, caption: "Le bar avant sa transformation, mai 2025" },
+  { image: automne, caption: "Le bar en automne…" },
+  { image: four, caption: "La protection de notre super four à pain !" },
+];
+---
+
+<BaseLayout
+  title={d.seoTitle ?? d.title}
+  description={d.description}
+  ogImage={d.cover ?? d.ogImage}
+  noindex={d.noindex}
+>
+  <Section narrow class="pb-4">
+    <div class="flex flex-wrap items-center gap-5">
+      <Logo markOnly size={72} class="shrink-0" />
+      <h1 class="font-display text-h1 font-bold">
+        <Highlight>{d.title}</Highlight>
+      </h1>
+    </div>
+
+    <Lead class="mt-6">
+      Le bar des 4 Sources accueille les marcheur·euse·s et cyclistes du lever au coucher du soleil,
+      ainsi que toutes les personnes de passage sur le lieu pour une activité ou une location.
+    </Lead>
+  </Section>
+
+  <Section narrow class="pt-0">
+    <Image
+      src={cover}
+      alt={d.coverAlt ?? ""}
+      widths={[640, 960, 1440]}
+      sizes="(min-width: 760px) 712px, 100vw"
+      loading="eager"
+      class="mb-10 block aspect-[21/9] w-full rounded-photo object-cover"
+    />
+
+    <p class="max-w-[68ch] font-body text-body">
+      Implanté au cœur de la clairière, notre bar vous permet de profiter de la magnifique terrasse
+      plein sud. Il est accessible à pied, à cheval ou à vélo, depuis les villages de Bauche, Crupet
+      et Yvoir ainsi qu’à travers la Forêt domaniale de Tricointe.
+    </p>
+    <p class="mt-3 max-w-[68ch] font-body text-body">
+      L’accès en voiture est réservé à celles et ceux qui viennent pour une location ou activité
+      organisée par Les 4 Sources.
+    </p>
+
+    <blockquote
+      class="mt-8 max-w-[68ch] rounded-md border-l-[3px] border-teal bg-teal-tint px-5 py-4 font-display text-lead italic text-teal-deep"
+    >
+      “C’est magique, merci beaucoup!” P. ”Très belle découverte, concept très apprécié.” D. ”Quel
+      bel endroit et quelle belle ambiance vous mettez dans ce vallon de nature.” S.
+    </blockquote>
+
+    <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2">
+      {
+        gallery.map((g) => (
+          <figure class="m-0">
+            <Image
+              src={g.image}
+              alt={g.caption}
+              widths={[480, 720, 960]}
+              sizes="(min-width: 640px) 340px, 100vw"
+              class="block aspect-[4/3] w-full rounded-photo object-cover"
+            />
+            <figcaption class="mt-2 font-ui text-caption text-ink-3">{g.caption}</figcaption>
+          </figure>
+        ))
+      }
+    </div>
+  </Section>
+</BaseLayout>

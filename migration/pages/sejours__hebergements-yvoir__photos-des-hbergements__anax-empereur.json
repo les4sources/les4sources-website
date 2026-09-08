@@ -1,0 +1,63 @@
+{
+  "path": "/sejours/hebergements-yvoir/photos-des-hbergements/anax-empereur",
+  "slug": "sejours__hebergements-yvoir__photos-des-hbergements__anax-empereur",
+  "rootIsCollection": false,
+  "title": "Anax empereur (août)",
+  "metaDescription": null,
+  "ogImage": null,
+  "ogTitle": "Anax empereur (août)",
+  "ogUrl": "https://www.les4sources.be/sejours/hebergements-yvoir/photos-des-hbergements/anax-empereur",
+  "canonical": null,
+  "h1": "Anax empereur (août)",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Date de création": "Oct 23, 2025 2:15 PM",
+    "Page": "Biodiversité"
+  },
+  "propertySchema": [
+    {
+      "id": "y|zT",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "JUEM",
+      "name": "Page",
+      "type": "multi_select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "sejours-hebergements-yvoir-photos-des-hbergements-anax-empereur",
+    "blockId": "2950d149-3317-8071-be3b-ccc1e57a299d",
+    "parentId": "28a0d149331781b09d9c000b678af892",
+    "type": "page",
+    "uri": "/sejours/hebergements-yvoir/photos-des-hbergements/anax-empereur",
+    "createdTime": "2025-10-23T14:15:18.289Z",
+    "lastEditedTime": "2025-10-23T14:33:49.179Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<div id=\"block-9ac5cb56b232431fb68f5134b1a3580e\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/289eaf1c-d4b8-429a-ab91-fe4943d56f68/20210807_154050_CB1F3FF7/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/289eaf1c-d4b8-429a-ab91-fe4943d56f68/20210807_154050_CB1F3FF7/public\"><img alt=\"Anax empereur\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/289eaf1c-d4b8-429a-ab91-fe4943d56f68/20210807_154050_CB1F3FF7/public\"></span><figcaption class=\"notion-caption notion-semantic-string\">Anax empereur</figcaption></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/289eaf1c-d4b8-429a-ab91-fe4943d56f68/20210807_154050_CB1F3FF7/public",
+      "alt": "Anax empereur",
+      "role": "content",
+      "localPath": "images/_shared/d36ef9512bbb-20210807_154050_CB1F3FF7.jpg",
+      "shared": true,
+      "bytes": 82290
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 2,
+  "fetchedAt": "2026-09-07T21:17:50.401Z",
+  "markdown": "![Anax empereur](images/_shared/d36ef9512bbb-20210807_154050_CB1F3FF7.jpg)\n*Anax empereur*\n",
+  "extractedAt": "2026-09-07T21:41:44.553Z"
+}

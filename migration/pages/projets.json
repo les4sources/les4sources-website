@@ -1,0 +1,140 @@
+{
+  "path": "/projets",
+  "slug": "projets",
+  "rootIsCollection": false,
+  "title": "Nos projets",
+  "metaDescription": "Outre les activités et événements et locations proposé·e·s, d’autres pôles et projets se déploient sur le lieu… Partons à leur découverte !",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/bceeeb7a-760e-4c9d-8143-496165402580/WhatsApp_Image_2025-03-13_at_08.34.24/public",
+  "ogTitle": "Nos projets",
+  "ogUrl": "https://www.les4sources.be/projets",
+  "canonical": null,
+  "h1": "Nos projets",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/bceeeb7a-760e-4c9d-8143-496165402580/WhatsApp_Image_2025-03-13_at_08.34.24/public",
+    "localPath": "images/projets/01-WhatsApp_Image_2025-03-13_at_08.34.jpg"
+  },
+  "pageIcon": "⚙️",
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "projets",
+    "blockId": "e72ef98b-808b-4287-8e2d-f8c1f0c3b4e7",
+    "parentId": "aaee8e6cac31408cad25d5a62f3e5a32",
+    "type": "page",
+    "uri": "/projets",
+    "createdTime": "2024-04-03T13:10:12.962Z",
+    "lastEditedTime": "2026-06-04T14:13:09.268Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Nos projets",
+      "href": "/projets",
+      "icon": "⚙️"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-8b304417c0274a048370687c7d252f56\" class=\"notion-heading notion-semantic-string\">Outre les activités et événements et locations proposé·e·s, d’autres pôles et projets se déploient sur le lieu… Partons à leur découverte !</h3><div id=\"block-1b80d149331780529b59e9659af22fed\" class=\"notion-column-list\"><div id=\"block-1b80d1493317800289bae52a901a0dca\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-1b80d149331780c5a69acc3b828c36e0\" class=\"notion-image align-start page-width\"><a class=\"notion-link\" href=\"/projets/tranches-de-vie\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3634df3e-9a82-4d5f-9e5d-0b5f34b07bfd/3e786561-13dc-4a78-afc5-c6f61a55c064/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3634df3e-9a82-4d5f-9e5d-0b5f34b07bfd/3e786561-13dc-4a78-afc5-c6f61a55c064/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3634df3e-9a82-4d5f-9e5d-0b5f34b07bfd/3e786561-13dc-4a78-afc5-c6f61a55c064/public\"></span></a></div><h2 id=\"block-1b80d149331780ebb685f358fa492818\" class=\"notion-heading notion-semantic-string\"><a href=\"/projets/tranches-de-vie\" class=\"notion-link link\" data-link-uri=\"/projets/tranches-de-vie\">Tranches de Vie</a></h2><p id=\"block-1b80d149331780939f4aced0e3db2407\" class=\"notion-text notion-text__content notion-semantic-string\"><span class=\"highlighted-color color-default\">Pains et viennoiseries au feu de bois</span></p></div><div id=\"block-1b80d14933178012a4b2de1f2871f5d3\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-1b80d14933178004888bf67d530de199\" class=\"notion-image align-start page-width\"><a class=\"notion-link\" href=\"/projets/de-branches-en-planches\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ec7bf34f-004c-4439-ace6-083795ffb051/05212221-9627-4f1d-8b1f-bfba69233105/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ec7bf34f-004c-4439-ace6-083795ffb051/05212221-9627-4f1d-8b1f-bfba69233105/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ec7bf34f-004c-4439-ace6-083795ffb051/05212221-9627-4f1d-8b1f-bfba69233105/public\"></span></a></div><h2 id=\"block-1b80d14933178052894dc954006fd5fc\" class=\"notion-heading notion-semantic-string\"><a href=\"/projets/de-branches-en-planches\" class=\"notion-link link\" data-link-uri=\"/projets/de-branches-en-planches\">De Branches en Planches</a></h2><p id=\"block-1b80d14933178055a62efce959aaf942\" class=\"notion-text notion-text__content notion-semantic-string\"><span class=\"highlighted-color color-default\">Créations sur mesure et arboriste</span></p></div></div><div id=\"block-1b80d149331780f99787db84bb2aa988\" class=\"notion-column-list\"><div id=\"block-1b80d14933178043b79fee0109935084\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-1b80d149331780098bf1f9882040c610\" class=\"notion-image align-start page-width\"><a class=\"notion-link\" href=\"/projets/semisto\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/58f2834a-6fa5-45a3-9ca3-89d77c317d79/ed7b3866-0fc1-4c25-a6f4-d5aba82df205/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/58f2834a-6fa5-45a3-9ca3-89d77c317d79/ed7b3866-0fc1-4c25-a6f4-d5aba82df205/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/58f2834a-6fa5-45a3-9ca3-89d77c317d79/ed7b3866-0fc1-4c25-a6f4-d5aba82df205/public\"></span></a></div><h2 id=\"block-1b80d149331780708268e2deced25385\" class=\"notion-heading notion-semantic-string\"><a href=\"/projets/semisto\" class=\"notion-link link\" data-link-uri=\"/projets/semisto\">Semisto</a></h2><p id=\"block-1b80d14933178016941af22754e489f8\" class=\"notion-text notion-text__content notion-semantic-string\">Vers l’ère des forêts comestibles !</p></div><div id=\"block-1b80d1493317807ca987c2cc875c5828\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-1b80d14933178069931ccc4c4626602b\" class=\"notion-image align-start page-width\"><a class=\"notion-link\" href=\"/projets/la-ferronnerie\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d1b49054-fe94-4389-a5fe-a822a846821b/e923e56d-8e67-4d07-9839-81adbaff5673/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d1b49054-fe94-4389-a5fe-a822a846821b/e923e56d-8e67-4d07-9839-81adbaff5673/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d1b49054-fe94-4389-a5fe-a822a846821b/e923e56d-8e67-4d07-9839-81adbaff5673/public\"></span></a></div><h2 id=\"block-2a46504a3d9b4a9faee3961c6b296f1f\" class=\"notion-heading notion-semantic-string\"><span class=\"highlighted-color color-default\">Le Fer en Mains</span></h2><p id=\"block-1b80d149331780d4971bd18247a6019c\" class=\"notion-text notion-text__content notion-semantic-string\"><span class=\"highlighted-color color-default\">Low-tech, créations sur-mesure et réparation</span></p></div></div><div id=\"block-1b80d1493317801bb7e5fefaf1547c72\" class=\"notion-column-list\"><div id=\"block-1b80d14933178006a8d1f8cd42b8e529\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-1b80d149331780978cb0eba23f5f4d03\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/97ac04b0-35a8-4c82-b2ed-142fcf5dbadb/c339f550-a725-4b24-942b-f025b9c1f08f/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/97ac04b0-35a8-4c82-b2ed-142fcf5dbadb/c339f550-a725-4b24-942b-f025b9c1f08f/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/97ac04b0-35a8-4c82-b2ed-142fcf5dbadb/c339f550-a725-4b24-942b-f025b9c1f08f/public\"></span></div><h2 id=\"block-1b80d14933178057a50ed6265e4bbe70\" class=\"notion-heading notion-semantic-string\">Les Créations d’Eline &amp; Steph</h2><p id=\"block-1b80d1493317806a8d6cf6aa281a3be0\" class=\"notion-text notion-text__content notion-semantic-string\"><span class=\"highlighted-color color-default\">Bijoux, pochettes, carnets, peinture sur galets</span></p></div><div id=\"block-1b80d1493317805e9c60cca7494c6002\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-4b3a6ca6894c4b6f9a4f307518684091\" class=\"notion-image align-start normal\"><a class=\"notion-link\" href=\"/projets/disc-golf-attitude-yvoir\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/94f80116-a68a-452a-a9f2-eb6dd97d42d8/d776472a-11dd-4929-ad9f-03110cfd7a24/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/94f80116-a68a-452a-a9f2-eb6dd97d42d8/d776472a-11dd-4929-ad9f-03110cfd7a24/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/94f80116-a68a-452a-a9f2-eb6dd97d42d8/d776472a-11dd-4929-ad9f-03110cfd7a24/public\"></span></a></div><h2 id=\"block-1b80d14933178086bf66c7c561186fd9\" class=\"notion-heading notion-semantic-string\"><a href=\"/projets/disc-golf-attitude-yvoir\" class=\"notion-link link\" data-link-uri=\"/projets/disc-golf-attitude-yvoir\">Disc-Golf Attitude</a></h2><p id=\"block-1b80d1493317803ea9e6d49f22495cc5\" class=\"notion-text notion-text__content notion-semantic-string\">Un parcours de disc-golf 18 trous pour les passionnés de nature</p></div></div><div id=\"block-1b80d14933178002b0eac3ee301705f7\" class=\"notion-column-list\"><div id=\"block-1b80d149331780708326c705f78d38e2\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-65f29685f72d4ce2a3b95737e7d5b399\" class=\"notion-image align-start normal\"><a class=\"notion-link\" href=\"/projets/claudy\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b62f5c60-7cc9-4e3e-b406-1ea3ef733beb/39bca129-e829-4729-80a9-e8166a40acbc/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b62f5c60-7cc9-4e3e-b406-1ea3ef733beb/39bca129-e829-4729-80a9-e8166a40acbc/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b62f5c60-7cc9-4e3e-b406-1ea3ef733beb/39bca129-e829-4729-80a9-e8166a40acbc/public\"></span></a></div><h2 id=\"block-1b80d149331780678411e0f703ba999b\" class=\"notion-heading notion-semantic-string\"><a href=\"/projets/claudy\" class=\"notion-link link\" data-link-uri=\"/projets/claudy\">Claudy</a></h2><p id=\"block-1b80d149331780f7bf35d3d6d1b8b1b2\" class=\"notion-text notion-text__content notion-semantic-string\"><span class=\"highlighted-color color-default\">Notre logiciel de gestion open source</span></p></div><div id=\"block-1b80d149331780e69c59db8fbfc1c71d\" class=\"notion-column\" data-width=\"50%\"></div></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div><a id=\"block-projets-disc-golf-attitude-yvoir\" href=\"/projets/disc-golf-attitude-yvoir\" class=\"notion-link notion-page\" data-link-uri=\"/projets/disc-golf-attitude-yvoir\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Découvrir le disc-golf à Yvoir</span></a><a id=\"block-projets-semisto\" href=\"/projets/semisto\" class=\"notion-link notion-page\" data-link-uri=\"/projets/semisto\"><span class=\"notion-page__icon\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f565f81e-e622-4002-8329-55dfcc7ce4aa/semisto-main-square/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f565f81e-e622-4002-8329-55dfcc7ce4aa/semisto-main-square/public\"><img alt=\"Semisto\" class=\"notion-icon\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f565f81e-e622-4002-8329-55dfcc7ce4aa/semisto-main-square/public\"></span></span><span class=\"notion-page__title notion-semantic-string\">Semisto</span></a><a id=\"block-projets-claudy\" href=\"/projets/claudy\" class=\"notion-link notion-page\" data-link-uri=\"/projets/claudy\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Claudy</span></a><a id=\"block-projets-de-branches-en-planches\" href=\"/projets/de-branches-en-planches\" class=\"notion-link notion-page\" data-link-uri=\"/projets/de-branches-en-planches\"><span class=\"notion-page__icon\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/211d544e-1836-45e9-a98b-5093e5374c38/de_branches_en_planches/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/211d544e-1836-45e9-a98b-5093e5374c38/de_branches_en_planches/public\"><img alt=\"De Branches en Planches\" class=\"notion-icon\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/211d544e-1836-45e9-a98b-5093e5374c38/de_branches_en_planches/public\"></span></span><span class=\"notion-page__title notion-semantic-string\">De Branches en Planches</span></a><a id=\"block-projets-tranches-de-vie\" href=\"/projets/tranches-de-vie\" class=\"notion-link notion-page emoji\" data-link-uri=\"/projets/tranches-de-vie\"><span class=\"notion-page__icon\"><span class=\"notion-icon text\">🍞</span></span><span class=\"notion-page__title notion-semantic-string\">Tranches de Vie</span></a><a id=\"block-projets-la-ferronnerie\" href=\"/projets/la-ferronnerie\" class=\"notion-link notion-page\" data-link-uri=\"/projets/la-ferronnerie\"><span class=\"notion-page__icon\"></span><span class=\"notion-page__title notion-semantic-string\">Le Fer en mains</span></a>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/bceeeb7a-760e-4c9d-8143-496165402580/WhatsApp_Image_2025-03-13_at_08.34.24/public",
+      "alt": "Nos projets",
+      "role": "cover",
+      "localPath": "images/projets/01-WhatsApp_Image_2025-03-13_at_08.34.jpg",
+      "shared": false,
+      "bytes": 171379
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3634df3e-9a82-4d5f-9e5d-0b5f34b07bfd/3e786561-13dc-4a78-afc5-c6f61a55c064/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets/02-3e786561-13dc-4a78-afc5-c6f61a55c064.png",
+      "shared": false,
+      "bytes": 285404
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ec7bf34f-004c-4439-ace6-083795ffb051/05212221-9627-4f1d-8b1f-bfba69233105/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets/03-05212221-9627-4f1d-8b1f-bfba69233105.png",
+      "shared": false,
+      "bytes": 513882
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/58f2834a-6fa5-45a3-9ca3-89d77c317d79/ed7b3866-0fc1-4c25-a6f4-d5aba82df205/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets/04-ed7b3866-0fc1-4c25-a6f4-d5aba82df205.png",
+      "shared": false,
+      "bytes": 807414
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d1b49054-fe94-4389-a5fe-a822a846821b/e923e56d-8e67-4d07-9839-81adbaff5673/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets/05-e923e56d-8e67-4d07-9839-81adbaff5673.png",
+      "shared": false,
+      "bytes": 609009
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/97ac04b0-35a8-4c82-b2ed-142fcf5dbadb/c339f550-a725-4b24-942b-f025b9c1f08f/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets/06-c339f550-a725-4b24-942b-f025b9c1f08f.png",
+      "shared": false,
+      "bytes": 442699
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/94f80116-a68a-452a-a9f2-eb6dd97d42d8/d776472a-11dd-4929-ad9f-03110cfd7a24/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets/07-d776472a-11dd-4929-ad9f-03110cfd7a24.png",
+      "shared": false,
+      "bytes": 483516
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b62f5c60-7cc9-4e3e-b406-1ea3ef733beb/39bca129-e829-4729-80a9-e8166a40acbc/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets/08-39bca129-e829-4729-80a9-e8166a40acbc.png",
+      "shared": false,
+      "bytes": 168619
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f565f81e-e622-4002-8329-55dfcc7ce4aa/semisto-main-square/public",
+      "alt": "Semisto",
+      "role": "content",
+      "localPath": "images/_shared/d5187e1aa2e3-semisto-main-square.png",
+      "shared": true,
+      "bytes": 33819
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/211d544e-1836-45e9-a98b-5093e5374c38/de_branches_en_planches/public",
+      "alt": "De Branches en Planches",
+      "role": "content",
+      "localPath": "images/_shared/53eb3e7c0116-de_branches_en_planches.jpg",
+      "shared": true,
+      "bytes": 28266
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/projets/tranches-de-vie",
+    "/projets/de-branches-en-planches",
+    "/projets/semisto",
+    "/projets/la-ferronnerie",
+    "/projets/disc-golf-attitude-yvoir",
+    "/projets/claudy",
+    "/newsletter"
+  ],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 99,
+  "fetchedAt": "2026-09-07T21:17:44.263Z",
+  "markdown": "#### Outre les activités et événements et locations proposé·e·s, d’autres pôles et projets se déploient sur le lieu… Partons à leur découverte !\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/projets/02-3e786561-13dc-4a78-afc5-c6f61a55c064.png)\n\n### [Tranches de Vie](/projets/tranches-de-vie)\n\nPains et viennoiseries au feu de bois\n\n<!-- column width=\"50%\" -->\n\n![image](images/projets/03-05212221-9627-4f1d-8b1f-bfba69233105.png)\n\n### [De Branches en Planches](/projets/de-branches-en-planches)\n\nCréations sur mesure et arboriste\n<!-- /columns -->\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/projets/04-ed7b3866-0fc1-4c25-a6f4-d5aba82df205.png)\n\n### [Semisto](/projets/semisto)\n\nVers l’ère des forêts comestibles !\n\n<!-- column width=\"50%\" -->\n\n![image](images/projets/05-e923e56d-8e67-4d07-9839-81adbaff5673.png)\n\n### Le Fer en Mains\n\nLow-tech, créations sur-mesure et réparation\n<!-- /columns -->\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/projets/06-c339f550-a725-4b24-942b-f025b9c1f08f.png)\n\n### Les Créations d’Eline & Steph\n\nBijoux, pochettes, carnets, peinture sur galets\n\n<!-- column width=\"50%\" -->\n\n![image](images/projets/07-d776472a-11dd-4929-ad9f-03110cfd7a24.png)\n\n### [Disc-Golf Attitude](/projets/disc-golf-attitude-yvoir)\n\nUn parcours de disc-golf 18 trous pour les passionnés de nature\n<!-- /columns -->\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/projets/08-39bca129-e829-4729-80a9-e8166a40acbc.png)\n\n### [Claudy](/projets/claudy)\n\nNotre logiciel de gestion open source\n<!-- /columns -->\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n\n[Découvrir le disc-golf à Yvoir](/projets/disc-golf-attitude-yvoir)\n\n[![Semisto](images/_shared/d5187e1aa2e3-semisto-main-square.png) Semisto](/projets/semisto)\n\n[Claudy](/projets/claudy)\n\n[![De Branches en Planches](images/_shared/53eb3e7c0116-de_branches_en_planches.jpg) De Branches en Planches](/projets/de-branches-en-planches)\n\n[🍞 Tranches de Vie](/projets/tranches-de-vie)\n\n[Le Fer en mains](/projets/la-ferronnerie)\n",
+  "extractedAt": "2026-09-07T21:41:44.512Z"
+}

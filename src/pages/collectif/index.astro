@@ -1,0 +1,106 @@
+---
+import { getCollection, render } from "astro:content";
+import { Image } from "astro:assets";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import Prose from "@components/ui/Prose.astro";
+import Section from "@components/ds/Section.astro";
+import { byPath, visible, listable, pathOf } from "@lib/content";
+
+/**
+ * /collectif — la page éditoriale migrée fait foi (son texte et ses liens sont
+ * ceux du site actuel) ; la grille des fiches, elle, vient de la collection
+ * typée `collectif`, pas d'une liste en dur.
+ *
+ * Les portraits sont masqués par l'arche du brand system (`--radius-arch`).
+ */
+const pages = visible(await getCollection("pages"));
+const entry = byPath(pages, "/collectif");
+const rendered = entry ? await render(entry) : undefined;
+const Content = rendered?.Content;
+
+const members = listable(await getCollection("collectif")).sort((a, b) =>
+  a.data.name.localeCompare(b.data.name, "fr"),
+);
+
+const title = entry?.data.title ?? "Le collectif des 4 Sources";
+const description =
+  entry?.data.description ??
+  "Les habitant·es et compagnon·nes qui font vivre le tiers-lieu des 4 Sources, à Yvoir.";
+---
+
+<BaseLayout
+  title={entry?.data.seoTitle ?? title}
+  description={description}
+  ogImage={entry?.data.cover ?? entry?.data.ogImage}
+  noindex={entry?.data.noindex ?? false}
+>
+  <PageHero
+    title={title}
+    lead={entry?.data.generatedDescription ? undefined : entry?.data.description}
+    cover={entry?.data.cover}
+    coverAlt={entry?.data.coverAlt}
+    icon={entry?.data.icon}
+    crumbs={[{ label: "Accueil", href: "/" }, { label: "Le collectif" }]}
+    narrow
+  />
+
+  {
+    Content && (
+      <Section narrow class="pt-10 pb-0">
+        <Prose>
+          <Content />
+        </Prose>
+      </Section>
+    )
+  }
+
+  <Section title="Les visages du collectif 🫱🏽‍🫲🏼">
+    <ul class="m-0 grid list-none grid-cols-2 gap-x-6 gap-y-10 p-0 sm:grid-cols-3 lg:grid-cols-4">
+      {
+        members.map((m) => (
+          <li class="relative text-center">
+            {m.data.photo ? (
+              <Image
+                src={m.data.photo}
+                alt={m.data.coverAlt ?? m.data.name}
+                widths={[260, 520]}
+                sizes="(min-width: 1024px) 250px, (min-width: 640px) 30vw, 45vw"
+                loading="lazy"
+                class="l4s-arch aspect-[3/4] w-full object-cover"
+              />
+            ) : (
+              <div class="l4s-arch flex aspect-[3/4] w-full items-center justify-center bg-surface">
+                <span class="text-[2rem]" aria-hidden="true">
+                  {m.data.icon ?? "🌿"}
+                </span>
+              </div>
+            )}
+
+            <h3 class="mt-4 font-display text-h4 font-bold">
+              <a
+                href={pathOf(m)}
+                class="l4s-stretch-link text-inherit no-underline hover:text-teal-soft"
+              >
+                {m.data.name}
+              </a>
+            </h3>
+            {m.data.role && (
+              <p class="mt-1 font-ui text-overline font-bold tracking-[0.08em] text-ink-3 uppercase">
+                — {m.data.role}
+              </p>
+            )}
+          </li>
+        ))
+      }
+    </ul>
+  </Section>
+</BaseLayout>
+
+<style is:global>
+  /* L'arche du brand system : masque des photos de personnes. */
+  .l4s-arch {
+    border-radius: var(--radius-arch);
+    overflow: hidden;
+  }
+</style>

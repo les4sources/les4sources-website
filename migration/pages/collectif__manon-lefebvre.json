@@ -1,0 +1,82 @@
+{
+  "path": "/collectif/manon-lefebvre",
+  "slug": "collectif__manon-lefebvre",
+  "rootIsCollection": false,
+  "title": "Manon Lefebvre",
+  "metaDescription": "Manon s’occupe de notre administration mais pas que ! Elle est aussi artisane, elle crée des boucles d’oreille en bois de récupération, et des objets de déco. Vous trouverez quelques unes de ses merveilles sur l’étagère artisanat, dans notre épicerie!",
+  "ogImage": null,
+  "ogTitle": "Manon Lefebvre",
+  "ogUrl": "https://www.les4sources.be/collectif/manon-lefebvre",
+  "canonical": null,
+  "h1": "Manon Lefebvre",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {},
+  "propertySchema": [
+    {
+      "id": "ew_Z",
+      "name": "Bio courte",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "rCb{",
+      "name": "Photo",
+      "type": "file",
+      "visibility": "show"
+    },
+    {
+      "id": "CPcu",
+      "name": "Type",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "collectif-manon-lefebvre",
+    "blockId": "aaf3fce8-6b2a-40a8-9188-b4bf038b356e",
+    "parentId": "e93593be43cd488598c5226e7ba2b369",
+    "type": "page",
+    "uri": "/collectif/manon-lefebvre",
+    "createdTime": "2024-05-29T13:16:57.742Z",
+    "lastEditedTime": "2025-09-25T14:06:39.661Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Collectif",
+      "href": "/collectif"
+    },
+    {
+      "label": "Manon Lefebvre",
+      "href": "/collectif/manon-lefebvre"
+    }
+  ],
+  "contentHtml": "<div id=\"block-2720d1493317805184e9d54b3bb86c64\" class=\"notion-column-list\"><div id=\"block-2720d14933178017bfa3e6026a91e322\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-2720d14933178033a5d1da255da93b43\" class=\"notion-text notion-text__content notion-semantic-string\">Manon s’occupe de notre administration mais pas que ! Elle est aussi artisane, elle crée des boucles d’oreille en bois de récupération, et des objets de déco. Vous trouverez quelques unes de ses merveilles sur l’étagère artisanat, dans notre épicerie! </p><p id=\"block-2720d149331780e6bcc5fef21be8f7d6\" class=\"notion-text notion-text__content notion-semantic-string\"><a href=\"http://www.bouclela.be\" class=\"notion-link link\" data-link-uri=\"http://www.bouclela.be\">www.bouclela.be</a> </p><p id=\"block-2720d1493317800da2ace3ceb9cc1176\" class=\"notion-text notion-text__content notion-semantic-string\">Pour contacter Manon : <a href=\"mailto:compta@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">compta@les4sources.be</a> 🙂</p></div><div id=\"block-2720d149331780c4b148df46f72b0d35\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2720d14933178077bd04d2d19906ace9\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/69564d93-7c78-4d8e-85b7-740252800c91/5177a898-9dd4-42a4-90d1-2d74a1bffa35/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/69564d93-7c78-4d8e-85b7-740252800c91/5177a898-9dd4-42a4-90d1-2d74a1bffa35/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/69564d93-7c78-4d8e-85b7-740252800c91/5177a898-9dd4-42a4-90d1-2d74a1bffa35/public\"></span></div></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/69564d93-7c78-4d8e-85b7-740252800c91/5177a898-9dd4-42a4-90d1-2d74a1bffa35/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/collectif__manon-lefebvre/01-5177a898-9dd4-42a4-90d1-2d74a1bffa35.png",
+      "shared": false,
+      "bytes": 346344
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [
+    "http://www.bouclela.be",
+    "mailto:compta@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 47,
+  "fetchedAt": "2026-09-07T21:17:27.854Z",
+  "markdown": "<!-- columns -->\n<!-- column width=\"50%\" -->\n\nManon s’occupe de notre administration mais pas que ! Elle est aussi artisane, elle crée des boucles d’oreille en bois de récupération, et des objets de déco. Vous trouverez quelques unes de ses merveilles sur l’étagère artisanat, dans notre épicerie!\n\n[www.bouclela.be](http://www.bouclela.be)\n\nPour contacter Manon : [compta@les4sources.be](mailto:compta@les4sources.be) 🙂\n\n<!-- column width=\"50%\" -->\n\n![image](images/collectif__manon-lefebvre/01-5177a898-9dd4-42a4-90d1-2d74a1bffa35.png)\n<!-- /columns -->\n",
+  "extractedAt": "2026-09-07T21:41:44.358Z"
+}

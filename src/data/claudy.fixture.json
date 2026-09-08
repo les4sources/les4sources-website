@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-09-07T21:00:00Z",
+  "event_categories": [
+    { "slug": "convivialite", "name": "Convivialité", "color": "#D9A441", "pole": "convivialite" },
+    { "slug": "artisanat", "name": "Artisanat", "color": "#C9A57A", "pole": "artisanat" },
+    { "slug": "nature", "name": "Nature", "color": "#5E8C4A", "pole": "nature" }
+  ],
+  "events": [
+    {
+      "id": 812,
+      "slug": "pizza-party-septembre-2026",
+      "title": "Pizza party de septembre",
+      "summary": "Le four à bois est chaud, la terrasse est ouverte : on enfourne les pizzas et le bar reste ouvert jusqu'au bout de la soirée.",
+      "description_html": "<p>Une fois par mois, le grand four à bois des 4 Sources reprend du service. Chacun·e vient garnir sa pizza, la fournée part au four, et on mange dehors quand la météo le permet.</p><p>Le bar des 4 Sources est ouvert : bières locales, jus et softs. Les enfants ont la prairie et les ânes à deux pas.</p><p>Pas besoin de réserver une table : on vient quand on veut à partir de 17 h 30. Un message avant de venir aide simplement à prévoir la pâte.</p>",
+      "starts_at": "2026-09-12T17:30:00+02:00",
+      "ends_at": "2026-09-12T22:00:00+02:00",
+      "all_day": false,
+      "category": { "slug": "convivialite", "name": "Convivialité", "color": "#D9A441", "pole": "convivialite" },
+      "location": "Les 4 Sources, Yvoir",
+      "price_text": "Pizzas à prix libre, boissons au bar",
+      "published_at": "2026-08-20T10:00:00+02:00",
+      "updated_at": "2026-09-05T08:12:00+02:00",
+      "path": "/evenements/pizza-party-septembre-2026"
+    },
+    {
+      "id": 826,
+      "slug": "initiation-soudure-a-l-arc-17-octobre-2026",
+      "title": "Initiation à la soudure à l'arc",
+      "summary": "Une journée à la ferronnerie pour apprendre à souder à l'arc, sans aucun prérequis, et repartir avec sa première pièce.",
+      "description_html": "<p>La ferronnerie des 4 Sources ouvre son atelier pour une journée d'initiation à la soudure à l'arc. On commence par les bases — sécurité, réglages du poste, position et amorçage — puis chacun·e s'exerce sur des chutes d'acier de récupération.</p><p>L'après-midi est consacrée à une petite réalisation que vous emportez.</p><p>Aucun prérequis. Le matériel de protection est fourni ; prévoyez des vêtements en coton qui ne craignent rien et des chaussures fermées. Le repas de midi se prend sur place.</p>",
+      "starts_at": "2026-10-17T09:30:00+02:00",
+      "ends_at": "2026-10-17T17:00:00+02:00",
+      "all_day": false,
+      "category": { "slug": "artisanat", "name": "Artisanat", "color": "#C9A57A", "pole": "artisanat" },
+      "location": "La ferronnerie, Les 4 Sources, Yvoir",
+      "price_text": "80 € la journée, matériel compris",
+      "published_at": "2026-08-28T09:00:00+02:00",
+      "updated_at": "2026-09-06T14:05:00+02:00",
+      "path": "/evenements/initiation-soudure-a-l-arc-17-octobre-2026"
+    },
+    {
+      "id": 774,
+      "slug": "balade-nature-juin-2026",
+      "title": "Balade nature dans la vallée du Bocq",
+      "summary": "Une matinée de marche accompagnée entre les prairies du domaine et les versants boisés de la vallée du Bocq.",
+      "description_html": "<p>Départ du domaine d'Ahinvaux pour une boucle d'une demi-journée dans la vallée du Bocq : prairies de fauche, lisières, chemins creux et points de vue sur la vallée.</p><p>La balade se fait à un rythme tranquille, avec des arrêts pour observer ce qui pousse et ce qui vole. Bonnes chaussures et gourde recommandées.</p><p>Au retour, le bar des 4 Sources est ouvert pour prolonger la matinée.</p>",
+      "starts_at": "2026-06-14T09:30:00+02:00",
+      "ends_at": "2026-06-14T12:30:00+02:00",
+      "all_day": false,
+      "category": { "slug": "nature", "name": "Nature", "color": "#5E8C4A", "pole": "nature" },
+      "location": "Les 4 Sources, Yvoir",
+      "price_text": "Participation libre",
+      "published_at": "2026-05-15T10:00:00+02:00",
+      "updated_at": "2026-06-15T09:00:00+02:00",
+      "path": "/evenements/balade-nature-juin-2026"
+    }
+  ],
+  "experiences": [
+    {
+      "id": 41,
+      "slug": "grimpe-encadree-dans-les-arbres",
+      "name": "Grimpe encadrée dans les arbres",
+      "summary": "Une initiation à la grimpe d'arbre sur corde, encadrée par un grimpeur professionnel, dès 8 ans.",
+      "description_html": "<p>Les grands arbres du domaine se montent sur corde, en toute sécurité, avec un baudrier et un encadrant qui reste au pied de l'arbre.</p><p>La séance commence par l'équipement et les manœuvres de base, puis chacun·e monte à son rythme. Certain·es s'installent dans les branches, d'autres redescendent aussitôt : les deux comptent.</p><p>À partir de 8 ans. Prévoir des vêtements souples et des chaussures fermées.</p>",
+      "duration_text": "2 h",
+      "duration_minutes": 120,
+      "price": { "amount_cents": 2500, "currency": "EUR", "per": "participant" },
+      "fixed_price": { "amount_cents": 0, "currency": "EUR" },
+      "min_participants": 4,
+      "max_participants": 12,
+      "category": { "slug": "nature", "name": "Nature", "color": "#5E8C4A", "pole": "nature" },
+      "availabilities": [],
+      "published_at": "2026-06-01T09:00:00+02:00",
+      "updated_at": "2026-09-02T18:40:00+02:00",
+      "path": "/catalogue/grimpe-encadree-dans-les-arbres"
+    },
+    {
+      "id": 47,
+      "slug": "temps-avec-le-troupeau-d-anes",
+      "name": "Temps avec le troupeau d'ânes",
+      "summary": "Un moment calme auprès des ânes du domaine : approche, pansage et petite balade en main sur les chemins du lieu.",
+      "description_html": "<p>Les ânes des 4 Sources vivent en troupeau sur les prairies du domaine. Cette activité commence par le temps qu'il faut pour se faire accepter : on entre dans la prairie, on observe, on laisse venir.</p><p>Vient ensuite le pansage — brosses, sabots, oreilles — puis une balade en main sur les chemins du lieu, chacun·e avec son âne.</p><p>Accessible aux familles comme aux groupes. Aucune expérience nécessaire.</p>",
+      "duration_text": "1 h 30",
+      "duration_minutes": 90,
+      "price": { "amount_cents": 1500, "currency": "EUR", "per": "participant" },
+      "fixed_price": { "amount_cents": 0, "currency": "EUR" },
+      "min_participants": 2,
+      "max_participants": 8,
+      "category": { "slug": "nature", "name": "Nature", "color": "#5E8C4A", "pole": "nature" },
+      "availabilities": [],
+      "published_at": "2026-06-01T09:00:00+02:00",
+      "updated_at": "2026-08-30T11:20:00+02:00",
+      "path": "/catalogue/temps-avec-le-troupeau-d-anes"
+    }
+  ]
+}

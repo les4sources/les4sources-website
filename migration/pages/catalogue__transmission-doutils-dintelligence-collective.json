@@ -1,0 +1,465 @@
+{
+  "path": "/catalogue/transmission-doutils-dintelligence-collective",
+  "slug": "catalogue__transmission-doutils-dintelligence-collective",
+  "rootIsCollection": false,
+  "title": "Transmission d’outils d’intelligence collective",
+  "metaDescription": "Renforcez la cohésion de votre équipe et stimulez la créativité avec les outils d'intelligence collective lors de notre atelier dédié aux associations.",
+  "ogImage": "https://images.unsplash.com/photo-1620098255118-a5e1a0ee92b6?ixlib=rb-4.0.3&cs=srgb",
+  "ogTitle": "Transmission d’outils d’intelligence collective",
+  "ogUrl": "https://www.les4sources.be/catalogue/transmission-doutils-dintelligence-collective",
+  "canonical": null,
+  "h1": "Transmission d’outils d’intelligence collective",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.unsplash.com/photo-1620098255118-a5e1a0ee92b6?ixlib=rb-4.0.3&cs=srgb",
+    "localPath": "images/_shared/ef6f795e748b-photo-1620098255118-a5e1a0ee92b6.jpg"
+  },
+  "pageIcon": null,
+  "properties": {
+    "Statut": "Indisponible",
+    "Thématique": "Vie collective",
+    "Public(s)-cible(s)": "Collectifs/Assoc'",
+    "Participants min": "6",
+    "Participants max": "25",
+    "Sur la page d'accueil": "false"
+  },
+  "propertySchema": [
+    {
+      "id": "Yc~:",
+      "name": "Statut",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "AD?S",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "cqVt",
+      "name": "Public(s)-cible(s)",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "SKYh",
+      "name": "Participants min",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "=:Ex",
+      "name": "Participants max",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "Ze|W",
+      "name": "Sur la page d'accueil",
+      "type": "checkbox",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "catalogue-transmission-doutils-dintelligence-collective",
+    "blockId": "4b55dc66-25cb-4963-b7d3-105f655a8de9",
+    "parentId": "b74f86bf387f4af1971f13a09956b9ca",
+    "type": "page",
+    "uri": "/catalogue/transmission-doutils-dintelligence-collective",
+    "createdTime": "2024-04-03T16:45:19.517Z",
+    "lastEditedTime": "2025-01-02T13:59:55.702Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Catalogue des activités",
+      "href": "/catalogue"
+    },
+    {
+      "label": "Transmission d’outils d’intelligence collective",
+      "href": "/catalogue/transmission-doutils-dintelligence-collective"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-499f2372361f4ae0a7b996ccd1a79331\" class=\"notion-heading notion-semantic-string\">Renforcez la cohésion de votre équipe et stimulez la créativité avec les outils d'intelligence collective lors de notre atelier dédié aux associations.</h3><p id=\"block-079d53dbec0147f2ad9724b7bd2d4798\" class=\"notion-text notion-text__content notion-semantic-string\">Venez découvrir et vous familiariser avec quelques outils d'intelligence collective lors de notre atelier spécialement conçu pour les associations. Cet atelier est une occasion unique d'apprendre à utiliser ces outils pour renforcer la cohésion de votre équipe, améliorer la prise de décision et stimuler la créativité.</p><p id=\"block-59a08a84c7c84e5795027a6a504e3ed1\" class=\"notion-text notion-text__content notion-semantic-string\">L'intelligence collective est plus que jamais nécessaire dans le monde associatif pour faire face aux défis actuels. En participant à cet atelier, vous pourrez acquérir des compétences précieuses qui vous aideront à mobiliser l'intelligence et la créativité de tous les membres de votre association.</p><p id=\"block-4480934d98a04732b516d88f4720b3a0\" class=\"notion-text notion-text__content notion-semantic-string\">Rejoignez-nous pour cet atelier stimulant et enrichissant qui vous offrira de nouvelles perspectives sur la collaboration et la gestion participative dans votre structure associative.</p><h2 id=\"block-78d6e51b9a55442f8a211d4de15500f7\" class=\"notion-heading notion-semantic-string\">En pratique</h2><ul class=\"notion-bulleted-list\"><li id=\"block-5d1161e18bd74a629f61e329aa6b00da\" class=\"notion-list-item notion-semantic-string\">Tarif :</li></ul><div class=\"notion-table__wrapper\"><table class=\"notion-table\"><tbody><tr><td><div class=\"notion-table__cell\"><span class=\"notion-semantic-string\"><em><strong>Transmission d'outils d'intelligence collective</strong></em></span></div></td><td><div class=\"notion-table__cell\"><span class=\"notion-semantic-string\"><em><strong>6 à 7 pers.</strong></em></span></div></td><td><div class=\"notion-table__cell\"><span class=\"notion-semantic-string\"><em><strong>8 à 25 pers.</strong></em></span></div></td></tr><tr><td><div class=\"notion-table__cell\"><span class=\"notion-semantic-string\">1h00</span></div></td><td><div class=\"notion-table__cell\"><span class=\"notion-semantic-string\">60€</span></div></td><td><div class=\"notion-table__cell\"><span class=\"notion-semantic-string\">+ 7,5€/personne</span></div></td></tr><tr><td><div class=\"notion-table__cell\"><span class=\"notion-semantic-string\">2h00</span></div></td><td><div class=\"notion-table__cell\"><span class=\"notion-semantic-string\">120€</span></div></td><td><div class=\"notion-table__cell\"><span class=\"notion-semantic-string\">+ 15€/personne</span></div></td></tr></tbody></table></div><ul class=\"notion-bulleted-list\"><li id=\"block-9e16ae5496eb42c6b06196f9f6bc5814\" class=\"notion-list-item notion-semantic-string\">Plus d’infos &amp; réservation : envoyez un mail à <a href=\"mailto:\" class=\"__cf_email__\" data-cfemail=\"10737f7e64717364507c756324637f65627375633e7275\">[email&nbsp;protected]</a></li></ul><div id=\"block-e7d34565e3404af7b52a18b93c92c2b5\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💁</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"><strong>Envie de loger sur place avant ou après l’événement ?</strong> Découvrez <a href=\"/sejours/hebergements-yvoir\" class=\"notion-link link\" data-link-uri=\"/sejours/hebergements-yvoir\">nos hébergements</a></span></div></div><div id=\"block-5958473a9a5d41988a9b719915b7c8c6\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💁</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour plus d’informations et pour réserver, envoie-nous un e-mail à <a href=\"mailto:contact@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">contact@les4sources.be</a><strong>\nEnvie de loger sur place avant ou après l’activité ?</strong> Découvre <a href=\"/sejours/hebergements-yvoir\" class=\"notion-link link\" data-link-uri=\"/sejours/hebergements-yvoir\">nos hébergements</a></span></div></div><h1 id=\"block-242eedd2d91b4d279bd50815d65c651d\" class=\"notion-heading notion-semantic-string\">D’autres activités à découvrir</h1><div id=\"block-d161737393a94950b4bbb1aacb03429f\" class=\"notion-collection inline\"><div class=\"notion-collection-gallery small\"><div id=\"block-catalogue-camembert-party\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-camembert-party\" href=\"/catalogue/camembert-party\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/camembert-party\">Camembert Party pour groupes</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f2dfe915-7ed2-442e-aad6-ec88eb10ab6b/IMG_8813/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f2dfe915-7ed2-442e-aad6-ec88eb10ab6b/IMG_8813/public\"><img alt=\"Camembert Party pour groupes\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f2dfe915-7ed2-442e-aad6-ec88eb10ab6b/IMG_8813/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Camembert Party pour groupes</div><div class=\"notion-property notion-property__select no-wrap property-41443f53 notion-collection-card__property\"><span class=\"notion-pill pill-pink first\">Production et transformation</span></div></div></div><div id=\"block-catalogue-construction-dobjets-en-acier-de-rcup\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-construction-dobjets-en-acier-de-rcup\" href=\"/catalogue/construction-dobjets-en-acier-de-rcup\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/construction-dobjets-en-acier-de-rcup\">Construction d’objets en acier de récup’</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3fbb824d-ce26-4b65-b3a0-21365b55774d/IMG-20230324-WA0033/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3fbb824d-ce26-4b65-b3a0-21365b55774d/IMG-20230324-WA0033/public\"><img alt=\"Construction d’objets en acier de récup’\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3fbb824d-ce26-4b65-b3a0-21365b55774d/IMG-20230324-WA0033/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Construction d’objets en acier de récup’</div><div class=\"notion-property notion-property__select no-wrap property-41443f53 notion-collection-card__property\"><span class=\"notion-pill pill-orange first\">Artisanat</span></div></div></div><div id=\"block-catalogue-cration-dobjets-en-palettes\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-cration-dobjets-en-palettes\" href=\"/catalogue/cration-dobjets-en-palettes\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/cration-dobjets-en-palettes\">Création d’objets en palettes</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fb64cbc8-dfb8-4513-9259-765026a71e3b/IMG-20240314-WA0012/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fb64cbc8-dfb8-4513-9259-765026a71e3b/IMG-20240314-WA0012/public\"><img alt=\"Création d’objets en palettes\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fb64cbc8-dfb8-4513-9259-765026a71e3b/IMG-20240314-WA0012/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Création d’objets en palettes</div><div class=\"notion-property notion-property__select no-wrap property-41443f53 notion-collection-card__property\"><span class=\"notion-pill pill-orange first\">Artisanat</span></div></div></div><div id=\"block-catalogue-cration-de-bijoux-en-matriaux-de-rcup\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-cration-de-bijoux-en-matriaux-de-rcup\" href=\"/catalogue/cration-de-bijoux-en-matriaux-de-rcup\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/cration-de-bijoux-en-matriaux-de-rcup\">Création de bijoux en matériaux de récup’</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4cb6dd1e-3408-46ed-831f-350f79909a6e/311175965_411797314463044_1479026453936642171_n/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4cb6dd1e-3408-46ed-831f-350f79909a6e/311175965_411797314463044_1479026453936642171_n/public\"><img alt=\"Création de bijoux en matériaux de récup’\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4cb6dd1e-3408-46ed-831f-350f79909a6e/311175965_411797314463044_1479026453936642171_n/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Création de bijoux en matériaux de récup’</div><div class=\"notion-property notion-property__select no-wrap property-41443f53 notion-collection-card__property\"><span class=\"notion-pill pill-orange first\">Artisanat</span></div></div></div><div id=\"block-catalogue-cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages\" href=\"/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages\">Cuisine d’un repas ou d’un goûter aux plantes sauvages</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/583f33d8-5106-41a1-8bea-38e0e9c411b3/20230324_120654_6EE0E3EE/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/583f33d8-5106-41a1-8bea-38e0e9c411b3/20230324_120654_6EE0E3EE/public\"><img alt=\"Cuisine d’un repas ou d’un goûter aux plantes sauvages\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/583f33d8-5106-41a1-8bea-38e0e9c411b3/20230324_120654_6EE0E3EE/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Cuisine d’un repas ou d’un goûter aux plantes sauvages</div><div class=\"notion-property notion-property__select no-wrap property-41443f53 notion-collection-card__property\"><span class=\"notion-pill pill-pink first\">Production et transformation</span></div></div></div><div id=\"block-catalogue-grimpe-encadree-dans-les-arbres\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-grimpe-encadree-dans-les-arbres\" href=\"/catalogue/grimpe-encadree-dans-les-arbres\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/grimpe-encadree-dans-les-arbres\">Grimpe encadrée dans les arbres</a><span data-full-size=\"https://images.unsplash.com/photo-1561063162-b47865516e6a\" data-lightbox-src=\"https://images.unsplash.com/photo-1561063162-b47865516e6a\"><img alt=\"Grimpe encadrée dans les arbres\" class=\"notion-collection-card__cover small\" src=\"https://images.unsplash.com/photo-1561063162-b47865516e6a?ixlib=rb-4.0.3&amp;cs=srgb\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Grimpe encadrée dans les arbres</div><div class=\"notion-property notion-property__select no-wrap property-41443f53 notion-collection-card__property\"><span class=\"notion-pill pill-green first\">Nature et environnement</span></div></div></div><div id=\"block-catalogue-initiation-astronomie-etoiles-yvoir\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-initiation-astronomie-etoiles-yvoir\" href=\"/catalogue/initiation-astronomie-etoiles-yvoir\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/initiation-astronomie-etoiles-yvoir\">Initiation à l’astronomie et observation des étoiles</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4c925d89-a235-4d24-bd0e-d2f81b5912a8/IMG_5539/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4c925d89-a235-4d24-bd0e-d2f81b5912a8/IMG_5539/public\"><img alt=\"Initiation à l’astronomie et observation des étoiles\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4c925d89-a235-4d24-bd0e-d2f81b5912a8/IMG_5539/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Initiation à l’astronomie et observation des étoiles</div><div class=\"notion-property notion-property__select no-wrap property-41443f53 notion-collection-card__property\"><span class=\"notion-pill pill-green first\">Nature et environnement</span></div></div></div><div id=\"block-catalogue-initiation-la-soudure\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-initiation-la-soudure\" href=\"/catalogue/initiation-la-soudure\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/initiation-la-soudure\">Initiation à la soudure</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/28545919-502f-4b60-ad46-072022c0d763/IMG-20230324-WA0039/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/28545919-502f-4b60-ad46-072022c0d763/IMG-20230324-WA0039/public\"><img alt=\"Initiation à la soudure\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/28545919-502f-4b60-ad46-072022c0d763/IMG-20230324-WA0039/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Initiation à la soudure</div><div class=\"notion-property notion-property__select no-wrap property-41443f53 notion-collection-card__property\"><span class=\"notion-pill pill-orange first\">Artisanat</span></div></div></div><div id=\"block-catalogue-initiation-au-disc-golf\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-initiation-au-disc-golf\" href=\"/catalogue/initiation-au-disc-golf\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/initiation-au-disc-golf\">Initiation au disc-golf</a><span data-full-size=\"https://images.unsplash.com/photo-1616840388998-a514fe2175b9\" data-lightbox-src=\"https://images.unsplash.com/photo-1616840388998-a514fe2175b9\"><img alt=\"Initiation au disc-golf\" class=\"notion-collection-card__cover small\" src=\"https://images.unsplash.com/photo-1616840388998-a514fe2175b9?ixlib=rb-4.0.3&amp;cs=srgb\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Initiation au disc-golf</div><div class=\"notion-property notion-property__select no-wrap property-41443f53 notion-collection-card__property\"><span class=\"notion-pill pill-yellow first\">Bien-être</span></div></div></div><div id=\"block-catalogue-initiation-champignons-yvoir\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-initiation-champignons-yvoir\" href=\"/catalogue/initiation-champignons-yvoir\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/initiation-champignons-yvoir\">Initiation ou perfectionnement à l’identification de champignons</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ad952ee1-d54e-4b91-96dd-6103a2acd435/_G0A4667_(1)/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ad952ee1-d54e-4b91-96dd-6103a2acd435/_G0A4667_(1)/public\"><img alt=\"Initiation ou perfectionnement à l’identification de champignons\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ad952ee1-d54e-4b91-96dd-6103a2acd435/_G0A4667_(1)/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Initiation ou perfectionnement à l’identification de champignons</div><div class=\"notion-property notion-property__select no-wrap property-41443f53 notion-collection-card__property\"><span class=\"notion-pill pill-green first\">Nature et environnement</span></div></div></div><div id=\"block-catalogue-zythologie\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-zythologie\" href=\"/catalogue/zythologie\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/zythologie\">Introduction à la zythologie</a><span data-full-size=\"https://images.unsplash.com/photo-1445140463371-d8036feedc2f\" data-lightbox-src=\"https://images.unsplash.com/photo-1445140463371-d8036feedc2f\"><img alt=\"Introduction à la zythologie\" class=\"notion-collection-card__cover small\" src=\"https://images.unsplash.com/photo-1445140463371-d8036feedc2f?ixlib=rb-4.0.3&amp;cs=srgb\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Introduction à la zythologie</div><div class=\"notion-property notion-property__select no-wrap property-41443f53 notion-collection-card__property\"><span class=\"notion-pill pill-pink first\">Production et transformation</span></div></div></div><div id=\"block-catalogue-participation-la-production-du-pain\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-participation-la-production-du-pain\" href=\"/catalogue/participation-la-production-du-pain\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/participation-la-production-du-pain\">Participation à la production du pain</a><span data-full-size=\"https://images.unsplash.com/photo-1517686469429-8bdb88b9f907\" data-lightbox-src=\"https://images.unsplash.com/photo-1517686469429-8bdb88b9f907\"><img alt=\"Participation à la production du pain\" class=\"notion-collection-card__cover small\" src=\"https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?ixlib=rb-4.0.3&amp;cs=srgb\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Participation à la production du pain</div><div class=\"notion-property notion-property__select no-wrap property-41443f53 notion-collection-card__property\"><span class=\"notion-pill pill-pink first\">Production et transformation</span></div></div></div><div id=\"block-catalogue-pizza-ou-camembert-party\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-pizza-ou-camembert-party\" href=\"/catalogue/pizza-ou-camembert-party\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/pizza-ou-camembert-party\">Pizza Party pour groupes</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f2d8b211-c9bc-4b02-b516-2b8af2e58b5c/IMG_3035/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f2d8b211-c9bc-4b02-b516-2b8af2e58b5c/IMG_3035/public\"><img alt=\"Pizza Party pour groupes\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f2d8b211-c9bc-4b02-b516-2b8af2e58b5c/IMG_3035/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Pizza Party pour groupes</div><div class=\"notion-property notion-property__select no-wrap property-41443f53 notion-collection-card__property\"><span class=\"notion-pill pill-pink first\">Production et transformation</span></div></div></div><div id=\"block-catalogue-temps-avec-le-troupeau-d-anes\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-temps-avec-le-troupeau-d-anes\" href=\"/catalogue/temps-avec-le-troupeau-d-anes\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/temps-avec-le-troupeau-d-anes\">Rencontre avec le troupeau d’ânes</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9381c49d-8acc-4ea0-8325-7d3b7ee26fa3/_G0A4772/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9381c49d-8acc-4ea0-8325-7d3b7ee26fa3/_G0A4772/public\"><img alt=\"Rencontre avec le troupeau d’ânes\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9381c49d-8acc-4ea0-8325-7d3b7ee26fa3/_G0A4772/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Rencontre avec le troupeau d’ânes</div><div class=\"notion-property notion-property__select no-wrap property-41443f53 notion-collection-card__property\"><span class=\"notion-pill pill-yellow first\">Bien-être</span></div></div></div><div id=\"block-catalogue-decouverte-du-projet-des-4-sources\" class=\"notion-collection-card gallery\"><a id=\"block-catalogue-decouverte-du-projet-des-4-sources\" href=\"/catalogue/decouverte-du-projet-des-4-sources\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/catalogue/decouverte-du-projet-des-4-sources\">Un tour à la découverte du projet des 4 Sources</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7370ba4a-c034-43c4-b078-b347b77d3b26/IMG-20230513-WA0031/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7370ba4a-c034-43c4-b078-b347b77d3b26/IMG-20230513-WA0031/public\"><img alt=\"Un tour à la découverte du projet des 4 Sources\" class=\"notion-collection-card__cover small\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7370ba4a-c034-43c4-b078-b347b77d3b26/IMG-20230513-WA0031/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Un tour à la découverte du projet des 4 Sources</div><div class=\"notion-property notion-property__select no-wrap property-41443f53 notion-collection-card__property\"><span class=\"notion-pill pill-purple first\">Vie collective</span></div></div></div></div></div>",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1620098255118-a5e1a0ee92b6?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Transmission d’outils d’intelligence collective",
+      "role": "cover",
+      "localPath": "images/_shared/ef6f795e748b-photo-1620098255118-a5e1a0ee92b6.jpg",
+      "shared": true,
+      "bytes": 6138384
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f2dfe915-7ed2-442e-aad6-ec88eb10ab6b/IMG_8813/public",
+      "alt": "Camembert Party pour groupes",
+      "role": "content",
+      "localPath": "images/_shared/6bf997736d91-IMG_8813.jpg",
+      "shared": true,
+      "bytes": 114693
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3fbb824d-ce26-4b65-b3a0-21365b55774d/IMG-20230324-WA0033/public",
+      "alt": "Construction d’objets en acier de récup’",
+      "role": "content",
+      "localPath": "images/_shared/d107ed4dafb4-IMG-20230324-WA0033.jpg",
+      "shared": true,
+      "bytes": 139000
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fb64cbc8-dfb8-4513-9259-765026a71e3b/IMG-20240314-WA0012/public",
+      "alt": "Création d’objets en palettes",
+      "role": "content",
+      "localPath": "images/_shared/3d740652762a-IMG-20240314-WA0012.jpg",
+      "shared": true,
+      "bytes": 82394
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4cb6dd1e-3408-46ed-831f-350f79909a6e/311175965_411797314463044_1479026453936642171_n/public",
+      "alt": "Création de bijoux en matériaux de récup’",
+      "role": "content",
+      "localPath": "images/_shared/2eb942505228-311175965_411797314463044_1479026453936642171_n.jpg",
+      "shared": true,
+      "bytes": 246861
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/583f33d8-5106-41a1-8bea-38e0e9c411b3/20230324_120654_6EE0E3EE/public",
+      "alt": "Cuisine d’un repas ou d’un goûter aux plantes sauvages",
+      "role": "content",
+      "localPath": "images/_shared/9693c97c386c-20230324_120654_6EE0E3EE.jpg",
+      "shared": true,
+      "bytes": 148911
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1561063162-b47865516e6a?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Grimpe encadrée dans les arbres",
+      "role": "content",
+      "localPath": "images/_shared/27c932962613-photo-1561063162-b47865516e6a.jpg",
+      "shared": true,
+      "bytes": 1930803
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4c925d89-a235-4d24-bd0e-d2f81b5912a8/IMG_5539/public",
+      "alt": "Initiation à l’astronomie et observation des étoiles",
+      "role": "content",
+      "localPath": "images/_shared/c8afe8a1486e-IMG_5539.jpg",
+      "shared": true,
+      "bytes": 39202
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/28545919-502f-4b60-ad46-072022c0d763/IMG-20230324-WA0039/public",
+      "alt": "Initiation à la soudure",
+      "role": "content",
+      "localPath": "images/_shared/633b606296d2-IMG-20230324-WA0039.jpg",
+      "shared": true,
+      "bytes": 162279
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1616840388998-a514fe2175b9?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Initiation au disc-golf",
+      "role": "content",
+      "localPath": "images/_shared/168420509e83-photo-1616840388998-a514fe2175b9.jpg",
+      "shared": true,
+      "bytes": 2667601
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ad952ee1-d54e-4b91-96dd-6103a2acd435/_G0A4667_(1)/public",
+      "alt": "Initiation ou perfectionnement à l’identification de champignons",
+      "role": "content",
+      "localPath": "images/_shared/4562082db291-_G0A4667_-1.jpg",
+      "shared": true,
+      "bytes": 55050
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1445140463371-d8036feedc2f?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Introduction à la zythologie",
+      "role": "content",
+      "localPath": "images/_shared/9e51ed018d86-photo-1445140463371-d8036feedc2f.jpg",
+      "shared": true,
+      "bytes": 279386
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Participation à la production du pain",
+      "role": "content",
+      "localPath": "images/_shared/7612bad64bcc-photo-1517686469429-8bdb88b9f907.jpg",
+      "shared": true,
+      "bytes": 1833220
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f2d8b211-c9bc-4b02-b516-2b8af2e58b5c/IMG_3035/public",
+      "alt": "Pizza Party pour groupes",
+      "role": "content",
+      "localPath": "images/_shared/c9b6d35f2f56-IMG_3035.jpg",
+      "shared": true,
+      "bytes": 107714
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9381c49d-8acc-4ea0-8325-7d3b7ee26fa3/_G0A4772/public",
+      "alt": "Rencontre avec le troupeau d’ânes",
+      "role": "content",
+      "localPath": "images/_shared/8310a8380629-_G0A4772.jpg",
+      "shared": true,
+      "bytes": 89995
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7370ba4a-c034-43c4-b078-b347b77d3b26/IMG-20230513-WA0031/public",
+      "alt": "Un tour à la découverte du projet des 4 Sources",
+      "role": "content",
+      "localPath": "images/_shared/1d2c452abb7f-IMG-20230513-WA0031.jpg",
+      "shared": true,
+      "bytes": 203528
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/sejours/hebergements-yvoir",
+    "/catalogue/camembert-party",
+    "/catalogue/construction-dobjets-en-acier-de-rcup",
+    "/catalogue/cration-dobjets-en-palettes",
+    "/catalogue/cration-de-bijoux-en-matriaux-de-rcup",
+    "/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages",
+    "/catalogue/grimpe-encadree-dans-les-arbres",
+    "/catalogue/initiation-astronomie-etoiles-yvoir",
+    "/catalogue/initiation-la-soudure",
+    "/catalogue/initiation-au-disc-golf",
+    "/catalogue/initiation-champignons-yvoir",
+    "/catalogue/zythologie",
+    "/catalogue/participation-la-production-du-pain",
+    "/catalogue/pizza-ou-camembert-party",
+    "/catalogue/temps-avec-le-troupeau-d-anes",
+    "/catalogue/decouverte-du-projet-des-4-sources"
+  ],
+  "externalLinks": [
+    "mailto:",
+    "mailto:contact@les4sources.be"
+  ],
+  "collections": [
+    {
+      "id": "d161737393a94950b4bbb1aacb03429f",
+      "title": "Catalogue des activités",
+      "source": {
+        "id": "catalogue",
+        "uri": "/catalogue",
+        "title": "Catalogue des activités",
+        "inferred": true
+      },
+      "view": "En assoc'",
+      "views": [
+        "En assoc'",
+        "Entre jeunes",
+        "En famille",
+        "Entre collègues",
+        "Entre amis"
+      ],
+      "layout": "gallery",
+      "grouped": false,
+      "items": [
+        {
+          "title": "Camembert Party pour groupes",
+          "href": "/catalogue/camembert-party",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f2dfe915-7ed2-442e-aad6-ec88eb10ab6b/IMG_8813/public",
+          "props": [
+            "Production et transformation"
+          ],
+          "properties": {
+            "Thématique": "Production et transformation"
+          },
+          "coverLocalPath": "images/_shared/6bf997736d91-IMG_8813.jpg"
+        },
+        {
+          "title": "Construction d’objets en acier de récup’",
+          "href": "/catalogue/construction-dobjets-en-acier-de-rcup",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3fbb824d-ce26-4b65-b3a0-21365b55774d/IMG-20230324-WA0033/public",
+          "props": [
+            "Artisanat"
+          ],
+          "properties": {
+            "Thématique": "Artisanat"
+          },
+          "coverLocalPath": "images/_shared/d107ed4dafb4-IMG-20230324-WA0033.jpg"
+        },
+        {
+          "title": "Création d’objets en palettes",
+          "href": "/catalogue/cration-dobjets-en-palettes",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fb64cbc8-dfb8-4513-9259-765026a71e3b/IMG-20240314-WA0012/public",
+          "props": [
+            "Artisanat"
+          ],
+          "properties": {
+            "Thématique": "Artisanat"
+          },
+          "coverLocalPath": "images/_shared/3d740652762a-IMG-20240314-WA0012.jpg"
+        },
+        {
+          "title": "Création de bijoux en matériaux de récup’",
+          "href": "/catalogue/cration-de-bijoux-en-matriaux-de-rcup",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4cb6dd1e-3408-46ed-831f-350f79909a6e/311175965_411797314463044_1479026453936642171_n/public",
+          "props": [
+            "Artisanat"
+          ],
+          "properties": {
+            "Thématique": "Artisanat"
+          },
+          "coverLocalPath": "images/_shared/2eb942505228-311175965_411797314463044_1479026453936642171_n.jpg"
+        },
+        {
+          "title": "Cuisine d’un repas ou d’un goûter aux plantes sauvages",
+          "href": "/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/583f33d8-5106-41a1-8bea-38e0e9c411b3/20230324_120654_6EE0E3EE/public",
+          "props": [
+            "Production et transformation"
+          ],
+          "properties": {
+            "Thématique": "Production et transformation"
+          },
+          "coverLocalPath": "images/_shared/9693c97c386c-20230324_120654_6EE0E3EE.jpg"
+        },
+        {
+          "title": "Grimpe encadrée dans les arbres",
+          "href": "/catalogue/grimpe-encadree-dans-les-arbres",
+          "icon": null,
+          "cover": "https://images.unsplash.com/photo-1561063162-b47865516e6a?ixlib=rb-4.0.3&cs=srgb",
+          "props": [
+            "Nature et environnement"
+          ],
+          "properties": {
+            "Thématique": "Nature et environnement"
+          },
+          "coverLocalPath": "images/_shared/27c932962613-photo-1561063162-b47865516e6a.jpg"
+        },
+        {
+          "title": "Initiation à l’astronomie et observation des étoiles",
+          "href": "/catalogue/initiation-astronomie-etoiles-yvoir",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4c925d89-a235-4d24-bd0e-d2f81b5912a8/IMG_5539/public",
+          "props": [
+            "Nature et environnement"
+          ],
+          "properties": {
+            "Thématique": "Nature et environnement"
+          },
+          "coverLocalPath": "images/_shared/c8afe8a1486e-IMG_5539.jpg"
+        },
+        {
+          "title": "Initiation à la soudure",
+          "href": "/catalogue/initiation-la-soudure",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/28545919-502f-4b60-ad46-072022c0d763/IMG-20230324-WA0039/public",
+          "props": [
+            "Artisanat"
+          ],
+          "properties": {
+            "Thématique": "Artisanat"
+          },
+          "coverLocalPath": "images/_shared/633b606296d2-IMG-20230324-WA0039.jpg"
+        },
+        {
+          "title": "Initiation au disc-golf",
+          "href": "/catalogue/initiation-au-disc-golf",
+          "icon": null,
+          "cover": "https://images.unsplash.com/photo-1616840388998-a514fe2175b9?ixlib=rb-4.0.3&cs=srgb",
+          "props": [
+            "Bien-être"
+          ],
+          "properties": {
+            "Thématique": "Bien-être"
+          },
+          "coverLocalPath": "images/_shared/168420509e83-photo-1616840388998-a514fe2175b9.jpg"
+        },
+        {
+          "title": "Initiation ou perfectionnement à l’identification de champignons",
+          "href": "/catalogue/initiation-champignons-yvoir",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ad952ee1-d54e-4b91-96dd-6103a2acd435/_G0A4667_(1)/public",
+          "props": [
+            "Nature et environnement"
+          ],
+          "properties": {
+            "Thématique": "Nature et environnement"
+          },
+          "coverLocalPath": "images/_shared/4562082db291-_G0A4667_-1.jpg"
+        },
+        {
+          "title": "Introduction à la zythologie",
+          "href": "/catalogue/zythologie",
+          "icon": null,
+          "cover": "https://images.unsplash.com/photo-1445140463371-d8036feedc2f?ixlib=rb-4.0.3&cs=srgb",
+          "props": [
+            "Production et transformation"
+          ],
+          "properties": {
+            "Thématique": "Production et transformation"
+          },
+          "coverLocalPath": "images/_shared/9e51ed018d86-photo-1445140463371-d8036feedc2f.jpg"
+        },
+        {
+          "title": "Participation à la production du pain",
+          "href": "/catalogue/participation-la-production-du-pain",
+          "icon": null,
+          "cover": "https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?ixlib=rb-4.0.3&cs=srgb",
+          "props": [
+            "Production et transformation"
+          ],
+          "properties": {
+            "Thématique": "Production et transformation"
+          },
+          "coverLocalPath": "images/_shared/7612bad64bcc-photo-1517686469429-8bdb88b9f907.jpg"
+        },
+        {
+          "title": "Pizza Party pour groupes",
+          "href": "/catalogue/pizza-ou-camembert-party",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f2d8b211-c9bc-4b02-b516-2b8af2e58b5c/IMG_3035/public",
+          "props": [
+            "Production et transformation"
+          ],
+          "properties": {
+            "Thématique": "Production et transformation"
+          },
+          "coverLocalPath": "images/_shared/c9b6d35f2f56-IMG_3035.jpg"
+        },
+        {
+          "title": "Rencontre avec le troupeau d’ânes",
+          "href": "/catalogue/temps-avec-le-troupeau-d-anes",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9381c49d-8acc-4ea0-8325-7d3b7ee26fa3/_G0A4772/public",
+          "props": [
+            "Bien-être"
+          ],
+          "properties": {
+            "Thématique": "Bien-être"
+          },
+          "coverLocalPath": "images/_shared/8310a8380629-_G0A4772.jpg"
+        },
+        {
+          "title": "Un tour à la découverte du projet des 4 Sources",
+          "href": "/catalogue/decouverte-du-projet-des-4-sources",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7370ba4a-c034-43c4-b078-b347b77d3b26/IMG-20230513-WA0031/public",
+          "props": [
+            "Vie collective"
+          ],
+          "properties": {
+            "Thématique": "Vie collective"
+          },
+          "coverLocalPath": "images/_shared/1d2c452abb7f-IMG-20230513-WA0031.jpg"
+        }
+      ]
+    }
+  ],
+  "wordCount": 351,
+  "fetchedAt": "2026-09-07T21:17:25.758Z",
+  "markdown": "#### Renforcez la cohésion de votre équipe et stimulez la créativité avec les outils d'intelligence collective lors de notre atelier dédié aux associations.\n\nVenez découvrir et vous familiariser avec quelques outils d'intelligence collective lors de notre atelier spécialement conçu pour les associations. Cet atelier est une occasion unique d'apprendre à utiliser ces outils pour renforcer la cohésion de votre équipe, améliorer la prise de décision et stimuler la créativité.\n\nL'intelligence collective est plus que jamais nécessaire dans le monde associatif pour faire face aux défis actuels. En participant à cet atelier, vous pourrez acquérir des compétences précieuses qui vous aideront à mobiliser l'intelligence et la créativité de tous les membres de votre association.\n\nRejoignez-nous pour cet atelier stimulant et enrichissant qui vous offrira de nouvelles perspectives sur la collaboration et la gestion participative dans votre structure associative.\n\n### En pratique\n\n- Tarif :\n\n|  |  |  |\n| --- | --- | --- |\n| ***Transmission d'outils d'intelligence collective*** | ***6 à 7 pers.*** | ***8 à 25 pers.*** |\n| 1h00 | 60€ | \\+ 7,5€/personne |\n| 2h00 | 120€ | \\+ 15€/personne |\n\n- Plus d’infos & réservation : envoyez un mail à [\\[email protected\\]](mailto:)\n\n> 💁 **Envie de loger sur place avant ou après l’événement ?** Découvrez [nos hébergements](/sejours/hebergements-yvoir)\n\n> 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be) **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)\n\n## D’autres activités à découvrir\n\n<!-- collection \"Catalogue des activités\" view=\"En assoc'\" layout=\"gallery\" -->\n- [Camembert Party pour groupes](/catalogue/camembert-party) — Production et transformation\n- [Construction d’objets en acier de récup’](/catalogue/construction-dobjets-en-acier-de-rcup) — Artisanat\n- [Création d’objets en palettes](/catalogue/cration-dobjets-en-palettes) — Artisanat\n- [Création de bijoux en matériaux de récup’](/catalogue/cration-de-bijoux-en-matriaux-de-rcup) — Artisanat\n- [Cuisine d’un repas ou d’un goûter aux plantes sauvages](/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages) — Production et transformation\n- [Grimpe encadrée dans les arbres](/catalogue/grimpe-encadree-dans-les-arbres) — Nature et environnement\n- [Initiation à l’astronomie et observation des étoiles](/catalogue/initiation-astronomie-etoiles-yvoir) — Nature et environnement\n- [Initiation à la soudure](/catalogue/initiation-la-soudure) — Artisanat\n- [Initiation au disc-golf](/catalogue/initiation-au-disc-golf) — Bien-être\n- [Initiation ou perfectionnement à l’identification de champignons](/catalogue/initiation-champignons-yvoir) — Nature et environnement\n- [Introduction à la zythologie](/catalogue/zythologie) — Production et transformation\n- [Participation à la production du pain](/catalogue/participation-la-production-du-pain) — Production et transformation\n- [Pizza Party pour groupes](/catalogue/pizza-ou-camembert-party) — Production et transformation\n- [Rencontre avec le troupeau d’ânes](/catalogue/temps-avec-le-troupeau-d-anes) — Bien-être\n- [Un tour à la découverte du projet des 4 Sources](/catalogue/decouverte-du-projet-des-4-sources) — Vie collective\n<!-- /collection -->\n",
+  "extractedAt": "2026-09-07T21:41:44.346Z"
+}

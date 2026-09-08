@@ -1,0 +1,345 @@
+{
+  "path": "/evenements",
+  "slug": "evenements",
+  "rootIsCollection": true,
+  "title": "Événements",
+  "metaDescription": null,
+  "ogImage": null,
+  "ogTitle": "Événements",
+  "ogUrl": "https://www.les4sources.be/evenements",
+  "canonical": null,
+  "h1": "Événements",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": "🗓️",
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "evenements",
+    "blockId": null,
+    "parentId": "aaee8e6cac31408cad25d5a62f3e5a32",
+    "type": "collection_page",
+    "uri": "/evenements",
+    "createdTime": null,
+    "lastEditedTime": null,
+    "collectionId": "1652c2dd-f356-4acb-a75a-7d5121d9fff5"
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<div class=\"notion-collection-gallery medium\"><div id=\"block-evenements-discgolf-septembre-2026\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-discgolf-septembre-2026\" href=\"/evenements/discgolf-septembre-2026\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/discgolf-septembre-2026\">🤾🏻 Tournoi de disc-golf </a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2a147bc3-0b26-46e1-9bfc-a4af89c7ad6a/evenement_gnral__a_-1/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2a147bc3-0b26-46e1-9bfc-a4af89c7ad6a/evenement_gnral__a_-1/public\"><img alt=\"🤾🏻 Tournoi de disc-golf \" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2a147bc3-0b26-46e1-9bfc-a4af89c7ad6a/evenement_gnral__a_-1/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">🤾🏻 Tournoi de disc-golf </div><div class=\"notion-property notion-property__date property-534c6653 notion-collection-card__property notion-semantic-string\"><span class=\"date\">September 6, 2026</span></div><div class=\"notion-property notion-property__select wrap property-483a533b notion-collection-card__property\"><span class=\"notion-pill pill-yellow first\">Liens et convivialité</span><span class=\"notion-pill pill-default\">Sports</span></div></div></div><div id=\"block-evenements-initiation-soudure-a-l-arc-5-septembre-2026\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-initiation-soudure-a-l-arc-5-septembre-2026\" href=\"/evenements/initiation-soudure-a-l-arc-5-septembre-2026\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/initiation-soudure-a-l-arc-5-septembre-2026\">⚡ COMPLET ! Initiation à la soudure à l’arc </a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/032e026f-d1f6-4065-930e-b67c5e1d3d04/evenement_gnral__a/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/032e026f-d1f6-4065-930e-b67c5e1d3d04/evenement_gnral__a/public\"><img alt=\"⚡ COMPLET ! Initiation à la soudure à l’arc \" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/032e026f-d1f6-4065-930e-b67c5e1d3d04/evenement_gnral__a/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">⚡ COMPLET ! Initiation à la soudure à l’arc </div><div class=\"notion-property notion-property__date property-534c6653 notion-collection-card__property notion-semantic-string\"><span class=\"date\">September 12, 2026</span></div><div class=\"notion-property notion-property__select wrap property-483a533b notion-collection-card__property\"><span class=\"notion-pill pill-brown first\">Artisanat</span></div></div></div><div id=\"block-evenements-pizza-party-septembre-2026\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-pizza-party-septembre-2026\" href=\"/evenements/pizza-party-septembre-2026\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/pizza-party-septembre-2026\">🍕Pizza Party de septembre !  </a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6918ccae-8f12-41e6-b354-63b4f03a7b5f/evenement_gnral__a_-1/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6918ccae-8f12-41e6-b354-63b4f03a7b5f/evenement_gnral__a_-1/public\"><img alt=\"🍕Pizza Party de septembre !  \" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6918ccae-8f12-41e6-b354-63b4f03a7b5f/evenement_gnral__a_-1/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">🍕Pizza Party de septembre !  </div><div class=\"notion-property notion-property__date property-534c6653 notion-collection-card__property notion-semantic-string\"><span class=\"date\">September 18, 2026</span></div><div class=\"notion-property notion-property__select wrap property-483a533b notion-collection-card__property\"><span class=\"notion-pill pill-yellow first\">Liens et convivialité</span></div></div></div><div id=\"block-evenements-weekend-cratif\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-weekend-cratif\" href=\"/evenements/weekend-cratif\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/weekend-cratif\">🖋️ Atelier d’écriture </a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/15fb3778-e644-4640-8c68-2c35c215d96b/evenement_gnral__a_-4/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/15fb3778-e644-4640-8c68-2c35c215d96b/evenement_gnral__a_-4/public\"><img alt=\"🖋️ Atelier d’écriture \" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/15fb3778-e644-4640-8c68-2c35c215d96b/evenement_gnral__a_-4/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">🖋️ Atelier d’écriture </div><div class=\"notion-property notion-property__date property-534c6653 notion-collection-card__property notion-semantic-string\"><span class=\"date\">October 3, 2026 → October 3, 2026</span></div><div class=\"notion-property notion-property__select wrap property-483a533b notion-collection-card__property\"><span class=\"notion-pill pill-purple first\">Ressourcement</span><span class=\"notion-pill pill-gray\">Formation</span></div></div></div><div id=\"block-evenements-weekend-cratif-1\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-weekend-cratif-1\" href=\"/evenements/weekend-cratif-1\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/weekend-cratif-1\">🌻 Plantes Papier Pigments</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/bcd00262-b017-44c2-a2cd-d6e655a789f6/evenement_gnral__a_-2/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/bcd00262-b017-44c2-a2cd-d6e655a789f6/evenement_gnral__a_-2/public\"><img alt=\"🌻 Plantes Papier Pigments\" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/bcd00262-b017-44c2-a2cd-d6e655a789f6/evenement_gnral__a_-2/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">🌻 Plantes Papier Pigments</div><div class=\"notion-property notion-property__date property-534c6653 notion-collection-card__property notion-semantic-string\"><span class=\"date\">October 3, 2026 → October 3, 2026</span></div><div class=\"notion-property notion-property__select wrap property-483a533b notion-collection-card__property\"><span class=\"notion-pill pill-purple first\">Ressourcement</span><span class=\"notion-pill pill-brown\">Artisanat</span></div></div></div><div id=\"block-evenements-weekend-ressources\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-weekend-ressources\" href=\"/evenements/weekend-ressources\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/weekend-ressources\">🪓 Créer un objet en bois de palette</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/91f9e200-613a-4053-8fbf-50a94a651795/evenement_gnral__a_-1/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/91f9e200-613a-4053-8fbf-50a94a651795/evenement_gnral__a_-1/public\"><img alt=\"🪓 Créer un objet en bois de palette\" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/91f9e200-613a-4053-8fbf-50a94a651795/evenement_gnral__a_-1/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">🪓 Créer un objet en bois de palette</div><div class=\"notion-property notion-property__date property-534c6653 notion-collection-card__property notion-semantic-string\"><span class=\"date\">October 3, 2026 → October 3, 2026</span></div><div class=\"notion-property notion-property__select wrap property-483a533b notion-collection-card__property\"><span class=\"notion-pill pill-purple first\">Ressourcement</span><span class=\"notion-pill pill-brown\">Artisanat</span></div></div></div><div id=\"block-evenements-pizza-party-octobre-2026\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-pizza-party-octobre-2026\" href=\"/evenements/pizza-party-octobre-2026\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/pizza-party-octobre-2026\">Pizza Party d’octobre ! 🍕 </a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6918ccae-8f12-41e6-b354-63b4f03a7b5f/evenement_gnral__a_-1/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6918ccae-8f12-41e6-b354-63b4f03a7b5f/evenement_gnral__a_-1/public\"><img alt=\"Pizza Party d’octobre ! 🍕 \" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6918ccae-8f12-41e6-b354-63b4f03a7b5f/evenement_gnral__a_-1/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Pizza Party d’octobre ! 🍕 </div><div class=\"notion-property notion-property__date property-534c6653 notion-collection-card__property notion-semantic-string\"><span class=\"date\">October 9, 2026</span></div><div class=\"notion-property notion-property__select wrap property-483a533b notion-collection-card__property\"><span class=\"notion-pill pill-yellow first\">Liens et convivialité</span></div></div></div><div id=\"block-evenements-initiation-soudure-a-l-arc-17-octobre-2026\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-initiation-soudure-a-l-arc-17-octobre-2026\" href=\"/evenements/initiation-soudure-a-l-arc-17-octobre-2026\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/initiation-soudure-a-l-arc-17-octobre-2026\">⚡ COMPLET ! Initiation à la soudure à l’arc </a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f12795e2-1e52-40a8-910b-47e74df840f3/evenement_gnral__a_-5/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f12795e2-1e52-40a8-910b-47e74df840f3/evenement_gnral__a_-5/public\"><img alt=\"⚡ COMPLET ! Initiation à la soudure à l’arc \" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f12795e2-1e52-40a8-910b-47e74df840f3/evenement_gnral__a_-5/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">⚡ COMPLET ! Initiation à la soudure à l’arc </div><div class=\"notion-property notion-property__date property-534c6653 notion-collection-card__property notion-semantic-string\"><span class=\"date\">October 17, 2026</span></div><div class=\"notion-property notion-property__select wrap property-483a533b notion-collection-card__property\"><span class=\"notion-pill pill-brown first\">Artisanat</span></div></div></div><div id=\"block-evenements-camembert-party-13-novembre-2026\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-camembert-party-13-novembre-2026\" href=\"/evenements/camembert-party-13-novembre-2026\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/camembert-party-13-novembre-2026\">🧀 Camembert Party de novembre</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/918df003-d65d-40c3-9e3c-231053821710/_Cover_pour_le_site_4S_(2)/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/918df003-d65d-40c3-9e3c-231053821710/_Cover_pour_le_site_4S_(2)/public\"><img alt=\"🧀 Camembert Party de novembre\" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/918df003-d65d-40c3-9e3c-231053821710/_Cover_pour_le_site_4S_(2)/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">🧀 Camembert Party de novembre</div><div class=\"notion-property notion-property__date property-534c6653 notion-collection-card__property notion-semantic-string\"><span class=\"date\">November 13, 2026</span></div><div class=\"notion-property notion-property__select wrap property-483a533b notion-collection-card__property\"><span class=\"notion-pill pill-yellow first\">Liens et convivialité</span></div></div></div><div id=\"block-evenements-initiation-soudure-a-l-arc-21-novembre-2026\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-initiation-soudure-a-l-arc-21-novembre-2026\" href=\"/evenements/initiation-soudure-a-l-arc-21-novembre-2026\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/initiation-soudure-a-l-arc-21-novembre-2026\">⚡ Initiation à la soudure à l’arc </a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public\"><img alt=\"⚡ Initiation à la soudure à l’arc \" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">⚡ Initiation à la soudure à l’arc </div><div class=\"notion-property notion-property__date property-534c6653 notion-collection-card__property notion-semantic-string\"><span class=\"date\">November 21, 2026</span></div><div class=\"notion-property notion-property__select wrap property-483a533b notion-collection-card__property\"><span class=\"notion-pill pill-brown first\">Artisanat</span></div></div></div><div id=\"block-evenements-initiation-soudure-a-l-arc-12-dcembre-2026\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-initiation-soudure-a-l-arc-12-dcembre-2026\" href=\"/evenements/initiation-soudure-a-l-arc-12-dcembre-2026\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/initiation-soudure-a-l-arc-12-dcembre-2026\">Initiation à la soudure à l’arc ⚡</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public\"><img alt=\"Initiation à la soudure à l’arc ⚡\" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Initiation à la soudure à l’arc ⚡</div><div class=\"notion-property notion-property__date property-534c6653 notion-collection-card__property notion-semantic-string\"><span class=\"date\">December 12, 2026</span></div><div class=\"notion-property notion-property__select wrap property-483a533b notion-collection-card__property\"><span class=\"notion-pill pill-brown first\">Artisanat</span></div></div></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2a147bc3-0b26-46e1-9bfc-a4af89c7ad6a/evenement_gnral__a_-1/public",
+      "alt": "🤾🏻 Tournoi de disc-golf",
+      "role": "content",
+      "localPath": "images/_shared/1bb4433d2d71-evenement_gnral__a_-1.jpg",
+      "shared": true,
+      "bytes": 142647
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/032e026f-d1f6-4065-930e-b67c5e1d3d04/evenement_gnral__a/public",
+      "alt": "⚡ COMPLET ! Initiation à la soudure à l’arc",
+      "role": "content",
+      "localPath": "images/_shared/9b3d051ecca1-evenement_gnral__a.jpg",
+      "shared": true,
+      "bytes": 114623
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6918ccae-8f12-41e6-b354-63b4f03a7b5f/evenement_gnral__a_-1/public",
+      "alt": "🍕Pizza Party de septembre !",
+      "role": "content",
+      "localPath": "images/_shared/5d479b9db68a-evenement_gnral__a_-1.jpg",
+      "shared": true,
+      "bytes": 128150
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/15fb3778-e644-4640-8c68-2c35c215d96b/evenement_gnral__a_-4/public",
+      "alt": "🖋️ Atelier d’écriture",
+      "role": "content",
+      "localPath": "images/_shared/d5053d58cb5a-evenement_gnral__a_-4.jpg",
+      "shared": true,
+      "bytes": 184155
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/bcd00262-b017-44c2-a2cd-d6e655a789f6/evenement_gnral__a_-2/public",
+      "alt": "🌻 Plantes Papier Pigments",
+      "role": "content",
+      "localPath": "images/_shared/c012588143c2-evenement_gnral__a_-2.jpg",
+      "shared": true,
+      "bytes": 151219
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/91f9e200-613a-4053-8fbf-50a94a651795/evenement_gnral__a_-1/public",
+      "alt": "🪓 Créer un objet en bois de palette",
+      "role": "content",
+      "localPath": "images/_shared/395a27efd845-evenement_gnral__a_-1.jpg",
+      "shared": true,
+      "bytes": 109703
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f12795e2-1e52-40a8-910b-47e74df840f3/evenement_gnral__a_-5/public",
+      "alt": "⚡ COMPLET ! Initiation à la soudure à l’arc",
+      "role": "content",
+      "localPath": "images/_shared/9537c7b8c89d-evenement_gnral__a_-5.jpg",
+      "shared": true,
+      "bytes": 114623
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/918df003-d65d-40c3-9e3c-231053821710/_Cover_pour_le_site_4S_(2)/public",
+      "alt": "🧀 Camembert Party de novembre",
+      "role": "content",
+      "localPath": "images/_shared/3a789b6d1ca5-_Cover_pour_le_site_4S_-2.png",
+      "shared": true,
+      "bytes": 351372
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public",
+      "alt": "⚡ Initiation à la soudure à l’arc",
+      "role": "content",
+      "localPath": "images/_shared/9c7a860cd83d-evenement_gnral__a_-1.jpg",
+      "shared": true,
+      "bytes": 188570
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/evenements/discgolf-septembre-2026",
+    "/evenements/initiation-soudure-a-l-arc-5-septembre-2026",
+    "/evenements/pizza-party-septembre-2026",
+    "/evenements/weekend-cratif",
+    "/evenements/weekend-cratif-1",
+    "/evenements/weekend-ressources",
+    "/evenements/pizza-party-octobre-2026",
+    "/evenements/initiation-soudure-a-l-arc-17-octobre-2026",
+    "/evenements/camembert-party-13-novembre-2026",
+    "/evenements/initiation-soudure-a-l-arc-21-novembre-2026",
+    "/evenements/initiation-soudure-a-l-arc-12-dcembre-2026"
+  ],
+  "externalLinks": [],
+  "collections": [
+    {
+      "id": "evenements",
+      "title": "Événements",
+      "source": {
+        "id": "evenements",
+        "uri": "/evenements",
+        "title": "Événements",
+        "inferred": true
+      },
+      "view": "Galerie",
+      "views": [
+        "Galerie",
+        "Calendrier",
+        "Tableau"
+      ],
+      "layout": "gallery",
+      "grouped": false,
+      "items": [
+        {
+          "title": "🤾🏻 Tournoi de disc-golf",
+          "href": "/evenements/discgolf-septembre-2026",
+          "icon": "🥏",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2a147bc3-0b26-46e1-9bfc-a4af89c7ad6a/evenement_gnral__a_-1/public",
+          "props": [
+            "September 6, 2026",
+            "Liens et convivialité, Sports"
+          ],
+          "properties": {
+            "Date": "2026-09-06",
+            "Thématique": "Liens et convivialité, Sports",
+            "super:slug": "discgolf-septembre-2026",
+            "super:description": "Disc Golf",
+            "Statut site web": "Publié",
+            "Date (fr)": "dimanche 6 septembre"
+          },
+          "coverLocalPath": "images/_shared/1bb4433d2d71-evenement_gnral__a_-1.jpg"
+        },
+        {
+          "title": "⚡ COMPLET ! Initiation à la soudure à l’arc",
+          "href": "/evenements/initiation-soudure-a-l-arc-5-septembre-2026",
+          "icon": "👷🏻‍♀️",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/032e026f-d1f6-4065-930e-b67c5e1d3d04/evenement_gnral__a/public",
+          "props": [
+            "September 12, 2026",
+            "Artisanat"
+          ],
+          "properties": {
+            "Date": "2026-09-12",
+            "Thématique": "Artisanat",
+            "super:slug": "initiation-soudure-a-l-arc-12-septembre-2026",
+            "Statut site web": "Publié",
+            "Date (fr)": "samedi 12 septembre"
+          },
+          "coverLocalPath": "images/_shared/9b3d051ecca1-evenement_gnral__a.jpg"
+        },
+        {
+          "title": "🍕Pizza Party de septembre !",
+          "href": "/evenements/pizza-party-septembre-2026",
+          "icon": "🍕",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6918ccae-8f12-41e6-b354-63b4f03a7b5f/evenement_gnral__a_-1/public",
+          "props": [
+            "September 18, 2026",
+            "Liens et convivialité"
+          ],
+          "properties": {
+            "Date": "2026-09-18",
+            "Thématique": "Liens et convivialité",
+            "super:slug": "pizza-party-septembre-2026",
+            "super:description": "Pizza Party du 18 septembre 2026 aux 4 Sources (Yvoir)",
+            "Statut site web": "Publié",
+            "Date (fr)": "vendredi 18 septembre"
+          },
+          "coverLocalPath": "images/_shared/5d479b9db68a-evenement_gnral__a_-1.jpg"
+        },
+        {
+          "title": "🖋️ Atelier d’écriture",
+          "href": "/evenements/weekend-cratif",
+          "icon": "🖊️",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/15fb3778-e644-4640-8c68-2c35c215d96b/evenement_gnral__a_-4/public",
+          "props": [
+            "October 3, 2026 → October 3, 2026",
+            "Ressourcement, Formation"
+          ],
+          "properties": {
+            "Date": "2026-10-03 → 2026-10-03",
+            "Thématique": "Ressourcement, Formation",
+            "super:slug": "atelier-ecriture",
+            "Statut site web": "Publié",
+            "Date (fr)": "samedi 3 octobre"
+          },
+          "coverLocalPath": "images/_shared/d5053d58cb5a-evenement_gnral__a_-4.jpg"
+        },
+        {
+          "title": "🌻 Plantes Papier Pigments",
+          "href": "/evenements/weekend-cratif-1",
+          "icon": "🌼",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/bcd00262-b017-44c2-a2cd-d6e655a789f6/evenement_gnral__a_-2/public",
+          "props": [
+            "October 3, 2026 → October 3, 2026",
+            "Ressourcement, Artisanat"
+          ],
+          "properties": {
+            "Date": "2026-10-03 → 2026-10-03",
+            "Thématique": "Ressourcement, Artisanat",
+            "super:slug": "weekend-creatif-teinture",
+            "Statut site web": "Publié",
+            "Date (fr)": "samedi 3 octobre"
+          },
+          "coverLocalPath": "images/_shared/c012588143c2-evenement_gnral__a_-2.jpg"
+        },
+        {
+          "title": "🪓 Créer un objet en bois de palette",
+          "href": "/evenements/weekend-ressources",
+          "icon": "🪵",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/91f9e200-613a-4053-8fbf-50a94a651795/evenement_gnral__a_-1/public",
+          "props": [
+            "October 3, 2026 → October 3, 2026",
+            "Ressourcement, Artisanat"
+          ],
+          "properties": {
+            "Date": "2026-10-03 → 2026-10-03",
+            "Thématique": "Ressourcement, Artisanat",
+            "super:slug": "journée-créative-objet-bois-palette",
+            "Statut site web": "Publié",
+            "Date (fr)": "samedi 3 octobre"
+          },
+          "coverLocalPath": "images/_shared/395a27efd845-evenement_gnral__a_-1.jpg"
+        },
+        {
+          "title": "Pizza Party d’octobre ! 🍕",
+          "href": "/evenements/pizza-party-octobre-2026",
+          "icon": "🍕",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6918ccae-8f12-41e6-b354-63b4f03a7b5f/evenement_gnral__a_-1/public",
+          "props": [
+            "October 9, 2026",
+            "Liens et convivialité"
+          ],
+          "properties": {
+            "Date": "2026-10-09",
+            "Thématique": "Liens et convivialité",
+            "super:slug": "pizza-party-octobre-2026",
+            "super:description": "Pizza Party du 9 octobre 2026 aux 4 Sources (Yvoir)",
+            "Statut site web": "Publié",
+            "Date (fr)": "vendredi 9 octobre"
+          },
+          "coverLocalPath": "images/_shared/5d479b9db68a-evenement_gnral__a_-1.jpg"
+        },
+        {
+          "title": "⚡ COMPLET ! Initiation à la soudure à l’arc",
+          "href": "/evenements/initiation-soudure-a-l-arc-17-octobre-2026",
+          "icon": "👷🏻",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f12795e2-1e52-40a8-910b-47e74df840f3/evenement_gnral__a_-5/public",
+          "props": [
+            "October 17, 2026",
+            "Artisanat"
+          ],
+          "properties": {
+            "Date": "2026-10-17",
+            "Thématique": "Artisanat",
+            "super:slug": "initiation-soudure-a-l-arc-17-octobre-2026",
+            "Statut site web": "Publié",
+            "Date (fr)": "samedi 17 octobre"
+          },
+          "coverLocalPath": "images/_shared/9537c7b8c89d-evenement_gnral__a_-5.jpg"
+        },
+        {
+          "title": "🧀 Camembert Party de novembre",
+          "href": "/evenements/camembert-party-13-novembre-2026",
+          "icon": "🧀",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/918df003-d65d-40c3-9e3c-231053821710/_Cover_pour_le_site_4S_(2)/public",
+          "props": [
+            "November 13, 2026",
+            "Liens et convivialité"
+          ],
+          "properties": {
+            "Date": "2026-11-13",
+            "Thématique": "Liens et convivialité",
+            "super:slug": "camembert-party-13-novembre-2026",
+            "Statut site web": "Publié",
+            "Date (fr)": "vendredi 13 novembre"
+          },
+          "coverLocalPath": "images/_shared/3a789b6d1ca5-_Cover_pour_le_site_4S_-2.png"
+        },
+        {
+          "title": "⚡ Initiation à la soudure à l’arc",
+          "href": "/evenements/initiation-soudure-a-l-arc-21-novembre-2026",
+          "icon": "👷🏻",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public",
+          "props": [
+            "November 21, 2026",
+            "Artisanat"
+          ],
+          "properties": {
+            "Date": "2026-11-21",
+            "Thématique": "Artisanat",
+            "super:slug": "initiation-soudure-a-l-arc-21-novembre-2026",
+            "Statut site web": "Publié",
+            "Date (fr)": "samedi 21 novembre"
+          },
+          "coverLocalPath": "images/_shared/9c7a860cd83d-evenement_gnral__a_-1.jpg"
+        },
+        {
+          "title": "Initiation à la soudure à l’arc ⚡",
+          "href": "/evenements/initiation-soudure-a-l-arc-12-dcembre-2026",
+          "icon": "👷🏻‍♀️",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public",
+          "props": [
+            "December 12, 2026",
+            "Artisanat"
+          ],
+          "properties": {
+            "Date": "2026-12-12",
+            "Thématique": "Artisanat",
+            "super:slug": "initiation-soudure-a-l-arc-12-décembre-2026",
+            "Statut site web": "Publié",
+            "Date (fr)": "samedi 12 décembre"
+          },
+          "coverLocalPath": "images/_shared/9c7a860cd83d-evenement_gnral__a_-1.jpg"
+        }
+      ]
+    }
+  ],
+  "wordCount": 167,
+  "fetchedAt": "2026-09-07T21:17:29.146Z",
+  "markdown": "<!-- collection \"Événements\" view=\"Galerie\" layout=\"gallery\" -->\n- [🥏 🤾🏻 Tournoi de disc-golf](/evenements/discgolf-septembre-2026) — September 6, 2026 · Liens et convivialité, Sports\n- [👷🏻‍♀️ ⚡ COMPLET ! Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-5-septembre-2026) — September 12, 2026 · Artisanat\n- [🍕Pizza Party de septembre !](/evenements/pizza-party-septembre-2026) — September 18, 2026 · Liens et convivialité\n- [🖊️ 🖋️ Atelier d’écriture](/evenements/weekend-cratif) — October 3, 2026 → October 3, 2026 · Ressourcement, Formation\n- [🌼 🌻 Plantes Papier Pigments](/evenements/weekend-cratif-1) — October 3, 2026 → October 3, 2026 · Ressourcement, Artisanat\n- [🪵 🪓 Créer un objet en bois de palette](/evenements/weekend-ressources) — October 3, 2026 → October 3, 2026 · Ressourcement, Artisanat\n- [🍕 Pizza Party d’octobre ! 🍕](/evenements/pizza-party-octobre-2026) — October 9, 2026 · Liens et convivialité\n- [👷🏻 ⚡ COMPLET ! Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-17-octobre-2026) — October 17, 2026 · Artisanat\n- [🧀 Camembert Party de novembre](/evenements/camembert-party-13-novembre-2026) — November 13, 2026 · Liens et convivialité\n- [👷🏻 ⚡ Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-21-novembre-2026) — November 21, 2026 · Artisanat\n- [👷🏻‍♀️ Initiation à la soudure à l’arc ⚡](/evenements/initiation-soudure-a-l-arc-12-dcembre-2026) — December 12, 2026 · Artisanat\n<!-- /collection -->\n",
+  "extractedAt": "2026-09-07T21:41:44.365Z"
+}

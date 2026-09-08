@@ -1,0 +1,66 @@
+{
+  "path": "/newsletter",
+  "slug": "newsletter",
+  "rootIsCollection": false,
+  "title": "La newsletter des 4 Sources",
+  "metaDescription": "Nous envoyons un e-mail chaque début de mois, dans lequel tu trouveras des informations concernant la vie sur le lieu et les prochains événements que nous organisons.",
+  "ogImage": "https://images.unsplash.com/photo-1478940020726-e9e191651f1a?ixlib=rb-4.0.3&cs=srgb",
+  "ogTitle": "La newsletter des 4 Sources",
+  "ogUrl": "https://www.les4sources.be/newsletter",
+  "canonical": null,
+  "h1": "La newsletter des 4 Sources",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.unsplash.com/photo-1478940020726-e9e191651f1a?ixlib=rb-4.0.3&cs=srgb",
+    "localPath": "images/newsletter/01-photo-1478940020726-e9e191651f1a.jpg"
+  },
+  "pageIcon": "📬",
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "newsletter",
+    "blockId": "4817234c-faeb-424b-8d99-abace358dbdd",
+    "parentId": "aaee8e6cac31408cad25d5a62f3e5a32",
+    "type": "page",
+    "uri": "/newsletter",
+    "createdTime": "2024-04-03T13:11:35.386Z",
+    "lastEditedTime": "2026-08-07T12:35:13.745Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "La newsletter des 4 Sources",
+      "href": "/newsletter",
+      "icon": "📬"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-35e6211fafa443f085a3238b31f5d958\" class=\"notion-heading notion-semantic-string\">Nous envoyons un e-mail chaque début de mois, dans lequel tu trouveras des informations concernant la vie sur le lieu et les prochains événements que nous organisons.</h3><span id=\"block-dbbcfdd7fadc47cfa639e649f30651cf\" class=\"notion-embed\"><span class=\"notion-embed__content\"><span class=\"notion-embed__container__wrapper\"><span class=\"notion-embed__container\"><iframe src=\"https://tally.so/embed/mK6Nx7?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1\" title=\"tally.so\" sandbox=\"allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-top-navigation\"></iframe></span></span></span></span>",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1478940020726-e9e191651f1a?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "La newsletter des 4 Sources",
+      "role": "cover",
+      "localPath": "images/newsletter/01-photo-1478940020726-e9e191651f1a.jpg",
+      "shared": false,
+      "bytes": 4636317
+    }
+  ],
+  "embeds": [
+    {
+      "kind": "tally",
+      "src": "https://tally.so/embed/mK6Nx7?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1",
+      "title": "tally.so"
+    }
+  ],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 27,
+  "fetchedAt": "2026-09-07T21:17:44.166Z",
+  "markdown": "#### Nous envoyons un e-mail chaque début de mois, dans lequel tu trouveras des informations concernant la vie sur le lieu et les prochains événements que nous organisons.\n\n<!-- embed:tally src=\"https://tally.so/embed/mK6Nx7?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1\" -->\n[tally.so](https://tally.so/embed/mK6Nx7?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1)\n",
+  "extractedAt": "2026-09-07T21:41:44.490Z"
+}

@@ -1,0 +1,33 @@
+---
+/**
+ * Grappe de liens de fin de page — la liste de liens que l'ancien site posait
+ * au pied de ses pages, rendue en pilules Be Vietnam Pro. Les libellés sont
+ * ceux du contenu migré, emoji compris (ce sont des liens, pas des boutons).
+ */
+export interface ClusterLink {
+  label: string;
+  href: string;
+}
+
+interface Props {
+  links: ClusterLink[];
+  class?: string;
+}
+
+const { links, class: className } = Astro.props;
+---
+
+<ul class:list={["m-0 flex list-none flex-wrap gap-2.5 p-0", className]}>
+  {
+    links.map((l) => (
+      <li>
+        <a
+          href={l.href}
+          class="inline-flex h-9 items-center rounded-pill border-[1.5px] border-line bg-white px-3.5 font-ui text-ui text-ink no-underline transition-colors duration-[120ms] hover:border-teal hover:bg-surface hover:text-teal"
+        >
+          {l.label}
+        </a>
+      </li>
+    ))
+  }
+</ul>

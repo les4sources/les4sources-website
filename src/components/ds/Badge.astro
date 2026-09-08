@@ -1,0 +1,35 @@
+---
+/**
+ * Badge — pilule d'étiquette en capitales (portage de `Badge` dans Display.jsx).
+ * Toujours du Be Vietnam Pro : c'est du texte fonctionnel court.
+ */
+type Tone = "neutral" | "teal" | "success" | "warning" | "danger" | "highlight";
+
+interface Props {
+  tone?: Tone;
+  size?: "sm" | "md";
+  class?: string;
+}
+
+const TONES: Record<Tone, string> = {
+  neutral: "bg-surface text-ink",
+  teal: "bg-teal text-white",
+  success: "bg-status-success-bg text-status-success",
+  warning: "bg-status-warning-bg text-status-warning",
+  danger: "bg-status-danger-bg text-status-danger",
+  highlight: "bg-highlight text-teal",
+};
+
+const { tone = "neutral", size = "md", class: className } = Astro.props;
+---
+
+<span
+  class:list={[
+    "inline-flex items-center gap-1.5 rounded-pill font-ui font-bold uppercase tracking-[0.06em] whitespace-nowrap",
+    size === "sm" ? "px-2 py-[2px] text-[11px]" : "px-2.5 py-1 text-[12px]",
+    TONES[tone],
+    className,
+  ]}
+>
+  <slot />
+</span>

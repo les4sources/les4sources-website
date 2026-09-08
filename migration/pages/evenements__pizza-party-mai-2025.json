@@ -1,0 +1,155 @@
+{
+  "path": "/evenements/pizza-party-mai-2025",
+  "slug": "evenements__pizza-party-mai-2025",
+  "rootIsCollection": false,
+  "title": "Pizza Party du mois de mai !",
+  "metaDescription": "Pizza Party du 9 mai 2025 aux 4 Sources (Yvoir)",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4839f1f9-5129-48db-bb7b-ea65313423d6/pizza-party-nl/public",
+  "ogTitle": "Pizza Party du mois de mai !",
+  "ogUrl": "https://www.les4sources.be/evenements/pizza-party-mai-2025",
+  "canonical": null,
+  "h1": "Pizza Party du mois de mai !",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4839f1f9-5129-48db-bb7b-ea65313423d6/pizza-party-nl/public",
+    "localPath": "images/evenements__pizza-party-mai-2025/01-pizza-party-nl.jpg"
+  },
+  "pageIcon": "🍕",
+  "properties": {
+    "Date": "2025-05-09",
+    "Horaires": "à partir de 18h30",
+    "Type d'événement": "Pizza Party",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "9 mai 2025",
+    "Tarif": "€7.00",
+    "Date de création": "Mar 16, 2025 4:12 PM",
+    "Statut site web": "Publié",
+    "super:description": "Pizza Party du 9 mai 2025 aux 4 Sources (Yvoir)",
+    "super:slug": "pizza-party-mai-2025"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-pizza-party-mai-2025",
+    "blockId": "1b80d149-3317-8022-8a9f-ec4d9ee56e86",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/pizza-party-mai-2025",
+    "createdTime": "2025-03-16T16:12:37.878Z",
+    "lastEditedTime": "2026-01-29T11:15:06.752Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Pizza Party du mois de mai !",
+      "href": "/evenements/pizza-party-mai-2025",
+      "icon": "🍕"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-1b80d149331780e1b408d19baf8f93cd\" class=\"notion-heading notion-semantic-string\">Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !</h3><p id=\"block-1b80d149331780928290ebd222a2a639\" class=\"notion-text notion-text__content notion-semantic-string\">Bienvenue <strong>dès 18h30</strong> :</p><ul class=\"notion-bulleted-list\"><li id=\"block-1b80d14933178016a37ce2dc99d6e256\" class=\"notion-list-item notion-semantic-string\">nos boulangères préparent de délicieux pâtons au levain le jour-même</li><li id=\"block-1b80d149331780e8ac32ed27348e4b89\" class=\"notion-list-item notion-semantic-string\">tu amènes ta garniture en fonction de tes envies</li><li id=\"block-1b80d1493317806ea965d4438cfb6a23\" class=\"notion-list-item notion-semantic-string\">nous cuisons les pizzas au feu de bois entre 19h et 20h</li><li id=\"block-1b80d149331780559236dc5f392b6b53\" class=\"notion-list-item notion-semantic-string\">et vous les dégustez en terrasse plein sud, 360°C nature !</li><li id=\"block-1b80d149331780dd9746da9bef69ddd8\" class=\"notion-list-item notion-semantic-string\">en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂</li></ul><p id=\"block-1b80d1493317808b809bd452620b2055\" class=\"notion-text notion-text__content notion-semantic-string\">👍 Le four de boulangerie est chauffé au bois\n👍 Les pâtons sont bio et au levain\n👍 Et les gens sont super cools !</p><h1 id=\"block-1b80d149331780489f2dc39a64b51387\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-1e60d149331780e6bf11e54bf3b2320a\" class=\"notion-list-item notion-semantic-string\"><strong><a href=\"https://www.billetweb.fr/pizza-party-de-mai-2025\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">Inscription indispensable</a></strong> jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons</li><li id=\"block-1e60d1493317807f8393fe3e1af0b589\" class=\"notion-list-item notion-semantic-string\">Participation : 7 € par personne</li><li id=\"block-1e60d14933178007ba72ffc6f0a1efbf\" class=\"notion-list-item notion-semantic-string\">Bar avec boissons bios/locales/de saison sur place 🍹</li><li id=\"block-1e60d149331780e2a069c475821caca0\" class=\"notion-list-item notion-semantic-string\">Paiement des consommations en cash ou par virement sur place</li></ul><p id=\"block-1b80d149331780ed85b2c61e91dcb353\" class=\"notion-text notion-text__content notion-semantic-string\">Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h, lorsque le four est encore chaud de la journée.</p><div id=\"block-1e60d1493317802c98c7c5c1492cebd8\" class=\"notion-callout bg-yellow-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🆕</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"></span><p id=\"block-1e60d14933178041b805f9276035d240\" class=\"notion-text notion-text__content notion-semantic-string\">L’inscription se passe désormais <a href=\"https://www.billetweb.fr/pizza-party-de-mai-2025\" class=\"notion-link link\" data-link-uri=\"https://www.billetweb.fr/pizza-party-de-mai-2025\">via BilletWeb</a>, ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque.</p></div></div><div id=\"block-1b80d14933178041bde6e35bc77b3a72\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/pizza-party-de-mai-2025\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><img src=\"https://app.notion.com/icons/ticket_green.svg\" alt=\"icon\" class=\"notion-icon\" data-full-size=\"https://app.notion.com/icons/ticket_green.svg\" data-lightbox-src=\"https://app.notion.com/icons/ticket_green.svg\"></div><span class=\"notion-semantic-string\">Inscription à la Pizza Party</span></a></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4839f1f9-5129-48db-bb7b-ea65313423d6/pizza-party-nl/public",
+      "alt": "Pizza Party du mois de mai !",
+      "role": "cover",
+      "localPath": "images/evenements__pizza-party-mai-2025/01-pizza-party-nl.jpg",
+      "shared": false,
+      "bytes": 166718
+    },
+    {
+      "src": "https://app.notion.com/icons/ticket_green.svg",
+      "alt": "icon",
+      "role": "content",
+      "localPath": "images/_shared/53cd55516271-ticket_green.svg",
+      "shared": true,
+      "bytes": 314
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.billetweb.fr/pizza-party-de-mai-2025"
+  ],
+  "collections": [],
+  "wordCount": 207,
+  "fetchedAt": "2026-09-07T21:17:41.021Z",
+  "markdown": "#### Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !\n\nBienvenue **dès 18h30** :\n\n- nos boulangères préparent de délicieux pâtons au levain le jour-même\n- tu amènes ta garniture en fonction de tes envies\n- nous cuisons les pizzas au feu de bois entre 19h et 20h\n- et vous les dégustez en terrasse plein sud, 360°C nature !\n- en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂\n\n👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !\n\n## **Infos pratiques**\n\n- **[Inscription indispensable](https://www.billetweb.fr/pizza-party-de-mai-2025)** jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons\n- Participation : 7 € par personne\n- Bar avec boissons bios/locales/de saison sur place 🍹\n- Paiement des consommations en cash ou par virement sur place\n\nLes enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h, lorsque le four est encore chaud de la journée.\n\n> 🆕 L’inscription se passe désormais [via BilletWeb](https://www.billetweb.fr/pizza-party-de-mai-2025), ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque.\n\n[Inscription à la Pizza Party](https://www.billetweb.fr/pizza-party-de-mai-2025){.button}\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.450Z"
+}

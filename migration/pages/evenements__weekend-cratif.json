@@ -1,0 +1,180 @@
+{
+  "path": "/evenements/weekend-cratif",
+  "slug": "evenements__weekend-cratif",
+  "rootIsCollection": false,
+  "title": "🖋️ Atelier d’écriture",
+  "metaDescription": "…un atelier d’écriture sur la thématique : l’eau, les arbres et moi. Guidé·es par des consignes ludiques, sans stress orthographique ni prétention littéraire.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/15fb3778-e644-4640-8c68-2c35c215d96b/evenement_gnral__a_-4/public",
+  "ogTitle": "🖋️ Atelier d’écriture",
+  "ogUrl": "https://www.les4sources.be/evenements/weekend-cratif",
+  "canonical": null,
+  "h1": "🖋️ Atelier d’écriture",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/15fb3778-e644-4640-8c68-2c35c215d96b/evenement_gnral__a_-4/public",
+    "localPath": "images/_shared/d5053d58cb5a-evenement_gnral__a_-4.jpg"
+  },
+  "pageIcon": "🖊️",
+  "properties": {
+    "Date": "2026-10-03 → 2026-10-03",
+    "Horaires": "9h30 à 21h",
+    "Type d'événement": "Nature",
+    "Thématique": "Ressourcement, Formation",
+    "Date (fr)": "samedi 3 octobre",
+    "Places disponibles": "8",
+    "Date de création": "Mar 26, 2026 11:59 AM",
+    "Statut site web": "Publié",
+    "super:slug": "atelier-ecriture"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-weekend-cratif",
+    "blockId": "32f0d149-3317-805e-a1f0-c09290cc1881",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/weekend-cratif",
+    "createdTime": "2026-03-26T11:59:34.714Z",
+    "lastEditedTime": "2026-09-07T08:38:30.776Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<h1 id=\"block-32f0d149331780d29cd1edce4003b244\" class=\"notion-heading notion-semantic-string\"><strong>Une belle journée - le samedi 3 octobre - pour… </strong></h1><p id=\"block-6d5d7735a4564028ac200f3f0ab923dc\" class=\"notion-text notion-text__content notion-semantic-string\">…un atelier d’écriture sur la thématique <strong>: l’eau, les arbres et moi. </strong>Guidé<span class=\"highlighted-color color-default\"><strong>·</strong></span>es par des consignes ludiques, sans stress orthographique ni prétention littéraire. </p><p id=\"block-cc0a2e1a120f4986bb50b2f8c32f7564\" class=\"notion-text notion-text__content notion-semantic-string\">Apprendre de nouvelles choses sur l'eau, les arbres et leur lien intime et fascinant, grâce à des lectures courtes de textes variés; vous laisser touché.es par vos observations; être stimulé.es par des consignes d'écriture simples qui vont déclencher votre créativité, ouvrir votre sensibilité et générer une réalisation personnelle qui n'attend que ce moment pour éclore...</p><p id=\"block-b94d65df876c4848995a128a3f483ac5\" class=\"notion-text notion-text__content notion-semantic-string\">Voilà quelques-uns des ingrédients de la journée d'exploration que je vous propose autour de l'eau et des arbres. L'atelier est inspiré entre autres par les écrits de Baptiste Morizot et les nouvelles découvertes concernant l'eau douce, bleue et … verte.</p><p id=\"block-659f6660eadf4ad181177dfe898ba75d\" class=\"notion-text notion-text__content notion-semantic-string\">Aucun enjeu littéraire, pas de résultat attendu, zéro stress orthographique. Qui sait !? Peut-être un moment de réconciliation avec l'écrit… ou la joie de partager des découvertes et des émotions en sécurité dans un petit groupe.</p><p id=\"block-851c450f3c35427294dc79545fcb41b6\" class=\"notion-text notion-text__content notion-semantic-string\">Allez, plongez ! Offrez-vous ce temps souple et liquide…</p><p id=\"block-205d843b330447c98ddac45a8a56d517\" class=\"notion-text notion-text__content notion-semantic-string\"><a href=\"https://www.savoirs-racines.org/leau-les-arbres-et-moi/\" class=\"notion-link link\" data-link-uri=\"https://www.savoirs-racines.org/leau-les-arbres-et-moi/\">https://www.savoirs-racines.org/leau-les-arbres-et-moi/</a></p><div id=\"block-3c40d149331780898d33ec456ed9fe2d\" class=\"notion-column-list\"><div id=\"block-3c40d149331780eea0e7e0d4ffccce1d\" class=\"notion-column\" data-width=\"33.3%\"><div id=\"block-34c0d149331780cab08ae2589a89901f\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ac2e85d1-dcb5-4dff-b974-f8753813b046/e7705af2-e8e5-4dc6-a98a-cfd7bdb4e273/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ac2e85d1-dcb5-4dff-b974-f8753813b046/e7705af2-e8e5-4dc6-a98a-cfd7bdb4e273/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ac2e85d1-dcb5-4dff-b974-f8753813b046/e7705af2-e8e5-4dc6-a98a-cfd7bdb4e273/public\"></span></div></div><div id=\"block-3c40d149331780928e10f679f7f36614\" class=\"notion-column\" data-width=\"33.3%\"><div id=\"block-3c40d149331780218f93e96cc3a06d74\" class=\"notion-image align-end normal\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fabc11c4-3853-4fd5-bc23-64891c9059ef/006246eb-1c6b-4b37-9a5d-4c05eac5518f/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fabc11c4-3853-4fd5-bc23-64891c9059ef/006246eb-1c6b-4b37-9a5d-4c05eac5518f/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fabc11c4-3853-4fd5-bc23-64891c9059ef/006246eb-1c6b-4b37-9a5d-4c05eac5518f/public\"></span></div></div><div id=\"block-3c90d149331780d2831dc591a0d48a8c\" class=\"notion-column\" data-width=\"33.3%\"><div id=\"block-3c90d14933178042bbbdf6b554b7d7d4\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4d5d819a-3209-4f02-a948-c366f4bfdae9/bd8e6fc2-2402-4c31-b008-12d51c41bd22/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4d5d819a-3209-4f02-a948-c366f4bfdae9/bd8e6fc2-2402-4c31-b008-12d51c41bd22/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4d5d819a-3209-4f02-a948-c366f4bfdae9/bd8e6fc2-2402-4c31-b008-12d51c41bd22/public\"></span></div></div></div><h1 id=\"block-34c0d14933178021aa93f5edbdca3fce\" class=\"notion-heading notion-semantic-string\">Avec Marianne, des ateliers de l’Eau Vive 💧</h1><blockquote id=\"block-34c0d149331780069a7ce972cdc726ab\" class=\"notion-quote\"><span class=\"notion-semantic-string\"><em>Active successivement dans l’édition, la communication et ensuite, l’enseignement et la didactique du français en haute école. Co-fondatrice d’une dynamique de Transition, très engagée dans une épicerie collaborative et coopérative, animatrice d’ateliers d’écriture en lien avec le vivant au sein de Savoirs Racines asbl… </em></span></blockquote><blockquote id=\"block-34c0d1493317801b9710f0dec9e1ab89\" class=\"notion-quote\"><span class=\"notion-semantic-string\"><em>Apprentissages, écologie, permaculture humaine, transition intérieure, féminisme, en fil de trame. Lecture, écriture, couture, un peu de dessin, méditation, ombre et lumière, forêt… en fil de chaine. Voilà les fils qui tissent quelques-uns des motifs de son parcours de vie.</em></span></blockquote><div id=\"block-34c0d14933178062bcadc177fa1ee16d\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7f01a3bd-20c6-41ff-b7ab-fcb9a0ebae54/newsletter_-4/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7f01a3bd-20c6-41ff-b7ab-fcb9a0ebae54/newsletter_-4/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7f01a3bd-20c6-41ff-b7ab-fcb9a0ebae54/newsletter_-4/public\"></span></div><h1 id=\"block-34c0d149331780078a22f1347c5d7b53\" class=\"notion-heading notion-semantic-string\"><strong>En pratique</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-34c0d14933178019baa3e3c554874b45\" class=\"notion-list-item notion-semantic-string\">Au coeur de la clairière des 4 Sources: 📍 Fonds d’Ahinvaux, 1 à Yvoir, entre Namur et Dinant</li><li id=\"block-3d00d1493317807e91dff05c81dd8025\" class=\"notion-list-item notion-semantic-string\">Le samedi 3 octobre de 9h30 à 21h</li><li id=\"block-3d00d149331780de9b30d680da23aa59\" class=\"notion-list-item notion-semantic-string\">Maximum 8 participant-es par atelier : 75€ la place</li><li id=\"block-3d00d14933178008b853e617ba17a927\" class=\"notion-list-item notion-semantic-string\">Clôture le samedi soir avec une Pizza Party (cuisson au feu de bois)</li><li id=\"block-3d00d149331780bdbd60d02f3ce1395f\" class=\"notion-list-item notion-semantic-string\">Apporter son pic-nic et les garnitures pour la pizza 🍕</li></ul><div id=\"block-3d00d149331780cbafd4c2d951f3637a\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/journee-creative-atelier-decriture\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"notion-semantic-string\">Je prends ma place ! </span></a></div><div id=\"block-3c60d149331780da88c3d14e2bdad8f8\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a50b75cc-2caf-4929-98a7-346f77aa56d2/_mg_0384/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a50b75cc-2caf-4929-98a7-346f77aa56d2/_mg_0384/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a50b75cc-2caf-4929-98a7-346f77aa56d2/_mg_0384/public\"></span></div><h2 id=\"block-34c0d1493317809d813bcdce333e8cb0\" class=\"notion-heading notion-semantic-string\">Ce weekend créatif est entièrement organisé par nos trois intervenant-es, Bénédicte, Olivier et Marianne</h2><div id=\"block-34c0d14933178027846de6962a457b01\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ccf5e370-ea18-4365-a456-56a69264c8cf/pxl_20260211_115416194/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ccf5e370-ea18-4365-a456-56a69264c8cf/pxl_20260211_115416194/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ccf5e370-ea18-4365-a456-56a69264c8cf/pxl_20260211_115416194/public\"></span></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/15fb3778-e644-4640-8c68-2c35c215d96b/evenement_gnral__a_-4/public",
+      "alt": "🖋️ Atelier d’écriture",
+      "role": "cover",
+      "localPath": "images/_shared/d5053d58cb5a-evenement_gnral__a_-4.jpg",
+      "shared": true,
+      "bytes": 184155
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ac2e85d1-dcb5-4dff-b974-f8753813b046/e7705af2-e8e5-4dc6-a98a-cfd7bdb4e273/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-cratif/02-e7705af2-e8e5-4dc6-a98a-cfd7bdb4e273.png",
+      "shared": false,
+      "bytes": 484552
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/fabc11c4-3853-4fd5-bc23-64891c9059ef/006246eb-1c6b-4b37-9a5d-4c05eac5518f/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-cratif/03-006246eb-1c6b-4b37-9a5d-4c05eac5518f.png",
+      "shared": false,
+      "bytes": 438743
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4d5d819a-3209-4f02-a948-c366f4bfdae9/bd8e6fc2-2402-4c31-b008-12d51c41bd22/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-cratif/04-bd8e6fc2-2402-4c31-b008-12d51c41bd22.png",
+      "shared": false,
+      "bytes": 440715
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7f01a3bd-20c6-41ff-b7ab-fcb9a0ebae54/newsletter_-4/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-cratif/05-newsletter_-4.jpg",
+      "shared": false,
+      "bytes": 167087
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a50b75cc-2caf-4929-98a7-346f77aa56d2/_mg_0384/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-cratif/06-_mg_0384.jpg",
+      "shared": false,
+      "bytes": 109312
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ccf5e370-ea18-4365-a456-56a69264c8cf/pxl_20260211_115416194/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__weekend-cratif/07-pxl_20260211_115416194.jpg",
+      "shared": false,
+      "bytes": 140344
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.savoirs-racines.org/leau-les-arbres-et-moi/",
+    "https://www.billetweb.fr/journee-creative-atelier-decriture"
+  ],
+  "collections": [],
+  "wordCount": 345,
+  "fetchedAt": "2026-09-07T21:17:43.201Z",
+  "markdown": "## **Une belle journée - le samedi 3 octobre - pour…**\n\n…un atelier d’écriture sur la thématique **: l’eau, les arbres et moi.** Guidé**·**es par des consignes ludiques, sans stress orthographique ni prétention littéraire.\n\nApprendre de nouvelles choses sur l'eau, les arbres et leur lien intime et fascinant, grâce à des lectures courtes de textes variés; vous laisser touché.es par vos observations; être stimulé.es par des consignes d'écriture simples qui vont déclencher votre créativité, ouvrir votre sensibilité et générer une réalisation personnelle qui n'attend que ce moment pour éclore...\n\nVoilà quelques-uns des ingrédients de la journée d'exploration que je vous propose autour de l'eau et des arbres. L'atelier est inspiré entre autres par les écrits de Baptiste Morizot et les nouvelles découvertes concernant l'eau douce, bleue et … verte.\n\nAucun enjeu littéraire, pas de résultat attendu, zéro stress orthographique. Qui sait !? Peut-être un moment de réconciliation avec l'écrit… ou la joie de partager des découvertes et des émotions en sécurité dans un petit groupe.\n\nAllez, plongez ! Offrez-vous ce temps souple et liquide…\n\n[https://www.savoirs-racines.org/leau-les-arbres-et-moi/](https://www.savoirs-racines.org/leau-les-arbres-et-moi/)\n\n<!-- columns -->\n<!-- column width=\"33.3%\" -->\n\n![image](images/evenements__weekend-cratif/02-e7705af2-e8e5-4dc6-a98a-cfd7bdb4e273.png)\n\n<!-- column width=\"33.3%\" -->\n\n![image](images/evenements__weekend-cratif/03-006246eb-1c6b-4b37-9a5d-4c05eac5518f.png)\n\n<!-- column width=\"33.3%\" -->\n\n![image](images/evenements__weekend-cratif/04-bd8e6fc2-2402-4c31-b008-12d51c41bd22.png)\n<!-- /columns -->\n\n## Avec Marianne, des ateliers de l’Eau Vive 💧\n\n> *Active successivement dans l’édition, la communication et ensuite, l’enseignement et la didactique du français en haute école. Co-fondatrice d’une dynamique de Transition, très engagée dans une épicerie collaborative et coopérative, animatrice d’ateliers d’écriture en lien avec le vivant au sein de Savoirs Racines asbl…*\n\n> *Apprentissages, écologie, permaculture humaine, transition intérieure, féminisme, en fil de trame. Lecture, écriture, couture, un peu de dessin, méditation, ombre et lumière, forêt… en fil de chaine. Voilà les fils qui tissent quelques-uns des motifs de son parcours de vie.*\n\n![image](images/evenements__weekend-cratif/05-newsletter_-4.jpg)\n\n## **En pratique**\n\n- Au coeur de la clairière des 4 Sources: 📍 Fonds d’Ahinvaux, 1 à Yvoir, entre Namur et Dinant\n- Le samedi 3 octobre de 9h30 à 21h\n- Maximum 8 participant-es par atelier : 75€ la place\n- Clôture le samedi soir avec une Pizza Party (cuisson au feu de bois)\n- Apporter son pic-nic et les garnitures pour la pizza 🍕\n\n[Je prends ma place !](https://www.billetweb.fr/journee-creative-atelier-decriture){.button}\n\n![image](images/evenements__weekend-cratif/06-_mg_0384.jpg)\n\n### Ce weekend créatif est entièrement organisé par nos trois intervenant-es, Bénédicte, Olivier et Marianne\n\n![image](images/evenements__weekend-cratif/07-pxl_20260211_115416194.jpg)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.483Z"
+}

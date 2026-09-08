@@ -1,0 +1,146 @@
+{
+  "path": "/evenements/pizza-party-anniversaire-concert-surprise",
+  "slug": "evenements__pizza-party-anniversaire-concert-surprise",
+  "rootIsCollection": false,
+  "title": "Pizza Party anniversaire + concert surprise",
+  "metaDescription": "Venez célébrer les 3 ans des 4 Sources lors d'une Pizza Party anniversaire suivie d'un concert surprise ! Réservez votre place dès maintenant et profitez d'une soirée conviviale. Inscription obligatoire. Tarif : 7€.",
+  "ogImage": "https://images.unsplash.com/photo-1514845505178-849cebf1a91d?ixlib=rb-4.0.3&cs=srgb",
+  "ogTitle": "Pizza Party anniversaire + concert surprise",
+  "ogUrl": "https://www.les4sources.be/evenements/pizza-party-anniversaire-concert-surprise",
+  "canonical": null,
+  "h1": "Pizza Party anniversaire + concert surprise",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.unsplash.com/photo-1514845505178-849cebf1a91d?ixlib=rb-4.0.3&cs=srgb",
+    "localPath": "images/evenements__pizza-party-anniversaire-concert-surprise/01-photo-1514845505178-849cebf1a91d.jpg"
+  },
+  "pageIcon": "🎂",
+  "properties": {
+    "Date": "2024-06-14",
+    "Horaires": "18h30-…",
+    "Type d'événement": "Pizza Party",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "14 juin 2024",
+    "Tarif": "€7.00",
+    "Date de création": "May 28, 2024 9:59 AM",
+    "Statut site web": "Publié",
+    "super:description": "Venez célébrer les 3 ans des 4 Sources lors d'une Pizza Party anniversaire suivie d'un concert surprise ! Réservez votre place dès maintenant et profitez d'une soirée conviviale. Inscription obligatoire. Tarif : 7€."
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-pizza-party-anniversaire-concert-surprise",
+    "blockId": "cd585efb-d663-4c2a-b08f-0823b2d7189e",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/pizza-party-anniversaire-concert-surprise",
+    "createdTime": "2024-05-28T09:59:37.448Z",
+    "lastEditedTime": "2026-01-29T11:14:38.030Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Pizza Party anniversaire + concert surprise",
+      "href": "/evenements/pizza-party-anniversaire-concert-surprise",
+      "icon": "🎂"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-c67698cdd4814e4ea78e958bc0308050\" class=\"notion-heading notion-semantic-string\"><strong>Wouah, les 4 Sources ont déjà 3 ans ! Viens fêter ça avec nous autour d'une soirée conviviale et festive ! Pour l'occasion, la Pizza Party sera suivie d'un concert !</strong></h3><p id=\"block-82226719f5fd4a5bb6864c9d61346d99\" class=\"notion-text notion-text__content notion-semantic-string\"><a href=\"https://les4sources.punchpass.com/classes/15231566\" class=\"notion-link link\" data-link-uri=\"https://les4sources.punchpass.com/classes/15231566\">Réserve ta place pour la Pizza Party</a> et prévois du cash pour le bar et le concert (rémunération au chapeau) si tu souhaites en profiter.</p><h1 id=\"block-15d12c855f45455db778c10574d08da3\" class=\"notion-heading notion-semantic-string\">Le concept de la Pizza Party ? </h1><p id=\"block-eca25f4e7c7c4773babe3b86a9d63bb2\" class=\"notion-text notion-text__content notion-semantic-string\">Bienvenue dès 18h30 :<!-- --></p><ul class=\"notion-bulleted-list\"><li id=\"block-d7b18af54f344281b395141a451b28bb\" class=\"notion-list-item notion-semantic-string\">tu amènes ta garniture ;</li><li id=\"block-499b4a789222442cb226b7cc54b913f2\" class=\"notion-list-item notion-semantic-string\">nous mettons à ta disposition : une pâte à pizza, un four à pizza chaud (four à bois), une platine à cuisson, des planches à découper, un rouleau à tarte et des assiettes ;</li><li id=\"block-4c19f838343b4f299aa5c9bb998ffd4c\" class=\"notion-list-item notion-semantic-string\">tu cuis ta pizza entre 19h et 20h30 et la déguste en terrasse plein sud, 360°C nature ! (salle de repli prévue en cas de pluie)</li></ul><h1 id=\"block-6d7e50919ac54fe6bd24d7bef01430b8\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-bd75f0e7fcce457383aa8b97ca324069\" class=\"notion-list-item notion-semantic-string\"><a href=\"https://les4sources.punchpass.com/classes/15231566\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">Inscription indispensable</a> jusqu’à 2 jours avant l'événement</li><li id=\"block-25899ea6f0b74fc98c9fe00d71318e54\" class=\"notion-list-item notion-semantic-string\">Tarif : 7€/pâte à pizza (avec tout le matériel et la place en terrasse/salle compris) + cash pour le bar et le concert (rémunération au chapeau)</li><li id=\"block-7b6b687957694298a3edbff6dd30fc93\" class=\"notion-list-item notion-semantic-string\">À emporter</li><ul class=\"notion-bulleted-list\"><li id=\"block-d160e460761b49c88dc60b2b9401e49d\" class=\"notion-list-item notion-semantic-string\">Tes garnitures préférées</li></ul><li id=\"block-f08331a74394431fb6538b0485ebbb8f\" class=\"notion-list-item notion-semantic-string\">Bar avec boissons bios/locales/de saison sur place</li></ul><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1514845505178-849cebf1a91d?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Pizza Party anniversaire + concert surprise",
+      "role": "cover",
+      "localPath": "images/evenements__pizza-party-anniversaire-concert-surprise/01-photo-1514845505178-849cebf1a91d.jpg",
+      "shared": false,
+      "bytes": 3171142
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://les4sources.punchpass.com/classes/15231566"
+  ],
+  "collections": [],
+  "wordCount": 181,
+  "fetchedAt": "2026-09-07T21:17:39.518Z",
+  "markdown": "#### **Wouah, les 4 Sources ont déjà 3 ans ! Viens fêter ça avec nous autour d'une soirée conviviale et festive ! Pour l'occasion, la Pizza Party sera suivie d'un concert !**\n\n[Réserve ta place pour la Pizza Party](https://les4sources.punchpass.com/classes/15231566) et prévois du cash pour le bar et le concert (rémunération au chapeau) si tu souhaites en profiter.\n\n## Le concept de la Pizza Party ?\n\nBienvenue dès 18h30 :\n\n- tu amènes ta garniture ;\n- nous mettons à ta disposition : une pâte à pizza, un four à pizza chaud (four à bois), une platine à cuisson, des planches à découper, un rouleau à tarte et des assiettes ;\n- tu cuis ta pizza entre 19h et 20h30 et la déguste en terrasse plein sud, 360°C nature ! (salle de repli prévue en cas de pluie)\n\n## **Infos pratiques**\n\n- [Inscription indispensable](https://les4sources.punchpass.com/classes/15231566) jusqu’à 2 jours avant l'événement\n- Tarif : 7€/pâte à pizza (avec tout le matériel et la place en terrasse/salle compris) + cash pour le bar et le concert (rémunération au chapeau)\n- À emporter\n\n- Tes garnitures préférées\n\n- Bar avec boissons bios/locales/de saison sur place\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.442Z"
+}

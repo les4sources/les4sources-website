@@ -1,0 +1,278 @@
+---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import Button from "@components/ds/Button.astro";
+import Card from "@components/ds/Card.astro";
+import Lead from "@components/ds/Lead.astro";
+import PoleTag from "@components/ds/PoleTag.astro";
+import Section from "@components/ds/Section.astro";
+import LinkCluster from "@components/home/LinkCluster.astro";
+import Toc from "@components/sejours/Toc.astro";
+import { byPath, visible } from "@lib/content";
+
+import cover from "@assets/migration/sejours/01-20240825_122817_01629579_-1.jpg";
+import hebergementsPhoto from "@assets/migration/sejours/02-5b02a02e-c20f-46c8-9763-bbe82859cff4.jpg";
+import sallesPhoto from "@assets/migration/sejours/03-DSC00960.jpg";
+import plan from "@assets/migration/sejours/04-51167fb3-8ae5-440a-bdef-030372dd22e7.png";
+import barPhoto from "@assets/migration/sejours/05-_G0A3514_-1.jpg";
+import boisPhoto from "@assets/migration/sejours/06-20250719_150904_3017005B_-1.jpg";
+import baladesPhoto from "@assets/migration/sejours/07-randonnees-yvoir.jpg";
+
+/**
+ * /sejours — le hub des séjours et locations, d'après `design/ui_kits/Sejours.jsx` :
+ * étiquette de pôle, titre, chapeau, sommaire collant à gauche et sections en
+ * cartes. Le texte est celui de la page migrée, au mot près.
+ */
+const pages = visible(await getCollection("pages"));
+const entry = byPath(pages, "/sejours");
+if (!entry) {
+  throw new Error(
+    'Aucune entrée `pages` avec legacyPath "/sejours" — vérifie src/content/pages/sejours.md.',
+  );
+}
+const d = entry.data;
+// Une description fabriquée pour le référencement n'est pas du texte de page.
+const generatedDescription =
+  (d as { generatedDescription?: boolean }).generatedDescription === true;
+
+const toc = [
+  { label: "Nos hébergements", href: "#hebergements" },
+  { label: "Nos salles et la cuisine", href: "#salles" },
+  { label: "Le Bar des 4 Sources", href: "#bar" },
+  { label: "Le bois des 4 Sources", href: "#bois" },
+  { label: "Les balades des 4 Sources", href: "#balades" },
+  { label: "Nos autres services", href: "#services" },
+  { label: "Alors, envie de venir aux 4 Sources ?", href: "#venir" },
+  { label: "Tarifs des hébergements et salles", href: "/sejours/tarifs" },
+  { label: "Disponibilités", href: "/sejours/disponibilites" },
+];
+
+const clusterLinks = [
+  { label: "Nos hébergements", href: "/sejours/hebergements-yvoir" },
+  { label: "Nos salles et la cuisine", href: "/sejours/salles" },
+  { label: "Notre espace pour camper", href: "/sejours/bivouac" },
+  { label: "Tarifs des hébergements et salles", href: "/sejours/tarifs" },
+  { label: "Disponibilités", href: "/sejours/disponibilites" },
+  { label: "Un séjour aux 4 Sources", href: "/sejours/sejours" },
+  { label: "Règles du lieu", href: "/sejours/regles-du-lieu" },
+  { label: "Conditions générales des séjours aux 4 Sources", href: "/sejours/conditions" },
+];
+---
+
+<BaseLayout
+  title={d.seoTitle ?? d.title}
+  description={d.description}
+  ogImage={d.cover ?? d.ogImage}
+  noindex={d.noindex}
+>
+  <Section narrow class="pb-6">
+    <PoleTag pole="hebergement" picto class="mb-4">Séjours et locations</PoleTag>
+    <h1 class="mb-3 font-display text-h1 font-bold">{d.title}</h1>
+    {!generatedDescription && <Lead>{d.description}</Lead>}
+  </Section>
+
+  <Section class="pt-0">
+    <Image
+      src={cover}
+      alt={d.coverAlt ?? ""}
+      widths={[640, 960, 1440]}
+      sizes="(min-width: 1180px) 1132px, 100vw"
+      class="mb-12 block aspect-[21/9] w-full rounded-photo object-cover"
+    />
+
+    <div class="grid grid-cols-1 items-start gap-12 lg:grid-cols-[220px_minmax(0,1fr)]">
+      <Toc items={toc} />
+
+      <div class="grid gap-16">
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+          <Card id="hebergements" surface="white" image={hebergementsPhoto} imageAlt="Nos hébergements" imageAspect="16/10">
+            <h2 class="mb-3 font-display text-h3 font-bold">
+              <a href="/sejours/hebergements-yvoir">Nos hébergements</a>
+            </h2>
+            <p class="font-body text-body">
+              <b>2 hébergements</b> pour venir en famille, entre collègues ou entre ami.es jusqu’à 25
+              personnes. En semaine, des <b>chambres et lits</b> accessibles dès 35€ par personne (et
+              même 15€ par enfant).
+            </p>
+            <p class="mt-2.5 font-body text-body">
+              🏕️ À la belle saison, un <b>espace pour camper</b> seul·e ou en groupe de 20 personnes et
+              des espaces pour poser un hamac.
+            </p>
+          </Card>
+
+          <Card id="salles" surface="white" image={sallesPhoto} imageAlt="Nos salles et la cuisine" imageAspect="16/10">
+            <h2 class="mb-3 font-display text-h3 font-bold">
+              <a href="/sejours/salles">Nos salles et la cuisine</a>
+            </h2>
+            <p class="font-body text-body">
+              <b>Des espaces polyvalents pour 10 à 100 personnes</b>, pour vos conférences, ateliers et
+              autres événements enrichissants.
+            </p>
+            <p class="mt-2.5 font-body text-body">
+              Notamment <b>notre petite salle</b>, idéale pour une journée de mise au vert, une formation,
+              une réunion, un conseil d’administration ou un atelier en cercle.
+            </p>
+          </Card>
+        </div>
+
+        <div class="flex flex-wrap gap-3">
+          <Button variant="primary" href="/sejours/tarifs">Tarifs des hébergements et salles</Button>
+          <Button variant="secondary" href="/sejours/disponibilites">Disponibilités</Button>
+          <Button variant="secondary" href="/sejours/sejours">Faire une demande de séjour</Button>
+        </div>
+
+        <Image
+          src={plan}
+          alt="Vue aérienne du site : hébergements, salles, terrasse partagée, bar des 4 Sources, sentier de randonnée, parking et jardin"
+          widths={[640, 960, 1440]}
+          sizes="(min-width: 1024px) 880px, 100vw"
+          class="block w-full rounded-photo"
+        />
+
+        <section id="bar">
+          <h2 class="mb-6 font-display text-h2 font-bold">Le Bar des 4 Sources</h2>
+          <div class="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
+            <Image
+              src={barPhoto}
+              alt="La terrasse du bar des 4 Sources"
+              widths={[480, 720, 960]}
+              sizes="(min-width: 768px) 430px, 100vw"
+              class="block aspect-[4/3] w-full rounded-photo object-cover"
+            />
+            <div>
+              <p class="font-body text-body">
+                Notre magnifique terrasse plein sud et son tilleul centenaire, entourée de 360° de
+                pleine nature, dispose d’un <a href="/le-bar-des-4-sources">bar champêtre</a> ouvert du
+                lever au coucher du soleil.
+              </p>
+              <p class="mt-2.5 font-body text-body">
+                La terrasse <b
+                  >est un espace partagé par toutes les personnes de passage sur le lieu</b
+                > (personnes hébergées, locataires de salles, participant.es à des activités, promeneur.euses).
+              </p>
+              <p class="mt-2.5 font-body text-body">Elle est accessible à pied, à cheval ou à vélo.</p>
+              <p class="mt-4 font-body text-body">
+                <b><a href="/le-bar-des-4-sources">Le bar des 4 Sources</a></b>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="bois">
+          <h2 class="mb-6 font-display text-h2 font-bold">Le bois des 4 Sources</h2>
+          <p class="max-w-[68ch] font-body text-body">
+            Avec ta location, tu peux demander l’accès à notre petit bois privé de 1,5 hectare.
+            Accessible par le sentier qui traverse nos prairies, il se trouve à 5 minutes à pied de
+            votre logement. De quoi faire un feu de camp, réaliser des cabanes avec vos enfants,
+            passer du temps en nature et vous ressourcer.
+          </p>
+          <p class="mt-2.5 max-w-[68ch] font-body text-body">
+            Envoie un e-mail à <a href="mailto:sejours@les4sources.be">sejours@les4sources.be</a> ou demande
+            le jour même à la personne qui vous accueille s’il est accessible ou s’il y a déjà une activité
+            qui s’y passe durant ton séjour.
+          </p>
+          <Image
+            src={boisPhoto}
+            alt="Le bois des 4 Sources"
+            widths={[640, 960, 1440]}
+            sizes="(min-width: 1024px) 880px, 100vw"
+            class="mt-6 block aspect-[16/9] w-full rounded-photo object-cover"
+          />
+        </section>
+
+        <section id="balades">
+          <h2 class="mb-6 font-display text-h2 font-bold">Les balades des 4 Sources</h2>
+          <div class="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
+            <Image
+              src={baladesPhoto}
+              alt="Les balades au départ des 4 Sources"
+              widths={[480, 720, 960]}
+              sizes="(min-width: 768px) 430px, 100vw"
+              class="block aspect-[4/3] w-full rounded-photo object-cover"
+            />
+            <div>
+              <p class="font-body text-body">
+                Tu trouveras dans chaque gite <b>un carnet de randonnées</b> pour explorer la région,
+                que tu sois plus <i>« petite balade digestive »</i> entre deux activités ou <i
+                  >« challenge grande rando »</i
+                >.
+              </p>
+              <p class="mt-2.5 font-body text-body">
+                Adeptes de la marche, il est aussi possible de <a href="/a-propos/acces-ahinvaux"
+                  >rejoindre Les 4 sources à pied</a
+                > depuis la gare d’Yvoir ou de Godinne.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="services">
+          <h2 class="mb-6 font-display text-h2 font-bold">Nos autres services</h2>
+          <ul class="m-0 grid max-w-[68ch] list-disc gap-3 pl-6 font-body text-body">
+            <li>
+              <b>Besoin de délicieux repas ?</b> Demande-nous notre listing de traiteurs partageant la
+              philosophie des 4 Sources.
+            </li>
+            <li>
+              <b>Envie d’un petit déjeuner ?</b> Nous serons ravis de vous proposer de bons produits bio
+              ou locaux.
+            </li>
+            <li>
+              Sur demande, profite du four au feu de bois le vendredi soir, après la cuisson des
+              pains, et <b><a href="/catalogue/pizza-ou-camembert-party">organise ta Pizza/Camembert Party</a></b>
+              <b>🍕</b>
+            </li>
+            <li>
+              Un grand <b>barbecue</b> est à la disposition des locataires des espaces (hébergements et
+              salles) sur la terrasse. Le matériel est disponible, mais il faut prévoir du charbon.
+            </li>
+          </ul>
+
+          <Card surface="paper" class="mt-6 max-w-[68ch]" padding="18px 22px">
+            <p class="font-body text-body">
+              💡 Pour en savoir plus, pour poser une question au sujet de nos activités, pour demander
+              le tarif pour ton groupe, une seule destination : <b
+                ><a href="mailto:sejours@les4sources.be">sejours@les4sources.be</a></b
+              > <b>📬</b>
+            </p>
+          </Card>
+        </section>
+
+        <section id="venir">
+          <h2 class="mb-6 font-display text-h2 font-bold">Alors, envie de venir aux 4 Sources ?</h2>
+          <p class="max-w-[68ch] font-body text-body">
+            <b>👉</b> <a href="https://formulaires.les4sources.be/sejour">Complète notre formulaire</a
+            > pour nous envoyer une demande de réservation.
+          </p>
+          <p class="mt-2.5 max-w-[68ch] font-body text-body">
+            Le formulaire, très complet, te permet de préciser tes besoins :
+          </p>
+          <p class="mt-3 flex max-w-[68ch] flex-wrap gap-x-4 gap-y-2 font-body text-body">
+            <span>✔️ Hébergements</span>
+            <span>✔️ Salles et/ou cuisine professionnelle</span>
+            <span>✔️ Espace bivouac et/ou van aménagé</span>
+            <span>✔️ Activités</span>
+            <span>✔️ Repas préparés, boulangerie et pizza/camembert parties</span>
+          </p>
+
+          <Card surface="paper" class="mt-6 max-w-[68ch]" padding="18px 22px">
+            <p class="font-body text-body">
+              💁 <b>Une question au sujet des séjours ?</b> Contacte Malau à <a
+                href="mailto:sejours@les4sources.be">sejours@les4sources.be</a
+              > ou au +32 (0)490 46 77 10.
+            </p>
+          </Card>
+
+          <p class="mt-6 max-w-[68ch] font-body text-body">
+            👉 <a href="/sejours/conditions#block-1420d149331780c1a5abc508422bf971"
+              >Conditions générales des séjours aux 4 Sources</a
+            >
+          </p>
+        </section>
+
+        <LinkCluster links={clusterLinks} />
+      </div>
+    </div>
+  </Section>
+</BaseLayout>

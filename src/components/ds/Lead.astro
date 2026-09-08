@@ -1,0 +1,15 @@
+---
+/**
+ * Lead — chapeau de section : 20 px, encre secondaire, ligne courte
+ * (portage de `Lead` dans shared.jsx). Averia, comme tout le texte courant.
+ */
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+---
+
+<p class:list={["max-w-[640px] font-body text-lead text-ink-2", className]}>
+  <slot />
+</p>

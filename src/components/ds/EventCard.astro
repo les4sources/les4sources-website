@@ -1,0 +1,57 @@
+---
+/**
+ * EventCard — Card + PoleTag + badge « Complet ! » + titre h4 + date
+ * (portage d'`EventCard` dans Surfaces.jsx).
+ *
+ * L'image de la carte est la photo de couverture NUE (4/3, coins de photo en
+ * tête, `object-cover`) — jamais l'aplat organique du pôle avec le titre dedans.
+ * Ce motif appartient au héros de la fiche événement, où le titre a la place de
+ * respirer ; dans une carte il le tronque (« za Party ! »). Sans photo, la carte
+ * porte un bandeau court teinté à la couleur du pôle avec son pictogramme,
+ * jamais un cadre blanc vide.
+ *
+ * La carte n'est pas elle-même un lien : c'est le titre qui l'est, étiré sur
+ * toute la carte par `l4s-stretch-link`. Un seul élément interactif, une seule
+ * cible de tabulation, et la zone cliquable reste celle de la carte entière.
+ */
+import type { ImageMetadata } from "astro";
+import Badge from "./Badge.astro";
+import Card from "./Card.astro";
+import PoleTag from "./PoleTag.astro";
+import type { PoleSlug } from "@lib/poles";
+
+interface Props {
+  title: string;
+  /** Date déjà formatée en français ("samedi 12 septembre"). */
+  date: string;
+  pole?: PoleSlug;
+  image?: ImageMetadata | string;
+  soldOut?: boolean;
+  href?: string;
+  class?: string;
+}
+
+const { title, date, pole = "convivialite", image, soldOut = false, href, class: className } =
+  Astro.props;
+---
+
+<Card image={image} imageAlt={title} imageAspect="16/10" pole={pole} hoverable class={["[&_img]:object-left", className].filter(Boolean).join(" ")}>
+  <div class="mb-2.5 flex flex-wrap items-center gap-2">
+    <PoleTag pole={pole} />
+    {soldOut && <Badge tone="danger">Complet !</Badge>}
+  </div>
+
+  <h3 class="mb-1.5 font-display text-h4 font-bold">
+    {
+      href ? (
+        <a href={href} class="l4s-stretch-link text-inherit no-underline hover:text-teal-soft">
+          {title}
+        </a>
+      ) : (
+        title
+      )
+    }
+  </h3>
+
+  <p class="font-ui text-ui text-ink-2">{date}</p>
+</Card>

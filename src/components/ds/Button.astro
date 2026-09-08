@@ -1,0 +1,94 @@
+---
+/**
+ * Bouton — portage de `design/components/Button.jsx`.
+ *
+ * Pilule, typographie Be Vietnam Pro Bold, hauteurs 36 / 44 / 52.
+ * `href` produit un `<a>`, sinon un `<button type>`.
+ * Mouvement discret : seule la couleur bouge (120 ms), jamais l'échelle.
+ */
+import { pole as resolvePole, type PoleSlug } from "@lib/poles";
+
+type Variant = "primary" | "secondary" | "ghost" | "highlight" | "pole";
+type Size = "sm" | "md" | "lg";
+
+interface Props {
+  variant?: Variant;
+  size?: Size;
+  /** Rend un `<a>` au lieu d'un `<button>`. */
+  href?: string;
+  type?: "button" | "submit" | "reset";
+  disabled?: boolean;
+  /** Obligatoire pour `variant="pole"`. */
+  pole?: PoleSlug;
+  fullWidth?: boolean;
+  class?: string;
+  [key: string]: unknown;
+}
+
+const {
+  variant = "primary",
+  size = "md",
+  href,
+  type = "button",
+  disabled = false,
+  pole,
+  fullWidth = false,
+  class: className,
+  ...rest
+} = Astro.props;
+
+const BASE =
+  "inline-flex items-center justify-center gap-2 rounded-pill border-[1.5px] font-ui font-bold tracking-[0.01em] whitespace-nowrap no-underline transition-colors duration-[120ms] ease-[cubic-bezier(0.2,0.7,0.2,1)]";
+
+const SIZES: Record<Size, string> = {
+  sm: "h-[var(--control-h-sm)] px-[14px] text-[13px]",
+  md: "h-[var(--control-h-md)] px-[20px] text-[15px]",
+  lg: "h-[var(--control-h-lg)] px-[26px] text-[16px]",
+};
+
+// --accent-hover = teal-soft, --accent-active = teal-deep (cf. tokens.css).
+const VARIANTS: Record<Exclude<Variant, "pole">, string> = {
+  primary:
+    "bg-teal border-teal text-white hover:bg-teal-soft hover:border-teal-soft active:bg-teal-deep active:border-teal-deep",
+  secondary:
+    "bg-transparent border-teal text-teal hover:bg-surface active:bg-line-soft",
+  ghost:
+    "bg-transparent border-transparent text-teal hover:bg-surface active:bg-line-soft",
+  highlight:
+    "bg-highlight border-highlight text-teal hover:bg-[#f2cc2a] hover:border-[#f2cc2a] active:bg-[#d9b40a] active:border-[#d9b40a]",
+};
+
+// Le jaune et le beige ne supportent pas le texte blanc : sur un aplat de pôle
+// clair le texte passe en teal (règle LIGHT de Display.jsx, absente du
+// Button.jsx de référence qui force `#fff`).
+const p = resolvePole(pole);
+const variantClass =
+  variant === "pole"
+    ? `${p.classes.bg} ${p.classes.border} ${p.classes.onBg} hover:brightness-[.94] active:brightness-[.88]`
+    : VARIANTS[variant];
+
+const classes = [
+  BASE,
+  SIZES[size],
+  variantClass,
+  fullWidth ? "w-full" : "",
+  disabled ? "pointer-events-none cursor-not-allowed opacity-45" : "cursor-pointer",
+  className,
+];
+---
+
+{
+  href && !disabled ? (
+    <a href={href} class:list={classes} {...rest}>
+      <slot />
+    </a>
+  ) : href ? (
+    <a role="link" aria-disabled="true" class:list={classes} {...rest}>
+      <slot />
+    </a>
+  ) : (
+    <button type={type} disabled={disabled} class:list={classes} {...rest}>
+      <slot />
+    </button>
+  )
+}

@@ -1,0 +1,114 @@
+{
+  "path": "/projets/la-ferronnerie",
+  "slug": "projets__la-ferronnerie",
+  "rootIsCollection": false,
+  "title": "Le Fer en mains",
+  "metaDescription": "Passionné par le métal, Seb met son savoir-faire au service de vos projets. Que vous souhaitiez une création sur-mesure ou la restauration d'une pièce existante, il saura répondre à vos attentes avec précision et créativité. Découvrez ci-dessous quelques-unes de ses réalisations.",
+  "ogImage": "https://images.unsplash.com/photo-1585366958730-159aa4001b3c?ixlib=rb-4.0.3&cs=srgb",
+  "ogTitle": "Le Fer en mains",
+  "ogUrl": "https://www.les4sources.be/projets/la-ferronnerie",
+  "canonical": null,
+  "h1": "Le Fer en mains",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.unsplash.com/photo-1585366958730-159aa4001b3c?ixlib=rb-4.0.3&cs=srgb",
+    "localPath": "images/projets__la-ferronnerie/01-photo-1585366958730-159aa4001b3c.jpg"
+  },
+  "pageIcon": null,
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "projets-la-ferronnerie",
+    "blockId": "701a3727-7522-4042-86ad-ae99fe8afb32",
+    "parentId": "projets",
+    "type": "page",
+    "uri": "/projets/la-ferronnerie",
+    "createdTime": "2024-05-28T09:39:03.143Z",
+    "lastEditedTime": "2026-03-12T11:06:37.320Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Nos projets",
+      "href": "/projets",
+      "icon": "⚙️"
+    },
+    {
+      "label": "Le Fer en mains",
+      "href": "/projets/la-ferronnerie"
+    }
+  ],
+  "contentHtml": "<p id=\"block-5cecc4d50950413a9765359d939be287\" class=\"notion-text notion-text__content notion-semantic-string\">Passionné par le métal, <a href=\"/collectif/sbastien-frennet\" class=\"notion-link link\" data-link-uri=\"/collectif/sbastien-frennet\">Seb</a> met son savoir-faire au service de vos projets. Que vous souhaitiez une création sur-mesure ou la restauration d'une pièce existante, il saura répondre à vos attentes avec précision et créativité. Découvrez ci-dessous quelques-unes de ses réalisations.</p><div id=\"block-0e2aa73d4d7641269a63f0360ca4d955\" class=\"notion-column-list\"><div id=\"block-7fa1649751d44fb1b0e3901865fa0e45\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-3814d8ca7a94461ab8cf9ee365f1c64f\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/195fa2ed-cd26-447a-87aa-f82e56326cd0/IMG_2605/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/195fa2ed-cd26-447a-87aa-f82e56326cd0/IMG_2605/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/195fa2ed-cd26-447a-87aa-f82e56326cd0/IMG_2605/public\"></span></div></div><div id=\"block-ca13790588604f86ac0dffd51a6fa427\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2c7dfdbae9804e8f95bec39e5b0f339f\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c14ae273-22f1-4320-9ab7-fd1fbef903ea/IMG_2606/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c14ae273-22f1-4320-9ab7-fd1fbef903ea/IMG_2606/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c14ae273-22f1-4320-9ab7-fd1fbef903ea/IMG_2606/public\"></span></div></div></div><div id=\"block-23a0d14933178020b720c3796ea884e5\" class=\"notion-column-list\"><div id=\"block-23a0d1493317800ead2ec909c7247c82\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-23a0d14933178039a113e94317343688\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/27a450c8-d6eb-4d87-80d7-361f7a27d472/PHOTO-2025-06-10-18-55-21/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/27a450c8-d6eb-4d87-80d7-361f7a27d472/PHOTO-2025-06-10-18-55-21/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/27a450c8-d6eb-4d87-80d7-361f7a27d472/PHOTO-2025-06-10-18-55-21/public\"></span></div><div id=\"block-3050d14933178013bed2ea12cc03553f\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/61a13537-aa53-4543-bea5-c27486ffe5af/img-20250316-wa0006/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/61a13537-aa53-4543-bea5-c27486ffe5af/img-20250316-wa0006/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/61a13537-aa53-4543-bea5-c27486ffe5af/img-20250316-wa0006/public\"></span></div></div><div id=\"block-23a0d149331780b88e48e7a71ce4e5c7\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-23a0d1493317808cb2f0eaeb7d7ee8c6\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/235ae96c-0ddb-4420-823c-6f10f1dc9dba/PHOTO-2025-04-10-20-07-42/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/235ae96c-0ddb-4420-823c-6f10f1dc9dba/PHOTO-2025-04-10-20-07-42/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/235ae96c-0ddb-4420-823c-6f10f1dc9dba/PHOTO-2025-04-10-20-07-42/public\"></span></div><div id=\"block-3050d149331780a5b86dc1a43a09ab9d\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/82a2642e-e6c5-4b9c-96ea-adad799da365/_g0a6757_-1/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/82a2642e-e6c5-4b9c-96ea-adad799da365/_g0a6757_-1/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/82a2642e-e6c5-4b9c-96ea-adad799da365/_g0a6757_-1/public\"></span></div></div></div>",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1585366958730-159aa4001b3c?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Le Fer en mains",
+      "role": "cover",
+      "localPath": "images/projets__la-ferronnerie/01-photo-1585366958730-159aa4001b3c.jpg",
+      "shared": false,
+      "bytes": 4917013
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/195fa2ed-cd26-447a-87aa-f82e56326cd0/IMG_2605/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__la-ferronnerie/02-IMG_2605.jpg",
+      "shared": false,
+      "bytes": 156286
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c14ae273-22f1-4320-9ab7-fd1fbef903ea/IMG_2606/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__la-ferronnerie/03-IMG_2606.jpg",
+      "shared": false,
+      "bytes": 94126
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/27a450c8-d6eb-4d87-80d7-361f7a27d472/PHOTO-2025-06-10-18-55-21/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__la-ferronnerie/04-PHOTO-2025-06-10-18-55-21.jpg",
+      "shared": false,
+      "bytes": 109298
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/61a13537-aa53-4543-bea5-c27486ffe5af/img-20250316-wa0006/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__la-ferronnerie/05-img-20250316-wa0006.jpg",
+      "shared": false,
+      "bytes": 87489
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/235ae96c-0ddb-4420-823c-6f10f1dc9dba/PHOTO-2025-04-10-20-07-42/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__la-ferronnerie/06-PHOTO-2025-04-10-20-07-42.jpg",
+      "shared": false,
+      "bytes": 159383
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/82a2642e-e6c5-4b9c-96ea-adad799da365/_g0a6757_-1/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/projets__la-ferronnerie/07-_g0a6757_-1.jpg",
+      "shared": false,
+      "bytes": 57013
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/collectif/sbastien-frennet"
+  ],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 41,
+  "fetchedAt": "2026-09-07T21:17:44.490Z",
+  "markdown": "Passionné par le métal, [Seb](/collectif/sbastien-frennet) met son savoir-faire au service de vos projets. Que vous souhaitiez une création sur-mesure ou la restauration d'une pièce existante, il saura répondre à vos attentes avec précision et créativité. Découvrez ci-dessous quelques-unes de ses réalisations.\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/projets__la-ferronnerie/02-IMG_2605.jpg)\n\n<!-- column width=\"50%\" -->\n\n![image](images/projets__la-ferronnerie/03-IMG_2606.jpg)\n<!-- /columns -->\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/projets__la-ferronnerie/04-PHOTO-2025-06-10-18-55-21.jpg)\n\n![image](images/projets__la-ferronnerie/05-img-20250316-wa0006.jpg)\n\n<!-- column width=\"50%\" -->\n\n![image](images/projets__la-ferronnerie/06-PHOTO-2025-04-10-20-07-42.jpg)\n\n![image](images/projets__la-ferronnerie/07-_g0a6757_-1.jpg)\n<!-- /columns -->\n",
+  "extractedAt": "2026-09-07T21:41:44.525Z"
+}

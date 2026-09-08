@@ -1,0 +1,62 @@
+{
+  "path": "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos/chambre-mlisse",
+  "slug": "sejours__hebergements-yvoir__la-hulotte-gite-16-personnes__la-hulotte-photos__chambre-mlisse",
+  "rootIsCollection": false,
+  "title": "Chambre ‘Mélisse’",
+  "metaDescription": null,
+  "ogImage": null,
+  "ogTitle": "Chambre ‘Mélisse’",
+  "ogUrl": "https://www.les4sources.be/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos/chambre-mlisse",
+  "canonical": null,
+  "h1": "Chambre ‘Mélisse’",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Date de création": "Oct 12, 2025 9:08 PM"
+  },
+  "propertySchema": [
+    {
+      "id": "y|zT",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "_\\TN",
+      "name": "Étiquettes",
+      "type": "multi_select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "sejours-hebergements-yvoir-la-hulotte-gite-16-personnes-la-hulotte-photos-chambre-mlisse",
+    "blockId": "28a0d149-3317-80ef-91b2-c8a34eb37c94",
+    "parentId": "28a0d14933178039a560000b354c9277",
+    "type": "page",
+    "uri": "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos/chambre-mlisse",
+    "createdTime": "2025-10-12T21:08:10.801Z",
+    "lastEditedTime": "2025-10-12T21:11:30.360Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<div id=\"block-2870d1493317802aaca9f1d66a98a87c\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/54ef55c7-9ee9-44af-a843-bc271f71dec7/_G0A2754/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/54ef55c7-9ee9-44af-a843-bc271f71dec7/_G0A2754/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/54ef55c7-9ee9-44af-a843-bc271f71dec7/_G0A2754/public\"></span></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/54ef55c7-9ee9-44af-a843-bc271f71dec7/_G0A2754/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/096816461c46-_G0A2754.jpg",
+      "shared": true,
+      "bytes": 96130
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 0,
+  "fetchedAt": "2026-09-07T21:17:48.440Z",
+  "markdown": "![image](images/_shared/096816461c46-_G0A2754.jpg)\n",
+  "extractedAt": "2026-09-07T21:41:44.549Z"
+}

@@ -1,0 +1,61 @@
+---
+import "@styles/global.css";
+import type { ImageMetadata } from "astro";
+import SEO from "@components/seo/SEO.astro";
+import Header from "@components/layout/Header.astro";
+import Footer from "@components/layout/Footer.astro";
+import NewsletterBand from "@components/ds/NewsletterBand.astro";
+import { organization } from "@lib/seo";
+import { site } from "@lib/site";
+
+interface Props {
+  title: string;
+  description: string;
+  ogImage?: string | ImageMetadata;
+  type?: "website" | "article";
+  noindex?: boolean;
+  /** Schémas JSON-LD propres à la page (Event, BreadcrumbList, FAQPage…). */
+  jsonld?: object[];
+}
+
+const { title, description, ogImage, type = "website", noindex = false, jsonld = [] } = Astro.props;
+
+const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
+// Organization + LodgingBusiness : émis sur toutes les pages (NAP cohérent, GEO).
+const allJsonld = [organization({ siteUrl }), ...jsonld];
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#0B3D3A" />
+    <SEO
+      title={title}
+      description={description}
+      ogImage={ogImage}
+      type={type}
+      noindex={noindex}
+      jsonld={allJsonld}
+    />
+  </head>
+  <body class="bg-white font-body text-ink">
+    {/* z-[60] : l'en-tête collant est en z-50, le lien d'évitement doit passer devant. */}
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:rounded-md focus:bg-teal focus:px-4 focus:py-2 focus:text-cream"
+      >Aller au contenu</a
+    >
+    <Header />
+    <main id="main">
+      <slot />
+    </main>
+    <NewsletterBand />
+    <Footer />
+  </body>
+</html>

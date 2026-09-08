@@ -1,0 +1,63 @@
+{
+  "path": "/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-romarin",
+  "slug": "sejours__hebergements-yvoir__la-cheveche-gite-8-personnes__chambre-romarin",
+  "rootIsCollection": false,
+  "title": "Escargot de Bourgogne (juillet)",
+  "metaDescription": null,
+  "ogImage": null,
+  "ogTitle": "Escargot de Bourgogne (juillet)",
+  "ogUrl": "https://www.les4sources.be/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-romarin",
+  "canonical": null,
+  "h1": "Escargot de Bourgogne (juillet)",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Date de création": "Oct 12, 2025 9:29 PM",
+    "Page": "Biodiversité"
+  },
+  "propertySchema": [
+    {
+      "id": "y|zT",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "JUEM",
+      "name": "Page",
+      "type": "multi_select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "sejours-hebergements-yvoir-la-cheveche-gite-8-personnes-chambre-romarin",
+    "blockId": "28a0d149-3317-80b1-9586-f99892a83bee",
+    "parentId": "28a0d149331781b09d9c000b678af892",
+    "type": "page",
+    "uri": "/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-romarin",
+    "createdTime": "2025-10-12T21:29:38.112Z",
+    "lastEditedTime": "2025-10-23T14:34:22.357Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<div id=\"block-26c9da10932945d8a0af4c5b158582a5\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/241c365b-0bb3-4771-8dfb-dea10366e45f/escargot_de_bourgogne/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/241c365b-0bb3-4771-8dfb-dea10366e45f/escargot_de_bourgogne/public\"><img alt=\"Escargot de Bourgogne\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/241c365b-0bb3-4771-8dfb-dea10366e45f/escargot_de_bourgogne/public\"></span><figcaption class=\"notion-caption notion-semantic-string\">Escargot de Bourgogne</figcaption></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/241c365b-0bb3-4771-8dfb-dea10366e45f/escargot_de_bourgogne/public",
+      "alt": "Escargot de Bourgogne",
+      "role": "content",
+      "localPath": "images/_shared/4ce542448649-escargot_de_bourgogne.jpg",
+      "shared": true,
+      "bytes": 196334
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 3,
+  "fetchedAt": "2026-09-07T21:17:47.777Z",
+  "markdown": "![Escargot de Bourgogne](images/_shared/4ce542448649-escargot_de_bourgogne.jpg)\n*Escargot de Bourgogne*\n",
+  "extractedAt": "2026-09-07T21:41:44.544Z"
+}

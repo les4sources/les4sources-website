@@ -1,0 +1,40 @@
+{
+  "name": "les4sources-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "seo:check": "bun run scripts/seo-check.ts",
+    "claudy:check": "bun run scripts/claudy-check.ts",
+    "caddy:generate": "bun run scripts/redirects-to-caddy.ts",
+    "caddy:check": "bun run scripts/redirects-to-caddy.ts --check",
+    "verify": "astro check && astro build && bun run seo:check && bun run claudy:check && bun run caddy:check",
+    "migrate:crawl": "bun scripts/migrate/crawl.ts",
+    "migrate:extract": "bun scripts/migrate/extract.ts",
+    "migrate:content": "bun scripts/migrate/to-content.ts"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^6",
+    "@astrojs/sitemap": "^3",
+    "@fontsource/averia-serif-libre": "^5.3.0",
+    "@fontsource/be-vietnam-pro": "^5.3.0",
+    "astro": "^6",
+    "cheerio": "^1.2.0",
+    "sharp": "^0.34",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2",
+    "yaml": "^2.9.0",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9",
+    "@tailwindcss/vite": "^4",
+    "@types/bun": "^1.4.1",
+    "@types/turndown": "^5.0.6",
+    "tailwindcss": "^4",
+    "typescript": "^5.9"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "path": "/evenements/lunes-en-tambours-6-juin-2024",
+  "slug": "evenements__lunes-en-tambours-6-juin-2024",
+  "rootIsCollection": false,
+  "title": "Lunes en tambours",
+  "metaDescription": "Célèbre la nouvelle lune en tambours et connecte-toi à toi-même, aux autres et au Vivant. Inscris-toi pour cet événement de ressourcement. Prix indicatif de 15€. Apporte ton tambour et d'autres instruments de percussion. Tenue confortable et chaussures adaptées recommandées. Inscris-toi dès maintenant !",
+  "ogImage": "https://images.unsplash.com/photo-1650189445867-5b9c64c08531?ixlib=rb-4.0.3&cs=srgb",
+  "ogTitle": "Lunes en tambours",
+  "ogUrl": "https://www.les4sources.be/evenements/lunes-en-tambours-6-juin-2024",
+  "canonical": null,
+  "h1": "Lunes en tambours",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.unsplash.com/photo-1650189445867-5b9c64c08531?ixlib=rb-4.0.3&cs=srgb",
+    "localPath": "images/evenements__lunes-en-tambours-6-juin-2024/01-photo-1650189445867-5b9c64c08531.jpg"
+  },
+  "pageIcon": "🌝",
+  "properties": {
+    "Date": "2024-06-06",
+    "Horaires": "20h-22h",
+    "Type d'événement": "Célébration",
+    "Thématique": "Ressourcement",
+    "Date (fr)": "6 juin 2024",
+    "Date de création": "Jun 5, 2024 7:53 PM",
+    "super:description": "Célèbre la nouvelle lune en tambours et connecte-toi à toi-même, aux autres et au Vivant. Inscris-toi pour cet événement de ressourcement. Prix indicatif de 15€. Apporte ton tambour et d'autres instruments de percussion. Tenue confortable et chaussures adaptées recommandées. Inscris-toi dès maintenant !",
+    "super:slug": "lunes-en-tambours-6-juin-2024"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-lunes-en-tambours-6-juin-2024",
+    "blockId": "32dc6f8a-c777-4f24-86c4-7f3206b87282",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/lunes-en-tambours-6-juin-2024",
+    "createdTime": "2024-06-05T19:53:43.231Z",
+    "lastEditedTime": "2024-06-05T20:14:02.052Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements"
+    },
+    {
+      "label": "Lunes en tambours",
+      "href": "/evenements/lunes-en-tambours-6-juin-2024",
+      "icon": "🌝"
+    }
+  ],
+  "contentHtml": "<p id=\"block-4bdd35713d784106bb4059d6daee659c\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Célèbre cette nouvelle lune, accompagné.e par les vibrations de tambours et profite d'un moment intense qui favorise la connexion à soi, aux autres et au Vivant.</strong></p><h1 id=\"block-14d8b651413d49f9b9058cde74cceeab\" class=\"notion-heading notion-semantic-string\">En pratique</h1><ul class=\"notion-bulleted-list\"><li id=\"block-54b08128c53e43ad96e18eff3a402571\" class=\"notion-list-item notion-semantic-string\"><strong>Inscription nécessaire</strong>&nbsp;via le formulaire accessible en bas de page</li><li id=\"block-384443426c0d45ed89a59cc479cd4c75\" class=\"notion-list-item notion-semantic-string\"><strong>Tarif en conscience&nbsp;</strong>: prix indicatif de 15€/personne à payer en liquide sur place</li><li id=\"block-fe78cae3f5c64c309e7d61c854d7dda3\" class=\"notion-list-item notion-semantic-string\"><strong>Prérequis&nbsp;</strong>: aucun<!-- --></li></ul><h3 id=\"block-62aba5ada0ba4746a68c280deec8170e\" class=\"notion-heading notion-semantic-string\"><strong>À emporter</strong></h3><ul class=\"notion-bulleted-list\"><li id=\"block-3ceface067d2424891983f594959e813\" class=\"notion-list-item notion-semantic-string\">tambour.s si vous en avez ;</li><li id=\"block-506361579e1a4293891af1a5514e3be0\" class=\"notion-list-item notion-semantic-string\">autre.s instrument.s de percussion</li><li id=\"block-dd0ed37cb214472ead41081ce84edfea\" class=\"notion-list-item notion-semantic-string\">boissons/encas</li><li id=\"block-cee7566738244a49b1b6fbf886309fd1\" class=\"notion-list-item notion-semantic-string\">vêtements confortables et chaussures tous-terrains adaptés au temps extérieur ou intérieur (choix du lieu en fonction de la météo et du nombre de personnes présentes)</li></ul><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div><div id=\"block-4a88006f0869405c9100573e40fc694a\" class=\"notion-column-list\"><div id=\"block-3b7a913ddead441da501597a71939c38\" class=\"notion-column\" data-width=\"50%\"><h1 id=\"block-1d523a176eac4df39a662da9738f579e\" class=\"notion-heading notion-semantic-string\">Facilitatrices</h1><p id=\"block-b97f7502b3d84b5789058e6e48e47f66\" class=\"notion-text notion-text__content notion-semantic-string\">Cet événement est facilité par Manon et Claire, membres des 4 Sources.</p></div><div id=\"block-08fe1ea4c2f84e30b77a9a00d4035f84\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-bb14d274229c49e9a8d4e13499766493\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7ac7be46-6090-412d-9516-17c997430dfb/Untitled/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7ac7be46-6090-412d-9516-17c997430dfb/Untitled/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7ac7be46-6090-412d-9516-17c997430dfb/Untitled/public\"></span></div></div></div><div id=\"block-5fbf13ec087d4fe98ae079f1b18d84d9\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💁</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"><strong>Envie de loger sur place avant ou après l’événement ?</strong> Fais-nous part de ta demande à <a href=\"mailto:contact@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">contact@les4sources.be</a>.</span></div></div><h1 id=\"block-32494a5134f849088e3ec70afd6ca5f2\" class=\"notion-heading notion-semantic-string\">Inscription</h1><p id=\"block-bc7ae6a204eb4505a22255de39e5ad63\" class=\"notion-text notion-text__content notion-semantic-string\">→ <a href=\"https://les4sources.punchpass.com/classes/15334517?embed=true\" class=\"notion-link link\" data-link-uri=\"https://les4sources.punchpass.com/classes/15334517?embed=true\">Inscris-toi en complétant le formulaire sur notre page Punchpass</a></p>",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1650189445867-5b9c64c08531?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Lunes en tambours",
+      "role": "cover",
+      "localPath": "images/evenements__lunes-en-tambours-6-juin-2024/01-photo-1650189445867-5b9c64c08531.jpg",
+      "shared": false,
+      "bytes": 4583517
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7ac7be46-6090-412d-9516-17c997430dfb/Untitled/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__lunes-en-tambours-6-juin-2024/02-Untitled.jpg",
+      "shared": false,
+      "bytes": 65217
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "mailto:contact@les4sources.be",
+    "https://les4sources.punchpass.com/classes/15334517?embed=true"
+  ],
+  "collections": [],
+  "wordCount": 133,
+  "fetchedAt": "2026-09-07T21:17:38.674Z",
+  "markdown": "**Célèbre cette nouvelle lune, accompagné.e par les vibrations de tambours et profite d'un moment intense qui favorise la connexion à soi, aux autres et au Vivant.**\n\n## En pratique\n\n- **Inscription nécessaire** via le formulaire accessible en bas de page\n- **Tarif en conscience** : prix indicatif de 15€/personne à payer en liquide sur place\n- **Prérequis** : aucun\n\n#### **À emporter**\n\n- tambour.s si vous en avez ;\n- autre.s instrument.s de percussion\n- boissons/encas\n- vêtements confortables et chaussures tous-terrains adaptés au temps extérieur ou intérieur (choix du lieu en fonction de la météo et du nombre de personnes présentes)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n## Facilitatrices\n\nCet événement est facilité par Manon et Claire, membres des 4 Sources.\n\n<!-- column width=\"50%\" -->\n\n![image](images/evenements__lunes-en-tambours-6-juin-2024/02-Untitled.jpg)\n<!-- /columns -->\n\n> 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [contact@les4sources.be](mailto:contact@les4sources.be).\n\n## Inscription\n\n→ [Inscris-toi en complétant le formulaire sur notre page Punchpass](https://les4sources.punchpass.com/classes/15334517?embed=true)\n",
+  "extractedAt": "2026-09-07T21:41:44.440Z"
+}

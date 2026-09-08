@@ -1,0 +1,219 @@
+{
+  "path": "/biodiversite",
+  "slug": "biodiversite",
+  "rootIsCollection": false,
+  "title": "La biodiversité aux 4 Sources",
+  "metaDescription": "Nos régions abritent une variété incroyable d'espèces végétales et animales essentielles à l'écosystème et contribuent à la beauté naturelle de la région. Il est crucial de protéger cette biodiversité pour les générations futures.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/644a82db-f751-4a8e-8a2a-fd479f5f13e3/les_4_sources_-_mai_2023/public",
+  "ogTitle": "La biodiversité aux 4 Sources",
+  "ogUrl": "https://www.les4sources.be/biodiversite",
+  "canonical": null,
+  "h1": "La biodiversité aux 4 Sources",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/644a82db-f751-4a8e-8a2a-fd479f5f13e3/les_4_sources_-_mai_2023/public",
+    "localPath": "images/biodiversite/01-les_4_sources_-_mai_2023.jpg"
+  },
+  "pageIcon": "🐸",
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "biodiversite",
+    "blockId": "da472b94-72e2-4f91-aa49-e369f4fe94d6",
+    "parentId": "aaee8e6cac31408cad25d5a62f3e5a32",
+    "type": "page",
+    "uri": "/biodiversite",
+    "createdTime": "2024-05-28T07:21:31.787Z",
+    "lastEditedTime": "2026-05-29T08:30:34.171Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "La biodiversité aux 4 Sources",
+      "href": "/biodiversite",
+      "icon": "🐸"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-ddfdd53ccbe94343bfa16f414970be22\" class=\"notion-heading notion-semantic-string\">Nos régions abritent une variété incroyable d'espèces végétales et animales essentielles à l'écosystème et contribuent à la beauté naturelle de la région. Il est crucial de protéger cette biodiversité pour les générations futures.</h3><h1 id=\"block-d5ff9a89b9b64e21b53b3b4b66bbc812\" class=\"notion-heading notion-semantic-string\">Au fil de l’année</h1><div id=\"block-2950d1493317806a9375de715a35da31\" class=\"notion-callout bg-brown-light border\"><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"></span><div id=\"block-2950d1493317801184a3d2ad5488ad0c\" class=\"notion-collection inline\"><div class=\"notion-collection-gallery no-border-top medium\"><div id=\"block-sejours-hebergements-yvoir-la-hulotte-gite-16-personnes-vue-depuis-la-terrasse\" class=\"notion-collection-card gallery\"><a id=\"block-sejours-hebergements-yvoir-la-hulotte-gite-16-personnes-vue-depuis-la-terrasse\" href=\"/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/vue-depuis-la-terrasse\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/vue-depuis-la-terrasse\">Les crapauds (mars)</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a1d48024-6b9a-4628-9ebd-b4e476db15c0/IMG_20230320_142947/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a1d48024-6b9a-4628-9ebd-b4e476db15c0/IMG_20230320_142947/public\"><img alt=\"Les crapauds (mars)\" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a1d48024-6b9a-4628-9ebd-b4e476db15c0/IMG_20230320_142947/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Les crapauds (mars)</div></div></div><div id=\"block-sejours-hebergements-yvoir-la-cheveche-gite-8-personnes-chambre-balsamine\" class=\"notion-collection-card gallery\"><a id=\"block-sejours-hebergements-yvoir-la-cheveche-gite-8-personnes-chambre-balsamine\" href=\"/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-balsamine\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-balsamine\">Cynoglosse d’Allemagne (juillet)</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/897a16e1-992b-4883-80c3-3c04715df585/p6090523_rec/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/897a16e1-992b-4883-80c3-3c04715df585/p6090523_rec/public\"><img alt=\"Cynoglosse d’Allemagne (juillet)\" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/897a16e1-992b-4883-80c3-3c04715df585/p6090523_rec/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Cynoglosse d’Allemagne (juillet)</div></div></div><div id=\"block-sejours-hebergements-yvoir-la-cheveche-gite-8-personnes-chambre-romarin\" class=\"notion-collection-card gallery\"><a id=\"block-sejours-hebergements-yvoir-la-cheveche-gite-8-personnes-chambre-romarin\" href=\"/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-romarin\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-romarin\">Escargot de Bourgogne (juillet)</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/241c365b-0bb3-4771-8dfb-dea10366e45f/escargot_de_bourgogne/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/241c365b-0bb3-4771-8dfb-dea10366e45f/escargot_de_bourgogne/public\"><img alt=\"Escargot de Bourgogne (juillet)\" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/241c365b-0bb3-4771-8dfb-dea10366e45f/escargot_de_bourgogne/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Escargot de Bourgogne (juillet)</div></div></div><div id=\"block-sejours-hebergements-yvoir-photos-des-hbergements-anax-empereur\" class=\"notion-collection-card gallery\"><a id=\"block-sejours-hebergements-yvoir-photos-des-hbergements-anax-empereur\" href=\"/sejours/hebergements-yvoir/photos-des-hbergements/anax-empereur\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/sejours/hebergements-yvoir/photos-des-hbergements/anax-empereur\">Anax empereur (août)</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/289eaf1c-d4b8-429a-ab91-fe4943d56f68/20210807_154050_CB1F3FF7/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/289eaf1c-d4b8-429a-ab91-fe4943d56f68/20210807_154050_CB1F3FF7/public\"><img alt=\"Anax empereur (août)\" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/289eaf1c-d4b8-429a-ab91-fe4943d56f68/20210807_154050_CB1F3FF7/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Anax empereur (août)</div></div></div><div id=\"block-sejours-hebergements-yvoir-photos-des-hbergements-alyte-accoucheur\" class=\"notion-collection-card gallery\"><a id=\"block-sejours-hebergements-yvoir-photos-des-hbergements-alyte-accoucheur\" href=\"/sejours/hebergements-yvoir/photos-des-hbergements/alyte-accoucheur\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/sejours/hebergements-yvoir/photos-des-hbergements/alyte-accoucheur\">Alyte accoucheur (août)</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/062df1f0-307d-4aae-b25c-8f3351400a17/alyte_accoucheur/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/062df1f0-307d-4aae-b25c-8f3351400a17/alyte_accoucheur/public\"><img alt=\"Alyte accoucheur (août)\" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/062df1f0-307d-4aae-b25c-8f3351400a17/alyte_accoucheur/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Alyte accoucheur (août)</div></div></div><div id=\"block-sejours-hebergements-yvoir-photos-des-hbergements-couleuvre-helvtique-aot\" class=\"notion-collection-card gallery\"><a id=\"block-sejours-hebergements-yvoir-photos-des-hbergements-couleuvre-helvtique-aot\" href=\"/sejours/hebergements-yvoir/photos-des-hbergements/couleuvre-helvtique-aot\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/sejours/hebergements-yvoir/photos-des-hbergements/couleuvre-helvtique-aot\">Couleuvre helvétique (août)</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f7b89eaf-6f62-4e8a-94bf-f3edbc6d95a1/couleuvre_helvetique/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f7b89eaf-6f62-4e8a-94bf-f3edbc6d95a1/couleuvre_helvetique/public\"><img alt=\"Couleuvre helvétique (août)\" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f7b89eaf-6f62-4e8a-94bf-f3edbc6d95a1/couleuvre_helvetique/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Couleuvre helvétique (août)</div></div></div><div id=\"block-sejours-hebergements-yvoir-photos-des-hbergements-salamandre-tachete-novembre\" class=\"notion-collection-card gallery\"><a id=\"block-sejours-hebergements-yvoir-photos-des-hbergements-salamandre-tachete-novembre\" href=\"/sejours/hebergements-yvoir/photos-des-hbergements/salamandre-tachete-novembre\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/sejours/hebergements-yvoir/photos-des-hbergements/salamandre-tachete-novembre\">Salamandre tachetée (novembre)</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5465059a-407b-4e0b-9ff9-c11916b851ff/20221116_135325_10B47022/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5465059a-407b-4e0b-9ff9-c11916b851ff/20221116_135325_10B47022/public\"><img alt=\"Salamandre tachetée (novembre)\" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5465059a-407b-4e0b-9ff9-c11916b851ff/20221116_135325_10B47022/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\"><div class=\"notion-property__title__icon-wrapper\"></div>Salamandre tachetée (novembre)</div></div></div></div></div></div></div><h1 id=\"block-fb51ed0e35b14eb1bfde7d87bd97c402\" class=\"notion-heading notion-semantic-string\">Espèces observées</h1><p id=\"block-6afd76aa81814a74becb684589562e86\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Les espèces végétales et animales observées par les naturalistes sont régulièrement enregistrées sur Observations.be.</strong> Tu en trouveras la liste complète en suivant le lien ci-dessous.</p><div id=\"block-14d5aa4b960d4d17966bfcb64ffb2dcf\" class=\"notion-bookmark\"><a href=\"https://observations.be/locations/241623/species/\" class=\"notion-link\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-bookmark__content\"><h5 class=\"notion-bookmark__title\">Fonds d'Ahinvaux (NA)</h5><div class=\"notion-bookmark__link\"><div><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c7b0aad2-34d6-410a-b0c1-d1d76dd5dbaf/apple-touch-icon/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c7b0aad2-34d6-410a-b0c1-d1d76dd5dbaf/apple-touch-icon/public\"><img alt=\"\" class=\"notion-icon\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c7b0aad2-34d6-410a-b0c1-d1d76dd5dbaf/apple-touch-icon/public\"></span></div><p>observations.be</p></div></div><div class=\"notion-bookmark__cover\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ebfb860d-1e73-45d8-b38c-77cca84f931d/logo-obs-white-192x192/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ebfb860d-1e73-45d8-b38c-77cca84f931d/logo-obs-white-192x192/public\"><img alt=\"Fonds d'Ahinvaux (NA)\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ebfb860d-1e73-45d8-b38c-77cca84f931d/logo-obs-white-192x192/public\"></span></div></a></div><h2 id=\"block-cef265585f024edfa32864ff16e3bf57\" class=\"notion-heading notion-semantic-string\">Enregistrer tes observations</h2><p id=\"block-c399c544fc7f4be3becf8158983d7df8\" class=\"notion-text notion-text__content notion-semantic-string\">Enregistre toutes tes observations sur <a href=\"https://observations.be/locations/241623/\" class=\"notion-link link\" data-link-uri=\"https://observations.be/locations/241623/\">Observations.be</a> ou <a href=\"https://www.inaturalist.org/projects/les-4-sources-yvoir-belgique?tab=observations\" class=\"notion-link link\" data-link-uri=\"https://www.inaturalist.org/projects/les-4-sources-yvoir-belgique?tab=observations\">iNaturalist</a>. Le plus simple, c’est d’installer l’app sur ton téléphone.</p>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/644a82db-f751-4a8e-8a2a-fd479f5f13e3/les_4_sources_-_mai_2023/public",
+      "alt": "La biodiversité aux 4 Sources",
+      "role": "cover",
+      "localPath": "images/biodiversite/01-les_4_sources_-_mai_2023.jpg",
+      "shared": false,
+      "bytes": 114063
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a1d48024-6b9a-4628-9ebd-b4e476db15c0/IMG_20230320_142947/public",
+      "alt": "Les crapauds (mars)",
+      "role": "content",
+      "localPath": "images/_shared/31495c8186b0-IMG_20230320_142947.jpg",
+      "shared": true,
+      "bytes": 145620
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/897a16e1-992b-4883-80c3-3c04715df585/p6090523_rec/public",
+      "alt": "Cynoglosse d’Allemagne (juillet)",
+      "role": "content",
+      "localPath": "images/_shared/bad81044223a-p6090523_rec.jpg",
+      "shared": true,
+      "bytes": 34973
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/241c365b-0bb3-4771-8dfb-dea10366e45f/escargot_de_bourgogne/public",
+      "alt": "Escargot de Bourgogne (juillet)",
+      "role": "content",
+      "localPath": "images/_shared/4ce542448649-escargot_de_bourgogne.jpg",
+      "shared": true,
+      "bytes": 196334
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/289eaf1c-d4b8-429a-ab91-fe4943d56f68/20210807_154050_CB1F3FF7/public",
+      "alt": "Anax empereur (août)",
+      "role": "content",
+      "localPath": "images/_shared/d36ef9512bbb-20210807_154050_CB1F3FF7.jpg",
+      "shared": true,
+      "bytes": 82290
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/062df1f0-307d-4aae-b25c-8f3351400a17/alyte_accoucheur/public",
+      "alt": "Alyte accoucheur (août)",
+      "role": "content",
+      "localPath": "images/_shared/099d66c64244-alyte_accoucheur.jpg",
+      "shared": true,
+      "bytes": 252706
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f7b89eaf-6f62-4e8a-94bf-f3edbc6d95a1/couleuvre_helvetique/public",
+      "alt": "Couleuvre helvétique (août)",
+      "role": "content",
+      "localPath": "images/_shared/7320336afb1d-couleuvre_helvetique.jpg",
+      "shared": true,
+      "bytes": 250742
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5465059a-407b-4e0b-9ff9-c11916b851ff/20221116_135325_10B47022/public",
+      "alt": "Salamandre tachetée (novembre)",
+      "role": "content",
+      "localPath": "images/_shared/f16d783c25dd-20221116_135325_10B47022.jpg",
+      "shared": true,
+      "bytes": 167127
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ebfb860d-1e73-45d8-b38c-77cca84f931d/logo-obs-white-192x192/public",
+      "alt": "Fonds d'Ahinvaux (NA)",
+      "role": "content",
+      "localPath": "images/biodiversite/09-logo-obs-white-192x192.png",
+      "shared": false,
+      "bytes": 22089
+    }
+  ],
+  "embeds": [
+    {
+      "kind": "bookmark",
+      "src": "https://observations.be/locations/241623/species/",
+      "title": "Fonds d'Ahinvaux (NA)"
+    }
+  ],
+  "internalLinks": [
+    "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/vue-depuis-la-terrasse",
+    "/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-balsamine",
+    "/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-romarin",
+    "/sejours/hebergements-yvoir/photos-des-hbergements/anax-empereur",
+    "/sejours/hebergements-yvoir/photos-des-hbergements/alyte-accoucheur",
+    "/sejours/hebergements-yvoir/photos-des-hbergements/couleuvre-helvtique-aot",
+    "/sejours/hebergements-yvoir/photos-des-hbergements/salamandre-tachete-novembre"
+  ],
+  "externalLinks": [
+    "https://observations.be/locations/241623/species/",
+    "https://observations.be/locations/241623/",
+    "https://www.inaturalist.org/projects/les-4-sources-yvoir-belgique?tab=observations"
+  ],
+  "collections": [
+    {
+      "id": "2950d1493317801184a3d2ad5488ad0c",
+      "title": null,
+      "source": null,
+      "view": "Slideshow",
+      "views": [
+        "Slideshow"
+      ],
+      "layout": "gallery",
+      "grouped": false,
+      "items": [
+        {
+          "title": "Les crapauds (mars)",
+          "href": "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/vue-depuis-la-terrasse",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a1d48024-6b9a-4628-9ebd-b4e476db15c0/IMG_20230320_142947/public",
+          "props": [],
+          "properties": {},
+          "coverLocalPath": "images/_shared/31495c8186b0-IMG_20230320_142947.jpg"
+        },
+        {
+          "title": "Cynoglosse d’Allemagne (juillet)",
+          "href": "/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-balsamine",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/897a16e1-992b-4883-80c3-3c04715df585/p6090523_rec/public",
+          "props": [],
+          "properties": {},
+          "coverLocalPath": "images/_shared/bad81044223a-p6090523_rec.jpg"
+        },
+        {
+          "title": "Escargot de Bourgogne (juillet)",
+          "href": "/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-romarin",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/241c365b-0bb3-4771-8dfb-dea10366e45f/escargot_de_bourgogne/public",
+          "props": [],
+          "properties": {},
+          "coverLocalPath": "images/_shared/4ce542448649-escargot_de_bourgogne.jpg"
+        },
+        {
+          "title": "Anax empereur (août)",
+          "href": "/sejours/hebergements-yvoir/photos-des-hbergements/anax-empereur",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/289eaf1c-d4b8-429a-ab91-fe4943d56f68/20210807_154050_CB1F3FF7/public",
+          "props": [],
+          "properties": {},
+          "coverLocalPath": "images/_shared/d36ef9512bbb-20210807_154050_CB1F3FF7.jpg"
+        },
+        {
+          "title": "Alyte accoucheur (août)",
+          "href": "/sejours/hebergements-yvoir/photos-des-hbergements/alyte-accoucheur",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/062df1f0-307d-4aae-b25c-8f3351400a17/alyte_accoucheur/public",
+          "props": [],
+          "properties": {},
+          "coverLocalPath": "images/_shared/099d66c64244-alyte_accoucheur.jpg"
+        },
+        {
+          "title": "Couleuvre helvétique (août)",
+          "href": "/sejours/hebergements-yvoir/photos-des-hbergements/couleuvre-helvtique-aot",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f7b89eaf-6f62-4e8a-94bf-f3edbc6d95a1/couleuvre_helvetique/public",
+          "props": [],
+          "properties": {},
+          "coverLocalPath": "images/_shared/7320336afb1d-couleuvre_helvetique.jpg"
+        },
+        {
+          "title": "Salamandre tachetée (novembre)",
+          "href": "/sejours/hebergements-yvoir/photos-des-hbergements/salamandre-tachete-novembre",
+          "icon": null,
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5465059a-407b-4e0b-9ff9-c11916b851ff/20221116_135325_10B47022/public",
+          "props": [],
+          "properties": {},
+          "coverLocalPath": "images/_shared/f16d783c25dd-20221116_135325_10B47022.jpg"
+        }
+      ]
+    }
+  ],
+  "wordCount": 111,
+  "fetchedAt": "2026-09-07T21:17:20.087Z",
+  "markdown": "#### Nos régions abritent une variété incroyable d'espèces végétales et animales essentielles à l'écosystème et contribuent à la beauté naturelle de la région. Il est crucial de protéger cette biodiversité pour les générations futures.\n\n## Au fil de l’année\n\n> <!-- collection view=\"Slideshow\" layout=\"gallery\" -->\n> - [Les crapauds (mars)](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/vue-depuis-la-terrasse)\n> - [Cynoglosse d’Allemagne (juillet)](/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-balsamine)\n> - [Escargot de Bourgogne (juillet)](/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-romarin)\n> - [Anax empereur (août)](/sejours/hebergements-yvoir/photos-des-hbergements/anax-empereur)\n> - [Alyte accoucheur (août)](/sejours/hebergements-yvoir/photos-des-hbergements/alyte-accoucheur)\n> - [Couleuvre helvétique (août)](/sejours/hebergements-yvoir/photos-des-hbergements/couleuvre-helvtique-aot)\n> - [Salamandre tachetée (novembre)](/sejours/hebergements-yvoir/photos-des-hbergements/salamandre-tachete-novembre)\n> <!-- /collection -->\n\n## Espèces observées\n\n**Les espèces végétales et animales observées par les naturalistes sont régulièrement enregistrées sur Observations.be.** Tu en trouveras la liste complète en suivant le lien ci-dessous.\n\n<!-- embed:bookmark src=\"https://observations.be/locations/241623/species/\" -->\n[Fonds d'Ahinvaux (NA)](https://observations.be/locations/241623/species/)\n\n### Enregistrer tes observations\n\nEnregistre toutes tes observations sur [Observations.be](https://observations.be/locations/241623/) ou [iNaturalist](https://www.inaturalist.org/projects/les-4-sources-yvoir-belgique?tab=observations). Le plus simple, c’est d’installer l’app sur ton téléphone.\n",
+  "extractedAt": "2026-09-07T21:41:44.238Z"
+}

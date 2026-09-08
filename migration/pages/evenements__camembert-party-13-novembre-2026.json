@@ -1,0 +1,162 @@
+{
+  "path": "/evenements/camembert-party-13-novembre-2026",
+  "slug": "evenements__camembert-party-13-novembre-2026",
+  "rootIsCollection": false,
+  "title": "🧀 Camembert Party de novembre",
+  "metaDescription": "Viens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes petits légumes préférés !",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/918df003-d65d-40c3-9e3c-231053821710/_Cover_pour_le_site_4S_(2)/public",
+  "ogTitle": "🧀 Camembert Party de novembre",
+  "ogUrl": "https://www.les4sources.be/evenements/camembert-party-13-novembre-2026",
+  "canonical": null,
+  "h1": "🧀 Camembert Party de novembre",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/918df003-d65d-40c3-9e3c-231053821710/_Cover_pour_le_site_4S_(2)/public",
+    "localPath": "images/_shared/3a789b6d1ca5-_Cover_pour_le_site_4S_-2.png"
+  },
+  "pageIcon": "🧀",
+  "properties": {
+    "Date": "2026-11-13",
+    "Horaires": "à partir de 18h30",
+    "Type d'événement": "Pizza Party",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "vendredi 13 novembre",
+    "Places disponibles": "65",
+    "Tarif": "€10.00",
+    "Date de création": "Jul 23, 2026 1:56 PM",
+    "Statut site web": "Publié",
+    "super:slug": "camembert-party-13-novembre-2026"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-camembert-party-13-novembre-2026",
+    "blockId": "96f0d149-3317-831f-afd5-817ef25356fe",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/camembert-party-13-novembre-2026",
+    "createdTime": "2026-07-23T13:56:25.597Z",
+    "lastEditedTime": "2026-08-25T06:49:12.949Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<h1 id=\"block-7de0d149331782de80ae81c7728a8aff\" class=\"notion-heading notion-semantic-string\">Le concept de la Camembert Party ?</h1><p id=\"block-5cd0d149331783c98dff01226d607de5\" class=\"notion-text notion-text__content notion-semantic-string\">Viens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes petits légumes préférés ! </p><div id=\"block-3c20d1493317809694dbe961b478fa33\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1bc4e9b0-7633-4a71-a106-d572a6fd850c/img_20221216_191549/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1bc4e9b0-7633-4a71-a106-d572a6fd850c/img_20221216_191549/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1bc4e9b0-7633-4a71-a106-d572a6fd850c/img_20221216_191549/public\"></span></div><p id=\"block-a040d149331783b2809481621e535115\" class=\"notion-text notion-text__content notion-semantic-string\">Bienvenue <strong>le 13 novembre, dès 18h30</strong> :</p><ul class=\"notion-bulleted-list\"><li id=\"block-0910d149331783859cad81fd191c675d\" class=\"notion-list-item notion-semantic-string\">tu amènes…</li><ul class=\"notion-bulleted-list\"><li id=\"block-f950d14933178336ba07017bed193d81\" class=\"notion-list-item notion-semantic-string\">ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre)<!-- --></li><li id=\"block-7ad0d149331783efaecc01246e83404d\" class=\"notion-list-item notion-semantic-string\">tes petits légumes</li></ul><li id=\"block-6370d149331783ef883a0197e295c73d\" class=\"notion-list-item notion-semantic-string\">nous mettons à ta disposition…</li><ul class=\"notion-bulleted-list\"><li id=\"block-3fa0d149331783d6a611016d348ae71a\" class=\"notion-list-item notion-semantic-string\">de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu</li><li id=\"block-7890d149331782c882a701de65183e1f\" class=\"notion-list-item notion-semantic-string\">des planches à découper et des platines de cuisson</li><li id=\"block-2140d14933178278899001f493df88e9\" class=\"notion-list-item notion-semantic-string\">le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage</li><li id=\"block-b000d149331783ec8bca812b60ffa353\" class=\"notion-list-item notion-semantic-string\">la grande salle des 4 Sources*</li><div id=\"block-3c20d149331780689d57fd1d4381cd73\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/970618e9-4c2b-472e-a719-85828d025ffb/e1089c90-b96b-4195-8594-ac8f4e11c712/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/970618e9-4c2b-472e-a719-85828d025ffb/e1089c90-b96b-4195-8594-ac8f4e11c712/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/970618e9-4c2b-472e-a719-85828d025ffb/e1089c90-b96b-4195-8594-ac8f4e11c712/public\"></span></div></ul></ul><h1 id=\"block-ede0d149331782a1b16c81d6ee2e9e1b\" class=\"notion-heading notion-semantic-string\">À emporter avec toi</h1><ul class=\"notion-bulleted-list\"><li id=\"block-9060d149331783b6be3b01e3e16aefd0\" class=\"notion-list-item notion-semantic-string\">Ton fromage contenu dans un emballage en bois (cf. photo de l'événement ; bienvenu aux camemberts, vacherins, chaumes, etc.)</li><ul class=\"notion-bulleted-list\"><li id=\"block-d0a0d149331783d69be701f969dba568\" class=\"notion-list-item notion-semantic-string\">Pas très fromage ? Apporte quelque chose d'équivalent si tu le souhaites ou d'autres ingrédients pour accompagner tes légumes.</li></ul><li id=\"block-1ae0d149331783cc9c9e8183f08a4d13\" class=\"notion-list-item notion-semantic-string\">Tes légumes et/ou féculents (ex.: courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces) ou salades froides à manger à côté + assaisonnement</li></ul><div id=\"block-3c20d149331780ccb228f1704949f196\" class=\"notion-image normal\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e674fa4f-4c56-45fc-a2dc-d658522194e5/a7fc6b1c-4285-4dad-8c2e-8ec985e1f068/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e674fa4f-4c56-45fc-a2dc-d658522194e5/a7fc6b1c-4285-4dad-8c2e-8ec985e1f068/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e674fa4f-4c56-45fc-a2dc-d658522194e5/a7fc6b1c-4285-4dad-8c2e-8ec985e1f068/public\"></span></div><h1 id=\"block-eb90d1493317836fb0dd01671d2b17e1\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-83b0d1493317821699290130eeefe20d\" class=\"notion-list-item notion-semantic-string\">Inscription indispensable jusqu’au jeudi midi avant l'événement</li><li id=\"block-72f0d149331782d7b5fc017915df7979\" class=\"notion-list-item notion-semantic-string\">Tarif : 10 € par personne (6€ pour les enfants) + cash pour le bar 💰</li><li id=\"block-2470d149331782b29c5b0145c2f9a0f3\" class=\"notion-list-item notion-semantic-string\">À emporter</li><ul class=\"notion-bulleted-list\"><li id=\"block-9260d14933178229b44281435b132909\" class=\"notion-list-item notion-semantic-string\">ton fromage ou un autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre) 🧀</li><li id=\"block-ab40d149331782bcb27b01e315cfde1d\" class=\"notion-list-item notion-semantic-string\">tes petits légumes 🍆</li><li id=\"block-fc20d1493317824a853801db28c9b430\" class=\"notion-list-item notion-semantic-string\">tes ami·e·s 👯</li></ul><li id=\"block-6af0d149331782f0a221017af834ccb4\" class=\"notion-list-item notion-semantic-string\">Bar avec boissons bios/locales/de saison sur place 🍹</li></ul><p id=\"block-59e0d14933178240aac481873c7e4808\" class=\"notion-text notion-text__content notion-semantic-string\">Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.</p><p id=\"block-40e0d149331783ba9551014fb82006e3\" class=\"notion-text notion-text__content notion-semantic-string\">Les inscriptions arrivent bientôt ! &lt;3 </p><div id=\"block-3c20d149331780daa587e370d3485609\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8a8607cd-4507-4949-8aaa-7b31efc4547e/img_20240308_210554/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8a8607cd-4507-4949-8aaa-7b31efc4547e/img_20240308_210554/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8a8607cd-4507-4949-8aaa-7b31efc4547e/img_20240308_210554/public\"></span></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/918df003-d65d-40c3-9e3c-231053821710/_Cover_pour_le_site_4S_(2)/public",
+      "alt": "🧀 Camembert Party de novembre",
+      "role": "cover",
+      "localPath": "images/_shared/3a789b6d1ca5-_Cover_pour_le_site_4S_-2.png",
+      "shared": true,
+      "bytes": 351372
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1bc4e9b0-7633-4a71-a106-d572a6fd850c/img_20221216_191549/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__camembert-party-13-novembre-2026/02-img_20221216_191549.jpg",
+      "shared": false,
+      "bytes": 112692
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/970618e9-4c2b-472e-a719-85828d025ffb/e1089c90-b96b-4195-8594-ac8f4e11c712/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__camembert-party-13-novembre-2026/03-e1089c90-b96b-4195-8594-ac8f4e11c712.png",
+      "shared": false,
+      "bytes": 620060
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e674fa4f-4c56-45fc-a2dc-d658522194e5/a7fc6b1c-4285-4dad-8c2e-8ec985e1f068/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__camembert-party-13-novembre-2026/04-a7fc6b1c-4285-4dad-8c2e-8ec985e1f068.png",
+      "shared": false,
+      "bytes": 731387
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8a8607cd-4507-4949-8aaa-7b31efc4547e/img_20240308_210554/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__camembert-party-13-novembre-2026/05-img_20240308_210554.jpg",
+      "shared": false,
+      "bytes": 126285
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 254,
+  "fetchedAt": "2026-09-07T21:17:30.109Z",
+  "markdown": "## Le concept de la Camembert Party ?\n\nViens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes petits légumes préférés !\n\n![image](images/evenements__camembert-party-13-novembre-2026/02-img_20221216_191549.jpg)\n\nBienvenue **le 13 novembre, dès 18h30** :\n\n- tu amènes…\n\n- ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre)\n- tes petits légumes\n\n- nous mettons à ta disposition…\n\n- de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu\n- des planches à découper et des platines de cuisson\n- le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage\n- la grande salle des 4 Sources\\*\n\n![image](images/evenements__camembert-party-13-novembre-2026/03-e1089c90-b96b-4195-8594-ac8f4e11c712.png)\n\n## À emporter avec toi\n\n- Ton fromage contenu dans un emballage en bois (cf. photo de l'événement ; bienvenu aux camemberts, vacherins, chaumes, etc.)\n\n- Pas très fromage ? Apporte quelque chose d'équivalent si tu le souhaites ou d'autres ingrédients pour accompagner tes légumes.\n\n- Tes légumes et/ou féculents (ex.: courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces) ou salades froides à manger à côté + assaisonnement\n\n![image](images/evenements__camembert-party-13-novembre-2026/04-a7fc6b1c-4285-4dad-8c2e-8ec985e1f068.png)\n\n## **Infos pratiques**\n\n- Inscription indispensable jusqu’au jeudi midi avant l'événement\n- Tarif : 10 € par personne (6€ pour les enfants) + cash pour le bar 💰\n- À emporter\n\n- ton fromage ou un autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre) 🧀\n- tes petits légumes 🍆\n- tes ami·e·s 👯\n\n- Bar avec boissons bios/locales/de saison sur place 🍹\n\nLes enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.\n\nLes inscriptions arrivent bientôt ! <3\n\n![image](images/evenements__camembert-party-13-novembre-2026/05-img_20240308_210554.jpg)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.373Z"
+}

@@ -1,0 +1,63 @@
+{
+  "path": "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/vue-depuis-la-terrasse",
+  "slug": "sejours__hebergements-yvoir__la-hulotte-gite-16-personnes__vue-depuis-la-terrasse",
+  "rootIsCollection": false,
+  "title": "Les crapauds (mars)",
+  "metaDescription": null,
+  "ogImage": null,
+  "ogTitle": "Les crapauds (mars)",
+  "ogUrl": "https://www.les4sources.be/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/vue-depuis-la-terrasse",
+  "canonical": null,
+  "h1": "Les crapauds (mars)",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Date de création": "Oct 12, 2025 9:26 PM",
+    "Page": "Biodiversité"
+  },
+  "propertySchema": [
+    {
+      "id": "y|zT",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "JUEM",
+      "name": "Page",
+      "type": "multi_select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "sejours-hebergements-yvoir-la-hulotte-gite-16-personnes-vue-depuis-la-terrasse",
+    "blockId": "28a0d149-3317-80e9-b025-c43427eabc88",
+    "parentId": "28a0d149331781b09d9c000b678af892",
+    "type": "page",
+    "uri": "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/vue-depuis-la-terrasse",
+    "createdTime": "2025-10-12T21:26:00.638Z",
+    "lastEditedTime": "2025-10-23T14:34:29.948Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<div id=\"block-974ba9ad47d94c1192ed922a6d996dea\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a1d48024-6b9a-4628-9ebd-b4e476db15c0/IMG_20230320_142947/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a1d48024-6b9a-4628-9ebd-b4e476db15c0/IMG_20230320_142947/public\"><img alt=\"Les crapauds dans les mares\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a1d48024-6b9a-4628-9ebd-b4e476db15c0/IMG_20230320_142947/public\"></span><figcaption class=\"notion-caption notion-semantic-string\">Les crapauds dans les mares</figcaption></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a1d48024-6b9a-4628-9ebd-b4e476db15c0/IMG_20230320_142947/public",
+      "alt": "Les crapauds dans les mares",
+      "role": "content",
+      "localPath": "images/_shared/31495c8186b0-IMG_20230320_142947.jpg",
+      "shared": true,
+      "bytes": 145620
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 5,
+  "fetchedAt": "2026-09-07T21:17:49.448Z",
+  "markdown": "![Les crapauds dans les mares](images/_shared/31495c8186b0-IMG_20230320_142947.jpg)\n*Les crapauds dans les mares*\n",
+  "extractedAt": "2026-09-07T21:41:44.550Z"
+}

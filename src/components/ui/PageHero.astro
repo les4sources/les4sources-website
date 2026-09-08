@@ -1,0 +1,117 @@
+---
+/**
+ * En-tête de page du brand system : fil d'Ariane en Be Vietnam Pro, étiquette
+ * de pôle, H1 Averia Bold (l'emoji fait partie du titre, comme sur le site
+ * actuel), chapeau en encre secondaire, puis la photo de couverture aux coins
+ * de photo (16 px) — ou pleine largeur avec `bleed`.
+ *
+ * Un seul `<h1>` par page : c'est ici qu'il vit.
+ */
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import PoleTag from "@components/ds/PoleTag.astro";
+import { isPole } from "@lib/poles";
+import Breadcrumbs, { type Crumb } from "./Breadcrumbs.astro";
+
+interface Props {
+  title: string;
+  /** Sur-titre court (date, durée, section) — en capitales Be Vietnam Pro. */
+  eyebrow?: string;
+  lead?: string;
+  cover?: ImageMetadata;
+  coverAlt?: string;
+  /** Image distante déjà optimisée (Claudy) — repli quand `cover` est absent. */
+  remoteCover?: { url: string; alt?: string; width?: number; height?: number };
+  icon?: string;
+  pole?: string;
+  crumbs?: Crumb[];
+  /** Colonne éditoriale à 760 px plutôt que la pleine largeur du site. */
+  narrow?: boolean;
+  /** Photo à fond perdu, sans coins arrondis ni gouttière. */
+  bleed?: boolean;
+  class?: string;
+}
+
+const {
+  title,
+  eyebrow,
+  lead,
+  cover,
+  coverAlt,
+  remoteCover,
+  icon,
+  pole,
+  crumbs = [],
+  narrow = false,
+  bleed = false,
+  class: className,
+} = Astro.props;
+
+const container = narrow ? "max-w-narrow" : "max-w-site";
+const hasCover = Boolean(cover) || Boolean(remoteCover);
+---
+
+<header class:list={["px-6 pt-[clamp(18px,3vw,32px)]", hasCover ? "pb-0" : "pb-2", className]}>
+  <div class:list={["mx-auto w-full", container]}>
+    {crumbs.length > 0 && <Breadcrumbs items={crumbs} />}
+
+    {
+      (icon || (pole && isPole(pole)) || eyebrow) && (
+        <div class:list={["flex flex-wrap items-center gap-3", crumbs.length > 0 ? "mt-5" : ""]}>
+          {icon && (
+            <span class="text-[1.9rem] leading-none" aria-hidden="true">
+              {icon}
+            </span>
+          )}
+          {pole && isPole(pole) && <PoleTag pole={pole} />}
+          {eyebrow && (
+            <span class="font-ui text-[13px] font-bold tracking-[0.08em] text-ink-3 uppercase">
+              {eyebrow}
+            </span>
+          )}
+        </div>
+      )
+    }
+
+    <h1
+      class="mt-4 max-w-[20ch] font-display text-[clamp(30px,6vw,48px)] leading-[1.12] font-bold tracking-[-0.01em]"
+    >
+      {title}
+    </h1>
+
+    {lead && <p class="mt-4 max-w-[640px] font-body text-lead text-ink-2">{lead}</p>}
+  </div>
+</header>
+
+{
+  hasCover && (
+    <div class:list={[bleed ? "mt-8" : "mt-8 px-6"]}>
+      <div class:list={["mx-auto w-full", bleed ? "" : container]}>
+        {cover ? (
+          <Image
+            src={cover}
+            alt={coverAlt || title}
+            widths={[640, 960, 1440]}
+            sizes={narrow ? "(min-width: 800px) 760px, 100vw" : "(min-width: 1220px) 1180px, 100vw"}
+            loading="eager"
+            class:list={[
+              "w-full object-cover",
+              bleed ? "max-h-[62vh]" : "max-h-[520px] rounded-photo",
+            ]}
+          />
+        ) : remoteCover ? (
+          <img
+            src={remoteCover.url}
+            alt={remoteCover.alt || coverAlt || title}
+            width={remoteCover.width}
+            height={remoteCover.height}
+            class:list={[
+              "w-full object-cover",
+              bleed ? "max-h-[62vh]" : "max-h-[520px] rounded-photo",
+            ]}
+          />
+        ) : null}
+      </div>
+    </div>
+  )
+}

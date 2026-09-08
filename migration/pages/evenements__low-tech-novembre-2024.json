@@ -1,0 +1,164 @@
+{
+  "path": "/evenements/low-tech-novembre-2024",
+  "slug": "evenements__low-tech-novembre-2024",
+  "rootIsCollection": false,
+  "title": "Low-tech: réchaud rocket stove et travail du métal",
+  "metaDescription": "Deux journées pour construire, comprendre et tester ton réchaud Rocket Stove, s’initier aux low-techs et au travail du métal. Fin novembre 2024 aux 4 Sources à Yvoir.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/afcf56c8-1a71-4c94-84b7-796b80b11deb/Atelier_Low-Tech/public",
+  "ogTitle": "Low-tech: réchaud rocket stove et travail du métal",
+  "ogUrl": "https://www.les4sources.be/evenements/low-tech-novembre-2024",
+  "canonical": null,
+  "h1": "Low-tech: réchaud rocket stove et travail du métal",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/afcf56c8-1a71-4c94-84b7-796b80b11deb/Atelier_Low-Tech/public",
+    "localPath": "images/evenements__low-tech-novembre-2024/01-Atelier_Low-Tech.png"
+  },
+  "pageIcon": null,
+  "properties": {
+    "Date": "2024-11-23 → 2024-11-24",
+    "Horaires": "samedi 10h-18h - dimanche 9h-18h",
+    "Type d'événement": "Week-end",
+    "Thématique": "Artisanat",
+    "Date (fr)": "23 et 24 novembre 2024",
+    "Tarif": "€210.00",
+    "Date de création": "Jan 18, 2025 4:59 PM",
+    "super:description": "Deux journées pour construire, comprendre et tester ton réchaud Rocket Stove, s’initier aux low-techs et au travail du métal. Fin novembre 2024 aux 4 Sources à Yvoir.",
+    "super:slug": "low-tech-novembre-2024"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-low-tech-novembre-2024",
+    "blockId": "17f0d149-3317-80fb-9a47-dfbac4de0d11",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/low-tech-novembre-2024",
+    "createdTime": "2025-01-18T16:59:53.170Z",
+    "lastEditedTime": "2025-01-18T16:59:53.170Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements"
+    },
+    {
+      "label": "Low-tech: réchaud rocket stove et travail du métal",
+      "href": "/evenements/low-tech-novembre-2024"
+    }
+  ],
+  "contentHtml": "<h2 id=\"block-17f0d14933178155b30fed54d34b8f34\" class=\"notion-heading notion-semantic-string\"><strong>Au programme</strong></h2><div id=\"block-17f0d14933178146aa29d1d2077bcc9d\" class=\"notion-column-list\"><div id=\"block-17f0d149331781d6a09cfbd82b9151e7\" class=\"notion-column\" data-width=\"50%\"><h3 id=\"block-17f0d149331781f093f8dab08f402d6b\" class=\"notion-heading notion-semantic-string\"><strong>Deux journées pour construire, comprendre et tester ton réchaud Rocket Stove, s’initier aux&nbsp;low-techs et au travail du métal.</strong></h3><ul class=\"notion-bulleted-list\"><li id=\"block-17f0d149331781d9b521dd2ed151feef\" class=\"notion-list-item notion-semantic-string\">Initiation à la soudure et à la construction métallique</li><li id=\"block-17f0d1493317817a933bc873abd9c8bc\" class=\"notion-list-item notion-semantic-string\">Échanges de savoirs sur le principe de combustion et sur les low-techs en général</li><li id=\"block-17f0d1493317812d896fd27cc5f4df66\" class=\"notion-list-item notion-semantic-string\">Convivialité et préparation de repas en mode low-tech<!-- --></li></ul><p id=\"block-17f0d14933178137a02bc1bb1311ba6c\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Et tu repars avec ton propre réchaud au terme du week-end </strong>🔥</p></div><div id=\"block-17f0d14933178192a8dec847546eb034\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-17f0d149331781418505dee2bfe8bc1f\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a22ec282-2d66-4752-8144-72e3fea46d28/rechaud-rocket-stove-low-tech/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a22ec282-2d66-4752-8144-72e3fea46d28/rechaud-rocket-stove-low-tech/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a22ec282-2d66-4752-8144-72e3fea46d28/rechaud-rocket-stove-low-tech/public\"></span></div></div></div><div id=\"block-17f0d149331781c1956eede2c981a76c\" class=\"notion-column-list\"><div id=\"block-17f0d149331781ccbbd7f67459bc0faa\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-17f0d149331781cb984fdc84d55a03b6\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/89f12656-7ee8-40d3-b324-f1f191dfcb90/IMG_20241016_105904_8/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/89f12656-7ee8-40d3-b324-f1f191dfcb90/IMG_20241016_105904_8/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/89f12656-7ee8-40d3-b324-f1f191dfcb90/IMG_20241016_105904_8/public\"></span></div></div><div id=\"block-17f0d14933178171b88adb45534e8e77\" class=\"notion-column\" data-width=\"50%\"><h2 id=\"block-17f0d149331781768c33da7af294109a\" class=\"notion-heading notion-semantic-string\">Participation</h2><p id=\"block-17f0d1493317811f9088fb0aedb3c3d7\" class=\"notion-text notion-text__content notion-semantic-string\">255 € pour les deux journées, comprenant :</p><ul class=\"notion-bulleted-list\"><li id=\"block-17f0d14933178153a2dff649607a24a9\" class=\"notion-list-item notion-semantic-string\">l’encadrement et l’accompagnement par 3 artisans en ferronnerie et menuiserie</li><li id=\"block-17f0d149331781a2a99fc6db11688169\" class=\"notion-list-item notion-semantic-string\">les repas du samedi soir, dimanche matin et dimanche midi cuisinés ensemble en mode low-tech</li><li id=\"block-17f0d1493317819cb100e5d028339b0a\" class=\"notion-list-item notion-semantic-string\">les collations</li><li id=\"block-17f0d14933178111b669fd78ded7bc5e\" class=\"notion-list-item notion-semantic-string\">les fournitures pour ton réchaud</li></ul></div></div><h2 id=\"block-17f0d1493317816faa38ca8b7d3fad0c\" class=\"notion-heading notion-semantic-string\">Inscription</h2><p id=\"block-17f0d149331781dbb4fbcbacf1053013\" class=\"notion-text notion-text__content notion-semantic-string\">Via <a href=\"https://les4sources.punchpass.com/classes/16300562\" class=\"notion-link link\" data-link-uri=\"https://les4sources.punchpass.com/classes/16300562\">le formulaire d’inscription avec paiement en ligne</a> (1 inscription par participant·e)</p><h2 id=\"block-17f0d149331781ae9f8ff3de8cf2115d\" class=\"notion-heading notion-semantic-string\">Hébergement</h2><p id=\"block-17f0d1493317811eb6b9dccae532ffe4\" class=\"notion-text notion-text__content notion-semantic-string\">L’hébergement sur place est conseillé du samedi au dimanche. Tu logeras en chambre de 4 personnes, et le tarif est de 30 €/personne/nuit.</p><p id=\"block-17f0d14933178154bcbcc9e1f866c567\" class=\"notion-text notion-text__content notion-semantic-string\">Il est possible de rester loger également avant et après la formation.</p><p id=\"block-17f0d149331781d6836fece9df57c813\" class=\"notion-text notion-text__content notion-semantic-string\">Réservations de l’hébergement par e-mail à <a href=\"mailto:sejours@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">sejours@les4sources.be</a>.</p><h2 id=\"block-17f0d1493317815fae1ff94164d59b9e\" class=\"notion-heading notion-semantic-string\">En pratique</h2><ul class=\"notion-bulleted-list\"><li id=\"block-17f0d14933178130ae0ed06b0d3954a7\" class=\"notion-list-item notion-semantic-string\">Horaire des journées</li><ul class=\"notion-bulleted-list\"><li id=\"block-17f0d14933178120a4dce71bea21d81c\" class=\"notion-list-item notion-semantic-string\">Le samedi de 10h à 18h</li><li id=\"block-17f0d149331781e8a32de831358340bc\" class=\"notion-list-item notion-semantic-string\">Le dimanche de 9h à 18h</li></ul><li id=\"block-17f0d149331781e8b27cca7eceba21e7\" class=\"notion-list-item notion-semantic-string\">À prévoir</li><ul class=\"notion-bulleted-list\"><li id=\"block-17f0d149331781d48867e140902d8d80\" class=\"notion-list-item notion-semantic-string\">Un plat à partager pour l’auberge espagnole du samedi midi</li><li id=\"block-17f0d149331781d7b566c8799f56e9ed\" class=\"notion-list-item notion-semantic-string\">Des vêtements adaptés à la météo</li></ul></ul><div id=\"block-17f0d149331781b68d7cd9a829287e02\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e7db9324-ac7b-4334-82a1-3092ad8eed34/image/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e7db9324-ac7b-4334-82a1-3092ad8eed34/image/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e7db9324-ac7b-4334-82a1-3092ad8eed34/image/public\"></span></div><h2 id=\"block-17f0d149331781fbba91e5d2d980e93d\" class=\"notion-heading notion-semantic-string\">Plus d’info ?</h2><p id=\"block-17f0d14933178144b82fde889055b378\" class=\"notion-text notion-text__content notion-semantic-string\">Prends contact avec Sébastien Frennet, facilitateur des Ateliers Low-Tech des 4 Sources.</p><p id=\"block-17f0d1493317819db88ada5c7e894d53\" class=\"notion-text notion-text__content notion-semantic-string\">📞 Tél : 0471 59 11 20\n📬&nbsp;E-mail : <a href=\"mailto:sebastien.frennet@skynet.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">sebastien.frennet@skynet.be</a></p><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/afcf56c8-1a71-4c94-84b7-796b80b11deb/Atelier_Low-Tech/public",
+      "alt": "Low-tech: réchaud rocket stove et travail du métal",
+      "role": "cover",
+      "localPath": "images/evenements__low-tech-novembre-2024/01-Atelier_Low-Tech.png",
+      "shared": false,
+      "bytes": 74091
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a22ec282-2d66-4752-8144-72e3fea46d28/rechaud-rocket-stove-low-tech/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__low-tech-novembre-2024/02-rechaud-rocket-stove-low-tech.jpg",
+      "shared": false,
+      "bytes": 69156
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/89f12656-7ee8-40d3-b324-f1f191dfcb90/IMG_20241016_105904_8/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/196f797c281f-IMG_20241016_105904_8.jpg",
+      "shared": true,
+      "bytes": 46624
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e7db9324-ac7b-4334-82a1-3092ad8eed34/image/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__low-tech-novembre-2024/04-image.jpg",
+      "shared": false,
+      "bytes": 191542
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://les4sources.punchpass.com/classes/16300562",
+    "mailto:sejours@les4sources.be",
+    "mailto:sebastien.frennet@skynet.be"
+  ],
+  "collections": [],
+  "wordCount": 208,
+  "fetchedAt": "2026-09-07T21:17:38.420Z",
+  "markdown": "### **Au programme**\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n#### **Deux journées pour construire, comprendre et tester ton réchaud Rocket Stove, s’initier aux low-techs et au travail du métal.**\n\n- Initiation à la soudure et à la construction métallique\n- Échanges de savoirs sur le principe de combustion et sur les low-techs en général\n- Convivialité et préparation de repas en mode low-tech\n\n**Et tu repars avec ton propre réchaud au terme du week-end** 🔥\n\n<!-- column width=\"50%\" -->\n\n![image](images/evenements__low-tech-novembre-2024/02-rechaud-rocket-stove-low-tech.jpg)\n<!-- /columns -->\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/_shared/196f797c281f-IMG_20241016_105904_8.jpg)\n\n<!-- column width=\"50%\" -->\n\n### Participation\n\n255 € pour les deux journées, comprenant :\n\n- l’encadrement et l’accompagnement par 3 artisans en ferronnerie et menuiserie\n- les repas du samedi soir, dimanche matin et dimanche midi cuisinés ensemble en mode low-tech\n- les collations\n- les fournitures pour ton réchaud\n<!-- /columns -->\n\n### Inscription\n\nVia [le formulaire d’inscription avec paiement en ligne](https://les4sources.punchpass.com/classes/16300562) (1 inscription par participant·e)\n\n### Hébergement\n\nL’hébergement sur place est conseillé du samedi au dimanche. Tu logeras en chambre de 4 personnes, et le tarif est de 30 €/personne/nuit.\n\nIl est possible de rester loger également avant et après la formation.\n\nRéservations de l’hébergement par e-mail à [sejours@les4sources.be](mailto:sejours@les4sources.be).\n\n### En pratique\n\n- Horaire des journées\n\n- Le samedi de 10h à 18h\n- Le dimanche de 9h à 18h\n\n- À prévoir\n\n- Un plat à partager pour l’auberge espagnole du samedi midi\n- Des vêtements adaptés à la météo\n\n![image](images/evenements__low-tech-novembre-2024/04-image.jpg)\n\n### Plus d’info ?\n\nPrends contact avec Sébastien Frennet, facilitateur des Ateliers Low-Tech des 4 Sources.\n\n📞 Tél : 0471 59 11 20 📬 E-mail : [sebastien.frennet@skynet.be](mailto:sebastien.frennet@skynet.be)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.437Z"
+}

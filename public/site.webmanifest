@@ -1,0 +1,14 @@
+{
+  "name": "Les 4 Sources",
+  "short_name": "4 Sources",
+  "description": "Tiers-lieu de 15 hectares à Yvoir : hébergements, salles, bar, coworking, activités et événements au Domaine d'Ahinvaux.",
+  "lang": "fr-BE",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0B3D3A",
+  "background_color": "#F7F2E9",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any" }
+  ]
+}

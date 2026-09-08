@@ -1,0 +1,62 @@
+{
+  "path": "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos/le-sjour",
+  "slug": "sejours__hebergements-yvoir__la-hulotte-gite-16-personnes__la-hulotte-photos__le-sjour",
+  "rootIsCollection": false,
+  "title": "Le séjour",
+  "metaDescription": null,
+  "ogImage": null,
+  "ogTitle": "Le séjour",
+  "ogUrl": "https://www.les4sources.be/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos/le-sjour",
+  "canonical": null,
+  "h1": "Le séjour",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Date de création": "Oct 12, 2025 9:08 PM"
+  },
+  "propertySchema": [
+    {
+      "id": "y|zT",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "_\\TN",
+      "name": "Étiquettes",
+      "type": "multi_select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "sejours-hebergements-yvoir-la-hulotte-gite-16-personnes-la-hulotte-photos-le-sjour",
+    "blockId": "28a0d149-3317-8083-a347-ddb0d5a936d5",
+    "parentId": "28a0d14933178039a560000b354c9277",
+    "type": "page",
+    "uri": "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos/le-sjour",
+    "createdTime": "2025-10-12T21:08:52.658Z",
+    "lastEditedTime": "2025-10-12T21:12:06.117Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<div id=\"block-2870d149331780b28034d26074fcf699\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/51a40729-a3b8-4aca-a779-af5557074002/_G0A2780/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/51a40729-a3b8-4aca-a779-af5557074002/_G0A2780/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/51a40729-a3b8-4aca-a779-af5557074002/_G0A2780/public\"></span></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/51a40729-a3b8-4aca-a779-af5557074002/_G0A2780/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/45c528537c2a-_G0A2780.jpg",
+      "shared": true,
+      "bytes": 125036
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 0,
+  "fetchedAt": "2026-09-07T21:17:49.402Z",
+  "markdown": "![image](images/_shared/45c528537c2a-_G0A2780.jpg)\n",
+  "extractedAt": "2026-09-07T21:41:44.549Z"
+}

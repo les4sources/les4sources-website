@@ -1,0 +1,104 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import Prose from "@components/ui/Prose.astro";
+import Section from "@components/ds/Section.astro";
+import { pathOf, visible } from "@lib/content";
+import { isReservedPath } from "@lib/routes";
+import { breadcrumbs } from "@lib/seo";
+import { site } from "@lib/site";
+
+/**
+ * Attrape-tout des pages éditoriales. La route vient TOUJOURS du `legacyPath`
+ * de l'entrée, jamais de son nom de fichier — c'est ce qui garantit que les
+ * URLs du site actuel répondent à l'identique.
+ */
+export const getStaticPaths: GetStaticPaths = async () => {
+  const pages = visible(await getCollection("pages"));
+  return pages
+    .filter((entry) => !isReservedPath(pathOf(entry)))
+    .map((entry) => ({
+      // slug sans slash de tête : "sejours/tarifs"
+      params: { slug: pathOf(entry).replace(/^\//, "") },
+      props: { entry },
+    }));
+};
+
+interface Props {
+  entry: CollectionEntry<"pages">;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+
+/**
+ * Colonne éditoriale à 760 px par défaut. Les pages qui portent des colonnes,
+ * une grille tarifaire ou un embed pleine largeur (le calendrier Claudy des
+ * disponibilités) prennent toute la largeur du site : les serrer les casserait.
+ */
+const body = entry.body ?? "";
+const wide =
+  /<!--\s*columns/.test(body) ||
+  /^[ \t]*\|/m.test(body) ||
+  /<table/i.test(body) ||
+  /embed-iframe|embed-tally|embed-form/.test(body);
+
+// Fil d'Ariane dérivé du chemin réel (une page profonde = un fil d'Ariane).
+const segments = pathOf(entry).split("/").filter(Boolean);
+// Libellés des sections du site actuel ; à défaut, le segment est humanisé (majuscule, tirets → espaces).
+const CRUMB_LABELS: Record<string, string> = {
+  sejours: "Séjours",
+  "hebergements-yvoir": "Hébergements",
+  evenements: "Événements",
+  catalogue: "Catalogue",
+  collectif: "Collectif",
+  projets: "Projets",
+  "a-propos": "À propos",
+  agenda: "Agenda",
+};
+const humanise = (seg: string) => {
+  const s = seg.replace(/-/g, " ");
+  return s.charAt(0).toUpperCase() + s.slice(1);
+};
+const crumbs = [
+  { label: "Accueil", href: "/" },
+  ...segments.map((seg, i) => ({
+    label: i === segments.length - 1 ? d.title : (CRUMB_LABELS[seg] ?? humanise(seg)),
+    href: `/${segments.slice(0, i + 1).join("/")}`,
+  })),
+];
+
+const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
+const jsonld =
+  crumbs.length > 2
+    ? [breadcrumbs(crumbs.map((c) => ({ name: c.label, url: `${siteUrl}${c.href}` })))]
+    : [];
+---
+
+<BaseLayout
+  title={d.seoTitle ?? d.title}
+  description={d.description}
+  ogImage={d.cover ?? d.ogImage}
+  noindex={d.noindex}
+  jsonld={jsonld}
+>
+  <PageHero
+    title={d.title}
+    lead={d.generatedDescription ? undefined : d.description}
+    cover={d.cover}
+    coverAlt={d.coverAlt}
+    icon={d.icon}
+    pole={d.pole}
+    crumbs={crumbs}
+    narrow={!wide}
+  />
+
+  <Section narrow={!wide} class="pt-10">
+    {/* Les embeds sont rendus À LEUR PLACE dans le corps Markdown (voir
+        scripts/migrate/lib/transform.ts) — ne pas les répéter ici. */}
+    <Prose width={wide ? "full" : "prose"}><Content /></Prose>
+  </Section>
+</BaseLayout>

@@ -1,0 +1,205 @@
+{
+  "path": "/evenements/stage-low-tech-construis-ta-cuisinire",
+  "slug": "evenements__stage-low-tech-construis-ta-cuisinire",
+  "rootIsCollection": false,
+  "title": "🔥Stage low-tech : construis ta cuisinière !",
+  "metaDescription": "Nouvel événement passionnant avec facilitateur·rice. Logement sur place disponible. Contactez-nous pour plus d'informations.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c6fe4999-4b68-4dcc-848c-cf406e03150e/evenement_gnral__a_-1/public",
+  "ogTitle": "🔥Stage low-tech : construis ta cuisinière !",
+  "ogUrl": "https://www.les4sources.be/evenements/stage-low-tech-construis-ta-cuisinire",
+  "canonical": null,
+  "h1": "🔥Stage low-tech : construis ta cuisinière !",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c6fe4999-4b68-4dcc-848c-cf406e03150e/evenement_gnral__a_-1/public",
+    "localPath": "images/evenements__stage-low-tech-construis-ta-cuisinire/01-evenement_gnral__a_-1.jpg"
+  },
+  "pageIcon": "🍳",
+  "properties": {
+    "Date": "2026-08-20 → 2026-08-22",
+    "Horaires": "9h-18h",
+    "Type d'événement": "Formation",
+    "Thématique": "Artisanat",
+    "Date (fr)": "du 20 au 22 août",
+    "Participants": "6",
+    "Tarif": "€485.00",
+    "Date de création": "Apr 16, 2026 9:20 AM",
+    "Statut site web": "Publié",
+    "super:description": "Nouvel événement passionnant avec facilitateur·rice. Logement sur place disponible. Contactez-nous pour plus d'informations.",
+    "super:slug": "/construis-ta-cuisinière-août"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-stage-low-tech-construis-ta-cuisinire",
+    "blockId": "3440d149-3317-8089-a5c9-c06acd57d2bf",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/stage-low-tech-construis-ta-cuisinire",
+    "createdTime": "2026-04-16T09:20:58.229Z",
+    "lastEditedTime": "2026-07-09T09:37:50.075Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "🔥Stage low-tech : construis ta cuisinière !",
+      "href": "/evenements/stage-low-tech-construis-ta-cuisinire",
+      "icon": "🍳"
+    }
+  ],
+  "contentHtml": "<h1 id=\"block-3440d149331780ca9c0df9ad228416e6\" class=\"notion-heading notion-semantic-string\"><strong>Trois journées - 20, 21 et 22 août - pour construire et tester ta cuisinière, s’initier aux&nbsp;low-techs et au travail du métal.</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-ad8c0521bd00471e958b75a6a56f013c\" class=\"notion-list-item notion-semantic-string\">Initiation à la soudure et à la construction métallique</li><li id=\"block-5d9f1008a8a1482d8b0efeb89001cfac\" class=\"notion-list-item notion-semantic-string\">Convivialité et repas : auberge espagnole le jeudi midi, pizza party privée le vendredi soir 🍕</li></ul><p id=\"block-138a4e9861c64dde9a2a87ab32b6b455\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Tu repars avec ta propre cuisinière au terme des 3 journées d’apprentissage </strong>🔥</p><p id=\"block-3930d149331780938da9c770265a256b\" class=\"notion-text notion-text__content notion-semantic-string\">⚠️<span class=\"highlighted-color color-red\"> </span><span class=\"highlighted-color color-red\"><strong>Attention, plus qu’une seule place disponible ! </strong></span></p><h1 id=\"block-2293896f5b4f493091d0ce1bdb9b8097\" class=\"notion-heading notion-semantic-string\"><strong>Choisis parmi 2 modèles de cuisinière</strong></h1><h1 id=\"block-1a22b66f7e2c4d5395bee60a7470596e\" class=\"notion-heading notion-semantic-string\"><strong>👉🏻 La Bonbonne : une cuisinière réalisée au départ d'une bonbonne de gaz…</strong></h1><p id=\"block-a3f6f9821c1e495da7d5d1fe222c72cc\" class=\"notion-text notion-text__content notion-semantic-string\">Capot ouvert, elle permet de mettre à chauffer une grande casserole ou 2 petites. \nCapot fermé, elle se transforme en four d'un volume d'environ 15L, permettant d'utiliser les grands plats pour four standards (L 39cm, l 25 cm)</p><p id=\"block-453e75d92ba04122a8cf0e57442d5fe7\" class=\"notion-text notion-text__content notion-semantic-string\">ou…</p><div id=\"block-3440d149331780959756c98a742fb57b\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/35c1b7b1-8741-40b2-bdd8-b820d5e23bdd/newsletter_-2/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/35c1b7b1-8741-40b2-bdd8-b820d5e23bdd/newsletter_-2/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/35c1b7b1-8741-40b2-bdd8-b820d5e23bdd/newsletter_-2/public\"></span></div><h1 id=\"block-908657992df440e68ab23016ca324e9c\" class=\"notion-heading notion-semantic-string\"><strong>👉🏻 La Nomade : une cuisinière compacte.</strong></h1><p id=\"block-70650a2cbe5e4516961ebef3a8d4fc15\" class=\"notion-text notion-text__content notion-semantic-string\">Elle permet de réchauffer simultanément : sur le dessus, une petite casserole, et dans le tiroir four, un petit plat pour four standard (L 27cm, l 17 cm). Sa compacité permet de la déplacer facilement.</p><div id=\"block-3440d149331780428494d1eefe5bd67f\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6be52681-1d4d-40f2-8702-c6cf10481c88/newsletter_-3/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6be52681-1d4d-40f2-8702-c6cf10481c88/newsletter_-3/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6be52681-1d4d-40f2-8702-c6cf10481c88/newsletter_-3/public\"></span></div><p id=\"block-5ac44b0ba93040a39de1b09953995799\" class=\"notion-text notion-text__content notion-semantic-string\">💡 <em>Ces 2 modèles disposent d'un four et permettent d'utiliser votre batterie de cuisine habituelle sans les noircir (pas de contact entre la flamme et les casseroles).</em></p><h1 id=\"block-5a2c2939c8fe418eb0da960ac7c1bf12\" class=\"notion-heading notion-semantic-string\"><strong>Participation</strong></h1><p id=\"block-2d29702e7cc04f698b08db89fcc196ff\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>485 € pour les trois journées</strong>, tout compris :</p><ul class=\"notion-bulleted-list\"><li id=\"block-09001bf9ed69426c97e28ec7a94653a0\" class=\"notion-list-item notion-semantic-string\">l’encadrement et l’accompagnement par 2 artisans en ferronnerie et menuiserie ⚡</li><li id=\"block-cfcb814f38ac4692a338a7450ba1d810\" class=\"notion-list-item notion-semantic-string\">les 2 nuitées aux 4 Sources 💫</li><li id=\"block-94ccd3e26e6f4fa28cd830de92793eb0\" class=\"notion-list-item notion-semantic-string\">les repas frais préparés par la Cuisine des 4 Sources et la Pizza Party privée 🥪</li><li id=\"block-7f67dc9d8afd44748fa9ba331ae2b5a0\" class=\"notion-list-item notion-semantic-string\">les collations 🥠 le café et la tisane à volonté 🍵</li><li id=\"block-e9bbd2260ccc466c908e07a53f5a368b\" class=\"notion-list-item notion-semantic-string\">les fournitures pour ta cuisinière 🔨</li></ul><div id=\"block-3440d149331780b5ab4ad59d6af82c28\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/stage-low-tech-cuisiniere-aout\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">💛</span></div><span class=\"notion-semantic-string\">Merveilleux, je m'inscris ! </span></a></div><div id=\"block-92747243a222479cbcc450f090049d23\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/41e82ec7-ad4e-4dae-92ad-07deba1c47a3/img-20250316-wa0010/w=1920,quality=90,fit=scale-down\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/41e82ec7-ad4e-4dae-92ad-07deba1c47a3/img-20250316-wa0010/w=1920,quality=90,fit=scale-down\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/41e82ec7-ad4e-4dae-92ad-07deba1c47a3/img-20250316-wa0010/public\"></span></div><p id=\"block-15a6018d2be141be8ec323d45ca28250\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Café, tisane, fruits et biscuits !</strong></p><div id=\"block-3440d149331780b781fde6a5650f8f2b\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/03a8fa79-1915-47a7-9087-55986567cd9f/1000022095/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/03a8fa79-1915-47a7-9087-55986567cd9f/1000022095/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/03a8fa79-1915-47a7-9087-55986567cd9f/1000022095/public\"></span></div><p id=\"block-3440d1493317800c8690f8509c64e358\" class=\"notion-text notion-text__content notion-semantic-string\"><em>Nos heureux participants du stage d’avril !</em></p><h1 id=\"block-3a3318c96276454b947601c0e7d1ce59\" class=\"notion-heading notion-semantic-string\"><strong>Inscription</strong></h1><div id=\"block-3440d1493317803281b1fdd85f09d5fd\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/stage-low-tech-cuisiniere-aout\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">💛</span></div><span class=\"notion-semantic-string\">Merveilleux, je m'inscris ! </span></a></div><h1 id=\"block-9732c4049f804b6c97dd3a8acc5ee2fd\" class=\"notion-heading notion-semantic-string\"><strong>Hébergement</strong></h1><div id=\"block-3440d1493317802b94bee44a0b9714ff\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/22c2d9dd-2920-4478-87d9-855772610347/newsletter_-6/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/22c2d9dd-2920-4478-87d9-855772610347/newsletter_-6/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/22c2d9dd-2920-4478-87d9-855772610347/newsletter_-6/public\"></span></div><p id=\"block-769d5b3c9e104d55aa77b891f83266af\" class=\"notion-text notion-text__content notion-semantic-string\">Tu logeras en chambre partagée aux 4 Sources avec l’ensemble du groupe, l’idéal pour faire connaissance et continuer à partager des idées et connaissances jusqu’en soirée.</p><p id=\"block-1e818e97255d4b48abf56ec8e35eeded\" class=\"notion-text notion-text__content notion-semantic-string\">L’hébergement comprend 2 chambres de 4 lits (prévois tes draps de lit), avec une salle de douche par chambre.</p><h1 id=\"block-4f87a18596064d03be34115cefa90454\" class=\"notion-heading notion-semantic-string\"><strong>Repas</strong></h1><div id=\"block-3440d149331780298875ef5166a7b60d\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9cff119c-f90e-442a-9258-a42ff64d59e1/newsletter_-4/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9cff119c-f90e-442a-9258-a42ff64d59e1/newsletter_-4/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9cff119c-f90e-442a-9258-a42ff64d59e1/newsletter_-4/public\"></span></div><p id=\"block-8ef6aeec56674ff1a5d5fcac3455f03f\" class=\"notion-text notion-text__content notion-semantic-string\">En dehors de l’auberge espagnole et de la Pizza Party privée, les repas sont végétariens et préparés par Stéphanie dans la Cuisine des 4 Sources. Des produits ultra-frais, des plats colorés et du bon pain, que demander de plus ? Mais oui bien sûr : une délicieuse collation pour le milieu d’après-midi ! 🙂</p><h1 id=\"block-3fead5d71fe149f7a23f0d1aeb209910\" class=\"notion-heading notion-semantic-string\"><strong>En pratique</strong></h1><p id=\"block-81e7d782abdb45b1a16cb06a883e9823\" class=\"notion-text notion-text__content notion-semantic-string\">👥 Maximum 6 participants</p><p id=\"block-d0186b02e39e4bf0bbd13e353d511b23\" class=\"notion-text notion-text__content notion-semantic-string\">⏰ Horaire des journées :</p><ul class=\"notion-bulleted-list\"><li id=\"block-15b3eb774d6443eaa8c5fb5938049b39\" class=\"notion-list-item notion-semantic-string\">Le jeudi de 9h à 18h</li><li id=\"block-084052f251e64b278eed6b104e64cc88\" class=\"notion-list-item notion-semantic-string\">Le vendredi de 9h à 18h</li><li id=\"block-9e510e23b1e145e28a0c92d6f7c71d70\" class=\"notion-list-item notion-semantic-string\">Le samedi de 9h à 18h</li></ul><p id=\"block-534624b5c6604c17950564c58d626611\" class=\"notion-text notion-text__content notion-semantic-string\">🧳 À prévoir :</p><ul class=\"notion-bulleted-list\"><li id=\"block-6d8c6a26bf2447289feb1462a084092e\" class=\"notion-list-item notion-semantic-string\">Un plat à partager pour l’auberge espagnole du jeudi midi 🧀</li><li id=\"block-7fea83f88ebe489c85032484a9a9dd9d\" class=\"notion-list-item notion-semantic-string\">Des vêtements adaptés à la météo ☔</li><li id=\"block-b522ddf43a01488da96c6b48c6a75e18\" class=\"notion-list-item notion-semantic-string\">Ton set de draps de lit pour un lit simple 🛌🏻</li><li id=\"block-37a956eef2684a8cb1d3dec280bfee19\" class=\"notion-list-item notion-semantic-string\">Une boisson sympa à partager jeudi soir 🧉</li></ul><div id=\"block-3440d149331780b4a201d626839f3052\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/stage-low-tech-cuisiniere-aout\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">💛</span></div><span class=\"notion-semantic-string\">Merveilleux, je m'inscris ! </span></a></div><h1 id=\"block-3440d149331780c1b98ffbda038ada9d\" class=\"notion-heading notion-semantic-string\">Facilitateur·rice</h1><p id=\"block-0b0eb3b835964a34bc138ec1df602af9\" class=\"notion-text notion-text__content notion-semantic-string\">2 artisan-es passionné-es par la ferronnerie et les low-techs, qui ont la transmission dans le sang !</p><p id=\"block-eb9f365a6dc04f628efda6027143c82d\" class=\"notion-text notion-text__content notion-semantic-string\"><em>Sébastien et Magali, tous deux membres des 4 Sources</em></p><div id=\"block-3440d149331780869c3dcf4731319461\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2a1e52ad-3335-48ef-8f7f-ca47b0fa7939/newsletter_-5/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2a1e52ad-3335-48ef-8f7f-ca47b0fa7939/newsletter_-5/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2a1e52ad-3335-48ef-8f7f-ca47b0fa7939/newsletter_-5/public\"></span></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div><div id=\"block-3440d149331780f9a62dc63b8d676ea6\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💁</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"><strong>Envie de loger sur place avant ou après l’événement ?</strong> Fais-nous part de ta demande à <a href=\"mailto:contact@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">contact@les4sources.be</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c6fe4999-4b68-4dcc-848c-cf406e03150e/evenement_gnral__a_-1/public",
+      "alt": "🔥Stage low-tech : construis ta cuisinière !",
+      "role": "cover",
+      "localPath": "images/evenements__stage-low-tech-construis-ta-cuisinire/01-evenement_gnral__a_-1.jpg",
+      "shared": false,
+      "bytes": 168669
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/35c1b7b1-8741-40b2-bdd8-b820d5e23bdd/newsletter_-2/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/57a64a1c0093-newsletter_-2.jpg",
+      "shared": true,
+      "bytes": 168514
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6be52681-1d4d-40f2-8702-c6cf10481c88/newsletter_-3/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/1c714d234264-newsletter_-3.jpg",
+      "shared": true,
+      "bytes": 188188
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/41e82ec7-ad4e-4dae-92ad-07deba1c47a3/img-20250316-wa0010/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/33d5cc562b03-img-20250316-wa0010.jpg",
+      "shared": true,
+      "bytes": 281155
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/03a8fa79-1915-47a7-9087-55986567cd9f/1000022095/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/133ec18a58ce-1000022095.jpg",
+      "shared": true,
+      "bytes": 286949
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/22c2d9dd-2920-4478-87d9-855772610347/newsletter_-6/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/fc2961260a44-newsletter_-6.jpg",
+      "shared": true,
+      "bytes": 119959
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9cff119c-f90e-442a-9258-a42ff64d59e1/newsletter_-4/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/da6e659005ff-newsletter_-4.jpg",
+      "shared": true,
+      "bytes": 179788
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2a1e52ad-3335-48ef-8f7f-ca47b0fa7939/newsletter_-5/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/f03a52265c7d-newsletter_-5.jpg",
+      "shared": true,
+      "bytes": 179931
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.billetweb.fr/stage-low-tech-cuisiniere-aout",
+    "mailto:contact@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 471,
+  "fetchedAt": "2026-09-07T21:17:42.945Z",
+  "markdown": "## **Trois journées - 20, 21 et 22 août - pour construire et tester ta cuisinière, s’initier aux low-techs et au travail du métal.**\n\n- Initiation à la soudure et à la construction métallique\n- Convivialité et repas : auberge espagnole le jeudi midi, pizza party privée le vendredi soir 🍕\n\n**Tu repars avec ta propre cuisinière au terme des 3 journées d’apprentissage** 🔥\n\n⚠️ **Attention, plus qu’une seule place disponible !**\n\n## **Choisis parmi 2 modèles de cuisinière**\n\n## **👉🏻 La Bonbonne : une cuisinière réalisée au départ d'une bonbonne de gaz…**\n\nCapot ouvert, elle permet de mettre à chauffer une grande casserole ou 2 petites. Capot fermé, elle se transforme en four d'un volume d'environ 15L, permettant d'utiliser les grands plats pour four standards (L 39cm, l 25 cm)\n\nou…\n\n![image](images/_shared/57a64a1c0093-newsletter_-2.jpg)\n\n## **👉🏻 La Nomade : une cuisinière compacte.**\n\nElle permet de réchauffer simultanément : sur le dessus, une petite casserole, et dans le tiroir four, un petit plat pour four standard (L 27cm, l 17 cm). Sa compacité permet de la déplacer facilement.\n\n![image](images/_shared/1c714d234264-newsletter_-3.jpg)\n\n💡 *Ces 2 modèles disposent d'un four et permettent d'utiliser votre batterie de cuisine habituelle sans les noircir (pas de contact entre la flamme et les casseroles).*\n\n## **Participation**\n\n**485 € pour les trois journées**, tout compris :\n\n- l’encadrement et l’accompagnement par 2 artisans en ferronnerie et menuiserie ⚡\n- les 2 nuitées aux 4 Sources 💫\n- les repas frais préparés par la Cuisine des 4 Sources et la Pizza Party privée 🥪\n- les collations 🥠 le café et la tisane à volonté 🍵\n- les fournitures pour ta cuisinière 🔨\n\n[💛 Merveilleux, je m'inscris !](https://www.billetweb.fr/stage-low-tech-cuisiniere-aout){.button}\n\n![image](images/_shared/33d5cc562b03-img-20250316-wa0010.jpg)\n\n**Café, tisane, fruits et biscuits !**\n\n![image](images/_shared/133ec18a58ce-1000022095.jpg)\n\n*Nos heureux participants du stage d’avril !*\n\n## **Inscription**\n\n[💛 Merveilleux, je m'inscris !](https://www.billetweb.fr/stage-low-tech-cuisiniere-aout){.button}\n\n## **Hébergement**\n\n![image](images/_shared/fc2961260a44-newsletter_-6.jpg)\n\nTu logeras en chambre partagée aux 4 Sources avec l’ensemble du groupe, l’idéal pour faire connaissance et continuer à partager des idées et connaissances jusqu’en soirée.\n\nL’hébergement comprend 2 chambres de 4 lits (prévois tes draps de lit), avec une salle de douche par chambre.\n\n## **Repas**\n\n![image](images/_shared/da6e659005ff-newsletter_-4.jpg)\n\nEn dehors de l’auberge espagnole et de la Pizza Party privée, les repas sont végétariens et préparés par Stéphanie dans la Cuisine des 4 Sources. Des produits ultra-frais, des plats colorés et du bon pain, que demander de plus ? Mais oui bien sûr : une délicieuse collation pour le milieu d’après-midi ! 🙂\n\n## **En pratique**\n\n👥 Maximum 6 participants\n\n⏰ Horaire des journées :\n\n- Le jeudi de 9h à 18h\n- Le vendredi de 9h à 18h\n- Le samedi de 9h à 18h\n\n🧳 À prévoir :\n\n- Un plat à partager pour l’auberge espagnole du jeudi midi 🧀\n- Des vêtements adaptés à la météo ☔\n- Ton set de draps de lit pour un lit simple 🛌🏻\n- Une boisson sympa à partager jeudi soir 🧉\n\n[💛 Merveilleux, je m'inscris !](https://www.billetweb.fr/stage-low-tech-cuisiniere-aout){.button}\n\n## Facilitateur·rice\n\n2 artisan-es passionné-es par la ferronnerie et les low-techs, qui ont la transmission dans le sang !\n\n*Sébastien et Magali, tous deux membres des 4 Sources*\n\n![image](images/_shared/f03a52265c7d-newsletter_-5.jpg)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n\n> 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [contact@les4sources.be](mailto:contact@les4sources.be).\n",
+  "extractedAt": "2026-09-07T21:41:44.478Z"
+}

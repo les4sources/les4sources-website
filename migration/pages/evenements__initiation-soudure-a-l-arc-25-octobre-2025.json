@@ -1,0 +1,227 @@
+{
+  "path": "/evenements/initiation-soudure-a-l-arc-25-octobre-2025",
+  "slug": "evenements__initiation-soudure-a-l-arc-25-octobre-2025",
+  "rootIsCollection": false,
+  "title": "Initiation à la soudure à l’arc",
+  "metaDescription": "→ Session du 25 octobre 2025 (9h-12h30)",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2f076736-f84b-47b8-b2e8-1d0e42d1140b/soudure/public",
+  "ogTitle": "Initiation à la soudure à l’arc",
+  "ogUrl": "https://www.les4sources.be/evenements/initiation-soudure-a-l-arc-25-octobre-2025",
+  "canonical": null,
+  "h1": "Initiation à la soudure à l’arc",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2f076736-f84b-47b8-b2e8-1d0e42d1140b/soudure/public",
+    "localPath": "images/evenements__initiation-soudure-a-l-arc-25-octobre-2025/01-soudure.jpg"
+  },
+  "pageIcon": "🗓️",
+  "properties": {
+    "Date": "2025-10-25",
+    "Horaires": "9h-12h30",
+    "Type d'événement": "Formation",
+    "Thématique": "Artisanat",
+    "Date (fr)": "25 octobre 2025",
+    "Tarif": "€80.00",
+    "Date de création": "Jul 9, 2025 12:11 PM",
+    "super:slug": "initiation-soudure-a-l-arc-25-octobre-2025"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-initiation-soudure-a-l-arc-25-octobre-2025",
+    "blockId": "22b0d149-3317-80fd-8dfc-da4b06d99cb2",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/initiation-soudure-a-l-arc-25-octobre-2025",
+    "createdTime": "2025-07-09T12:11:51.757Z",
+    "lastEditedTime": "2025-10-09T10:23:50.244Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements"
+    },
+    {
+      "label": "Initiation à la soudure à l’arc",
+      "href": "/evenements/initiation-soudure-a-l-arc-25-octobre-2025",
+      "icon": "🗓️"
+    }
+  ],
+  "contentHtml": "<p id=\"block-2450d14933178046a318f1c11158ac53\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>→ Session du 25 octobre 2025 (9h-12h30)</strong></p><h1 id=\"block-22b0d14933178022aa08fece05a29508\" class=\"notion-heading notion-semantic-string\"><strong>Objectifs</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-22b0d1493317806cabc3fb76a120e33b\" class=\"notion-list-item notion-semantic-string\">découvrir le poste à souder MMA (soudure à l'électrode enrobée), le matériel associé, les normes de sécurité, les principes de base de cette soudure (l'arc électrique, l'électrode, les bons gestes) ;</li><li id=\"block-22b0d1493317807e9c54fb40e0e08f64\" class=\"notion-list-item notion-semantic-string\">expérimenter l'amorçage, le cordon à plat, le cordon en angle ;</li><li id=\"block-22b0d1493317806a8e5adfe1c6519706\" class=\"notion-list-item notion-semantic-string\">être conseillé pour l'acquisition de son matériel personnel.<!-- --></li></ul><h1 id=\"block-22b0d1493317805dae27e1bce5f13e74\" class=\"notion-heading notion-semantic-string\"><strong>Déroulement</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-22b0d14933178003ad07d5b356ac6118\" class=\"notion-list-item notion-semantic-string\">alternance de temps de transmission théorique et de temps d'expérimentation à l'atelier ;</li><li id=\"block-22b0d149331780d2a4f7d1b9e6b2ba64\" class=\"notion-list-item notion-semantic-string\">l'intention est de transmettre un maximum de choses par l'expérimentation.</li></ul><p id=\"block-22b0d14933178003b140cac93e82890d\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Prérequis :&nbsp;</strong>aucun</p><p id=\"block-22b0d149331780dcb830dafe5901ef96\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Âge :&nbsp;</strong>autour de 10 à 110 ans</p><h1 id=\"block-22b0d149331780c89b2ae0bae0fb3a8e\" class=\"notion-heading notion-semantic-string\"><strong>Inscription et tarifs</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-22b0d1493317800cbd84f0d25b4dc484\" class=\"notion-list-item notion-semantic-string\">Tarif: 80 € par participant</li><li id=\"block-22b0d149331780e4ab34ecd39f499b21\" class=\"notion-list-item notion-semantic-string\"><a href=\"https://les4sources.punchpass.com/classes/17827252\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">Inscription et paiement en ligne </a></li></ul><h2 id=\"block-22b0d14933178070ae5adb7a6964bb5d\" class=\"notion-heading notion-semantic-string\"><strong>Équipement de protection individuel à emporter</strong></h2><ul class=\"notion-bulleted-list\"><li id=\"block-22b0d1493317803ea267c1630d2fca40\" class=\"notion-list-item notion-semantic-string\">vêtements de travail non synthétiques (pas de short)</li><li id=\"block-22b0d149331780238d94d510fe2f42a7\" class=\"notion-list-item notion-semantic-string\">chaussures de sécurité ou à défaut chaussures fermées de type bottines</li><li id=\"block-22b0d149331780d2989fcde6368a001b\" class=\"notion-list-item notion-semantic-string\">protections auditives (bouchons d'oreilles disponibles)</li><li id=\"block-22b0d1493317806185b0e7f42a8eec96\" class=\"notion-list-item notion-semantic-string\">gants, masques et EPI spécifiques disponibles en prêt</li></ul><h1 id=\"block-22b0d1493317808cb73efb145ecf28b6\" class=\"notion-heading notion-semantic-string\">Instructeur</h1><ul class=\"notion-bulleted-list\"><li id=\"block-22b0d149331780bdbd4df198512f6930\" class=\"notion-list-item notion-semantic-string\">Sébastien Frennet, membre des 4 Sources</li></ul><h1 id=\"block-2450d149331780778e62d538a3ebe3a0\" class=\"notion-heading notion-semantic-string\">Autres dates</h1><div id=\"block-2450d149331780349e92e4974dbc1a9b\" class=\"notion-collection inline\"><div class=\"notion-collection-gallery no-border-top medium\"><div id=\"block-evenements-initiation-soudure-a-l-arc-25-octobre-2025\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-initiation-soudure-a-l-arc-25-octobre-2025\" href=\"/evenements/initiation-soudure-a-l-arc-25-octobre-2025\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/initiation-soudure-a-l-arc-25-octobre-2025\">Initiation à la soudure à l’arc </a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2f076736-f84b-47b8-b2e8-1d0e42d1140b/soudure/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2f076736-f84b-47b8-b2e8-1d0e42d1140b/soudure/public\"><img alt=\"Initiation à la soudure à l’arc \" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2f076736-f84b-47b8-b2e8-1d0e42d1140b/soudure/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Initiation à la soudure à l’arc </div><p class=\"notion-property notion-property__text property-63695c60 notion-collection-card__property notion-semantic-string\">25 octobre 2025</p><div class=\"notion-property notion-property__select wrap property-77487c40 notion-collection-card__property\"><span class=\"notion-pill pill-orange first\">Formation</span></div></div></div><div id=\"block-evenements-initiation-soudure-a-l-arc-22-novembre-2025\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-initiation-soudure-a-l-arc-22-novembre-2025\" href=\"/evenements/initiation-soudure-a-l-arc-22-novembre-2025\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/initiation-soudure-a-l-arc-22-novembre-2025\">Initiation à la soudure à l’arc </a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d8005796-ffd3-4f3e-ae33-a907db1df899/soudure/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d8005796-ffd3-4f3e-ae33-a907db1df899/soudure/public\"><img alt=\"Initiation à la soudure à l’arc \" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d8005796-ffd3-4f3e-ae33-a907db1df899/soudure/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Initiation à la soudure à l’arc </div><p class=\"notion-property notion-property__text property-63695c60 notion-collection-card__property notion-semantic-string\">22 novembre 2025</p><div class=\"notion-property notion-property__select wrap property-77487c40 notion-collection-card__property\"><span class=\"notion-pill pill-orange first\">Formation</span></div></div></div><div id=\"block-evenements-initiation-soudure-a-l-arc-6-septembre-2025\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-initiation-soudure-a-l-arc-6-septembre-2025\" href=\"/evenements/initiation-soudure-a-l-arc-6-septembre-2025\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/initiation-soudure-a-l-arc-6-septembre-2025\">Initiation à la soudure à l’arc</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0395ec36-f3e1-4d74-80c5-4ef960568580/soudure/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0395ec36-f3e1-4d74-80c5-4ef960568580/soudure/public\"><img alt=\"Initiation à la soudure à l’arc\" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0395ec36-f3e1-4d74-80c5-4ef960568580/soudure/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Initiation à la soudure à l’arc</div><p class=\"notion-property notion-property__text property-63695c60 notion-collection-card__property notion-semantic-string\">13 décembre 2025</p><div class=\"notion-property notion-property__select wrap property-77487c40 notion-collection-card__property\"><span class=\"notion-pill pill-orange first\">Formation</span></div></div></div></div></div><div id=\"block-22b0d1493317803da7c3ecdccbd25455\" class=\"notion-callout bg-gray-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2f076736-f84b-47b8-b2e8-1d0e42d1140b/soudure/public",
+      "alt": "Initiation à la soudure à l’arc",
+      "role": "cover",
+      "localPath": "images/evenements__initiation-soudure-a-l-arc-25-octobre-2025/01-soudure.jpg",
+      "shared": false,
+      "bytes": 119415
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d8005796-ffd3-4f3e-ae33-a907db1df899/soudure/public",
+      "alt": "Initiation à la soudure à l’arc",
+      "role": "content",
+      "localPath": "images/_shared/4955d9bdc341-soudure.jpg",
+      "shared": true,
+      "bytes": 119415
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0395ec36-f3e1-4d74-80c5-4ef960568580/soudure/public",
+      "alt": "Initiation à la soudure à l’arc",
+      "role": "content",
+      "localPath": "images/evenements__initiation-soudure-a-l-arc-25-octobre-2025/03-soudure.png",
+      "shared": false,
+      "bytes": 371066
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/evenements/initiation-soudure-a-l-arc-25-octobre-2025",
+    "/evenements/initiation-soudure-a-l-arc-22-novembre-2025",
+    "/evenements/initiation-soudure-a-l-arc-6-septembre-2025",
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://les4sources.punchpass.com/classes/17827252"
+  ],
+  "collections": [
+    {
+      "id": "2450d149331780349e92e4974dbc1a9b",
+      "title": "Événements",
+      "source": {
+        "id": "evenements",
+        "uri": "/evenements",
+        "title": "Événements",
+        "inferred": true
+      },
+      "view": "Galerie",
+      "views": [
+        "Galerie"
+      ],
+      "layout": "gallery",
+      "grouped": false,
+      "items": [
+        {
+          "title": "Initiation à la soudure à l’arc",
+          "href": "/evenements/initiation-soudure-a-l-arc-25-octobre-2025",
+          "icon": "🗓️",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2f076736-f84b-47b8-b2e8-1d0e42d1140b/soudure/public",
+          "props": [
+            "25 octobre 2025",
+            "Formation"
+          ],
+          "properties": {
+            "Date": "2025-10-25",
+            "Horaires": "9h-12h30",
+            "Type d'événement": "Formation",
+            "Thématique": "Artisanat",
+            "Date (fr)": "25 octobre 2025",
+            "Tarif": "€80.00",
+            "Date de création": "Jul 9, 2025 12:11 PM",
+            "super:slug": "initiation-soudure-a-l-arc-25-octobre-2025"
+          },
+          "coverLocalPath": "images/evenements__initiation-soudure-a-l-arc-25-octobre-2025/01-soudure.jpg"
+        },
+        {
+          "title": "Initiation à la soudure à l’arc",
+          "href": "/evenements/initiation-soudure-a-l-arc-22-novembre-2025",
+          "icon": "🗓️",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d8005796-ffd3-4f3e-ae33-a907db1df899/soudure/public",
+          "props": [
+            "22 novembre 2025",
+            "Formation"
+          ],
+          "properties": {
+            "Date (fr)": "22 novembre 2025",
+            "Type d'événement": "Formation"
+          },
+          "coverLocalPath": "images/_shared/4955d9bdc341-soudure.jpg"
+        },
+        {
+          "title": "Initiation à la soudure à l’arc",
+          "href": "/evenements/initiation-soudure-a-l-arc-6-septembre-2025",
+          "icon": "🗓️",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0395ec36-f3e1-4d74-80c5-4ef960568580/soudure/public",
+          "props": [
+            "13 décembre 2025",
+            "Formation"
+          ],
+          "properties": {
+            "Date (fr)": "13 décembre 2025",
+            "Type d'événement": "Formation"
+          },
+          "coverLocalPath": "images/evenements__initiation-soudure-a-l-arc-25-octobre-2025/03-soudure.png"
+        }
+      ]
+    }
+  ],
+  "wordCount": 187,
+  "fetchedAt": "2026-09-07T21:17:36.451Z",
+  "markdown": "**→ Session du 25 octobre 2025 (9h-12h30)**\n\n## **Objectifs**\n\n- découvrir le poste à souder MMA (soudure à l'électrode enrobée), le matériel associé, les normes de sécurité, les principes de base de cette soudure (l'arc électrique, l'électrode, les bons gestes) ;\n- expérimenter l'amorçage, le cordon à plat, le cordon en angle ;\n- être conseillé pour l'acquisition de son matériel personnel.\n\n## **Déroulement**\n\n- alternance de temps de transmission théorique et de temps d'expérimentation à l'atelier ;\n- l'intention est de transmettre un maximum de choses par l'expérimentation.\n\n**Prérequis :** aucun\n\n**Âge :** autour de 10 à 110 ans\n\n## **Inscription et tarifs**\n\n- Tarif: 80 € par participant\n- [Inscription et paiement en ligne](https://les4sources.punchpass.com/classes/17827252)\n\n### **Équipement de protection individuel à emporter**\n\n- vêtements de travail non synthétiques (pas de short)\n- chaussures de sécurité ou à défaut chaussures fermées de type bottines\n- protections auditives (bouchons d'oreilles disponibles)\n- gants, masques et EPI spécifiques disponibles en prêt\n\n## Instructeur\n\n- Sébastien Frennet, membre des 4 Sources\n\n## Autres dates\n\n<!-- collection \"Événements\" view=\"Galerie\" layout=\"gallery\" -->\n- [🗓️ Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-25-octobre-2025) — 25 octobre 2025 · Formation\n- [🗓️ Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-22-novembre-2025) — 22 novembre 2025 · Formation\n- [🗓️ Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-6-septembre-2025) — 13 décembre 2025 · Formation\n<!-- /collection -->\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.417Z"
+}

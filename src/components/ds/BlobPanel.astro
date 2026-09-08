@@ -1,0 +1,77 @@
+---
+/**
+ * BlobPanel — motif signature n°1 : une photo, et par-dessus un aplat plein de
+ * la couleur d'un pôle dont le bord intérieur est une courbe douce
+ * (portage de `BlobPanel` dans Surfaces.jsx).
+ *
+ * Un seul pôle par visuel. Le titre est en Averia Bold, à l'intérieur de
+ * l'aplat, et se casse volontiers sur 2 à 5 lignes courtes.
+ * La courbe est un `clip-path: ellipse()` — pas un flou, pas un dégradé.
+ */
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import { pole as resolvePole, type PoleSlug } from "@lib/poles";
+
+interface Props {
+  image?: ImageMetadata | string;
+  imageAlt?: string;
+  pole?: PoleSlug;
+  /** Largeur de l'aplat de couleur ("42%" dans la référence). */
+  width?: string;
+  /** Hauteur du panneau, en pixels ou en valeur CSS. */
+  height?: number | string;
+  align?: "left" | "right";
+  class?: string;
+}
+
+const {
+  image,
+  imageAlt = "",
+  pole,
+  width = "42%",
+  height = 420,
+  align = "left",
+  class: className,
+} = Astro.props;
+
+const p = resolvePole(pole);
+const clip = align === "left" ? "ellipse(100% 78% at 0% 50%)" : "ellipse(100% 78% at 100% 50%)";
+const h = typeof height === "number" ? `${height}px` : height;
+// Le texte est en teal sur tous les aplats sauf l'aplat rouge de l'accueil,
+// comme dans Surfaces.jsx.
+const onPanel = p.slug === "hebergement" ? "text-white" : "text-teal";
+---
+
+<div
+  class:list={["relative w-full overflow-hidden rounded-photo bg-surface", className]}
+  style={`height:${h}`}
+>
+  {
+    image && typeof image !== "string" ? (
+      <Image src={image} alt={imageAlt} class="absolute inset-0 h-full w-full object-cover" />
+    ) : image ? (
+      <img src={image} alt={imageAlt} class="absolute inset-0 h-full w-full object-cover" />
+    ) : null
+  }
+
+  <div
+    class:list={[
+      "absolute top-0 bottom-0 flex items-center",
+      p.classes.bg,
+      align === "left"
+        ? "left-0 justify-start py-8 pr-[22%] pl-10"
+        : "right-0 justify-end py-8 pr-10 pl-[22%]",
+    ]}
+    style={`width:${width};clip-path:${clip};-webkit-clip-path:${clip}`}
+  >
+    <div
+      class:list={[
+        "font-display text-h2 font-bold",
+        onPanel,
+        align === "left" ? "text-left" : "text-right",
+      ]}
+    >
+      <slot />
+    </div>
+  </div>
+</div>

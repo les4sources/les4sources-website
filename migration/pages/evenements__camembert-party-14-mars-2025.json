@@ -1,0 +1,164 @@
+{
+  "path": "/evenements/camembert-party-14-mars-2025",
+  "slug": "evenements__camembert-party-14-mars-2025",
+  "rootIsCollection": false,
+  "title": "Camembert Party 🧀",
+  "metaDescription": "Camembert Party du 14 mars 2025 aux 4 Sources (Yvoir)",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9602f4de-bd27-488b-a869-890a8f77a98b/4/public",
+  "ogTitle": "Camembert Party 🧀",
+  "ogUrl": "https://www.les4sources.be/evenements/camembert-party-14-mars-2025",
+  "canonical": null,
+  "h1": "Camembert Party 🧀",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9602f4de-bd27-488b-a869-890a8f77a98b/4/public",
+    "localPath": "images/evenements__camembert-party-14-mars-2025/01-4.jpg"
+  },
+  "pageIcon": "🧀",
+  "properties": {
+    "Date": "2025-03-14",
+    "Horaires": "à partir de 18h30",
+    "Type d'événement": "Pizza Party",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "14 mars 2025",
+    "Participants": "63",
+    "Tarif": "€7.00",
+    "Date de création": "Jan 31, 2025 2:29 PM",
+    "Statut site web": "Publié",
+    "super:description": "Camembert Party du 14 mars 2025 aux 4 Sources (Yvoir)",
+    "super:slug": "camembert-party-14-mars-2025"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-camembert-party-14-mars-2025",
+    "blockId": "18c0d149-3317-8090-831b-fbe06a54c73e",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/camembert-party-14-mars-2025",
+    "createdTime": "2025-01-31T14:29:51.153Z",
+    "lastEditedTime": "2026-01-29T11:14:58.095Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Camembert Party 🧀",
+      "href": "/evenements/camembert-party-14-mars-2025",
+      "icon": "🧀"
+    }
+  ],
+  "contentHtml": "<p id=\"block-18c0d149331781f29b01dd68c43a830f\" class=\"notion-text notion-text__content notion-semantic-string\">Viens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes p’tits légumes préférés ! </p><p id=\"block-18c0d149331781718743f4769b8d2ac5\" class=\"notion-text notion-text__content notion-semantic-string\">Bienvenue <strong>dès 18h30</strong> :</p><ul class=\"notion-bulleted-list\"><li id=\"block-18c0d149331781929a64fdb9aa4a262d\" class=\"notion-list-item notion-semantic-string\"><strong>tu amènes…</strong></li><ul class=\"notion-bulleted-list\"><li id=\"block-18c0d149331781828495f01291046864\" class=\"notion-list-item notion-semantic-string\">🧀 ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre). Tous les fromages coulants sont les bienvenus, et si fromage et toi ne font pas bonne affaire, n’hésite pas à apporter autre chose.</li><li id=\"block-18c0d14933178128bb9bd5672e4c98c4\" class=\"notion-list-item notion-semantic-string\">🍄‍🟫 tes p’tits légumes (inspiration : courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces ou salades froides à manger à côté)</li><li id=\"block-18c0d1493317812ba4fbf850d67ad44c\" class=\"notion-list-item notion-semantic-string\">ton assaisonnement éventuel</li></ul><li id=\"block-18c0d1493317813eb503c8a35c283170\" class=\"notion-list-item notion-semantic-string\"><strong>nous mettons à ta disposition…</strong></li><ul class=\"notion-bulleted-list\"><li id=\"block-18c0d149331781108517f5caa3e83237\" class=\"notion-list-item notion-semantic-string\">de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu</li><li id=\"block-18c0d1493317817c8276d5e22eda12a3\" class=\"notion-list-item notion-semantic-string\">le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage</li><li id=\"block-18c0d149331781df85c0f57e5f87f084\" class=\"notion-list-item notion-semantic-string\">la grande salle (chauffée, bien sûr) des 4 Sources</li></ul></ul><p id=\"block-18c0d149331780099b44e0ae38226ed0\" class=\"notion-text notion-text__content notion-semantic-string\">👍 Le four de boulangerie est chauffé au bois\n👍 Le pain est bio et au levain\n👍 La salle est chauffée 😅\n👍 Et les gens sont super cools !</p><h1 id=\"block-1ad0d14933178004959bd3fe363f1764\" class=\"notion-heading notion-semantic-string\">Et cette fois-ci, c’est zythologie !</h1><div id=\"block-1ad0d149331780fcbba0e8741638c648\" class=\"notion-column-list\"><div id=\"block-1ad0d14933178028a438ddcc22163bea\" class=\"notion-column\" data-width=\"43.8%\"><div id=\"block-1ad0d149331780e6a88ed9d760f526a8\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/56844da5-f875-4d24-994e-cf173899ea87/the-beer-linguist/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/56844da5-f875-4d24-994e-cf173899ea87/the-beer-linguist/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/56844da5-f875-4d24-994e-cf173899ea87/the-beer-linguist/public\"></span></div></div><div id=\"block-1ad0d149331780efa760e41e1406d38f\" class=\"notion-column\" data-width=\"56.3%\"><p id=\"block-1ad0d149331780f99ad5f609bcb6a639\" class=\"notion-text notion-text__content notion-semantic-string\">Mmmmh, un savoureux camembert chauffé au feu de bois ! 🧀 🔥 🪵 Vous pensiez l’accompagner d’un bon vin ? 🍷 Ce 14 mars, Les 4 Sources vous feront encore sortir des sentiers battus en vous proposant d’associer votre fromage coulant avec… une bière ! </p><p id=\"block-1ad0d149331780938745e8c03f22b473\" class=\"notion-text notion-text__content notion-semantic-string\">Nicolas Meulebrouck, aussi appelé The Beer Linguist, zythologue venu tout droit du joyeux village d’Evrehailles, sera présent pour vous guider dans ce choix, pour vous faire vivre une nouvelle expérience gustative 🍻&nbsp;🤓</p><p id=\"block-1ad0d1493317807799a8df3a7458d8cc\" class=\"notion-text notion-text__content notion-semantic-string\"><em>Attention de ne pas le laisser parler trop longtemps, au risque de manger votre fromage froid</em> 😅 </p></div></div><h1 id=\"block-18c0d149331781f68e02cef34f25a97d\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-18c0d14933178180b3bef6b59600aa60\" class=\"notion-list-item notion-semantic-string\"><strong><a href=\"https://les4sources.punchpass.com/classes/16926850\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">Inscription indispensable</a></strong> jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer les bonnes quantités pour la préparation des pains</li><li id=\"block-18c0d1493317819684e1e29b87a0a189\" class=\"notion-list-item notion-semantic-string\">Tarif : 7 € par personne + cash pour le bar</li><li id=\"block-1ad0d1493317807ab222d953e5423bd5\" class=\"notion-list-item notion-semantic-string\">Zythologie : participation “au chapeau”</li><li id=\"block-18c0d149331781099742c7cb01cf673f\" class=\"notion-list-item notion-semantic-string\">Bar avec boissons bios/locales/de saison sur place 🍹</li></ul><p id=\"block-18c0d149331781afa395feea6a19d8aa\" class=\"notion-text notion-text__content notion-semantic-string\">Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30, lorsque le four est encore chaud de la journée.</p><div id=\"block-18c0d149331781e9bbbedad65b30efdd\" class=\"notion-button\"><a href=\"https://les4sources.punchpass.com/classes/16926850\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><img src=\"https://app.notion.com/icons/ticket_green.svg\" alt=\"icon\" class=\"notion-icon\" data-full-size=\"https://app.notion.com/icons/ticket_green.svg\" data-lightbox-src=\"https://app.notion.com/icons/ticket_green.svg\"></div><span class=\"notion-semantic-string\">Inscription à la Camembert Party</span></a></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9602f4de-bd27-488b-a869-890a8f77a98b/4/public",
+      "alt": "Camembert Party 🧀",
+      "role": "cover",
+      "localPath": "images/evenements__camembert-party-14-mars-2025/01-4.jpg",
+      "shared": false,
+      "bytes": 80156
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/56844da5-f875-4d24-994e-cf173899ea87/the-beer-linguist/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__camembert-party-14-mars-2025/02-the-beer-linguist.jpg",
+      "shared": false,
+      "bytes": 34314
+    },
+    {
+      "src": "https://app.notion.com/icons/ticket_green.svg",
+      "alt": "icon",
+      "role": "content",
+      "localPath": "images/_shared/53cd55516271-ticket_green.svg",
+      "shared": true,
+      "bytes": 314
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://les4sources.punchpass.com/classes/16926850"
+  ],
+  "collections": [],
+  "wordCount": 351,
+  "fetchedAt": "2026-09-07T21:17:31.030Z",
+  "markdown": "Viens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes p’tits légumes préférés !\n\nBienvenue **dès 18h30** :\n\n- **tu amènes…**\n\n- 🧀 ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre). Tous les fromages coulants sont les bienvenus, et si fromage et toi ne font pas bonne affaire, n’hésite pas à apporter autre chose.\n- 🍄‍🟫 tes p’tits légumes (inspiration : courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces ou salades froides à manger à côté)\n- ton assaisonnement éventuel\n\n- **nous mettons à ta disposition…**\n\n- de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu\n- le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage\n- la grande salle (chauffée, bien sûr) des 4 Sources\n\n👍 Le four de boulangerie est chauffé au bois 👍 Le pain est bio et au levain 👍 La salle est chauffée 😅 👍 Et les gens sont super cools !\n\n## Et cette fois-ci, c’est zythologie !\n\n<!-- columns -->\n<!-- column width=\"43.8%\" -->\n\n![image](images/evenements__camembert-party-14-mars-2025/02-the-beer-linguist.jpg)\n\n<!-- column width=\"56.3%\" -->\n\nMmmmh, un savoureux camembert chauffé au feu de bois ! 🧀 🔥 🪵 Vous pensiez l’accompagner d’un bon vin ? 🍷 Ce 14 mars, Les 4 Sources vous feront encore sortir des sentiers battus en vous proposant d’associer votre fromage coulant avec… une bière !\n\nNicolas Meulebrouck, aussi appelé The Beer Linguist, zythologue venu tout droit du joyeux village d’Evrehailles, sera présent pour vous guider dans ce choix, pour vous faire vivre une nouvelle expérience gustative 🍻 🤓\n\n*Attention de ne pas le laisser parler trop longtemps, au risque de manger votre fromage froid* 😅\n<!-- /columns -->\n\n## **Infos pratiques**\n\n- **[Inscription indispensable](https://les4sources.punchpass.com/classes/16926850)** jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer les bonnes quantités pour la préparation des pains\n- Tarif : 7 € par personne + cash pour le bar\n- Zythologie : participation “au chapeau”\n- Bar avec boissons bios/locales/de saison sur place 🍹\n\nLes enfournements dans le four de tes préparations ont lieu entre 19h et 19h30, lorsque le four est encore chaud de la journée.\n\n[Inscription à la Camembert Party](https://les4sources.punchpass.com/classes/16926850){.button}\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.375Z"
+}

@@ -1,0 +1,204 @@
+{
+  "path": "/evenements/stage-8-12-ans-octobre-2025",
+  "slug": "evenements__stage-8-12-ans-octobre-2025",
+  "rootIsCollection": false,
+  "title": "Les p’tits menuisiers dans la clairière",
+  "metaDescription": "Stage nature et artisanat pour enfants de 8 à 12 ans à Yvoir, du 20 au 24 octobre 2025. Cadre d’expérimentation et de découvertes dans un superbe lieu de nature.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2b7e5ae0-ab9a-4be2-9f46-f34afe943c53/Evenement_gnral__A_(1)/public",
+  "ogTitle": "Les p’tits menuisiers dans la clairière",
+  "ogUrl": "https://www.les4sources.be/evenements/stage-8-12-ans-octobre-2025",
+  "canonical": null,
+  "h1": "Les p’tits menuisiers dans la clairière",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2b7e5ae0-ab9a-4be2-9f46-f34afe943c53/Evenement_gnral__A_(1)/public",
+    "localPath": "images/evenements__stage-8-12-ans-octobre-2025/01-Evenement_gnral__A_-1.png"
+  },
+  "pageIcon": null,
+  "properties": {
+    "Date": "2025-10-20 → 2025-10-24",
+    "Horaires": "9h-16h",
+    "Type d'événement": "Stage enfants",
+    "Thématique": "Artisanat",
+    "Date (fr)": "20 au 24 octobre 2025",
+    "Places disponibles": "14",
+    "Tarif": "€175.00",
+    "Date de création": "May 20, 2025 9:01 PM",
+    "Statut site web": "Publié",
+    "super:description": "Stage nature et artisanat pour enfants de 8 à 12 ans à Yvoir, du 20 au 24 octobre 2025. Cadre d’expérimentation et de découvertes dans un superbe lieu de nature.",
+    "super:slug": "stage-8-12-ans-octobre-2025"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-stage-8-12-ans-octobre-2025",
+    "blockId": "1f90d149-3317-8084-8ca6-eaaff211662a",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/stage-8-12-ans-octobre-2025",
+    "createdTime": "2025-05-20T21:01:01.300Z",
+    "lastEditedTime": "2026-01-29T11:15:20.725Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Les p’tits menuisiers dans la clairière",
+      "href": "/evenements/stage-8-12-ans-octobre-2025"
+    }
+  ],
+  "contentHtml": "<h1 id=\"block-1f90d149331781538febfe59eb553586\" class=\"notion-heading notion-semantic-string\">En pratique</h1><p id=\"block-1f90d149331781a4825cdaf1ef51c4f4\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Cette semaine de stage - du 20 au 24 octobre - offre à votre enfant de 8 à 12 ans un cadre d’expérimentation et de découvertes dans un superbe lieu de nature.</strong></p><p id=\"block-1f90d149331781f59676f48a35f47285\" class=\"notion-text notion-text__content notion-semantic-string\">Chaque matinée est consacrée à la construction d’objets en bois de récup’ dans le Dôme, un espace de travail adapté aux enfants, avec nos artisans Magali et Olivier.</p><p id=\"block-1f90d1493317817cb0c9f14feb141e86\" class=\"notion-text notion-text__content notion-semantic-string\">Différentes activités passionnantes sont organisées l’après-midi, portées par Magali, Olivier et les jeunes des 4 Sources.</p><div id=\"block-1f90d14933178126afe4cabd019d9097\" class=\"notion-column-list\"><div id=\"block-1f90d1493317816b8b5de473f767f54b\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-1f90d1493317816d803bd13598fd5ba7\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a4ee5dde-2fd9-406e-bc47-faaf0a540685/camion_Noah/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a4ee5dde-2fd9-406e-bc47-faaf0a540685/camion_Noah/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a4ee5dde-2fd9-406e-bc47-faaf0a540685/camion_Noah/public\"></span></div></div><div id=\"block-1f90d149331781ec9401df50c561cefc\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-1f90d149331781e0bd67e503ae53c4e6\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5af58e85-cd57-43f7-9ab9-aaf2d1de15c8/DSCN3315/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5af58e85-cd57-43f7-9ab9-aaf2d1de15c8/DSCN3315/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5af58e85-cd57-43f7-9ab9-aaf2d1de15c8/DSCN3315/public\"></span></div></div></div><div id=\"block-1f90d149331781489b28c8a917762834\" class=\"notion-column-list\"></div><p id=\"block-1f90d149331781a1a557fa500e72d69b\" class=\"notion-text notion-text__content notion-semantic-string\">En fin de semaine&nbsp;:</p><ul class=\"notion-bulleted-list\"><li id=\"block-1f90d149331781b2aaa4f95a56266cef\" class=\"notion-list-item notion-semantic-string\">Chaque enfant repart avec une ou plusieurs réalisations personnelles en bois de récup’.</li><li id=\"block-1f90d1493317811b9abed9c3f8470119\" class=\"notion-list-item notion-semantic-string\">Chaque enfant repart avec des compétences techniques (utilisation de scie, équerre, marteau, visseuse…), acquière de l’autonomie et de la confiance en soi et apprend les gestes de bases de construction et réparation (de précieuses compétences !).</li><li id=\"block-1f90d149331781868325f1b147916c75\" class=\"notion-list-item notion-semantic-string\">Chaque enfant aura expérimenté au choix&nbsp;: de la grimpe d’arbre, du disc-golf, de la robotique, de la création de bijoux, des jeux dans les bois, de la construction de cabanes, la rencontre avec le troupeau d’ânes…</li><li id=\"block-1f90d149331781628514ea8e1c86d726\" class=\"notion-list-item notion-semantic-string\">Et bien sûr, chaque enfant sera en demande de revenir ! 🙂</li></ul><h2 id=\"block-1f90d1493317811d99d6d608d6541b77\" class=\"notion-heading notion-semantic-string\">Horaires</h2><p id=\"block-1f90d149331780d6baf1ff7ce126bbcb\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>📅&nbsp;du 20 au 24 octobre 2025</strong></p><ul class=\"notion-bulleted-list\"><li id=\"block-1f90d149331781cbb8dcf12eacf007e2\" class=\"notion-list-item notion-semantic-string\">de 9h à 12h&nbsp;: constructions en bois de récup’</li><li id=\"block-1f90d149331781db8038e36c038e910c\" class=\"notion-list-item notion-semantic-string\">de 12h à 13h&nbsp;: repas</li><li id=\"block-1f90d1493317813aa451f001ef043b17\" class=\"notion-list-item notion-semantic-string\">de 13h à 16h&nbsp;: activités variées aux 4 Sources</li></ul><h2 id=\"block-1f90d1493317810a853ffffee678b187\" class=\"notion-heading notion-semantic-string\">À prendre avec soi</h2><ul class=\"notion-bulleted-list\"><li id=\"block-1f90d149331781d8a6fbe95c2671a20a\" class=\"notion-list-item notion-semantic-string\">Son pique-nique pour le midi + un p’tit goûter</li><li id=\"block-1f90d1493317817fb5b7cd4507188c4b\" class=\"notion-list-item notion-semantic-string\">Sa gourde</li><li id=\"block-1f90d149331781d7bd68e2dd517f1f83\" class=\"notion-list-item notion-semantic-string\">Ses vêtements adaptés à la saison</li><li id=\"block-1f90d1493317818ba760f64db1f6b887\" class=\"notion-list-item notion-semantic-string\">Des chaussures fermées</li></ul><h1 id=\"block-1f90d149331781a7acb8e3e30aaf4281\" class=\"notion-heading notion-semantic-string\">Un espace de travail trop cool !</h1><div id=\"block-1f90d14933178186860dc59035b611d4\" class=\"notion-column-list\"><div id=\"block-1f90d149331781ae93e5fcc6719dc8e7\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-1f90d14933178198bf07ee763cfe7d8b\" class=\"notion-text notion-text__content notion-semantic-string\">Est-ce une navette spatiale, un igloo géant ou un animal géant préhistorique endormi ? Eh non, c’est <strong>le Dôme des 4 Sources</strong> ! </p><p id=\"block-1f90d149331781d48e2ed150d28619a0\" class=\"notion-text notion-text__content notion-semantic-string\">Cet espace lumineux accueille les p’tits menuisiers avec du matériel et des plans de travail adaptés à leur âge.</p></div><div id=\"block-1f90d149331781a49861de193ee53e2e\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-1f90d149331781d99cafdec589687f68\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/94eb7758-8bfb-4216-93cd-07ad88cc6096/20241123_170702_EB504299/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/94eb7758-8bfb-4216-93cd-07ad88cc6096/20241123_170702_EB504299/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/94eb7758-8bfb-4216-93cd-07ad88cc6096/20241123_170702_EB504299/public\"></span></div></div></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div><h1 id=\"block-1f90d149331781c186d1fb16d20c04c3\" class=\"notion-heading notion-semantic-string\">Des animateurs motivés</h1><p id=\"block-1f90d149331781d4afd3e123ca19d192\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Nos animateurs partagent leurs passions, leurs talents et leurs valeurs de transformation ! Pour les temps “menuiserie” du matin, deux animateurs chevronnés encadreront maximum 7 enfants chacun.</strong></p><div id=\"block-1f90d149331781cbb3e1e76b036e3b65\" class=\"notion-column-list\"><div id=\"block-1f90d14933178102bd58ce324275e5f4\" class=\"notion-column\" data-width=\"50%\"><h2 id=\"block-1f90d149331781c7a4baf59a691405de\" class=\"notion-heading notion-semantic-string\">Magali</h2><div id=\"block-1f90d149331781d893bfdd1717bb0fe9\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e5d85b48-6e6c-4a6f-88af-9c28983c9ede/magali/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e5d85b48-6e6c-4a6f-88af-9c28983c9ede/magali/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e5d85b48-6e6c-4a6f-88af-9c28983c9ede/magali/public\"></span></div><p id=\"block-1f90d1493317815da807ddb1a73a1e1b\" class=\"notion-text notion-text__content notion-semantic-string\">Habitante des 4 Sources, <strong>Magali</strong> est la femme-orchestre du Dôme, maitrisant chaque outil et connaissant chaque tiroir de vis, de boulons et de rondelles comme sa poche.</p></div><div id=\"block-1f90d1493317813ba6fcccdc7902c571\" class=\"notion-column\" data-width=\"50%\"><h2 id=\"block-1f90d149331781898897ff74ef95c511\" class=\"notion-heading notion-semantic-string\">Olivier</h2><div id=\"block-1f90d149331781f0a035d2e29566141a\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7519d2b3-f074-4b0a-aa0e-ccd226b82826/olivier/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7519d2b3-f074-4b0a-aa0e-ccd226b82826/olivier/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7519d2b3-f074-4b0a-aa0e-ccd226b82826/olivier/public\"></span></div><p id=\"block-1f90d149331781d19308ee6e240e7c07\" class=\"notion-text notion-text__content notion-semantic-string\">Habitant des 4 Sources, designer, pédagogue et élagueur-grimpeur de formation, <strong>Olivier</strong> possède une grande expérience d’animation. Passionné par le bois, de l’arbre à la planche, il adore accompagner enfants et adultes dans la créativité.</p></div></div><div id=\"block-1f90d14933178185ae5ace8eecbe4ba3\" class=\"notion-image full-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1a0e10d5-7e8a-4056-a1e0-53f631994947/6aadbf82-ad40-4b2c-9adb-b55ff133ed7c/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1a0e10d5-7e8a-4056-a1e0-53f631994947/6aadbf82-ad40-4b2c-9adb-b55ff133ed7c/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1a0e10d5-7e8a-4056-a1e0-53f631994947/6aadbf82-ad40-4b2c-9adb-b55ff133ed7c/public\"></span></div><h1 id=\"block-1f90d14933178186b90ce62b334adc75\" class=\"notion-heading notion-semantic-string\">Les derniers p’tits détails</h1><ul class=\"notion-bulleted-list\"><li id=\"block-1f90d14933178173826ffb2932ad4d89\" class=\"notion-list-item notion-semantic-string\">Pour les enfants de 8 à 12 ans</li><li id=\"block-1f90d149331781379cb7e4191b756085\" class=\"notion-list-item notion-semantic-string\">Garderie de 8h à 9h et de 16h à 17h (5€/jour)</li><li id=\"block-1f90d1493317818582e3ffd700f17b7d\" class=\"notion-list-item notion-semantic-string\">Vendredi de 16h à 17h, graaaaande présentation aux parents ! 😎</li></ul><h1 id=\"block-1f90d149331781538503ee52e34ed438\" class=\"notion-heading notion-semantic-string\">Des questions concernant ce stage ?</h1><p id=\"block-1f90d14933178156bc5ec961a0350580\" class=\"notion-text notion-text__content notion-semantic-string\">Contacte-nous à <a href=\"mailto:contact@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">contact@les4sources.be</a>. Nous y répondrons avec plaisir !</p><h1 id=\"block-1f90d14933178107bb83ddc398ce700f\" class=\"notion-heading notion-semantic-string\">Inscription</h1><p id=\"block-1f90d1493317812dbf51ef96ac8de193\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>L’inscription à ce stage de 5 jours limité à 14 participants (7 enfants par artisan) est accessible au prix de 175 €/enfant.</strong></p><div id=\"block-1f90d14933178171b926ceec2037aeda\" class=\"notion-column-list\"><div id=\"block-1f90d1493317817c85e5f0e2bc879c99\" class=\"notion-column\" data-width=\"87.5%\"><p id=\"block-1f90d14933178128a198f94a64d46b6b\" class=\"notion-text notion-text__content notion-semantic-string\">Suis ce lien pour charger le formulaire d’inscription avec paiement en ligne par Bancontact ou carte de crédit.</p><div id=\"block-1f90d1493317811d82eecb50f4dceb79\" class=\"notion-button\"><a href=\"https://les4sources.punchpass.com/series/41687\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"notion-semantic-string\">Inscription au stage d'octobre</span></a></div></div><div id=\"block-1f90d1493317816ca3e6db35d9472f57\" class=\"notion-column\" data-width=\"12.5%\"><div id=\"block-1f90d149331781409a7cc08323fe2cf4\" class=\"notion-image align-start normal\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/658f6b7e-acb1-47a3-ad34-033550a7dd58/payconiq/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/658f6b7e-acb1-47a3-ad34-033550a7dd58/payconiq/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/658f6b7e-acb1-47a3-ad34-033550a7dd58/payconiq/public\"></span></div></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2b7e5ae0-ab9a-4be2-9f46-f34afe943c53/Evenement_gnral__A_(1)/public",
+      "alt": "Les p’tits menuisiers dans la clairière",
+      "role": "cover",
+      "localPath": "images/evenements__stage-8-12-ans-octobre-2025/01-Evenement_gnral__A_-1.png",
+      "shared": false,
+      "bytes": 269201
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a4ee5dde-2fd9-406e-bc47-faaf0a540685/camion_Noah/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/027137a9462c-camion_Noah.jpg",
+      "shared": true,
+      "bytes": 212938
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5af58e85-cd57-43f7-9ab9-aaf2d1de15c8/DSCN3315/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/5b8d93a13886-DSCN3315.jpg",
+      "shared": true,
+      "bytes": 130712
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/94eb7758-8bfb-4216-93cd-07ad88cc6096/20241123_170702_EB504299/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/d037324589d1-20241123_170702_EB504299.jpg",
+      "shared": true,
+      "bytes": 76461
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e5d85b48-6e6c-4a6f-88af-9c28983c9ede/magali/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/e28f1e0b63f1-magali.jpg",
+      "shared": true,
+      "bytes": 67089
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7519d2b3-f074-4b0a-aa0e-ccd226b82826/olivier/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/d3027776d0e2-olivier.jpg",
+      "shared": true,
+      "bytes": 59504
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1a0e10d5-7e8a-4056-a1e0-53f631994947/6aadbf82-ad40-4b2c-9adb-b55ff133ed7c/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/3b38791fe3d0-6aadbf82-ad40-4b2c-9adb-b55ff133ed7c.png",
+      "shared": true,
+      "bytes": 564596
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/658f6b7e-acb1-47a3-ad34-033550a7dd58/payconiq/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/f97150a7303b-payconiq.png",
+      "shared": true,
+      "bytes": 25241
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "mailto:contact@les4sources.be",
+    "https://les4sources.punchpass.com/series/41687"
+  ],
+  "collections": [],
+  "wordCount": 452,
+  "fetchedAt": "2026-09-07T21:17:42.342Z",
+  "markdown": "## En pratique\n\n**Cette semaine de stage - du 20 au 24 octobre - offre à votre enfant de 8 à 12 ans un cadre d’expérimentation et de découvertes dans un superbe lieu de nature.**\n\nChaque matinée est consacrée à la construction d’objets en bois de récup’ dans le Dôme, un espace de travail adapté aux enfants, avec nos artisans Magali et Olivier.\n\nDifférentes activités passionnantes sont organisées l’après-midi, portées par Magali, Olivier et les jeunes des 4 Sources.\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/_shared/027137a9462c-camion_Noah.jpg)\n\n<!-- column width=\"50%\" -->\n\n![image](images/_shared/5b8d93a13886-DSCN3315.jpg)\n<!-- /columns -->\n\nEn fin de semaine :\n\n- Chaque enfant repart avec une ou plusieurs réalisations personnelles en bois de récup’.\n- Chaque enfant repart avec des compétences techniques (utilisation de scie, équerre, marteau, visseuse…), acquière de l’autonomie et de la confiance en soi et apprend les gestes de bases de construction et réparation (de précieuses compétences !).\n- Chaque enfant aura expérimenté au choix : de la grimpe d’arbre, du disc-golf, de la robotique, de la création de bijoux, des jeux dans les bois, de la construction de cabanes, la rencontre avec le troupeau d’ânes…\n- Et bien sûr, chaque enfant sera en demande de revenir ! 🙂\n\n### Horaires\n\n**📅 du 20 au 24 octobre 2025**\n\n- de 9h à 12h : constructions en bois de récup’\n- de 12h à 13h : repas\n- de 13h à 16h : activités variées aux 4 Sources\n\n### À prendre avec soi\n\n- Son pique-nique pour le midi + un p’tit goûter\n- Sa gourde\n- Ses vêtements adaptés à la saison\n- Des chaussures fermées\n\n## Un espace de travail trop cool !\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\nEst-ce une navette spatiale, un igloo géant ou un animal géant préhistorique endormi ? Eh non, c’est **le Dôme des 4 Sources** !\n\nCet espace lumineux accueille les p’tits menuisiers avec du matériel et des plans de travail adaptés à leur âge.\n\n<!-- column width=\"50%\" -->\n\n![image](images/_shared/d037324589d1-20241123_170702_EB504299.jpg)\n<!-- /columns -->\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n\n## Des animateurs motivés\n\n**Nos animateurs partagent leurs passions, leurs talents et leurs valeurs de transformation ! Pour les temps “menuiserie” du matin, deux animateurs chevronnés encadreront maximum 7 enfants chacun.**\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n### Magali\n\n![image](images/_shared/e28f1e0b63f1-magali.jpg)\n\nHabitante des 4 Sources, **Magali** est la femme-orchestre du Dôme, maitrisant chaque outil et connaissant chaque tiroir de vis, de boulons et de rondelles comme sa poche.\n\n<!-- column width=\"50%\" -->\n\n### Olivier\n\n![image](images/_shared/d3027776d0e2-olivier.jpg)\n\nHabitant des 4 Sources, designer, pédagogue et élagueur-grimpeur de formation, **Olivier** possède une grande expérience d’animation. Passionné par le bois, de l’arbre à la planche, il adore accompagner enfants et adultes dans la créativité.\n<!-- /columns -->\n\n![image](images/_shared/3b38791fe3d0-6aadbf82-ad40-4b2c-9adb-b55ff133ed7c.png)\n\n## Les derniers p’tits détails\n\n- Pour les enfants de 8 à 12 ans\n- Garderie de 8h à 9h et de 16h à 17h (5€/jour)\n- Vendredi de 16h à 17h, graaaaande présentation aux parents ! 😎\n\n## Des questions concernant ce stage ?\n\nContacte-nous à [contact@les4sources.be](mailto:contact@les4sources.be). Nous y répondrons avec plaisir !\n\n## Inscription\n\n**L’inscription à ce stage de 5 jours limité à 14 participants (7 enfants par artisan) est accessible au prix de 175 €/enfant.**\n\n<!-- columns -->\n<!-- column width=\"87.5%\" -->\n\nSuis ce lien pour charger le formulaire d’inscription avec paiement en ligne par Bancontact ou carte de crédit.\n\n[Inscription au stage d'octobre](https://les4sources.punchpass.com/series/41687){.button}\n\n<!-- column width=\"12.5%\" -->\n\n![image](images/_shared/f97150a7303b-payconiq.png)\n<!-- /columns -->\n",
+  "extractedAt": "2026-09-07T21:41:44.475Z"
+}

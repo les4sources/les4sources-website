@@ -1,0 +1,362 @@
+{
+  "source": "super settings (flight payload) + DOM",
+  "site": {
+    "name": "Les 4 Sources",
+    "domain": "www.les4sources.be",
+    "language": "fr",
+    "favicon": null
+  },
+  "header": {
+    "type": "simple",
+    "sticky": true,
+    "breadcrumbs": false,
+    "logo": {
+      "type": "image",
+      "width": 90,
+      "fontSize": 16,
+      "textContent": "Les 4 Sources",
+      "imageContent": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/uploads/logo/81cf1d75-0ffa-47bb-b13f-da876db7b76a.png",
+      "imageContentDark": null,
+      "disabled": false,
+      "localPath": "images/_site/cd1858b06f4e-81cf1d75-0ffa-47bb-b13f-da876db7b76a.png"
+    },
+    "cta": null,
+    "links": [
+      {
+        "label": "Agenda",
+        "href": "/agenda",
+        "type": "page"
+      },
+      {
+        "label": "Séjours",
+        "href": "/sejours",
+        "type": "page"
+      },
+      {
+        "label": "Salles",
+        "href": "/sejours/salles",
+        "type": "page"
+      },
+      {
+        "label": "Activités",
+        "href": "/activites",
+        "type": "page"
+      },
+      {
+        "label": "Projets",
+        "href": "/projets",
+        "type": "page"
+      },
+      {
+        "label": "À propos",
+        "href": "/a-propos",
+        "type": "page"
+      }
+    ],
+    "dom": {
+      "logo": {
+        "href": "/",
+        "image": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/uploads/logo/81cf1d75-0ffa-47bb-b13f-da876db7b76a.png",
+        "alt": "Logo"
+      },
+      "links": [
+        {
+          "label": "Agenda",
+          "href": "/agenda"
+        },
+        {
+          "label": "Séjours",
+          "href": "/sejours"
+        },
+        {
+          "label": "Salles",
+          "href": "/sejours/salles"
+        },
+        {
+          "label": "Activités",
+          "href": "/activites"
+        },
+        {
+          "label": "Projets",
+          "href": "/projets"
+        },
+        {
+          "label": "À propos",
+          "href": "/a-propos"
+        }
+      ],
+      "actions": [
+        "super-navbar__theme-toggle",
+        "super-navbar__search",
+        "super-navbar__menu-open"
+      ]
+    }
+  },
+  "footer": {
+    "type": "corners",
+    "logo": {
+      "type": "image",
+      "width": 114,
+      "fontSize": 16,
+      "textContent": "Les 4 Sources",
+      "imageContent": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/uploads/logo/8bd0eac1-6684-4d85-924e-912076193694.svg",
+      "imageContentDark": null,
+      "disabled": false,
+      "localPath": "images/_site/2f8212b48e77-8bd0eac1-6684-4d85-924e-912076193694.svg"
+    },
+    "lists": [
+      {
+        "heading": "Séjours",
+        "links": [
+          {
+            "label": "Hébergements",
+            "href": "/sejours/hebergements-yvoir",
+            "type": "page"
+          },
+          {
+            "label": "Salles et cuisine",
+            "href": "/sejours/salles",
+            "type": "page"
+          },
+          {
+            "label": "Tentes et hamacs",
+            "href": "/sejours/bivouac",
+            "type": "page"
+          },
+          {
+            "label": "Tarifs",
+            "href": "/sejours/tarifs",
+            "type": "page"
+          },
+          {
+            "label": "Disponibilités",
+            "href": "/sejours/disponibilites",
+            "type": "page"
+          }
+        ]
+      },
+      {
+        "heading": "Aux 4 Sources",
+        "links": [
+          {
+            "label": "Mariages champêtres",
+            "href": "/mariage-champetre",
+            "type": "page"
+          },
+          {
+            "label": "Anniversaires",
+            "href": "/anniversaire",
+            "type": "page"
+          },
+          {
+            "label": "En famille ou entre amis",
+            "href": "/sejours/en-famille-aux-4-sources",
+            "type": "page"
+          },
+          {
+            "label": "Retraites scolaires",
+            "href": "/sejours/retraites-scolaires",
+            "type": "page"
+          },
+          {
+            "label": "Mises au vert",
+            "href": "/sejours/mises-au-vert",
+            "type": "page"
+          },
+          {
+            "label": "Teams building",
+            "href": "/un-team-building-aux-4-sources",
+            "type": "page"
+          }
+        ]
+      },
+      {
+        "heading": "Découvrir",
+        "links": [
+          {
+            "label": "Agenda",
+            "href": "/agenda",
+            "type": "page",
+            "icon": "Calendar"
+          },
+          {
+            "label": "Activités",
+            "href": "/activites",
+            "type": "page"
+          },
+          {
+            "label": "Nos projets",
+            "href": "/projets",
+            "type": "page"
+          },
+          {
+            "label": "Le Bar des 4 Sources",
+            "href": "/le-bar-des-4-sources",
+            "type": "page"
+          }
+        ]
+      },
+      {
+        "heading": "À propos",
+        "links": [
+          {
+            "label": "Raison d'être",
+            "href": "/a-propos/notre-projet",
+            "type": "page"
+          },
+          {
+            "label": "Nous soutenir",
+            "href": "/nous-soutenir",
+            "type": "page"
+          },
+          {
+            "label": "Accès et adresse",
+            "href": "/a-propos/acces-ahinvaux",
+            "type": "page"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact",
+            "type": "page"
+          }
+        ]
+      }
+    ],
+    "socials": [
+      {
+        "type": "facebook",
+        "link": "https://www.facebook.com/les4sourcesaYvoir/"
+      }
+    ],
+    "footnote": "Ce site web et nos photos sont sous license Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+    "contact": {
+      "address": null,
+      "phone": null,
+      "email": null
+    },
+    "dom": {
+      "logo": {
+        "href": "/",
+        "image": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/uploads/logo/8bd0eac1-6684-4d85-924e-912076193694.svg",
+        "alt": "Logo"
+      },
+      "lists": [
+        {
+          "heading": "Séjours",
+          "links": [
+            {
+              "label": "Hébergements",
+              "href": "/sejours/hebergements-yvoir"
+            },
+            {
+              "label": "Salles et cuisine",
+              "href": "/sejours/salles"
+            },
+            {
+              "label": "Tentes et hamacs",
+              "href": "/sejours/bivouac"
+            },
+            {
+              "label": "Tarifs",
+              "href": "/sejours/tarifs"
+            },
+            {
+              "label": "Disponibilités",
+              "href": "/sejours/disponibilites"
+            }
+          ]
+        },
+        {
+          "heading": "Aux 4 Sources",
+          "links": [
+            {
+              "label": "Mariages champêtres",
+              "href": "/mariage-champetre"
+            },
+            {
+              "label": "Anniversaires",
+              "href": "/anniversaire"
+            },
+            {
+              "label": "En famille ou entre amis",
+              "href": "/sejours/en-famille-aux-4-sources"
+            },
+            {
+              "label": "Retraites scolaires",
+              "href": "/sejours/retraites-scolaires"
+            },
+            {
+              "label": "Mises au vert",
+              "href": "/sejours/mises-au-vert"
+            },
+            {
+              "label": "Teams building",
+              "href": "/un-team-building-aux-4-sources"
+            }
+          ]
+        },
+        {
+          "heading": "Découvrir",
+          "links": [
+            {
+              "label": "Agenda",
+              "href": "/agenda"
+            },
+            {
+              "label": "Activités",
+              "href": "/activites"
+            },
+            {
+              "label": "Nos projets",
+              "href": "/projets"
+            },
+            {
+              "label": "Le Bar des 4 Sources",
+              "href": "/le-bar-des-4-sources"
+            }
+          ]
+        },
+        {
+          "heading": "À propos",
+          "links": [
+            {
+              "label": "Raison d'être",
+              "href": "/a-propos/notre-projet"
+            },
+            {
+              "label": "Nous soutenir",
+              "href": "/nous-soutenir"
+            },
+            {
+              "label": "Accès et adresse",
+              "href": "/a-propos/acces-ahinvaux"
+            },
+            {
+              "label": "Contact",
+              "href": "/contact"
+            }
+          ]
+        }
+      ],
+      "socials": [
+        {
+          "href": "https://www.facebook.com/les4sourcesaYvoir/",
+          "title": "Facebook"
+        }
+      ],
+      "footnote": "Ce site web et nos photos sont sous license Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+      "contact": {
+        "address": null,
+        "phone": null,
+        "email": null
+      }
+    }
+  },
+  "sidebar": {
+    "enabled": false,
+    "links": [],
+    "cta": [],
+    "logo": null,
+    "searchEnabled": true
+  }
+}

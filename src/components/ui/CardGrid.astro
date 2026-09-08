@@ -1,0 +1,144 @@
+---
+/**
+ * Grille de cartes du brand system : carte plate à coins de photo, étiquette de
+ * pôle, titre Averia Bold, texte secondaire, méta en Be Vietnam Pro.
+ * Sert les listings événements, agenda, catalogue, collectif et projets.
+ *
+ * Un seul élément interactif par carte : le lien du titre, étiré sur toute la
+ * carte (`l4s-stretch-link`), comme l'EventCard du DS.
+ */
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import PoleIcon from "@components/ds/PoleIcon.astro";
+import PoleTag from "@components/ds/PoleTag.astro";
+import { isPole, pole as resolvePole } from "@lib/poles";
+
+export interface CardItem {
+  title: string;
+  href: string;
+  description?: string;
+  /** Sur-titre : date lisible, durée, catégorie… */
+  eyebrow?: string;
+  meta?: string;
+  icon?: string;
+  pole?: string;
+  image?: ImageMetadata | { url: string; alt?: string; width?: number; height?: number };
+  /** Badge court affiché à côté de l'étiquette de pôle (« Complet ! »). */
+  badge?: string;
+}
+
+interface Props {
+  items: CardItem[];
+  /** Message affiché quand la liste est vide (avant la migration du contenu). */
+  empty?: string;
+  /** Rapport de la zone photo. */
+  aspect?: string;
+  columns?: 2 | 3;
+  /**
+   * Sans photo, remplacer la zone média par un bandeau teinté du pôle portant
+   * son pictogramme. Sinon la carte n'a simplement pas de zone média — jamais
+   * un cadre blanc vide.
+   */
+  poleHeader?: boolean;
+  class?: string;
+}
+
+const { items, empty, aspect = "4/3", columns = 3, poleHeader = false, class: className } =
+  Astro.props;
+
+const isLocal = (img: CardItem["image"]): img is ImageMetadata =>
+  Boolean(img) && typeof (img as ImageMetadata).src === "string" && "width" in (img as object);
+---
+
+{
+  items.length === 0 ? (
+    <p class="font-body text-ink-2">{empty ?? "Rien à afficher pour le moment."}</p>
+  ) : (
+    <ul
+      class:list={[
+        "m-0 grid list-none grid-cols-1 gap-6 p-0 sm:grid-cols-2",
+        columns === 3 ? "lg:grid-cols-3" : "",
+        className,
+      ]}
+    >
+      {items.map((item) => (
+        <li
+          data-card
+          data-pole={item.pole ?? ""}
+          class="relative flex flex-col overflow-hidden rounded-photo border-[1.5px] border-line-soft bg-white transition-[transform,box-shadow] duration-200 ease-[cubic-bezier(0.2,0.7,0.2,1)] hover:-translate-y-0.5 hover:shadow-md focus-within:shadow-md"
+        >
+          {item.image && (
+            <div class="w-full overflow-hidden" style={`aspect-ratio:${aspect}`}>
+              {isLocal(item.image) ? (
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  widths={[400, 800]}
+                  sizes="(min-width: 1024px) 380px, (min-width: 640px) 45vw, 100vw"
+                  loading="lazy"
+                  class="h-full w-full object-cover"
+                />
+              ) : (
+                <img
+                  src={item.image.url}
+                  alt={item.image.alt || item.title}
+                  width={item.image.width}
+                  height={item.image.height}
+                  loading="lazy"
+                  decoding="async"
+                  class="h-full w-full object-cover"
+                />
+              )}
+            </div>
+          )}
+
+          {!item.image && poleHeader && item.pole && isPole(item.pole) && (
+            <div
+              class:list={[
+                "flex h-[120px] w-full items-center justify-center",
+                resolvePole(item.pole).classes.bgTint,
+              ]}
+              aria-hidden="true"
+            >
+              <PoleIcon
+                pole={resolvePole(item.pole).slug}
+                class:list={["h-12", resolvePole(item.pole).classes.textInk]}
+              />
+            </div>
+          )}
+
+          <div class="flex flex-1 flex-col gap-2.5 p-5">
+            {(item.pole || item.badge) && (
+              <div class="flex flex-wrap items-center gap-2">
+                {item.pole && isPole(item.pole) && <PoleTag pole={item.pole} />}
+                {item.badge && (
+                  <span class="inline-flex items-center rounded-pill bg-status-danger-bg px-2.5 py-1 font-ui text-[12px] font-bold tracking-[0.06em] text-status-danger uppercase">
+                    {item.badge}
+                  </span>
+                )}
+              </div>
+            )}
+
+            {/* L'émoji ouvre le titre, collé à lui comme sur le site actuel :
+                l'espace est typographique (margin), jamais un blanc de texte. */}
+            <h3 class="m-0 font-display text-h4 leading-snug font-bold">
+              <a href={item.href} class="l4s-stretch-link text-inherit no-underline hover:text-teal-soft">
+                {item.icon && (
+                  <span class="mr-1.5 inline-block" aria-hidden="true">
+                    {item.icon}
+                  </span>
+                )}{item.title}
+              </a>
+            </h3>
+
+            {item.eyebrow && <p class="m-0 font-ui text-ui text-ink-2">{item.eyebrow}</p>}
+            {item.description && (
+              <p class="m-0 font-body text-small text-ink-2">{item.description}</p>
+            )}
+            {item.meta && <p class="mt-auto pt-2 font-ui text-caption text-ink-3">{item.meta}</p>}
+          </div>
+        </li>
+      ))}
+    </ul>
+  )
+}

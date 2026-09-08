@@ -1,0 +1,98 @@
+---
+/**
+ * Card — surface plate à coins de photo (16 px), photo optionnelle en tête,
+ * légère élévation au survol (portage de `Card` dans Surfaces.jsx).
+ *
+ * `href` transforme la carte entière en lien : dans ce cas rien d'interactif ne
+ * doit être placé à l'intérieur. Pour une carte cliquable qui garde un titre
+ * lié (le cas d'EventCard), laisser `href` vide et poser `l4s-stretch-link` sur
+ * le lien du titre.
+ *
+ * Sans photo, la carte ne réserve JAMAIS un cadre blanc vide : soit elle n'a
+ * aucune zone média, soit — quand `pole` est fourni — un bandeau court teinté à
+ * la couleur du pôle, portant son pictogramme dans l'encre du pôle.
+ */
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import { pole as resolvePole, type PoleSlug } from "@lib/poles";
+import PoleIcon from "./PoleIcon.astro";
+
+type Surface = "white" | "paper" | "subtle" | "teal";
+
+interface Props {
+  surface?: Surface;
+  /** Image locale optimisée (ImageMetadata) ou URL déjà servie telle quelle. */
+  image?: ImageMetadata | string;
+  imageAlt?: string;
+  /** Rapport de la zone photo, en syntaxe CSS ("4/3", "16/9"…). */
+  imageAspect?: string;
+  /** Sans photo : bandeau teinté du pôle avec son pictogramme, au lieu du vide. */
+  pole?: PoleSlug;
+  /** Rembourrage interne : pixels (20 dans la référence) ou valeur CSS complète. */
+  padding?: number | string;
+  hoverable?: boolean;
+  href?: string;
+  class?: string;
+  [key: string]: unknown;
+}
+
+const SURFACES: Record<Surface, string> = {
+  white: "bg-white border-[1.5px] border-line-soft text-ink",
+  paper: "bg-paper text-ink",
+  subtle: "bg-surface text-ink",
+  teal: "bg-teal text-white",
+};
+
+const {
+  surface = "white",
+  image,
+  imageAlt = "",
+  imageAspect = "4/3",
+  pole,
+  padding = 20,
+  hoverable = false,
+  href,
+  class: className,
+  ...rest
+} = Astro.props;
+
+const classes = [
+  "relative block overflow-hidden rounded-photo no-underline",
+  SURFACES[surface],
+  hoverable
+    ? "transition-[transform,box-shadow] duration-200 ease-[cubic-bezier(0.2,0.7,0.2,1)] hover:-translate-y-0.5 hover:shadow-md focus-within:shadow-md"
+    : "",
+  className,
+];
+
+const Tag = href ? "a" : "div";
+const hasImage = Boolean(image) || Astro.slots.has("image");
+// Repli sans photo : le bandeau du pôle. Jamais de cadre blanc vide.
+const fallbackPole = !hasImage && pole ? resolvePole(pole) : undefined;
+---
+
+<Tag class:list={classes} {...href ? { href } : {}} {...rest}>
+  {
+    hasImage ? (
+      <div class="w-full overflow-hidden" style={`aspect-ratio:${imageAspect}`}>
+        {image && typeof image !== "string" ? (
+          <Image src={image} alt={imageAlt} class="h-full w-full object-cover" />
+        ) : image ? (
+          <img src={image} alt={imageAlt} loading="lazy" decoding="async" class="h-full w-full object-cover" />
+        ) : (
+          <slot name="image" />
+        )}
+      </div>
+    ) : fallbackPole ? (
+      <div
+        class:list={["flex h-[120px] w-full items-center justify-center", fallbackPole.classes.bgTint]}
+        aria-hidden="true"
+      >
+        <PoleIcon pole={fallbackPole.slug} class:list={["h-12", fallbackPole.classes.textInk]} />
+      </div>
+    ) : null
+  }
+  <div style={`padding:${typeof padding === "number" ? `${padding}px` : padding}`}>
+    <slot />
+  </div>
+</Tag>

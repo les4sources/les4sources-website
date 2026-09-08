@@ -1,0 +1,63 @@
+{
+  "path": "/sejours/hebergements-yvoir/photos-des-hbergements/la-chambre-balsamine-lit-superpos",
+  "slug": "sejours__hebergements-yvoir__photos-des-hbergements__la-chambre-balsamine-lit-superpos",
+  "rootIsCollection": false,
+  "title": "La chambre Balsamine (+ lit superposé)",
+  "metaDescription": null,
+  "ogImage": null,
+  "ogTitle": "La chambre Balsamine (+ lit superposé)",
+  "ogUrl": "https://www.les4sources.be/sejours/hebergements-yvoir/photos-des-hbergements/la-chambre-balsamine-lit-superpos",
+  "canonical": null,
+  "h1": "La chambre Balsamine (+ lit superposé)",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Date de création": "Oct 23, 2025 2:22 PM",
+    "Page": "Chevêche"
+  },
+  "propertySchema": [
+    {
+      "id": "y|zT",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "JUEM",
+      "name": "Page",
+      "type": "multi_select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "sejours-hebergements-yvoir-photos-des-hbergements-la-chambre-balsamine-lit-superpos",
+    "blockId": "2950d149-3317-80f7-a863-c1e5426ff055",
+    "parentId": "28a0d149331781b09d9c000b678af892",
+    "type": "page",
+    "uri": "/sejours/hebergements-yvoir/photos-des-hbergements/la-chambre-balsamine-lit-superpos",
+    "createdTime": "2025-10-23T14:22:15.620Z",
+    "lastEditedTime": "2025-10-23T14:22:55.570Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<div id=\"block-2950d1493317808db5cce50591d16af1\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7f7c4386-1c9f-4bd6-80fc-87ff682c0f61/IMG_8243_(2)/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7f7c4386-1c9f-4bd6-80fc-87ff682c0f61/IMG_8243_(2)/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7f7c4386-1c9f-4bd6-80fc-87ff682c0f61/IMG_8243_(2)/public\"></span></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7f7c4386-1c9f-4bd6-80fc-87ff682c0f61/IMG_8243_(2)/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/5e35169402b8-IMG_8243_-2.jpg",
+      "shared": true,
+      "bytes": 116027
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 0,
+  "fetchedAt": "2026-09-07T21:17:50.609Z",
+  "markdown": "![image](images/_shared/5e35169402b8-IMG_8243_-2.jpg)\n",
+  "extractedAt": "2026-09-07T21:41:44.554Z"
+}

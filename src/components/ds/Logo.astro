@@ -1,0 +1,49 @@
+---
+/**
+ * Logo — la marque (les 4 sources jaillissantes) + le mot « Les 4 Sources »
+ * en Averia Bold. Le SVG est inliné en `currentColor` : la variante `teal` ou
+ * `white` n'est qu'une classe de couleur, jamais un fichier différent.
+ */
+import mark from "@assets/brand/logo/mark-current.svg?raw";
+import { inlineSvg } from "./inline";
+
+interface Props {
+  variant?: "teal" | "white";
+  /** Hauteur de la marque : 28 / 36 / 48 px, ou une valeur libre. */
+  size?: "sm" | "md" | "lg" | number;
+  /** Masque le mot « Les 4 Sources » (marque seule). */
+  markOnly?: boolean;
+  /** Rend un lien plutôt qu'un simple bloc. */
+  href?: string;
+  class?: string;
+}
+
+const SIZES = { sm: 28, md: 36, lg: 48 } as const;
+
+const { variant = "teal", size = "md", markOnly = false, href, class: className } = Astro.props;
+
+const markHeight = typeof size === "number" ? size : SIZES[size];
+// Le mot suit la marque : ~0,6 × sa hauteur, comme dans Nav.jsx (36 px / h4).
+const wordSize = Math.round(markHeight * 0.61);
+
+const svg = inlineSvg(mark, { class: "block h-full w-auto" });
+const Tag = href ? "a" : "span";
+---
+
+<Tag
+  class:list={[
+    "inline-flex items-center gap-2.5 no-underline",
+    variant === "white" ? "text-white" : "text-teal",
+    className,
+  ]}
+  {...href ? { href } : {}}
+>
+  <span class="inline-flex items-center" style={`height:${markHeight}px`} set:html={svg} />
+  {
+    !markOnly && (
+      <span class="font-display font-bold leading-none" style={`font-size:${wordSize}px`}>
+        Les 4 Sources
+      </span>
+    )
+  }
+</Tag>

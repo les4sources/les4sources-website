@@ -1,0 +1,84 @@
+{
+  "path": "/collectif/malau-bombo",
+  "slug": "collectif__malau-bombo",
+  "rootIsCollection": false,
+  "title": "Malau Bombo",
+  "metaDescription": "Malau est la fondatrice de Petit Kiwi, le dépôt-vente pour les 0 à 18 ans qui livre en Belgique et en France. Elle gère l’épicerie et les séjours des 4 Sources.",
+  "ogImage": null,
+  "ogTitle": "Malau Bombo",
+  "ogUrl": "https://www.les4sources.be/collectif/malau-bombo",
+  "canonical": null,
+  "h1": "Malau Bombo",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Type": "Habitant·e"
+  },
+  "propertySchema": [
+    {
+      "id": "ew_Z",
+      "name": "Bio courte",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "rCb{",
+      "name": "Photo",
+      "type": "file",
+      "visibility": "show"
+    },
+    {
+      "id": "CPcu",
+      "name": "Type",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "collectif-malau-bombo",
+    "blockId": "8338a698-5b21-4e93-b9ce-22d07f9540e5",
+    "parentId": "e93593be43cd488598c5226e7ba2b369",
+    "type": "page",
+    "uri": "/collectif/malau-bombo",
+    "createdTime": "2024-04-04T10:45:49.129Z",
+    "lastEditedTime": "2026-07-12T16:22:05.076Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Collectif",
+      "href": "/collectif"
+    },
+    {
+      "label": "Malau Bombo",
+      "href": "/collectif/malau-bombo"
+    }
+  ],
+  "contentHtml": "<div id=\"block-2720d149331780ceb041c3f4a43b31c4\" class=\"notion-column-list\"><div id=\"block-2720d1493317809f91daee9efa404ed1\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-2720d14933178088a188e8fc7625878d\" class=\"notion-text notion-text__content notion-semantic-string\">Malau est la fondatrice de Petit Kiwi, le dépôt-vente pour les 0 à 18 ans qui livre en Belgique et en France. Elle gère l’épicerie et les séjours des 4 Sources.</p><p id=\"block-2720d14933178006a313fd206b1fe3b2\" class=\"notion-text notion-text__content notion-semantic-string\">→ <a href=\"https://www.petitkiwi.be\" class=\"notion-link link\" data-link-uri=\"https://www.petitkiwi.be\">Petit Kiwi</a></p><p id=\"block-2720d1493317808886e7cab623711387\" class=\"notion-text notion-text__content notion-semantic-string\">··· <a href=\"mailto:malau@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">malau@les4sources.be</a></p></div><div id=\"block-2720d149331780a1ad24ea9ebe42c6c0\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2720d14933178061803bf43341c83ef5\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/60028a7f-9d35-4339-b51b-0825202bcdce/dfc8540b-bdfb-4720-8bb7-6c5b1a48115b/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/60028a7f-9d35-4339-b51b-0825202bcdce/dfc8540b-bdfb-4720-8bb7-6c5b1a48115b/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/60028a7f-9d35-4339-b51b-0825202bcdce/dfc8540b-bdfb-4720-8bb7-6c5b1a48115b/public\"></span></div></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/60028a7f-9d35-4339-b51b-0825202bcdce/dfc8540b-bdfb-4720-8bb7-6c5b1a48115b/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/collectif__malau-bombo/01-dfc8540b-bdfb-4720-8bb7-6c5b1a48115b.png",
+      "shared": false,
+      "bytes": 280629
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [
+    "https://www.petitkiwi.be",
+    "mailto:malau@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 34,
+  "fetchedAt": "2026-09-07T21:17:28.186Z",
+  "markdown": "<!-- columns -->\n<!-- column width=\"50%\" -->\n\nMalau est la fondatrice de Petit Kiwi, le dépôt-vente pour les 0 à 18 ans qui livre en Belgique et en France. Elle gère l’épicerie et les séjours des 4 Sources.\n\n→ [Petit Kiwi](https://www.petitkiwi.be)\n\n··· [malau@les4sources.be](mailto:malau@les4sources.be)\n\n<!-- column width=\"50%\" -->\n\n![image](images/collectif__malau-bombo/01-dfc8540b-bdfb-4720-8bb7-6c5b1a48115b.png)\n<!-- /columns -->\n",
+  "extractedAt": "2026-09-07T21:41:44.358Z"
+}

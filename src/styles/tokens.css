@@ -1,0 +1,242 @@
+/* ============================================================
+   Les 4 Sources — tokens Tailwind v4 (@theme) dérivés du brand
+   system Claude Design (design/tokens/*.css = source de vérité).
+   Tout ce qui est déclaré dans @theme devient À LA FOIS une
+   utility Tailwind (bg-teal, text-ink-2, font-display, rounded-photo,
+   shadow-md, max-w-site…) ET une variable CSS (var(--color-teal)…).
+   Les variables historiques du DS (--c-*, --text-*, --sp-*…) sont
+   redéclarées sur :root plus bas pour que les composants de référence
+   (design/components/*.jsx) restent lisibles tels quels.
+   ============================================================ */
+
+
+/* Polices auto-hébergées (woff2, licence OFL) — jamais de CDN. */
+@import "@fontsource/averia-serif-libre/300.css";
+@import "@fontsource/averia-serif-libre/400.css";
+@import "@fontsource/averia-serif-libre/400-italic.css";
+@import "@fontsource/averia-serif-libre/700.css";
+@import "@fontsource/averia-serif-libre/700-italic.css";
+@import "@fontsource/be-vietnam-pro/400.css";
+@import "@fontsource/be-vietnam-pro/400-italic.css";
+@import "@fontsource/be-vietnam-pro/500.css";
+@import "@fontsource/be-vietnam-pro/600.css";
+@import "@fontsource/be-vietnam-pro/700.css";
+@import "@fontsource/be-vietnam-pro/900.css";
+
+@theme {
+  /* --- Brand core --- */
+  --color-teal: #224246;
+  --color-teal-deep: #182f32;
+  --color-teal-soft: #2e585d;
+  --color-white: #ffffff;
+
+  /* --- 4 pôles --- */
+  --color-accueil: #e35543;
+  --color-microferme: #acc037;
+  --color-artisanat: #ddbfa1;
+  --color-socioculturel: #eac20b;
+
+  /* --- Familles de pictos (7) — alias vers les pôles --- */
+  --color-nature: #00a96d;
+  --color-ressourcement: #72a1ff;
+  --color-vie-collective: #ff8a5a;
+  --color-convivialite: #eac20b;
+  --color-hebergement: #e35543;
+  --color-production: #acc037;
+
+  /* --- Teintes (fonds derrière du texte de pôle) --- */
+  --color-accueil-tint: #fbe6e2;
+  --color-microferme-tint: #f1f5d9;
+  --color-artisanat-tint: #f6ece1;
+  --color-socioculturel-tint: #fcf4cc;
+  --color-nature-tint: #dcf3ea;
+  --color-ressourcement-tint: #e4ecff;
+  --color-vie-collective-tint: #ffe6db;
+  --color-convivialite-tint: #fcf4cc;
+  --color-hebergement-tint: #fbe6e2;
+  --color-production-tint: #f1f5d9;
+
+  /* --- Encres (texte de pôle sur fond clair, AA) --- */
+  --color-accueil-ink: #b83a2a;
+  --color-microferme-ink: #64721a;
+  --color-artisanat-ink: #856440;
+  --color-socioculturel-ink: #826b05;
+  --color-nature-ink: #00744b;
+  --color-ressourcement-ink: #3a63b8;
+  --color-vie-collective-ink: #ab4925;
+  --color-convivialite-ink: #826b05;
+  --color-hebergement-ink: #b83a2a;
+  --color-production-ink: #64721a;
+
+  /* --- Neutres dérivés du teal --- */
+  --color-ink: #224246;
+  --color-ink-2: #4b6265;
+  --color-ink-3: #7a8d8f;
+  --color-ink-4: #a9b6b7;
+  --color-line: #d8e0e0;
+  --color-line-soft: #e9eeee;
+  --color-surface: #f3f6f5;
+  --color-paper: #faf6f0;
+
+  /* --- Sémantique --- */
+  --color-highlight: #eac20b;
+  --color-status-success: #64721a;
+  --color-status-warning: #826b05;
+  --color-status-danger: #b83a2a;
+  --color-status-success-bg: #f1f5d9;
+  --color-status-warning-bg: #fcf4cc;
+  --color-status-danger-bg: #fbe6e2;
+
+  /* --- Familles --- */
+  --font-display: "Averia Serif Libre", Georgia, "Times New Roman", serif;
+  --font-body: "Averia Serif Libre", Georgia, serif;
+  --font-ui: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-sans: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Averia Serif Libre", Georgia, serif;
+
+  /* --- Échelle typographique (text-display, text-h1… + line-height) --- */
+  --text-display: 64px;
+  --text-display--line-height: 1.05;
+  --text-display--letter-spacing: -0.01em;
+  --text-h1: 48px;
+  --text-h1--line-height: 1.15;
+  --text-h1--letter-spacing: -0.01em;
+  --text-h2: 36px;
+  --text-h2--line-height: 1.15;
+  --text-h2--letter-spacing: -0.01em;
+  --text-h3: 28px;
+  --text-h3--line-height: 1.15;
+  --text-h4: 22px;
+  --text-h4--line-height: 1.15;
+  --text-lead: 20px;
+  --text-lead--line-height: 1.55;
+  --text-body: 17px;
+  --text-body--line-height: 1.55;
+  --text-small: 15px;
+  --text-small--line-height: 1.55;
+  --text-ui: 15px;
+  --text-ui--line-height: 1.3;
+  --text-caption: 13px;
+  --text-caption--line-height: 1.4;
+  --text-overline: 12px;
+  --text-overline--line-height: 1.2;
+  --text-overline--letter-spacing: 0.08em;
+
+  /* --- Rayons --- */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+  --radius-photo: 16px;
+
+  /* --- Ombres (teal très douces) --- */
+  --shadow-sm: 0 1px 2px rgba(34, 66, 70, 0.08);
+  --shadow-md: 0 6px 20px -8px rgba(34, 66, 70, 0.22);
+  --shadow-lg: 0 20px 40px -16px rgba(34, 66, 70, 0.28);
+  --shadow-focus: 0 0 0 3px rgba(34, 66, 70, 0.25);
+
+  /* --- Conteneurs (max-w-site, max-w-narrow) --- */
+  --container-site: 1180px;
+  --container-narrow: 760px;
+
+  /* --- Mouvement (quiet) --- */
+  --ease-brand: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --default-transition-duration: 200ms;
+  --default-transition-timing-function: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* Variables historiques du DS, pour lire les .jsx de référence sans traduction. */
+:root {
+  --c-teal: var(--color-teal);
+  --c-white: var(--color-white);
+  --c-accueil: var(--color-accueil);
+  --c-microferme: var(--color-microferme);
+  --c-artisanat: var(--color-artisanat);
+  --c-socioculturel: var(--color-socioculturel);
+  --c-nature: var(--color-nature);
+  --c-ressourcement: var(--color-ressourcement);
+  --c-vie-collective: var(--color-vie-collective);
+  --c-convivialite: var(--color-convivialite);
+  --c-hebergement: var(--color-hebergement);
+  --c-production: var(--color-production);
+  --c-ink: var(--color-ink);
+  --c-ink-2: var(--color-ink-2);
+  --c-ink-3: var(--color-ink-3);
+  --c-ink-4: var(--color-ink-4);
+  --c-line: var(--color-line);
+  --c-line-soft: var(--color-line-soft);
+  --c-surface: var(--color-surface);
+  --c-paper: var(--color-paper);
+  --c-teal-deep: var(--color-teal-deep);
+  --c-teal-soft: var(--color-teal-soft);
+  --text-primary: var(--color-ink);
+  --text-secondary: var(--color-ink-2);
+  --text-muted: var(--color-ink-3);
+  --text-on-dark: var(--color-white);
+  --text-link: var(--color-teal);
+  --text-link-hover: var(--color-teal-soft);
+  --surface-page: var(--color-white);
+  --surface-paper: var(--color-paper);
+  --surface-card: var(--color-white);
+  --surface-subtle: var(--color-surface);
+  --surface-inverse: var(--color-teal);
+  --border-default: var(--color-line);
+  --border-soft: var(--color-line-soft);
+  --border-strong: var(--color-teal);
+  --accent: var(--color-teal);
+  --accent-hover: var(--color-teal-soft);
+  --accent-active: var(--color-teal-deep);
+  --highlight: var(--color-socioculturel);
+  --focus-ring: var(--shadow-focus);
+  --border-w: 1.5px;
+  --container: 1180px;
+  --container-narrow: 760px;
+  --gutter: 24px;
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  --dur-slow: 320ms;
+  --ease: var(--ease-brand);
+  --control-h-sm: 36px;
+  --control-h-md: 44px;
+  --control-h-lg: 52px;
+  --radius-arch: 50% 50% 0 0 / 60% 60% 0 0;
+}
+
+/* Base (design/tokens/base.css, adaptée) */
+
+/* ------------------------------------------------------------
+   Alias de compatibilité avec la fondation (noms utilisés par les
+   composants du scaffold : bg-cream, bg-sand, text-ink-soft,
+   text-pole-nature, ring teal-tint…). Mêmes valeurs que le DS.
+   ------------------------------------------------------------ */
+@theme {
+  --color-cream: #faf6f0;
+  --color-sand: #f3f6f5;
+  --color-ink-soft: #4b6265;
+  --color-teal-tint: #f3f6f5;
+  --color-pole-hebergement: #e35543;
+  --color-pole-convivialite: #eac20b;
+  --color-pole-nature: #00a96d;
+  --color-pole-artisanat: #ddbfa1;
+  --color-pole-ressourcement: #72a1ff;
+  --color-pole-vie-collective: #ff8a5a;
+  --color-pole-production: #acc037;
+  --color-pole-hebergement-tint: #fbe6e2;
+  --color-pole-convivialite-tint: #fcf4cc;
+  --color-pole-nature-tint: #dcf3ea;
+  --color-pole-artisanat-tint: #f6ece1;
+  --color-pole-ressourcement-tint: #e4ecff;
+  --color-pole-vie-collective-tint: #ffe6db;
+  --color-pole-production-tint: #f1f5d9;
+  --color-pole-hebergement-ink: #b83a2a;
+  --color-pole-convivialite-ink: #826b05;
+  --color-pole-nature-ink: #00744b;
+  --color-pole-artisanat-ink: #856440;
+  --color-pole-ressourcement-ink: #3a63b8;
+  --color-pole-vie-collective-ink: #ab4925;
+  --color-pole-production-ink: #64721a;
+  --text-base: 17px;
+  --text-base--line-height: 1.55;
+}

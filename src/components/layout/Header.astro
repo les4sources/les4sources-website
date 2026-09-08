@@ -1,0 +1,133 @@
+---
+/**
+ * En-tête du site — portage de `design/ui_kits/Nav.jsx`.
+ *
+ * Collant, 72 px, fond blanc à 96 %, filet doux en bas. Marque + mot
+ * « Les 4 Sources » à gauche, liens en pilules à droite, puis le bouton jaune
+ * « Le bar 🧉 ». Pas de recherche, pas de bascule de thème : le teal est la
+ * seule surface sombre de la charte, il n'existe pas de thème sombre.
+ *
+ * Sous 900 px, les liens passent dans un tiroir plein écran ouvert par un
+ * bouton hamburger. Script en ligne, sans framework.
+ */
+import { primaryNav } from "@lib/nav";
+import Button from "@components/ds/Button.astro";
+import Logo from "@components/ds/Logo.astro";
+
+const nav = primaryNav();
+
+/** Le bar est l'appel à l'action de l'en-tête (Nav.jsx : `go('bar')`). */
+const BAR = { label: "Le bar 🧉", path: "/le-bar-des-4-sources" };
+
+const current = Astro.url.pathname.replace(/\/+$/, "") || "/";
+// Un seul lien courant : le plus spécifique qui corresponde
+// (/sejours/salles → « Salles », pas « Séjours »).
+const activePath = nav
+  .filter((l) => current === l.path || current.startsWith(`${l.path}/`))
+  .sort((a, b) => b.path.length - a.path.length)[0]?.path;
+---
+
+<header class="sticky top-0 z-50 border-b-[1.5px] border-line-soft bg-[rgba(255,255,255,0.96)]">
+  <div class="mx-auto flex h-[72px] max-w-site items-center gap-4 px-6 min-[900px]:gap-8">
+    <Logo href="/" size="md" variant="teal" class="shrink-0" />
+
+    <nav aria-label="Navigation principale" class="ml-auto hidden gap-1.5 min-[900px]:flex">
+      {
+        nav.map((link) => {
+          const on = link.path === activePath;
+          return (
+            <a
+              href={link.path}
+              aria-current={on ? "page" : undefined}
+              class:list={[
+                "rounded-pill px-3 py-2 font-ui text-ui text-teal no-underline transition-colors duration-[120ms]",
+                on ? "bg-surface font-bold" : "hover:bg-surface",
+              ]}
+            >
+              {link.label}
+            </a>
+          );
+        })
+      }
+    </nav>
+
+    <div class="ml-auto flex items-center gap-3 min-[900px]:ml-0">
+      {/* Le masquage vit sur l'enveloppe : `hidden` posé sur le Button perdrait
+          contre son propre `inline-flex`, l'ordre des utilitaires dans la
+          feuille l'emportant sur l'ordre des classes. */}
+      <div class="hidden min-[900px]:block">
+        <Button variant="highlight" size="sm" href={BAR.path}>{BAR.label}</Button>
+      </div>
+
+      <button
+        type="button"
+        id="l4s-nav-toggle"
+        aria-expanded="false"
+        aria-controls="l4s-nav-drawer"
+        class="inline-flex h-[var(--control-h-sm)] items-center gap-2 rounded-pill border-[1.5px] border-line px-3.5 font-ui text-[13px] font-bold text-teal transition-colors duration-[120ms] hover:bg-surface min-[900px]:hidden"
+      >
+        <span data-l4s-toggle-label>Menu</span>
+        <svg viewBox="0 0 20 20" class="h-4 w-4 fill-current" aria-hidden="true" focusable="false">
+          <path d="M2 4h16v2H2zM2 9h16v2H2zM2 14h16v2H2z"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div id="l4s-nav-drawer" class="l4s-drawer" hidden>
+    <nav aria-label="Navigation principale (mobile)" class="flex flex-col gap-1">
+      {
+        nav.map((link) => (
+          <a
+            href={link.path}
+            aria-current={link.path === activePath ? "page" : undefined}
+            class:list={[
+              "rounded-md px-3 py-3 font-display text-h3 text-teal no-underline",
+              link.path === activePath ? "bg-surface font-bold" : "",
+            ]}
+          >
+            {link.label}
+          </a>
+        ))
+      }
+    </nav>
+    <Button variant="highlight" size="lg" href={BAR.path} fullWidth class="mt-6">
+      {BAR.label}
+    </Button>
+  </div>
+</header>
+
+<script>
+  const toggle = document.getElementById("l4s-nav-toggle");
+  const drawer = document.getElementById("l4s-nav-drawer");
+
+  if (toggle && drawer) {
+    const label = toggle.querySelector<HTMLElement>("[data-l4s-toggle-label]");
+
+    const setOpen = (open: boolean) => {
+      drawer.hidden = !open;
+      toggle.setAttribute("aria-expanded", String(open));
+      if (label) label.textContent = open ? "Fermer" : "Menu";
+      // Verrou de défilement pendant que le tiroir couvre la page.
+      document.body.style.overflow = open ? "hidden" : "";
+    };
+
+    toggle.addEventListener("click", () => setOpen(drawer.hidden));
+
+    drawer.addEventListener("click", (event) => {
+      if ((event.target as HTMLElement).closest("a")) setOpen(false);
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !drawer.hidden) {
+        setOpen(false);
+        toggle.focus();
+      }
+    });
+
+    // Le tiroir n'existe que sous 900 px : repasser au-dessus le referme.
+    window.matchMedia("(min-width: 900px)").addEventListener("change", (event) => {
+      if (event.matches && !drawer.hidden) setOpen(false);
+    });
+  }
+</script>

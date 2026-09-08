@@ -1,0 +1,85 @@
+{
+  "path": "/collectif/michael-hulet",
+  "slug": "collectif__michael-hulet",
+  "rootIsCollection": false,
+  "title": "Michael Hulet",
+  "metaDescription": "Michael a l'oeil du designer en permaculture sur le projet, et se nourrit de la présence d'arbres, de plantes et d'animaux à nos côtés.",
+  "ogImage": null,
+  "ogTitle": "Michael Hulet",
+  "ogUrl": "https://www.les4sources.be/collectif/michael-hulet",
+  "canonical": null,
+  "h1": "Michael Hulet",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Type": "Habitant·e"
+  },
+  "propertySchema": [
+    {
+      "id": "ew_Z",
+      "name": "Bio courte",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "rCb{",
+      "name": "Photo",
+      "type": "file",
+      "visibility": "show"
+    },
+    {
+      "id": "CPcu",
+      "name": "Type",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "collectif-michael-hulet",
+    "blockId": "2f1a3cdf-f014-41c2-8efc-bffff885d15c",
+    "parentId": "e93593be43cd488598c5226e7ba2b369",
+    "type": "page",
+    "uri": "/collectif/michael-hulet",
+    "createdTime": "2024-04-03T13:48:59.010Z",
+    "lastEditedTime": "2026-07-12T16:21:00.738Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Collectif",
+      "href": "/collectif"
+    },
+    {
+      "label": "Michael Hulet",
+      "href": "/collectif/michael-hulet"
+    }
+  ],
+  "contentHtml": "<div id=\"block-c65e0ac293ba4bc4abddeabc9e6b712c\" class=\"notion-column-list\"><div id=\"block-cc0a5c0fa9fc429bb69129215c3726aa\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-04896ed96e064c24810325a934e69175\" class=\"notion-text notion-text__content notion-semantic-string\">Michael a l'oeil du designer en permaculture sur le projet, et se nourrit de la présence d'arbres, de plantes et d'animaux à nos côtés. </p><p id=\"block-c259578986334c6688374e6d6029d43d\" class=\"notion-text notion-text__content notion-semantic-string\">Concepteur de forêts-jardins et source de <a href=\"https://www.semisto.org\" class=\"notion-link link\" data-link-uri=\"https://www.semisto.org\">l’association Semisto</a>, il est passionné par l'agriculture régénérative et l'évolution positive des écosystèmes.</p><p id=\"block-39b0d1493317807a8e7ed9e1c5630491\" class=\"notion-text notion-text__content notion-semantic-string\">Michael est aussi concepteur d’applications et de sites web. Découvre son travail sur <a href=\"https://www.supergenial.be\" class=\"notion-link link\" data-link-uri=\"https://www.supergenial.be\">le site de Super Génial</a>.</p><p id=\"block-2214e21699cc4d59ab03d96cf7ade956\" class=\"notion-text notion-text__content notion-semantic-string\">··· <a href=\"mailto:michael@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">michael@les4sources.be</a> </p></div><div id=\"block-bde520c149ef471cb31c40a4cc69a40f\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-dd71a85e265f4828812ec5b269f9ce66\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6c67950f-03ac-4761-8a34-393cadd48597/2024-07-michael-hulet-square/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6c67950f-03ac-4761-8a34-393cadd48597/2024-07-michael-hulet-square/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6c67950f-03ac-4761-8a34-393cadd48597/2024-07-michael-hulet-square/public\"></span></div></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6c67950f-03ac-4761-8a34-393cadd48597/2024-07-michael-hulet-square/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/collectif__michael-hulet/01-2024-07-michael-hulet-square.jpg",
+      "shared": false,
+      "bytes": 92114
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [
+    "https://www.semisto.org",
+    "https://www.supergenial.be",
+    "mailto:michael@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 61,
+  "fetchedAt": "2026-09-07T21:17:27.331Z",
+  "markdown": "<!-- columns -->\n<!-- column width=\"50%\" -->\n\nMichael a l'oeil du designer en permaculture sur le projet, et se nourrit de la présence d'arbres, de plantes et d'animaux à nos côtés.\n\nConcepteur de forêts-jardins et source de [l’association Semisto](https://www.semisto.org), il est passionné par l'agriculture régénérative et l'évolution positive des écosystèmes.\n\nMichael est aussi concepteur d’applications et de sites web. Découvre son travail sur [le site de Super Génial](https://www.supergenial.be).\n\n··· [michael@les4sources.be](mailto:michael@les4sources.be)\n\n<!-- column width=\"50%\" -->\n\n![image](images/collectif__michael-hulet/01-2024-07-michael-hulet-square.jpg)\n<!-- /columns -->\n",
+  "extractedAt": "2026-09-07T21:41:44.358Z"
+}

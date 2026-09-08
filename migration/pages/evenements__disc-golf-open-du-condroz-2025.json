@@ -1,0 +1,162 @@
+{
+  "path": "/evenements/disc-golf-open-du-condroz-2025",
+  "slug": "evenements__disc-golf-open-du-condroz-2025",
+  "rootIsCollection": false,
+  "title": "Disc-golf : Open du Condroz",
+  "metaDescription": "Tournoi de disc-golf au Domaine d’Ahinvaux / Les 4 Sources à Yvoir le 10 mai 2025",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/60c54134-adc1-4bfe-ad0b-172308e0487c/disc-golf-open-du-condroz-2025/public",
+  "ogTitle": "Disc-golf : Open du Condroz",
+  "ogUrl": "https://www.les4sources.be/evenements/disc-golf-open-du-condroz-2025",
+  "canonical": null,
+  "h1": "Disc-golf : Open du Condroz",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/60c54134-adc1-4bfe-ad0b-172308e0487c/disc-golf-open-du-condroz-2025/public",
+    "localPath": "images/evenements__disc-golf-open-du-condroz-2025/01-disc-golf-open-du-condroz-2025.jpg"
+  },
+  "pageIcon": null,
+  "properties": {
+    "Date": "2025-05-10",
+    "Horaires": "8h30 à 17h",
+    "Type d'événement": "Partenaires",
+    "Thématique": "Sports",
+    "Date (fr)": "10 mai 2025",
+    "Date de création": "Mar 16, 2025 9:57 PM",
+    "Statut site web": "Publié",
+    "super:description": "Tournoi de disc-golf au Domaine d’Ahinvaux / Les 4 Sources à Yvoir le 10 mai 2025",
+    "super:slug": "disc-golf-open-du-condroz-2025"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-disc-golf-open-du-condroz-2025",
+    "blockId": "1b80d149-3317-805e-ad2a-c26f596dbbab",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/disc-golf-open-du-condroz-2025",
+    "createdTime": "2025-03-16T21:57:38.283Z",
+    "lastEditedTime": "2026-01-29T11:15:07.668Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements"
+    },
+    {
+      "label": "Disc-golf : Open du Condroz",
+      "href": "/evenements/disc-golf-open-du-condroz-2025"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-1b80d14933178067bae2c2b6a255287f\" class=\"notion-heading notion-semantic-string\">L’Open du Condroz est un tournoi officiel PDGA ouvert aux joueurs de tous niveaux.</h3><p id=\"block-1b80d149331780f9a663f08e31831fec\" class=\"notion-text notion-text__content notion-semantic-string\">L’<strong>Open du Condroz 2025</strong> est de retour pour une nouvelle édition sur l’un des <strong>plus beaux parcours de disc-golf de Belgique</strong>, niché en pleine nature aux 4 Sources à Yvoir.</p><p id=\"block-1b80d14933178068b0a8f213daebc599\" class=\"notion-text notion-text__content notion-semantic-string\">Que vous soyez un joueur expérimenté ou un amateur désireux de relever un défi, ce tournoi est l’occasion idéale de tester votre précision et votre stratégie sur un <strong>parcours 18 trous vallonné</strong>, offrant un cadre exceptionnel et des défis techniques variés.</p><h1 id=\"block-1b80d14933178066a649f88f88ecaf6d\" class=\"notion-heading notion-semantic-string\">Horaires du tournoi</h1><p id=\"block-1b80d1493317802a9158f0bc45fd4863\" class=\"notion-text notion-text__content notion-semantic-string\">⏰&nbsp;<strong>8h30 </strong>– Accueil des joueurs &amp; briefing</p><p id=\"block-1b80d149331780e486d4f0a2232ef87f\" class=\"notion-text notion-text__content notion-semantic-string\">🤝 <strong>9h</strong> — Réunion des joueurs (meeting)</p><p id=\"block-1b80d149331780bfa1a4d4d4873355d9\" class=\"notion-text notion-text__content notion-semantic-string\">🥏&nbsp;<strong>9h30 </strong>– Premier round (18 trous)</p><p id=\"block-1b80d14933178018b3aff20a291c7a32\" class=\"notion-text notion-text__content notion-semantic-string\">🍽&nbsp;<strong>12h30 </strong>– Pause lunch (restauration disponible sur place)</p><p id=\"block-1b80d1493317800ab380dfd24a64fefd\" class=\"notion-text notion-text__content notion-semantic-string\">🥏&nbsp;<strong>13h45 </strong>– Deuxième round (18 trous)</p><p id=\"block-1b80d149331780188f57daa4aee375e8\" class=\"notion-text notion-text__content notion-semantic-string\">🏆&nbsp;<strong>17h </strong>– Cérémonie de remise des prix</p><div id=\"block-1b80d149331780a883f5eca6d5f10ca2\" class=\"notion-callout bg-yellow-light border\"><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"></span><p id=\"block-1b80d14933178089bd7ff0b95e11333a\" class=\"notion-text notion-text__content notion-semantic-string\">🍻 <a href=\"/le-bar-des-4-sources\" class=\"notion-link link\" data-link-uri=\"/le-bar-des-4-sources\">Le Bar des 4 Sources</a> situé en terrasse plein sud, sera ouvert en autogestion, quelques bières du terroir et quelques softs seront en ventes.</p></div></div><div id=\"block-1b80d1493317804280b8fc74d7f5a9ca\" class=\"notion-divider\"></div><div id=\"block-1b80d149331780a8a317c39ba48dae14\" class=\"notion-column-list\"><div id=\"block-1b80d149331780b8ac9fc7365148269c\" class=\"notion-column\" data-width=\"43.8%\"><div id=\"block-1b80d1493317805c92e8c6f0cb0c084f\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0298c87e-73f2-426a-be45-666b559dfa48/disc-golf-attitude/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0298c87e-73f2-426a-be45-666b559dfa48/disc-golf-attitude/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0298c87e-73f2-426a-be45-666b559dfa48/disc-golf-attitude/public\"></span></div></div><div id=\"block-1b80d14933178088b014de1a19ea29c1\" class=\"notion-column\" data-width=\"56.3%\"><p id=\"block-1b80d149331780bfb632ff2c54943665\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Toutes les informations et inscription sur le site web de Disc Golf Scene</strong></p><div><a href=\"https://www.discgolfscene.com/tournament/Open_du_Condroz_2025\" class=\"notion-link notion-page link-mention\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"notion-page__icon\"><img src=\"https://www.discgolfscene.com/app/icons/icon-touch-192x192.png\" alt=\"Disc Golf Scene Open du Condroz\" class=\"notion-icon\" data-full-size=\"https://www.discgolfscene.com/app/icons/icon-touch-192x192.png\" data-lightbox-src=\"https://www.discgolfscene.com/app/icons/icon-touch-192x192.png\"></span><span class=\"notion-page__title notion-semantic-string\"><span class=\"highlighted-color color-gray\">Disc Golf Scene </span>Open du Condroz</span></a></div><p></p></div></div><div id=\"block-1b80d149331780c4ba34fd43996add1a\" class=\"notion-divider\"></div><h1 id=\"block-1b80d14933178072b8b2d8ebe5162946\" class=\"notion-heading notion-semantic-string\">Un cadre unique en pleine nature</h1><p id=\"block-1b80d149331780e1acb5c0394cf7826d\" class=\"notion-text notion-text__content notion-semantic-string\"><a href=\"/projets/disc-golf-attitude-yvoir\" class=\"notion-link link\" data-link-uri=\"/projets/disc-golf-attitude-yvoir\">Le parcours des 4 Sources</a> offre une expérience immersive avec <strong>des fairways variés, des lancers en sous-bois et des vues panoramiques</strong> sur la région namuroise. En plus du plaisir du jeu, profitez d’un environnement naturel préservé où cohabitent ânes, forêts et prairies classées Natura 2000.</p><h3 id=\"block-1b80d1493317804dba7eccfcc0a29c91\" class=\"notion-heading notion-semantic-string\">🏆&nbsp;<strong>Rejoignez-nous pour une journée de compétition et de convivialité !</strong></h3><p id=\"block-1b80d1493317807b8903efaf9f65e372\" class=\"notion-text notion-text__content notion-semantic-string\">Venez affronter des joueurs de toute la Belgique et d’ailleurs dans une ambiance sportive et amicale.</p><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/60c54134-adc1-4bfe-ad0b-172308e0487c/disc-golf-open-du-condroz-2025/public",
+      "alt": "Disc-golf : Open du Condroz",
+      "role": "cover",
+      "localPath": "images/evenements__disc-golf-open-du-condroz-2025/01-disc-golf-open-du-condroz-2025.jpg",
+      "shared": false,
+      "bytes": 92829
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0298c87e-73f2-426a-be45-666b559dfa48/disc-golf-attitude/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__disc-golf-open-du-condroz-2025/02-disc-golf-attitude.jpg",
+      "shared": false,
+      "bytes": 14619
+    },
+    {
+      "src": "https://www.discgolfscene.com/app/icons/icon-touch-192x192.png",
+      "alt": "Disc Golf Scene Open du Condroz",
+      "role": "content",
+      "localPath": "images/evenements__disc-golf-open-du-condroz-2025/03-icon-touch-192x192.png",
+      "shared": false,
+      "bytes": 7427
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/le-bar-des-4-sources",
+    "/projets/disc-golf-attitude-yvoir",
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.discgolfscene.com/tournament/Open_du_Condroz_2025"
+  ],
+  "collections": [],
+  "wordCount": 253,
+  "fetchedAt": "2026-09-07T21:17:31.961Z",
+  "markdown": "#### L’Open du Condroz est un tournoi officiel PDGA ouvert aux joueurs de tous niveaux.\n\nL’**Open du Condroz 2025** est de retour pour une nouvelle édition sur l’un des **plus beaux parcours de disc-golf de Belgique**, niché en pleine nature aux 4 Sources à Yvoir.\n\nQue vous soyez un joueur expérimenté ou un amateur désireux de relever un défi, ce tournoi est l’occasion idéale de tester votre précision et votre stratégie sur un **parcours 18 trous vallonné**, offrant un cadre exceptionnel et des défis techniques variés.\n\n## Horaires du tournoi\n\n⏰ **8h30** – Accueil des joueurs & briefing\n\n🤝 **9h** — Réunion des joueurs (meeting)\n\n🥏 **9h30** – Premier round (18 trous)\n\n🍽 **12h30** – Pause lunch (restauration disponible sur place)\n\n🥏 **13h45** – Deuxième round (18 trous)\n\n🏆 **17h** – Cérémonie de remise des prix\n\n> 🍻 [Le Bar des 4 Sources](/le-bar-des-4-sources) situé en terrasse plein sud, sera ouvert en autogestion, quelques bières du terroir et quelques softs seront en ventes.\n\n<!-- columns -->\n<!-- column width=\"43.8%\" -->\n\n![image](images/evenements__disc-golf-open-du-condroz-2025/02-disc-golf-attitude.jpg)\n\n<!-- column width=\"56.3%\" -->\n\n**Toutes les informations et inscription sur le site web de Disc Golf Scene**\n\n[Disc Golf Scene Open du Condroz](https://www.discgolfscene.com/tournament/Open_du_Condroz_2025)\n<!-- /columns -->\n\n## Un cadre unique en pleine nature\n\n[Le parcours des 4 Sources](/projets/disc-golf-attitude-yvoir) offre une expérience immersive avec **des fairways variés, des lancers en sous-bois et des vues panoramiques** sur la région namuroise. En plus du plaisir du jeu, profitez d’un environnement naturel préservé où cohabitent ânes, forêts et prairies classées Natura 2000.\n\n#### 🏆 **Rejoignez-nous pour une journée de compétition et de convivialité !**\n\nVenez affronter des joueurs de toute la Belgique et d’ailleurs dans une ambiance sportive et amicale.\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.382Z"
+}

@@ -1,0 +1,145 @@
+{
+  "path": "/evenements/initiation-a-la-soudure-a-l-arc-12-octobre-2024",
+  "slug": "evenements__initiation-a-la-soudure-a-l-arc-12-octobre-2024",
+  "rootIsCollection": false,
+  "title": "Initiation à la soudure à l’arc",
+  "metaDescription": "découvrir le poste à souder MMA (soudure à l'électrode enrobée), le matériel associé, les normes de sécurité, les principes de base de cette soudure (l'arc électrique, l'électrode, les bons gestes) ;",
+  "ogImage": "https://images.unsplash.com/photo-1586333109867-812586269a58?ixlib=rb-4.0.3&cs=srgb",
+  "ogTitle": "Initiation à la soudure à l’arc",
+  "ogUrl": "https://www.les4sources.be/evenements/initiation-a-la-soudure-a-l-arc-12-octobre-2024",
+  "canonical": null,
+  "h1": "Initiation à la soudure à l’arc",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.unsplash.com/photo-1586333109867-812586269a58?ixlib=rb-4.0.3&cs=srgb",
+    "localPath": "images/_shared/36895147eed0-photo-1586333109867-812586269a58.jpg"
+  },
+  "pageIcon": "🗓️",
+  "properties": {
+    "Date": "2024-10-12",
+    "Horaires": "9h-12h30",
+    "Thématique": "Artisanat",
+    "Date (fr)": "12 octobre 2024",
+    "Tarif": "€80.00",
+    "Date de création": "Jul 20, 2024 11:08 AM",
+    "Statut site web": "Publié",
+    "super:slug": "initiation-a-la-soudure-a-l-arc-12-octobre-2024"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-initiation-a-la-soudure-a-l-arc-12-octobre-2024",
+    "blockId": "32d3eb22-e7ae-4fa1-9a6d-ddda7fdf3a3b",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/initiation-a-la-soudure-a-l-arc-12-octobre-2024",
+    "createdTime": "2024-07-20T11:08:28.919Z",
+    "lastEditedTime": "2026-01-29T11:14:46.287Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Initiation à la soudure à l’arc",
+      "href": "/evenements/initiation-a-la-soudure-a-l-arc-12-octobre-2024",
+      "icon": "🗓️"
+    }
+  ],
+  "contentHtml": "<h1 id=\"block-5b12ba29441f47ae99dc623a8b435552\" class=\"notion-heading notion-semantic-string\"><strong>Objectifs</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-2d2eb172be1e429785bf4ce414db1d8e\" class=\"notion-list-item notion-semantic-string\">découvrir le poste à souder MMA (soudure à l'électrode enrobée), le matériel associé, les normes de sécurité, les principes de base de cette soudure (l'arc électrique, l'électrode, les bons gestes) ;</li><li id=\"block-e566022e9b1742b38d4e246aa2e17d09\" class=\"notion-list-item notion-semantic-string\">expérimenter l'amorçage, le cordon à plat, le cordon en angle ;</li><li id=\"block-915ec2b6374f4532b8d8526413d224c5\" class=\"notion-list-item notion-semantic-string\">être conseillé pour l'acquisition de son matériel personnel.</li></ul><h1 id=\"block-a5ac1cae9af84b039b6e332bcb49d69a\" class=\"notion-heading notion-semantic-string\"><strong>Déroulement<!-- --></strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-6e351f1049ec4f32bd5b98dcab89d5c9\" class=\"notion-list-item notion-semantic-string\">alternance de temps de transmission théorique et de temps d'expérimentation à l'atelier ;</li><li id=\"block-1c9bf89601f547b7a54f4fc673caa836\" class=\"notion-list-item notion-semantic-string\">l'intention est de transmettre un maximum de choses par l'expérimentation.</li></ul><p id=\"block-1487c1b53155401e87a1585634c4cbe8\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Prérequis :&nbsp;</strong>aucun</p><p id=\"block-cf1a565a15984f02bc67106053f93621\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Âge :&nbsp;</strong>autour de 10 à 110 ans</p><h1 id=\"block-739525bc113641e0a7f04538db60f35a\" class=\"notion-heading notion-semantic-string\"><strong>Inscription et tarifs</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-7fbfd58ebdaf494488d765dc0b867132\" class=\"notion-list-item notion-semantic-string\">Tarif: 80 € par participant</li><li id=\"block-932031a0791345c2b88736a13fd2ee69\" class=\"notion-list-item notion-semantic-string\">Inscription et paiement en ligne via <strong><a href=\"https://les4sources.punchpass.com/org/8599/classes/15693876\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">le formulaire d’inscription</a></strong></li></ul><h2 id=\"block-3894e0e5be81451299068da417499fd2\" class=\"notion-heading notion-semantic-string\"><strong>Équipement de protection individuel à emporter</strong></h2><ul class=\"notion-bulleted-list\"><li id=\"block-5eb329b378594738ad08eb593bd4222e\" class=\"notion-list-item notion-semantic-string\">vêtements de travail non synthétiques (pas de short)</li><li id=\"block-d073f3e39b4d4c32b9aa81a72f307a81\" class=\"notion-list-item notion-semantic-string\">chaussures de sécurité ou à défaut chaussures fermées de type bottines</li><li id=\"block-d5c07f3354b24a49b5cf0155807cb862\" class=\"notion-list-item notion-semantic-string\">protections auditives (bouchons d'oreilles disponibles)</li><li id=\"block-91f73fb5ba5442868e7ef86461c6cf35\" class=\"notion-list-item notion-semantic-string\">gants, masques et EPI spécifiques disponibles en prêt</li></ul><h1 id=\"block-e9e88f8d93584b20ae91858fdb7d1a4a\" class=\"notion-heading notion-semantic-string\">Instructeur</h1><ul class=\"notion-bulleted-list\"><li id=\"block-bf31794a843f4431b35625540454fa65\" class=\"notion-list-item notion-semantic-string\">Sébastien Frennet, membre des 4 Sources</li></ul><div id=\"block-72a46607c9f144539fcc11f31e513483\" class=\"notion-callout bg-gray-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div><div id=\"block-7ea49f1d411844bca36196231d40e1b8\" class=\"notion-divider\"></div>",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1586333109867-812586269a58?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Initiation à la soudure à l’arc",
+      "role": "cover",
+      "localPath": "images/_shared/36895147eed0-photo-1586333109867-812586269a58.jpg",
+      "shared": true,
+      "bytes": 3486506
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://les4sources.punchpass.com/org/8599/classes/15693876"
+  ],
+  "collections": [],
+  "wordCount": 143,
+  "fetchedAt": "2026-09-07T21:17:32.816Z",
+  "markdown": "## **Objectifs**\n\n- découvrir le poste à souder MMA (soudure à l'électrode enrobée), le matériel associé, les normes de sécurité, les principes de base de cette soudure (l'arc électrique, l'électrode, les bons gestes) ;\n- expérimenter l'amorçage, le cordon à plat, le cordon en angle ;\n- être conseillé pour l'acquisition de son matériel personnel.\n\n## **Déroulement**\n\n- alternance de temps de transmission théorique et de temps d'expérimentation à l'atelier ;\n- l'intention est de transmettre un maximum de choses par l'expérimentation.\n\n**Prérequis :** aucun\n\n**Âge :** autour de 10 à 110 ans\n\n## **Inscription et tarifs**\n\n- Tarif: 80 € par participant\n- Inscription et paiement en ligne via **[le formulaire d’inscription](https://les4sources.punchpass.com/org/8599/classes/15693876)**\n\n### **Équipement de protection individuel à emporter**\n\n- vêtements de travail non synthétiques (pas de short)\n- chaussures de sécurité ou à défaut chaussures fermées de type bottines\n- protections auditives (bouchons d'oreilles disponibles)\n- gants, masques et EPI spécifiques disponibles en prêt\n\n## Instructeur\n\n- Sébastien Frennet, membre des 4 Sources\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.389Z"
+}

@@ -1,0 +1,147 @@
+{
+  "path": "/evenements/spectacle-yvoir-clown-toi-m-aime",
+  "slug": "evenements__spectacle-yvoir-clown-toi-m-aime",
+  "rootIsCollection": false,
+  "title": "Clown Toi-M’aime ❤️ - Seule en scène",
+  "metaDescription": "Quand la poésie rencontre une clown",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/64dbcdb1-d6cc-450a-aab5-c36965ddc16c/Evenement_gnral__A_(2)/public",
+  "ogTitle": "Clown Toi-M’aime ❤️ - Seule en scène",
+  "ogUrl": "https://www.les4sources.be/evenements/spectacle-yvoir-clown-toi-m-aime",
+  "canonical": null,
+  "h1": "Clown Toi-M’aime ❤️ - Seule en scène",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/64dbcdb1-d6cc-450a-aab5-c36965ddc16c/Evenement_gnral__A_(2)/public",
+    "localPath": "images/evenements__spectacle-yvoir-clown-toi-m-aime/01-Evenement_gnral__A_-2.jpg"
+  },
+  "pageIcon": "🤡",
+  "properties": {
+    "Date": "2026-01-31",
+    "Horaires": "20h",
+    "Type d'événement": "Célébration",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "31 janvier 2026",
+    "Places disponibles": "70",
+    "Tarif": "€15.00",
+    "Date de création": "Oct 7, 2024 8:38 AM",
+    "Statut site web": "Publié",
+    "super:slug": "clown-toi-maime"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-spectacle-yvoir-clown-toi-m-aime",
+    "blockId": "1180d149-3317-80fc-b85d-f52b46b948b2",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/spectacle-yvoir-clown-toi-m-aime",
+    "createdTime": "2024-10-07T08:38:32.171Z",
+    "lastEditedTime": "2026-01-29T11:20:18.012Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Clown Toi-M’aime ❤️ - Seule en scène",
+      "href": "/evenements/spectacle-yvoir-clown-toi-m-aime",
+      "icon": "🤡"
+    }
+  ],
+  "contentHtml": "<h1 id=\"block-4436469bc716413fb69f895e7cfbd347\" class=\"notion-heading notion-semantic-string\">Un seule en scène aux 4 Sources</h1><p id=\"block-217ffca40c2347e3bcbc49614493bb5d\" class=\"notion-text notion-text__content notion-semantic-string\">Quand la poésie rencontre une clown</p><p id=\"block-2a30d1493317806185daf18fe6a03087\" class=\"notion-text notion-text__content notion-semantic-string\">Quand la clown dé-couvre une femme !</p><p id=\"block-76cdfa97fb394b3e8ae1d498ced6180d\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Le samedi 31 janvier à 20h,</strong> soyez la bienvenue dans le seule-en-scène de et avec Amélie Fiasse, mis en scène par Sun Lhonoré.</p><div id=\"block-2e90d149331780c1b547c47684c1246c\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/clown-toi-maime\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🤡</span></div><span class=\"notion-semantic-string\">Je prends ma place !</span></a></div><p id=\"block-2a30d149331780ae903cf0141f9908a8\" class=\"notion-text notion-text__content notion-semantic-string\">\"Clown-toi-m'aime\", c'est un strip tease d'histoires, d'émotions, une réappropriation de son corps, une expression de son être dans sa vulnérabilité et sa puissance? C'est un récit de vie poétique et sensible, dans lequel chacun peut s'y reconnaitre.</p><p id=\"block-db0bd318307243bfbc9616883f02f578\" class=\"notion-text notion-text__content notion-semantic-string\">\"Clown toi-m'aime\" explore la relation au passé, au présent, à soi, à l'autre, au monde.C'est une invitation à plonger dans les ténèbres pour mieux voir la lumière. C'est un espace où le rire peut faire pleurer et les larmes amener le rire, où les mots touchent, et le corps parle.</p><p id=\"block-e9d0edad8315465786bab9687ebb40fc\" class=\"notion-text notion-text__content notion-semantic-string\">\"Clown toi-m'aime\" c'est peut être tout simplement une ode à l'amour de soi et des autres.\n</p><p id=\"block-d43d9a81a68946ab8fa6aa397ef1b855\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Ecriture et jeu</strong> : Amélie Fiasse</p><p id=\"block-2a30d1493317808b8bd6d455036a810d\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Mise en scène</strong> : Sun Lhonoré de la To DO Compagnie</p><p id=\"block-2a30d1493317804b98bdf0a9507c9fc8\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Public</strong> : adapté pour les grands enfants à partir de 15 ans, les enfants plus jeunes peuvent être bienvenus (places payantes également)</p><p id=\"block-2b10d149331780ab98e9db483e4b694d\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Prix</strong> : 15€ / personne</p><p id=\"block-2a30d149331780d1bce9ebe0bce0c72b\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Durée</strong> : 1h - 1h10, début du spectacle à 20h</p><p id=\"block-2a30d1493317801fb03ad8185306a078\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Photo</strong> : Emilie Tralongo\n</p><div id=\"block-2b10d14933178060bba0c0156d7080ab\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/clown-toi-maime\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🤡</span></div><span class=\"notion-semantic-string\">Je prends ma place !</span></a></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/64dbcdb1-d6cc-450a-aab5-c36965ddc16c/Evenement_gnral__A_(2)/public",
+      "alt": "Clown Toi-M’aime ❤️ - Seule en scène",
+      "role": "cover",
+      "localPath": "images/evenements__spectacle-yvoir-clown-toi-m-aime/01-Evenement_gnral__A_-2.jpg",
+      "shared": false,
+      "bytes": 85017
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.billetweb.fr/clown-toi-maime"
+  ],
+  "collections": [],
+  "wordCount": 215,
+  "fetchedAt": "2026-09-07T21:17:42.195Z",
+  "markdown": "## Un seule en scène aux 4 Sources\n\nQuand la poésie rencontre une clown\n\nQuand la clown dé-couvre une femme !\n\n**Le samedi 31 janvier à 20h,** soyez la bienvenue dans le seule-en-scène de et avec Amélie Fiasse, mis en scène par Sun Lhonoré.\n\n[🤡 Je prends ma place !](https://www.billetweb.fr/clown-toi-maime){.button}\n\n\"Clown-toi-m'aime\", c'est un strip tease d'histoires, d'émotions, une réappropriation de son corps, une expression de son être dans sa vulnérabilité et sa puissance? C'est un récit de vie poétique et sensible, dans lequel chacun peut s'y reconnaitre.\n\n\"Clown toi-m'aime\" explore la relation au passé, au présent, à soi, à l'autre, au monde.C'est une invitation à plonger dans les ténèbres pour mieux voir la lumière. C'est un espace où le rire peut faire pleurer et les larmes amener le rire, où les mots touchent, et le corps parle.\n\n\"Clown toi-m'aime\" c'est peut être tout simplement une ode à l'amour de soi et des autres.\n\n**Ecriture et jeu** : Amélie Fiasse\n\n**Mise en scène** : Sun Lhonoré de la To DO Compagnie\n\n**Public** : adapté pour les grands enfants à partir de 15 ans, les enfants plus jeunes peuvent être bienvenus (places payantes également)\n\n**Prix** : 15€ / personne\n\n**Durée** : 1h - 1h10, début du spectacle à 20h\n\n**Photo** : Emilie Tralongo\n\n[🤡 Je prends ma place !](https://www.billetweb.fr/clown-toi-maime){.button}\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.470Z"
+}

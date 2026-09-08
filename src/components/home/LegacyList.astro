@@ -1,0 +1,39 @@
+---
+/**
+ * La liste de liens que l'ancien site imprimait sous ses collections
+ * (titre — thématique · date). La grille vivante la remplace visuellement,
+ * mais la liste reste servie, dépliable : c'est le texte de l'ancienne page,
+ * mot pour mot, et il ne doit pas disparaître du site.
+ */
+export interface LegacyRow {
+  title: string;
+  href: string;
+  /** Ce qui suit le titre, tel quel : « — Artisanat · samedi 12 septembre ». */
+  meta: string;
+}
+
+interface Props {
+  rows: LegacyRow[];
+  /** Intitulé de la collection dans le contenu migré (« Événements »). */
+  heading?: string;
+  class?: string;
+}
+
+const { rows, heading, class: className } = Astro.props;
+---
+
+<details class:list={["mt-8 border-t-[1.5px] border-line-soft pt-4", className]}>
+  <summary class="cursor-pointer font-ui text-ui font-bold text-teal">Liste complète</summary>
+  <div class="pt-3">
+    {heading && <p class="mb-1.5 font-ui text-ui font-bold text-ink-2">{heading}</p>}
+    <ul class="m-0 list-none p-0 font-body text-body text-ink-2">
+      {
+        rows.map((r) => (
+          <li class="py-1">
+            <a href={r.href}>{r.title}</a> {r.meta}
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</details>

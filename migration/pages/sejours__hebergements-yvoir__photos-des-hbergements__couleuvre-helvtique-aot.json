@@ -1,0 +1,63 @@
+{
+  "path": "/sejours/hebergements-yvoir/photos-des-hbergements/couleuvre-helvtique-aot",
+  "slug": "sejours__hebergements-yvoir__photos-des-hbergements__couleuvre-helvtique-aot",
+  "rootIsCollection": false,
+  "title": "Couleuvre helvétique (août)",
+  "metaDescription": null,
+  "ogImage": null,
+  "ogTitle": "Couleuvre helvétique (août)",
+  "ogUrl": "https://www.les4sources.be/sejours/hebergements-yvoir/photos-des-hbergements/couleuvre-helvtique-aot",
+  "canonical": null,
+  "h1": "Couleuvre helvétique (août)",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Date de création": "Oct 23, 2025 2:16 PM",
+    "Page": "Biodiversité"
+  },
+  "propertySchema": [
+    {
+      "id": "y|zT",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "JUEM",
+      "name": "Page",
+      "type": "multi_select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "sejours-hebergements-yvoir-photos-des-hbergements-couleuvre-helvtique-aot",
+    "blockId": "2950d149-3317-8079-ac00-d09dcca6359e",
+    "parentId": "28a0d149331781b09d9c000b678af892",
+    "type": "page",
+    "uri": "/sejours/hebergements-yvoir/photos-des-hbergements/couleuvre-helvtique-aot",
+    "createdTime": "2025-10-23T14:16:45.143Z",
+    "lastEditedTime": "2025-10-23T14:33:41.559Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<div id=\"block-e6a450c04680442789c001eb4673ea58\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f7b89eaf-6f62-4e8a-94bf-f3edbc6d95a1/couleuvre_helvetique/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f7b89eaf-6f62-4e8a-94bf-f3edbc6d95a1/couleuvre_helvetique/public\"><img alt=\"Couleuvre helvétique\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f7b89eaf-6f62-4e8a-94bf-f3edbc6d95a1/couleuvre_helvetique/public\"></span><figcaption class=\"notion-caption notion-semantic-string\">Couleuvre helvétique</figcaption></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f7b89eaf-6f62-4e8a-94bf-f3edbc6d95a1/couleuvre_helvetique/public",
+      "alt": "Couleuvre helvétique",
+      "role": "content",
+      "localPath": "images/_shared/7320336afb1d-couleuvre_helvetique.jpg",
+      "shared": true,
+      "bytes": 250742
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 2,
+  "fetchedAt": "2026-09-07T21:17:50.443Z",
+  "markdown": "![Couleuvre helvétique](images/_shared/7320336afb1d-couleuvre_helvetique.jpg)\n*Couleuvre helvétique*\n",
+  "extractedAt": "2026-09-07T21:41:44.554Z"
+}

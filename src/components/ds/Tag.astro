@@ -1,0 +1,35 @@
+---
+/**
+ * Tag — pilule de filtre sélectionnable (portage de `Tag` dans Display.jsx).
+ * `href` produit un lien de filtre (le cas du site : les filtres de l'agenda
+ * sont des URLs) ; sinon un `<button>` avec `aria-pressed`.
+ */
+interface Props {
+  selected?: boolean;
+  href?: string;
+  class?: string;
+  [key: string]: unknown;
+}
+
+const { selected = false, href, class: className, ...rest } = Astro.props;
+
+const classes = [
+  "inline-flex h-8 items-center gap-1.5 rounded-pill border-[1.5px] px-3 font-ui text-ui no-underline transition-colors duration-[120ms]",
+  selected
+    ? "border-teal bg-teal text-white"
+    : "border-line bg-white text-ink hover:bg-surface",
+  className,
+];
+---
+
+{
+  href ? (
+    <a href={href} aria-current={selected ? "true" : undefined} class:list={classes} {...rest}>
+      <slot />
+    </a>
+  ) : (
+    <button type="button" aria-pressed={selected} class:list={classes} {...rest}>
+      <slot />
+    </button>
+  )
+}

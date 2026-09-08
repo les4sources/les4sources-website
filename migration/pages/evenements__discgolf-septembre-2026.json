@@ -1,0 +1,153 @@
+{
+  "path": "/evenements/discgolf-septembre-2026",
+  "slug": "evenements__discgolf-septembre-2026",
+  "rootIsCollection": false,
+  "title": "🤾🏻 Tournoi de disc-golf",
+  "metaDescription": "Disc Golf",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2a147bc3-0b26-46e1-9bfc-a4af89c7ad6a/evenement_gnral__a_-1/public",
+  "ogTitle": "🤾🏻 Tournoi de disc-golf",
+  "ogUrl": "https://www.les4sources.be/evenements/discgolf-septembre-2026",
+  "canonical": null,
+  "h1": "🤾🏻 Tournoi de disc-golf",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2a147bc3-0b26-46e1-9bfc-a4af89c7ad6a/evenement_gnral__a_-1/public",
+    "localPath": "images/_shared/1bb4433d2d71-evenement_gnral__a_-1.jpg"
+  },
+  "pageIcon": "🥏",
+  "properties": {
+    "Date": "2026-09-06",
+    "Horaires": "9h-17h",
+    "Type d'événement": "Nature",
+    "Thématique": "Liens et convivialité, Sports",
+    "Date (fr)": "dimanche 6 septembre",
+    "Date de création": "Jan 22, 2026 9:50 AM",
+    "Statut site web": "Publié",
+    "super:description": "Disc Golf",
+    "super:slug": "discgolf-septembre-2026"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-discgolf-septembre-2026",
+    "blockId": "2f00d149-3317-8070-88d9-d9ce3551efdb",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/discgolf-septembre-2026",
+    "createdTime": "2026-01-22T09:50:53.665Z",
+    "lastEditedTime": "2026-08-27T10:13:36.088Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "🤾🏻 Tournoi de disc-golf",
+      "href": "/evenements/discgolf-septembre-2026",
+      "icon": "🥏"
+    }
+  ],
+  "contentHtml": "<p id=\"block-8b4230a5c23b4ef186b32c5572fb3b76\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Dimanche 6 septembre 2026 -&nbsp; 09h-17h00&nbsp;9ᵉ manche du Belgian National Tour de Disc Golf.</strong></p><p id=\"block-c706316ed97b4944b7a25ce946529f88\" class=\"notion-text notion-text__content notion-semantic-string\">Ce tournoi s'inscrit fièrement au calendrier officiel du <em>Belgian National Tour 2026</em>, une série prestigieuse composée de 11 étapes à travers le pays, réunissant les meilleurs talents nationaux et offrant un niveau de jeu et de compétition d'exception.</p><p id=\"block-08ed73e6cac14ffa8ed97092cbafcae2\" class=\"notion-text notion-text__content notion-semantic-string\">En tant qu'étape officielle du circuit, le domaine des 4 Sources offrira aux joueurs l'opportunité de marquer de précieux points pour le classement national et de mettre leurs compétences à l'épreuve sur une véritable scène nationale.</p><p id=\"block-6e4821b5e217406694c7f7978777c37d\" class=\"notion-text notion-text__content notion-semantic-string\">Dans le cadre remarquable et naturel du Domaine des 4 Sources, deux parties de 18 trous seront disputées sur ce&nbsp;&nbsp;parcours exigeant, promettant une journée intense, spectaculaire et riche en performances.<!-- --></p><div id=\"block-3c90d149331780128451f99a7512a5a9\" class=\"notion-button\"><a href=\"https://www.discgolfscene.com/tournament/Belgian_NT_9_2026\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🥏</span></div><span class=\"notion-semantic-string\">Lien d'inscription </span></a></div><h3 id=\"block-2f00d149331780e8b91adfe4071f54c6\" class=\"notion-heading notion-semantic-string\">Prévisions météo</h3><div id=\"block-2f00d1493317809482bec1060180e6f8\" class=\"super-embed\">\n<iframe src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius\" name=\"CW2\" width=\"318\" height=\"318\"></iframe></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2a147bc3-0b26-46e1-9bfc-a4af89c7ad6a/evenement_gnral__a_-1/public",
+      "alt": "🤾🏻 Tournoi de disc-golf",
+      "role": "cover",
+      "localPath": "images/_shared/1bb4433d2d71-evenement_gnral__a_-1.jpg",
+      "shared": true,
+      "bytes": 142647
+    }
+  ],
+  "embeds": [
+    {
+      "kind": "other",
+      "src": "https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius",
+      "title": "api.wo-cloud.com",
+      "rawHtml": "<iframe src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius\" name=\"CW2\" width=\"318\" height=\"318\"></iframe>"
+    }
+  ],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.discgolfscene.com/tournament/Belgian_NT_9_2026"
+  ],
+  "collections": [],
+  "wordCount": 134,
+  "fetchedAt": "2026-09-07T21:17:32.573Z",
+  "markdown": "**Dimanche 6 septembre 2026 -  09h-17h00 9ᵉ manche du Belgian National Tour de Disc Golf.**\n\nCe tournoi s'inscrit fièrement au calendrier officiel du *Belgian National Tour 2026*, une série prestigieuse composée de 11 étapes à travers le pays, réunissant les meilleurs talents nationaux et offrant un niveau de jeu et de compétition d'exception.\n\nEn tant qu'étape officielle du circuit, le domaine des 4 Sources offrira aux joueurs l'opportunité de marquer de précieux points pour le classement national et de mettre leurs compétences à l'épreuve sur une véritable scène nationale.\n\nDans le cadre remarquable et naturel du Domaine des 4 Sources, deux parties de 18 trous seront disputées sur ce  parcours exigeant, promettant une journée intense, spectaculaire et riche en performances.\n\n[🥏 Lien d'inscription](https://www.discgolfscene.com/tournament/Belgian_NT_9_2026){.button}\n\n#### Prévisions météo\n\n<!-- embed:other src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius\" -->\n[api.wo-cloud.com](https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.384Z"
+}

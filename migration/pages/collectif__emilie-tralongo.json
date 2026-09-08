@@ -1,0 +1,69 @@
+{
+  "path": "/collectif/emilie-tralongo",
+  "slug": "collectif__emilie-tralongo",
+  "rootIsCollection": false,
+  "title": "Emilie Tralongo",
+  "metaDescription": "Emilie est avant tout la maman de Flint, petit chien très sympathique mais très bruyant, mais aussi de Oka, grand bébé chien dynamique et silencieuse. Si Flint est présent aux 4 Sources, vous ne pourrez donc pas la louper, à moins d’être complètement sourd.",
+  "ogImage": null,
+  "ogTitle": "Emilie Tralongo",
+  "ogUrl": "https://www.les4sources.be/collectif/emilie-tralongo",
+  "canonical": null,
+  "h1": "Emilie Tralongo",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {},
+  "propertySchema": [
+    {
+      "id": "ew_Z",
+      "name": "Bio courte",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "rCb{",
+      "name": "Photo",
+      "type": "file",
+      "visibility": "show"
+    },
+    {
+      "id": "CPcu",
+      "name": "Type",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "collectif-emilie-tralongo",
+    "blockId": "2720d149-3317-8053-a409-c78f50a561a5",
+    "parentId": "e93593be43cd488598c5226e7ba2b369",
+    "type": "page",
+    "uri": "/collectif/emilie-tralongo",
+    "createdTime": "2025-09-18T14:11:40.490Z",
+    "lastEditedTime": "2026-07-04T07:59:29.758Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<div id=\"block-2720d149331780c2a0c6f8ea68e7196a\" class=\"notion-column-list\"><div id=\"block-2720d14933178079b5a0f6519ed32d64\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-2720d149331780fc89f9d2e5cbe74a36\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Emilie</strong> est avant tout la maman de Flint, petit chien très sympathique mais très bruyant, mais aussi de Oka, grand bébé chien dynamique et silencieuse. Si Flint est présent aux 4 Sources, vous ne pourrez donc pas la louper, à moins d’être complètement sourd.</p><p id=\"block-2720d1493317806392d2f646e8aad627\" class=\"notion-text notion-text__content notion-semantic-string\">Emilie est aussi la créatrice de Snoap, la marque de savons que vous retrouverez bientôt dans tous les bons magasins, d’Anvers à Marseille - détrônant ainsi le célèbre savon de la ville. En attendant, les savons sont disponibles à la boutique !</p><p id=\"block-2720d1493317801a9267ce3caddcbca8\" class=\"notion-text notion-text__content notion-semantic-string\">Enfin, aux 4 Sources, Emilie est aux mains de la communication. C’est elle qui met en lumière les événements et la vie sur le lieu, notamment sur ces chers réseaux sociaux.</p><p id=\"block-2720d1493317801fb783c599269ff34c\" class=\"notion-text notion-text__content notion-semantic-string\"><strong><a href=\"https://snoap.be\" class=\"notion-link link\" data-link-uri=\"https://snoap.be\">Snoap.be</a></strong></p><p id=\"block-2720d1493317806c9a7ed7390d191b74\" class=\"notion-text notion-text__content notion-semantic-string\">Pour contacter Emilie : <a href=\"mailto:comm@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">communication@les4sources.be</a></p></div><div id=\"block-2720d149331780a79765f9db1da2a2c7\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2720d1493317808a9722c2a14c41f4fb\" class=\"notion-image align-start normal\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/af3edf04-34f1-4076-a0e0-8e3b82ffc8b2/emilie/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/af3edf04-34f1-4076-a0e0-8e3b82ffc8b2/emilie/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/af3edf04-34f1-4076-a0e0-8e3b82ffc8b2/emilie/public\"></span></div></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/af3edf04-34f1-4076-a0e0-8e3b82ffc8b2/emilie/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/collectif__emilie-tralongo/01-emilie.jpg",
+      "shared": false,
+      "bytes": 24237
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [
+    "https://snoap.be",
+    "mailto:comm@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 119,
+  "fetchedAt": "2026-09-07T21:17:27.033Z",
+  "markdown": "<!-- columns -->\n<!-- column width=\"50%\" -->\n\n**Emilie** est avant tout la maman de Flint, petit chien très sympathique mais très bruyant, mais aussi de Oka, grand bébé chien dynamique et silencieuse. Si Flint est présent aux 4 Sources, vous ne pourrez donc pas la louper, à moins d’être complètement sourd.\n\nEmilie est aussi la créatrice de Snoap, la marque de savons que vous retrouverez bientôt dans tous les bons magasins, d’Anvers à Marseille - détrônant ainsi le célèbre savon de la ville. En attendant, les savons sont disponibles à la boutique !\n\nEnfin, aux 4 Sources, Emilie est aux mains de la communication. C’est elle qui met en lumière les événements et la vie sur le lieu, notamment sur ces chers réseaux sociaux.\n\n**[Snoap.be](https://snoap.be)**\n\nPour contacter Emilie : [communication@les4sources.be](mailto:comm@les4sources.be)\n\n<!-- column width=\"50%\" -->\n\n![image](images/collectif__emilie-tralongo/01-emilie.jpg)\n<!-- /columns -->\n",
+  "extractedAt": "2026-09-07T21:41:44.357Z"
+}

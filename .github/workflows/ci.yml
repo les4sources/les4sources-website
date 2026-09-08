@@ -1,0 +1,37 @@
+name: CI
+
+# Garde-fou qualité : types, build, SEO/GEO et contrat Claudy sur chaque PR
+# et chaque push sur main. Tant que ce job échoue, on ne merge pas.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      # Build avec l'origine de prod pour valider canonical, OG et URLs absolues.
+      SITE: https://www.les4sources.be
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install
+        run: bun install --frozen-lockfile
+
+      - name: Types (astro check)
+        run: bun run check
+
+      - name: Build
+        run: bun run build
+
+      - name: Garde-fou SEO/GEO
+        run: bun run seo:check
+
+      - name: Contrat Claudy
+        run: bun run claudy:check

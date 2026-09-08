@@ -1,0 +1,59 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import Button from "@components/ds/Button.astro";
+import Highlight from "@components/ds/Highlight.astro";
+import Section from "@components/ds/Section.astro";
+import { primaryNav } from "@lib/nav";
+
+const nav = primaryNav();
+
+// Les trois portes d'entrée du site — toutes existent dans la navigation réelle.
+const doors = [
+  { label: "L'agenda", href: "/agenda" },
+  { label: "Les séjours", href: "/sejours" },
+  { label: "Nous contacter", href: "/contact" },
+];
+---
+
+<BaseLayout
+  title="Page introuvable"
+  description="Cette page des 4 Sources n'existe pas ou a été déplacée. Retrouvez les séjours, les activités, l'agenda et le collectif depuis les liens ci-dessous."
+  noindex={true}
+>
+  <Section surface="teal" narrow class="text-white">
+    <h1 class="font-display text-[clamp(30px,6vw,48px)] leading-[1.12] font-bold text-white">
+      Cette page <Highlight>n'existe pas</Highlight>
+    </h1>
+    <p class="mt-5 max-w-[560px] font-body text-lead text-white/85">
+      Le lien est peut-être ancien, ou la page a changé d'adresse.
+    </p>
+
+    <div class="mt-8 flex flex-wrap gap-3">
+      {
+        doors.map((door, i) => (
+          <Button href={door.href} variant={i === 0 ? "highlight" : "pole"} pole="hebergement">
+            {door.label}
+          </Button>
+        ))
+      }
+    </div>
+  </Section>
+
+  <Section narrow>
+    <h2 class="font-display text-h4 font-bold">Le reste du site</h2>
+    <ul class="mt-5 flex list-none flex-wrap gap-3 p-0">
+      {
+        nav.map((l) => (
+          <li>
+            <a
+              href={l.path}
+              class="inline-flex h-9 items-center rounded-pill border-[1.5px] border-line bg-white px-3 font-ui text-ui text-ink no-underline hover:bg-surface"
+            >
+              {l.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </Section>
+</BaseLayout>

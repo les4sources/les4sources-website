@@ -1,0 +1,156 @@
+{
+  "path": "/evenements/randonnee-yvoir-aout-2025",
+  "slug": "evenements__randonnee-yvoir-aout-2025",
+  "rootIsCollection": false,
+  "title": "COMPLET ! Randonnées à la découverte de la région d’Yvoir",
+  "metaDescription": "3 jours de randonnée à la carte pour découvrir la région d’Yvoir et un projet de tiers-lieu, et sa nature environnante !",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/647abce0-e7d5-468a-8259-e6ef808f2913/rando_toile/public",
+  "ogTitle": "COMPLET ! Randonnées à la découverte de la région d’Yvoir",
+  "ogUrl": "https://www.les4sources.be/evenements/randonnee-yvoir-aout-2025",
+  "canonical": null,
+  "h1": "COMPLET ! Randonnées à la découverte de la région d’Yvoir",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/647abce0-e7d5-468a-8259-e6ef808f2913/rando_toile/public",
+    "localPath": "images/evenements__randonnee-yvoir-aout-2025/01-rando_toile.png"
+  },
+  "pageIcon": null,
+  "properties": {
+    "Date": "2025-08-09 → 2025-08-11",
+    "Horaires": "9h-18h",
+    "Type d'événement": "Nature",
+    "Thématique": "Sports, Ressourcement, Environnement",
+    "Date (fr)": "du 9 au 11 août 2025",
+    "Places disponibles": "12",
+    "Date de création": "May 28, 2025 2:06 PM",
+    "Statut site web": "Publié",
+    "super:description": "3 jours de randonnée à la carte pour découvrir la région d’Yvoir et un projet de tiers-lieu, et sa nature environnante !",
+    "super:slug": "randonnee-aout-yvoir"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-randonnee-yvoir-aout-2025",
+    "blockId": "2010d149-3317-80bf-8e64-fc955889326c",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/randonnee-yvoir-aout-2025",
+    "createdTime": "2025-05-28T14:06:19.145Z",
+    "lastEditedTime": "2026-01-29T11:15:13.486Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "COMPLET ! Randonnées à la découverte de la région d’Yvoir",
+      "href": "/evenements/randonnee-yvoir-aout-2025"
+    }
+  ],
+  "contentHtml": "<h1 id=\"block-2010d149331780a78ab2fd4fd202ccc6\" class=\"notion-heading notion-semantic-string\">En pratique</h1><p id=\"block-2010d149331780479724fb2337f7d29c\" class=\"notion-text notion-text__content notion-semantic-string\">Chaque randonnée se fera en étoile au départ des 4 Sources ⭐</p><p id=\"block-2010d1493317801a83bccb3e7bb7dedf\" class=\"notion-text notion-text__content notion-semantic-string\">Vous aurez l’occasion de découvrir la région d’Yvoir à travers des monuments, des cours d’eau, de magnifiques points de vue, des chemins zigzaguant dans les bois, un projet de tiers-lieu, et sa nature environnante !</p><ul class=\"notion-bulleted-list\"><li id=\"block-2010d149331780ad8edbc7c3a3492b33\" class=\"notion-list-item notion-semantic-string\"><strong>Jour 1 (9 août) : découverte des 3 châteaux</strong></li></ul><p id=\"block-2010d149331780efa044f4c2c9d5caeb\" class=\"notion-text notion-text__content notion-semantic-string\">Rendez-vous à la gare d’Yvoir 🚂&nbsp;pour prendre le train jusqu’à Dinant. Durant cette randonnée, vous aurez la chance de découvrir 3 magnifiques châteaux en ruine (Crèvecoeur, Montaigle et Poilvache).</p><ul class=\"notion-bulleted-list\"><li id=\"block-2010d14933178032ad0dee630730672e\" class=\"notion-list-item notion-semantic-string\"><strong>Jour 2 (10 août) : le chemin du Bocq</strong></li></ul><p id=\"block-2010d1493317800eb2c2e5fb23d8e7e2\" class=\"notion-text notion-text__content notion-semantic-string\">Nous découvrirons le château et le cimetière de Crupet avant de passer par une ancienne carrière pour enfin longer le Bocq.</p><ul class=\"notion-bulleted-list\"><li id=\"block-2010d149331780fa9ea6e852e7f88f1a\" class=\"notion-list-item notion-semantic-string\"><strong>Jour 3 (11 août) : balade des 7 Meuses</strong></li></ul><p id=\"block-2010d149331780cf9ff2c9baaad39674\" class=\"notion-text notion-text__content notion-semantic-string\">Cet itinéraire donne accès à de magnifiques points de vue sur la Meuse en passant par le Rocher du Paradou et le restaurant des 7 Meuses.</p><h1 id=\"block-2010d1493317800ea726f018456b1c03\" class=\"notion-heading notion-semantic-string\"><strong>Informations spécifiques</strong></h1><div id=\"block-2010d149331780e5884deb684625cc37\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4c42cda2-8828-421f-8984-acd3b15bf847/Pub_Colin/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4c42cda2-8828-421f-8984-acd3b15bf847/Pub_Colin/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4c42cda2-8828-421f-8984-acd3b15bf847/Pub_Colin/public\"></span></div><ul class=\"notion-bulleted-list\"><li id=\"block-2010d1493317806c8ef9df599e5de377\" class=\"notion-list-item notion-semantic-string\"><strong>Lieu de rendez-vous&nbsp;</strong>: gare d’Yvoir pour le jour 1 et Fonds d’Ahinvaux 5530 Yvoir (Les 4 Sources) pour le jours 2 et 3.</li><li id=\"block-2010d149331780c4a27ac4feace4c874\" class=\"notion-list-item notion-semantic-string\"><strong>Dates</strong>&nbsp;: 9, 10, 11 août - 1, 2 ou 3 jours selon votre envie et vos dispos.</li><li id=\"block-2010d149331780df8620d935e3c7b4d0\" class=\"notion-list-item notion-semantic-string\"><strong>Heure&nbsp;</strong>: départ 9h et arrivée 18h (+ ou -)</li><li id=\"block-2010d149331780999820f03428b06686\" class=\"notion-list-item notion-semantic-string\"><strong>Âge ou conditions minimum&nbsp;</strong>: savoir marcher 26 km + 600m de dénivelé (+ ou -) / jours, en étant à l’aise, avec sac à dos pour la journée</li><li id=\"block-2010d149331780488bd3ec9b6d638633\" class=\"notion-list-item notion-semantic-string\"><strong>Nombre de participants&nbsp;</strong>: entre 8 et 12 pers. / journée(s)</li><li id=\"block-2010d149331780eeb287e7fb3157a2e2\" class=\"notion-list-item notion-semantic-string\"><strong>Hébergement</strong>&nbsp;: bivouac dans les bois (avec proposition de dormir dans un hamac)</li><li id=\"block-2010d149331780db8435d909a695f29e\" class=\"notion-list-item notion-semantic-string\"><strong>Nourriture&nbsp;</strong>: la nourriture est comprise. Le repas du soir sera agrémenté de plantes sauvages et réalisé par la cuisinière des 4 Sources</li><li id=\"block-2010d149331780c18d6dd370ce1daeb3\" class=\"notion-list-item notion-semantic-string\"><strong>Ticket de train (de Yvoir à Dinant pour jour 1)</strong>&nbsp;: compris dans le prix</li><li id=\"block-2010d149331780ae8de7f1ce364e86a0\" class=\"notion-list-item notion-semantic-string\"><strong>Tarif&nbsp;</strong>: \n<!-- --><strong>1 jour</strong> : 5€ (transport et matériel) + 6€ pour le souper (optionnel)\n<!-- --><strong>2 jours</strong> : 40€ (hébergement, nourriture, train, matériel compris) + 6€ pour le souper du jour 2 (optionnel)\n<!-- --><strong>3 jours </strong>: 65€ TOUT compris<!-- --></li></ul><p id=\"block-888f82e96dc04c9d912ba8284879a6f2\" class=\"notion-text notion-text__content notion-semantic-string\">Si le prix est un frein, merci de revenir vers nous</p><h2 id=\"block-2010d1493317802a98c5c84ec287934f\" class=\"notion-heading notion-semantic-string\"><strong>Autres infos</strong></h2><ul class=\"notion-bulleted-list\"><li id=\"block-2010d149331780939831dc04da84725f\" class=\"notion-list-item notion-semantic-string\">Une visio d’information (en ligne) sera organisée mi-juillet pour les précisions, questions… Un lien avec plus d’infos sera envoyé par e-mail</li><li id=\"block-2010d1493317805d9b76ed4978c5e04e\" class=\"notion-list-item notion-semantic-string\">La liste du matériel vous sera communiqué après la visioconférence</li></ul><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div><h1 id=\"block-2010d14933178035ab39ce29e0a79b8e\" class=\"notion-heading notion-semantic-string\"><strong>Un p’tit mot sur le guide</strong></h1><p id=\"block-2010d1493317808d986cc93c4b958a90\" class=\"notion-text notion-text__content notion-semantic-string\">Colin habite dans le magnifique domaine où est implanté le tiers-lieu des 4 Sources. Il suit une formation de guide nature et de guide de randonnée (de moyenne montagne). Il a 18 ans et a la chance de pouvoir vous proposer ce magnifique séjour dans le cadre de sa formation de guide de randonnée, comme stage pratique, accompagné de Samuel Demont, son maître de stage. Il se réjouit de vous partager ses passions, entre randonnée et nature, à travers des moments de contemplation, de partage, de réflexion et de plaisir.</p><p id=\"block-2010d149331780e39f5ce60989184e4f\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Colin Vanhamme\n</strong>✉️<strong> </strong><a href=\"mailto:vanhammecolin@gmail.com\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">vanhammecolin@gmail.com</a>\n📞 0489 36 90 18</p><h1 id=\"block-2010d1493317802f8c22f8f5c426009f\" class=\"notion-heading notion-semantic-string\">Pour s’inscrire</h1><p id=\"block-2010d1493317805e94e1c31ea1b8475d\" class=\"notion-text notion-text__content notion-semantic-string\"><strong><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSecw9yvCX2lp9bPj45pd0Z3rCelcaagVl2O7H89-j4PPYgEwg/viewform?usp=dialog\" class=\"notion-link link\" data-link-uri=\"https://docs.google.com/forms/d/e/1FAIpQLSecw9yvCX2lp9bPj45pd0Z3rCelcaagVl2O7H89-j4PPYgEwg/viewform?usp=dialog\">Formulaire d’inscription</a></strong><strong> (attention : c’est complet !)</strong></p><p id=\"block-2010d149331780398c24e62c797adeb7\" class=\"notion-text notion-text__content notion-semantic-string\"><em>Les informations pour le paiement seront fournies par la suite via Colin</em></p><div id=\"block-2010d14933178077b390ff2cd151a282\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💁</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"><strong>Envie de loger sur place avant ou après l’événement ?</strong> Fais-nous part de ta demande à <a href=\"mailto:sejours@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">sejours@les4sources.be</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/647abce0-e7d5-468a-8259-e6ef808f2913/rando_toile/public",
+      "alt": "COMPLET ! Randonnées à la découverte de la région d’Yvoir",
+      "role": "cover",
+      "localPath": "images/evenements__randonnee-yvoir-aout-2025/01-rando_toile.png",
+      "shared": false,
+      "bytes": 401902
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4c42cda2-8828-421f-8984-acd3b15bf847/Pub_Colin/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__randonnee-yvoir-aout-2025/02-Pub_Colin.png",
+      "shared": false,
+      "bytes": 267963
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "mailto:vanhammecolin@gmail.com",
+    "https://docs.google.com/forms/d/e/1FAIpQLSecw9yvCX2lp9bPj45pd0Z3rCelcaagVl2O7H89-j4PPYgEwg/viewform?usp=dialog",
+    "mailto:sejours@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 508,
+  "fetchedAt": "2026-09-07T21:17:41.394Z",
+  "markdown": "## En pratique\n\nChaque randonnée se fera en étoile au départ des 4 Sources ⭐\n\nVous aurez l’occasion de découvrir la région d’Yvoir à travers des monuments, des cours d’eau, de magnifiques points de vue, des chemins zigzaguant dans les bois, un projet de tiers-lieu, et sa nature environnante !\n\n- **Jour 1 (9 août) : découverte des 3 châteaux**\n\nRendez-vous à la gare d’Yvoir 🚂 pour prendre le train jusqu’à Dinant. Durant cette randonnée, vous aurez la chance de découvrir 3 magnifiques châteaux en ruine (Crèvecoeur, Montaigle et Poilvache).\n\n- **Jour 2 (10 août) : le chemin du Bocq**\n\nNous découvrirons le château et le cimetière de Crupet avant de passer par une ancienne carrière pour enfin longer le Bocq.\n\n- **Jour 3 (11 août) : balade des 7 Meuses**\n\nCet itinéraire donne accès à de magnifiques points de vue sur la Meuse en passant par le Rocher du Paradou et le restaurant des 7 Meuses.\n\n## **Informations spécifiques**\n\n![image](images/evenements__randonnee-yvoir-aout-2025/02-Pub_Colin.png)\n\n- **Lieu de rendez-vous** : gare d’Yvoir pour le jour 1 et Fonds d’Ahinvaux 5530 Yvoir (Les 4 Sources) pour le jours 2 et 3.\n- **Dates** : 9, 10, 11 août - 1, 2 ou 3 jours selon votre envie et vos dispos.\n- **Heure** : départ 9h et arrivée 18h (+ ou -)\n- **Âge ou conditions minimum** : savoir marcher 26 km + 600m de dénivelé (+ ou -) / jours, en étant à l’aise, avec sac à dos pour la journée\n- **Nombre de participants** : entre 8 et 12 pers. / journée(s)\n- **Hébergement** : bivouac dans les bois (avec proposition de dormir dans un hamac)\n- **Nourriture** : la nourriture est comprise. Le repas du soir sera agrémenté de plantes sauvages et réalisé par la cuisinière des 4 Sources\n- **Ticket de train (de Yvoir à Dinant pour jour 1)** : compris dans le prix\n- **Tarif** : **1 jour** : 5€ (transport et matériel) + 6€ pour le souper (optionnel) **2 jours** : 40€ (hébergement, nourriture, train, matériel compris) + 6€ pour le souper du jour 2 (optionnel) **3 jours** : 65€ TOUT compris\n\nSi le prix est un frein, merci de revenir vers nous\n\n### **Autres infos**\n\n- Une visio d’information (en ligne) sera organisée mi-juillet pour les précisions, questions… Un lien avec plus d’infos sera envoyé par e-mail\n- La liste du matériel vous sera communiqué après la visioconférence\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n\n## **Un p’tit mot sur le guide**\n\nColin habite dans le magnifique domaine où est implanté le tiers-lieu des 4 Sources. Il suit une formation de guide nature et de guide de randonnée (de moyenne montagne). Il a 18 ans et a la chance de pouvoir vous proposer ce magnifique séjour dans le cadre de sa formation de guide de randonnée, comme stage pratique, accompagné de Samuel Demont, son maître de stage. Il se réjouit de vous partager ses passions, entre randonnée et nature, à travers des moments de contemplation, de partage, de réflexion et de plaisir.\n\n**Colin Vanhamme** ✉️ [vanhammecolin@gmail.com](mailto:vanhammecolin@gmail.com) 📞 0489 36 90 18\n\n## Pour s’inscrire\n\n**[Formulaire d’inscription](https://docs.google.com/forms/d/e/1FAIpQLSecw9yvCX2lp9bPj45pd0Z3rCelcaagVl2O7H89-j4PPYgEwg/viewform?usp=dialog)** **(attention : c’est complet !)**\n\n*Les informations pour le paiement seront fournies par la suite via Colin*\n\n> 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [sejours@les4sources.be](mailto:sejours@les4sources.be).\n",
+  "extractedAt": "2026-09-07T21:41:44.463Z"
+}

@@ -1,0 +1,83 @@
+{
+  "path": "/collectif/magali-deheneffe",
+  "slug": "collectif__magali-deheneffe",
+  "rootIsCollection": false,
+  "title": "Magali Deheneffe",
+  "metaDescription": "Magali est la coordinatrice de nos aventures aux 4 Sources. Véritable couteau suisse, elle soutient les initiatives et tisse les liens entre les projets.\n\n··· magali@les4sources.be",
+  "ogImage": null,
+  "ogTitle": "Magali Deheneffe",
+  "ogUrl": "https://www.les4sources.be/collectif/magali-deheneffe",
+  "canonical": null,
+  "h1": "Magali Deheneffe",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Type": "Habitant·e"
+  },
+  "propertySchema": [
+    {
+      "id": "ew_Z",
+      "name": "Bio courte",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "rCb{",
+      "name": "Photo",
+      "type": "file",
+      "visibility": "show"
+    },
+    {
+      "id": "CPcu",
+      "name": "Type",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "collectif-magali-deheneffe",
+    "blockId": "2ba57936-4d69-403c-8e40-a544b5bd0d28",
+    "parentId": "e93593be43cd488598c5226e7ba2b369",
+    "type": "page",
+    "uri": "/collectif/magali-deheneffe",
+    "createdTime": "2024-04-03T13:49:58.366Z",
+    "lastEditedTime": "2026-07-12T16:23:09.557Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Collectif",
+      "href": "/collectif"
+    },
+    {
+      "label": "Magali Deheneffe",
+      "href": "/collectif/magali-deheneffe"
+    }
+  ],
+  "contentHtml": "<div id=\"block-2720d1493317807d9ab0eea37049dbfd\" class=\"notion-column-list\"><div id=\"block-2720d149331780a7b356cef69a30b776\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-2720d1493317802594b3d480b761e8a9\" class=\"notion-text notion-text__content notion-semantic-string\">Magali est la coordinatrice de nos aventures aux 4 Sources. Véritable couteau suisse, elle soutient les initiatives et tisse les liens entre les projets.\n\n··· <a href=\"mailto:magali@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">magali@les4sources.be</a> </p></div><div id=\"block-2720d149331780aaa10bca203e30cb1e\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-2720d1493317805ab0ebcd0c184a9f5e\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/422cb7a3-48fd-4f3f-adaa-b3bd9dce8f41/b2f85f39-44ab-4709-9dc0-87862b7ca494/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/422cb7a3-48fd-4f3f-adaa-b3bd9dce8f41/b2f85f39-44ab-4709-9dc0-87862b7ca494/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/422cb7a3-48fd-4f3f-adaa-b3bd9dce8f41/b2f85f39-44ab-4709-9dc0-87862b7ca494/public\"></span></div></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/422cb7a3-48fd-4f3f-adaa-b3bd9dce8f41/b2f85f39-44ab-4709-9dc0-87862b7ca494/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/collectif__magali-deheneffe/01-b2f85f39-44ab-4709-9dc0-87862b7ca494.png",
+      "shared": false,
+      "bytes": 388096
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [
+    "mailto:magali@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 26,
+  "fetchedAt": "2026-09-07T21:17:27.770Z",
+  "markdown": "<!-- columns -->\n<!-- column width=\"50%\" -->\n\nMagali est la coordinatrice de nos aventures aux 4 Sources. Véritable couteau suisse, elle soutient les initiatives et tisse les liens entre les projets. ··· [magali@les4sources.be](mailto:magali@les4sources.be)\n\n<!-- column width=\"50%\" -->\n\n![image](images/collectif__magali-deheneffe/01-b2f85f39-44ab-4709-9dc0-87862b7ca494.png)\n<!-- /columns -->\n",
+  "extractedAt": "2026-09-07T21:41:44.357Z"
+}

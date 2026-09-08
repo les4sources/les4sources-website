@@ -1,0 +1,63 @@
+{
+  "path": "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/le-sjour",
+  "slug": "sejours__hebergements-yvoir__la-hulotte-gite-16-personnes__le-sjour",
+  "rootIsCollection": false,
+  "title": "Le séjour (2ème étage)",
+  "metaDescription": null,
+  "ogImage": null,
+  "ogTitle": "Le séjour (2ème étage)",
+  "ogUrl": "https://www.les4sources.be/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/le-sjour",
+  "canonical": null,
+  "h1": "Le séjour (2ème étage)",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Date de création": "Oct 12, 2025 9:23 PM",
+    "Page": "Hulotte"
+  },
+  "propertySchema": [
+    {
+      "id": "y|zT",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "JUEM",
+      "name": "Page",
+      "type": "multi_select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "sejours-hebergements-yvoir-la-hulotte-gite-16-personnes-le-sjour",
+    "blockId": "28a0d149-3317-8199-87bc-c36f4484a91a",
+    "parentId": "28a0d149331781b09d9c000b678af892",
+    "type": "page",
+    "uri": "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/le-sjour",
+    "createdTime": "2025-10-12T21:23:33.884Z",
+    "lastEditedTime": "2025-10-12T21:31:44.038Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<div id=\"block-28a0d149331781b9afb9c4d83a1259f2\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/51a40729-a3b8-4aca-a779-af5557074002/_G0A2780/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/51a40729-a3b8-4aca-a779-af5557074002/_G0A2780/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/51a40729-a3b8-4aca-a779-af5557074002/_G0A2780/public\"></span></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/51a40729-a3b8-4aca-a779-af5557074002/_G0A2780/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/45c528537c2a-_G0A2780.jpg",
+      "shared": true,
+      "bytes": 125036
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "collections": [],
+  "wordCount": 0,
+  "fetchedAt": "2026-09-07T21:17:49.394Z",
+  "markdown": "![image](images/_shared/45c528537c2a-_G0A2780.jpg)\n",
+  "extractedAt": "2026-09-07T21:41:44.549Z"
+}

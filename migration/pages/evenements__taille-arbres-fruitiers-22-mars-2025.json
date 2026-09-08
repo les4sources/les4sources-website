@@ -1,0 +1,164 @@
+{
+  "path": "/evenements/taille-arbres-fruitiers-22-mars-2025",
+  "slug": "evenements__taille-arbres-fruitiers-22-mars-2025",
+  "rootIsCollection": false,
+  "title": "Initiation à la taille d’arbres et arbustes fruitiers",
+  "metaDescription": "Formation théorique et pratique à la taille d’arbres fruitiers avec Michael Dossin dans le verger conservatoire des 4 Sources à Yvoir, le 22 mars 2025.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e654a09d-218e-432d-910f-35787dc8569a/3/public",
+  "ogTitle": "Initiation à la taille d’arbres et arbustes fruitiers",
+  "ogUrl": "https://www.les4sources.be/evenements/taille-arbres-fruitiers-22-mars-2025",
+  "canonical": null,
+  "h1": "Initiation à la taille d’arbres et arbustes fruitiers",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e654a09d-218e-432d-910f-35787dc8569a/3/public",
+    "localPath": "images/evenements__taille-arbres-fruitiers-22-mars-2025/01-3.jpg"
+  },
+  "pageIcon": null,
+  "properties": {
+    "Date": "2025-03-22",
+    "Type d'événement": "Formation",
+    "Thématique": "Environnement",
+    "Date (fr)": "22 mars 2025",
+    "Places disponibles": "20",
+    "Date de création": "Jan 31, 2025 5:23 PM",
+    "Statut site web": "Publié",
+    "super:description": "Formation théorique et pratique à la taille d’arbres fruitiers avec Michael Dossin dans le verger conservatoire des 4 Sources à Yvoir, le 22 mars 2025.",
+    "super:slug": "taille-arbres-fruitiers-22-mars-2025"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-taille-arbres-fruitiers-22-mars-2025",
+    "blockId": "18c0d149-3317-801e-8bf4-d72bd5e15f95",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/taille-arbres-fruitiers-22-mars-2025",
+    "createdTime": "2025-01-31T17:23:12.200Z",
+    "lastEditedTime": "2026-01-29T11:14:59.319Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Initiation à la taille d’arbres et arbustes fruitiers",
+      "href": "/evenements/taille-arbres-fruitiers-22-mars-2025"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-18c0d149331780ad87f6dab28e99d440\" class=\"notion-heading notion-semantic-string\"><strong>Rejoins-nous pour une journée immersive dans l'art de la taille des arbres fruitiers, spécifiquement les pommiers et poiriers en ce début mars, dans le magnifique cadre du pré-verger conservatoire d’arbres hautes tiges des 4 Sources à Yvoir.</strong></h3><p id=\"block-18c0d14933178087be37e95ecf79ee83\" class=\"notion-text notion-text__content notion-semantic-string\">Cette journée de formation t’offre l'opportunité de développer des compétences essentielles pour prendre soin de tes arbres fruitiers, assurant leur santé et leur productivité pour les années à venir.</p><h2 id=\"block-18c0d14933178006bc34fea57b776d32\" class=\"notion-heading notion-semantic-string\"><strong>Pourquoi la taille est-elle cruciale ?</strong></h2><p id=\"block-18c0d1493317804199b6ed71796bfe79\" class=\"notion-text notion-text__content notion-semantic-string\">La taille est un élément essentiel dans la gestion d'un verger. Elle influence non seulement la future récolte mais aussi la santé globale de l'arbre. Savoir quand et comment tailler permet de maximiser la production de fruits et d'assurer une croissance équilibrée et durable.<!-- --></p><h2 id=\"block-18c0d14933178084a506caf102facc31\" class=\"notion-heading notion-semantic-string\"><strong>Ce que tu apprendras</strong></h2><ul class=\"notion-bulleted-list\"><li id=\"block-18c0d1493317809088ade97bf05a3a11\" class=\"notion-list-item notion-semantic-string\"><strong>Utilisation des outils de taille\n</strong>Familiarise-toi avec les outils nécessaires et apprends à les manier avec précision et sécurité.</li><li id=\"block-18c0d149331780feb727fcaa87bd4b7d\" class=\"notion-list-item notion-semantic-string\"><strong>Lecture de l’arbre\n</strong>Comprends la structure unique de chaque arbre fruitier et identifie les meilleures branches à tailler pour favoriser une croissance saine.</li><li id=\"block-18c0d149331780b59068cf6deadf43fc\" class=\"notion-list-item notion-semantic-string\"><strong>Techniques de taille\n</strong>Maitrise les techniques de coupe pour favoriser la fructification et prévenir les maladies.</li><li id=\"block-18c0d149331780a6b0e0d070459a9f5d\" class=\"notion-list-item notion-semantic-string\"><strong>Entretien préventif\n</strong>Apprends à détecter les signes de maladies ou de faiblesses et à intervenir pour maintenir tes arbres en bonne santé.</li></ul><div id=\"block-18c0d1493317803bbcb2e9c12ba24839\" class=\"notion-column-list\"><div id=\"block-18c0d149331780e9b192da45dc8a4cf6\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-18c0d14933178007a079c3b15fd4fb09\" class=\"notion-text notion-text__content notion-semantic-string\">La journée sera rythmée par des ateliers pratiques en petits groupes, encadrés par Michael Dossin, expert en arboriculture. Tu auras l'occasion de mettre en pratique immédiatement tes nouvelles compétences sur les arbres du pré-verger. Cette approche pratique garantit une expérience d'apprentissage complète et engageante.</p></div><div id=\"block-18c0d14933178043b169fe4fffd9177c\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-18c0d149331780e0a318cbdc8ca3b2f2\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/c7500da7-6413-48b4-ab2f-1e2aea958371/w2048quality90fitscale-down_-14.avif\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/c7500da7-6413-48b4-ab2f-1e2aea958371/w2048quality90fitscale-down_-14.avif\"><img alt=\"image\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/c7500da7-6413-48b4-ab2f-1e2aea958371/w2048quality90fitscale-down_-14.avif\"></span></div></div></div><p id=\"block-18c0d149331780eba871f5e51372782e\" class=\"notion-text notion-text__content notion-semantic-string\">Cette formation est ouverte à tous, des jardiniers amateurs aux professionnels de l'agroforesterie. Que tu aies un petit verger familial ou que tu envisages de développer un projet de permaculture à plus grande échelle, cette journée te fournira les connaissances et compétences nécessaires pour bien démarrer.</p><p id=\"block-18c0d149331780c8a122d93b6fb340a8\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Rejoins-nous pour une journée riche en apprentissages et en partages, et repars avec la confiance et les compétences nécessaires pour prendre soin de tes pommiers et poiriers.</strong></p><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div><h1 id=\"block-18c0d149331781d186e9fa839c29db45\" class=\"notion-heading notion-semantic-string\">Facilitateur</h1><div id=\"block-18c0d149331780bcaa87dd98deb20717\" class=\"notion-column-list\"><div id=\"block-18c0d149331780fa8950ceb8792ad4c2\" class=\"notion-column\" data-width=\"56.3%\"><p id=\"block-18c0d149331780418ae6e9d7ec13c0e8\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Michaël Dossin</strong> expérimente un mode de vie respectueux de la Terre depuis plus de dix ans. En 2009, il quitte un poste de gérant pour embrasser une passion incommensurable : cultiver des repas sains pour sa famille.</p><p id=\"block-18c0d1493317800e9303dc1ca83e03f2\" class=\"notion-text notion-text__content notion-semantic-string\">Son parcours l'a conduit à créer la Micro-ferme du Bout du Monde, un véritable havre de paix à Spa. Fruits, légumes et plantes médicinales y prospèrent en harmonie avec notre écosystème, favorisant une biodiversité florissante.</p><p id=\"block-18c0d14933178079a55ccb294bcc72fa\" class=\"notion-text notion-text__content notion-semantic-string\">Ex-professeur d'horticulture, formateur en permaculture et conseiller en projets de production alimentaire, son objectif est de partager ses connaissances et d'encourager un style de vie respectueux de la Terre.</p><p id=\"block-18c0d149331780b3a57be13a1de1df72\" class=\"notion-text notion-text__content notion-semantic-string\"><a href=\"https://www.michaeldossin.be/\" class=\"notion-link link\" data-link-uri=\"https://www.michaeldossin.be/\">michaeldossin.be</a></p></div><div id=\"block-18c0d14933178039b507f38ca43a7593\" class=\"notion-column\" data-width=\"43.8%\"><div id=\"block-18c0d14933178039ad9dee97452ebd19\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9e714610-5f1c-4646-aa23-f116e5938021/image/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9e714610-5f1c-4646-aa23-f116e5938021/image/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9e714610-5f1c-4646-aa23-f116e5938021/image/public\"></span></div></div></div><h1 id=\"block-18c0d149331780158fc2d37491a1e892\" class=\"notion-heading notion-semantic-string\"><strong>En pratique</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-18c0d149331780948d94eef2ebb779b1\" class=\"notion-list-item notion-semantic-string\"><strong>Quand?</strong> Le samedi <strong>22 mars 2025</strong> de 9h30 à 17h</li><li id=\"block-18c0d14933178014bc7ee1ce59a808a7\" class=\"notion-list-item notion-semantic-string\"><strong>À quel prix?</strong> Cette riche journée est accessible au prix de 50€ TVAC</li><li id=\"block-18c0d149331780d7b5eaeb12ccca2d42\" class=\"notion-list-item notion-semantic-string\"><strong>Où?</strong> <a class=\"notion-link link\" href=\"/a-propos/acces-ahinvaux\">Les 4 Sources</a> - Fonds d’Ahinvaux 1, 5330 Yvoir</li><li id=\"block-18c0d1493317809f833cde292fa92756\" class=\"notion-list-item notion-semantic-string\"><strong>Du matériel spécifique à prévoir?</strong> Tout matériel de taille à ta disposition</li></ul><h1 id=\"block-18c0d149331780aeb1ccff944c7fad5a\" class=\"notion-heading notion-semantic-string\">Pour s’inscrire</h1><p id=\"block-18c0d14933178057a4ebcb22579a00a2\" class=\"notion-text notion-text__content notion-semantic-string\">Cet événement est organisé par notre partenaire Semisto. Rends-toi <a href=\"https://www.semisto.org/poles/formations-semisto/toutes-les-formations/taille-de-fruitiers-avec-michael-dossin-mars-2025\" class=\"notion-link link\" data-link-uri=\"https://www.semisto.org/poles/formations-semisto/toutes-les-formations/taille-de-fruitiers-avec-michael-dossin-mars-2025\">sur le site web de Semisto</a> pour plus d’informations et pour t’y inscrire.</p><div id=\"block-18c0d14933178110afb3f8155eb7d7cd\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💁</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"><strong>Envie de loger sur place avant ou après l’événement ?</strong> Fais-nous part de ta demande à <a href=\"mailto:sejours@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">sejours@les4sources.be</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e654a09d-218e-432d-910f-35787dc8569a/3/public",
+      "alt": "Initiation à la taille d’arbres et arbustes fruitiers",
+      "role": "cover",
+      "localPath": "images/evenements__taille-arbres-fruitiers-22-mars-2025/01-3.jpg",
+      "shared": false,
+      "bytes": 151218
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/c7500da7-6413-48b4-ab2f-1e2aea958371/w2048quality90fitscale-down_-14.avif",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__taille-arbres-fruitiers-22-mars-2025/02-w2048quality90fitscale-down_-14.avif",
+      "shared": false,
+      "bytes": 93971
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9e714610-5f1c-4646-aa23-f116e5938021/image/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__taille-arbres-fruitiers-22-mars-2025/03-image.png",
+      "shared": false,
+      "bytes": 1118841
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter",
+    "/a-propos/acces-ahinvaux"
+  ],
+  "externalLinks": [
+    "https://www.michaeldossin.be/",
+    "https://www.semisto.org/poles/formations-semisto/toutes-les-formations/taille-de-fruitiers-avec-michael-dossin-mars-2025",
+    "mailto:sejours@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 497,
+  "fetchedAt": "2026-09-07T21:17:43.160Z",
+  "markdown": "#### **Rejoins-nous pour une journée immersive dans l'art de la taille des arbres fruitiers, spécifiquement les pommiers et poiriers en ce début mars, dans le magnifique cadre du pré-verger conservatoire d’arbres hautes tiges des 4 Sources à Yvoir.**\n\nCette journée de formation t’offre l'opportunité de développer des compétences essentielles pour prendre soin de tes arbres fruitiers, assurant leur santé et leur productivité pour les années à venir.\n\n### **Pourquoi la taille est-elle cruciale ?**\n\nLa taille est un élément essentiel dans la gestion d'un verger. Elle influence non seulement la future récolte mais aussi la santé globale de l'arbre. Savoir quand et comment tailler permet de maximiser la production de fruits et d'assurer une croissance équilibrée et durable.\n\n### **Ce que tu apprendras**\n\n- **Utilisation des outils de taille** Familiarise-toi avec les outils nécessaires et apprends à les manier avec précision et sécurité.\n- **Lecture de l’arbre** Comprends la structure unique de chaque arbre fruitier et identifie les meilleures branches à tailler pour favoriser une croissance saine.\n- **Techniques de taille** Maitrise les techniques de coupe pour favoriser la fructification et prévenir les maladies.\n- **Entretien préventif** Apprends à détecter les signes de maladies ou de faiblesses et à intervenir pour maintenir tes arbres en bonne santé.\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\nLa journée sera rythmée par des ateliers pratiques en petits groupes, encadrés par Michael Dossin, expert en arboriculture. Tu auras l'occasion de mettre en pratique immédiatement tes nouvelles compétences sur les arbres du pré-verger. Cette approche pratique garantit une expérience d'apprentissage complète et engageante.\n\n<!-- column width=\"50%\" -->\n\n![image](images/evenements__taille-arbres-fruitiers-22-mars-2025/02-w2048quality90fitscale-down_-14.avif)\n<!-- /columns -->\n\nCette formation est ouverte à tous, des jardiniers amateurs aux professionnels de l'agroforesterie. Que tu aies un petit verger familial ou que tu envisages de développer un projet de permaculture à plus grande échelle, cette journée te fournira les connaissances et compétences nécessaires pour bien démarrer.\n\n**Rejoins-nous pour une journée riche en apprentissages et en partages, et repars avec la confiance et les compétences nécessaires pour prendre soin de tes pommiers et poiriers.**\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n\n## Facilitateur\n\n<!-- columns -->\n<!-- column width=\"56.3%\" -->\n\n**Michaël Dossin** expérimente un mode de vie respectueux de la Terre depuis plus de dix ans. En 2009, il quitte un poste de gérant pour embrasser une passion incommensurable : cultiver des repas sains pour sa famille.\n\nSon parcours l'a conduit à créer la Micro-ferme du Bout du Monde, un véritable havre de paix à Spa. Fruits, légumes et plantes médicinales y prospèrent en harmonie avec notre écosystème, favorisant une biodiversité florissante.\n\nEx-professeur d'horticulture, formateur en permaculture et conseiller en projets de production alimentaire, son objectif est de partager ses connaissances et d'encourager un style de vie respectueux de la Terre.\n\n[michaeldossin.be](https://www.michaeldossin.be/)\n\n<!-- column width=\"43.8%\" -->\n\n![image](images/evenements__taille-arbres-fruitiers-22-mars-2025/03-image.png)\n<!-- /columns -->\n\n## **En pratique**\n\n- **Quand?** Le samedi **22 mars 2025** de 9h30 à 17h\n- **À quel prix?** Cette riche journée est accessible au prix de 50€ TVAC\n- **Où?** [Les 4 Sources](/a-propos/acces-ahinvaux) - Fonds d’Ahinvaux 1, 5330 Yvoir\n- **Du matériel spécifique à prévoir?** Tout matériel de taille à ta disposition\n\n## Pour s’inscrire\n\nCet événement est organisé par notre partenaire Semisto. Rends-toi [sur le site web de Semisto](https://www.semisto.org/poles/formations-semisto/toutes-les-formations/taille-de-fruitiers-avec-michael-dossin-mars-2025) pour plus d’informations et pour t’y inscrire.\n\n> 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [sejours@les4sources.be](mailto:sejours@les4sources.be).\n",
+  "extractedAt": "2026-09-07T21:41:44.480Z"
+}

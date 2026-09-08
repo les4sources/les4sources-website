@@ -1,0 +1,129 @@
+{
+  "path": "/evenements/nouvel-vnement",
+  "slug": "evenements__nouvel-vnement",
+  "rootIsCollection": false,
+  "title": "Nouvel événement",
+  "metaDescription": "Nouvel événement passionnant avec facilitateur·rice. Logement sur place disponible. Contactez-nous pour plus d'informations.",
+  "ogImage": null,
+  "ogTitle": "Nouvel événement",
+  "ogUrl": "https://www.les4sources.be/evenements/nouvel-vnement",
+  "canonical": null,
+  "h1": "Nouvel événement",
+  "headerDescription": null,
+  "coverImage": null,
+  "pageIcon": null,
+  "properties": {
+    "Date": "2025-11-20",
+    "Date (fr)": "# Nouvel événement",
+    "Date de création": "Nov 20, 2025 5:40 PM",
+    "Statut site web": "Publié",
+    "super:description": "Nouvel événement passionnant avec facilitateur·rice. Logement sur place disponible. Contactez-nous pour plus d'informations."
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-nouvel-vnement",
+    "blockId": "2b10d149-3317-8000-a35e-e8a49eacbd53",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/nouvel-vnement",
+    "createdTime": "2025-11-20T17:40:39.646Z",
+    "lastEditedTime": "2026-01-29T11:15:26.327Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Nouvel événement",
+      "href": "/evenements/nouvel-vnement"
+    }
+  ],
+  "contentHtml": "<h1 id=\"block-2b10d149331780c6aa2ef8c045f179d8\" class=\"notion-heading notion-semantic-string\">En pratique</h1><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div><h1 id=\"block-2b10d149331780018e7dc8c29b40c79f\" class=\"notion-heading notion-semantic-string\">Facilitateur·rice</h1><div id=\"block-2b10d149331780b3a2ccdf7cb45645c6\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">💁</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"><strong>Envie de loger sur place avant ou après l’événement ?</strong> Fais-nous part de ta demande à <!-- --><a href=\"mailto:contact@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">contact@les4sources.be</a>.<!-- --></span></div></div>",
+  "images": [],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "mailto:contact@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 31,
+  "fetchedAt": "2026-09-07T21:17:39.196Z",
+  "markdown": "## En pratique\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n\n## Facilitateur·rice\n\n> 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [contact@les4sources.be](mailto:contact@les4sources.be).\n",
+  "extractedAt": "2026-09-07T21:41:44.441Z"
+}

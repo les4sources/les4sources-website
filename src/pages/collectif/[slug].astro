@@ -1,0 +1,106 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import Breadcrumbs from "@components/ui/Breadcrumbs.astro";
+import Prose from "@components/ui/Prose.astro";
+import PoleTag from "@components/ds/PoleTag.astro";
+import Section from "@components/ds/Section.astro";
+import { pathOf, visible } from "@lib/content";
+import { isPole } from "@lib/poles";
+import { person, breadcrumbs } from "@lib/seo";
+import { site } from "@lib/site";
+
+/** Fiches des membres du collectif — la route vient du legacyPath. */
+export const getStaticPaths: GetStaticPaths = async () => {
+  const members = visible(await getCollection("collectif"));
+  return members.map((entry) => ({
+    params: { slug: pathOf(entry).replace(/^\/collectif\//, "") },
+    props: { entry },
+  }));
+};
+
+interface Props {
+  entry: CollectionEntry<"collectif">;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+
+const crumbs = [
+  { label: "Accueil", href: "/" },
+  { label: "Le collectif", href: "/collectif" },
+  { label: d.name },
+];
+
+const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
+const url = `${siteUrl}${pathOf(entry)}`;
+const jsonld = [
+  person({ name: d.name, url, jobTitle: d.role, description: d.description }),
+  breadcrumbs([
+    { name: "Accueil", url: `${siteUrl}/` },
+    { name: "Le collectif", url: `${siteUrl}/collectif` },
+    { name: d.name, url },
+  ]),
+];
+---
+
+<BaseLayout
+  title={d.seoTitle ?? d.title}
+  description={d.description}
+  ogImage={d.photo ?? d.cover ?? d.ogImage}
+  noindex={d.noindex}
+  jsonld={jsonld}
+>
+  <header class="px-6 pt-[clamp(18px,3vw,32px)]">
+    <div class="mx-auto w-full max-w-site">
+      <Breadcrumbs items={crumbs} />
+
+      <div class="mt-7 flex flex-col items-start gap-8 sm:flex-row sm:items-end">
+        {
+          d.photo && (
+            <Image
+              src={d.photo}
+              alt={d.coverAlt ?? d.name}
+              widths={[280, 560]}
+              sizes="(min-width: 640px) 260px, 70vw"
+              loading="eager"
+              class="l4s-arch w-[min(260px,70%)] shrink-0 object-cover"
+            />
+          )
+        }
+
+        <div>
+          {
+            d.pole && isPole(d.pole) && (
+              <div class="mb-4">
+                <PoleTag pole={d.pole} />
+              </div>
+            )
+          }
+          <h1 class="font-display text-[clamp(30px,6vw,48px)] leading-[1.12] font-bold">{d.name}</h1>
+          {
+            d.role && (
+              <p class="mt-3 font-ui text-overline font-bold tracking-[0.08em] text-ink-3 uppercase">
+                {d.role}
+              </p>
+            )
+          }
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <Section class="pt-10">
+    <Prose width="full"><Content /></Prose>
+  </Section>
+</BaseLayout>
+
+<style is:global>
+  .l4s-arch {
+    border-radius: var(--radius-arch);
+    overflow: hidden;
+  }
+</style>

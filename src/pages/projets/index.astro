@@ -1,0 +1,66 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import Prose from "@components/ui/Prose.astro";
+import Section from "@components/ds/Section.astro";
+import { byPath, visible, listable, pathOf } from "@lib/content";
+
+/**
+ * /projets — le texte migré coiffe la grille ; les fiches viennent de la
+ * collection typée `projets`.
+ */
+const pages = visible(await getCollection("pages"));
+const entry = byPath(pages, "/projets");
+const rendered = entry ? await render(entry) : undefined;
+const Content = rendered?.Content;
+
+const projets = listable(await getCollection("projets")).sort((a, b) =>
+  a.data.title.localeCompare(b.data.title, "fr"),
+);
+
+const items: CardItem[] = projets.map((p) => ({
+  title: p.data.title,
+  href: pathOf(p),
+  description: p.data.generatedDescription ? undefined : p.data.description,
+  icon: p.data.icon,
+  pole: p.data.pole,
+  image: p.data.cover,
+}));
+
+const title = entry?.data.title ?? "Les projets des 4 Sources";
+const description =
+  entry?.data.description ??
+  "Les projets qui se déploient sur le tiers-lieu des 4 Sources, à Yvoir : Semisto, la boulangerie, la ferronnerie et les autres.";
+---
+
+<BaseLayout
+  title={entry?.data.seoTitle ?? title}
+  description={description}
+  ogImage={entry?.data.cover ?? entry?.data.ogImage}
+  noindex={entry?.data.noindex ?? false}
+>
+  <PageHero
+    title={title}
+    lead={entry?.data.generatedDescription ? undefined : entry?.data.description}
+    cover={entry?.data.cover}
+    coverAlt={entry?.data.coverAlt}
+    icon={entry?.data.icon}
+    crumbs={[{ label: "Accueil", href: "/" }, { label: "Les projets" }]}
+  />
+
+  {
+    Content && (
+      <Section class="pt-10 pb-0">
+        <Prose width="full">
+          <Content />
+        </Prose>
+      </Section>
+    )
+  }
+
+  <Section title="Les fiches projets 🎴">
+    <CardGrid items={items} aspect="16/10" empty="Les fiches projets arrivent bientôt." />
+  </Section>
+</BaseLayout>

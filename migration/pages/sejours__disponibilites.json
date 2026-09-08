@@ -1,0 +1,76 @@
+{
+  "path": "/sejours/disponibilites",
+  "slug": "sejours__disponibilites",
+  "rootIsCollection": false,
+  "title": "Disponibilités",
+  "metaDescription": "N’hésitez pas à nous contacter à sejours@les4sources.be en nous signalant les dates qui vous intéressent, nous reviendrons vers vous.",
+  "ogImage": "https://images.unsplash.com/photo-1669124648674-dde1a66c2a36?ixlib=rb-4.0.3&cs=srgb",
+  "ogTitle": "Disponibilités",
+  "ogUrl": "https://www.les4sources.be/sejours/disponibilites",
+  "canonical": null,
+  "h1": "Disponibilités",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.unsplash.com/photo-1669124648674-dde1a66c2a36?ixlib=rb-4.0.3&cs=srgb",
+    "localPath": "images/sejours__disponibilites/01-photo-1669124648674-dde1a66c2a36.jpg"
+  },
+  "pageIcon": null,
+  "properties": {},
+  "propertySchema": [],
+  "notion": {
+    "id": "sejours-disponibilites",
+    "blockId": "1390d149-3317-806b-80f1-d77c54b3daa5",
+    "parentId": "sejours",
+    "type": "page",
+    "uri": "/sejours/disponibilites",
+    "createdTime": "2024-11-09T21:45:33.053Z",
+    "lastEditedTime": "2026-02-22T21:08:06.709Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Séjours et locations",
+      "href": "/sejours",
+      "icon": "🏡"
+    },
+    {
+      "label": "Disponibilités",
+      "href": "/sejours/disponibilites"
+    }
+  ],
+  "contentHtml": "<span id=\"block-13a0d149331780a48c2edce199abcc41\" class=\"notion-embed\"><span class=\"notion-embed__content\"><span class=\"notion-embed__container__wrapper\"><span class=\"notion-embed__container\"><iframe src=\"https://app.les4sources.be/public/calendar-lodgings-modal?no_title=true\" title=\"app.les4sources.be\" sandbox=\"allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation\"></iframe></span></span></span></span><p id=\"block-30f0d149331780809948c355cfaf430b\" class=\"notion-text notion-text__content notion-semantic-string\">N’hésitez pas à nous contacter à <a href=\"mailto:sejours@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">sejours@les4sources.be</a> en nous signalant les dates qui vous intéressent, nous reviendrons vers vous.</p><div id=\"block-1390d149331780f6be89eab4ac512282\" class=\"notion-button\"><a class=\"notion-link notion-button__content\" href=\"/sejours/tarifs\"><span class=\"notion-semantic-string\">Tarifs des hébergements et salles</span></a></div><div id=\"block-1390d149331780e19895ea5ca9416567\" class=\"notion-button\"><a class=\"notion-link notion-button__content\" href=\"/sejours/disponibilites\"><span class=\"notion-semantic-string\">Disponibilités</span></a></div><div id=\"block-1390d1493317807c9d94efacc3d92a66\" class=\"notion-button\"><a class=\"notion-link notion-button__content\" href=\"/sejours/sejours\"><span class=\"notion-semantic-string\">Faire une demande de séjour</span></a></div>",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1669124648674-dde1a66c2a36?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Disponibilités",
+      "role": "cover",
+      "localPath": "images/sejours__disponibilites/01-photo-1669124648674-dde1a66c2a36.jpg",
+      "shared": false,
+      "bytes": 3513393
+    }
+  ],
+  "embeds": [
+    {
+      "kind": "iframe",
+      "src": "https://app.les4sources.be/public/calendar-lodgings-modal?no_title=true",
+      "title": "app.les4sources.be"
+    }
+  ],
+  "internalLinks": [
+    "/sejours/tarifs",
+    "/sejours/disponibilites",
+    "/sejours/sejours"
+  ],
+  "externalLinks": [
+    "mailto:sejours@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 27,
+  "fetchedAt": "2026-09-07T21:17:46.866Z",
+  "markdown": "<!-- embed:iframe src=\"https://app.les4sources.be/public/calendar-lodgings-modal?no_title=true\" -->\n[app.les4sources.be](https://app.les4sources.be/public/calendar-lodgings-modal?no_title=true)\n\nN’hésitez pas à nous contacter à [sejours@les4sources.be](mailto:sejours@les4sources.be) en nous signalant les dates qui vous intéressent, nous reviendrons vers vous.\n\n[Tarifs des hébergements et salles](/sejours/tarifs){.button}\n\n[Disponibilités](/sejours/disponibilites){.button}\n\n[Faire une demande de séjour](/sejours/sejours){.button}\n",
+  "extractedAt": "2026-09-07T21:41:44.538Z"
+}

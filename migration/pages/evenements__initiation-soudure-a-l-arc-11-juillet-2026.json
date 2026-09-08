@@ -1,0 +1,262 @@
+{
+  "path": "/evenements/initiation-soudure-a-l-arc-11-juillet-2026",
+  "slug": "evenements__initiation-soudure-a-l-arc-11-juillet-2026",
+  "rootIsCollection": false,
+  "title": "⚡ COMPLET ! Initiation à la soudure à l’arc",
+  "metaDescription": "NOUVELLE SESSION DU 11 JUILLET 2026 (9h-12h30) : COMPLET ⚠️",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/24b1fc34-baf6-440f-90ad-9951dbb3470a/evenement_gnral__a_-5/public",
+  "ogTitle": "⚡ COMPLET ! Initiation à la soudure à l’arc",
+  "ogUrl": "https://www.les4sources.be/evenements/initiation-soudure-a-l-arc-11-juillet-2026",
+  "canonical": null,
+  "h1": "⚡ COMPLET ! Initiation à la soudure à l’arc",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/24b1fc34-baf6-440f-90ad-9951dbb3470a/evenement_gnral__a_-5/public",
+    "localPath": "images/evenements__initiation-soudure-a-l-arc-11-juillet-2026/01-evenement_gnral__a_-5.jpg"
+  },
+  "pageIcon": "👷🏻",
+  "properties": {
+    "Date": "2026-07-11",
+    "Horaires": "9h-12h30",
+    "Type d'événement": "Formation",
+    "Thématique": "Artisanat",
+    "Date (fr)": "11 juillet 2026",
+    "Places disponibles": "3",
+    "Tarif": "€80.00",
+    "Date de création": "Apr 4, 2026 9:47 AM",
+    "Statut site web": "Publié",
+    "super:slug": "initiation-soudure-a-l-arc-11-juillet-2026"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-initiation-soudure-a-l-arc-11-juillet-2026",
+    "blockId": "3380d149-3317-806c-9556-f2bf2d22655c",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/initiation-soudure-a-l-arc-11-juillet-2026",
+    "createdTime": "2026-04-04T09:47:30.538Z",
+    "lastEditedTime": "2026-06-01T15:48:40.500Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "⚡ COMPLET ! Initiation à la soudure à l’arc",
+      "href": "/evenements/initiation-soudure-a-l-arc-11-juillet-2026",
+      "icon": "👷🏻"
+    }
+  ],
+  "contentHtml": "<p id=\"block-34b0d149331780f39f27d273c684f4ea\" class=\"notion-text notion-text__content notion-semantic-string\"><span class=\"highlighted-color color-red\"><strong>NOUVELLE SESSION DU 11 JUILLET 2026 (9h-12h30) : COMPLET </strong></span><span class=\"highlighted-color color-red\">⚠️</span></p><p id=\"block-3600d1493317808ebee6ceaa5006f58b\" class=\"notion-text notion-text__content notion-semantic-string\">Dates encore disponibles : 12 septembre | 21 novembre | 12 décembre</p><div id=\"block-3600d1493317807fb93beb1638931e17\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/initiation-a-la-soudure-a-larc\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">👩🏻‍🏭</span></div><span class=\"notion-semantic-string\">Je réserve une autre date</span></a></div><h1 id=\"block-3380d14933178131a371ca0515541ae7\" class=\"notion-heading notion-semantic-string\"><strong>Objectifs</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-3380d149331781cab303e6c2ab02a137\" class=\"notion-list-item notion-semantic-string\">découvrir le poste à souder MMA (soudure à l'électrode enrobée), le matériel associé, les normes de sécurité, les principes de base de cette soudure (l'arc électrique, l'électrode, les bons gestes) ;</li><li id=\"block-3380d1493317816899dbcaa6e8f20f1b\" class=\"notion-list-item notion-semantic-string\">expérimenter l'amorçage, le cordon à plat, le cordon en angle ;</li><li id=\"block-3380d1493317816ab09fc34481f513b3\" class=\"notion-list-item notion-semantic-string\">être conseillé pour l'acquisition de son matériel personnel.</li></ul><h1 id=\"block-3380d14933178154b76bd73c6d3e269a\" class=\"notion-heading notion-semantic-string\"><strong>Déroulement</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-3380d1493317814da880fb0a916b7461\" class=\"notion-list-item notion-semantic-string\">alternance de temps de transmission théorique et de temps d'expérimentation à l'atelier ;</li><li id=\"block-3380d1493317819eaf1ec18acf686d61\" class=\"notion-list-item notion-semantic-string\">l'intention est de transmettre un maximum de choses par l'expérimentation.</li></ul><p id=\"block-3380d1493317814798e2f33d287dd3bf\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Prérequis :&nbsp;</strong>aucun</p><p id=\"block-3380d149331781518a7af761a46057e9\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Âge :&nbsp;</strong>autour de 10 à 110 ans</p><h1 id=\"block-3380d149331781b594bdd91edc207e79\" class=\"notion-heading notion-semantic-string\"><strong>Inscription, tarif, et autres dates : </strong></h1><div id=\"block-3380d1493317804fa1b4d03f6e3ca08b\" class=\"super-embed\">\n<a title=\"Vente de billets en ligne\" href=\"https://www.billetweb.fr/shop.php?event=initiation-a-la-soudure-a-larc\" class=\"shop_frame\" target=\"_blank\" data-src=\"https://www.billetweb.fr/shop.php?event=initiation-a-la-soudure-a-larc-fev-2026\" data-max-width=\"100%\" data-initial-height=\"600\" data-scrolling=\"no\" data-id=\"initiation-a-la-soudure-a-larc-fev-2026\" data-resize=\"1\">Vente de billets en ligne</a></div><div id=\"block-3380d1493317817396b8dac355a911c6\" class=\"notion-divider\"></div><h2 id=\"block-3380d149331781e29c1edb14e769a24d\" class=\"notion-heading notion-semantic-string\"><strong>Équipement de protection individuel à emporter</strong></h2><ul class=\"notion-bulleted-list\"><li id=\"block-3380d14933178138aed1cb1e114cdd6a\" class=\"notion-list-item notion-semantic-string\">vêtements de travail non synthétiques (pas de short)</li><li id=\"block-3380d149331781ea8599e1a7c45a1d61\" class=\"notion-list-item notion-semantic-string\">chaussures de sécurité ou à défaut chaussures fermées de type bottines</li><li id=\"block-3380d1493317810ca6d4f5a80aadea10\" class=\"notion-list-item notion-semantic-string\">protections auditives (bouchons d'oreilles disponibles)</li><li id=\"block-3380d1493317819ba32afaf3acca3efc\" class=\"notion-list-item notion-semantic-string\">gants, masques et EPI spécifiques disponibles en prêt</li></ul><h1 id=\"block-3380d149331781b4b3c4c1c2f82ee84f\" class=\"notion-heading notion-semantic-string\">Instructeur</h1><p id=\"block-3380d149331781879d24c1340f962c27\" class=\"notion-text notion-text__content notion-semantic-string\">Sébastien Frennet, membre des 4 Sources</p><h1 id=\"block-3380d149331781c6961fd02cc1dddfdf\" class=\"notion-heading notion-semantic-string\">Autres dates</h1><div id=\"block-3380d149331781edbc8ef34c0d667e82\" class=\"notion-collection inline\"><div class=\"notion-collection-gallery no-border-top medium\"><div id=\"block-evenements-initiation-soudure-a-l-arc-5-septembre-2026\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-initiation-soudure-a-l-arc-5-septembre-2026\" href=\"/evenements/initiation-soudure-a-l-arc-5-septembre-2026\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/initiation-soudure-a-l-arc-5-septembre-2026\">⚡ COMPLET ! Initiation à la soudure à l’arc </a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/032e026f-d1f6-4065-930e-b67c5e1d3d04/evenement_gnral__a/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/032e026f-d1f6-4065-930e-b67c5e1d3d04/evenement_gnral__a/public\"><img alt=\"⚡ COMPLET ! Initiation à la soudure à l’arc \" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/032e026f-d1f6-4065-930e-b67c5e1d3d04/evenement_gnral__a/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">⚡ COMPLET ! Initiation à la soudure à l’arc </div><p class=\"notion-property notion-property__text property-63695c60 notion-collection-card__property notion-semantic-string\">12 septembre 2026</p><div class=\"notion-property notion-property__select wrap property-77487c40 notion-collection-card__property\"><span class=\"notion-pill pill-orange first\">Formation</span></div></div></div><div id=\"block-evenements-initiation-soudure-a-l-arc-17-octobre-2026\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-initiation-soudure-a-l-arc-17-octobre-2026\" href=\"/evenements/initiation-soudure-a-l-arc-17-octobre-2026\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/initiation-soudure-a-l-arc-17-octobre-2026\">⚡ COMPLET ! Initiation à la soudure à l’arc </a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f12795e2-1e52-40a8-910b-47e74df840f3/evenement_gnral__a_-5/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f12795e2-1e52-40a8-910b-47e74df840f3/evenement_gnral__a_-5/public\"><img alt=\"⚡ COMPLET ! Initiation à la soudure à l’arc \" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f12795e2-1e52-40a8-910b-47e74df840f3/evenement_gnral__a_-5/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">⚡ COMPLET ! Initiation à la soudure à l’arc </div><p class=\"notion-property notion-property__text property-63695c60 notion-collection-card__property notion-semantic-string\">17 octobre 2026</p><div class=\"notion-property notion-property__select wrap property-77487c40 notion-collection-card__property\"><span class=\"notion-pill pill-orange first\">Formation</span></div></div></div><div id=\"block-evenements-initiation-soudure-a-l-arc-21-novembre-2026\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-initiation-soudure-a-l-arc-21-novembre-2026\" href=\"/evenements/initiation-soudure-a-l-arc-21-novembre-2026\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/initiation-soudure-a-l-arc-21-novembre-2026\">⚡ Initiation à la soudure à l’arc </a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public\"><img alt=\"⚡ Initiation à la soudure à l’arc \" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">⚡ Initiation à la soudure à l’arc </div><p class=\"notion-property notion-property__text property-63695c60 notion-collection-card__property notion-semantic-string\">21 novembre 2026</p><div class=\"notion-property notion-property__select wrap property-77487c40 notion-collection-card__property\"><span class=\"notion-pill pill-orange first\">Formation</span></div></div></div><div id=\"block-evenements-initiation-soudure-a-l-arc-12-dcembre-2026\" class=\"notion-collection-card gallery\"><a id=\"block-evenements-initiation-soudure-a-l-arc-12-dcembre-2026\" href=\"/evenements/initiation-soudure-a-l-arc-12-dcembre-2026\" class=\"notion-link notion-collection-card__anchor\" data-link-uri=\"/evenements/initiation-soudure-a-l-arc-12-dcembre-2026\">Initiation à la soudure à l’arc ⚡</a><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public\"><img alt=\"Initiation à la soudure à l’arc ⚡\" class=\"notion-collection-card__cover medium\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public\"></span><div class=\"notion-collection-card__content notion-collection-card__property-list\"><div class=\"notion-property notion-property__title notion-collection-card__property title notion-semantic-string\">Initiation à la soudure à l’arc ⚡</div><p class=\"notion-property notion-property__text property-63695c60 notion-collection-card__property notion-semantic-string\">12 décembre 2026</p><div class=\"notion-property notion-property__select wrap property-77487c40 notion-collection-card__property\"><span class=\"notion-pill pill-orange first\">Formation</span></div></div></div></div></div><div id=\"block-3380d149331781359621da85e73082f4\" class=\"notion-callout bg-gray-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/24b1fc34-baf6-440f-90ad-9951dbb3470a/evenement_gnral__a_-5/public",
+      "alt": "⚡ COMPLET ! Initiation à la soudure à l’arc",
+      "role": "cover",
+      "localPath": "images/evenements__initiation-soudure-a-l-arc-11-juillet-2026/01-evenement_gnral__a_-5.jpg",
+      "shared": false,
+      "bytes": 114623
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/032e026f-d1f6-4065-930e-b67c5e1d3d04/evenement_gnral__a/public",
+      "alt": "⚡ COMPLET ! Initiation à la soudure à l’arc",
+      "role": "content",
+      "localPath": "images/_shared/9b3d051ecca1-evenement_gnral__a.jpg",
+      "shared": true,
+      "bytes": 114623
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f12795e2-1e52-40a8-910b-47e74df840f3/evenement_gnral__a_-5/public",
+      "alt": "⚡ COMPLET ! Initiation à la soudure à l’arc",
+      "role": "content",
+      "localPath": "images/_shared/9537c7b8c89d-evenement_gnral__a_-5.jpg",
+      "shared": true,
+      "bytes": 114623
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public",
+      "alt": "⚡ Initiation à la soudure à l’arc",
+      "role": "content",
+      "localPath": "images/_shared/9c7a860cd83d-evenement_gnral__a_-1.jpg",
+      "shared": true,
+      "bytes": 188570
+    }
+  ],
+  "embeds": [
+    {
+      "kind": "other",
+      "src": "https://www.billetweb.fr/shop.php?event=initiation-a-la-soudure-a-larc",
+      "title": "Vente de billets en ligne",
+      "rawHtml": "<a title=\"Vente de billets en ligne\" href=\"https://www.billetweb.fr/shop.php?event=initiation-a-la-soudure-a-larc\" class=\"shop_frame\" target=\"_blank\" data-src=\"https://www.billetweb.fr/shop.php?event=initiation-a-la-soudure-a-larc-fev-2026\" data-max-width=\"100%\" data-initial-height=\"600\" data-scrolling=\"no\" data-id=\"initiation-a-la-soudure-a-larc-fev-2026\" data-resize=\"1\">Vente de billets en ligne</a>"
+    }
+  ],
+  "internalLinks": [
+    "/evenements/initiation-soudure-a-l-arc-5-septembre-2026",
+    "/evenements/initiation-soudure-a-l-arc-17-octobre-2026",
+    "/evenements/initiation-soudure-a-l-arc-21-novembre-2026",
+    "/evenements/initiation-soudure-a-l-arc-12-dcembre-2026",
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.billetweb.fr/initiation-a-la-soudure-a-larc",
+    "https://www.billetweb.fr/shop.php?event=initiation-a-la-soudure-a-larc"
+  ],
+  "collections": [
+    {
+      "id": "3380d149331781edbc8ef34c0d667e82",
+      "title": "Événements",
+      "source": {
+        "id": "evenements",
+        "uri": "/evenements",
+        "title": "Événements",
+        "inferred": true
+      },
+      "view": "Galerie",
+      "views": [
+        "Galerie"
+      ],
+      "layout": "gallery",
+      "grouped": false,
+      "items": [
+        {
+          "title": "⚡ COMPLET ! Initiation à la soudure à l’arc",
+          "href": "/evenements/initiation-soudure-a-l-arc-5-septembre-2026",
+          "icon": "👷🏻‍♀️",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/032e026f-d1f6-4065-930e-b67c5e1d3d04/evenement_gnral__a/public",
+          "props": [
+            "12 septembre 2026",
+            "Formation"
+          ],
+          "properties": {
+            "Date (fr)": "12 septembre 2026",
+            "Type d'événement": "Formation"
+          },
+          "coverLocalPath": "images/_shared/9b3d051ecca1-evenement_gnral__a.jpg"
+        },
+        {
+          "title": "⚡ COMPLET ! Initiation à la soudure à l’arc",
+          "href": "/evenements/initiation-soudure-a-l-arc-17-octobre-2026",
+          "icon": "👷🏻",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f12795e2-1e52-40a8-910b-47e74df840f3/evenement_gnral__a_-5/public",
+          "props": [
+            "17 octobre 2026",
+            "Formation"
+          ],
+          "properties": {
+            "Date (fr)": "17 octobre 2026",
+            "Type d'événement": "Formation"
+          },
+          "coverLocalPath": "images/_shared/9537c7b8c89d-evenement_gnral__a_-5.jpg"
+        },
+        {
+          "title": "⚡ Initiation à la soudure à l’arc",
+          "href": "/evenements/initiation-soudure-a-l-arc-21-novembre-2026",
+          "icon": "👷🏻",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public",
+          "props": [
+            "21 novembre 2026",
+            "Formation"
+          ],
+          "properties": {
+            "Date (fr)": "21 novembre 2026",
+            "Type d'événement": "Formation"
+          },
+          "coverLocalPath": "images/_shared/9c7a860cd83d-evenement_gnral__a_-1.jpg"
+        },
+        {
+          "title": "Initiation à la soudure à l’arc ⚡",
+          "href": "/evenements/initiation-soudure-a-l-arc-12-dcembre-2026",
+          "icon": "👷🏻‍♀️",
+          "cover": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc736326-889f-46be-835f-a238c611d59e/evenement_gnral__a_-1/public",
+          "props": [
+            "12 décembre 2026",
+            "Formation"
+          ],
+          "properties": {
+            "Date (fr)": "12 décembre 2026",
+            "Type d'événement": "Formation"
+          },
+          "coverLocalPath": "images/_shared/9c7a860cd83d-evenement_gnral__a_-1.jpg"
+        }
+      ]
+    }
+  ],
+  "wordCount": 234,
+  "fetchedAt": "2026-09-07T21:17:34.671Z",
+  "markdown": "**NOUVELLE SESSION DU 11 JUILLET 2026 (9h-12h30) : COMPLET** ⚠️\n\nDates encore disponibles : 12 septembre | 21 novembre | 12 décembre\n\n[👩🏻‍🏭 Je réserve une autre date](https://www.billetweb.fr/initiation-a-la-soudure-a-larc){.button}\n\n## **Objectifs**\n\n- découvrir le poste à souder MMA (soudure à l'électrode enrobée), le matériel associé, les normes de sécurité, les principes de base de cette soudure (l'arc électrique, l'électrode, les bons gestes) ;\n- expérimenter l'amorçage, le cordon à plat, le cordon en angle ;\n- être conseillé pour l'acquisition de son matériel personnel.\n\n## **Déroulement**\n\n- alternance de temps de transmission théorique et de temps d'expérimentation à l'atelier ;\n- l'intention est de transmettre un maximum de choses par l'expérimentation.\n\n**Prérequis :** aucun\n\n**Âge :** autour de 10 à 110 ans\n\n## **Inscription, tarif, et autres dates :**\n\n<!-- embed:other src=\"https://www.billetweb.fr/shop.php?event=initiation-a-la-soudure-a-larc\" -->\n[Vente de billets en ligne](https://www.billetweb.fr/shop.php?event=initiation-a-la-soudure-a-larc)\n\n### **Équipement de protection individuel à emporter**\n\n- vêtements de travail non synthétiques (pas de short)\n- chaussures de sécurité ou à défaut chaussures fermées de type bottines\n- protections auditives (bouchons d'oreilles disponibles)\n- gants, masques et EPI spécifiques disponibles en prêt\n\n## Instructeur\n\nSébastien Frennet, membre des 4 Sources\n\n## Autres dates\n\n<!-- collection \"Événements\" view=\"Galerie\" layout=\"gallery\" -->\n- [👷🏻‍♀️ ⚡ COMPLET ! Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-5-septembre-2026) — 12 septembre 2026 · Formation\n- [👷🏻 ⚡ COMPLET ! Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-17-octobre-2026) — 17 octobre 2026 · Formation\n- [👷🏻 ⚡ Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-21-novembre-2026) — 21 novembre 2026 · Formation\n- [👷🏻‍♀️ Initiation à la soudure à l’arc ⚡](/evenements/initiation-soudure-a-l-arc-12-dcembre-2026) — 12 décembre 2026 · Formation\n<!-- /collection -->\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.397Z"
+}

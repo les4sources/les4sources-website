@@ -1,0 +1,179 @@
+{
+  "path": "/evenements/pizza-party-octobre-2026",
+  "slug": "evenements__pizza-party-octobre-2026",
+  "rootIsCollection": false,
+  "title": "Pizza Party d’octobre ! 🍕",
+  "metaDescription": "Pizza Party du 9 octobre 2026 aux 4 Sources (Yvoir)",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6918ccae-8f12-41e6-b354-63b4f03a7b5f/evenement_gnral__a_-1/public",
+  "ogTitle": "Pizza Party d’octobre ! 🍕",
+  "ogUrl": "https://www.les4sources.be/evenements/pizza-party-octobre-2026",
+  "canonical": null,
+  "h1": "Pizza Party d’octobre ! 🍕",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6918ccae-8f12-41e6-b354-63b4f03a7b5f/evenement_gnral__a_-1/public",
+    "localPath": "images/_shared/5d479b9db68a-evenement_gnral__a_-1.jpg"
+  },
+  "pageIcon": "🍕",
+  "properties": {
+    "Date": "2026-10-09",
+    "Horaires": "à partir de 18h30",
+    "Type d'événement": "Pizza Party",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "vendredi 9 octobre",
+    "Tarif": "€10.00",
+    "Date de création": "Jul 23, 2026 1:58 PM",
+    "Statut site web": "Publié",
+    "super:description": "Pizza Party du 9 octobre 2026 aux 4 Sources (Yvoir)",
+    "super:slug": "pizza-party-octobre-2026"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-pizza-party-octobre-2026",
+    "blockId": "3a60d149-3317-8069-8028-df3afc9788c8",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/pizza-party-octobre-2026",
+    "createdTime": "2026-07-23T13:58:29.377Z",
+    "lastEditedTime": "2026-09-03T13:10:00.142Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Pizza Party d’octobre ! 🍕",
+      "href": "/evenements/pizza-party-octobre-2026",
+      "icon": "🍕"
+    }
+  ],
+  "contentHtml": "<h2 id=\"block-3a60d149331780dc9351c7b678a28205\" class=\"notion-heading notion-semantic-string\">Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée ! </h2><p id=\"block-3d00d14933178020907fd9b115288f35\" class=\"notion-text notion-text__content notion-semantic-string\">Bienvenue le 9 octobre<strong>, dès 18h30</strong> :</p><div id=\"block-3a60d149331780aca464db45f7ad9f19\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4500054e-fc67-42f3-8a97-327a5844419e/_mg_0335/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4500054e-fc67-42f3-8a97-327a5844419e/_mg_0335/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4500054e-fc67-42f3-8a97-327a5844419e/_mg_0335/public\"></span></div><ul class=\"notion-bulleted-list\"><li id=\"block-3a60d1493317803c8e27e8ac568efb40\" class=\"notion-list-item notion-semantic-string\">nos boulangères préparent de délicieux pâtons au levain le jour même</li><li id=\"block-3a60d149331780908e85f882abbe6e8e\" class=\"notion-list-item notion-semantic-string\">tu amènes ta garniture en fonction de tes envies<!-- --></li><li id=\"block-3a60d1493317804091f2e80a04eb0662\" class=\"notion-list-item notion-semantic-string\">nous cuisons les pizzas au feu de bois entre 19h et 20h</li><li id=\"block-3a60d1493317804881b3f269b7b00d8b\" class=\"notion-list-item notion-semantic-string\">et vous les dégustez en terrasse plein sud, 360°C nature !</li><li id=\"block-3a60d149331780bcbe82f095406019d7\" class=\"notion-list-item notion-semantic-string\">en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂</li></ul><p id=\"block-3a60d149331780ed8bd2c37c03468170\" class=\"notion-text notion-text__content notion-semantic-string\">👍 Le four de boulangerie est chauffé au bois\n👍 Les pâtons sont bio et au levain\n👍 Et les gens sont super cools !</p><div id=\"block-3bc0d149331780e8a3ffea0a408914b9\" class=\"notion-button\"><a href=\"https://tranchesdevie.les4sources.be/pizza-parties\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🍕</span></div><span class=\"notion-semantic-string\">Je prends ma place ! </span></a></div><div id=\"block-3a60d149331780ae96add5a03f311621\" class=\"notion-image normal\"><img src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/62dcc73c-ea31-47cb-a2fe-3725259e7cfa/_mg_0502/public\" alt=\"image\" data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/62dcc73c-ea31-47cb-a2fe-3725259e7cfa/_mg_0502/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/62dcc73c-ea31-47cb-a2fe-3725259e7cfa/_mg_0502/public\"></div><h1 id=\"block-3a60d149331780df8b37f270d4d1177e\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-3a60d14933178018a66cd5557e4f1b1a\" class=\"notion-list-item notion-semantic-string\"><a href=\"https://www.billetweb.fr/pizza-party-de-septembre-2025\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">I</a>nscription indispensable jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons</li><li id=\"block-3a60d1493317807c970fea0821f3d548\" class=\"notion-list-item notion-semantic-string\">Participation : 10 € par adulte / 6€ par enfant</li><li id=\"block-3a60d149331780eb89d8f4897632b235\" class=\"notion-list-item notion-semantic-string\">Bar avec boissons bios/locales/de saison sur place 🍹</li><li id=\"block-3a60d149331780809fe1fe43e84e81a1\" class=\"notion-list-item notion-semantic-string\">Paiement des consommations en cash ou par virement sur place</li></ul><div id=\"block-3a60d149331780b8a516d5757766940b\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/50fa1569-7845-4cd3-9577-188414c806d7/_mg_0534/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/50fa1569-7845-4cd3-9577-188414c806d7/_mg_0534/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/50fa1569-7845-4cd3-9577-188414c806d7/_mg_0534/public\"></span></div><p id=\"block-3a60d149331780fc9a75f1ac6a01049e\" class=\"notion-text notion-text__content notion-semantic-string\">Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h30, lorsque le four est encore chaud de la journée.</p><div id=\"block-3bc0d149331780d6b50cd2ddef06bfec\" class=\"notion-button\"><a href=\"https://tranchesdevie.les4sources.be/pizza-parties\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🍕</span></div><span class=\"notion-semantic-string\">Je prends ma place ! </span></a></div><div id=\"block-3a60d1493317805ebebddcff642547e8\" class=\"notion-callout bg-yellow-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🆕</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"></span><p id=\"block-3a60d149331780dc9edfef67b904cb10\" class=\"notion-text notion-text__content notion-semantic-string\">L’inscription se passe désormais via l’application tranchedevie ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque ou passer par l’app Payconiq.</p></div></div><h3 id=\"block-3a60d149331780c9b50bc78f62e69d47\" class=\"notion-heading notion-semantic-string\">Prévisions météo</h3><div id=\"block-3a60d149331780ea8429ee23bba9730b\" class=\"super-embed\">\n<iframe src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius\" name=\"CW2\" width=\"318\" height=\"318\"></iframe></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6918ccae-8f12-41e6-b354-63b4f03a7b5f/evenement_gnral__a_-1/public",
+      "alt": "Pizza Party d’octobre ! 🍕",
+      "role": "cover",
+      "localPath": "images/_shared/5d479b9db68a-evenement_gnral__a_-1.jpg",
+      "shared": true,
+      "bytes": 128150
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4500054e-fc67-42f3-8a97-327a5844419e/_mg_0335/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__pizza-party-octobre-2026/02-_mg_0335.jpg",
+      "shared": false,
+      "bytes": 141260
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/62dcc73c-ea31-47cb-a2fe-3725259e7cfa/_mg_0502/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__pizza-party-octobre-2026/03-_mg_0502.jpg",
+      "shared": false,
+      "bytes": 158397
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/50fa1569-7845-4cd3-9577-188414c806d7/_mg_0534/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__pizza-party-octobre-2026/04-_mg_0534.jpg",
+      "shared": false,
+      "bytes": 167005
+    }
+  ],
+  "embeds": [
+    {
+      "kind": "other",
+      "src": "https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius",
+      "title": "api.wo-cloud.com",
+      "rawHtml": "<iframe src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius\" name=\"CW2\" width=\"318\" height=\"318\"></iframe>"
+    }
+  ],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://tranchesdevie.les4sources.be/pizza-parties",
+    "https://www.billetweb.fr/pizza-party-de-septembre-2025"
+  ],
+  "collections": [],
+  "wordCount": 230,
+  "fetchedAt": "2026-09-07T21:17:40.469Z",
+  "markdown": "### Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !\n\nBienvenue le 9 octobre**, dès 18h30** :\n\n![image](images/evenements__pizza-party-octobre-2026/02-_mg_0335.jpg)\n\n- nos boulangères préparent de délicieux pâtons au levain le jour même\n- tu amènes ta garniture en fonction de tes envies\n- nous cuisons les pizzas au feu de bois entre 19h et 20h\n- et vous les dégustez en terrasse plein sud, 360°C nature !\n- en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂\n\n👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !\n\n[🍕 Je prends ma place !](https://tranchesdevie.les4sources.be/pizza-parties){.button}\n\n![image](images/evenements__pizza-party-octobre-2026/03-_mg_0502.jpg)\n\n## **Infos pratiques**\n\n- [I](https://www.billetweb.fr/pizza-party-de-septembre-2025)nscription indispensable jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons\n- Participation : 10 € par adulte / 6€ par enfant\n- Bar avec boissons bios/locales/de saison sur place 🍹\n- Paiement des consommations en cash ou par virement sur place\n\n![image](images/evenements__pizza-party-octobre-2026/04-_mg_0534.jpg)\n\nLes enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h30, lorsque le four est encore chaud de la journée.\n\n[🍕 Je prends ma place !](https://tranchesdevie.les4sources.be/pizza-parties){.button}\n\n> 🆕 L’inscription se passe désormais via l’application tranchedevie ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque ou passer par l’app Payconiq.\n\n#### Prévisions météo\n\n<!-- embed:other src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius\" -->\n[api.wo-cloud.com](https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.454Z"
+}

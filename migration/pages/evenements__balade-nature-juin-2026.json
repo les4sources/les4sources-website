@@ -1,0 +1,173 @@
+{
+  "path": "/evenements/balade-nature-juin-2026",
+  "slug": "evenements__balade-nature-juin-2026",
+  "rootIsCollection": false,
+  "title": "🌲Balade nature animée : Homme et nature, une relation complexe",
+  "metaDescription": "Balade nature animée du 24 juin 2026 (Yvoir)",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f296299a-31af-4b9c-b010-d8b4c2338a9e/balade_nature_animee/public",
+  "ogTitle": "🌲Balade nature animée : Homme et nature, une relation complexe",
+  "ogUrl": "https://www.les4sources.be/evenements/balade-nature-juin-2026",
+  "canonical": null,
+  "h1": "🌲Balade nature animée : Homme et nature, une relation complexe",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f296299a-31af-4b9c-b010-d8b4c2338a9e/balade_nature_animee/public",
+    "localPath": "images/evenements__balade-nature-juin-2026/01-balade_nature_animee.jpg"
+  },
+  "pageIcon": "🥾",
+  "properties": {
+    "Date": "2026-06-24",
+    "Horaires": "de 14h à 18h",
+    "Type d'événement": "Nature",
+    "Thématique": "Environnement",
+    "Date (fr)": "24 juin 2026",
+    "Places disponibles": "20",
+    "Tarif": "€0.00",
+    "Date de création": "May 31, 2026 7:33 PM",
+    "Statut site web": "Publié",
+    "super:description": "Balade nature animée du 24 juin 2026 (Yvoir)",
+    "super:slug": "balade-nature-juin-2026"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-balade-nature-juin-2026",
+    "blockId": "3710d149-3317-80bb-a29b-ef439a01c004",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/balade-nature-juin-2026",
+    "createdTime": "2026-05-31T19:33:04.730Z",
+    "lastEditedTime": "2026-06-01T07:49:06.932Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "🌲Balade nature animée : Homme et nature, une relation complexe",
+      "href": "/evenements/balade-nature-juin-2026",
+      "icon": "🥾"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-3710d14933178092a13fd73a87d5c529\" class=\"notion-heading notion-semantic-string\">Colin vous propose un questionnement sur notre rapport à la nature, à nos choix, et notre culture, à travers la beauté et la complexité que celle-ci nous permet de contempler.</h3><p id=\"block-3710d149331780a8a615fea78d39a592\" class=\"notion-text notion-text__content notion-semantic-string\">Cette balade est organisée par Colin Vanhamme, dans le cadre d’un TFF de la Formation <em><a href=\"https://www.education-environnement.be/formation.php?idc=2&amp;c=interprete-nature-et-environnement-guide-nature-cnb-de-liege\" class=\"notion-link link\" data-link-uri=\"https://www.education-environnement.be/formation.php?idc=2&amp;c=interprete-nature-et-environnement-guide-nature-cnb-de-liege\">Interprète Nature et Environnement</a></em> du CRIE de Liège.</p><div id=\"block-3720d149331780868bf2fc70c675fb57\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4047bf39-5ea2-4c49-b13e-04113aa02c61/531821888_1069714572004645_4237573810800682198_n/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4047bf39-5ea2-4c49-b13e-04113aa02c61/531821888_1069714572004645_4237573810800682198_n/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4047bf39-5ea2-4c49-b13e-04113aa02c61/531821888_1069714572004645_4237573810800682198_n/public\"></span></div><h1 id=\"block-3710d14933178003b770c87cdf3ac0aa\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-3710d1493317804c911cf7e812b17b30\" class=\"notion-list-item notion-semantic-string\">Balade gratuite ouverte aux adultes (contacter Colin pour la participation d’enfants)</li><li id=\"block-3710d149331780a286edc290e87b9991\" class=\"notion-list-item notion-semantic-string\">Inscription obligatoire</li><li id=\"block-3710d149331780fd9bd0fe9dcbd6d506\" class=\"notion-list-item notion-semantic-string\">3 km de balade</li><li id=\"block-3710d149331780739c35df0a9bfcee35\" class=\"notion-list-item notion-semantic-string\">le 24 juin de 14h à 18h</li><li id=\"block-3710d149331780a08440fea10c142b42\" class=\"notion-list-item notion-semantic-string\">Rendez-vous sur la terrasse des 4 Sources</li><li id=\"block-3710d14933178027ae6ee8989899b8e9\" class=\"notion-list-item notion-semantic-string\">À prendre avec toi : ta gourde, des vêtements adaptés à la météo, des chaussures de marche (facultatif : jumelles, bloc-notes, collation)</li></ul><div id=\"block-3710d149331780f1883bde0317193c98\" class=\"notion-button\"><a href=\"https://forms.gle/vajVYqhdwnJHJea37\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🥾</span></div><span class=\"notion-semantic-string\">Je remplis le formulaire d'inscription</span></a></div><div id=\"block-3710d149331780f0a634d1f1b3edaedf\" class=\"notion-callout bg-yellow-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🆕</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"></span><p id=\"block-3710d1493317804cbf96c9728792633d\" class=\"notion-text notion-text__content notion-semantic-string\">Une info complémentaire ? Appelle Colin au 0489/36.90.18, ou par e-mail à <a href=\"mailto:vanhammecolin@gmail.com\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">vanhammecolin@gmail.com</a>.</p></div></div><div id=\"block-3720d14933178001a4b6f133e18d9ff5\" class=\"notion-image page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/863037c7-8654-4471-9768-690b562ebfae/534204871_1069714672004635_3756803300538429767_n/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/863037c7-8654-4471-9768-690b562ebfae/534204871_1069714672004635_3756803300538429767_n/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/863037c7-8654-4471-9768-690b562ebfae/534204871_1069714672004635_3756803300538429767_n/public\"></span></div><h3 id=\"block-3710d149331780878195e3c12deb336e\" class=\"notion-heading notion-semantic-string\">Prévisions météo</h3><div id=\"block-3710d149331780c7b275f3726ce7e502\" class=\"super-embed\">\n<iframe src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius\" name=\"CW2\" width=\"318\" height=\"318\"></iframe></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f296299a-31af-4b9c-b010-d8b4c2338a9e/balade_nature_animee/public",
+      "alt": "🌲Balade nature animée : Homme et nature, une relation complexe",
+      "role": "cover",
+      "localPath": "images/evenements__balade-nature-juin-2026/01-balade_nature_animee.jpg",
+      "shared": false,
+      "bytes": 96860
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4047bf39-5ea2-4c49-b13e-04113aa02c61/531821888_1069714572004645_4237573810800682198_n/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__balade-nature-juin-2026/02-531821888_1069714572004645_4237573810800682198_n.jpg",
+      "shared": false,
+      "bytes": 241492
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/863037c7-8654-4471-9768-690b562ebfae/534204871_1069714672004635_3756803300538429767_n/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__balade-nature-juin-2026/03-534204871_1069714672004635_3756803300538429767_n.jpg",
+      "shared": false,
+      "bytes": 295953
+    }
+  ],
+  "embeds": [
+    {
+      "kind": "other",
+      "src": "https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius",
+      "title": "api.wo-cloud.com",
+      "rawHtml": "<iframe src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius\" name=\"CW2\" width=\"318\" height=\"318\"></iframe>"
+    }
+  ],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.education-environnement.be/formation.php?idc=2&c=interprete-nature-et-environnement-guide-nature-cnb-de-liege",
+    "https://forms.gle/vajVYqhdwnJHJea37",
+    "mailto:vanhammecolin@gmail.com"
+  ],
+  "collections": [],
+  "wordCount": 131,
+  "fetchedAt": "2026-09-07T21:17:30.051Z",
+  "markdown": "#### Colin vous propose un questionnement sur notre rapport à la nature, à nos choix, et notre culture, à travers la beauté et la complexité que celle-ci nous permet de contempler.\n\nCette balade est organisée par Colin Vanhamme, dans le cadre d’un TFF de la Formation *[Interprète Nature et Environnement](https://www.education-environnement.be/formation.php?idc=2&c=interprete-nature-et-environnement-guide-nature-cnb-de-liege)* du CRIE de Liège.\n\n![image](images/evenements__balade-nature-juin-2026/02-531821888_1069714572004645_4237573810800682198_n.jpg)\n\n## **Infos pratiques**\n\n- Balade gratuite ouverte aux adultes (contacter Colin pour la participation d’enfants)\n- Inscription obligatoire\n- 3 km de balade\n- le 24 juin de 14h à 18h\n- Rendez-vous sur la terrasse des 4 Sources\n- À prendre avec toi : ta gourde, des vêtements adaptés à la météo, des chaussures de marche (facultatif : jumelles, bloc-notes, collation)\n\n[🥾 Je remplis le formulaire d'inscription](https://forms.gle/vajVYqhdwnJHJea37){.button}\n\n> 🆕 Une info complémentaire ? Appelle Colin au 0489/36.90.18, ou par e-mail à [vanhammecolin@gmail.com](mailto:vanhammecolin@gmail.com).\n\n![image](images/evenements__balade-nature-juin-2026/03-534204871_1069714672004635_3756803300538429767_n.jpg)\n\n#### Prévisions météo\n\n<!-- embed:other src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius\" -->\n[api.wo-cloud.com](https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.367Z"
+}

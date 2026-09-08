@@ -1,0 +1,52 @@
+---
+/**
+ * Section — bande horizontale du site (portage de `Section` dans shared.jsx).
+ * Beaucoup de blanc, une seule colonne, 1180 px (ou 760 px en `narrow`).
+ * Le titre h2 porte, par convention de la charte, un emoji en fin de ligne
+ * (« Nos projets 🎴 ») : il est passé tel quel dans `title`.
+ */
+type Surface = "transparent" | "paper" | "subtle" | "teal";
+
+interface Props {
+  title?: string;
+  surface?: Surface;
+  narrow?: boolean;
+  /** Identifiant d'ancre (« #agenda »). */
+  id?: string;
+  class?: string;
+}
+
+const SURFACES: Record<Surface, string> = {
+  transparent: "bg-transparent text-ink",
+  paper: "bg-paper text-ink",
+  subtle: "bg-surface text-ink",
+  teal: "bg-teal text-white",
+};
+
+const { title, surface = "transparent", narrow = false, id, class: className } = Astro.props;
+---
+
+<section
+  id={id}
+  class:list={[
+    "px-6 py-[clamp(40px,7vw,64px)]",
+    SURFACES[surface],
+    className,
+  ]}
+>
+  <div class:list={["mx-auto w-full", narrow ? "max-w-narrow" : "max-w-site"]}>
+    {
+      title && (
+        <h2
+          class:list={[
+            "mb-7 font-display text-h2 font-bold",
+            surface === "teal" ? "text-white" : "text-ink",
+          ]}
+        >
+          {title}
+        </h2>
+      )
+    }
+    <slot />
+  </div>
+</section>

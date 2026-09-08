@@ -1,0 +1,155 @@
+{
+  "path": "/agenda/accompagnement-dcoles-dmocratiques-en-cration",
+  "slug": "agenda__accompagnement-dcoles-dmocratiques-en-cration",
+  "rootIsCollection": false,
+  "title": "Accompagnement d’écoles démocratiques en création",
+  "metaDescription": "Accompagnement d'écoles démocratiques en création - Découvrez l'expérience de projets éducatifs belges, posez vos questions et rencontrez d'autres initiatives similaires. Tarif en conscience. Inscription requise. 160 caractères maximum.",
+  "ogImage": "https://images.unsplash.com/photo-1611843467160-25afb8df1074?ixlib=rb-4.0.3&cs=srgb",
+  "ogTitle": "Accompagnement d’écoles démocratiques en création",
+  "ogUrl": "https://www.les4sources.be/agenda/accompagnement-dcoles-dmocratiques-en-cration",
+  "canonical": null,
+  "h1": "Accompagnement d’écoles démocratiques en création",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.unsplash.com/photo-1611843467160-25afb8df1074?ixlib=rb-4.0.3&cs=srgb",
+    "localPath": "images/agenda__accompagnement-dcoles-dmocratiques-en-cration/01-photo-1611843467160-25afb8df1074.jpg"
+  },
+  "pageIcon": "🗓️",
+  "properties": {
+    "Date": "2024-04-10",
+    "Thématique": "Vie collective",
+    "Date (fr)": "10 avril 2024",
+    "Tarif": "€12.00",
+    "Date de création": "Apr 3, 2024 1:14 PM",
+    "Statut site web": "Publié",
+    "super:description": "Accompagnement d'écoles démocratiques en création - Découvrez l'expérience de projets éducatifs belges, posez vos questions et rencontrez d'autres initiatives similaires. Tarif en conscience. Inscription requise. 160 caractères maximum.",
+    "super:slug": "accompagnement-d-ecoles-democratiques-en-creation-10-avril-2024"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "agenda-accompagnement-dcoles-dmocratiques-en-cration",
+    "blockId": "beb5e50b-5d50-4b10-b18c-35f9c2305bbb",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/agenda/accompagnement-dcoles-dmocratiques-en-cration",
+    "createdTime": "2024-04-03T13:14:51.021Z",
+    "lastEditedTime": "2026-01-29T11:14:29.815Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<p id=\"block-78d305d98afc44b39dee2edf1e8a369c\" class=\"notion-text notion-text__content notion-semantic-string\">🧒 Découvre l'expérience de 3 porteurs de projets éducatifs belges : &nbsp;L'Arbre des Possibles, Les Herbes Hautes, Les 4 Sources(/Ecolieu de l'Orneau)</p><p id=\"block-7daa1ea1e7f7490a9493842397899afb\" class=\"notion-text notion-text__content notion-semantic-string\">❓ Pose les questions propres à la construction de ton projet</p><p id=\"block-2eb90a08f84c47e280e31163eb3e25dc\" class=\"notion-text notion-text__content notion-semantic-string\">👥 Rencontre d'autres projets éducatifs en création</p><h1 id=\"block-81db3e9bb7924b05b736970281ab7ca5\" class=\"notion-heading notion-semantic-string\"><strong>En pratique</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-10d919f3112b4f259e53e74bf9b7b200\" class=\"notion-list-item notion-semantic-string\">Inscription nécessaire</li><li id=\"block-f2313b08489e4d6980cc495d9be9d102\" class=\"notion-list-item notion-semantic-string\">Tarif en conscience (prix indicatif : 12 €/personne)</li><li id=\"block-4e8e25bc35bf4b748bd5ce42cf9dd404\" class=\"notion-list-item notion-semantic-string\">À emporter avec toi :</li><ul class=\"notion-bulleted-list\"><li id=\"block-2cc7ddbe2762457f87b9c2807adef0ef\" class=\"notion-list-item notion-semantic-string\">boissons/en-cas</li><li id=\"block-62e742adb5ea4490bfb7be20868633ac\" class=\"notion-list-item notion-semantic-string\">goûter à partager en mode auberge espagnole</li></ul><li id=\"block-4eb6b385c5af428680c498f4386ccb2b\" class=\"notion-list-item notion-semantic-string\">Min. 3 projets participants</li></ul><h1 id=\"block-0aea4bca69464f0486d7fd7a9e79248c\" class=\"notion-heading notion-semantic-string\"><strong>Facilitatrices</strong></h1><p id=\"block-265ab18fc40d4adba640151a7c0956fc\" class=\"notion-text notion-text__content notion-semantic-string\">Marie-Eve Chalot - École l'Arbre des Possibles</p><p id=\"block-72fdff017d944bea988d3c39f3e82797\" class=\"notion-text notion-text__content notion-semantic-string\">Aurélie Manneback - Les Herbes Hautes</p><p id=\"block-798989a129a64fc29e08bb274ebcc19d\" class=\"notion-text notion-text__content notion-semantic-string\"><a href=\"/collectif/claire-feyens\" class=\"notion-link link\" data-link-uri=\"/collectif/claire-feyens\">Claire Feyens</a> - Les 4 Sources (/Ecolieu de l'Orneau)</p><h1 id=\"block-468b0bf17bff42918847b1869be49541\" class=\"notion-heading notion-semantic-string\"><strong>Co-organisé par</strong></h1><p id=\"block-6a9bebb1098a4659bed08bd6d791b78b\" class=\"notion-text notion-text__content notion-semantic-string\"><a href=\"https://www.larbredespossibles.be/\" class=\"notion-link link\" data-link-uri=\"https://www.larbredespossibles.be/\">École l'Arbre des Possibles</a>, <a href=\"http://herbeshautes.domainesaintroch.be/\" class=\"notion-link link\" data-link-uri=\"http://herbeshautes.domainesaintroch.be/\">Les Herbes Hautes</a>, Les 4 Sources</p><div id=\"block-3cc8bf3bf4224a65b77f0e0fb77c256e\" class=\"notion-divider\"></div><h1 id=\"block-c8d47b5c5f354e1c8632ce39c8ac27fa\" class=\"notion-heading notion-semantic-string\">Inscription</h1><div id=\"block-d793360ab0eb40b4ae076b238bf6d088\" class=\"notion-bookmark\"><a href=\"https://les4sources.punchpass.com/classes/14875132?embed=true\" class=\"notion-link\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-bookmark__content\"><h5 class=\"notion-bookmark__title\">Acccompagnement d'écoles démocratiques en création at 14h00 on 10 avril (mercredi) - Les 4 Sources</h5><p class=\"notion-bookmark__description\">Détails du cours et réservation en ligne sur notre site web Punchpass.</p><div class=\"notion-bookmark__link\"><div><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2baee655-963e-4aba-9871-6eef5e6b2b96/android-icon-192x192/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2baee655-963e-4aba-9871-6eef5e6b2b96/android-icon-192x192/public\"><img alt=\"\" class=\"notion-icon\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2baee655-963e-4aba-9871-6eef5e6b2b96/android-icon-192x192/public\"></span></div><p>les4sources.punchpass.com</p></div></div><div class=\"notion-bookmark__cover\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3de8588a-eb94-4742-aebb-8348659e214d/8599/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3de8588a-eb94-4742-aebb-8348659e214d/8599/public\"><img alt=\"Acccompagnement d'écoles démocratiques en création at 14h00 on 10 avril (mercredi) - Les 4 Sources\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3de8588a-eb94-4742-aebb-8348659e214d/8599/public\"></span></div></a></div>",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1611843467160-25afb8df1074?ixlib=rb-4.0.3&cs=srgb",
+      "alt": "Accompagnement d’écoles démocratiques en création",
+      "role": "cover",
+      "localPath": "images/agenda__accompagnement-dcoles-dmocratiques-en-cration/01-photo-1611843467160-25afb8df1074.jpg",
+      "shared": false,
+      "bytes": 5225803
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2baee655-963e-4aba-9871-6eef5e6b2b96/android-icon-192x192/public",
+      "alt": "",
+      "role": "content",
+      "localPath": "images/agenda__accompagnement-dcoles-dmocratiques-en-cration/02-android-icon-192x192.png",
+      "shared": false,
+      "bytes": 66989
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3de8588a-eb94-4742-aebb-8348659e214d/8599/public",
+      "alt": "Acccompagnement d'écoles démocratiques en création at 14h00 on 10 avril (mercredi) - Les 4 Sources",
+      "role": "content",
+      "localPath": "images/agenda__accompagnement-dcoles-dmocratiques-en-cration/03-8599.jpg",
+      "shared": false,
+      "bytes": 93858
+    }
+  ],
+  "embeds": [
+    {
+      "kind": "bookmark",
+      "src": "https://les4sources.punchpass.com/classes/14875132?embed=true",
+      "title": "Acccompagnement d'écoles démocratiques en création at 14h00 on 10 avril (mercredi) - Les 4 Sources",
+      "description": "Détails du cours et réservation en ligne sur notre site web Punchpass."
+    }
+  ],
+  "internalLinks": [
+    "/collectif/claire-feyens"
+  ],
+  "externalLinks": [
+    "https://www.larbredespossibles.be/",
+    "http://herbeshautes.domainesaintroch.be/",
+    "https://les4sources.punchpass.com/classes/14875132?embed=true"
+  ],
+  "collections": [],
+  "wordCount": 114,
+  "fetchedAt": "2026-09-07T21:17:19.989Z",
+  "markdown": "🧒 Découvre l'expérience de 3 porteurs de projets éducatifs belges :  L'Arbre des Possibles, Les Herbes Hautes, Les 4 Sources(/Ecolieu de l'Orneau)\n\n❓ Pose les questions propres à la construction de ton projet\n\n👥 Rencontre d'autres projets éducatifs en création\n\n## **En pratique**\n\n- Inscription nécessaire\n- Tarif en conscience (prix indicatif : 12 €/personne)\n- À emporter avec toi :\n\n- boissons/en-cas\n- goûter à partager en mode auberge espagnole\n\n- Min. 3 projets participants\n\n## **Facilitatrices**\n\nMarie-Eve Chalot - École l'Arbre des Possibles\n\nAurélie Manneback - Les Herbes Hautes\n\n[Claire Feyens](/collectif/claire-feyens) - Les 4 Sources (/Ecolieu de l'Orneau)\n\n## **Co-organisé par**\n\n[École l'Arbre des Possibles](https://www.larbredespossibles.be/), [Les Herbes Hautes](http://herbeshautes.domainesaintroch.be/), Les 4 Sources\n\n## Inscription\n\n<!-- embed:bookmark src=\"https://les4sources.punchpass.com/classes/14875132?embed=true\" -->\n[Acccompagnement d'écoles démocratiques en création at 14h00 on 10 avril (mercredi) - Les 4 Sources](https://les4sources.punchpass.com/classes/14875132?embed=true) — Détails du cours et réservation en ligne sur notre site web Punchpass.\n",
+  "extractedAt": "2026-09-07T21:41:44.232Z"
+}

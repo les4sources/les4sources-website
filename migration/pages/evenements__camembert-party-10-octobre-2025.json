@@ -1,0 +1,132 @@
+{
+  "path": "/evenements/camembert-party-10-octobre-2025",
+  "slug": "evenements__camembert-party-10-octobre-2025",
+  "rootIsCollection": false,
+  "title": "Camembert Party de février 🧀",
+  "metaDescription": "Viens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes petits légumes préférés !",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/918df003-d65d-40c3-9e3c-231053821710/_Cover_pour_le_site_4S_(2)/public",
+  "ogTitle": "Camembert Party de février 🧀",
+  "ogUrl": "https://www.les4sources.be/evenements/camembert-party-10-octobre-2025",
+  "canonical": null,
+  "h1": "Camembert Party de février 🧀",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/918df003-d65d-40c3-9e3c-231053821710/_Cover_pour_le_site_4S_(2)/public",
+    "localPath": "images/_shared/3a789b6d1ca5-_Cover_pour_le_site_4S_-2.png"
+  },
+  "pageIcon": "🧀",
+  "properties": {
+    "Date": "2026-02-13",
+    "Horaires": "à partir de 18h30",
+    "Type d'événement": "Pizza Party",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "13 février 2026",
+    "Places disponibles": "65",
+    "Tarif": "€7.00",
+    "Date de création": "Sep 4, 2025 12:27 PM",
+    "Statut site web": "Publié",
+    "super:slug": "camembert-party-13-février-2026"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-camembert-party-10-octobre-2025",
+    "blockId": "2640d149-3317-8041-8dec-d41b0a4da6b3",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/camembert-party-10-octobre-2025",
+    "createdTime": "2025-09-04T12:27:27.523Z",
+    "lastEditedTime": "2026-01-29T11:15:38.512Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [],
+  "contentHtml": "<h1 id=\"block-2640d149331781feba24d86fe106c553\" class=\"notion-heading notion-semantic-string\">Le concept de la Camembert Party ?</h1><p id=\"block-2640d14933178130b822d3059c4bb98e\" class=\"notion-text notion-text__content notion-semantic-string\">Viens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes petits légumes préférés ! </p><p id=\"block-2640d1493317811aa3e6e23215cf4e57\" class=\"notion-text notion-text__content notion-semantic-string\">Bienvenue <strong>ce 13 février, dès 18h30</strong> :</p><ul class=\"notion-bulleted-list\"><li id=\"block-2640d149331781d0b94ad7bdd7e84347\" class=\"notion-list-item notion-semantic-string\">tu amènes…</li><ul class=\"notion-bulleted-list\"><li id=\"block-2640d1493317815a9593d1476d6a17a1\" class=\"notion-list-item notion-semantic-string\">ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre)</li><li id=\"block-2640d149331781bfa595c70ca4b21fe1\" class=\"notion-list-item notion-semantic-string\">tes petits légumes</li></ul><li id=\"block-2640d149331781ffa501d2b387d05d4e\" class=\"notion-list-item notion-semantic-string\">nous mettons à ta disposition…<!-- --></li><ul class=\"notion-bulleted-list\"><li id=\"block-2640d149331781adbfd7d88bed786194\" class=\"notion-list-item notion-semantic-string\">de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu</li><li id=\"block-2640d14933178159aa1ce602dce3f60a\" class=\"notion-list-item notion-semantic-string\">des planches à découper et des platines de cuisson</li><li id=\"block-2640d1493317815c95aec2d442d1d7b6\" class=\"notion-list-item notion-semantic-string\">le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage</li><li id=\"block-2640d1493317816d9d5ed5ebe404e884\" class=\"notion-list-item notion-semantic-string\">la grande salle des 4 Sources*\n</li></ul></ul><div id=\"block-2e90d1493317809b94cfef896c445aa8\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/camembert-party-de-fevrier-2026\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🧀</span></div><span class=\"notion-semantic-string\">Je prends ma place</span></a></div><h1 id=\"block-2640d14933178167ac3be675c4fbd5f2\" class=\"notion-heading notion-semantic-string\">À emporter avec toi</h1><ul class=\"notion-bulleted-list\"><li id=\"block-2640d149331781978536f72a1b8dc13d\" class=\"notion-list-item notion-semantic-string\">Ton fromage contenu dans un emballage en bois (cf. photo de l'événement ; bienvenu aux camemberts, vacherins, chaumes, etc.)</li><ul class=\"notion-bulleted-list\"><li id=\"block-2640d149331781fcb1c6d43ef8c4d315\" class=\"notion-list-item notion-semantic-string\">Pas très fromage ? Apporte quelque chose d'équivalent si tu le souhaites ou d'autres ingrédients pour accompagner tes légumes.</li></ul><li id=\"block-2640d1493317812a84e6f279d0bbcd9b\" class=\"notion-list-item notion-semantic-string\">Tes légumes et/ou féculents (ex.: courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces) ou salades froides à manger à côté + assaisonnement</li></ul><div id=\"block-2e90d14933178034a24fefe832ef7fe4\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/camembert-party-de-fevrier-2026\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🧀</span></div><span class=\"notion-semantic-string\">Je prends ma place</span></a></div><h1 id=\"block-2640d149331781e49385e37af240811e\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-2640d14933178151ab2dc9133a1afb1b\" class=\"notion-list-item notion-semantic-string\">Inscription indispensable jusqu’au jeudi midi avant l'événement</li><li id=\"block-2640d14933178142ab98fff842ffdc55\" class=\"notion-list-item notion-semantic-string\">Tarif : 7 € par personne + cash pour le bar</li><li id=\"block-2640d14933178149959ef74f088e91e7\" class=\"notion-list-item notion-semantic-string\">À emporter</li><ul class=\"notion-bulleted-list\"><li id=\"block-2640d14933178123ad3fc20af93dec56\" class=\"notion-list-item notion-semantic-string\">ton fromage ou un autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre) 🧀</li><li id=\"block-2640d149331781a6a65ad1fb6ecaf9dd\" class=\"notion-list-item notion-semantic-string\">tes petits légumes 🍆</li><li id=\"block-2640d149331781afb125ce6b4a1d3201\" class=\"notion-list-item notion-semantic-string\">tes ami·e·s 👯</li></ul><li id=\"block-2640d149331781369ac4c9a47bcec95f\" class=\"notion-list-item notion-semantic-string\">Bar avec boissons bios/locales/de saison sur place 🍹</li></ul><p id=\"block-2640d1493317818480d4f5b06cc5dbfb\" class=\"notion-text notion-text__content notion-semantic-string\">Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.</p><div id=\"block-2e90d149331780fa8ca3fa8edfb2440a\" class=\"notion-button\"><a href=\"https://www.billetweb.fr/camembert-party-de-fevrier-2026\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><span class=\"notion-icon text\">🧀</span></div><span class=\"notion-semantic-string\">Je prends ma place</span></a></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/918df003-d65d-40c3-9e3c-231053821710/_Cover_pour_le_site_4S_(2)/public",
+      "alt": "Camembert Party de février 🧀",
+      "role": "cover",
+      "localPath": "images/_shared/3a789b6d1ca5-_Cover_pour_le_site_4S_-2.png",
+      "shared": true,
+      "bytes": 351372
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.billetweb.fr/camembert-party-de-fevrier-2026"
+  ],
+  "collections": [],
+  "wordCount": 253,
+  "fetchedAt": "2026-09-07T21:17:29.797Z",
+  "markdown": "## Le concept de la Camembert Party ?\n\nViens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes petits légumes préférés !\n\nBienvenue **ce 13 février, dès 18h30** :\n\n- tu amènes…\n\n- ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre)\n- tes petits légumes\n\n- nous mettons à ta disposition…\n\n- de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu\n- des planches à découper et des platines de cuisson\n- le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage\n- la grande salle des 4 Sources\\*\n\n[🧀 Je prends ma place](https://www.billetweb.fr/camembert-party-de-fevrier-2026){.button}\n\n## À emporter avec toi\n\n- Ton fromage contenu dans un emballage en bois (cf. photo de l'événement ; bienvenu aux camemberts, vacherins, chaumes, etc.)\n\n- Pas très fromage ? Apporte quelque chose d'équivalent si tu le souhaites ou d'autres ingrédients pour accompagner tes légumes.\n\n- Tes légumes et/ou féculents (ex.: courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces) ou salades froides à manger à côté + assaisonnement\n\n[🧀 Je prends ma place](https://www.billetweb.fr/camembert-party-de-fevrier-2026){.button}\n\n## **Infos pratiques**\n\n- Inscription indispensable jusqu’au jeudi midi avant l'événement\n- Tarif : 7 € par personne + cash pour le bar\n- À emporter\n\n- ton fromage ou un autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre) 🧀\n- tes petits légumes 🍆\n- tes ami·e·s 👯\n\n- Bar avec boissons bios/locales/de saison sur place 🍹\n\nLes enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.\n\n[🧀 Je prends ma place](https://www.billetweb.fr/camembert-party-de-fevrier-2026){.button}\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.368Z"
+}

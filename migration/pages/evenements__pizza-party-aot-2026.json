@@ -1,0 +1,162 @@
+{
+  "path": "/evenements/pizza-party-aot-2026",
+  "slug": "evenements__pizza-party-aot-2026",
+  "rootIsCollection": false,
+  "title": "Pizza Party ! 🍕",
+  "metaDescription": "Pizza Party du 07 août 2026 aux 4 Sources (Yvoir)",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2b53c9e6-ee2d-4670-9243-81edeca42557/evenement_gnral__a_-22/public",
+  "ogTitle": "Pizza Party ! 🍕",
+  "ogUrl": "https://www.les4sources.be/evenements/pizza-party-aot-2026",
+  "canonical": null,
+  "h1": "Pizza Party ! 🍕",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2b53c9e6-ee2d-4670-9243-81edeca42557/evenement_gnral__a_-22/public",
+    "localPath": "images/evenements__pizza-party-aot-2026/01-evenement_gnral__a_-22.jpg"
+  },
+  "pageIcon": "🍕",
+  "properties": {
+    "Date": "2026-08-07",
+    "Horaires": "à partir de 18h30",
+    "Type d'événement": "Pizza Party",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "7 août 2026",
+    "Tarif": "€7.00",
+    "Date de création": "Jan 8, 2026 2:01 PM",
+    "Statut site web": "Préparation en cours",
+    "super:description": "Pizza Party du 07 août 2026 aux 4 Sources (Yvoir)",
+    "super:slug": "pizza-party-août-2026"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-pizza-party-aot-2026",
+    "blockId": "2e20d149-3317-80ab-b9a7-e698fcff54d6",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/pizza-party-aot-2026",
+    "createdTime": "2026-01-08T14:01:37.914Z",
+    "lastEditedTime": "2026-01-29T11:14:10.148Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Pizza Party ! 🍕",
+      "href": "/evenements/pizza-party-aot-2026",
+      "icon": "🍕"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-2e20d1493317806fa2ecc85315e30afd\" class=\"notion-heading notion-semantic-string\">Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée ! \n\nBienvenue <strong>ce 7 août, dès 18h30</strong> :</h3><ul class=\"notion-bulleted-list\"><li id=\"block-2e20d14933178018af33df869343ef49\" class=\"notion-list-item notion-semantic-string\">nos boulangères préparent de délicieux pâtons au levain le jour même</li><li id=\"block-2e20d14933178055a6f6f16cbffc5e53\" class=\"notion-list-item notion-semantic-string\">tu amènes ta garniture en fonction de tes envies</li><li id=\"block-2e20d1493317808a9d6ed170fdb3675b\" class=\"notion-list-item notion-semantic-string\">nous cuisons les pizzas au feu de bois entre 19h et 20h</li><li id=\"block-2e20d1493317804bb239fb9795da67c8\" class=\"notion-list-item notion-semantic-string\">et vous les dégustez en terrasse plein sud, 360°C nature !</li><li id=\"block-2e20d1493317805ea713cb13273fd6fd\" class=\"notion-list-item notion-semantic-string\">en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂<!-- --></li></ul><p id=\"block-2e20d1493317804e8f9eece519cac516\" class=\"notion-text notion-text__content notion-semantic-string\">👍 Le four de boulangerie est chauffé au bois\n👍 Les pâtons sont bio et au levain\n👍 Et les gens sont super cools !</p><div id=\"block-2e20d14933178093aed6f9666453ff70\" class=\"notion-image normal\"><img src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/dc55757f-3def-4125-8a70-a88fecb1effd/20250613_174543_df387ea4.heic\" alt=\"image\" data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/dc55757f-3def-4125-8a70-a88fecb1effd/20250613_174543_df387ea4.heic\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/dc55757f-3def-4125-8a70-a88fecb1effd/20250613_174543_df387ea4.heic\"></div><h1 id=\"block-2e20d1493317809ba9d0e0678538da6a\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-2e20d149331780f1bfe4cc70d92e821b\" class=\"notion-list-item notion-semantic-string\"><a href=\"https://www.billetweb.fr/pizza-party-de-septembre-2025\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">I</a>nscription indispensable jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons</li><li id=\"block-2e20d1493317809092a3eabcfef5e28b\" class=\"notion-list-item notion-semantic-string\">Participation : 7 € par personne</li><li id=\"block-2e20d149331780c1ac05ee69e5a58e72\" class=\"notion-list-item notion-semantic-string\">Bar avec boissons bios/locales/de saison sur place 🍹</li><li id=\"block-2e20d14933178030a613f9cce854898f\" class=\"notion-list-item notion-semantic-string\">Paiement des consommations en cash ou par virement sur place</li></ul><p id=\"block-2e20d149331780dabdabe8bb228b37c6\" class=\"notion-text notion-text__content notion-semantic-string\">Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h30, lorsque le four est encore chaud de la journée.</p><p id=\"block-2e20d1493317803b81b9d851910390f5\" class=\"notion-text notion-text__content notion-semantic-string\">Le lien de l’inscription arrive bientôt ❤️</p><div id=\"block-2e20d1493317809bb4ded7701b317a2b\" class=\"notion-callout bg-yellow-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🆕</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\"></span><p id=\"block-2e20d149331780e8b2bdd3c4744a3111\" class=\"notion-text notion-text__content notion-semantic-string\">L’inscription se passe désormais via billetweb.fr ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque ou passer par l’app Payconiq.</p></div></div><h3 id=\"block-2e20d149331780799b11c67338683e3a\" class=\"notion-heading notion-semantic-string\">Prévisions météo</h3><div id=\"block-2e20d149331780f8abc1dc346402cc47\" class=\"super-embed\">\n<iframe src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius\" name=\"CW2\" width=\"318\" height=\"318\"></iframe></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2b53c9e6-ee2d-4670-9243-81edeca42557/evenement_gnral__a_-22/public",
+      "alt": "Pizza Party ! 🍕",
+      "role": "cover",
+      "localPath": "images/evenements__pizza-party-aot-2026/01-evenement_gnral__a_-22.jpg",
+      "shared": false,
+      "bytes": 92683
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/dc55757f-3def-4125-8a70-a88fecb1effd/20250613_174543_df387ea4.heic",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/evenements__pizza-party-aot-2026/02-20250613_174543_df387ea4.heic",
+      "shared": false,
+      "bytes": 1532188
+    }
+  ],
+  "embeds": [
+    {
+      "kind": "other",
+      "src": "https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius",
+      "title": "api.wo-cloud.com",
+      "rawHtml": "<iframe src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius\" name=\"CW2\" width=\"318\" height=\"318\"></iframe>"
+    }
+  ],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://www.billetweb.fr/pizza-party-de-septembre-2025"
+  ],
+  "collections": [],
+  "wordCount": 221,
+  "fetchedAt": "2026-09-07T21:17:39.576Z",
+  "markdown": "#### Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée ! Bienvenue **ce 7 août, dès 18h30** :\n\n- nos boulangères préparent de délicieux pâtons au levain le jour même\n- tu amènes ta garniture en fonction de tes envies\n- nous cuisons les pizzas au feu de bois entre 19h et 20h\n- et vous les dégustez en terrasse plein sud, 360°C nature !\n- en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂\n\n👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !\n\n![image](images/evenements__pizza-party-aot-2026/02-20250613_174543_df387ea4.heic)\n\n## **Infos pratiques**\n\n- [I](https://www.billetweb.fr/pizza-party-de-septembre-2025)nscription indispensable jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons\n- Participation : 7 € par personne\n- Bar avec boissons bios/locales/de saison sur place 🍹\n- Paiement des consommations en cash ou par virement sur place\n\nLes enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h30, lorsque le four est encore chaud de la journée.\n\nLe lien de l’inscription arrive bientôt ❤️\n\n> 🆕 L’inscription se passe désormais via billetweb.fr ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque ou passer par l’app Payconiq.\n\n#### Prévisions météo\n\n<!-- embed:other src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius\" -->\n[api.wo-cloud.com](https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&language=fr&region=BE&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.443Z"
+}

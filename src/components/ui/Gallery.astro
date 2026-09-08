@@ -1,0 +1,117 @@
+---
+/**
+ * Galerie de photos + visionneuse plein écran.
+ *
+ * Aucune bibliothèque : la visionneuse est un `<dialog>` natif (fermeture à
+ * Échap et au clic sur le fond, gérées par le navigateur). Sans JavaScript, les
+ * vignettes restent des photos lisibles — rien n'est caché derrière le script.
+ *
+ * Le script reprend aussi les images du corps de page placées dans un
+ * `data-lightbox-scope` : les photos d'un hébergement vivent moitié en
+ * frontmatter (`gallery`), moitié dans le Markdown.
+ */
+import { Image, getImage } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
+interface Props {
+  images: ImageMetadata[];
+  /** Sert à composer l'alternative textuelle : « La Hulotte — photo 2 ». */
+  alt: string;
+  class?: string;
+}
+
+const { images, alt, class: className } = Astro.props;
+
+// Version plein écran de chaque photo, produite au build (jamais l'original brut).
+const full = await Promise.all(
+  images.map((src) => getImage({ src, width: Math.min(src.width, 1600) })),
+);
+---
+
+{
+  images.length > 0 && (
+    <div class:list={["l4s-gallery", className]}>
+      <ul class="m-0 grid list-none grid-cols-2 gap-4 p-0 sm:grid-cols-3">
+        {images.map((img, i) => (
+          <li>
+            <button
+              type="button"
+              class="block w-full cursor-zoom-in overflow-hidden rounded-photo border-0 bg-transparent p-0"
+              data-full={full[i].src}
+              data-full-alt={`${alt} — photo ${i + 1}`}
+            >
+              <Image
+                src={img}
+                alt={`${alt} — photo ${i + 1}`}
+                widths={[400, 800]}
+                sizes="(min-width: 1024px) 340px, (min-width: 640px) 30vw, 45vw"
+                loading="lazy"
+                class="aspect-[4/3] w-full object-cover transition-transform duration-200 ease-[cubic-bezier(0.2,0.7,0.2,1)] hover:scale-[1.02]"
+              />
+            </button>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
+<dialog data-lightbox class="l4s-lightbox" aria-label="Photo en grand">
+  <form method="dialog" class="m-0">
+    <button
+      type="submit"
+      class="absolute top-3 right-3 z-10 inline-flex h-11 items-center rounded-pill border-0 bg-white px-4 font-ui text-[15px] font-bold text-teal"
+      >Fermer</button
+    >
+  </form>
+  <img data-lightbox-image src="" alt="" class="max-h-[86vh] w-auto max-w-full rounded-photo" />
+</dialog>
+
+<style>
+  .l4s-lightbox {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    max-width: min(1100px, 94vw);
+    max-height: 92vh;
+    overflow: visible;
+  }
+  .l4s-lightbox::backdrop {
+    background: rgba(24, 47, 50, 0.88);
+  }
+  .l4s-lightbox img {
+    display: block;
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLDialogElement>("dialog[data-lightbox]").forEach((dialog) => {
+    const image = dialog.querySelector<HTMLImageElement>("[data-lightbox-image]");
+    if (!image) return;
+
+    const open = (src: string, alt: string) => {
+      image.src = src;
+      image.alt = alt;
+      if (typeof dialog.showModal === "function") dialog.showModal();
+    };
+
+    // Clic sur le fond : on ferme (le contenu est l'image elle-même).
+    dialog.addEventListener("click", (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+
+    const root = dialog.parentElement ?? document;
+
+    root.querySelectorAll<HTMLElement>("[data-full]").forEach((trigger) => {
+      trigger.addEventListener("click", () => {
+        open(trigger.dataset.full ?? "", trigger.dataset.fullAlt ?? "");
+      });
+    });
+
+    // Photos du corps de page : même visionneuse, sans balisage supplémentaire.
+    root.querySelectorAll<HTMLImageElement>("[data-lightbox-scope] img").forEach((img) => {
+      img.style.cursor = "zoom-in";
+      img.addEventListener("click", () => open(img.currentSrc || img.src, img.alt));
+    });
+  });
+</script>

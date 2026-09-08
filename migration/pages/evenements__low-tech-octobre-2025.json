@@ -1,0 +1,220 @@
+{
+  "path": "/evenements/low-tech-octobre-2025",
+  "slug": "evenements__low-tech-octobre-2025",
+  "rootIsCollection": false,
+  "title": "Low-tech: réchaud rocket stove et travail du métal",
+  "metaDescription": "Deux journées pour construire, comprendre et tester ton réchaud Rocket Stove, s’initier aux low-techs et au travail du métal. En octobre 2025 aux 4 Sources à Yvoir.",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ed9dc206-ce29-4be2-ad82-47d6a6f5c2a7/low-tech_mai/public",
+  "ogTitle": "Low-tech: réchaud rocket stove et travail du métal",
+  "ogUrl": "https://www.les4sources.be/evenements/low-tech-octobre-2025",
+  "canonical": null,
+  "h1": "Low-tech: réchaud rocket stove et travail du métal",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ed9dc206-ce29-4be2-ad82-47d6a6f5c2a7/low-tech_mai/public",
+    "localPath": "images/_shared/869775a66875-low-tech_mai.jpg"
+  },
+  "pageIcon": null,
+  "properties": {
+    "Date": "2025-10-17 → 2025-10-18",
+    "Horaires": "vendredi 9h30-18h - samedi 9h-18h",
+    "Type d'événement": "Formation",
+    "Thématique": "Artisanat",
+    "Date (fr)": "17 et 18 octobre 2025",
+    "Places disponibles": "6",
+    "Tarif": "€295.00",
+    "Date de création": "Jun 25, 2025 10:58 AM",
+    "Statut site web": "Publié",
+    "super:description": "Deux journées pour construire, comprendre et tester ton réchaud Rocket Stove, s’initier aux low-techs et au travail du métal. En octobre 2025 aux 4 Sources à Yvoir.",
+    "super:slug": "low-tech-octobre-2025"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-low-tech-octobre-2025",
+    "blockId": "21d0d149-3317-80f1-a231-d346813fbefe",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/low-tech-octobre-2025",
+    "createdTime": "2025-06-25T10:58:05.626Z",
+    "lastEditedTime": "2026-01-29T11:15:19.602Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Low-tech: réchaud rocket stove et travail du métal",
+      "href": "/evenements/low-tech-octobre-2025"
+    }
+  ],
+  "contentHtml": "<div id=\"block-21d0d1493317805484fbf5f268d96efc\" class=\"notion-column-list\"><div id=\"block-21d0d1493317802a9a6dd3714baf0770\" class=\"notion-column\" data-width=\"62.5%\"><h3 id=\"block-21d0d149331780efbc82f1b3b8279ed4\" class=\"notion-heading notion-semantic-string\"><strong>Deux journées - les 17 et 18 octobre - pour construire, comprendre et tester ton réchaud Rocket Stove, s’initier aux&nbsp;low-techs et au travail du métal.</strong></h3><ul class=\"notion-bulleted-list\"><li id=\"block-21d0d14933178004bba8eb5262d9b4fc\" class=\"notion-list-item notion-semantic-string\">Initiation à la soudure et à la construction métallique</li><li id=\"block-21d0d14933178096a3ffe8520bb58d0a\" class=\"notion-list-item notion-semantic-string\">Échanges de savoirs sur le principe de combustion et sur les low-techs en général</li><li id=\"block-21d0d149331780f6bd8ec02227dac248\" class=\"notion-list-item notion-semantic-string\">Convivialité et préparation de repas en mode low-tech</li></ul><p id=\"block-21d0d1493317808184eedd4cc2c6b613\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Et tu repars avec ton propre réchaud au terme des 2 journées d’apprentissage </strong>🔥<!-- --></p></div><div id=\"block-21d0d149331780fb962ffde8d8c83622\" class=\"notion-column\" data-width=\"37.5%\"><div id=\"block-21d0d149331780ec94b3d6959ce6d75a\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4b1a05ae-5872-4d45-84cd-b503b9323a1f/7ff13bb7-27d0-4d11-a724-660c6b81a1e5/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4b1a05ae-5872-4d45-84cd-b503b9323a1f/7ff13bb7-27d0-4d11-a724-660c6b81a1e5/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4b1a05ae-5872-4d45-84cd-b503b9323a1f/7ff13bb7-27d0-4d11-a724-660c6b81a1e5/public\"></span></div></div></div><div id=\"block-21d0d149331780638628c619d0105be1\" class=\"notion-column-list\"><div id=\"block-21d0d14933178025ba13d8a7950c0e10\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-21d0d14933178032b253c85ca8789cc1\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/89f12656-7ee8-40d3-b324-f1f191dfcb90/IMG_20241016_105904_8/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/89f12656-7ee8-40d3-b324-f1f191dfcb90/IMG_20241016_105904_8/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/89f12656-7ee8-40d3-b324-f1f191dfcb90/IMG_20241016_105904_8/public\"></span></div></div><div id=\"block-21d0d1493317806c875fd480eeb18e3d\" class=\"notion-column\" data-width=\"50%\"><h2 id=\"block-21d0d1493317800293e2e73af971d90d\" class=\"notion-heading notion-semantic-string\">Participation</h2><p id=\"block-21d0d14933178012aa0ad4e768345221\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>295 € pour les deux journées</strong>, \ntout compris :</p><ul class=\"notion-bulleted-list\"><li id=\"block-21d0d1493317804b9ec4cced35247622\" class=\"notion-list-item notion-semantic-string\">l’encadrement et l’accompagnement par 3 artisans en ferronnerie et menuiserie</li><li id=\"block-21d0d1493317802ea3c8d8d170ac9e2b\" class=\"notion-list-item notion-semantic-string\">la nuitée aux 4 Sources</li><li id=\"block-21d0d1493317805a8112f6e7c39520ae\" class=\"notion-list-item notion-semantic-string\">les repas frais préparés par la Cuisine des 4 Sources</li><li id=\"block-21d0d14933178023803cfb8467cfcbfd\" class=\"notion-list-item notion-semantic-string\">les collations</li><li id=\"block-21d0d1493317806eb511f492a8114ae1\" class=\"notion-list-item notion-semantic-string\">le café et la tisane à volonté</li><li id=\"block-21d0d149331780e9a8ceea180dd2e60c\" class=\"notion-list-item notion-semantic-string\">les fournitures pour ton réchaud</li></ul></div></div><div id=\"block-21d0d149331780feb99eee4fee6f9ea2\" class=\"notion-column-list\"><div id=\"block-21d0d14933178015a0bfc9f2780e2217\" class=\"notion-column\" data-width=\"62.5%\"><blockquote id=\"block-21d0d149331780bab844c74be1564e5f\" class=\"notion-quote\"><span class=\"notion-semantic-string\"><em>Un tout grand merci pour l'invitation, la préparation, l'apprentissage, les échanges et l'ambiance ! C'est une réussite tant pour la fabrication d'un réchaud au bois portatif que pour le remue-méninge du low-tech. Merci aussi aux \"étudiants\" pour la bonne ambiance de travail et d'échanges.</em></span><p id=\"block-21d0d14933178052aa0fdbd1acae1dc8\" class=\"notion-text notion-text__content notion-semantic-string\"><em>À nous de propager au mieux les connaissances et l'esprit de cette rencontre.\n\n</em>— André, participant (heureux) au stage</p></blockquote></div><div id=\"block-21d0d149331780669bbccc12cd9f8219\" class=\"notion-column\" data-width=\"37.5%\"><div id=\"block-21d0d149331780019d33d9a1c818cfc3\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6ffc0cc5-86f1-4e0e-94a9-95de7c62ac32/20250316_113842_B6785347/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6ffc0cc5-86f1-4e0e-94a9-95de7c62ac32/20250316_113842_B6785347/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6ffc0cc5-86f1-4e0e-94a9-95de7c62ac32/20250316_113842_B6785347/public\"></span></div><p id=\"block-21d0d149331780dab4b7e136934fb2d3\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>Café, tisane, fruits et biscuits !</strong></p></div></div><h2 id=\"block-21d0d1493317807a9050dd3dfd31c97b\" class=\"notion-heading notion-semantic-string\">Inscription</h2><p id=\"block-21d0d149331780cb8651edfb6de6ebd8\" class=\"notion-text notion-text__content notion-semantic-string\"><strong><a href=\"https://les4sources.punchpass.com/series/42607\" class=\"notion-link link\" data-link-uri=\"https://les4sources.punchpass.com/series/42607\">Je m’inscris à ce super stage low-tech !</a></strong></p><h2 id=\"block-21d0d14933178052b8a5c5f2a908a2ca\" class=\"notion-heading notion-semantic-string\">Hébergement</h2><div id=\"block-21d0d149331780ddbadbecf7f8ec8d49\" class=\"notion-column-list\"><div id=\"block-21d0d149331780e3a039d0c2f3afaa14\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-21d0d1493317802a8383d71bd8786b35\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/2acd2554-7d03-4b89-9f0a-cbc67a532061/bd1152e8-36f5-45ca-8d6d-9ced6db274f3.avif\" data-lightbox-src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/2acd2554-7d03-4b89-9f0a-cbc67a532061/bd1152e8-36f5-45ca-8d6d-9ced6db274f3.avif\"><img alt=\"image\" src=\"https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/2acd2554-7d03-4b89-9f0a-cbc67a532061/bd1152e8-36f5-45ca-8d6d-9ced6db274f3.avif\"></span></div></div><div id=\"block-21d0d14933178031a38bd2d773ab348c\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-21d0d1493317808a8037cb5142598254\" class=\"notion-text notion-text__content notion-semantic-string\">Tu logeras en chambre partagée aux 4 Sources avec l’ensemble du groupe, l’idéal pour faire connaissance et continuer à partager des idées et connaissances jusqu’en soirée.</p><p id=\"block-21d0d149331780fe929ecdb38024b5a3\" class=\"notion-text notion-text__content notion-semantic-string\">L’hébergement comprend 2 chambres de 4 lits (prévois tes draps de lit), avec une salle de douche par chambre.</p></div></div><h2 id=\"block-21d0d14933178037b2c8d2560e36074f\" class=\"notion-heading notion-semantic-string\">Repas</h2><div id=\"block-21d0d149331780e781d6efd1690dd38c\" class=\"notion-column-list\"><div id=\"block-21d0d149331780d98428c0e6133bd347\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-21d0d1493317806b85e4d7dd89a7e9dc\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/644003b3-b5ba-45f7-82a1-611a69a5f189/68f87ef5-5b98-4ba7-80cf-5858bfdde393/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/644003b3-b5ba-45f7-82a1-611a69a5f189/68f87ef5-5b98-4ba7-80cf-5858bfdde393/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/644003b3-b5ba-45f7-82a1-611a69a5f189/68f87ef5-5b98-4ba7-80cf-5858bfdde393/public\"></span></div></div><div id=\"block-21d0d149331780f4a5eee5609ca5a926\" class=\"notion-column\" data-width=\"50%\"><p id=\"block-21d0d149331780618843cf11e43308c7\" class=\"notion-text notion-text__content notion-semantic-string\">Les repas - végétariens - sont préparés par Stéphanie dans la Cuisine des 4 Sources. Des produits ultra-frais, des plats colorés et du bon pain, que demander de plus ?</p><p id=\"block-21d0d149331780509f10ed48f9f3602f\" class=\"notion-text notion-text__content notion-semantic-string\">Mais oui bien sûr : une délicieuse collation pour le milieu d’après-midi ! 🙂</p></div></div><h2 id=\"block-21d0d149331780f58ffbe91014248549\" class=\"notion-heading notion-semantic-string\">En pratique</h2><ul class=\"notion-bulleted-list\"><li id=\"block-21d0d1493317806fa5adc8f29b10975c\" class=\"notion-list-item notion-semantic-string\">Maximum 6 participants</li><li id=\"block-21d0d149331780369661e03919f97a96\" class=\"notion-list-item notion-semantic-string\">Horaire des journées</li><ul class=\"notion-bulleted-list\"><li id=\"block-21d0d149331780b69862c3cdc8ebc0b1\" class=\"notion-list-item notion-semantic-string\">Le vendredi de 9h30 à 18h</li><li id=\"block-21d0d149331780168e29ca9373f791d9\" class=\"notion-list-item notion-semantic-string\">Le samedi de 9h à 18h</li></ul><li id=\"block-21d0d149331780d19c0dd2b92b8bcea2\" class=\"notion-list-item notion-semantic-string\">À prévoir</li><ul class=\"notion-bulleted-list\"><li id=\"block-21d0d1493317804fb98ff6d25e599876\" class=\"notion-list-item notion-semantic-string\">Un plat à partager pour l’auberge espagnole du vendredi midi</li><li id=\"block-21d0d149331780529ae9c3aadf6650c8\" class=\"notion-list-item notion-semantic-string\">Des vêtements adaptés à la météo</li><li id=\"block-21d0d14933178086b389ec7a29e59332\" class=\"notion-list-item notion-semantic-string\">Ton set de draps de lit pour un lit simple</li><li id=\"block-21d0d1493317805cac99facbfdd83044\" class=\"notion-list-item notion-semantic-string\">Une boisson sympa à partager vendredi soir 😌</li></ul></ul><div id=\"block-21d0d1493317803ebd73fe42adeb600c\" class=\"notion-image full-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/df1bf136-359d-428a-8c89-fe67ce781926/20241123_171125_1B3F661E/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/df1bf136-359d-428a-8c89-fe67ce781926/20241123_171125_1B3F661E/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/df1bf136-359d-428a-8c89-fe67ce781926/20241123_171125_1B3F661E/public\"></span></div><h2 id=\"block-21d0d14933178077b41aedd30abd2be7\" class=\"notion-heading notion-semantic-string\">L’équipe</h2><p id=\"block-21d0d14933178023b982f6df2bb6d826\" class=\"notion-text notion-text__content notion-semantic-string\"><strong>2 artisan-es passionné-es par la ferronnerie, la menuiserie et les low-techs, qui ont la transmission dans le sang !</strong></p><div id=\"block-21d0d149331780a48eb0d2698c410e7a\" class=\"notion-column-list\"><div id=\"block-21d0d1493317801abca7c79278a5e811\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-21d0d1493317805a85a3d544d2e341ed\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/be297ce8-3c8d-4b97-9aad-86c6088c2f64/b385d591-9b06-4d7d-a9cb-90e5627d351a/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/be297ce8-3c8d-4b97-9aad-86c6088c2f64/b385d591-9b06-4d7d-a9cb-90e5627d351a/public\"><img alt=\"Seb\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/be297ce8-3c8d-4b97-9aad-86c6088c2f64/b385d591-9b06-4d7d-a9cb-90e5627d351a/public\"></span><figcaption class=\"notion-caption notion-semantic-string\">Seb</figcaption></div></div><div id=\"block-21d0d149331780ba91cefc9bf52f5b75\" class=\"notion-column\" data-width=\"50%\"><div id=\"block-21d0d1493317809bbcd1c593c46a945a\" class=\"notion-image align-start page-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/996e774d-e98c-461c-afae-37061a6724da/20241123_170855_AFBE6ED6/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/996e774d-e98c-461c-afae-37061a6724da/20241123_170855_AFBE6ED6/public\"><img alt=\"Magali\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/996e774d-e98c-461c-afae-37061a6724da/20241123_170855_AFBE6ED6/public\"></span><figcaption class=\"notion-caption notion-semantic-string\">Magali</figcaption></div></div></div><h2 id=\"block-21d0d14933178035a572ecfdd940353d\" class=\"notion-heading notion-semantic-string\">Plus d’infos ?</h2><p id=\"block-21d0d149331780baa526f84aecc07fae\" class=\"notion-text notion-text__content notion-semantic-string\">N’hésite pas à prendre contact avec Sébastien Frennet, facilitateur des Ateliers Low-Tech des 4 Sources.</p><p id=\"block-21d0d149331780d8af8bc1fe901f0811\" class=\"notion-text notion-text__content notion-semantic-string\">📞 Tél : 0471 59 11 20\n📬&nbsp;E-mail : <a href=\"mailto:seb@les4sources.be\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">seb@les4sources.be</a> </p><div id=\"block-21d0d1493317808dac3ec020d762671c\" class=\"notion-image full-width\"><span data-full-size=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0a64413c-4368-46ec-880a-c2e177bfe857/20241123_171029_08A6BFCD/public\" data-lightbox-src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0a64413c-4368-46ec-880a-c2e177bfe857/20241123_171029_08A6BFCD/public\"><img alt=\"image\" src=\"https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0a64413c-4368-46ec-880a-c2e177bfe857/20241123_171029_08A6BFCD/public\"></span></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ed9dc206-ce29-4be2-ad82-47d6a6f5c2a7/low-tech_mai/public",
+      "alt": "Low-tech: réchaud rocket stove et travail du métal",
+      "role": "cover",
+      "localPath": "images/_shared/869775a66875-low-tech_mai.jpg",
+      "shared": true,
+      "bytes": 89065
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4b1a05ae-5872-4d45-84cd-b503b9323a1f/7ff13bb7-27d0-4d11-a724-660c6b81a1e5/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/19ead03d3876-7ff13bb7-27d0-4d11-a724-660c6b81a1e5.png",
+      "shared": true,
+      "bytes": 325055
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/89f12656-7ee8-40d3-b324-f1f191dfcb90/IMG_20241016_105904_8/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/196f797c281f-IMG_20241016_105904_8.jpg",
+      "shared": true,
+      "bytes": 46624
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6ffc0cc5-86f1-4e0e-94a9-95de7c62ac32/20250316_113842_B6785347/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/bce40fedb133-20250316_113842_B6785347.jpg",
+      "shared": true,
+      "bytes": 318163
+    },
+    {
+      "src": "https://assets.super.so/bead06fa-d83e-42c5-9bee-6af9323d46b4/images/2acd2554-7d03-4b89-9f0a-cbc67a532061/bd1152e8-36f5-45ca-8d6d-9ced6db274f3.avif",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/cfc19d606b07-bd1152e8-36f5-45ca-8d6d-9ced6db274f3.avif",
+      "shared": true,
+      "bytes": 37266
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/644003b3-b5ba-45f7-82a1-611a69a5f189/68f87ef5-5b98-4ba7-80cf-5858bfdde393/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/f98e8e80ad96-68f87ef5-5b98-4ba7-80cf-5858bfdde393.png",
+      "shared": true,
+      "bytes": 470239
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/df1bf136-359d-428a-8c89-fe67ce781926/20241123_171125_1B3F661E/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/7e4090279af6-20241123_171125_1B3F661E.jpg",
+      "shared": true,
+      "bytes": 80188
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/be297ce8-3c8d-4b97-9aad-86c6088c2f64/b385d591-9b06-4d7d-a9cb-90e5627d351a/public",
+      "alt": "Seb",
+      "role": "content",
+      "localPath": "images/_shared/02cbdf52c807-b385d591-9b06-4d7d-a9cb-90e5627d351a.png",
+      "shared": true,
+      "bytes": 263428
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/996e774d-e98c-461c-afae-37061a6724da/20241123_170855_AFBE6ED6/public",
+      "alt": "Magali",
+      "role": "content",
+      "localPath": "images/_shared/1786d19c9135-20241123_170855_AFBE6ED6.jpg",
+      "shared": true,
+      "bytes": 101502
+    },
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/0a64413c-4368-46ec-880a-c2e177bfe857/20241123_171029_08A6BFCD/public",
+      "alt": "image",
+      "role": "content",
+      "localPath": "images/_shared/86683b92d916-20241123_171029_08A6BFCD.jpg",
+      "shared": true,
+      "bytes": 92704
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://les4sources.punchpass.com/series/42607",
+    "mailto:seb@les4sources.be"
+  ],
+  "collections": [],
+  "wordCount": 370,
+  "fetchedAt": "2026-09-07T21:17:38.864Z",
+  "markdown": "<!-- columns -->\n<!-- column width=\"62.5%\" -->\n\n#### **Deux journées - les 17 et 18 octobre - pour construire, comprendre et tester ton réchaud Rocket Stove, s’initier aux low-techs et au travail du métal.**\n\n- Initiation à la soudure et à la construction métallique\n- Échanges de savoirs sur le principe de combustion et sur les low-techs en général\n- Convivialité et préparation de repas en mode low-tech\n\n**Et tu repars avec ton propre réchaud au terme des 2 journées d’apprentissage** 🔥\n\n<!-- column width=\"37.5%\" -->\n\n![image](images/_shared/19ead03d3876-7ff13bb7-27d0-4d11-a724-660c6b81a1e5.png)\n<!-- /columns -->\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/_shared/196f797c281f-IMG_20241016_105904_8.jpg)\n\n<!-- column width=\"50%\" -->\n\n### Participation\n\n**295 € pour les deux journées**, tout compris :\n\n- l’encadrement et l’accompagnement par 3 artisans en ferronnerie et menuiserie\n- la nuitée aux 4 Sources\n- les repas frais préparés par la Cuisine des 4 Sources\n- les collations\n- le café et la tisane à volonté\n- les fournitures pour ton réchaud\n<!-- /columns -->\n\n<!-- columns -->\n<!-- column width=\"62.5%\" -->\n\n> *Un tout grand merci pour l'invitation, la préparation, l'apprentissage, les échanges et l'ambiance ! C'est une réussite tant pour la fabrication d'un réchaud au bois portatif que pour le remue-méninge du low-tech. Merci aussi aux \"étudiants\" pour la bonne ambiance de travail et d'échanges.*\n>\n> *À nous de propager au mieux les connaissances et l'esprit de cette rencontre.* — André, participant (heureux) au stage\n\n<!-- column width=\"37.5%\" -->\n\n![image](images/_shared/bce40fedb133-20250316_113842_B6785347.jpg)\n\n**Café, tisane, fruits et biscuits !**\n<!-- /columns -->\n\n### Inscription\n\n**[Je m’inscris à ce super stage low-tech !](https://les4sources.punchpass.com/series/42607)**\n\n### Hébergement\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/_shared/cfc19d606b07-bd1152e8-36f5-45ca-8d6d-9ced6db274f3.avif)\n\n<!-- column width=\"50%\" -->\n\nTu logeras en chambre partagée aux 4 Sources avec l’ensemble du groupe, l’idéal pour faire connaissance et continuer à partager des idées et connaissances jusqu’en soirée.\n\nL’hébergement comprend 2 chambres de 4 lits (prévois tes draps de lit), avec une salle de douche par chambre.\n<!-- /columns -->\n\n### Repas\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![image](images/_shared/f98e8e80ad96-68f87ef5-5b98-4ba7-80cf-5858bfdde393.png)\n\n<!-- column width=\"50%\" -->\n\nLes repas - végétariens - sont préparés par Stéphanie dans la Cuisine des 4 Sources. Des produits ultra-frais, des plats colorés et du bon pain, que demander de plus ?\n\nMais oui bien sûr : une délicieuse collation pour le milieu d’après-midi ! 🙂\n<!-- /columns -->\n\n### En pratique\n\n- Maximum 6 participants\n- Horaire des journées\n\n- Le vendredi de 9h30 à 18h\n- Le samedi de 9h à 18h\n\n- À prévoir\n\n- Un plat à partager pour l’auberge espagnole du vendredi midi\n- Des vêtements adaptés à la météo\n- Ton set de draps de lit pour un lit simple\n- Une boisson sympa à partager vendredi soir 😌\n\n![image](images/_shared/7e4090279af6-20241123_171125_1B3F661E.jpg)\n\n### L’équipe\n\n**2 artisan-es passionné-es par la ferronnerie, la menuiserie et les low-techs, qui ont la transmission dans le sang !**\n\n<!-- columns -->\n<!-- column width=\"50%\" -->\n\n![Seb](images/_shared/02cbdf52c807-b385d591-9b06-4d7d-a9cb-90e5627d351a.png)\n*Seb*\n\n<!-- column width=\"50%\" -->\n\n![Magali](images/_shared/1786d19c9135-20241123_170855_AFBE6ED6.jpg)\n*Magali*\n<!-- /columns -->\n\n### Plus d’infos ?\n\nN’hésite pas à prendre contact avec Sébastien Frennet, facilitateur des Ateliers Low-Tech des 4 Sources.\n\n📞 Tél : 0471 59 11 20 📬 E-mail : [seb@les4sources.be](mailto:seb@les4sources.be)\n\n![image](images/_shared/86683b92d916-20241123_171029_08A6BFCD.jpg)\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.439Z"
+}

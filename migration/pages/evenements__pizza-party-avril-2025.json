@@ -1,0 +1,155 @@
+{
+  "path": "/evenements/pizza-party-avril-2025",
+  "slug": "evenements__pizza-party-avril-2025",
+  "rootIsCollection": false,
+  "title": "Pizza Party du mois d’avril !",
+  "metaDescription": "Pizza Party du 11 avril 2025 aux 4 Sources (Yvoir)",
+  "ogImage": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7cb1b9dc-1060-414e-b208-ec75b0387a8f/pizza-party/public",
+  "ogTitle": "Pizza Party du mois d’avril !",
+  "ogUrl": "https://www.les4sources.be/evenements/pizza-party-avril-2025",
+  "canonical": null,
+  "h1": "Pizza Party du mois d’avril !",
+  "headerDescription": null,
+  "coverImage": {
+    "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7cb1b9dc-1060-414e-b208-ec75b0387a8f/pizza-party/public",
+    "localPath": "images/evenements__pizza-party-avril-2025/01-pizza-party.jpg"
+  },
+  "pageIcon": "🍕",
+  "properties": {
+    "Date": "2025-04-11",
+    "Horaires": "à partir de 18h30",
+    "Type d'événement": "Pizza Party",
+    "Thématique": "Liens et convivialité",
+    "Date (fr)": "11 avril 2025",
+    "Tarif": "€7.00",
+    "Date de création": "Mar 16, 2025 3:55 PM",
+    "Statut site web": "Publié",
+    "super:description": "Pizza Party du 11 avril 2025 aux 4 Sources (Yvoir)",
+    "super:slug": "pizza-party-avril-2025"
+  },
+  "propertySchema": [
+    {
+      "id": "SLfS",
+      "name": "Date",
+      "type": "date",
+      "visibility": "show"
+    },
+    {
+      "id": "Yy{I",
+      "name": "Horaires",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": "wH|@",
+      "name": "Type d'événement",
+      "type": "select",
+      "visibility": "show"
+    },
+    {
+      "id": "H:S;",
+      "name": "Thématique",
+      "type": "multi_select",
+      "visibility": "show"
+    },
+    {
+      "id": "ci\\`",
+      "name": "Date (fr)",
+      "type": "text",
+      "visibility": "show"
+    },
+    {
+      "id": ":L=W",
+      "name": "Places disponibles",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "hg>R",
+      "name": "Participants",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "eafZ",
+      "name": "Tarif",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "MnyL",
+      "name": "Revenus",
+      "type": "number",
+      "visibility": "show"
+    },
+    {
+      "id": "h[=U",
+      "name": "Date de création",
+      "type": "created_time",
+      "visibility": "show"
+    },
+    {
+      "id": "@`nQ",
+      "name": "Statut site web",
+      "type": "select",
+      "visibility": "show"
+    }
+  ],
+  "notion": {
+    "id": "evenements-pizza-party-avril-2025",
+    "blockId": "1b80d149-3317-8033-8887-cb9a7579d04e",
+    "parentId": "1652c2ddf3564acba75a7d5121d9fff5",
+    "type": "page",
+    "uri": "/evenements/pizza-party-avril-2025",
+    "createdTime": "2025-03-16T15:55:10.144Z",
+    "lastEditedTime": "2026-01-29T11:15:03.211Z",
+    "collectionId": null
+  },
+  "breadcrumbs": [
+    {
+      "label": "Les 4 Sources",
+      "href": "/"
+    },
+    {
+      "label": "Événements",
+      "href": "/evenements",
+      "icon": "🗓️"
+    },
+    {
+      "label": "Pizza Party du mois d’avril !",
+      "href": "/evenements/pizza-party-avril-2025",
+      "icon": "🍕"
+    }
+  ],
+  "contentHtml": "<h3 id=\"block-1b80d149331780d28fb0c014722087d2\" class=\"notion-heading notion-semantic-string\">Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !</h3><p id=\"block-1b80d149331780998a31e78440d933bd\" class=\"notion-text notion-text__content notion-semantic-string\">Bienvenue <strong>dès 18h30</strong> :</p><ul class=\"notion-bulleted-list\"><li id=\"block-1b80d1493317803f94fad1662d43f186\" class=\"notion-list-item notion-semantic-string\">nos boulangères préparent de délicieux pâtons au levain le jour-même</li><li id=\"block-1b80d149331780d0a47de8c6950d78c9\" class=\"notion-list-item notion-semantic-string\">tu amènes ta garniture en fonction de tes envies</li><li id=\"block-1b80d1493317800582c5e30fffe6c2f4\" class=\"notion-list-item notion-semantic-string\">nous cuisons les pizzas au feu de bois entre 19h et 20h</li><li id=\"block-1b80d149331780c8bcded8c3a6789b0f\" class=\"notion-list-item notion-semantic-string\">et vous les dégustez en terrasse plein sud, 360°C nature !</li><li id=\"block-1b80d14933178032b8eacc3c0d217d9b\" class=\"notion-list-item notion-semantic-string\">en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂</li></ul><p id=\"block-1b80d149331780bb951dd0d98123b8d8\" class=\"notion-text notion-text__content notion-semantic-string\">👍 Le four de boulangerie est chauffé au bois\n👍 Les pâtons sont bio et au levain\n👍 Et les gens sont super cools !</p><h1 id=\"block-1b80d149331780589b55d7229951e4bd\" class=\"notion-heading notion-semantic-string\"><strong>Infos pratiques</strong></h1><ul class=\"notion-bulleted-list\"><li id=\"block-1b80d1493317800cb4c3de4ac1470be2\" class=\"notion-list-item notion-semantic-string\"><strong><a href=\"https://les4sources.punchpass.com/classes/17202681\" class=\"notion-link link\" target=\"_blank\" rel=\"noopener noreferrer\">Inscription indispensable</a></strong> jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons</li><li id=\"block-1b80d149331780c493f6c56a23fad48d\" class=\"notion-list-item notion-semantic-string\">Participation : 7 € par personne + cash pour le bar</li><li id=\"block-1b80d14933178049bc99e4e425c3a0e0\" class=\"notion-list-item notion-semantic-string\">Bar avec boissons bios/locales/de saison sur place 🍹</li></ul><p id=\"block-1b80d149331780f49ad2d895349fc779\" class=\"notion-text notion-text__content notion-semantic-string\">Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h, lorsque le four est encore chaud de la journée.</p><div id=\"block-1b80d14933178054afb6e4b68ec88a4b\" class=\"notion-button\"><a href=\"https://les4sources.punchpass.com/classes/17202681\" class=\"notion-link notion-button__content\" target=\"_blank\" rel=\"noopener noreferrer\"><div class=\"notion-button__icon\"><img src=\"https://app.notion.com/icons/ticket_green.svg\" alt=\"icon\" class=\"notion-icon\" data-full-size=\"https://app.notion.com/icons/ticket_green.svg\" data-lightbox-src=\"https://app.notion.com/icons/ticket_green.svg\"></div><span class=\"notion-semantic-string\">Inscription à la Pizza Party</span></a></div><div id=\"block-608509629d0c4d7eb36de28169a4a2ef\" class=\"notion-callout bg-purple-light border\"><div class=\"notion-callout__icon\"><span class=\"notion-icon text\">🗞️</span></div><div class=\"notion-callout__content\"><span class=\"notion-semantic-string\">Pour être informé·e des prochains événements aux 4 Sources, <a href=\"/newsletter\" class=\"notion-link link\" data-link-uri=\"/newsletter\">inscris-toi à notre newsletter mensuelle</a>.</span></div></div>",
+  "images": [
+    {
+      "src": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7cb1b9dc-1060-414e-b208-ec75b0387a8f/pizza-party/public",
+      "alt": "Pizza Party du mois d’avril !",
+      "role": "cover",
+      "localPath": "images/evenements__pizza-party-avril-2025/01-pizza-party.jpg",
+      "shared": false,
+      "bytes": 117993
+    },
+    {
+      "src": "https://app.notion.com/icons/ticket_green.svg",
+      "alt": "icon",
+      "role": "content",
+      "localPath": "images/_shared/53cd55516271-ticket_green.svg",
+      "shared": true,
+      "bytes": 314
+    }
+  ],
+  "embeds": [],
+  "internalLinks": [
+    "/newsletter"
+  ],
+  "externalLinks": [
+    "https://les4sources.punchpass.com/classes/17202681"
+  ],
+  "collections": [],
+  "wordCount": 172,
+  "fetchedAt": "2026-09-07T21:17:40.084Z",
+  "markdown": "#### Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !\n\nBienvenue **dès 18h30** :\n\n- nos boulangères préparent de délicieux pâtons au levain le jour-même\n- tu amènes ta garniture en fonction de tes envies\n- nous cuisons les pizzas au feu de bois entre 19h et 20h\n- et vous les dégustez en terrasse plein sud, 360°C nature !\n- en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂\n\n👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !\n\n## **Infos pratiques**\n\n- **[Inscription indispensable](https://les4sources.punchpass.com/classes/17202681)** jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons\n- Participation : 7 € par personne + cash pour le bar\n- Bar avec boissons bios/locales/de saison sur place 🍹\n\nLes enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h, lorsque le four est encore chaud de la journée.\n\n[Inscription à la Pizza Party](https://les4sources.punchpass.com/classes/17202681){.button}\n\n> 🗞️ Pour être informé·e des prochains événements aux 4 Sources, [inscris-toi à notre newsletter mensuelle](/newsletter).\n",
+  "extractedAt": "2026-09-07T21:41:44.444Z"
+}

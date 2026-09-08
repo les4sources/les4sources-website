@@ -1,0 +1,47 @@
+---
+/**
+ * PoleTag — étiquette de catégorie teintée par le pôle
+ * (portage de `PoleTag` dans Display.jsx).
+ *
+ * Par défaut : fond teinté + encre du pôle. `solid` : aplat plein de la couleur
+ * du pôle, texte blanc — ou teal sur les trois pôles clairs (artisanat,
+ * convivialité, ressourcement), cf. `lightOnSolid` dans src/lib/poles.ts.
+ * Sans contenu, l'étiquette affiche le libellé de catégorie du pôle.
+ */
+import { pole as resolvePole, type PoleSlug } from "@lib/poles";
+import PoleIcon from "./PoleIcon.astro";
+
+interface Props {
+  pole?: PoleSlug;
+  solid?: boolean;
+  /** Remplace la pastille ronde par le pictogramme du pôle. */
+  picto?: boolean;
+  class?: string;
+}
+
+const { pole, solid = false, picto = false, class: className } = Astro.props;
+const p = resolvePole(pole);
+---
+
+<span
+  class:list={[
+    "inline-flex items-center gap-2 rounded-pill py-1 pr-3 pl-2 font-ui font-bold text-[13px] whitespace-nowrap",
+    solid ? [p.classes.bg, p.classes.onBg] : [p.classes.bgTint, p.classes.textInk],
+    className,
+  ]}
+>
+  {
+    picto ? (
+      <PoleIcon pole={p.slug} class="h-4" />
+    ) : (
+      <span
+        class:list={[
+          "block h-2.5 w-2.5 flex-none rounded-full",
+          solid ? "bg-current" : p.classes.bg,
+        ]}
+        aria-hidden="true"
+      />
+    )
+  }
+  <slot>{p.category}</slot>
+</span>
