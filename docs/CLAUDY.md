@@ -4,7 +4,7 @@
 
 ## Pourquoi un contrat
 
-Le site doit rester publiable quel que soit l'état d'avancement de Claudy. Claudy possède aujourd'hui les modèles `Event` (événements) et `Experience` (activités), mais pas encore d'API publique ni de flux de publication. Le site est donc construit contre ce contrat et une fixture ; le jour où Claudy expose les endpoints, il suffit de renseigner `CLAUDY_PUBLIC_API_URL` au build.
+Le site doit rester publiable quel que soit l'état d'avancement de Claudy. Le site est construit contre ce contrat et une fixture ; Claudy expose les endpoints depuis la branche `feat/public-api` (namespace `Api::Public::V1`, request specs par endpoint), et il suffit de renseigner `CLAUDY_PUBLIC_API_URL` au build pour que le site les lise.
 
 ## Variables d'environnement (build)
 
@@ -15,7 +15,7 @@ Le site doit rester publiable quel que soit l'état d'avancement de Claudy. Clau
 
 ## Endpoints (lecture seule, sans authentification)
 
-Tous répondent en `application/json; charset=utf-8`, avec `Cache-Control: public, max-age=300` et un `ETag`. Aucune donnée personnelle. Pagination inutile (quelques centaines d'entrées au plus) : tout est renvoyé d'un bloc.
+Tous répondent en `application/json; charset=utf-8`, avec `Cache-Control: public, max-age=300` et un `ETag`. Aucune donnée personnelle. Pagination inutile (quelques centaines d'entrées au plus) : tout est renvoyé d'un bloc. **Les champs vides sont omis** (jamais `null`) : `image`, `category`, `carrier`, `summary`, `width`/`height`… peuvent manquer, et le schéma Zod du site les déclare optionnels.
 
 ### `GET /api/public/v1/events`
 
@@ -50,9 +50,9 @@ Paramètres optionnels : `from=YYYY-MM-DD` (défaut : aujourd'hui − 365 j, pou
 Règles :
 
 - **Seuls les événements publiés** (`published_at` non nul, non supprimés) sont renvoyés.
-- `slug` est **immuable après publication** ; il est généré depuis le titre + mois/année (`pizza-party-septembre-2026`) et dédoublonné avec un suffixe `-2`, `-3`. Le site le prend tel quel ; `path` est toujours `/evenements/<slug>`.
+- `slug` est proposé depuis le titre + mois/année (`pizza-party-septembre-2026`), modifiable dans Claudy jusqu'à la publication, dédoublonné avec un suffixe `-2`, `-3`, et **figé tant que la fiche est en ligne** (dépublier le garde mais le libère). Le site le prend tel quel ; `path` est toujours `/evenements/<slug>`. Pour qu'une fiche Claudy remplace une page migrée, l'éditrice donne le même slug avant de publier.
 - `summary` (≤ 200 caractères, texte brut) sert aux cartes, à la meta description et à l'agenda. `description_html` est du HTML assaini (ActionText) rendu tel quel dans la fiche.
-- `category.pole` vaut un des sept pôles de la charte : `hebergement`, `convivialite`, `nature`, `artisanat`, `ressourcement`, `vie-collective`, `production`. Le site en tire la couleur et le picto.
+- `category.pole` vaut un des sept pôles de la charte : `hebergement`, `convivialite`, `nature`, `artisanat`, `ressourcement`, `vie-collective`, `production`. Le site en tire la couleur et le picto. Il manque tant que l'éditrice n'a pas choisi de pôle pour la catégorie dans Claudy ; le site retombe alors sur sa présentation par défaut.
 - `image` est optionnelle ; si absente, le site utilise le visuel de la catégorie/pôle. Le site **télécharge et optimise l'image au build** (aucun hotlink au runtime), l'URL doit donc être stable et publique pendant le build.
 - `all_day: true` → `starts_at`/`ends_at` à minuit heure locale, affichage sans heures.
 
@@ -111,16 +111,16 @@ Le site conserve les fiches événements et activités migrées depuis l'ancien 
 4. Le build imprime une ligne de synthèse : `claudy: source=<api|fixture|none> events=<n> experiences=<n> merged=<n> legacy_only=<n>`.
 5. Toute réponse invalide (Zod) est journalisée et ignorée : le build **ne casse jamais** à cause de Claudy.
 
-## Sémantique de publication (côté Claudy, à construire)
+## Sémantique de publication (côté Claudy)
 
-- `Event` et `Experience` gagnent `published_at` (datetime, nul = brouillon), `slug` (string, unique, figé à la première publication), `summary` (string ≤ 200), `public_description` (ActionText, distinct des `notes` internes), `location` (string), `image` (ActiveStorage `has_one_attached`).
-- `EventCategory` gagne `slug` et `pole` (enum des sept pôles).
-- Action **« Dupliquer »** sur un événement : copie titre, résumé, description publique, catégorie, lieu, prix, lien d'inscription, image ; **ne copie pas** les dates ni `published_at` ni `slug`. La copie s'ouvre en édition avec les dates vides.
-- Le formulaire d'édition affiche un aperçu de l'URL publique (`/evenements/<slug>`) et un bouton « Publier / Dépublier ».
+- `Event` porte `published_at` (datetime, nul = brouillon), `slug` (string, unique, figé tant que publié), `summary` (string ≤ 200), `location`, `price_text`, `public_description` (ActionText, distinct des `notes` internes) et `image` (ActiveStorage `has_one_attached`). `Experience` porte `published_at` et `slug` ; ses autres champs publics existaient déjà (résumé, description, photo CarrierWave, prix, durée, créneaux).
+- `EventCategory` porte `slug`, `pole` (l'un des sept pôles, ou vide) et une couleur hexadécimale.
+- Action **« Dupliquer »** sur un événement : ouvre le formulaire de création prérempli avec titre, résumé, description publique, catégorie, lieu, prix, lien d'inscription et image ; **sans** dates, `published_at` ni `slug`. Rien n'est enregistré avant « Enregistrer », et la copie reste un brouillon.
+- La fiche affiche l'état (brouillon / publié), l'adresse publique prévue ou en ligne, et un bouton « Publier sur le site » / « Dépublier » ; le formulaire propose le slug tant que la fiche n'est pas publiée.
 
 ## Déclencheur de rebuild
 
-À chaque `after_commit` sur un `Event` ou une `Experience` dont `published_at` ou le contenu public change, Claudy enfile un job `WebsiteRebuildJob` qui, avec un délai de regroupement de 2 minutes, appelle `POST ENV["WEBSITE_REBUILD_WEBHOOK_URL"]` (webhook Coolify de l'application, ou `repository_dispatch` GitHub selon l'hébergement retenu). Le site se reconstruit et republie ; latence visée ≤ 5 minutes.
+À chaque `after_commit` sur un `Event` ou une `Experience` publié (ou dont `published_at` change, suppression douce comprise), Claudy enfile un job `WebsiteRebuildJob` qui, avec un délai de regroupement de 2 minutes (un seul appel par fenêtre), fait un `POST` JSON `{"event_type":"website-rebuild","client_payload":{"source":"claudy"}}` sur `ENV["WEBSITE_REBUILD_WEBHOOK_URL"]` (webhook Coolify de l'application, ou `repository_dispatch` GitHub selon l'hébergement retenu), avec `Authorization: Bearer ENV["WEBSITE_REBUILD_WEBHOOK_TOKEN"]` si le jeton est renseigné. Sans URL, le job journalise et ne fait rien ; hors production il n'appelle rien sans `WEBSITE_REBUILD_ALLOW_NON_PRODUCTION=1`. Le site se reconstruit et republie ; latence visée ≤ 5 minutes.
 
 ## Vérification du contrat
 
