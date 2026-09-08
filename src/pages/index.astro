@@ -277,7 +277,7 @@ const clusterLinks = [
       <div>
         <h3 class="mb-2.5 font-display text-h3 font-bold">
           <a href="/le-bar-des-4-sources" class="text-white no-underline">
-            <Highlight><span class="text-teal">Le Bar des 4 Sources</span></Highlight>
+            <Highlight>Le Bar des 4 Sources</Highlight>
           </a>
         </h3>
         <p class="font-body text-body text-white/90">
@@ -361,7 +361,14 @@ const clusterLinks = [
         <div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
           {
             featured.map((a) => (
-              <Card hoverable image={a.item?.cover} imageAlt={a.label} imageAspect="4/3" padding={16}>
+              <Card
+                hoverable
+                image={a.item?.cover}
+                imageAlt={a.label}
+                imageAspect="4/3"
+                pole={a.item?.pole}
+                padding={16}
+              >
                 <p class="font-display text-h4 font-bold">
                   <a
                     href={a.path}

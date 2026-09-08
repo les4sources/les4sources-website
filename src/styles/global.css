@@ -79,6 +79,9 @@
      donnent un aplat franc, jamais un fondu. */
   .l4s-marker {
     --marker-top: 55%;
+    /* Le surlignage est « titre en teal sur jaune » : la dalle porte son encre,
+       sinon le texte hérite du blanc des surfaces teal et disparaît. */
+    color: var(--color-teal);
     background: linear-gradient(
       transparent var(--marker-top),
       var(--color-socioculturel) var(--marker-top),
