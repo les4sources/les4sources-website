@@ -2,6 +2,10 @@
 /**
  * Grille d'EventCard — 3 colonnes (agenda, événements) ou 4 (accueil).
  * Chaque case porte ses thématiques : c'est ce que filtre la barre de Tags.
+ *
+ * `snap` : sous 640 px, une rangée défilante avec accroche (`.l4s-snap-row`,
+ * global.css) plutôt qu'une pile de cartes pleine largeur — c'est le choix de
+ * l'accueil, pas des listes longues de l'agenda.
  */
 import EventCard from "@components/ds/EventCard.astro";
 import type { EventItem } from "./events";
@@ -12,10 +16,12 @@ interface Props {
   cols?: 3 | 4;
   /** Cartes sans photo — les listes longues (événements passés) restent légères. */
   withImages?: boolean;
+  /** Rangée défilante sous 640 px au lieu d'une pile. */
+  snap?: boolean;
   class?: string;
 }
 
-const { items, cols = 3, withImages = true, class: className } = Astro.props;
+const { items, cols = 3, withImages = true, snap = false, class: className } = Astro.props;
 
 const COLS: Record<3 | 4, string> = {
   3: "sm:grid-cols-2 lg:grid-cols-3",
@@ -23,7 +29,14 @@ const COLS: Record<3 | 4, string> = {
 };
 ---
 
-<ul class:list={["m-0 grid list-none grid-cols-1 gap-5 p-0", COLS[cols], className]}>
+<ul
+  class:list={[
+    "m-0 list-none p-0",
+    snap ? "l4s-snap-row sm:grid sm:gap-5" : "grid grid-cols-1 gap-5",
+    COLS[cols],
+    className,
+  ]}
+>
   {
     items.map((e) => (
       <li class="min-w-0" data-event data-categories={e.categories.join("|")}>

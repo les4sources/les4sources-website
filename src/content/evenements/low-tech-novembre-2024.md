@@ -2,6 +2,8 @@
 title: "Low-tech: réchaud rocket stove et travail du métal"
 description: "Deux journées pour construire, comprendre et tester ton réchaud Rocket Stove, s’initier aux low-techs et au travail du métal. Fin novembre 2024 aux 4 Sources…"
 legacyPath: "/evenements/low-tech-novembre-2024"
+start: "2024-11-23"
+end: "2024-11-24"
 cover: "../../assets/migration/evenements__low-tech-novembre-2024/01-Atelier_Low-Tech.png"
 coverAlt: "Low-tech: réchaud rocket stove et travail du métal"
 properties:

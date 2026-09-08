@@ -3,10 +3,8 @@ import { getCollection } from "astro:content";
 import Section from "@components/ds/Section.astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import EventGrid from "@components/home/EventGrid.astro";
-import LegacyList from "@components/home/LegacyList.astro";
 import { eventItems, type EventItem } from "@components/home/events";
-import { yearOf } from "@components/home/dates";
-import { byPath, pastEvents, upcomingEvents, visible } from "@lib/content";
+import { byPath, pastEvents, upcomingEvents, visible, yearOf } from "@lib/content";
 
 /**
  * /evenements — mêmes composants que l'agenda : la grille des rendez-vous à
@@ -35,65 +33,6 @@ const title = entry?.data.title ?? "Événements";
 const description =
   entry?.data.description ??
   "Pizza parties, camembert parties, initiations à la soudure, stages et rendez-vous du tiers-lieu des 4 Sources, à Yvoir.";
-
-/** La liste de la page migrée, mot pour mot. */
-const legacyRows = [
-  {
-    title: "🥏 🤾🏻 Tournoi de disc-golf",
-    href: "/evenements/discgolf-septembre-2026",
-    meta: "— September 6, 2026 · Liens et convivialité, Sports",
-  },
-  {
-    title: "👷🏻‍♀️ ⚡ COMPLET ! Initiation à la soudure à l’arc",
-    href: "/evenements/initiation-soudure-a-l-arc-5-septembre-2026",
-    meta: "— September 12, 2026 · Artisanat",
-  },
-  {
-    title: "🍕Pizza Party de septembre !",
-    href: "/evenements/pizza-party-septembre-2026",
-    meta: "— September 18, 2026 · Liens et convivialité",
-  },
-  {
-    title: "🖊️ 🖋️ Atelier d’écriture",
-    href: "/evenements/weekend-cratif",
-    meta: "— October 3, 2026 → October 3, 2026 · Ressourcement, Formation",
-  },
-  {
-    title: "🌼 🌻 Plantes Papier Pigments",
-    href: "/evenements/weekend-cratif-1",
-    meta: "— October 3, 2026 → October 3, 2026 · Ressourcement, Artisanat",
-  },
-  {
-    title: "🪵 🪓 Créer un objet en bois de palette",
-    href: "/evenements/weekend-ressources",
-    meta: "— October 3, 2026 → October 3, 2026 · Ressourcement, Artisanat",
-  },
-  {
-    title: "🍕 Pizza Party d’octobre ! 🍕",
-    href: "/evenements/pizza-party-octobre-2026",
-    meta: "— October 9, 2026 · Liens et convivialité",
-  },
-  {
-    title: "👷🏻 ⚡ COMPLET ! Initiation à la soudure à l’arc",
-    href: "/evenements/initiation-soudure-a-l-arc-17-octobre-2026",
-    meta: "— October 17, 2026 · Artisanat",
-  },
-  {
-    title: "🧀 Camembert Party de novembre",
-    href: "/evenements/camembert-party-13-novembre-2026",
-    meta: "— November 13, 2026 · Liens et convivialité",
-  },
-  {
-    title: "👷🏻 ⚡ Initiation à la soudure à l’arc",
-    href: "/evenements/initiation-soudure-a-l-arc-21-novembre-2026",
-    meta: "— November 21, 2026 · Artisanat",
-  },
-  {
-    title: "👷🏻‍♀️ Initiation à la soudure à l’arc ⚡",
-    href: "/evenements/initiation-soudure-a-l-arc-12-dcembre-2026",
-    meta: "— December 12, 2026 · Artisanat",
-  },
-];
 ---
 
 <BaseLayout
@@ -110,7 +49,6 @@ const legacyRows = [
 
   <Section title="À venir" class="pt-0">
     <EventGrid items={upcoming} cols={3} />
-    <LegacyList rows={legacyRows} heading="Événements" />
   </Section>
 
   <Section title="Passés" surface="subtle">

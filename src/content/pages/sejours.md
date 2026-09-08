@@ -1,6 +1,7 @@
 ---
 title: "Séjours et locations"
 description: "Gites de 4 à 25 personnes, chambres et bivouac tentes/hamacs. Salles polyvalentes pour conférences, ateliers ou conseils d’administration."
+seoTitle: "Séjours et locations à Yvoir"
 legacyPath: "/sejours"
 cover: "../../assets/migration/sejours/01-20240825_122817_01629579_-1.jpg"
 coverAlt: "Séjours et locations"

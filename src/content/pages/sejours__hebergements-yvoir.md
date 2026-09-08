@@ -1,6 +1,7 @@
 ---
 title: "Nos hébergements"
 description: "Location de gites de 4 à 25 personnes. Chambres et bivouac pour tentes et hamacs."
+seoTitle: "Gîtes de groupe à Yvoir"
 legacyPath: "/sejours/hebergements-yvoir"
 cover: "../../assets/migration/sejours__hebergements-yvoir/01-_G0A2757.jpg"
 coverAlt: "Nos hébergements"

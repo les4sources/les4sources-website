@@ -82,6 +82,30 @@ export function upcomingEvents<T extends Datable>(events: T[], now: Date = new D
     .sort((a, b) => (startInstant(a) ?? Infinity) - (startInstant(b) ?? Infinity));
 }
 
+/**
+ * Événements datés des `months` prochains mois calendaires, aujourd'hui inclus,
+ * du plus proche au plus lointain — c'est la fenêtre de l'accueil. Une fiche
+ * sans date ne peut pas s'y placer : elle reste servie à son URL et dans
+ * l'agenda, jamais dans ce ruban.
+ */
+export function upcomingEventsWithin<T extends Datable>(
+  events: T[],
+  months = 2,
+  now: Date = new Date(),
+): T[] {
+  const floor = startOfTodayBrussels(now);
+  const ceiling = new Date(floor);
+  ceiling.setUTCMonth(ceiling.getUTCMonth() + months);
+  const min = floor.getTime();
+  const max = ceiling.getTime();
+  return events
+    .filter((e) => {
+      const t = startInstant(e);
+      return t !== null && t >= min && t < max;
+    })
+    .sort((a, b) => (startInstant(a) ?? 0) - (startInstant(b) ?? 0));
+}
+
 /** Événements passés, du plus récent au plus ancien. */
 export function pastEvents<T extends Datable>(events: T[], now: Date = new Date()): T[] {
   const floor = startOfTodayBrussels(now).getTime();
@@ -171,12 +195,38 @@ function civil(d: Date): CivilDate {
 const sameDay = (a: CivilDate, b: CivilDate) =>
   a.year === b.year && a.month === b.month && a.day === b.day;
 
+/**
+ * Options d'affichage : `currentYear` fait taire l'année quand c'est celle en
+ * cours (« samedi 12 septembre », comme le veut la charte) — les cartes
+ * l'utilisent, les fiches et le JSON-LD gardent la date complète.
+ */
+export interface DateFormatOptions {
+  currentYear?: number;
+}
+
+/** Année civile (Bruxelles) d'un instant — pour grouper ou pour taire l'année en cours. */
+export function yearOf(value: string | Date | undefined): number | undefined {
+  const d = toDate(value);
+  return d ? civil(d).year : undefined;
+}
+
+/** L'année en cours à Bruxelles, au moment du build. */
+export function currentYearBrussels(now: Date = new Date()): number {
+  return civil(now).year;
+}
+
+const yearSuffix = (year: number, opts?: DateFormatOptions) =>
+  opts?.currentYear === year ? "" : ` ${year}`;
+
 /** Date lisible en français, ex. « samedi 12 septembre 2026 ». */
-export function formatDate(value: string | Date | undefined): string | undefined {
+export function formatDate(
+  value: string | Date | undefined,
+  opts?: DateFormatOptions,
+): string | undefined {
   const d = toDate(value);
   if (!d) return undefined;
   const c = civil(d);
-  return `${WEEKDAYS[c.weekday]} ${c.day} ${MONTHS[c.month - 1]} ${c.year}`;
+  return `${WEEKDAYS[c.weekday]} ${c.day} ${MONTHS[c.month - 1]}${yearSuffix(c.year, opts)}`;
 }
 
 /** Date courte, sans le jour de la semaine : « 12 septembre 2026 ». */
@@ -195,22 +245,23 @@ export function formatDateShort(value: string | Date | undefined): string | unde
 export function formatDateRange(
   start: string | Date | undefined,
   end?: string | Date | undefined,
+  opts?: DateFormatOptions,
 ): string | undefined {
   const from = toDate(start);
   if (!from) return undefined;
   const to = toDate(end);
-  if (!to) return formatDate(from);
+  if (!to) return formatDate(from, opts);
   const a = civil(from);
   const b = civil(to);
-  if (sameDay(a, b)) return formatDate(from);
+  if (sameDay(a, b)) return formatDate(from, opts);
 
   if (a.year !== b.year) {
     return `du ${a.day} ${MONTHS[a.month - 1]} ${a.year} au ${b.day} ${MONTHS[b.month - 1]} ${b.year}`;
   }
   if (a.month !== b.month) {
-    return `du ${a.day} ${MONTHS[a.month - 1]} au ${b.day} ${MONTHS[b.month - 1]} ${b.year}`;
+    return `du ${a.day} ${MONTHS[a.month - 1]} au ${b.day} ${MONTHS[b.month - 1]}${yearSuffix(b.year, opts)}`;
   }
-  return `du ${a.day} au ${b.day} ${MONTHS[a.month - 1]} ${a.year}`;
+  return `du ${a.day} au ${b.day} ${MONTHS[a.month - 1]}${yearSuffix(a.year, opts)}`;
 }
 
 /**

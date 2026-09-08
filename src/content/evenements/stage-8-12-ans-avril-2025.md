@@ -2,6 +2,8 @@
 title: "Les p’tits menuisiers dans la clairière"
 description: "Stage nature et artisanat pour enfants de 8 à 12 ans à Yvoir, du 28 avril au 2 mai 2025. Cadre d’expérimentation et de découvertes dans un superbe lieu de…"
 legacyPath: "/evenements/stage-8-12-ans-avril-2025"
+start: "2025-04-28"
+end: "2025-05-02"
 cover: "../../assets/migration/evenements__stage-8-12-ans-avril-2025/01-stage-yvoir-paques-2025.jpg"
 coverAlt: "Les p’tits menuisiers dans la clairière"
 properties:

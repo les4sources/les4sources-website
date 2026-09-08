@@ -4,9 +4,11 @@
  *
  * Aplat teal (la seule surface sombre de la charte), texte et pictogrammes en
  * blanc. Colonne 1 : le logo blanc, le bandeau des 7 pictogrammes de pôle et le
- * bloc NAP. Colonnes 2 à 5 : les groupes de `nav.footer`, tels que le site
- * actuel les affiche. Barre du bas : la phrase de licence, verbatim du site
- * actuel (`migration/nav.json` → `footer.footnote`), et les réseaux sociaux.
+ * bloc NAP complet — l'adresse postale de `site.ts` (la même que le JSON-LD),
+ * l'e-mail, et le seul téléphone publié sur le site, la ligne réservations,
+ * avec son étiquette. Colonnes 2 à 5 : les groupes de `nav.ts`. Barre du bas :
+ * la phrase de licence de l'ancien site (« licence », avec le lien vers la
+ * licence) et les réseaux sociaux.
  *
  * Règle stricte héritée de src/lib/site.ts : une donnée inconnue n'est pas
  * affichée. Rien n'est inventé ici — ni rue, ni e-mail, ni réseau social.
@@ -14,29 +16,16 @@
 import { Image } from "astro:assets";
 import logoWhite from "@assets/brand/logo/logo-white.png";
 import PoleIcon from "@components/ds/PoleIcon.astro";
-import { footerGroups, socials, contactDetails } from "@lib/nav";
+import { footerGroups, socials } from "@lib/nav";
 import { POLE_STRIP } from "@lib/poles";
 import { site } from "@lib/site";
 
 const groups = footerGroups();
 const socialLinks = socials();
-const contact = contactDetails();
+const { streetAddress, postalCode, locality } = site.address;
 
 // Le href reste en E.164, l'affichage garde les espaces.
-const telHref = `tel:${contact.phone.replace(/\s+/g, "")}`;
-
-/**
- * Le site actuel n'expose aucun téléphone dans son pied de page
- * (`migration/nav.json` → `footer.contact.phone` vaut `null`) et le numéro de
- * `site.ts` est celui du lieu, pas une ligne réservations. L'étiquette rouge
- * « pour les réservations uniquement » de la maquette ne s'applique donc pas :
- * la passer à `true` le jour où le numéro affiché devient réservations-only.
- */
-const phoneIsReservationsOnly = false;
-
-/** Verbatim de `footer.footnote` dans migration/nav.json — orthographe comprise. */
-const LICENCE =
-  "Ce site web et nos photos sont sous license Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License";
+const telHref = `tel:${site.phone.replace(/\s+/g, "")}`;
 ---
 
 <footer class="bg-teal text-white">
@@ -65,24 +54,16 @@ const LICENCE =
         </ul>
 
         <address class="mt-4 font-ui text-[13px] leading-relaxed text-white/90 not-italic">
-          {contact.address && <span class="block">{contact.address}</span>}
-          <span class="block">{site.address.locality}, Belgique</span>
-          {
-            contact.email && (
-              <a href={`mailto:${contact.email}`} class="block text-white no-underline hover:underline">
-                {contact.email}
-              </a>
-            )
-          }
+          <span class="block">{streetAddress}</span>
+          <span class="block">{postalCode} {locality}, Belgique</span>
+          <a href={`mailto:${site.email}`} class="block text-white no-underline hover:underline">
+            {site.email}
+          </a>
           <span class="mt-1 flex flex-wrap items-center gap-2">
-            <a href={telHref} class="text-white no-underline hover:underline">{contact.phone}</a>
-            {
-              phoneIsReservationsOnly && (
-                <span class="rounded-xs bg-hebergement px-1.5 py-0.5 font-ui text-[11px] font-bold text-white">
-                  pour les réservations uniquement
-                </span>
-              )
-            }
+            <a href={telHref} class="text-white no-underline hover:underline">{site.phone}</a>
+            <span class="rounded-xs bg-hebergement px-1.5 py-0.5 font-ui text-[11px] font-bold text-white">
+              réservations
+            </span>
           </span>
         </address>
       </div>
@@ -113,7 +94,13 @@ const LICENCE =
     <div
       class="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-white/20 pt-5 font-ui text-caption text-white/75"
     >
-      <p class="max-w-[62ch]">{LICENCE}</p>
+      <p class="max-w-[62ch]">
+        Ce site web et nos photos sont sous <a
+          href={site.licence.url}
+          rel="noopener"
+          class="text-white/75 underline hover:text-white">licence {site.licence.name}</a
+        >.
+      </p>
       {
         socialLinks.length > 0 && (
           <ul class="flex list-none flex-wrap gap-4 p-0">

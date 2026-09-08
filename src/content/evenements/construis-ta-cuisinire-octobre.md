@@ -2,6 +2,8 @@
 title: "🔥Stage low-tech : construis ta cuisinière !"
 description: "Nouvel événement passionnant avec facilitateur·rice. Logement sur place disponible. Contactez-nous pour plus d'informations."
 legacyPath: "/evenements/construis-ta-cuisinire-octobre"
+start: "2026-10-08"
+end: "2026-10-10"
 cover: "../../assets/migration/evenements__construis-ta-cuisinire-octobre/01-evenement_gnral__a_-4.jpg"
 coverAlt: "🔥Stage low-tech : construis ta cuisinière !"
 icon: "🍳"

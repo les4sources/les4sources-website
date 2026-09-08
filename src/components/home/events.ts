@@ -7,14 +7,16 @@
  */
 import { getCollection } from "astro:content";
 import type { ImageMetadata } from "astro";
+import { currentYearBrussels, formatDateRange } from "@lib/content";
 import { siteData } from "@lib/data";
 import { isPole, type PoleSlug } from "@lib/poles";
-import { formatDateRange } from "./dates";
+import { cardTitle } from "@lib/text";
 
 export interface EventItem {
+  /** Titre tel qu'une carte l'affiche : sans « COMPLET ! » (le badge le dit), emoji de tête espacé. */
   title: string;
   path: string;
-  /** Date déjà formatée (« samedi 6 septembre 2026 »). */
+  /** Date déjà formatée (« samedi 6 septembre », l'année seulement si ce n'est pas celle en cours). */
   dateLabel?: string;
   start?: string;
   pole: PoleSlug;
@@ -52,16 +54,20 @@ async function buildEvents(): Promise<EventItem[]> {
     if (cover) covers.set(entry.id, cover);
   }
 
-  return events.map((e) => ({
-    title: e.title,
-    path: e.path,
-    dateLabel: formatDateRange(e.start, e.end),
-    start: e.start,
-    pole: isPole(e.pole) ? e.pole : "convivialite",
-    categories: splitCategories(e.categoryName),
-    soldOut: isSoldOut(e.title),
-    cover: e.legacyId ? covers.get(e.legacyId) : undefined,
-  }));
+  const currentYear = currentYearBrussels();
+  return events.map((e) => {
+    const soldOut = isSoldOut(e.title);
+    return {
+      title: cardTitle(e.title, soldOut),
+      path: e.path,
+      dateLabel: formatDateRange(e.start, e.end, { currentYear }),
+      start: e.start,
+      pole: isPole(e.pole) ? e.pole : "convivialite",
+      categories: splitCategories(e.categoryName),
+      soldOut,
+      cover: e.legacyId ? covers.get(e.legacyId) : undefined,
+    };
+  });
 }
 
 async function buildActivities(): Promise<ActivityItem[]> {

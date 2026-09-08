@@ -2,6 +2,8 @@
 title: "🔥Stage low-tech : construis ta cuisinière !"
 description: "Trois journées - 20, 21 et 22 août - pour construire et tester ta cuisinière, s’initier aux low-techs et au travail du métal."
 legacyPath: "/evenements/stage-low-tech-construis-ta-cuisinire"
+start: "2026-08-20"
+end: "2026-08-22"
 cover: "../../assets/migration/evenements__stage-low-tech-construis-ta-cuisinire/01-evenement_gnral__a_-1.jpg"
 coverAlt: "🔥Stage low-tech : construis ta cuisinière !"
 icon: "🍳"

@@ -4,7 +4,10 @@ import { site } from "@lib/site";
 import { ogImage as buildOgImage } from "@lib/og";
 
 interface Props {
+  /** Contenu du `<title>` (avec son suffixe de marque). */
   title: string;
+  /** Titre pour Open Graph et Twitter — sans suffixe, par défaut `title`. */
+  ogTitle?: string;
   description: string;
   /** URL (absolue ou /-rooted) — ou l'ImageMetadata du hero, croppée en OG au build. */
   ogImage?: string | ImageMetadata;
@@ -17,6 +20,7 @@ interface Props {
 
 const {
   title,
+  ogTitle: ogTitleProp,
   description,
   ogImage,
   ogImageWidth: ogImageWidthProp,
@@ -38,6 +42,7 @@ const ogImageAbs =
   generated?.url ?? new URL((ogImage as string | undefined) ?? site.defaultOgImage, siteUrl).href;
 const ogImageWidth = generated?.width ?? ogImageWidthProp ?? 1200;
 const ogImageHeight = generated?.height ?? ogImageHeightProp ?? 630;
+const ogTitle = ogTitleProp ?? title;
 ---
 
 <title>{title}</title>
@@ -49,17 +54,17 @@ const ogImageHeight = generated?.height ?? ogImageHeightProp ?? 630;
 <meta property="og:type" content={type} />
 <meta property="og:site_name" content={site.name} />
 <meta property="og:locale" content="fr_BE" />
-<meta property="og:title" content={title} />
+<meta property="og:title" content={ogTitle} />
 <meta property="og:description" content={description} />
 <meta property="og:url" content={canonical} />
 <meta property="og:image" content={ogImageAbs} />
 <meta property="og:image:width" content={String(ogImageWidth)} />
 <meta property="og:image:height" content={String(ogImageHeight)} />
-<meta property="og:image:alt" content={title} />
+<meta property="og:image:alt" content={ogTitle} />
 
 {/* Twitter */}
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content={title} />
+<meta name="twitter:title" content={ogTitle} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={ogImageAbs} />
 

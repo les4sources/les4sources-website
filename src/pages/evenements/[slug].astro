@@ -15,7 +15,7 @@ import Section from "@components/ds/Section.astro";
 import { siteData } from "@lib/data";
 import { formatDate, formatDateRange, formatTime, upcomingEvents } from "@lib/content";
 import { isPole } from "@lib/poles";
-import { event as eventSchema, breadcrumbs } from "@lib/seo";
+import { event as eventSchema, breadcrumbs, eventDocumentTitle } from "@lib/seo";
 import { site } from "@lib/site";
 import type { MergedEvent } from "@lib/claudy";
 
@@ -116,6 +116,7 @@ const jsonld = [
 
 <BaseLayout
   title={event.seoTitle ?? event.title}
+  documentTitle={eventDocumentTitle(event.seoTitle ?? event.title, event.start, Astro.url.pathname)}
   description={description}
   type="article"
   jsonld={jsonld}

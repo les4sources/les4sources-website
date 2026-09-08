@@ -42,14 +42,19 @@ export const site = {
   /** E-mail public général (page /contact). */
   email: "contact@les4sources.be",
 
+  /** Demande de réservation : le funnel Claudy, cible du bouton jaune de l'en-tête. */
+  reservationUrl: "https://app.les4sources.be/reservation",
+
+  /** Licence du site et des photos (pied de page) — le texte de l'ancien site, corrigé en « licence ». */
+  licence: {
+    name: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+    url: "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr",
+  },
+
   /** Réseaux sociaux réellement liés depuis le pied de page actuel. */
   socials: [
     { label: "Facebook", url: "https://www.facebook.com/les4sourcesaYvoir/" },
   ] as SocialLink[],
-
-  /** Mention de licence du pied de page actuel. */
-  footnote:
-    "Ce site web et nos photos sont sous license Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
 
   /** Image Open Graph par défaut (générée par scripts/make-default-og.ts). */
   defaultOgImage: "/og/les4sources-og.jpg",

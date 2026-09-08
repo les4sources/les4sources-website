@@ -2,6 +2,8 @@
 title: "🔥 COMPLET ! Low-tech : construis ta cuisinière"
 description: "Trois journées pour construire, comprendre et tester ta cuisinière, s’initier aux low-techs et au travail du métal. En avril 2026 aux 4 Sources à Yvoir."
 legacyPath: "/evenements/low-tech-avril-2026"
+start: "2026-04-09"
+end: "2026-04-11"
 cover: "../../assets/migration/evenements__low-tech-avril-2026/01-evenement_gnral__a_-5.jpg"
 coverAlt: "🔥 COMPLET ! Low-tech : construis ta cuisinière"
 icon: "🍳"

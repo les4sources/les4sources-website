@@ -2,6 +2,8 @@
 title: "Focus sur ton projet de jardin-forêt 🎋"
 description: "Une semaine intensive pour démarrer ou progresser dans ton projet de forêt-jardin."
 legacyPath: "/evenements/focus-jardin-foret-mars-2026"
+start: "2026-03-17"
+end: "2026-03-21"
 cover: "../../assets/migration/evenements__focus-jardin-foret-mars-2026/01-focus-foret-jardin_-1.jpg"
 coverAlt: "Focus sur ton projet de jardin-forêt 🎋"
 properties:

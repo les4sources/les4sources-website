@@ -5,7 +5,9 @@
  * Toutes les données NAP viennent de `site.ts` : une valeur absente n'est jamais
  * émise (pas de clé vide, pas de valeur inventée).
  */
+import { formatDateShort } from "./content";
 import { site, type Pole } from "./site";
+import { stripEmoji } from "./text";
 
 const ORG_ID = "https://www.les4sources.be/#organization";
 const PLACE_ID = "https://www.les4sources.be/#place";
@@ -208,4 +210,63 @@ export function person(i: PersonInput) {
     ...(i.image ? { image: i.image } : {}),
     memberOf: { "@id": ORG_ID, name: site.name },
   };
+}
+
+/* ───────────────────────────── `<title>` des pages ─────────────────────────────
+ * Le titre d'une page est celui de son contenu (`seoTitle ?? title`) ; le
+ * `<title>` du document le nettoie (pas d'emoji) et le situe : un suffixe de
+ * section quand le titre seul ne dit pas ce qu'est la page (« Semisto · Un
+ * projet des 4 Sources »), sinon la marque — à condition de tenir dans les
+ * 60 caractères que `seo:check` impose. Un titre qui nomme déjà les 4 Sources
+ * reste tel quel.
+ */
+
+const TITLE_MAX = 60;
+
+const SECTION_SUFFIXES: [RegExp, string][] = [
+  [/^\/projets\/./, "Un projet des 4 Sources"],
+  [/^\/collectif\/./, "Le collectif des 4 Sources"],
+  [/^\/catalogue\/./, "Activité aux 4 Sources"],
+  [/^\/evenements\/./, "Événement aux 4 Sources"],
+  [/^\/sejours\/hebergements-yvoir\/./, "Hébergements aux 4 Sources"],
+];
+
+/** Titre nettoyé pour le document : sans emoji, espaces refermés. */
+export function tidyTitle(raw: string): string {
+  return stripEmoji(raw)
+    .replace(/\s+([!?:;])/g, " $1")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
+/** `<title>` d'une page : titre nettoyé + suffixe de section ou de marque s'il tient. */
+export function documentTitle(raw: string, pathname: string): string {
+  const base = tidyTitle(raw);
+  if (/4 sources/i.test(base)) return base;
+  const section = SECTION_SUFFIXES.find(([re]) => re.test(pathname))?.[1];
+  for (const suffix of [section, site.name]) {
+    if (!suffix) continue;
+    const candidate = `${base} · ${suffix}`;
+    if (candidate.length <= TITLE_MAX) return candidate;
+  }
+  return base;
+}
+
+const MONTH_IN_TITLE =
+  /\b(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)\b/i;
+
+/**
+ * `<title>` d'une fiche événement : la date suit le titre quand il ne la porte
+ * pas déjà (« Focus sur ton projet de jardin-forêt · 20 novembre 2025 ») — c'est
+ * ce qui distingue deux éditions d'un même rendez-vous, puis la règle commune.
+ */
+export function eventDocumentTitle(
+  raw: string,
+  start: string | Date | undefined,
+  pathname: string,
+): string {
+  const base = tidyTitle(raw);
+  const date = start && !MONTH_IN_TITLE.test(base) ? formatDateShort(start) : undefined;
+  const dated = date ? `${base} · ${date}` : base;
+  return documentTitle(dated.length <= TITLE_MAX ? dated : base, pathname);
 }

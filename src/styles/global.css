@@ -121,6 +121,30 @@
     }
   }
 
+  /* Rangée défilante sous 640 px : les cartes de l'accueil s'enchaînent
+     horizontalement avec accroche (scroll-snap), sans JavaScript ; dès 640 px
+     la grille Tailwind (`sm:grid`) reprend la main. La rangée déborde des
+     marges de la section (24 px) pour que la carte suivante dépasse et invite
+     à faire défiler — la page, elle, ne déborde jamais. */
+  @media (max-width: 639.98px) {
+    .l4s-snap-row {
+      display: flex;
+      gap: 16px;
+      margin-inline: -24px;
+      padding-inline: 24px;
+      padding-bottom: 8px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-padding-inline: 24px;
+      scrollbar-width: thin;
+      -webkit-overflow-scrolling: touch;
+    }
+    .l4s-snap-row > * {
+      flex: 0 0 min(78vw, 320px);
+      scroll-snap-align: start;
+    }
+  }
+
   /* Motif 5 — étiquette sticker */
   .l4s-sticker {
     display: inline-block;

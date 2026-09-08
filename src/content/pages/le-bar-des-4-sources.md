@@ -1,6 +1,7 @@
 ---
 title: "Le bar des 4 Sources"
 description: "Le bar des 4 Sources accueille les marcheur·euse·s et cyclistes du lever au coucher du soleil, ainsi que toutes les personnes de passage sur le lieu pour une…"
+seoTitle: "Le bar des 4 Sources à Yvoir"
 legacyPath: "/le-bar-des-4-sources"
 cover: "../../assets/migration/le-bar-des-4-sources/01-IMG_2199.jpg"
 coverAlt: "Le bar des 4 Sources"

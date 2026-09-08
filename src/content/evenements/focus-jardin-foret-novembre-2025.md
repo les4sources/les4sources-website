@@ -2,6 +2,8 @@
 title: "Focus sur ton projet de jardin-forêt 🌴"
 description: "Une semaine intensive - du 17 au 21 novembre - pour démarrer ou progresser dans ton projet de forêt-jardin, organisée par notre partenaire Semisto."
 legacyPath: "/evenements/focus-jardin-foret-novembre-2025"
+start: "2025-11-17"
+end: "2025-11-21"
 cover: "../../assets/migration/evenements__focus-jardin-foret-novembre-2025/01-focus-foret-jardin.jpg"
 coverAlt: "Focus sur ton projet de jardin-forêt 🌴"
 properties:

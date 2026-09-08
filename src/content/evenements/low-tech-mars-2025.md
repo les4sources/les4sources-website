@@ -2,6 +2,8 @@
 title: "Low-tech: réchaud rocket stove et travail du métal"
 description: "Deux journées pour construire, comprendre et tester ton réchaud Rocket Stove, s’initier aux low-techs et au travail du métal. En mars 2025 aux 4 Sources à…"
 legacyPath: "/evenements/low-tech-mars-2025"
+start: "2025-03-14"
+end: "2025-03-15"
 cover: "../../assets/migration/evenements__low-tech-mars-2025/01-low-tech.jpg"
 coverAlt: "Low-tech: réchaud rocket stove et travail du métal"
 properties:

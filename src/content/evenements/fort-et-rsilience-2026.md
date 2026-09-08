@@ -2,6 +2,8 @@
 title: "Atelier forêt et résilience 🌲"
 description: "Ralentir et s'immerger dans l'intelligence des forêts"
 legacyPath: "/evenements/fort-et-rsilience-2026"
+start: "2026-04-03"
+end: "2026-04-04"
 cover: "../../assets/migration/evenements__fort-et-rsilience-2026/01-focus-foret-jardin_-2.jpg"
 coverAlt: "Atelier forêt et résilience 🌲"
 icon: "🌲"

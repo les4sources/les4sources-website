@@ -6,7 +6,6 @@ import Section from "@components/ds/Section.astro";
 import Tag from "@components/ds/Tag.astro";
 import AgendaTabs from "@components/home/AgendaTabs.astro";
 import EventGrid from "@components/home/EventGrid.astro";
-import LegacyList from "@components/home/LegacyList.astro";
 import { categoriesOf, eventItems } from "@components/home/events";
 import { byPath, pastEvents, upcomingEvents, visible } from "@lib/content";
 
@@ -29,60 +28,6 @@ const categories = categoriesOf(upcoming);
 const title = entry?.data.title ?? "L’agenda des 4 Sources";
 const icon = entry?.data.icon;
 const description = entry?.data.description ?? "Viens nous rencontrer lors de nos prochains événements !";
-
-/** La liste de la page migrée, mot pour mot. */
-const legacyRows = [
-  {
-    title: "👷🏻‍♀️ ⚡ COMPLET ! Initiation à la soudure à l’arc",
-    href: "/evenements/initiation-soudure-a-l-arc-5-septembre-2026",
-    meta: "— samedi 12 septembre · Formation",
-  },
-  {
-    title: "🍕Pizza Party de septembre !",
-    href: "/evenements/pizza-party-septembre-2026",
-    meta: "— vendredi 18 septembre · Pizza Party",
-  },
-  {
-    title: "🖊️ 🖋️ Atelier d’écriture",
-    href: "/evenements/weekend-cratif",
-    meta: "— samedi 3 octobre · Nature",
-  },
-  {
-    title: "🌼 🌻 Plantes Papier Pigments",
-    href: "/evenements/weekend-cratif-1",
-    meta: "— samedi 3 octobre · Artisanat",
-  },
-  {
-    title: "🪵 🪓 Créer un objet en bois de palette",
-    href: "/evenements/weekend-ressources",
-    meta: "— samedi 3 octobre · Artisanat",
-  },
-  {
-    title: "🍕 Pizza Party d’octobre ! 🍕",
-    href: "/evenements/pizza-party-octobre-2026",
-    meta: "— vendredi 9 octobre · Pizza Party",
-  },
-  {
-    title: "👷🏻 ⚡ COMPLET ! Initiation à la soudure à l’arc",
-    href: "/evenements/initiation-soudure-a-l-arc-17-octobre-2026",
-    meta: "— samedi 17 octobre · Formation",
-  },
-  {
-    title: "🧀 Camembert Party de novembre",
-    href: "/evenements/camembert-party-13-novembre-2026",
-    meta: "— vendredi 13 novembre · Pizza Party",
-  },
-  {
-    title: "👷🏻 ⚡ Initiation à la soudure à l’arc",
-    href: "/evenements/initiation-soudure-a-l-arc-21-novembre-2026",
-    meta: "— samedi 21 novembre · Formation",
-  },
-  {
-    title: "👷🏻‍♀️ Initiation à la soudure à l’arc ⚡",
-    href: "/evenements/initiation-soudure-a-l-arc-12-dcembre-2026",
-    meta: "— samedi 12 décembre · Formation",
-  },
-];
 ---
 
 <BaseLayout
@@ -116,7 +61,6 @@ const legacyRows = [
           <EventGrid items={upcoming} cols={3} />
         </div>
 
-        <LegacyList rows={legacyRows} />
       </Fragment>
 
       <Fragment slot="past">

@@ -2,6 +2,7 @@
 title: "🪓 Créer un objet en bois de palette"
 description: "…construire l’objet de ton choix en bois de palette. Tu viens avec une idée précise ou tu peux réfléchir le jour J de ce qui est possible de faire avec…"
 legacyPath: "/evenements/weekend-ressources"
+start: "2026-10-03"
 cover: "../../assets/migration/shared/395a27efd845-evenement_gnral__a_-1.jpg"
 coverAlt: "🪓 Créer un objet en bois de palette"
 icon: "🪵"

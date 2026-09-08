@@ -2,10 +2,13 @@
 /**
  * Hero de l'accueil — la photo drone en pleine largeur et, posé dessus, le
  * « nuage » blanc de la charte (motif signature n°1 : une bulle aux bords
- * organiques, jamais un flou ni un dégradé).
+ * organiques, jamais un flou ni un dégradé), avec ses appels à l'action dans
+ * le slot `actions`.
  *
- * Le nuage rétrécit avec l'écran : pas de largeur minimale en pixels, un
- * rembourrage en `clamp()` — à 375 px il tient dans la page sans la déborder.
+ * Le hero n'a qu'une hauteur minimale : le nuage peut grandir (sous-titre sur
+ * deux lignes, boutons empilés à 375 px) sans jamais être rogné. Le nuage
+ * rétrécit avec l'écran : pas de largeur minimale en pixels, un rembourrage en
+ * `clamp()` — à 375 px il tient dans la page sans la déborder.
  */
 import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
@@ -19,9 +22,10 @@ interface Props {
 }
 
 const { image, imageAlt = "", title, subtitle } = Astro.props;
+const hasActions = Astro.slots.has("actions");
 ---
 
-<section class="relative isolate overflow-hidden" style="height:clamp(400px,58vw,560px)">
+<section class="relative isolate overflow-hidden">
   <Image
     src={image}
     alt={imageAlt}
@@ -32,10 +36,10 @@ const { image, imageAlt = "", title, subtitle } = Astro.props;
     class="absolute inset-0 h-full w-full object-cover"
   />
 
-  <div class="absolute inset-0 grid place-items-center px-4">
+  <div class="relative grid place-items-center px-4 py-10" style="min-height:clamp(400px,58vw,560px)">
     <div
       class="bg-white text-center"
-      style="border-radius:48% 52% 50% 50% / 55% 55% 45% 45%; width:min(92vw,620px); padding:clamp(28px,5vw,56px) clamp(28px,8vw,96px)"
+      style="border-radius:48% 52% 50% 50% / 55% 55% 45% 45%; width:min(92vw,680px); padding:clamp(28px,5vw,52px) clamp(24px,6vw,72px)"
     >
       <Logo markOnly size={56} class="mb-2.5" />
       <h1
@@ -44,7 +48,14 @@ const { image, imageAlt = "", title, subtitle } = Astro.props;
       >
         {title}
       </h1>
-      {subtitle && <p class="mt-2 font-display text-h3 text-ink-2">{subtitle}</p>}
+      {subtitle && <p class="mt-2 font-display text-h3 text-balance text-ink-2">{subtitle}</p>}
+      {
+        hasActions && (
+          <div class="mt-6 flex flex-wrap justify-center gap-2.5">
+            <slot name="actions" />
+          </div>
+        )
+      }
     </div>
   </div>
 </section>

@@ -5,11 +5,14 @@ import SEO from "@components/seo/SEO.astro";
 import Header from "@components/layout/Header.astro";
 import Footer from "@components/layout/Footer.astro";
 import NewsletterBand from "@components/ds/NewsletterBand.astro";
-import { organization } from "@lib/seo";
+import { documentTitle as buildDocumentTitle, organization, tidyTitle } from "@lib/seo";
 import { site } from "@lib/site";
 
 interface Props {
+  /** Titre de la page (`seoTitle ?? title` du contenu) — nettoyé et situé par `documentTitle()`. */
   title: string;
+  /** `<title>` déjà composé par la page (fiche événement, qui y ajoute sa date). */
+  documentTitle?: string;
   description: string;
   ogImage?: string | ImageMetadata;
   type?: "website" | "article";
@@ -18,7 +21,21 @@ interface Props {
   jsonld?: object[];
 }
 
-const { title, description, ogImage, type = "website", noindex = false, jsonld = [] } = Astro.props;
+const {
+  title,
+  documentTitle,
+  description,
+  ogImage,
+  type = "website",
+  noindex = false,
+  jsonld = [],
+} = Astro.props;
+
+const pathname = Astro.url.pathname.replace(/\/+$/, "") || "/";
+// <title> : sans emoji, suffixe de section ou de marque s'il tient en 60 caractères.
+// og:title : le titre nettoyé seul — les réseaux affichent déjà le nom du site.
+const docTitle = documentTitle ?? buildDocumentTitle(title, pathname);
+const ogTitle = tidyTitle(title);
 
 const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
 // Organization + LodgingBusiness : émis sur toutes les pages (NAP cohérent, GEO).
@@ -36,7 +53,8 @@ const allJsonld = [organization({ siteUrl }), ...jsonld];
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#0B3D3A" />
     <SEO
-      title={title}
+      title={docTitle}
+      ogTitle={ogTitle}
       description={description}
       ogImage={ogImage}
       type={type}

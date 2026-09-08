@@ -1,6 +1,7 @@
 ---
 title: "Les 4 Sources"
-description: "Lieu d’activités, de nature et de vie collective. Expériences innovantes et inspirantes en famille, entre amis ou entre collègues. Locations d’hébergements et…"
+seoTitle: "Les 4 Sources · Tiers-lieu à Yvoir, séjours et activités"
+description: "Lieu d’activités, de nature et de vie collective à Yvoir : hébergements et salles, activités, événements, bar pour randonneurs et cyclistes."
 legacyPath: "/"
 cover: "../../assets/migration/index/01-dji_fly_20260425_162224_848_1777127142778_photo_optimized.jpg"
 coverAlt: "Les 4 Sources"

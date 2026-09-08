@@ -8,7 +8,7 @@
  */
 import { pole as resolvePole, type PoleSlug } from "@lib/poles";
 
-type Variant = "primary" | "secondary" | "ghost" | "highlight" | "pole";
+type Variant = "primary" | "secondary" | "ghost" | "highlight" | "inverse" | "pole";
 type Size = "sm" | "md" | "lg";
 
 interface Props {
@@ -56,6 +56,9 @@ const VARIANTS: Record<Exclude<Variant, "pole">, string> = {
     "bg-transparent border-transparent text-teal hover:bg-surface active:bg-line-soft",
   highlight:
     "bg-highlight border-highlight text-teal hover:bg-[#f2cc2a] hover:border-[#f2cc2a] active:bg-[#d9b40a] active:border-[#d9b40a]",
+  // Le secondaire des surfaces teal (Home.jsx : `color:#fff, borderColor:#fff`) —
+  // un aplat au survol, jamais une transparence.
+  inverse: "bg-transparent border-white text-white hover:bg-white hover:text-teal active:bg-line",
 };
 
 // Le jaune et le beige ne supportent pas le texte blanc : sur un aplat de pôle

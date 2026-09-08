@@ -1,6 +1,7 @@
 ---
 title: "Nos salles et la cuisine"
 description: "Espaces polyvalents et modulables pour réceptions, conférences ou ateliers. Matériel horeca. Connexion WiFi."
+seoTitle: "Salles et cuisine professionnelle à Yvoir"
 legacyPath: "/sejours/salles"
 cover: "../../assets/migration/sejours__salles/01-_G0A3585.jpg"
 coverAlt: "Nos salles et la cuisine"

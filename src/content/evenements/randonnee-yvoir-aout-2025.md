@@ -2,6 +2,8 @@
 title: "COMPLET ! Randonnées à la découverte de la région d’Yvoir"
 description: "3 jours de randonnée à la carte pour découvrir la région d’Yvoir et un projet de tiers-lieu, et sa nature environnante !"
 legacyPath: "/evenements/randonnee-yvoir-aout-2025"
+start: "2025-08-09"
+end: "2025-08-11"
 cover: "../../assets/migration/evenements__randonnee-yvoir-aout-2025/01-rando_toile.png"
 coverAlt: "COMPLET ! Randonnées à la découverte de la région d’Yvoir"
 properties:
