@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+# Build du site sur Hatchbox (app statique : aucun processus, Caddy sert
+# `current/public`).
+#
+# Hatchbox exécute ce script quand il le trouve dans `.hatchbox/`. Le site se
+# construit avec bun — le même outil qu'en local et en CI, lockfile figé —
+# installé dans ~/.bun au premier déploiement puis réutilisé. À la fin,
+# `public/` contient le site construit et `dist/` reste en place : si l'étape
+# par défaut d'Hatchbox pour Astro (`mv public public-original && mv dist
+# public`) tourne aussi, elle aboutit au même résultat.
+#
+# Variables attendues dans l'app Hatchbox : SITE (origine canonique) et
+# CLAUDY_PUBLIC_API_URL (événements et activités lus dans Claudy au build).
+set -euo pipefail
+cd "${RELEASE_DIR:-$(pwd)}"
+
+export BUN_INSTALL="${BUN_INSTALL:-$HOME/.bun}"
+export PATH="$BUN_INSTALL/bin:$PATH"
+if ! command -v bun >/dev/null 2>&1; then
+  echo "→ installation de bun dans $BUN_INSTALL"
+  curl -fsSL https://bun.sh/install | bash >/dev/null
+fi
+echo "→ bun $(bun --version) · SITE=${SITE:-non défini} · CLAUDY_PUBLIC_API_URL=${CLAUDY_PUBLIC_API_URL:-non défini}"
+
+bun install --frozen-lockfile
+bun run build
+bun run scripts/redirects-to-caddy.ts --check
+
+rm -rf public-original
+mv public public-original
+cp -R dist public
+echo "→ site construit : $(find public -name index.html | wc -l | tr -d ' ') pages dans public/"

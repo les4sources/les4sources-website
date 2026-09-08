@@ -101,39 +101,51 @@ Les polices sont auto-hébergées via les paquets `@fontsource/averia-serif-libr
 
 ## Build et vérification
 
-`bun run verify` enchaîne les quatre garde-fous et doit passer avant tout merge :
+`bun run verify` enchaîne les cinq garde-fous et doit passer avant tout merge :
 
 - `astro check` — types ;
 - `astro build` — génération de `dist/` ;
 - `seo:check` — titre ≤ 60 caractères, description 50–160, unicité, `alt` sur toutes les images, un seul `<h1>`, canonical, JSON-LD valide, aucun vestige `images.spr.so` / `super.so` / `notion.site`, aucun contenu factice, liens internes ;
-- `claudy:check` — conformité de la fixture (et de l'API si `CLAUDY_PUBLIC_API_URL` est défini).
+- `claudy:check` — conformité de la fixture (et de l'API si `CLAUDY_PUBLIC_API_URL` est défini) ;
+- `caddy:check` — `deploy/Caddyfile` à jour par rapport à `public/_redirects` (`bun run caddy:generate` le régénère).
 
-## Docker
+## Déploiement : Hatchbox
+
+Le site est hébergé sur **Hatchbox**, sur le même serveur que Claudy, en app statique (aucun processus : Caddy sert `current/public`). L'app Hatchbox s'appelle `les4sources-website`.
+
+**Ce que le repo fournit.**
+
+- `.tool-versions` — la version de Node installée par Hatchbox (déjà présente sur le serveur).
+- `.hatchbox/build` — le script de build exécuté par Hatchbox : installe bun dans `~/.bun` au premier déploiement, `bun install --frozen-lockfile`, `bun run build`, vérifie `deploy/Caddyfile`, puis remplace `public/` par le site construit (`dist/` reste en place pour l'étape Astro par défaut d'Hatchbox, `mv public public-original && mv dist public`, qui aboutit alors au même résultat).
+- `deploy/Caddyfile` — les règles Caddy à coller dans Hatchbox › app › Settings › Caddyfile : apex → www, slash final retiré, les redirections de `public/_redirects`, cache long sur `/_astro/*`, `try_files` pour servir `/foo` sans redirection vers `/foo/`, page 404 du site. Généré par `bun run caddy:generate`, vérifié par `bun run verify`.
+
+**Réglages de l'app Hatchbox (interface ou API).**
+
+| Réglage | Valeur |
+|---|---|
+| Dépôt et branche | `les4sources/les4sources-website`, `main` (ou `build/astro-v1` tant que la PR #1 n'est pas mergée) |
+| Variable `SITE` | `https://www.les4sources.be` (origine canonique, même sur le sous-domaine de test : les canoniques et le sitemap doivent viser la prod) |
+| Variable `CLAUDY_PUBLIC_API_URL` | `https://app.les4sources.be/api/public/v1` |
+| Caddyfile | contenu de `deploy/Caddyfile` |
+| Domaines | `new.les4sources.be` pour valider, puis `www.les4sources.be` et `les4sources.be` à la bascule |
+| Déploiement automatique | « Deploy on push » sur la branche, et le webhook `https://app.hatchbox.io/webhooks/deployments/<token>?latest=true` (Repository › « Trigger a deploy via webhook ») donné à Claudy dans `WEBSITE_REBUILD_WEBHOOK_URL` |
+
+Le DNS de `les4sources.be` est chez Cloudflare, en mode proxy : `http` → `https` est terminé par Cloudflare puis par Caddy ; les enregistrements `www`, apex et `new` pointent tous sur le serveur.
+
+### Bascule depuis Super
+
+1. Déployer sur `new.les4sources.be` (déjà routé par Hatchbox) avec les réglages ci-dessus.
+2. Vérifier sur ce sous-domaine : `bun scripts/verify/parity.ts` contre le site déployé, les 15 redirections 301 (`public/_redirects`), `/foo/` → `/foo`, la page 404, le calendrier Claudy, les formulaires, et qu'un événement publié dans Claudy déclenche bien un déploiement.
+3. Ajouter `www.les4sources.be` et `les4sources.be` aux domaines de l'app, puis faire pointer les enregistrements Cloudflare de `www` et de l'apex vers le serveur ; laisser Super en place quelques jours sans le résilier.
+4. Après bascule : soumettre `https://www.les4sources.be/sitemap-index.xml` dans la Search Console, surveiller les 404 dans les journaux Hatchbox pendant deux semaines, puis résilier Super.
+
+**Aucune bascule DNS ne sera faite sans feu vert explicite.**
+
+## Docker (alternative portable)
 
 ```bash
 docker build -t les4sources-website .
 docker run --rm -p 8080:80 les4sources-website
 ```
 
-Le `Dockerfile` construit le site avec bun, rejoue `public/_redirects` en configuration nginx (`scripts/redirects-to-nginx.ts`), puis sert `dist/` avec nginx (`deploy/nginx.conf`).
-
-## Déploiement
-
-**L'hébergement n'est pas encore tranché.** L'image Docker est volontairement portable (Coolify, Hatchbox, ou tout hôte capable de faire tourner un conteneur).
-
-Ce qui est déjà décidé :
-
-- origine canonique **`https://www.les4sources.be`** ; l'apex `les4sources.be` part en 301 vers `www` ;
-- `http` → `https` est géré par le reverse proxy en amont, pas par le nginx du conteneur ;
-- le slash final est normalisé (`/foo/` → `/foo`) ;
-- la variable `SITE` surcharge l'origine canonique au build ;
-- le rebuild sur publication d'un événement dans Claudy se fera par webhook — cible à définir avec l'hébergement (voir `docs/CLAUDY.md`).
-
-### Bascule depuis Super
-
-1. Déployer l'image sur l'hôte choisi et la brancher sur un sous-domaine de test (par exemple `new.les4sources.be`) avec `SITE=https://www.les4sources.be` au build, pour valider les canoniques.
-2. Vérifier sur ce sous-domaine : `bun scripts/verify/parity.ts` contre le build déployé, les 15 redirections 301 (`public/_redirects`), le calendrier Claudy, les formulaires.
-3. Basculer les enregistrements DNS de `www.les4sources.be` et de l'apex vers l'hôte ; laisser Super en place quelques jours sans le résilier.
-4. Après bascule : soumettre `https://www.les4sources.be/sitemap-index.xml` dans la Search Console, surveiller les 404 dans les journaux nginx pendant deux semaines, puis résilier Super.
-
-**Aucune bascule DNS ne sera faite sans feu vert explicite.**
+Le `Dockerfile` construit le site avec bun, rejoue `public/_redirects` en configuration nginx (`scripts/redirects-to-nginx.ts`), puis sert `dist/` avec nginx (`deploy/nginx.conf`). Il n'est pas utilisé par Hatchbox ; il reste pour tout hôte capable de faire tourner un conteneur.

@@ -6,3 +6,5 @@ dist
 # Images brutes du crawl (207 Mo, re-téléchargeables via bun run migrate:crawl && migrate:extract)
 migration/images/
 nginx-redirects.conf
+# Hatchbox : `public/` d'origine mis de côté par .hatchbox/build
+public-original

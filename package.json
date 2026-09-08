@@ -9,7 +9,9 @@
     "check": "astro check",
     "seo:check": "bun run scripts/seo-check.ts",
     "claudy:check": "bun run scripts/claudy-check.ts",
-    "verify": "astro check && astro build && bun run seo:check && bun run claudy:check",
+    "caddy:generate": "bun run scripts/redirects-to-caddy.ts",
+    "caddy:check": "bun run scripts/redirects-to-caddy.ts --check",
+    "verify": "astro check && astro build && bun run seo:check && bun run claudy:check && bun run caddy:check",
     "migrate:crawl": "bun scripts/migrate/crawl.ts",
     "migrate:extract": "bun scripts/migrate/extract.ts",
     "migrate:content": "bun scripts/migrate/to-content.ts"

@@ -1,15 +1,18 @@
 # Redirections du site des 4 Sources — format Cloudflare Pages.
 #
-# Ce fichier est l'UNIQUE source de vérité des redirections. Il est rejoué en
-# configuration nginx au build par `scripts/redirects-to-nginx.ts` (voir le
-# Dockerfile) ; ne jamais éditer `nginx-redirects.conf`, qui est généré.
+# Ce fichier est l'UNIQUE source de vérité des redirections. Il est rejoué :
+#   - en règles Caddy pour Hatchbox par `scripts/redirects-to-caddy.ts`
+#     → `deploy/Caddyfile` (commité, vérifié à jour par `bun run verify`) ;
+#   - en configuration nginx par `scripts/redirects-to-nginx.ts` (Dockerfile).
+# Ne jamais éditer `deploy/Caddyfile` ni `nginx-redirects.conf` : ils sont générés.
 #
 # Ordre = du plus spécifique au plus général (première règle qui matche gagne).
 #
-# Normalisations déjà assurées par nginx (deploy/nginx.conf), à NE PAS répéter ici :
-#   - http → https : terminé par le reverse proxy en amont ;
-#   - apex → www   : `if ($host != "www.les4sources.be")` ;
-#   - slash final  : `rewrite ^/(.*)/$ /$1 permanent` (/foo/ → /foo).
+# Normalisations déjà assurées par le serveur (Caddyfile généré, nginx.conf), à
+# NE PAS répéter ici :
+#   - http → https : terminé par Cloudflare et Caddy en amont ;
+#   - apex → www   : redirection permanente vers www.les4sources.be ;
+#   - slash final  : /foo/ → /foo.
 #
 # Il n'y a pour l'instant AUCUNE règle : les 209 URLs du site actuel sont servies
 # telles quelles par le nouveau site (champ `legacyPath` de chaque entrée de

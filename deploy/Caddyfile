@@ -1,0 +1,48 @@
+# GÉNÉRÉ par scripts/redirects-to-caddy.ts depuis public/_redirects — ne pas éditer à la main.
+# À coller dans Hatchbox › app les4sources-website › Settings › Caddyfile (les règles
+# précèdent %{default}, qui garde le root, la compression et le file_server d'Hatchbox).
+
+# Origine canonique : l'apex part vers www.
+@apex host les4sources.be
+redir @apex https://www.les4sources.be{uri} permanent
+
+# Slash final normalisé : /foo/ → /foo (la racine reste /).
+@trailing path_regexp trailing ^(.+)/$
+redir @trailing {re.trailing.1} permanent
+
+# Anciennes URLs (15 règles, public/_redirects).
+redir /catalogue/atelier-fabrication-de-pizza /catalogue permanent
+redir /catalogue/modle-pour-un-nouvel-atelier /catalogue permanent
+redir /catalogue/participation-la-production-du-pain /catalogue permanent
+redir /collectif/claire-feyens /collectif permanent
+redir /evenements/choeur-meditant-et-energisant-18-decembre-2024 /evenements permanent
+redir /evenements/chorale-meditant-energisant-20-novembre-2024 /evenements permanent
+redir /evenements/chur-meditant-energisant-ouvert-a-tous-tes-18-septembre-2024 /evenements permanent
+redir /evenements/immersion-novembre-2024 /evenements permanent
+redir /evenements/stage-8-12-ans-yvoir-aout-2025 /evenements permanent
+redir /evenements/weekend-ressources-fev-2026 /evenements permanent
+redir /projets/environnement /biodiversite permanent
+redir /projets/le-bar-des-4-sources /le-bar-des-4-sources permanent
+redir /projets/production-et-transformation /projets permanent
+redir /sejours/entre-amis-aux-4-sources /sejours/en-famille-aux-4-sources permanent
+redir /teams-buildings /un-team-building-aux-4-sources permanent
+
+# Le fichier de règles n'a rien à faire en ligne.
+@rules path /_redirects
+respond @rules 404
+
+# Assets hachés d'Astro : cache long.
+@astro path /_astro/*
+header @astro Cache-Control "public, max-age=31536000, immutable"
+
+# Pages : /foo sert /foo/index.html sans redirection vers /foo/.
+try_files {path} {path}/index.html
+
+# Page 404 du site.
+handle_errors {
+  @notfound expression `{err.status_code} == 404`
+  rewrite @notfound /404.html
+  file_server
+}
+
+%{default}
