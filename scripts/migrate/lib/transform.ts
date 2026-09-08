@@ -306,9 +306,14 @@ function renderEmbed(
     default:
       // `super-embed` (boutons Billetweb, widget météo) : le HTML d'origine fait foi.
       return record?.rawHtml
-        ? [record.rawHtml]
+        ? [withIframeTitles(record.rawHtml)]
         : [`<a class="bookmark" href="${escapeAttr(src)}">${escapeText(title)}</a>`];
   }
+}
+
+/** Un `<iframe>` sans `title` est une erreur d'accessibilité : on en pose un (ISC-18). */
+function withIframeTitles(html: string): string {
+  return html.replace(/<iframe(?![^>]*\btitle=)/gi, '<iframe title="Contenu intégré"');
 }
 
 function decodeEntities(s: string): string {

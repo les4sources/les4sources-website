@@ -58,15 +58,15 @@
 
   /* --- Encres (texte de pôle sur fond clair, AA) --- */
   --color-accueil-ink: #b83a2a;
-  --color-microferme-ink: #6f7f1d;
-  --color-artisanat-ink: #8d6a44;
-  --color-socioculturel-ink: #8a7205;
+  --color-microferme-ink: #64721a;
+  --color-artisanat-ink: #856440;
+  --color-socioculturel-ink: #826b05;
   --color-nature-ink: #00744b;
   --color-ressourcement-ink: #3a63b8;
-  --color-vie-collective-ink: #c2532a;
-  --color-convivialite-ink: #8a7205;
+  --color-vie-collective-ink: #ab4925;
+  --color-convivialite-ink: #826b05;
   --color-hebergement-ink: #b83a2a;
-  --color-production-ink: #6f7f1d;
+  --color-production-ink: #64721a;
 
   /* --- Neutres dérivés du teal --- */
   --color-ink: #224246;
@@ -80,8 +80,8 @@
 
   /* --- Sémantique --- */
   --color-highlight: #eac20b;
-  --color-status-success: #6f7f1d;
-  --color-status-warning: #8a7205;
+  --color-status-success: #64721a;
+  --color-status-warning: #826b05;
   --color-status-danger: #b83a2a;
   --color-status-success-bg: #f1f5d9;
   --color-status-warning-bg: #fcf4cc;
@@ -231,12 +231,12 @@
   --color-pole-vie-collective-tint: #ffe6db;
   --color-pole-production-tint: #f1f5d9;
   --color-pole-hebergement-ink: #b83a2a;
-  --color-pole-convivialite-ink: #8a7205;
+  --color-pole-convivialite-ink: #826b05;
   --color-pole-nature-ink: #00744b;
-  --color-pole-artisanat-ink: #8d6a44;
+  --color-pole-artisanat-ink: #856440;
   --color-pole-ressourcement-ink: #3a63b8;
-  --color-pole-vie-collective-ink: #c2532a;
-  --color-pole-production-ink: #6f7f1d;
+  --color-pole-vie-collective-ink: #ab4925;
+  --color-pole-production-ink: #64721a;
   --text-base: 17px;
   --text-base--line-height: 1.55;
 }

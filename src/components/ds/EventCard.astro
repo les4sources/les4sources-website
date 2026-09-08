@@ -41,7 +41,7 @@ const { title, date, pole = "convivialite", image, soldOut = false, href, class:
     {soldOut && <Badge tone="danger">Complet !</Badge>}
   </div>
 
-  <h4 class="mb-1.5 font-display text-h4 font-bold">
+  <h3 class="mb-1.5 font-display text-h4 font-bold">
     {
       href ? (
         <a href={href} class="l4s-stretch-link text-inherit no-underline hover:text-teal-soft">
@@ -51,7 +51,7 @@ const { title, date, pole = "convivialite", image, soldOut = false, href, class:
         title
       )
     }
-  </h4>
+  </h3>
 
   <p class="font-ui text-ui text-ink-2">{date}</p>
 </Card>

@@ -59,4 +59,4 @@ Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h30, lors
 
 #### Prévisions météo
 
-<iframe src="https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius" name="CW2" width="318" height="318"></iframe>
+<iframe title="Contenu intégré" src="https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius" name="CW2" width="318" height="318"></iframe>

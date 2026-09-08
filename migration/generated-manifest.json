@@ -1,6 +1,6 @@
 {
   "note": "Généré par scripts/migrate/to-content.ts — liste les fichiers que le script possède. Ne pas éditer.",
-  "generatedAt": "2026-09-07T23:23:21.460Z",
+  "generatedAt": "2026-09-08T00:39:35.764Z",
   "files": [
     "public/files/Carnet_de_balades_des_4_Sources_compressed.pdf",
     "src/assets/migration/a-propos/01-Design_sans_titre_-2.png",
