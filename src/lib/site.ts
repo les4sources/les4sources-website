@@ -42,6 +42,9 @@ export const site = {
   /** E-mail public général (page /contact). */
   email: "contact@les4sources.be",
 
+  /** E-mail des séjours et réservations (page /contact, pages séjours). */
+  emailSejours: "sejours@les4sources.be",
+
   /** Demande de réservation : le funnel Claudy, cible du bouton jaune de l'en-tête. */
   reservationUrl: "https://app.les4sources.be/reservation",
 

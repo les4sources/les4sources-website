@@ -6,7 +6,7 @@ properties:
   Type: "Habitant·e"
 name: "Gaëlle de Fays"
 role: "Habitant·e"
-photo: "../../assets/migration/collectif__galle-de-fays/01-bd330128-8a3e-45b8-878f-2b13e495ed1c.png"
+photo: "../../assets/migration/collectif__galle-de-fays/01-bd330128-8a3e-45b8-878f-2b13e495ed1c.jpg"
 ---
 
 <!-- columns -->
@@ -20,5 +20,5 @@ Gaëlle amène la culture et le bien-être aux 4 Sources. Elle est aussi la fond
 
 <!-- column width="50%" -->
 
-![Bd330128 8a3e 45b8 878f 2b13e495ed1c](../../assets/migration/collectif__galle-de-fays/01-bd330128-8a3e-45b8-878f-2b13e495ed1c.png)
+![Gaëlle de Fays](../../assets/migration/collectif__galle-de-fays/01-bd330128-8a3e-45b8-878f-2b13e495ed1c.jpg)
 <!-- /columns -->

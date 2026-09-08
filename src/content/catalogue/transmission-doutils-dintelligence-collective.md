@@ -17,7 +17,7 @@ maxParticipants: 25
 archived: true
 ---
 
-#### Renforcez la cohésion de votre équipe et stimulez la créativité avec les outils d'intelligence collective lors de notre atelier dédié aux associations.
+Renforcez la cohésion de votre équipe et stimulez la créativité avec les outils d'intelligence collective lors de notre atelier dédié aux associations.
 
 Venez découvrir et vous familiariser avec quelques outils d'intelligence collective lors de notre atelier spécialement conçu pour les associations. Cet atelier est une occasion unique d'apprendre à utiliser ces outils pour renforcer la cohésion de votre équipe, améliorer la prise de décision et stimuler la créativité.
 
@@ -43,20 +43,3 @@ Rejoignez-nous pour cet atelier stimulant et enrichissant qui vous offrira de no
 
 ## D’autres activités à découvrir
 
-**Catalogue des activités**
-
-- [Camembert Party pour groupes](/catalogue/camembert-party) — Production et transformation
-- [Construction d’objets en acier de récup’](/catalogue/construction-dobjets-en-acier-de-rcup) — Artisanat
-- [Création d’objets en palettes](/catalogue/cration-dobjets-en-palettes) — Artisanat
-- [Création de bijoux en matériaux de récup’](/catalogue/cration-de-bijoux-en-matriaux-de-rcup) — Artisanat
-- [Cuisine d’un repas ou d’un goûter aux plantes sauvages](/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages) — Production et transformation
-- [Grimpe encadrée dans les arbres](/catalogue/grimpe-encadree-dans-les-arbres) — Nature et environnement
-- [Initiation à l’astronomie et observation des étoiles](/catalogue/initiation-astronomie-etoiles-yvoir) — Nature et environnement
-- [Initiation à la soudure](/catalogue/initiation-la-soudure) — Artisanat
-- [Initiation au disc-golf](/catalogue/initiation-au-disc-golf) — Bien-être
-- [Initiation ou perfectionnement à l’identification de champignons](/catalogue/initiation-champignons-yvoir) — Nature et environnement
-- [Introduction à la zythologie](/catalogue/zythologie) — Production et transformation
-- [Participation à la production du pain](/catalogue) — Production et transformation
-- [Pizza Party pour groupes](/catalogue/pizza-ou-camembert-party) — Production et transformation
-- [Rencontre avec le troupeau d’ânes](/catalogue/temps-avec-le-troupeau-d-anes) — Bien-être
-- [Un tour à la découverte du projet des 4 Sources](/catalogue/decouverte-du-projet-des-4-sources) — Vie collective

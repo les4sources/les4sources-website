@@ -17,7 +17,7 @@ category: "Vie collective"
 registrationUrl: "https://les4sources.punchpass.com/classes/14999166"
 ---
 
-#### Comment rassembler au sein d'un même territoire toute une série de projets citoyens et entrepreneuriaux innovants et inspirants ? Comment "réempuissancer" nos territoires ? Comment créer en même temps un futur durable et enviable ?
+Comment rassembler au sein d'un même territoire toute une série de projets citoyens et entrepreneuriaux innovants et inspirants ? Comment "réempuissancer" nos territoires ? Comment créer en même temps un futur durable et enviable ?
 
 Ces sont les questions que s'est posé Frédéric Bosqué, initiateur de [Tera - Un écosystème pour le XXIe siècle](https://www.tera.coop/), qui nous vient spécialement du sud-ouest de la France pour nous partager ses 10 années d'expérience en tant que co-fondateur de ce projet !
 

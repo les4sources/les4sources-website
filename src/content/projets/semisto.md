@@ -6,7 +6,7 @@ cover: "../../assets/migration/projets__semisto/01-w1920quality90fitscale-down.j
 coverAlt: "Semisto"
 ---
 
-#### **Les 4 Sources sont le QG de Semisto, l’association qui oeuvre à nous faire passer dans l’ère des forêts comestibles. Semisto a été créé par** **[Michael](/collectif/michael-hulet), co-fondateur de notre collectif.**
+**Les 4 Sources sont le QG de Semisto, l’association qui oeuvre à nous faire passer dans l’ère des forêts comestibles. Semisto a été créé par** **[Michael](/collectif/michael-hulet), co-fondateur de notre collectif.**
 
 <!-- columns -->
 <!-- column width="50%" -->

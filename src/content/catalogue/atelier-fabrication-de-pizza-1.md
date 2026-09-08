@@ -14,9 +14,9 @@ properties:
 pole: "production"
 ---
 
-#### Vous avez toujours rêvé d’être un·e boulanger·e hors pair, qui parcourt le monde entier pour montrer son talent ? Non ? Alors simplement apprendre à confectionner du bon pain ? Oui ? Alors… 🍞
+Vous avez toujours rêvé d’être un·e boulanger·e hors pair, qui parcourt le monde entier pour montrer son talent ? Non ? Alors simplement apprendre à confectionner du bon pain ? Oui ? Alors… 🍞
 
-![20251115 100419 e1467a68](../../assets/migration/catalogue__atelier-fabrication-de-pizza-1/02-20251115_100419_e1467a68.jpg)
+![Atelier pain au levain](../../assets/migration/catalogue__atelier-fabrication-de-pizza-1/02-20251115_100419_e1467a68.jpg)
 
 Pour cet atelier, on a du pain sur la planche… Une journée pour découvrir le processus de fabrication du pain dans la boulangerie des 4 Sources, du pétrissage, à l’enfournement en passant par le boulage.
 
@@ -26,7 +26,7 @@ Pas de panique, nous serons dans le pétrin pour une bonne partie de la journée
 
 Chacun, chacune repart avec **deux pains** confectionnés par ses soins.
 
-![20250404 112256 badb6e59](../../assets/migration/catalogue__atelier-fabrication-de-pizza-1/03-20250404_112256_badb6e59.jpg)
+![Atelier pain au levain](../../assets/migration/catalogue__atelier-fabrication-de-pizza-1/03-20250404_112256_badb6e59.jpg)
 
 ## En pratique
 
@@ -39,30 +39,3 @@ Chacun, chacune repart avec **deux pains** confectionnés par ses soins.
 
 ## D’autres activités à découvrir
 
-**Catalogue des activités**
-
-- [🥖Atelier pain au levain](/catalogue/atelier-fabrication-de-pizza-1) — Production et transformation
-- [🍕Atelier pizza](/catalogue/atelier-pizza) — Production et transformation
-- [🥧Ateliers cuisine (sucré ou salé)](/catalogue/ateliers-cuisine-sucr-ou-sal) — Production et transformation
-- [🐎Bain d’ânes](/catalogue/temps-avec-le-troupeau-d-anes) — Bien-être
-- [🧀Camembert Party pour groupes](/catalogue/camembert-party) — Production et transformation
-- [🖐🏻Chantier participatif](/catalogue/chantier-participatif)
-- [🛞Construction d’objets en acier de récup’](/catalogue/cration-de-bijoux-en-matriaux-de-rcup) — Artisanat
-- [🌾Construction de mini cabanes en terre-paille](/catalogue/construction-de-mini-cabanes-en-terre-paille) — Nature et environnement, Vie collective, Artisanat
-- [🪵Création d’objets en palettes](/catalogue/cration-dobjets-en-palettes) — Artisanat
-- [💎Création de bijoux en matériaux de récup’](/catalogue/construction-dobjets-en-acier-de-rcup) — Artisanat, Production et transformation
-- [🥧Cuisine d’un repas ou d’un goûter aux plantes sauvages](/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages) — Production et transformation
-- [🍴Echanges sur les 4 Sources autour d’un repas](/catalogue/echanges-sur-les-4-sources-autour-dun-repas) — Artisanat
-- [🔥Fabrication d’allume-feux](/catalogue/fabrication-dallume-feux) — Artisanat
-- [🌸Fabrication de bombes à graines](/catalogue/fabrication-de-bombes-graines) — Production et transformation
-- [🪢Grimpe encadrée dans les arbres](/catalogue/grimpe-encadree-dans-les-arbres) — Nature et environnement
-- [💫Initiation à l’astronomie et observation des étoiles](/catalogue/initiation-astronomie-etoiles-yvoir) — Nature et environnement
-- [⚡Initiation à la soudure à l’arc](/catalogue/initiation-la-soudure) — Artisanat
-- [🤾🏻‍♂️Initiation au Disc-golf](/catalogue/initiation-au-disc-golf) — Bien-être
-- [🍄Initiation ou perfectionnement à l’identification de champignons](/catalogue/initiation-champignons-yvoir) — Nature et environnement
-- [🍺Introduction à la zythologie](/catalogue/zythologie) — Production et transformation
-- [🍕Pizza Party pour groupes](/catalogue/pizza-ou-camembert-party) — Production et transformation
-- [🌀Présentation de la gouvernance par cycle](/catalogue/prsentation-de-la-gouvernance-par-cycle)
-- [🍃Un tour à la découverte du projet des 4 Sources](/catalogue/decouverte-du-projet-des-4-sources) — Vie collective
-- [🦙Visite de la micro-ferme](/catalogue/visite-de-la-micro-ferme) — Nature et environnement
-- [🐷Visite de la micro-ferme pour les futurs éleveurs](/catalogue/visite-de-la-micro-ferme-pour-les-futurs-leveurs) — Nature et environnement

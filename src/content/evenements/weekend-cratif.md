@@ -36,15 +36,15 @@ Allez, plongez ! Offrez-vous ce temps souple et liquide…
 <!-- columns -->
 <!-- column width="33.3%" -->
 
-![E7705af2 e8e5 4dc6 a98a cfd7bdb4e273](../../assets/migration/evenements__weekend-cratif/02-e7705af2-e8e5-4dc6-a98a-cfd7bdb4e273.png)
+![🖋️ Atelier d’écriture](../../assets/migration/evenements__weekend-cratif/02-e7705af2-e8e5-4dc6-a98a-cfd7bdb4e273.jpg)
 
 <!-- column width="33.3%" -->
 
-![006246eb 1c6b 4b37 9a5d 4c05eac5518f](../../assets/migration/evenements__weekend-cratif/03-006246eb-1c6b-4b37-9a5d-4c05eac5518f.png)
+![🖋️ Atelier d’écriture](../../assets/migration/evenements__weekend-cratif/03-006246eb-1c6b-4b37-9a5d-4c05eac5518f.jpg)
 
 <!-- column width="33.3%" -->
 
-![Bd8e6fc2 2402 4c31 b008 12d51c41bd22](../../assets/migration/evenements__weekend-cratif/04-bd8e6fc2-2402-4c31-b008-12d51c41bd22.png)
+![🖋️ Atelier d’écriture](../../assets/migration/evenements__weekend-cratif/04-bd8e6fc2-2402-4c31-b008-12d51c41bd22.jpg)
 <!-- /columns -->
 
 ## Avec Marianne, des ateliers de l’Eau Vive 💧

@@ -1,55 +1,57 @@
 ---
 title: "Notre collectif"
-description: "Des personnes aux profils complémentaires et entrepreneuriaux."
+description: "Des personnes aux profils complémentaires et entrepreneuriaux, et tout un réseau qui permet au projet des 4 Sources de se déployer."
 legacyPath: "/notre-collectif"
 cover: "../../assets/migration/notre-collectif/01-_g0a4741.jpg"
-coverAlt: "Notre collectif"
+coverAlt: "Le collectif des 4 Sources"
 ---
 
-#### Des personnes aux profils complémentaires et entrepreneuriaux.
+## Le collectif 👋
 
-**Collectif**
-
-- [Bénédicte Grignard](/collectif/bndicte-grignard) — Habitant·e
+- [Bénédicte Grignard](/collectif/bndicte-grignard) — habitante
 - [Emilie Tralongo](/collectif/emilie-tralongo)
-- [Gaëlle de Fays](/collectif/galle-de-fays) — Habitant·e
-- [Magali Deheneffe](/collectif/magali-deheneffe) — Habitant·e
-- [Malau Bombo](/collectif/malau-bombo) — Habitant·e
+- [Gaëlle de Fays](/collectif/galle-de-fays) — habitante
+- [Magali Deheneffe](/collectif/magali-deheneffe) — habitante
+- [Malau Bombo](/collectif/malau-bombo) — habitante
 - [Manon Lefebvre](/collectif/manon-lefebvre)
-- [Michael Hulet](/collectif/michael-hulet) — Habitant·e
-- [Olivier Vanhamme](/collectif/olivier-vanhamme) — Habitant·e
+- [Michael Hulet](/collectif/michael-hulet) — habitant
+- [Olivier Vanhamme](/collectif/olivier-vanhamme) — habitant
 - [Romain Gauthier](/collectif/romain-gauthier)
-- [Sébastien Frennet](/collectif/sbastien-frennet) — Habitant·e
-- [Stéphanie de Tiège](/collectif/stphanie-de-tige) — Habitant·e
+- [Sébastien Frennet](/collectif/sbastien-frennet) — habitant
+- [Stéphanie de Tiège](/collectif/stphanie-de-tige) — habitante
 
-## Notre réseau
+## Notre réseau 🤝
 
-<!-- columns -->
-<!-- column width="50%" -->
+### Production et transformation 💛
 
-#### **Production et transformation**
+- [Ferme de Grange](https://fermedegrange.com/)
+- [Les 3 Petits Poids](https://www.facebook.com/les3petitspoids)
+- [Réseau Radis](https://www.reseau-radis.be/)
+- [La Flobette](https://laflobette.be/)
+- [Ma Terre Nourricière](http://www.materrenourriciere.be/)
+- [Chocamel](https://www.facebook.com/people/Chocamel/61550969679434/)
+- [Savonnerie Snoap](/collectif/olivier-vanhamme)
 
-💛 [Ferme de Grange](https://fermedegrange.com/) 💛 [Les 3 Petits Poids](https://www.facebook.com/les3petitspoids) 💛 [Réseau Radis](https://www.reseau-radis.be/) 💛 [La Flobette](https://laflobette.be/) 💛 [Ma Terre Nourricière](http://www.materrenourriciere.be/) 💛 [Chocamel](https://www.facebook.com/people/Chocamel/61550969679434/) 💛 [Savonnerie Snoap](/collectif/olivier-vanhamme)
+### Nature et environnement 💚
 
-#### Arts
+- [Epiphytia](http://www.epiphytia.be/)
+- [Thomas Meunier — Photography](https://thomasmeunier.be/)
+- Liens Vivants
+- Benoît Pernechele
 
-🧡 [Arts Emoi](https://artsemoi.be)
+### Arts 🧡
 
-#### Economie circulaire
+- [Arts Emoi](https://artsemoi.be)
 
-💙 [Petit Kiwi](https://www.petitkiwi.be)
+### Vie collective 💜
 
-<!-- column width="50%" -->
+- [Les Passerelles](https://www.lespasserelles.be/)
+- [Trois-Tiers](https://www.troistiers.space/)
 
-#### **Nature et environnement**
+### Économie circulaire 💙
 
-💚 [Epiphytia](http://www.epiphytia.be/) 💚 [Thomas Meunier - Photography](https://thomasmeunier.be/) 💚 Liens Vivants 💚 Benoît Pernechele
+- [Petit Kiwi](https://www.petitkiwi.be)
 
-#### **Vie collective**
+### Restauration ❤️
 
-💜 [Les Passerelles](https://www.lespasserelles.be/) 💜 [Trois-Tiers](https://www.troistiers.space/)
-<!-- /columns -->
-
-#### Restauration
-
-❤️ [Au fil de l’O](https://www.aufildelo.net/)
+- [Au fil de l’O](https://www.aufildelo.net/)

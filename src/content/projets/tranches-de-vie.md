@@ -11,7 +11,7 @@ icon: "🍞"
 
 Tranches de Vie, c’est la boulangerie des 4 Sources, à Yvoir. Du pain qui a du goût, fait par des gens qui savent pourquoi ils le font.
 
-![Ef43fd17 bc0f 4496 8344 50efa301a518](../../assets/migration/projets__tranches-de-vie/02-ef43fd17-bc0f-4496-8344-50efa301a518.png)
+![Tranches de Vie](../../assets/migration/projets__tranches-de-vie/02-ef43fd17-bc0f-4496-8344-50efa301a518.jpg)
 
 #### Une boulangère animée par le vivant
 
@@ -20,11 +20,11 @@ Tranches de Vie, c’est la boulangerie des 4 Sources, à Yvoir. Du pain qui a d
 <!-- columns -->
 <!-- column width="50%" -->
 
-![7e1ce413 ba21 4370 8dea a511acefbade](../../assets/migration/projets__tranches-de-vie/03-7e1ce413-ba21-4370-8dea-a511acefbade.png)
+![Tranches de Vie](../../assets/migration/projets__tranches-de-vie/03-7e1ce413-ba21-4370-8dea-a511acefbade.jpg)
 
 <!-- column width="50%" -->
 
-![0ca4b3f3 1594 4449 b00d 03c9450d3870](../../assets/migration/projets__tranches-de-vie/04-0ca4b3f3-1594-4449-b00d-03c9450d3870.png)
+![Tranches de Vie](../../assets/migration/projets__tranches-de-vie/04-0ca4b3f3-1594-4449-b00d-03c9450d3870.jpg)
 <!-- /columns -->
 
 <a class="button" href="https://tranchesdevie.les4sources.be/">🥖 Je commande mon pain</a>
@@ -40,13 +40,13 @@ Chez Tranches de Vie, le four à bois n'est pas qu'un outil de cuisson. Il est a
 
 <!-- column width="43.8%" -->
 
-![E7a64d9f 9602 4ae2 8c44 b329e31d7d0f](../../assets/migration/projets__tranches-de-vie/05-e7a64d9f-9602-4ae2-8c44-b329e31d7d0f.png)
+![Tranches de Vie](../../assets/migration/projets__tranches-de-vie/05-e7a64d9f-9602-4ae2-8c44-b329e31d7d0f.jpg)
 <!-- /columns -->
 
 <!-- columns -->
 <!-- column width="50%" -->
 
-![404df612 4eff 4b6a 8a0f 78921c471aa3](../../assets/migration/projets__tranches-de-vie/06-404df612-4eff-4b6a-8a0f-78921c471aa3.png)
+![Tranches de Vie](../../assets/migration/projets__tranches-de-vie/06-404df612-4eff-4b6a-8a0f-78921c471aa3.jpg)
 
 <!-- column width="50%" -->
 
@@ -78,7 +78,7 @@ Viens participer à un atelier de confection de pain avec Stéphanie, Romane et 
 <!-- columns -->
 <!-- column width="37.5%" -->
 
-![A4147cae e795 42e0 8825 4b8e78b5c273](../../assets/migration/projets__tranches-de-vie/09-a4147cae-e795-42e0-8825-4b8e78b5c273.png)
+![Tranches de Vie](../../assets/migration/projets__tranches-de-vie/09-a4147cae-e795-42e0-8825-4b8e78b5c273.jpg)
 
 <!-- column width="62.5%" -->
 

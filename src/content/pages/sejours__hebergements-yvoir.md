@@ -1,18 +1,16 @@
 ---
 title: "Nos hébergements"
-description: "Location de gites de 4 à 25 personnes. Chambres et bivouac pour tentes et hamacs."
+description: "Nous vous accueillons au cœur de notre clairière, dans l’ancienne ferme d’Ahinvaux : une bâtisse en pleine nature, rénovée en matériaux naturels."
 seoTitle: "Gîtes de groupe à Yvoir"
 legacyPath: "/sejours/hebergements-yvoir"
 cover: "../../assets/migration/sejours__hebergements-yvoir/01-_G0A2757.jpg"
-coverAlt: "Nos hébergements"
+coverAlt: "L’ancienne ferme d’Ahinvaux, où se trouvent les gîtes"
 ---
-
-### Nous vous accueillons au cœur de notre clairière dans l’ancienne ferme d’Ahinvaux. Une bâtisse en pleine nature au caractère champêtre, rénovée en matériaux naturels.
 
 <!-- columns -->
 <!-- column width="50%" -->
 
-![Hébergement pour une équipe de 8 personnes à Yvoir](../../assets/migration/shared/9c01de4e1305-e74d6a3d-5207-42ea-a090-d5e4185e62d7.png)
+![La Chevêche, gîte pour 8 personnes](../../assets/migration/shared/9c01de4e1305-e74d6a3d-5207-42ea-a090-d5e4185e62d7.png)
 
 ## [La Chevêche](/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes)
 
@@ -23,7 +21,7 @@ coverAlt: "Nos hébergements"
 
 <!-- column width="50%" -->
 
-![Hébergement pour 4 à 25 personnes à Yvoir](../../assets/migration/shared/b1dc51d286e7-981dc533-fce0-417b-9f7c-ffd762e22873.png)
+![La Hulotte, gîte pour 15 personnes](../../assets/migration/shared/b1dc51d286e7-981dc533-fce0-417b-9f7c-ffd762e22873.png)
 
 ## [La Hulotte](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes)
 
@@ -38,76 +36,36 @@ Chaque gîte est indépendant et a sa propre porte d’entrée. La porte d’acc
 
 ## [Le Grand-Duc](/sejours/hebergements-yvoir/le-grand-duc-gite-25-personnes)
 
-🪄 *La Chevêche + La Hulotte = Le Grand Duc*
+🪄 *La Chevêche + La Hulotte = Le Grand-Duc*
 
 - Accueille jusqu’à **25 personnes**
 - Rez-de-chaussée, 1er et 2ème étage
 - 7 chambres avec salle de douche
-- Mezzanine avec 2 lits d’appoints
+- Mezzanine avec 2 lits d’appoint
 
-![G0A2834](../../assets/migration/shared/796c7c3be552-_G0A2834.jpg)
+![Le séjour du Grand-Duc](../../assets/migration/shared/796c7c3be552-_G0A2834.jpg)
 
-<a class="button" href="/sejours/tarifs">Tarifs des hébergements et salles</a>
+→ [Photos des hébergements](/sejours/hebergements-yvoir/photos-des-hbergements)
 
-<a class="button" href="/sejours/disponibilites">Disponibilités</a>
+## [Notre espace pour camper](/sejours/bivouac) ⛺
 
-<a class="button" href="/sejours/sejours">Faire une demande de séjour</a>
-
-## [Notre espace pour camper](/sejours/bivouac)
-
-En pleine forêt ou dans les pâtures en lisère de celle-ci, un espace où **poser sa tente et son hamac**. Idéal pour profiter pleinement de notre ciel étoilé, de la nature et du calme environnant.
+En pleine forêt ou dans les pâtures en lisière de celle-ci, un espace où **poser sa tente et son hamac**. Idéal pour profiter pleinement de notre ciel étoilé, de la nature et du calme environnant.
 
 **Envie d’une nouvelle expérience en hamac ?** Nous vous en louons (simple… ou double !) pour découvrir cette douce sensation d’être bercé·e·s comme une chenille entre 2 arbres.
 
-![20240808 080152 29FD74F5](../../assets/migration/sejours__hebergements-yvoir/05-20240808_080152_29FD74F5.jpg)
+![Hamacs dans le bois des 4 Sources](../../assets/migration/sejours__hebergements-yvoir/05-20240808_080152_29FD74F5.jpg)
 
-## Questions fréquentes
+## Questions fréquentes 💬
 
-#### Puis-je venir avec mon chien ?
+### Puis-je venir avec mon chien ?
 
-<!-- columns -->
-<!-- column width="68.8%" -->
+Oui c’est possible, avec un maximum de 2 chiens sur le lieu et moyennant un supplément de 50 € par chien et par séjour.
 
-Oui c’est possible, avec un maximum de 2 chiens sur le lieu et moyennant un supplément de 50€ par chien par séjour.
-
-<!-- column width="31.3%" -->
-
-![Giphy](../../assets/migration/sejours__hebergements-yvoir/06-giphy.gif)
-<!-- /columns -->
-
-#### Puis-je louer la salle pour une fête d’anniversaire ?
-
-<!-- columns -->
-<!-- column width="68.8%" -->
+### Puis-je louer la salle pour une fête d’anniversaire ?
 
 Oui, avec grand plaisir, pour autant que vous teniez compte du fait que la salle se trouve sur un lieu habité par plusieurs familles et qu’il y a des règles à respecter concernant le bruit. Si vous préférez un chalet isolé au milieu du néant, c’est ailleurs 🤗 Le mieux étant de nous contacter pour nous faire part de votre demande.
 
 C’est aussi l’occasion d’inviter ses amis et sa famille à participer à [une activité organisée par les 4 Sources](/activites).
 
-<!-- column width="31.3%" -->
-
-![Giphy](../../assets/migration/sejours__hebergements-yvoir/07-giphy.gif)
-<!-- /columns -->
-
 ![Un mariage aux 4 Sources](../../assets/migration/sejours__hebergements-yvoir/08-20250726_134302_9770D844.jpg)
 *Un mariage aux 4 Sources*
-
-> 💡 Pour en savoir plus, pour poser une question au sujet de nos activités, pour demander le tarif pour ton groupe, une seule destination : **[sejours@les4sources.be](mailto:sejours@les4sources.be)** **📬**
-
-## Alors, envie de venir aux 4 Sources ?
-
-**👉** [Complète notre formulaire](https://formulaires.les4sources.be/sejour) pour nous envoyer une demande de réservation.
-
-Le formulaire, très complet, te permet de préciser tes besoins :
-
-✔️ Hébergements ✔️ Salles et/ou cuisine professionnelle ✔️ Espace bivouac et/ou van aménagé ✔️ Activités ✔️ Repas préparés, boulangerie et pizza/camembert parties
-
-**Les 4 Sources** Fonds d’Ahinvaux, 1 5530 Yvoir [Accès](/a-propos/acces-ahinvaux) [Nous contacter](/contact)
-
-[La Chevêche](/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes)
-
-[La Hulotte](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes)
-
-[Le Grand-Duc](/sejours/hebergements-yvoir/le-grand-duc-gite-25-personnes)
-
-[Photos des hébergements](/sejours/hebergements-yvoir/photos-des-hbergements)

@@ -45,7 +45,7 @@ Ce temps de pause a été pensé pour toute personne souhaitant renforcer sa cap
 - Personnes en phase de reconversion ou de transition de vie
 - Accompagnants (formateurs, coachs, professionnels de la santé) souhaitant intégrer la métaphore de la forêt dans leur pratique
 
-![G0a4741](../../assets/migration/evenements__fort-et-rsilience-2026/02-_g0a4741.jpg)
+![Atelier forêt et résilience 🌲](../../assets/migration/evenements__fort-et-rsilience-2026/02-_g0a4741.jpg)
 
 <a class="button" href="https://semisto.punchpass.com/series/46262">🖍️ Pour s'inscrire, c'est par là</a>
 

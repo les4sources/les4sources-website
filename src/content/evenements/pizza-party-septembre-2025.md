@@ -2,7 +2,7 @@
 title: "Pizza Party et inauguration du nouveau four !"
 description: "Pizza Party du 12 septembre 2025 aux 4 Sources (Yvoir)"
 legacyPath: "/evenements/pizza-party-septembre-2025"
-cover: "../../assets/migration/evenements__pizza-party-septembre-2025/01-_Cover_pour_le_site_4S_-1.png"
+cover: "../../assets/migration/evenements__pizza-party-septembre-2025/01-_Cover_pour_le_site_4S_-1.jpg"
 coverAlt: "Pizza Party et inauguration du nouveau four !"
 icon: "🍕"
 properties:
@@ -24,7 +24,7 @@ priceText: "7 €"
 registrationUrl: "https://www.billetweb.fr/pizza-party-de-septembre-2025"
 ---
 
-#### Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !
+Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !
 
 Et pour cette Pizza Party, nous en profitons pour inaugurer **notre nouveau four à pain,** acquis grâce à votre contribution lors de notre dernier crowdfunding ! Et pour fêter ça (car on aime la musique), la [Petite Fanfare de la Grande Vie](https://petitefanfare.org/) viendra nous honorer de sa présence ! Bienvenue **ce 12 septembre dès 18h30** :
 
@@ -36,7 +36,7 @@ Et pour cette Pizza Party, nous en profitons pour inaugurer **notre nouveau four
 
 👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !
 
-![IMG 2254](../../assets/migration/shared/f5cc30e0084a-IMG_2254.jpg)
+![Pizza Party et inauguration du nouveau four !](../../assets/migration/shared/f5cc30e0084a-IMG_2254.jpg)
 
 ## **Infos pratiques**
 

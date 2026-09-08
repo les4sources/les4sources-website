@@ -3,7 +3,7 @@ title: "Manon Lefebvre"
 description: "Manon s’occupe de notre administration mais pas que ! Elle est aussi artisane, elle crée des boucles d’oreille en bois de récupération, et des objets de déco…"
 legacyPath: "/collectif/manon-lefebvre"
 name: "Manon Lefebvre"
-photo: "../../assets/migration/collectif__manon-lefebvre/01-5177a898-9dd4-42a4-90d1-2d74a1bffa35.png"
+photo: "../../assets/migration/collectif__manon-lefebvre/01-5177a898-9dd4-42a4-90d1-2d74a1bffa35.jpg"
 ---
 
 <!-- columns -->
@@ -17,5 +17,5 @@ Pour contacter Manon : [compta@les4sources.be](mailto:compta@les4sources.be) �
 
 <!-- column width="50%" -->
 
-![5177a898 9dd4 42a4 90d1 2d74a1bffa35](../../assets/migration/collectif__manon-lefebvre/01-5177a898-9dd4-42a4-90d1-2d74a1bffa35.png)
+![Manon Lefebvre](../../assets/migration/collectif__manon-lefebvre/01-5177a898-9dd4-42a4-90d1-2d74a1bffa35.jpg)
 <!-- /columns -->

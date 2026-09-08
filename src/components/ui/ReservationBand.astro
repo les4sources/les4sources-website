@@ -1,0 +1,63 @@
+---
+/**
+ * Bande « réservation » des pages séjours et offres de groupe.
+ *
+ * L'ancien site répétait en bas de chaque page le même bloc (« Alors, envie de
+ * venir aux 4 Sources ? », la liste des ✔️, l'e-mail et le téléphone de Malau).
+ * Le gabarit le rend une fois, ici, avec les phrases d'origine ; les corps
+ * Markdown n'ont plus à le porter. Le bouton mène à la demande de réservation
+ * dans Claudy, comme le « Réserver » de l'en-tête.
+ */
+import Button from "@components/ds/Button.astro";
+import Section from "@components/ds/Section.astro";
+import { site } from "@lib/site";
+
+interface Props {
+  /** Ajoute les raccourcis Tarifs et Disponibilités (pages séjours). */
+  practical?: boolean;
+  /** Identifiant d'ancre (« #venir » dans le sommaire de /sejours). */
+  id?: string;
+  class?: string;
+}
+
+const { practical = true, id, class: className } = Astro.props;
+
+const NEEDS = [
+  "Hébergements",
+  "Salles et/ou cuisine professionnelle",
+  "Espace bivouac et/ou van aménagé",
+  "Activités",
+  "Repas préparés, boulangerie et pizza/camembert parties",
+];
+
+const telHref = `tel:${site.phone.replace(/\s+/g, "")}`;
+---
+
+<Section surface="paper" narrow id={id} class={className}>
+  <h2 class="font-display text-h2 font-bold">Alors, envie de venir aux 4 Sources ?</h2>
+  <p class="mt-4 max-w-[68ch] font-body text-body">
+    Complète notre formulaire pour nous envoyer une demande de réservation. Il te permet de préciser
+    tes besoins :
+  </p>
+  <ul class="m-0 mt-4 flex list-none flex-wrap gap-x-5 gap-y-2 p-0 font-body text-body">
+    {NEEDS.map((need) => <li>✔️ {need}</li>)}
+  </ul>
+
+  <div class="mt-6 flex flex-wrap gap-2.5">
+    <Button variant="primary" href={site.reservationUrl}>Faire une demande de séjour</Button>
+    {
+      practical && (
+        <>
+          <Button variant="secondary" href="/sejours/tarifs">Tarifs</Button>
+          <Button variant="secondary" href="/sejours/disponibilites">Disponibilités</Button>
+        </>
+      )
+    }
+  </div>
+
+  <p class="mt-6 max-w-[68ch] font-body text-body">
+    💁 <b>Une question au sujet des séjours ?</b> Contacte Malau à <a
+      href={`mailto:${site.emailSejours}`}>{site.emailSejours}</a
+    > ou au <a href={telHref}>{site.phone}</a>.
+  </p>
+</Section>

@@ -9,7 +9,7 @@ icon: "🍃"
 
 Les 4 Sources, c'est 15 hectares de nature entre Namur et Dinant, à Yvoir ; un vrai bol d'air pour les équipes qui ont besoin de se retrouver ailleurs qu'au bureau. ASBL, professions libérales, collectifs, startups : de 6 à 25 personnes, on vous accueille les bras ouverts pour une mise au vert qui fait du bien.
 
-![Dclic 1](../../assets/migration/sejours__mises-au-vert/02-dclic_1.jpg)
+![Une équipe en mise au vert aux 4 Sources](../../assets/migration/sejours__mises-au-vert/02-dclic_1.jpg)
 
 ### Pour quel type d’équipe ?
 
@@ -24,7 +24,7 @@ On nous choisit particulièrement quand on est :
 
 Les groupes que nous recevons comptent généralement entre **6 et 25 personnes**.
 
-![Img 4040](../../assets/migration/sejours__mises-au-vert/03-img_4040.jpg)
+![Réunion d’équipe dans la petite salle](../../assets/migration/sejours__mises-au-vert/03-img_4040.jpg)
 
 ### Nos formules
 
@@ -42,7 +42,7 @@ Pour une journée stratégique, un bilan trimestriel, un atelier de cohésion. D
 
 **Deux nuits, trois jours.** Pour un séminaire complet, une retraite d'équipe, ou un moment de ressourcement en profondeur. Idéal en semaine. Possibilité d'intégrer [un ou plusieurs ateliers de notre catalogue](/catalogue). De 6 à 25 personnes.
 
-![Img 6987](../../assets/migration/sejours__mises-au-vert/04-img_6987.jpg)
+![Pause sur la terrasse](../../assets/migration/sejours__mises-au-vert/04-img_6987.jpg)
 
 ### Ce qui est inclus (plus de détails en bas de page)
 
@@ -56,7 +56,7 @@ Pour que tu puisses te concentrer sur ton équipe et rien d'autre :
 
 **En option** : repas préparés sur place (selon disponibilité), [ateliers thématiques](/catalogue), [souper pizzas au feu de bois](/catalogue/pizza-ou-camembert-party), [initiation grimpe dans les arbres](/catalogue/grimpe-encadree-dans-les-arbres), [visite guidée du projet](/catalogue/decouverte-du-projet-des-4-sources).
 
-![Img 4049](../../assets/migration/sejours__mises-au-vert/05-img_4049.jpg)
+![Travail en groupe dans la grande salle](../../assets/migration/sejours__mises-au-vert/05-img_4049.jpg)
 
 ### Questions fréquentes
 
@@ -99,7 +99,7 @@ Idéalement **3 à 4 mois à l'avance**, surtout pour le résidentiel de printem
 
 #### [La Chevêche](/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes)
 
-![Hébergement pour une équipe de 8 personnes à Yvoir](../../assets/migration/shared/9c01de4e1305-e74d6a3d-5207-42ea-a090-d5e4185e62d7.png)
+![La Chevêche, gîte pour 8 personnes](../../assets/migration/shared/9c01de4e1305-e74d6a3d-5207-42ea-a090-d5e4185e62d7.png)
 
 - Accueille jusqu’à **8 personnes**
 - Au rez-de-chaussée
@@ -110,7 +110,7 @@ Idéalement **3 à 4 mois à l'avance**, surtout pour le résidentiel de printem
 
 #### [La Hulotte](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes)
 
-![Hébergement pour 4 à 25 personnes à Yvoir](../../assets/migration/shared/b1dc51d286e7-981dc533-fce0-417b-9f7c-ffd762e22873.png)
+![La Hulotte, gîte pour 15 personnes](../../assets/migration/shared/b1dc51d286e7-981dc533-fce0-417b-9f7c-ffd762e22873.png)
 
 - Accueille jusqu’à **15 personnes**
 - Aux 1er et 2ème étages
@@ -121,28 +121,15 @@ Idéalement **3 à 4 mois à l'avance**, surtout pour le résidentiel de printem
 
 ### Des ateliers à faire entre collègues 👩🏻‍💼
 
-**Catalogue des activités**
+Pizza party au four à bois, ateliers cuisine, fabrication d’allume-feux ou de bombes à graines, visite de la micro-ferme, zythologie, grimpe dans les arbres, disc-golf, bain d’ânes…
 
-- [🥧Ateliers cuisine (sucré ou salé)](/catalogue/ateliers-cuisine-sucr-ou-sal) — Sur demande
-- [🍕Atelier pizza](/catalogue/atelier-pizza) — Sur demande
-- [🥖Atelier pain au levain](/catalogue/atelier-fabrication-de-pizza-1) — Sur demande
-- [🌸Fabrication de bombes à graines](/catalogue/fabrication-de-bombes-graines) — En saison
-- [🍴Echanges sur les 4 Sources autour d’un repas](/catalogue/echanges-sur-les-4-sources-autour-dun-repas) — Sur demande
-- [🔥Fabrication d’allume-feux](/catalogue/fabrication-dallume-feux) — Sur demande
-- [🦙Visite de la micro-ferme](/catalogue/visite-de-la-micro-ferme) — Sur demande
-- [🍺Introduction à la zythologie](/catalogue/zythologie) — Sur demande
-- [🍕Pizza Party pour groupes](/catalogue/pizza-ou-camembert-party) — Toujours disponible
-- [🍃Un tour à la découverte du projet des 4 Sources](/catalogue/decouverte-du-projet-des-4-sources) — Toujours disponible
-- [🤾🏻‍♂️Initiation au Disc-golf](/catalogue/initiation-au-disc-golf) — Sur demande
-- [🪢Grimpe encadrée dans les arbres](/catalogue/grimpe-encadree-dans-les-arbres) — Sur demande
-- [🐎Bain d’ânes](/catalogue/temps-avec-le-troupeau-d-anes) — Toujours disponible
-- [🥧Cuisine d’un repas ou d’un goûter aux plantes sauvages](/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages) — En saison
+<a class="button" href="/catalogue">Le catalogue des activités</a>
 
 ### Travailler au calme… 🍃
 
 Vous souhaitez trouver un lieu au calme, avec une nature environnante exceptionnelle pour mieux vous concentrer pendant certaines périodes de votre mise au vert ? Profitez de [notre coworking](/coworking) avec 3 bureaux. Chaises confortables, wifi, imprimante et écrans 24” HDMI.
 
-![Img 20240314 wa0036](../../assets/migration/sejours__mises-au-vert/22-img-20240314-wa0036.jpg)
+![Le coworking dans la Clairière](../../assets/migration/sejours__mises-au-vert/22-img-20240314-wa0036.jpg)
 
 ### Tarifs
 
@@ -166,4 +153,4 @@ Les 4 Sources se trouvent à **Yvoir, en province de Namur**, entre Namur (20 mi
 
 <a class="button" href="/a-propos/acces-ahinvaux">Accéder aux 4 Sources</a>
 
-![Dclic 8](../../assets/migration/sejours__mises-au-vert/23-dclic_8.jpg)
+![La clairière des 4 Sources](../../assets/migration/sejours__mises-au-vert/23-dclic_8.jpg)

@@ -24,7 +24,7 @@ category: "Environnement"
 registrationUrl: "https://forms.gle/vajVYqhdwnJHJea37"
 ---
 
-#### Colin vous propose un questionnement sur notre rapport à la nature, à nos choix, et notre culture, à travers la beauté et la complexité que celle-ci nous permet de contempler.
+Colin vous propose un questionnement sur notre rapport à la nature, à nos choix, et notre culture, à travers la beauté et la complexité que celle-ci nous permet de contempler.
 
 Cette balade est organisée par Colin Vanhamme, dans le cadre d’un TFF de la Formation *[Interprète Nature et Environnement](https://www.education-environnement.be/formation.php?idc=2&c=interprete-nature-et-environnement-guide-nature-cnb-de-liege)* du CRIE de Liège.
 

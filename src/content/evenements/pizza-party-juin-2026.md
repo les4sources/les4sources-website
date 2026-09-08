@@ -37,7 +37,7 @@ Prochaine PP le 17 juillet ⬇️
 
 <a class="button" href="https://www.billetweb.fr/pizza-party-de-juillet">🍕 Je m'inscris de ce pas</a>
 
-#### Wahoo, on fête nos 5 ans le 12 juin 🎉 Pour célébrer notre anniversaire en toute convivialité, nous avons invité le P’tit orgue d’Arnaud 🪗
+Wahoo, on fête nos 5 ans le 12 juin 🎉 Pour célébrer notre anniversaire en toute convivialité, nous avons invité le P’tit orgue d’Arnaud 🪗
 
 Un orgue de Barbarie artisanal, 27 flûtes en bois, et une sonorité qui réchauffe tout de suite l'ambiance. 🎶
 
@@ -47,7 +47,7 @@ Avec ses 88 cartons perforés, Arnaud promène un répertoire généreux d'airs 
 
 Une belle façon de se retrouver, de sourire et de laisser la bonne humeur faire son chemin. 🎵
 
-![Img 2571 grande](../../assets/migration/evenements__pizza-party-juin-2026/02-img_2571_-_grande.jpg)
+![🍕COMPLET ! Pizza Party : on fête nos 5 ans](../../assets/migration/evenements__pizza-party-juin-2026/02-img_2571_-_grande.jpg)
 
 Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée ! Bienvenue **ce vendredi 12 juin, dès 18h30** :
 

@@ -4,7 +4,7 @@ description: "Deux journées pour construire, comprendre et tester ton réchaud 
 legacyPath: "/evenements/low-tech-novembre-2024"
 start: "2024-11-23"
 end: "2024-11-24"
-cover: "../../assets/migration/evenements__low-tech-novembre-2024/01-Atelier_Low-Tech.png"
+cover: "../../assets/migration/evenements__low-tech-novembre-2024/01-Atelier_Low-Tech.jpg"
 coverAlt: "Low-tech: réchaud rocket stove et travail du métal"
 properties:
   Date: "2024-11-23 → 2024-11-24"
@@ -41,7 +41,7 @@ seoTitle: "Low-tech: réchaud rocket stove et… — 23 et 24 novembre 2024"
 <!-- columns -->
 <!-- column width="50%" -->
 
-![IMG 20241016 105904 8](../../assets/migration/shared/196f797c281f-IMG_20241016_105904_8.jpg)
+![Low-tech: réchaud rocket stove et travail du métal](../../assets/migration/shared/196f797c281f-IMG_20241016_105904_8.jpg)
 
 <!-- column width="50%" -->
 

@@ -2,7 +2,7 @@
 title: "Initiation à la soudure à l’arc"
 description: "→ Session du 6 septembre 2025 (9h-12h30) — Les 4 Sources, tiers-lieu à Yvoir"
 legacyPath: "/evenements/initiation-soudure-a-l-arc-sept-2025"
-cover: "../../assets/migration/evenements__initiation-soudure-a-l-arc-sept-2025/01-soudure_-1.png"
+cover: "../../assets/migration/evenements__initiation-soudure-a-l-arc-sept-2025/01-soudure_-1.jpg"
 coverAlt: "Initiation à la soudure à l’arc"
 icon: "🗓️"
 properties:

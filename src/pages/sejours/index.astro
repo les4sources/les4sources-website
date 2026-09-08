@@ -7,7 +7,8 @@ import Card from "@components/ds/Card.astro";
 import Lead from "@components/ds/Lead.astro";
 import PoleTag from "@components/ds/PoleTag.astro";
 import Section from "@components/ds/Section.astro";
-import LinkCluster from "@components/home/LinkCluster.astro";
+import PageMenu from "@components/ui/PageMenu.astro";
+import ReservationBand from "@components/ui/ReservationBand.astro";
 import Toc from "@components/sejours/Toc.astro";
 import { byPath, visible } from "@lib/content";
 
@@ -48,15 +49,16 @@ const toc = [
   { label: "Disponibilités", href: "/sejours/disponibilites" },
 ];
 
-const clusterLinks = [
-  { label: "Nos hébergements", href: "/sejours/hebergements-yvoir" },
-  { label: "Nos salles et la cuisine", href: "/sejours/salles" },
-  { label: "Notre espace pour camper", href: "/sejours/bivouac" },
-  { label: "Tarifs des hébergements et salles", href: "/sejours/tarifs" },
-  { label: "Disponibilités", href: "/sejours/disponibilites" },
-  { label: "Un séjour aux 4 Sources", href: "/sejours/sejours" },
-  { label: "Règles du lieu", href: "/sejours/regles-du-lieu" },
-  { label: "Conditions générales des séjours aux 4 Sources", href: "/sejours/conditions" },
+/** Les pages à lire avant de réserver — leur titre et leur chapeau viennent des pages elles-mêmes. */
+const menuPaths = [
+  "/sejours/hebergements-yvoir",
+  "/sejours/salles",
+  "/sejours/bivouac",
+  "/sejours/tarifs",
+  "/sejours/disponibilites",
+  "/sejours/regles-du-lieu",
+  "/sejours/conditions",
+  "/activites",
 ];
 ---
 
@@ -227,52 +229,11 @@ const clusterLinks = [
               Un grand <b>barbecue</b> est à la disposition des locataires des espaces (hébergements et
               salles) sur la terrasse. Le matériel est disponible, mais il faut prévoir du charbon.
             </li>
-          </ul>
-
-          <Card surface="paper" class="mt-6 max-w-[68ch]" padding="18px 22px">
-            <p class="font-body text-body">
-              💡 Pour en savoir plus, pour poser une question au sujet de nos activités, pour demander
-              le tarif pour ton groupe, une seule destination : <b
-                ><a href="mailto:sejours@les4sources.be">sejours@les4sources.be</a></b
-              > <b>📬</b>
-            </p>
-          </Card>
-        </section>
-
-        <section id="venir">
-          <h2 class="mb-6 font-display text-h2 font-bold">Alors, envie de venir aux 4 Sources ?</h2>
-          <p class="max-w-[68ch] font-body text-body">
-            <b>👉</b> <a href="https://formulaires.les4sources.be/sejour">Complète notre formulaire</a
-            > pour nous envoyer une demande de réservation.
-          </p>
-          <p class="mt-2.5 max-w-[68ch] font-body text-body">
-            Le formulaire, très complet, te permet de préciser tes besoins :
-          </p>
-          <p class="mt-3 flex max-w-[68ch] flex-wrap gap-x-4 gap-y-2 font-body text-body">
-            <span>✔️ Hébergements</span>
-            <span>✔️ Salles et/ou cuisine professionnelle</span>
-            <span>✔️ Espace bivouac et/ou van aménagé</span>
-            <span>✔️ Activités</span>
-            <span>✔️ Repas préparés, boulangerie et pizza/camembert parties</span>
-          </p>
-
-          <Card surface="paper" class="mt-6 max-w-[68ch]" padding="18px 22px">
-            <p class="font-body text-body">
-              💁 <b>Une question au sujet des séjours ?</b> Contacte Malau à <a
-                href="mailto:sejours@les4sources.be">sejours@les4sources.be</a
-              > ou au +32 (0)490 46 77 10.
-            </p>
-          </Card>
-
-          <p class="mt-6 max-w-[68ch] font-body text-body">
-            👉 <a href="/sejours/conditions#block-1420d149331780c1a5abc508422bf971"
-              >Conditions générales des séjours aux 4 Sources</a
-            >
-          </p>
-        </section>
-
-        <LinkCluster links={clusterLinks} />
+          </ul>        </section>
+        <PageMenu title="Préparer ton séjour 🧭" paths={menuPaths} />
       </div>
     </div>
   </Section>
+
+  <ReservationBand id="venir" />
 </BaseLayout>

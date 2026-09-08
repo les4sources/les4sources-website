@@ -15,7 +15,7 @@ start: "2025-03-22"
 category: "Environnement"
 ---
 
-#### **Rejoins-nous pour une journée immersive dans l'art de la taille des arbres fruitiers, spécifiquement les pommiers et poiriers en ce début mars, dans le magnifique cadre du pré-verger conservatoire d’arbres hautes tiges des 4 Sources à Yvoir.**
+**Rejoins-nous pour une journée immersive dans l'art de la taille des arbres fruitiers, spécifiquement les pommiers et poiriers en ce début mars, dans le magnifique cadre du pré-verger conservatoire d’arbres hautes tiges des 4 Sources à Yvoir.**
 
 Cette journée de formation t’offre l'opportunité de développer des compétences essentielles pour prendre soin de tes arbres fruitiers, assurant leur santé et leur productivité pour les années à venir.
 

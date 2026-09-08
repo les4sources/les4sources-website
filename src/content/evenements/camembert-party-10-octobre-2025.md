@@ -2,7 +2,7 @@
 title: "Camembert Party de février 🧀"
 description: "Viens déguster une \"mini-fondue\" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes…"
 legacyPath: "/evenements/camembert-party-10-octobre-2025"
-cover: "../../assets/migration/shared/3a789b6d1ca5-_Cover_pour_le_site_4S_-2.png"
+cover: "../../assets/migration/shared/3a789b6d1ca5-_Cover_pour_le_site_4S_-2.jpg"
 coverAlt: "Camembert Party de février 🧀"
 icon: "🧀"
 properties:

@@ -63,7 +63,7 @@ Elle permet de réchauffer simultanément : sur le dessus, une petite casserole,
 
 <a class="button" href="https://www.billetweb.fr/stage-low-tech-cuisiniere-aout">💛 Merveilleux, je m'inscris !</a>
 
-![Img 20250316 wa0010](../../assets/migration/shared/33d5cc562b03-img-20250316-wa0010.jpg)
+![🔥Stage low-tech : construis ta cuisinière !](../../assets/migration/shared/33d5cc562b03-img-20250316-wa0010.jpg)
 
 **Café, tisane, fruits et biscuits !**
 

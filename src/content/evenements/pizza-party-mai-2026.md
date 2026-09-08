@@ -24,7 +24,7 @@ priceText: "10 €"
 registrationUrl: "https://www.billetweb.fr/pizza-party-de-mai-2026"
 ---
 
-#### Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée ! Bienvenue **ce vendredi 8 mai, dès 18h30** :
+Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée ! Bienvenue **ce vendredi 8 mai, dès 18h30** :
 
 - nos boulangères préparent de délicieux pâtons au levain le jour même
 - tu amènes ta garniture en fonction de tes envies
@@ -36,7 +36,7 @@ registrationUrl: "https://www.billetweb.fr/pizza-party-de-mai-2026"
 
 <a class="button" href="https://www.billetweb.fr/pizza-party-de-mai-2026">🍕 Je prends mes places!</a>
 
-![20250509 180450 f856e93b](../../assets/migration/evenements__pizza-party-mai-2026/02-20250509_180450_f856e93b.jpg)
+![🍕Pizza Party de mai](../../assets/migration/evenements__pizza-party-mai-2026/02-20250509_180450_f856e93b.jpg)
 
 ## **Infos pratiques**
 

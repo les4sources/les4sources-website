@@ -91,7 +91,7 @@ const hasCover = Boolean(cover) || Boolean(remoteCover);
           <Image
             src={cover}
             alt={coverAlt || title}
-            widths={[640, 960, 1440]}
+            widths={[640, 960, 1440, 1920, 2400]}
             sizes={narrow ? "(min-width: 800px) 760px, 100vw" : "(min-width: 1220px) 1180px, 100vw"}
             loading="eager"
             class:list={[

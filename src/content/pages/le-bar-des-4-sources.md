@@ -22,7 +22,7 @@ L’accès en voiture est réservé à celles et ceux qui viennent pour une loca
 ![Pizza Party de nos 5 ans, juin 2025](../../assets/migration/le-bar-des-4-sources/02-_mg_0514.jpg)
 *Pizza Party de nos 5 ans, juin 2025*
 
-![Le bar en automne…](../../assets/migration/le-bar-des-4-sources/03-292e29f3-981b-43a1-ad97-a7e32c75c9b5.png)
+![Le bar en automne…](../../assets/migration/le-bar-des-4-sources/03-292e29f3-981b-43a1-ad97-a7e32c75c9b5.jpg)
 *Le bar en automne…*
 
 <!-- column width="50%" -->

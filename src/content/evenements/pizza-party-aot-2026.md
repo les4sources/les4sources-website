@@ -25,7 +25,7 @@ registrationUrl: "https://www.billetweb.fr/pizza-party-de-septembre-2025"
 seoTitle: "Pizza Party ! — 7 août 2026"
 ---
 
-#### Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée ! Bienvenue **ce 7 août, dès 18h30** :
+Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée ! Bienvenue **ce 7 août, dès 18h30** :
 
 - nos boulangères préparent de délicieux pâtons au levain le jour même
 - tu amènes ta garniture en fonction de tes envies
@@ -35,7 +35,7 @@ seoTitle: "Pizza Party ! — 7 août 2026"
 
 👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !
 
-![20250613 174543 df387ea4](../../assets/migration/evenements__pizza-party-aot-2026/02-20250613_174543_df387ea4.jpg)
+![Pizza Party ! 🍕](../../assets/migration/evenements__pizza-party-aot-2026/02-20250613_174543_df387ea4.jpg)
 
 ## **Infos pratiques**
 

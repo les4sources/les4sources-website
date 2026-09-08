@@ -6,7 +6,7 @@ properties:
   Type: "Habitant·e"
 name: "Sébastien Frennet"
 role: "Habitant·e"
-photo: "../../assets/migration/collectif__sbastien-frennet/01-2decabea-a234-49ae-b410-ce6a7c52305a.png"
+photo: "../../assets/migration/collectif__sbastien-frennet/01-2decabea-a234-49ae-b410-ce6a7c52305a.jpg"
 ---
 
 <!-- columns -->
@@ -18,5 +18,5 @@ Seb est notre artisan-ferronnier passionné de lowtech. Il réalise toute struct
 
 <!-- column width="50%" -->
 
-![2decabea a234 49ae b410 ce6a7c52305a](../../assets/migration/collectif__sbastien-frennet/01-2decabea-a234-49ae-b410-ce6a7c52305a.png)
+![Sébastien Frennet](../../assets/migration/collectif__sbastien-frennet/01-2decabea-a234-49ae-b410-ce6a7c52305a.jpg)
 <!-- /columns -->

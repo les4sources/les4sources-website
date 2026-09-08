@@ -6,7 +6,7 @@ properties:
   Type: "Habitant·e"
 name: "Olivier Vanhamme"
 role: "Habitant·e"
-photo: "../../assets/migration/collectif__olivier-vanhamme/01-25f1df7d-151f-4fcc-ba1d-4571f228968a.png"
+photo: "../../assets/migration/collectif__olivier-vanhamme/01-25f1df7d-151f-4fcc-ba1d-4571f228968a.jpg"
 ---
 
 <!-- columns -->
@@ -28,5 +28,5 @@ On a rarement vu quelqu'un d'aussi sérieux dans ses engagements et aussi peu pr
 
 <!-- column width="50%" -->
 
-![25f1df7d 151f 4fcc ba1d 4571f228968a](../../assets/migration/collectif__olivier-vanhamme/01-25f1df7d-151f-4fcc-ba1d-4571f228968a.png)
+![Olivier Vanhamme](../../assets/migration/collectif__olivier-vanhamme/01-25f1df7d-151f-4fcc-ba1d-4571f228968a.jpg)
 <!-- /columns -->

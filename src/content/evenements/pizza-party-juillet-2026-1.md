@@ -27,7 +27,7 @@ priceText: "10 €"
 registrationUrl: "https://www.billetweb.fr/pizza-party-de-septembre-2025"
 ---
 
-#### En juillet, mange des pizzas comme il te plaît ! Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !
+En juillet, mange des pizzas comme il te plaît ! Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !
 
 ![Mg 0307](../../assets/migration/evenements__pizza-party-juillet-2026-1/02-_mg_0307.jpg)
 

@@ -20,7 +20,7 @@ priceText: "7 €"
 registrationUrl: "https://les4sources.punchpass.com/classes/17202681"
 ---
 
-#### Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !
+Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !
 
 Bienvenue **dès 18h30** :
 

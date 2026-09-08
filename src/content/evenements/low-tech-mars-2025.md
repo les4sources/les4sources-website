@@ -27,7 +27,7 @@ seoTitle: "Low-tech: réchaud rocket stove et… — 14 et 15 mars 2025"
 <!-- columns -->
 <!-- column width="62.5%" -->
 
-#### **Deux journées pour construire, comprendre et tester ton réchaud Rocket Stove, s’initier aux low-techs et au travail du métal.**
+**Deux journées pour construire, comprendre et tester ton réchaud Rocket Stove, s’initier aux low-techs et au travail du métal.**
 
 - Initiation à la soudure et à la construction métallique
 - Échanges de savoirs sur le principe de combustion et sur les low-techs en général
@@ -37,13 +37,13 @@ seoTitle: "Low-tech: réchaud rocket stove et… — 14 et 15 mars 2025"
 
 <!-- column width="37.5%" -->
 
-![7ff13bb7 27d0 4d11 a724 660c6b81a1e5](../../assets/migration/shared/19ead03d3876-7ff13bb7-27d0-4d11-a724-660c6b81a1e5.png)
+![Low-tech: réchaud rocket stove et travail du métal](../../assets/migration/shared/19ead03d3876-7ff13bb7-27d0-4d11-a724-660c6b81a1e5.jpg)
 <!-- /columns -->
 
 <!-- columns -->
 <!-- column width="50%" -->
 
-![IMG 20241016 105904 8](../../assets/migration/shared/196f797c281f-IMG_20241016_105904_8.jpg)
+![Low-tech: réchaud rocket stove et travail du métal](../../assets/migration/shared/196f797c281f-IMG_20241016_105904_8.jpg)
 
 <!-- column width="50%" -->
 
@@ -73,7 +73,7 @@ Via [le formulaire d’inscription avec paiement en ligne](https://les4sources.p
 <!-- columns -->
 <!-- column width="50%" -->
 
-![Bd1152e8 36f5 45ca 8d6d 9ced6db274f3](../../assets/migration/shared/cfc19d606b07-bd1152e8-36f5-45ca-8d6d-9ced6db274f3.jpg)
+![Low-tech: réchaud rocket stove et travail du métal](../../assets/migration/shared/cfc19d606b07-bd1152e8-36f5-45ca-8d6d-9ced6db274f3.jpg)
 
 <!-- column width="50%" -->
 
@@ -97,14 +97,14 @@ L’hébergement comprend 2 chambres de 4 lits (prévois tes draps de lit), avec
 - Ton set de draps de lit pour un lit simple
 - Une boisson sympa à partager vendredi soir 😌
 
-![20241123 171125 1B3F661E](../../assets/migration/shared/7e4090279af6-20241123_171125_1B3F661E.jpg)
+![Low-tech: réchaud rocket stove et travail du métal](../../assets/migration/shared/7e4090279af6-20241123_171125_1B3F661E.jpg)
 
 ### L’équipe
 
 <!-- columns -->
 <!-- column width="50%" -->
 
-![Seb](../../assets/migration/shared/02cbdf52c807-b385d591-9b06-4d7d-a9cb-90e5627d351a.png)
+![Seb](../../assets/migration/shared/02cbdf52c807-b385d591-9b06-4d7d-a9cb-90e5627d351a.jpg)
 *Seb*
 
 **3 artisans passionnés par la ferronnerie, la menuiserie et les low-techs, qui ont la transmission dans le sang !**
@@ -124,4 +124,4 @@ N’hésite pas à prendre contact avec Sébastien Frennet, facilitateur des Ate
 *Mike*
 <!-- /columns -->
 
-![20241123 171029 08A6BFCD](../../assets/migration/shared/86683b92d916-20241123_171029_08A6BFCD.jpg)
+![Low-tech: réchaud rocket stove et travail du métal](../../assets/migration/shared/86683b92d916-20241123_171029_08A6BFCD.jpg)

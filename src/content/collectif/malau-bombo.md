@@ -6,7 +6,7 @@ properties:
   Type: "Habitant·e"
 name: "Malau Bombo"
 role: "Habitant·e"
-photo: "../../assets/migration/collectif__malau-bombo/01-dfc8540b-bdfb-4720-8bb7-6c5b1a48115b.png"
+photo: "../../assets/migration/collectif__malau-bombo/01-dfc8540b-bdfb-4720-8bb7-6c5b1a48115b.jpg"
 ---
 
 <!-- columns -->
@@ -20,5 +20,5 @@ Malau est la fondatrice de Petit Kiwi, le dépôt-vente pour les 0 à 18 ans qui
 
 <!-- column width="50%" -->
 
-![Dfc8540b bdfb 4720 8bb7 6c5b1a48115b](../../assets/migration/collectif__malau-bombo/01-dfc8540b-bdfb-4720-8bb7-6c5b1a48115b.png)
+![Malau Bombo](../../assets/migration/collectif__malau-bombo/01-dfc8540b-bdfb-4720-8bb7-6c5b1a48115b.jpg)
 <!-- /columns -->

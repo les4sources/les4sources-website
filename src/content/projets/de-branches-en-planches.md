@@ -10,14 +10,14 @@ embeds:
     title: "Accueil"
 ---
 
-#### **Artisan-designer et passionné des arbres,** **[Olivier](/collectif/olivier-vanhamme)** **met ses compétences au service d’une société en changement.**
+**Artisan-designer et passionné des arbres,** **[Olivier](/collectif/olivier-vanhamme)** **met ses compétences au service d’une société en changement.**
 
 <!-- columns -->
 <!-- column width="50%" -->
 
 ## Designer
 
-![WhatsApp Image 2023 10 02 at 15.53](../../assets/migration/projets__de-branches-en-planches/03-WhatsApp_Image_2023-10-02_at_15.53.jpg)
+![De Branches en Planches](../../assets/migration/projets__de-branches-en-planches/03-WhatsApp_Image_2023-10-02_at_15.53.jpg)
 
 Olivier vous accompagne dans la réalisation d’objets et espaces uniques, utiles et esthétiques qui ont du sens. Soit via des [ateliers](https://debranchesenplanches.be/propositions/#ateliers), soit via des [réalisations sur mesure](https://debranchesenplanches.be/propositions/#surmesure).
 

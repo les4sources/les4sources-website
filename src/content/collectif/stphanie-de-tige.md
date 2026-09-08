@@ -6,7 +6,7 @@ properties:
   Type: "Habitant·e"
 name: "Stéphanie de Tiège"
 role: "Habitant·e"
-photo: "../../assets/migration/collectif__stphanie-de-tige/01-c52a7d16-33ad-45a6-830f-5870becf5c10.png"
+photo: "../../assets/migration/collectif__stphanie-de-tige/01-c52a7d16-33ad-45a6-830f-5870becf5c10.jpg"
 ---
 
 <!-- columns -->
@@ -20,5 +20,5 @@ Stéphanie est la boulangère - avec son projet *Tranches de Vie* - et la cuisin
 
 <!-- column width="50%" -->
 
-![C52a7d16 33ad 45a6 830f 5870becf5c10](../../assets/migration/collectif__stphanie-de-tige/01-c52a7d16-33ad-45a6-830f-5870becf5c10.png)
+![Stéphanie de Tiège](../../assets/migration/collectif__stphanie-de-tige/01-c52a7d16-33ad-45a6-830f-5870becf5c10.jpg)
 <!-- /columns -->

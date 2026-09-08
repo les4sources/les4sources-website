@@ -11,11 +11,11 @@ Passionné par le métal, [Seb](/collectif/sbastien-frennet) met son savoir-fair
 <!-- columns -->
 <!-- column width="50%" -->
 
-![IMG 2605](../../assets/migration/projets__la-ferronnerie/02-IMG_2605.jpg)
+![Le Fer en mains](../../assets/migration/projets__la-ferronnerie/02-IMG_2605.jpg)
 
 <!-- column width="50%" -->
 
-![IMG 2606](../../assets/migration/projets__la-ferronnerie/03-IMG_2606.jpg)
+![Le Fer en mains](../../assets/migration/projets__la-ferronnerie/03-IMG_2606.jpg)
 <!-- /columns -->
 
 <!-- columns -->
@@ -23,11 +23,11 @@ Passionné par le métal, [Seb](/collectif/sbastien-frennet) met son savoir-fair
 
 ![PHOTO 2025 06 10 18 55 21](../../assets/migration/projets__la-ferronnerie/04-PHOTO-2025-06-10-18-55-21.jpg)
 
-![Img 20250316 wa0006](../../assets/migration/projets__la-ferronnerie/05-img-20250316-wa0006.jpg)
+![Le Fer en mains](../../assets/migration/projets__la-ferronnerie/05-img-20250316-wa0006.jpg)
 
 <!-- column width="50%" -->
 
 ![PHOTO 2025 04 10 20 07 42](../../assets/migration/projets__la-ferronnerie/06-PHOTO-2025-04-10-20-07-42.jpg)
 
-![G0a6757 1](../../assets/migration/projets__la-ferronnerie/07-_g0a6757_-1.jpg)
+![Le Fer en mains](../../assets/migration/projets__la-ferronnerie/07-_g0a6757_-1.jpg)
 <!-- /columns -->

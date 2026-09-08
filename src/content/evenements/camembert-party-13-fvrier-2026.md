@@ -52,7 +52,7 @@ Vous pouvez donc participer, ou non, à une session de disc-golf ce 13 mars ! Pa
 
 ![202210910 2981222505532898 253882220115932684 n](../../assets/migration/evenements__camembert-party-13-fvrier-2026/02-202210910_2981222505532898_253882220115932684_n.jpg)
 
-![Img 20250316 wa0025](../../assets/migration/evenements__camembert-party-13-fvrier-2026/03-img-20250316-wa0025.jpg)
+![Camembert Party et disc-golf nocturne 🧀](../../assets/migration/evenements__camembert-party-13-fvrier-2026/03-img-20250316-wa0025.jpg)
 
 <a class="button" href="https://www.billetweb.fr/camembert-party-de-mars-2026">🧀 Je prends ma place !</a>
 

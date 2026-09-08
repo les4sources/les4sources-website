@@ -32,6 +32,6 @@ Dans le cadre remarquable et naturel du Domaine des 4 Sources, deux parties de 1
 
 <a class="button" href="https://www.discgolfscene.com/tournament/Belgian_NT_9_2026">🥏 Lien d'inscription</a>
 
-#### Prévisions météo
+Prévisions météo
 
 <iframe title="Contenu intégré" src="https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius" name="CW2" width="318" height="318"></iframe>

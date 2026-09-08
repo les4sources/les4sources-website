@@ -20,7 +20,7 @@ priceText: "7 €"
 registrationUrl: "https://les4sources.punchpass.com/classes/15231566"
 ---
 
-#### **Wouah, les 4 Sources ont déjà 3 ans ! Viens fêter ça avec nous autour d'une soirée conviviale et festive ! Pour l'occasion, la Pizza Party sera suivie d'un concert !**
+**Wouah, les 4 Sources ont déjà 3 ans ! Viens fêter ça avec nous autour d'une soirée conviviale et festive ! Pour l'occasion, la Pizza Party sera suivie d'un concert !**
 
 [Réserve ta place pour la Pizza Party](https://les4sources.punchpass.com/classes/15231566) et prévois du cash pour le bar et le concert (rémunération au chapeau) si tu souhaites en profiter.
 

@@ -1,0 +1,70 @@
+---
+/**
+ * Menu de fin de page : les pages liées, en cartes de lien (titre, chapeau).
+ *
+ * Remplace la grappe de pastilles héritée de l'ancien site sur les pages hub
+ * (Séjours). Les libellés et les chapeaux sont ceux des pages elles-mêmes —
+ * rien n'est écrit ici ; une page absente ou brouillon n'apparaît pas.
+ */
+import { getCollection } from "astro:content";
+import { byPath, visible } from "@lib/content";
+
+interface Props {
+  /** Chemins des pages à lister, dans l'ordre d'affichage. */
+  paths: string[];
+  title?: string;
+  class?: string;
+}
+
+const { paths, title = "Pour aller plus loin", class: className } = Astro.props;
+
+const pages = visible(await getCollection("pages"));
+const items = paths
+  .map((path) => {
+    const page = byPath(pages, path);
+    if (!page) return undefined;
+    const d = page.data as {
+      title: string;
+      description?: string;
+      icon?: string;
+      generatedDescription?: boolean;
+    };
+    return {
+      href: path,
+      title: d.title,
+      icon: d.icon,
+      description: d.generatedDescription ? undefined : d.description,
+    };
+  })
+  .filter((i): i is NonNullable<typeof i> => Boolean(i));
+---
+
+{
+  items.length > 0 && (
+    <nav aria-label={title} class:list={[className]}>
+      <h2 class="mb-6 font-display text-h2 font-bold">{title}</h2>
+      <ul class="m-0 grid list-none grid-cols-1 gap-4 p-0 sm:grid-cols-2">
+        {items.map((item) => (
+          <li>
+            <a
+              href={item.href}
+              class="group block h-full rounded-photo border-[1.5px] border-line-soft bg-white p-5 no-underline transition-[border-color,box-shadow] duration-200 ease-[cubic-bezier(0.2,0.7,0.2,1)] hover:border-line hover:shadow-md"
+            >
+              <p class="m-0 font-display text-h4 font-bold text-teal group-hover:text-teal-soft">
+                {item.icon && (
+                  <span class="mr-1.5" aria-hidden="true">
+                    {item.icon}
+                  </span>
+                )}
+                {item.title}
+              </p>
+              {item.description && (
+                <p class="mt-1.5 mb-0 font-body text-small text-ink-2">{item.description}</p>
+              )}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  )
+}

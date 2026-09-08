@@ -24,7 +24,7 @@ priceText: "10 €"
 registrationUrl: "https://www.billetweb.fr/pizza-party-davril-2026"
 ---
 
-#### Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée ! Bienvenue **ce vendredi 10 avril, dès 18h30** :
+Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée ! Bienvenue **ce vendredi 10 avril, dès 18h30** :
 
 - nos boulangères préparent de délicieux pâtons au levain le jour même
 - tu amènes ta garniture en fonction de tes envies
@@ -36,7 +36,7 @@ registrationUrl: "https://www.billetweb.fr/pizza-party-davril-2026"
 
 <a class="button" href="https://www.billetweb.fr/pizza-party-davril-2026">🍕 Je m'inscris de ce pas !</a>
 
-![IMG 2254](../../assets/migration/shared/f5cc30e0084a-IMG_2254.jpg)
+![🍕Pizza Party d’avril](../../assets/migration/shared/f5cc30e0084a-IMG_2254.jpg)
 
 ## **Infos pratiques**
 

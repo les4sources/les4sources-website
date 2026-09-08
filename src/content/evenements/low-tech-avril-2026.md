@@ -36,7 +36,7 @@ registrationUrl: "https://www.billetweb.fr/low-tech-cuisiniere"
 <!-- columns -->
 <!-- column width="50%" -->
 
-![G0a6757 1](../../assets/migration/evenements__low-tech-avril-2026/02-_g0a6757_-1.jpg)
+![🔥 COMPLET ! Low-tech : construis ta cuisinière](../../assets/migration/evenements__low-tech-avril-2026/02-_g0a6757_-1.jpg)
 
 <!-- column width="50%" -->
 
@@ -56,7 +56,7 @@ Elle permet de réchauffer simultanément : sur le dessus, une petite casserole,
 
 <!-- column width="50%" -->
 
-![G0a6765](../../assets/migration/evenements__low-tech-avril-2026/03-_g0a6765.jpg)
+![🔥 COMPLET ! Low-tech : construis ta cuisinière](../../assets/migration/evenements__low-tech-avril-2026/03-_g0a6765.jpg)
 <!-- /columns -->
 
 💡 Ces 2 modèles disposent d'un four et permettent d'utiliser votre batterie de cuisine habituelle sans les noircir (pas de contact entre la flamme et les casseroles).
@@ -80,7 +80,7 @@ Elle permet de réchauffer simultanément : sur le dessus, une petite casserole,
 
 <!-- column width="50%" -->
 
-![Img 20250316 wa0010](../../assets/migration/shared/33d5cc562b03-img-20250316-wa0010.jpg)
+![🔥 COMPLET ! Low-tech : construis ta cuisinière](../../assets/migration/shared/33d5cc562b03-img-20250316-wa0010.jpg)
 
 **Café, tisane, fruits et biscuits !**
 <!-- /columns -->
@@ -94,7 +94,7 @@ Elle permet de réchauffer simultanément : sur le dessus, une petite casserole,
 <!-- columns -->
 <!-- column width="50%" -->
 
-![G0a2772](../../assets/migration/evenements__low-tech-avril-2026/05-_g0a2772.jpg)
+![🔥 COMPLET ! Low-tech : construis ta cuisinière](../../assets/migration/evenements__low-tech-avril-2026/05-_g0a2772.jpg)
 
 <!-- column width="50%" -->
 
@@ -108,7 +108,7 @@ L’hébergement comprend 2 chambres de 4 lits (prévois tes draps de lit), avec
 <!-- columns -->
 <!-- column width="50%" -->
 
-![Img 20250316 wa0016](../../assets/migration/evenements__low-tech-avril-2026/06-img-20250316-wa0016.jpg)
+![🔥 COMPLET ! Low-tech : construis ta cuisinière](../../assets/migration/evenements__low-tech-avril-2026/06-img-20250316-wa0016.jpg)
 
 <!-- column width="50%" -->
 
@@ -132,7 +132,7 @@ En dehors de l’auberge espagnole et de la Pizza Party, les repas sont végéta
 - Ton set de draps de lit pour un lit simple 🛌🏻
 - Une boisson sympa à partager jeudi soir 🧉
 
-![Img 20250316 wa0014](../../assets/migration/evenements__low-tech-avril-2026/07-img-20250316-wa0014.jpg)
+![🔥 COMPLET ! Low-tech : construis ta cuisinière](../../assets/migration/evenements__low-tech-avril-2026/07-img-20250316-wa0014.jpg)
 
 ### L’équipe
 
@@ -141,7 +141,7 @@ En dehors de l’auberge espagnole et de la Pizza Party, les repas sont végéta
 <!-- columns -->
 <!-- column width="50%" -->
 
-![Sebastien, membre des 4 Sources](../../assets/migration/evenements__low-tech-avril-2026/08-74191f63-70e2-4cf4-a526-cbfcc252d05d.png)
+![Sebastien, membre des 4 Sources](../../assets/migration/evenements__low-tech-avril-2026/08-74191f63-70e2-4cf4-a526-cbfcc252d05d.jpg)
 *Sebastien, membre des 4 Sources*
 
 <!-- column width="50%" -->

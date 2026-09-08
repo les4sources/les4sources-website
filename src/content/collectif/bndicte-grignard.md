@@ -6,7 +6,7 @@ properties:
   Type: "Habitant·e"
 name: "Bénédicte Grignard"
 role: "Habitant·e"
-photo: "../../assets/migration/collectif__bndicte-grignard/01-01476a3f-eaa5-4c9c-94cb-f53cad6c84e4.png"
+photo: "../../assets/migration/collectif__bndicte-grignard/01-01476a3f-eaa5-4c9c-94cb-f53cad6c84e4.jpg"
 ---
 
 ## Bénédicte 🐎
@@ -24,7 +24,7 @@ Egalement sensible à la méditation, elle apporte au projet une dimension inté
 
 <!-- column width="50%" -->
 
-![01476a3f eaa5 4c9c 94cb f53cad6c84e4](../../assets/migration/collectif__bndicte-grignard/01-01476a3f-eaa5-4c9c-94cb-f53cad6c84e4.png)
+![Bénédicte Grignard](../../assets/migration/collectif__bndicte-grignard/01-01476a3f-eaa5-4c9c-94cb-f53cad6c84e4.jpg)
 <!-- /columns -->
 
-![407ce023 5af3 4ab9 bec5 f3e9be1003d9](../../assets/migration/collectif__bndicte-grignard/02-407ce023-5af3-4ab9-bec5-f3e9be1003d9.png)
+![Bénédicte Grignard](../../assets/migration/collectif__bndicte-grignard/02-407ce023-5af3-4ab9-bec5-f3e9be1003d9.jpg)

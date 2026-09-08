@@ -57,7 +57,7 @@ Elle permet de réchauffer simultanément : sur le dessus, une petite casserole,
 - les collations 🥠 le café et la tisane à volonté 🍵
 - les fournitures pour ta cuisinière 🔨
 
-![Img 20250316 wa0010](../../assets/migration/shared/33d5cc562b03-img-20250316-wa0010.jpg)
+![🔥Stage low-tech : construis ta cuisinière !](../../assets/migration/shared/33d5cc562b03-img-20250316-wa0010.jpg)
 
 **Café, tisane, fruits et biscuits !**
 

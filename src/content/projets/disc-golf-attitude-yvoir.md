@@ -6,7 +6,7 @@ cover: "../../assets/migration/projets__disc-golf-attitude-yvoir/01-photo-165516
 coverAlt: "Découvrir le disc-golf à Yvoir"
 ---
 
-#### Envie de tester un sport en plein air accessible à tous, mêlant précision, stratégie et nature ? Venez jouer au **disc-golf** aux 4 Sources, à Yvoir, près de Namur !
+Envie de tester un sport en plein air accessible à tous, mêlant précision, stratégie et nature ? Venez jouer au **disc-golf** aux 4 Sources, à Yvoir, près de Namur !
 
 Nous avons la chance d’accueillir **l’un des plus beaux parcours de disc-golf de Belgique**, géré par le **club** [Disc-Golf Attitude](https://www.discgolfattitude.be). Situé en pleine nature, notre terrain vallonné offre un cadre exceptionnel pour pratiquer ou découvrir ce sport.
 

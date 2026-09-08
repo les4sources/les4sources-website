@@ -31,7 +31,7 @@ Pic-nic le midi et Pizza party au soir pour clôturer en beauté la journée �
 
 <a class="button" href="https://www.billetweb.fr/journee-creative-construis-ton-objet-en-bois-de-palette">🪓 Je prends ma place !</a>
 
-![Img 20240225 150154](../../assets/migration/evenements__weekend-ressources/02-img_20240225_150154.jpg)
+![🪓 Créer un objet en bois de palette](../../assets/migration/evenements__weekend-ressources/02-img_20240225_150154.jpg)
 
 **Bien évidemment, tu repars avec l’objet construit de tes mains au terme des trois jours** 🪑
 
@@ -39,7 +39,7 @@ Pic-nic le midi et Pizza party au soir pour clôturer en beauté la journée �
 
 > *J’ai une formation de base en design industriel. Je me suis aussi formé à la pédagogie, à l’écologie, à l’élagage. Dans mes différents engagements j’ai toujours accordé une grande importance à l’accompagnement dans les apprentissages, aussi bien avec des enfants, des jeunes que des adultes, avec une attention au pouvoir de la créativité.*
 
-![G0a7706](../../assets/migration/evenements__weekend-ressources/03-_g0a7706.jpg)
+![🪓 Créer un objet en bois de palette](../../assets/migration/evenements__weekend-ressources/03-_g0a7706.jpg)
 
 Un coup d’oeil sur son site → [https://debranchesenplanches.be](https://debranchesenplanches.be/) 🌳
 

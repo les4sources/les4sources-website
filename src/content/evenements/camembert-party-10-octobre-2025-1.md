@@ -2,7 +2,7 @@
 title: "Camembert Party d’octobre 🧀 (1)"
 description: "Camembert Party d’octobre 🧀 (1) — Les 4 Sources, tiers-lieu à Yvoir"
 legacyPath: "/evenements/camembert-party-10-octobre-2025-1"
-cover: "../../assets/migration/shared/3a789b6d1ca5-_Cover_pour_le_site_4S_-2.png"
+cover: "../../assets/migration/shared/3a789b6d1ca5-_Cover_pour_le_site_4S_-2.jpg"
 coverAlt: "Camembert Party d’octobre 🧀 (1)"
 icon: "🧀"
 properties:

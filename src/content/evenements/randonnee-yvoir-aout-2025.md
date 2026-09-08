@@ -4,7 +4,7 @@ description: "3 jours de randonnée à la carte pour découvrir la région d’Y
 legacyPath: "/evenements/randonnee-yvoir-aout-2025"
 start: "2025-08-09"
 end: "2025-08-11"
-cover: "../../assets/migration/evenements__randonnee-yvoir-aout-2025/01-rando_toile.png"
+cover: "../../assets/migration/evenements__randonnee-yvoir-aout-2025/01-rando_toile.jpg"
 coverAlt: "COMPLET ! Randonnées à la découverte de la région d’Yvoir"
 properties:
   Date: "2025-08-09 → 2025-08-11"
@@ -37,7 +37,7 @@ Cet itinéraire donne accès à de magnifiques points de vue sur la Meuse en pas
 
 ## **Informations spécifiques**
 
-![Pub Colin](../../assets/migration/evenements__randonnee-yvoir-aout-2025/02-Pub_Colin.png)
+![Pub Colin](../../assets/migration/evenements__randonnee-yvoir-aout-2025/02-Pub_Colin.jpg)
 
 - **Lieu de rendez-vous** : gare d’Yvoir pour le jour 1 et Fonds d’Ahinvaux 5530 Yvoir (Les 4 Sources) pour le jours 2 et 3.
 - **Dates** : 9, 10, 11 août - 1, 2 ou 3 jours selon votre envie et vos dispos.

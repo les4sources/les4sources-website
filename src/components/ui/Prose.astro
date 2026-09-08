@@ -15,7 +15,7 @@ interface Props {
 const { width = "prose", class: className } = Astro.props;
 ---
 
-<div class:list={["prose-4s", width === "prose" ? "max-w-[68ch]" : "w-full", className]}>
+<div class:list={["prose-4s", width === "prose" ? "max-w-[68ch]" : "w-full is-wide", className]}>
   <slot />
 </div>
 
@@ -25,6 +25,21 @@ const { width = "prose", class: className } = Astro.props;
     font-size: var(--text-body);
     line-height: 1.55;
     color: var(--color-ink);
+  }
+
+  /* Pleine largeur : les colonnes, tableaux, galeries et embeds prennent toute
+     la place, mais le texte courant garde une ligne lisible (~68 caractères).
+     Une phrase de 1 180 px de long, c'est ce qui rendait les pages à colonnes
+     pénibles à lire. */
+  .prose-4s.is-wide > :global(p),
+  .prose-4s.is-wide > :global(ul),
+  .prose-4s.is-wide > :global(ol),
+  .prose-4s.is-wide > :global(h2),
+  .prose-4s.is-wide > :global(h3),
+  .prose-4s.is-wide > :global(h4),
+  .prose-4s.is-wide > :global(blockquote),
+  .prose-4s.is-wide > :global(details) {
+    max-width: 68ch;
   }
 
   /* ── Titres ─────────────────────────────────────────────────────────── */
@@ -183,7 +198,9 @@ const { width = "prose", class: className } = Astro.props;
   /* ── Tableaux (grilles tarifaires) ──────────────────────────────────── */
   .prose-4s :global(table) {
     display: block;
-    width: 100%;
+    /* Le cadre épouse les colonnes : une grille de quatre tarifs n'a pas à
+       s'étirer sur 1 180 px. Au-delà de la place disponible, elle défile. */
+    width: max-content;
     max-width: 100%;
     overflow-x: auto;
     border-collapse: collapse;

@@ -24,7 +24,7 @@ priceText: "10 €"
 registrationUrl: "https://tranchesdevie.les4sources.be/pizza-parties"
 ---
 
-#### Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée ! Bienvenue **ce 18 septembre, dès 18h30** :
+Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée ! Bienvenue **ce 18 septembre, dès 18h30** :
 
 ![Mg 0493](../../assets/migration/evenements__pizza-party-septembre-2026/02-_mg_0493.jpg)
 

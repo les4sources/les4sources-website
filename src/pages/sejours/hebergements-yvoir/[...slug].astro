@@ -6,6 +6,7 @@ import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
 import Gallery from "@components/ui/Gallery.astro";
 import PageHero from "@components/ui/PageHero.astro";
 import Prose from "@components/ui/Prose.astro";
+import ReservationBand from "@components/ui/ReservationBand.astro";
 import Badge from "@components/ds/Badge.astro";
 import Section from "@components/ds/Section.astro";
 import { byPath, pathOf, visible } from "@lib/content";
@@ -166,4 +167,6 @@ const jsonld = [breadcrumbs(crumbs.map((c) => ({ name: c.label, url: `${siteUrl}
       </Section>
     )
   }
+
+  {isLodging && <ReservationBand />}
 </BaseLayout>

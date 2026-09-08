@@ -41,7 +41,7 @@ Cet événement est facilité par Manon et Claire, membres des 4 Sources.
 
 <!-- column width="50%" -->
 
-![Untitled](../../assets/migration/evenements__lunes-en-tambours-6-juin-2024/02-Untitled.jpg)
+![Lunes en tambours](../../assets/migration/evenements__lunes-en-tambours-6-juin-2024/02-Untitled.jpg)
 <!-- /columns -->
 
 > 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [contact@les4sources.be](mailto:contact@les4sources.be).

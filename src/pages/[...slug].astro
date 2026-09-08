@@ -4,6 +4,7 @@ import { getCollection, render, type CollectionEntry } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import PageHero from "@components/ui/PageHero.astro";
 import Prose from "@components/ui/Prose.astro";
+import ReservationBand from "@components/ui/ReservationBand.astro";
 import Section from "@components/ds/Section.astro";
 import { pathOf, visible } from "@lib/content";
 import { isReservedPath } from "@lib/routes";
@@ -45,6 +46,29 @@ const wide =
   /^[ \t]*\|/m.test(body) ||
   /<table/i.test(body) ||
   /embed-iframe|embed-tally|embed-form/.test(body);
+
+/**
+ * Les pages qui vendent un séjour ou un espace se terminent toutes par la même
+ * invitation à réserver : l'ancien site la copiait dans chaque page, le gabarit
+ * la rend une fois. Les pages d'information (règles, conditions, coworking, qui
+ * se réserve par e-mail) n'en ont pas.
+ */
+const RESERVATION_PAGES = new Set([
+  "/sejours/hebergements-yvoir",
+  "/sejours/salles",
+  "/sejours/bivouac",
+  "/sejours/tarifs",
+  "/sejours/disponibilites",
+  "/sejours/sejours",
+  "/sejours/retraites-scolaires",
+  "/sejours/mises-au-vert",
+  "/sejours/en-famille-aux-4-sources",
+  "/anniversaire",
+  "/mariage-champetre",
+  "/un-team-building-aux-4-sources",
+  "/activites",
+]);
+const withReservation = RESERVATION_PAGES.has(pathOf(entry));
 
 // Fil d'Ariane dérivé du chemin réel (une page profonde = un fil d'Ariane).
 const segments = pathOf(entry).split("/").filter(Boolean);
@@ -101,4 +125,6 @@ const jsonld =
         scripts/migrate/lib/transform.ts) — ne pas les répéter ici. */}
     <Prose width={wide ? "full" : "prose"}><Content /></Prose>
   </Section>
+
+  {withReservation && <ReservationBand />}
 </BaseLayout>

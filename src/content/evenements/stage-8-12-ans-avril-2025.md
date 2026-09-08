@@ -71,7 +71,7 @@ Cet espace lumineux accueille les p’tits menuisiers avec du matériel et des p
 
 <!-- column width="50%" -->
 
-![20241123 170702 EB504299](../../assets/migration/shared/d037324589d1-20241123_170702_EB504299.jpg)
+![Les p’tits menuisiers dans la clairière](../../assets/migration/shared/d037324589d1-20241123_170702_EB504299.jpg)
 <!-- /columns -->
 
 ## Des animateurs motivés
@@ -96,7 +96,7 @@ Habitante des 4 Sources, **Magali** est la femme-orchestre du Dôme, maitrisant 
 Habitant des 4 Sources, designer, pédagogue et élagueur-grimpeur de formation, **Olivier** possède une grande expérience d’animation. Passionné par le bois, de l’arbre à la planche, il adore accompagner enfants et adultes dans la créativité.
 <!-- /columns -->
 
-![6aadbf82 ad40 4b2c 9adb b55ff133ed7c](../../assets/migration/shared/3b38791fe3d0-6aadbf82-ad40-4b2c-9adb-b55ff133ed7c.png)
+![Les p’tits menuisiers dans la clairière](../../assets/migration/shared/3b38791fe3d0-6aadbf82-ad40-4b2c-9adb-b55ff133ed7c.jpg)
 
 ## Les derniers p’tits détails
 

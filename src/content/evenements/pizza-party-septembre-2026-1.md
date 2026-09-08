@@ -26,7 +26,7 @@ generatedDescription: true
 seoTitle: "Pizza Party ! — 18 septembre 2026"
 ---
 
-#### Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !
+Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !
 
 Bienvenue le 18 septembre **dès 18h30** :
 

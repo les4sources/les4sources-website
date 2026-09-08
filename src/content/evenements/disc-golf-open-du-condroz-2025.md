@@ -15,7 +15,7 @@ start: "2025-05-10T08:30:00+02:00"
 category: "Sports"
 ---
 
-#### L’Open du Condroz est un tournoi officiel PDGA ouvert aux joueurs de tous niveaux.
+L’Open du Condroz est un tournoi officiel PDGA ouvert aux joueurs de tous niveaux.
 
 L’**Open du Condroz 2025** est de retour pour une nouvelle édition sur l’un des **plus beaux parcours de disc-golf de Belgique**, niché en pleine nature aux 4 Sources à Yvoir.
 

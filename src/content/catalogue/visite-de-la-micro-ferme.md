@@ -23,9 +23,9 @@ maxParticipants: 20
 <!-- columns -->
 <!-- column width="50%" -->
 
-![6fb0456b c7a8 4942 8fe6 f598c5805bf4](../../assets/migration/catalogue__visite-de-la-micro-ferme/02-6fb0456b-c7a8-4942-8fe6-f598c5805bf4.png)
+![Visite de la micro-ferme](../../assets/migration/catalogue__visite-de-la-micro-ferme/02-6fb0456b-c7a8-4942-8fe6-f598c5805bf4.jpg)
 
-![7e407ea3 fc2b 4d00 8852 82b91023227b](../../assets/migration/catalogue__visite-de-la-micro-ferme/03-7e407ea3-fc2b-4d00-8852-82b91023227b.png)
+![Visite de la micro-ferme](../../assets/migration/catalogue__visite-de-la-micro-ferme/03-7e407ea3-fc2b-4d00-8852-82b91023227b.jpg)
 
 ![559050390 1115283734114395 9043628362625578479 n](../../assets/migration/catalogue__visite-de-la-micro-ferme/04-559050390_1115283734114395_9043628362625578479_n.jpg)
 
@@ -56,36 +56,9 @@ Une promenade à travers les prairies des 4 Sources, c'est la garantie de rentre
 - Conditions spéciales : PAS de chiens, même tenus en laisse. Petits enfants accompagnés d’un adulte chacun
 - Prix : 120€
 
-![20260508 125303 22752ccc](../../assets/migration/catalogue__visite-de-la-micro-ferme/05-20260508_125303_22752ccc.jpg)
+![Visite de la micro-ferme](../../assets/migration/catalogue__visite-de-la-micro-ferme/05-20260508_125303_22752ccc.jpg)
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 
 ## D’autres activités à découvrir
 
-**Catalogue des activités**
-
-- [🥖Atelier pain au levain](/catalogue/atelier-fabrication-de-pizza-1) — Production et transformation
-- [🍕Atelier pizza](/catalogue/atelier-pizza) — Production et transformation
-- [🥧Ateliers cuisine (sucré ou salé)](/catalogue/ateliers-cuisine-sucr-ou-sal) — Production et transformation
-- [🐎Bain d’ânes](/catalogue/temps-avec-le-troupeau-d-anes) — Bien-être
-- [🧀Camembert Party pour groupes](/catalogue/camembert-party) — Production et transformation
-- [🖐🏻Chantier participatif](/catalogue/chantier-participatif)
-- [🛞Construction d’objets en acier de récup’](/catalogue/cration-de-bijoux-en-matriaux-de-rcup) — Artisanat
-- [🌾Construction de mini cabanes en terre-paille](/catalogue/construction-de-mini-cabanes-en-terre-paille) — Nature et environnement, Vie collective, Artisanat
-- [🪵Création d’objets en palettes](/catalogue/cration-dobjets-en-palettes) — Artisanat
-- [💎Création de bijoux en matériaux de récup’](/catalogue/construction-dobjets-en-acier-de-rcup) — Artisanat, Production et transformation
-- [🥧Cuisine d’un repas ou d’un goûter aux plantes sauvages](/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages) — Production et transformation
-- [🍴Echanges sur les 4 Sources autour d’un repas](/catalogue/echanges-sur-les-4-sources-autour-dun-repas) — Artisanat
-- [🔥Fabrication d’allume-feux](/catalogue/fabrication-dallume-feux) — Artisanat
-- [🌸Fabrication de bombes à graines](/catalogue/fabrication-de-bombes-graines) — Production et transformation
-- [🪢Grimpe encadrée dans les arbres](/catalogue/grimpe-encadree-dans-les-arbres) — Nature et environnement
-- [💫Initiation à l’astronomie et observation des étoiles](/catalogue/initiation-astronomie-etoiles-yvoir) — Nature et environnement
-- [⚡Initiation à la soudure à l’arc](/catalogue/initiation-la-soudure) — Artisanat
-- [🤾🏻‍♂️Initiation au Disc-golf](/catalogue/initiation-au-disc-golf) — Bien-être
-- [🍄Initiation ou perfectionnement à l’identification de champignons](/catalogue/initiation-champignons-yvoir) — Nature et environnement
-- [🍺Introduction à la zythologie](/catalogue/zythologie) — Production et transformation
-- [🍕Pizza Party pour groupes](/catalogue/pizza-ou-camembert-party) — Production et transformation
-- [🌀Présentation de la gouvernance par cycle](/catalogue/prsentation-de-la-gouvernance-par-cycle)
-- [🍃Un tour à la découverte du projet des 4 Sources](/catalogue/decouverte-du-projet-des-4-sources) — Vie collective
-- [🦙Visite de la micro-ferme](/catalogue/visite-de-la-micro-ferme) — Nature et environnement
-- [🐷Visite de la micro-ferme pour les futurs éleveurs](/catalogue/visite-de-la-micro-ferme-pour-les-futurs-leveurs) — Nature et environnement

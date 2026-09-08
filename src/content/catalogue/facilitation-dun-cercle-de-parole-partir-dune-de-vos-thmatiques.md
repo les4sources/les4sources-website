@@ -17,7 +17,7 @@ maxParticipants: 15
 archived: true
 ---
 
-#### Expérimentez un espace participatif et inclusif de qualité offrant à chacun.e la possibilité de s’exprimer.
+Expérimentez un espace participatif et inclusif de qualité offrant à chacun.e la possibilité de s’exprimer.
 
 Cet atelier vous propose d'explorer une thématique de votre choix à travers une approche participative et inclusive. Il propose un cadre bienveillant et respectueux pour exprimer, écouter, comprendre et s’enrichir de différents points de vue ou partages de vécus. Il peut permettre à des amis, des collectifs et des associations de questionner comment chacun.e se sent dans ce groupe, offre la possibilité de partager des expériences personnelles à partir d’une thématique choisie ou d’entendre le ressenti de chacun.e concernant une proposition apportée ou situation vécue.
 
@@ -42,20 +42,3 @@ Cette pratique spécifique amène un espace de qualité, d’écoute et d’atte
 
 ## D’autres activités à découvrir
 
-**Catalogue des activités**
-
-- [Camembert Party pour groupes](/catalogue/camembert-party) — Production et transformation
-- [Construction d’objets en acier de récup’](/catalogue/construction-dobjets-en-acier-de-rcup) — Artisanat
-- [Création d’objets en palettes](/catalogue/cration-dobjets-en-palettes) — Artisanat
-- [Création de bijoux en matériaux de récup’](/catalogue/cration-de-bijoux-en-matriaux-de-rcup) — Artisanat
-- [Cuisine d’un repas ou d’un goûter aux plantes sauvages](/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages) — Production et transformation
-- [Grimpe encadrée dans les arbres](/catalogue/grimpe-encadree-dans-les-arbres) — Nature et environnement
-- [Initiation à l’astronomie et observation des étoiles](/catalogue/initiation-astronomie-etoiles-yvoir) — Nature et environnement
-- [Initiation à la soudure](/catalogue/initiation-la-soudure) — Artisanat
-- [Initiation au Disc-golf](/catalogue/initiation-au-disc-golf) — Bien-être
-- [Initiation ou perfectionnement à l’identification de champignons](/catalogue/initiation-champignons-yvoir) — Nature et environnement
-- [Introduction à la zythologie](/catalogue/zythologie) — Production et transformation
-- [Participation à la production du pain](/catalogue) — Production et transformation
-- [Pizza Party pour groupes](/catalogue/pizza-ou-camembert-party) — Production et transformation
-- [Rencontre avec le troupeau d’ânes](/catalogue/temps-avec-le-troupeau-d-anes) — Bien-être
-- [Un tour à la découverte du projet des 4 Sources](/catalogue/decouverte-du-projet-des-4-sources) — Vie collective

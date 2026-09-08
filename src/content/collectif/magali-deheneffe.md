@@ -6,7 +6,7 @@ properties:
   Type: "Habitant·e"
 name: "Magali Deheneffe"
 role: "Habitant·e"
-photo: "../../assets/migration/collectif__magali-deheneffe/01-b2f85f39-44ab-4709-9dc0-87862b7ca494.png"
+photo: "../../assets/migration/collectif__magali-deheneffe/01-b2f85f39-44ab-4709-9dc0-87862b7ca494.jpg"
 ---
 
 <!-- columns -->
@@ -16,5 +16,5 @@ Magali est la coordinatrice de nos aventures aux 4 Sources. Véritable couteau s
 
 <!-- column width="50%" -->
 
-![B2f85f39 44ab 4709 9dc0 87862b7ca494](../../assets/migration/collectif__magali-deheneffe/01-b2f85f39-44ab-4709-9dc0-87862b7ca494.png)
+![Magali Deheneffe](../../assets/migration/collectif__magali-deheneffe/01-b2f85f39-44ab-4709-9dc0-87862b7ca494.jpg)
 <!-- /columns -->
