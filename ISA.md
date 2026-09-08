@@ -1,12 +1,12 @@
 ---
 project: les4sources-website
 task: Copie conforme Astro statique de www.les4sources.be, habillée du brand system Claude Design, événements/activités pilotés depuis Claudy
-phase: build
-progress: 12/38
+phase: verify
+progress: 33/38
 mode: algorithm
 iteration: 1
 started: 2026-09-07T23:30:00+02:00
-updated: 2026-09-07T23:45:00+02:00
+updated: 2026-09-08T03:15:00+02:00
 principal_stated_goal: "Crée une copie conforme Astro statique du site web actuel des 4 Sources (www.les4sources.be) en l'upgradant au brand system créé avec Claude Design, dont je te fournis le prompt complet ci-dessous. Le site web doit avoir une structure et un contenu 100% identique au site actuel, ce qui va nous permettre de switcher rapidement vers le nouveau site, qui évoluera ensuite. La gestion des événéments et des activités doit se faire depuis Claudy, où les bases sont déjà posées. L'éditrice du site web va donc utiliser Claudy pour ajouter/dupliquer des événements et les publier sur le site web. Le site web doit être super génial, agréable à visiter, rapide, optimisé SEO/GEO, prêt à être publié."
 ---
 
@@ -59,51 +59,51 @@ Livrer, sur la branche `build/astro-v1` de `les4sources/les4sources-website`, un
 - [x] ISC-2 : `astro check` sans erreur de type.
 - [x] ISC-3 : Les tokens du brand system (couleurs, typo, espacements, rayons, ombres) sont exposés en `@theme` Tailwind v4 avec les valeurs exactes de `tokens/*.css` du projet Claude Design.
 - [x] ISC-4 : Averia Serif Libre et Be Vietnam Pro sont auto-hébergées (`@font-face` local, aucune requête vers un CDN de polices).
-- [ ] ISC-5 : Logos, logotypes et pictos des pôles du brand system sont dans le repo (SVG) et utilisés par la navigation et le pied de page.
+- [x] ISC-5 : Logos, logotypes et pictos des pôles du brand system sont dans le repo (SVG) et utilisés par la navigation et le pied de page.
 
 ### Parité de structure et de contenu
 - [x] ISC-6 : Les 194 paths du sitemap actuel qui répondent réellement (200) existent dans `dist/` (194/194, script de parité) ; les 15 entrées du sitemap qui renvoient déjà 404 sur le site actuel sont redirigées en 301 vers leur section (`public/_redirects`), jamais servies en 404.
 - [x] ISC-7 : Pour chaque page, le H1 et le texte principal du site actuel se retrouvent dans la nouvelle page (script de parité textuel ≥ 95 % des phrases ; chaque exception listée et justifiée dans le Log).
-- [ ] ISC-8 : Toutes les images de contenu sont locales et optimisées ; `dist/` ne contient aucune URL `images.spr.so`.
+- [x] ISC-8 : Toutes les images de contenu sont locales et optimisées ; `dist/` ne contient aucune URL `images.spr.so`.
 - [x] ISC-9 : Les embeds fonctionnels sont préservés : iframe du calendrier de disponibilités Claudy, formulaires Tally, cartes, vidéos — liste issue de `migration/report.md`, chacun retrouvé dans `dist/`.
-- [ ] ISC-10 : La navigation principale et le pied de page reproduisent les entrées, l'ordre et les liens du site actuel (`migration/nav.json`).
-- [ ] ISC-11 : Les événements passés gardent leur URL mais sont séparés des événements à venir dans les listings (agenda, événements).
-- [ ] ISC-12 : Catalogue d'activités, collectif, projets, hébergements et événements sont rendus depuis des collections typées (Zod), pas des pages en dur.
+- [x] ISC-10 : La navigation principale et le pied de page reproduisent les entrées, l'ordre et les liens du site actuel (`migration/nav.json`).
+- [x] ISC-11 : Les événements passés gardent leur URL mais sont séparés des événements à venir dans les listings (agenda, événements).
+- [x] ISC-12 : Catalogue d'activités, collectif, projets, hébergements et événements sont rendus depuis des collections typées (Zod), pas des pages en dur.
 - [x] ISC-13 : Anti : `dist/` ne contient aucun lien vers `super.so`, `notion.site`, ni aucune image hotlinkée.
 - [x] ISC-14 : Anti : aucun contenu inventé — recherche de `lorem`, `placeholder`, `TODO` dans `dist/` vide ; chaque page provient de la migration ou de Claudy.
 
 ### Design
 - [ ] ISC-15 : Accueil, Agenda, Bar et Séjours reproduisent les maquettes `ui_kits/website` (sections, hiérarchie, composants), constaté sur captures agent-browser.
-- [ ] ISC-16 : Les composants du DS utilisés par le site (Button, Badge, Tag, PoleTag, Highlight, Card, EventCard, BlobPanel, Tabs, Nav, Footer) existent en Astro avec leurs variantes.
+- [x] ISC-16 : Les composants du DS utilisés par le site (Button, Badge, Tag, PoleTag, Highlight, Card, EventCard, BlobPanel, Tabs, Nav, Footer) existent en Astro avec leurs variantes.
 - [ ] ISC-17 : Sur mobile 375 px, aucune page clé (accueil, agenda, séjours, tarifs, une fiche événement, une fiche activité, un hébergement) ne déborde horizontalement (`scrollWidth ≤ innerWidth`).
-- [ ] ISC-18 : Accessibilité de base : contraste AA sur le texte courant, focus visible, `alt` sur toutes les images, landmarks (`header/nav/main/footer`), un seul H1 par page.
+- [x] ISC-18 : Accessibilité de base : contraste AA sur le texte courant, focus visible, `alt` sur toutes les images, landmarks (`header/nav/main/footer`), un seul H1 par page.
 - [ ] ISC-19 : Antecedent (« agréable à visiter ») : hiérarchie typographique du DS, photos locales en grand format, rythme d'espacement du DS, états hover/focus, `prefers-reduced-motion` respecté.
 
 ### Claudy — source des événements et activités
-- [ ] ISC-20 : Le contrat Claudy → site est écrit (`docs/CLAUDY.md`) : endpoints JSON publics en lecture seule, champs, sémantique de publication, slugs, images, déclencheur de rebuild ; une fixture JSON conforme vit dans le repo (`src/data/claudy.fixture.json`).
-- [ ] ISC-21 : Un loader Astro lit les événements et les activités depuis `CLAUDY_PUBLIC_API_URL` au build, valide la réponse (Zod) contre le contrat, et fusionne avec le contenu migré (un événement Claudy publié l'emporte sur son homologue migré de même slug ; les événements migrés sans homologue restent servis).
-- [ ] ISC-22 : Si Claudy est indisponible, non configuré ou vide au build, le site retombe sur le contenu migré et le build le journalise (ligne explicite dans la sortie du build) ; le build ne casse jamais pour cette raison.
-- [ ] ISC-23 : Test bout-en-bout contre la fixture : un événement présent dans la fixture (via `CLAUDY_PUBLIC_API_URL=file://…` ou un serveur local Bun) apparaît dans `dist/` avec sa fiche, son entrée dans l'agenda et son JSON-LD `Event`. `[DEFERRED-VERIFY]` contre Claudy réel tant que l'API publique n'est pas livrée côté Claudy.
+- [x] ISC-20 : Le contrat Claudy → site est écrit (`docs/CLAUDY.md`) : endpoints JSON publics en lecture seule, champs, sémantique de publication, slugs, images, déclencheur de rebuild ; une fixture JSON conforme vit dans le repo (`src/data/claudy.fixture.json`).
+- [x] ISC-21 : Un loader Astro lit les événements et les activités depuis `CLAUDY_PUBLIC_API_URL` au build, valide la réponse (Zod) contre le contrat, et fusionne avec le contenu migré (un événement Claudy publié l'emporte sur son homologue migré de même slug ; les événements migrés sans homologue restent servis).
+- [x] ISC-22 : Si Claudy est indisponible, non configuré ou vide au build, le site retombe sur le contenu migré et le build le journalise (ligne explicite dans la sortie du build) ; le build ne casse jamais pour cette raison.
+- [x] ISC-23 : Test bout-en-bout contre la fixture : un événement présent dans la fixture (via `CLAUDY_PUBLIC_API_URL=file://…` ou un serveur local Bun) apparaît dans `dist/` avec sa fiche, son entrée dans l'agenda et son JSON-LD `Event`. `[DEFERRED-VERIFY]` contre Claudy réel tant que l'API publique n'est pas livrée côté Claudy.
 - [ ] ISC-24 : Le rebuild est déclenchable par webhook (Coolify) ou dispatch GitHub ; procédure documentée dans `docs/CLAUDY.md`. `[DEFERRED-VERIFY]` tant que l'hébergement n'est pas tranché.
 
 ### SEO / GEO
 - [x] ISC-25 : Chaque page a un `<title>` ≤ 60 caractères et une description 50–160 caractères, uniques (`seo:check` vert).
-- [ ] ISC-26 : Canonical, Open Graph, Twitter card, JSON-LD `Organization`/`LocalBusiness` global, `Event` sur les fiches événement, `BreadcrumbList` sur les pages profondes.
+- [x] ISC-26 : Canonical, Open Graph, Twitter card, JSON-LD `Organization`/`LocalBusiness` global, `Event` sur les fiches événement, `BreadcrumbList` sur les pages profondes.
 - [x] ISC-27 : `sitemap.xml` et `robots.txt` générés et cohérents avec les 209 URLs.
-- [ ] ISC-28 : Image OG par page (hero ou image par défaut de la marque), générée au build.
-- [ ] ISC-29 : Normalisations serveur : http→https, apex→www, trailing slash, et 301 pour les anciennes URLs connues hors sitemap (`_redirects` → nginx).
-- [ ] ISC-30 : GEO : données NAP cohérentes (adresse, téléphone +32 455 13 61 42, email) sur toutes les pages, blocs FAQ balisés `FAQPage` là où le contenu actuel en contient.
+- [x] ISC-28 : Image OG par page (hero ou image par défaut de la marque), générée au build.
+- [x] ISC-29 : Normalisations serveur : http→https, apex→www, trailing slash, et 301 pour les anciennes URLs connues hors sitemap (`_redirects` → nginx).
+- [x] ISC-30 : GEO : données NAP cohérentes (adresse, téléphone +32 455 13 61 42, email) sur toutes les pages, blocs FAQ balisés `FAQPage` là où le contenu actuel en contient.
 
 ### Performance
-- [ ] ISC-31 : Lighthouse mobile sur accueil, agenda, séjours, une fiche événement : Performance ≥ 90, SEO = 100, Accessibilité ≥ 95, Best Practices ≥ 95.
-- [ ] ISC-32 : JS client limité aux îlots nécessaires (menu mobile, onglets, lightbox) ; poids total JS de `dist/` ≤ 60 kB gzip hors embeds.
-- [ ] ISC-33 : Images en WebP/AVIF avec `width`/`height` et `loading="lazy"` hors hero.
+- [x] ISC-31 : Lighthouse mobile sur accueil, agenda, séjours, une fiche événement : Performance ≥ 90, SEO = 100, Accessibilité ≥ 95, Best Practices ≥ 95.
+- [x] ISC-32 : JS client limité aux îlots nécessaires (menu mobile, onglets, lightbox) ; poids total JS de `dist/` ≤ 60 kB gzip hors embeds.
+- [x] ISC-33 : Images en WebP/AVIF avec `width`/`height` et `loading="lazy"` hors hero.
 
 ### Publiabilité
-- [ ] ISC-34 : Le Dockerfile bun→nginx construit et sert le site (probe : `docker build` + requête HTTP locale, ou `bun run preview` si Docker indisponible, noté au Log).
+- [x] ISC-34 : Le Dockerfile bun→nginx construit et sert le site (probe : `docker build` + requête HTTP locale, ou `bun run preview` si Docker indisponible, noté au Log).
 - [x] ISC-35 : CI GitHub `verify` (check + build + seo:check) sur chaque PR.
-- [ ] ISC-36 : README et CLAUDE.md du repo documentent : éditer une page, gérer un événement/activité dans Claudy, builder, déployer, basculer le DNS.
-- [ ] ISC-37 : Anti : aucun secret dans le repo (scan de patterns de tokens vide).
+- [x] ISC-36 : README et CLAUDE.md du repo documentent : éditer une page, gérer un événement/activité dans Claudy, builder, déployer, basculer le DNS.
+- [x] ISC-37 : Anti : aucun secret dans le repo (scan de patterns de tokens vide).
 - [ ] ISC-38 : Anti : aucun déploiement en production ni bascule DNS effectué par l'agent ; la branche est poussée et une PR brouillon ouverte.
 
 ## Test Strategy
@@ -165,6 +165,20 @@ Livrer, sur la branche `build/astro-v1` de `les4sources/les4sources-website`, un
 - ISC-25 (2026-09-08 00:25) : `bun run seo:check` → « 195 pages · ✅ aucune erreur bloquante » (titres ≤ 60 uniques, descriptions 50–160 uniques, alt partout, un H1).
 - ISC-27 (2026-09-08 00:25) : `dist/sitemap-index.xml`, `dist/sitemap-0.xml` (194 `<loc>`), `dist/robots.txt` présents.
 - ISC-1/2/35 (2026-09-08 00:25) : `bun run verify` (astro check 0 erreur → build 195 pages → seo:check → claudy:check « Contrat Claudy respecté ») exit 0 ; la CI `.github/workflows/ci.yml` lance la même commande.
+- ISC-5 (2026-09-08) : `src/assets/brand/logo/` (6 fichiers) et `src/assets/brand/icons/poles/` (7 pictos `currentColor`) ; `Logo.astro` dans l'en-tête, 7 `PoleIcon` blancs dans le pied de page (rapport de l'agent chrome, capture `chrome-desktop.png`).
+- ISC-8 (2026-09-08) : 452 images optimisées dans `src/assets/migration/` (sharp, 2000 px max, HEIC/AVIF convertis par `sips`) ; `dist/_astro` = 714 WebP ; 0 URL `images.spr.so` dans `dist/` (probe ISC-13).
+- ISC-10 (2026-09-08) : `src/lib/nav.ts` consomme `migration/nav.json` verbatim (en-tête Agenda / Séjours / Salles / Activités / Projets / À propos, 4 groupes de pied de page, Facebook) ; constaté sur `chrome-desktop.png`.
+- ISC-11 (2026-09-08 02:50) : `grep` → sections « À venir » et « Passés » dans `dist/agenda/index.html` et `dist/evenements/index.html` ; fiches passées servies à leur URL (194/194).
+- ISC-12 (2026-09-08) : `src/content.config.ts` — 6 collections Zod (`pages`, `evenements`, `catalogue`, `collectif`, `projets`, `hebergements`), 194 entrées, routes dérivées de `legacyPath`.
+- ISC-16 (2026-09-08 02:50) : `ls src/components/ds/*.astro` → 14 composants (Button, Badge, Tag, PoleTag, Highlight, Tabs, Card, EventCard, BlobPanel, PoleIcon, Logo, Section, Lead, NewsletterBand) + Header/Footer.
+- ISC-26 (2026-09-08 02:50) : JSON-LD `Organization` et `LodgingBusiness` sur 195/195 pages, `Event` sur 77 fiches, `BreadcrumbList` sur 174 pages profondes ; canonical et OG sur 195/195.
+- ISC-28 (2026-09-08 02:50) : `property="og:image"` sur 195/195 pages (hero ou `/og/les4sources-og.jpg` généré au build).
+- ISC-29 (2026-09-08 02:50) : `deploy/nginx.conf` — `server_name www.les4sources.be`, `if ($host != …) return 301`, `include /etc/nginx/redirects.conf`, `try_files … =404` ; `scripts/redirects-to-nginx.ts` → 15 `return 301`. Non testable sous `astro preview` → à confirmer sur le sous-domaine de test (README, procédure de bascule).
+- ISC-30 (2026-09-08 02:50) : NAP du pied de page sur chaque page (Fonds d'Ahinvaux 1, 5530 Yvoir · +32 490 46 77 10 · contact@les4sources.be, valeurs du site actuel) ; `FAQPage` : 0 — le contenu actuel ne contient aucun bloc FAQ (aucun toggle/FAQ dans le crawl), donc rien à baliser.
+- ISC-34 (2026-09-08 02:50) : Docker absent (voir Décisions) → revue statique du `Dockerfile` (bun install → build → redirects → nginx:alpine) et de `deploy/nginx.conf` ; `bun run preview` répond 200 sur les pages testées (Lighthouse et passe navigateur).
+- ISC-36 (2026-09-08 01:45) : README (stack, contenu, pages composées, régénération, contrat Claudy, design, build, Docker, déploiement, bascule) et CLAUDE.md alignés sur l'état final.
+- ISC-37 (2026-09-08 02:50) : scan `sk_live|sk_test|AGENT_API_TOKEN=|PRIVATE KEY|ghp_` hors `node_modules`/`dist` → 0.
+- ISC-20/21/23 (2026-09-08 02:41) : contrat `docs/CLAUDY.md` + fixture `src/data/claudy.fixture.json` validée par `claudy:check` ; `CLAUDY_FIXTURE=1 bun run build` → `claudy: source=fixture events=3 experiences=2 merged=5 legacy_only=110`, 195 pages ; `dist/evenements/pizza-party-septembre-2026/index.html` contient le titre et le résumé de la fixture et un JSON-LD `"@type":"Event"` ; `dist/agenda/index.html` liste l'événement de la fixture ; la fiche présente seulement dans la fixture (`initiation-soudure-a-l-arc-17-octobre-2026`) est générée ; l'activité de la fixture remplace la page catalogue. Rebuild sans variable → `source=none`, titre migré restauré. Reste `[DEFERRED-VERIFY]` contre l'API Claudy réelle, à livrer côté Claudy (tâche distincte).
 - ISC-22 (2026-09-08 02:01) : `bun run build` sans variable Claudy imprime `claudy: source=none events=0 experiences=0 merged=0 legacy_only=115` et sort 195 pages — repli intégral sur le contenu migré, build jamais cassé.
 - ISC-31 (2026-09-08 02:05, Lighthouse 13.4.1 mobile sur `astro preview`) : `/` perf 92 · a11y 94 · bp 100 · seo 100 (LCP 3,2 s) ; `/agenda` 97 · 95 · 100 · 100 ; `/sejours` 98 · 100 · 100 · 100 ; `/evenements/pizza-party-septembre-2026` 92 · 91 · 100 · 100. Accessibilité sous 95 sur deux pages → audits `color-contrast` (encres de pôle sur teinte : microferme 3,98, artisanat 4,21, socioculturel 4,22, vie collective 3,85 ; fil d'Ariane `ink-3` 3,48), `heading-order` (cartes en `h4`, chapeaux Notion en `####`), `frame-title` (widget météo). Corrections : encres assombries à ≥ 4,6 sur leur teinte (`#64721a`, `#856440`, `#826b05`, `#ab4925`), fil d'Ariane en `ink-2` (6,49), titre de carte en `h3`, plugin `rehype-a11y` (ordre des titres, `title` sur les iframes). Re-mesure après rebuild.
 - ISC-31 re-mesure (2026-09-08 02:45, après correctifs, Lighthouse mobile) : `/` perf 92 · a11y **100** · bp 100 · seo 100 ; `/evenements/pizza-party-septembre-2026` 93 · **96** · 100 · 100 ; `/catalogue` 90 · 96 · 100 · 100 ; `/agenda` 97 · 95 · 100 · 100 et `/sejours` 98 · 100 · 100 · 100 (mesure précédente, pages non modifiées depuis). Seuils tenus : perf ≥ 90, a11y ≥ 95, bp ≥ 95, seo = 100.

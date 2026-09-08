@@ -5,3 +5,4 @@ dist
 .env.*
 # Images brutes du crawl (207 Mo, re-téléchargeables via bun run migrate:crawl && migrate:extract)
 migration/images/
+nginx-redirects.conf
