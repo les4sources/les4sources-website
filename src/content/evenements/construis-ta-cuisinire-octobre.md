@@ -37,13 +37,13 @@ Capot ouvert, elle permet de mettre à chauffer une grande casserole ou 2 petite
 
 ou…
 
-![Newsletter 2](../../assets/migration/shared/57a64a1c0093-newsletter_-2.jpg)
+![Stage low-tech : construis ta cuisinière !](../../assets/migration/shared/57a64a1c0093-newsletter_-2.jpg)
 
 ## 👉🏻 La Nomade : une cuisinière compacte.
 
 Elle permet de réchauffer simultanément : sur le dessus, une petite casserole, et dans le tiroir four, un petit plat pour four standard (L 27cm, l 17 cm). Sa compacité permet de la déplacer facilement.
 
-![Newsletter 3](../../assets/migration/shared/1c714d234264-newsletter_-3.jpg)
+![Stage low-tech : construis ta cuisinière !](../../assets/migration/shared/1c714d234264-newsletter_-3.jpg)
 
 💡 *Ces 2 modèles disposent d'un four et permettent d'utiliser votre batterie de cuisine habituelle sans les noircir (pas de contact entre la flamme et les casseroles).*
 
@@ -71,7 +71,7 @@ Le lien arrive bientôt
 
 ## Hébergement
 
-![Newsletter 6](../../assets/migration/shared/fc2961260a44-newsletter_-6.jpg)
+![Stage low-tech : construis ta cuisinière !](../../assets/migration/shared/fc2961260a44-newsletter_-6.jpg)
 
 Tu logeras en chambre partagée aux 4 Sources avec l’ensemble du groupe, l’idéal pour faire connaissance et continuer à partager des idées et connaissances jusqu’en soirée.
 
@@ -79,7 +79,7 @@ L’hébergement comprend 2 chambres de 4 lits (prévois tes draps de lit), avec
 
 ## Repas
 
-![Newsletter 4](../../assets/migration/shared/da6e659005ff-newsletter_-4.jpg)
+![Stage low-tech : construis ta cuisinière !](../../assets/migration/shared/da6e659005ff-newsletter_-4.jpg)
 
 En dehors de l’auberge espagnole et de la Pizza Party privée, les repas sont végétariens et préparés par Stéphanie dans la Cuisine des 4 Sources. Des produits ultra-frais, des plats colorés et du bon pain, que demander de plus ? Mais oui bien sûr : une délicieuse collation pour le milieu d’après-midi ! 🙂
 
@@ -106,6 +106,6 @@ En dehors de l’auberge espagnole et de la Pizza Party privée, les repas sont 
 
 *Sébastien et Magali, tous deux membres des 4 Sources*
 
-![Newsletter 5](../../assets/migration/shared/f03a52265c7d-newsletter_-5.jpg)
+![Stage low-tech : construis ta cuisinière !](../../assets/migration/shared/f03a52265c7d-newsletter_-5.jpg)
 
 > 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [contact@les4sources.be](mailto:contact@les4sources.be).

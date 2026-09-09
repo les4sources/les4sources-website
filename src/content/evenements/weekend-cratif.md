@@ -54,7 +54,7 @@ Allez, plongez ! Offrez-vous ce temps souple et liquide…
 
 > *Apprentissages, écologie, permaculture humaine, transition intérieure, féminisme, en fil de trame. Lecture, écriture, couture, un peu de dessin, méditation, ombre et lumière, forêt… en fil de chaine. Voilà les fils qui tissent quelques-uns des motifs de son parcours de vie.*
 
-![Newsletter 4](../../assets/migration/evenements__weekend-cratif/05-newsletter_-4.jpg)
+![Atelier d’écriture](../../assets/migration/evenements__weekend-cratif/05-newsletter_-4.jpg)
 
 ## En pratique
 

@@ -73,7 +73,8 @@ const allJsonld = [organization({ siteUrl }), ...jsonld];
     <main id="main">
       <slot />
     </main>
-    <NewsletterBand />
+    {/* La page /newsletter est le formulaire : pas de bande en double. */}
+    {pathname !== "/newsletter" && <NewsletterBand />}
     <Footer />
   </body>
 </html>

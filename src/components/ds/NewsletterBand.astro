@@ -1,30 +1,49 @@
 ---
 /**
- * NewsletterBand — la carte newsletter de `design/ui_kits/Home.jsx`, promue en
- * bande de bas de page présente sur toutes les pages.
+ * NewsletterBand — la bande newsletter au-dessus du pied de page, présente sur
+ * toutes les pages (sauf /newsletter, qui EST le formulaire).
  *
- * Carte sur fond papier (le sable chaud de la charte), emoji 🗞️ en tête,
- * une phrase en Averia avec l'invitation en gras, et un bouton primaire.
- * Pas de champ e-mail ici : le vrai formulaire vit sur /newsletter, et la
- * charte proscrit les faux contrôles. L'adresse est au « tu ».
+ * Bande sur fond papier (le sable chaud de la charte). À gauche, le titre de
+ * section avec son emoji et les deux phrases du site sur la newsletter ; à
+ * droite, le vrai formulaire Tally (e-mail, thématiques, consentement), celui
+ * de la page /newsletter — plus de carte-appel qui renvoie à une autre page.
+ *
+ * L'iframe est chargée paresseusement (`loading="lazy"`) : rien n'est demandé
+ * à Tally tant que la bande n'approche pas de l'écran. Le script `embed.js` de
+ * Tally ajuste la hauteur de l'iframe au contenu (`dynamicHeight=1`) ; sans
+ * lui, la hauteur de départ ci-dessous suffit à afficher le formulaire entier.
+ * Sans JavaScript, l'iframe se charge quand même (elle a un `src`).
  */
-import Button from "./Button.astro";
-import Card from "./Card.astro";
 import Section from "./Section.astro";
+
+const FORM_ID = "mK6Nx7";
+const embedSrc = `https://tally.so/embed/${FORM_ID}?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1`;
 ---
 
-<Section class="pt-0">
-  <Card surface="paper" padding="20px 28px">
-    <div class="flex flex-wrap items-center gap-5">
-      <span class="text-[28px] leading-none" aria-hidden="true">🗞️</span>
-
-      <p class="min-w-[260px] flex-1 font-body text-body text-ink">
+<Section surface="paper" id="newsletter">
+  <div class="grid grid-cols-1 gap-8 md:grid-cols-[minmax(0,5fr)_minmax(0,6fr)] md:gap-14">
+    <div class="max-w-[52ch]">
+      <h2 class="font-display text-h2 font-bold">La newsletter des 4 Sources 🗞️</h2>
+      <p class="mt-4 font-body text-lead text-ink">
         Pour être informé·e des prochains événements aux 4 Sources, <b
           >inscris-toi à notre newsletter mensuelle</b
         >.
       </p>
-
-      <Button variant="primary" size="md" href="/newsletter">Je m’inscris</Button>
+      <p class="mt-3 font-body text-body text-ink-2">
+        Nous envoyons un e-mail chaque début de mois, avec des informations sur la vie du lieu et
+        les prochains événements que nous organisons.
+      </p>
     </div>
-  </Card>
+
+    <iframe
+      src={embedSrc}
+      title="Inscription à la newsletter des 4 Sources"
+      loading="lazy"
+      width="100%"
+      height="680"
+      class="block w-full border-0"
+      style="min-height:680px"></iframe>
+  </div>
 </Section>
+
+<script is:inline src="https://tally.so/widgets/embed.js" defer></script>
