@@ -48,6 +48,9 @@ export const site = {
   /** Demande de réservation : le funnel Claudy, cible du bouton jaune de l'en-tête. */
   reservationUrl: "https://app.les4sources.be/reservation",
 
+  /** Espace client Claudy (portail, connexion par code envoyé par e-mail) : séjours et coworking. */
+  portalUrl: "https://app.les4sources.be/portail",
+
   /** Licence du site et des photos (pied de page) — le texte de l'ancien site, corrigé en « licence ». */
   licence: {
     name: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",

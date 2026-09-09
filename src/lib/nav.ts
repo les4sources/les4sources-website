@@ -16,8 +16,10 @@ import { site, type SocialLink } from "./site";
 
 export interface NavLink {
   label: string;
-  /** Chemin absolu, sans slash final (ex. "/sejours/tarifs"). */
+  /** Chemin absolu, sans slash final (ex. "/sejours/tarifs") — ou URL complète si `external`. */
   path: string;
+  /** Lien hors site (Claudy) : rendu avec `rel="noopener"`. */
+  external?: boolean;
 }
 
 export interface NavGroup {
@@ -52,6 +54,7 @@ const FOOTER: NavGroup[] = [
       { label: "Tentes et hamacs", path: "/sejours/bivouac" },
       { label: "Tarifs", path: "/sejours/tarifs" },
       { label: "Disponibilités", path: "/sejours/disponibilites" },
+      { label: "Espace client", path: site.portalUrl, external: true },
     ],
   },
   {

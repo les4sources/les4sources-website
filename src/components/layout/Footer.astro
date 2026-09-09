@@ -95,6 +95,7 @@ const telHref = `tel:${site.phone.replace(/\s+/g, "")}`;
                 <li>
                   <a
                     href={link.path}
+                    rel={link.external ? "noopener" : undefined}
                     class="font-ui text-ui font-normal text-white no-underline hover:underline"
                   >
                     {link.label}
