@@ -18,17 +18,18 @@ properties:
 category: "Environnement"
 priceText: "180 €"
 registrationUrl: "https://semisto.punchpass.com/series/46262"
+registrationLabel: "Pour s'inscrire, c'est par là"
 ---
 
 Un atelier proposé par notre partenaire Semisto **les vendredi 3 et samedi 4 avril** : avec comme intervenantes Laurence Delahaye et Laurence Thiry.
 
-## **Ralentir et s'immerger dans l'intelligence des forêts**
+## Ralentir et s'immerger dans l'intelligence des forêts
 
 Une invitation à ralentir et à s'immerger dans l'intelligence des forêts. Face aux perturbations, la forêt ne se contente pas de résister : elle s'adapte, coopère et se régénère. Cet atelier de deux jours est une rencontre entre la science forestière et la psychologie humaine. C’est une invitation à observer ces mécanismes et à les transposer à ta propre vie. Au travers d’apports théoriques, de moments sensoriels et de pratiques créatives, viens esquisser ton propre écosystème de ressources.
 
 📍 **Lieu :** *À l’Aurée des Sous-bois* - écolieu de transmission et de formation à Godinne dans la vallée de la Meuse (entre Namur et Dinant)
 
-### **Pourquoi rejoindre cet atelier ?**
+### Pourquoi rejoindre cet atelier ?
 
 La forêt est le plus ancien modèle de résilience sur Terre. En rencontrant ses cycles, on change de regard sur nos propres transitions.
 
@@ -37,8 +38,7 @@ La forêt est le plus ancien modèle de résilience sur Terre. En rencontrant se
 - **Transformer son récit** grâce aux métaphores sylvestres et à la création d'un carnet personnel
 - **Partager et échanger au sein d'un groupe bienveillant** pour nourrir sa pratique professionnelle ou son cheminement personnel
 
-#### **À qui s'adresse cet atelier?**
-
+À qui s'adresse cet atelier?
 Ce temps de pause a été pensé pour toute personne souhaitant renforcer sa capacité d'adaptation et trouver de nouveaux ancrages :
 
 - Adultes en quête de développement personnel et de sens
@@ -47,27 +47,25 @@ Ce temps de pause a été pensé pour toute personne souhaitant renforcer sa cap
 
 ![Atelier forêt et résilience 🌲](../../assets/migration/evenements__fort-et-rsilience-2026/02-_g0a4741.jpg)
 
-<a class="button" href="https://semisto.punchpass.com/series/46262">🖍️ Pour s'inscrire, c'est par là</a>
+## Le fil conducteur des deux journées
 
-## **Le fil conducteur des deux journées**
-
-#### **Introduction : rencontre avec les cycles de la vie**
+### Introduction : rencontre avec les cycles de la vie
 
 - La forêt en libre évolution : cycles de vie, de mort et de régénération
 - Parallèles entre résilience écologique et résilience humaine
 - Les échelles de résilience : de l'individu au collectif
 
-#### **Première partie :** **<u>La forêt comme miroir de soi</u>**
+### Première partie : La forêt comme miroir de soi
 
 - Retrouver ses ressources intérieures en s'inspirant des processus naturels
 - Utiliser les récits de la forêt pour accompagner son propre parcours de transformation
 
-#### **Seconde partie :** **<u>La forêt comme nature enseignante</u>**
+### Seconde partie : La forêt comme nature enseignante
 
 - Observation des stratégies de résilience des écosystèmes (souplesse, adaptation)
 - Translation de ces dynamiques en inspirations concrètes pour son quotidien
 
-### **Nos méthodes de partage**
+### Nos méthodes de partage
 
 Pédagogie par l'analogie *La forêt comme modèle, miroir et terrain d'expérience*
 
@@ -90,5 +88,3 @@ Rituel symbolique *Un moment collectif pour ancrer l'expérience*
 - Vêtements et chaussures adaptés à une immersion en forêt (quel que soit le temps)
 - Un coussin ou un plaid pour plus de confort pendant les temps assis en cercle
 - Ton pique-nique pour le repas de midi convivial. Tisanes et petites douceurs offertes sur place.
-
-<a class="button" href="https://semisto.punchpass.com/series/46262">🖍️ Pour s'inscrire, c'est par là</a>

@@ -20,6 +20,7 @@ category: "Artisanat"
 priceText: "175 €"
 registrationUrl: "https://les4sources.punchpass.com/series/40686?source=cal"
 seoTitle: "Les p’tits menuisiers dans la… — 28 avril au 2 mai 2025"
+registrationLabel: "Inscription au stage"
 ---
 
 ## En pratique
@@ -37,7 +38,7 @@ Différentes activités passionnantes sont organisées l’après-midi, portées
 
 <!-- column width="50%" -->
 
-![DSCN3315](../../assets/migration/shared/5b8d93a13886-DSCN3315.jpg)
+![Les p’tits menuisiers dans la clairière](../../assets/migration/shared/5b8d93a13886-DSCN3315.jpg)
 <!-- /columns -->
 
 En fin de semaine :
@@ -116,8 +117,6 @@ Contacte-nous à [contact@les4sources.be](mailto:contact@les4sources.be). Nous y
 <!-- column width="87.5%" -->
 
 Suis ce lien pour charger le formulaire d’inscription avec paiement en ligne par Bancontact ou carte de crédit.
-
-<a class="button" href="https://les4sources.punchpass.com/series/40686?source=cal">Inscription au stage</a>
 
 <!-- column width="12.5%" -->
 

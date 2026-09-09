@@ -20,6 +20,7 @@ category: "Artisanat"
 priceText: "175 €"
 registrationUrl: "https://les4sources.punchpass.com/series/41687"
 seoTitle: "Les p’tits menuisiers dans la… — 20 au 24 octobre 2025"
+registrationLabel: "Inscription au stage d'octobre"
 ---
 
 ## En pratique
@@ -37,7 +38,7 @@ Différentes activités passionnantes sont organisées l’après-midi, portées
 
 <!-- column width="50%" -->
 
-![DSCN3315](../../assets/migration/shared/5b8d93a13886-DSCN3315.jpg)
+![Les p’tits menuisiers dans la clairière](../../assets/migration/shared/5b8d93a13886-DSCN3315.jpg)
 <!-- /columns -->
 
 En fin de semaine :
@@ -118,8 +119,6 @@ Contacte-nous à [contact@les4sources.be](mailto:contact@les4sources.be). Nous y
 <!-- column width="87.5%" -->
 
 Suis ce lien pour charger le formulaire d’inscription avec paiement en ligne par Bancontact ou carte de crédit.
-
-<a class="button" href="https://les4sources.punchpass.com/series/41687">Inscription au stage d'octobre</a>
 
 <!-- column width="12.5%" -->
 

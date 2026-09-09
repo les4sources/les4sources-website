@@ -37,9 +37,9 @@ Viens déguster de délicieuses pizzas tout juste sorties du four, faire des ren
 
 ![Pizza Party ! 🍕](../../assets/migration/evenements__pizza-party-aot-2026/02-20250613_174543_df387ea4.jpg)
 
-## **Infos pratiques**
+## Infos pratiques
 
-- [I](https://www.billetweb.fr/pizza-party-de-septembre-2025)nscription indispensable jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons
+- Inscription indispensable jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons
 - Participation : 7 € par personne
 - Bar avec boissons bios/locales/de saison sur place 🍹
 - Paiement des consommations en cash ou par virement sur place
@@ -50,6 +50,6 @@ Le lien de l’inscription arrive bientôt ❤️
 
 > 🆕 L’inscription se passe désormais via billetweb.fr ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque ou passer par l’app Payconiq.
 
-#### Prévisions météo
+### Prévisions météo
 
 <iframe title="Contenu intégré" src="https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius" name="CW2" width="318" height="318"></iframe>

@@ -20,6 +20,7 @@ pole: "convivialite"
 start: "2026-09-06T09:00:00+02:00"
 category: "Liens et convivialité, Sports"
 registrationUrl: "https://www.discgolfscene.com/tournament/Belgian_NT_9_2026"
+registrationLabel: "Lien d'inscription"
 ---
 
 **Dimanche 6 septembre 2026 -  09h-17h00 9ᵉ manche du Belgian National Tour de Disc Golf.**
@@ -29,8 +30,6 @@ Ce tournoi s'inscrit fièrement au calendrier officiel du *Belgian National Tour
 En tant qu'étape officielle du circuit, le domaine des 4 Sources offrira aux joueurs l'opportunité de marquer de précieux points pour le classement national et de mettre leurs compétences à l'épreuve sur une véritable scène nationale.
 
 Dans le cadre remarquable et naturel du Domaine des 4 Sources, deux parties de 18 trous seront disputées sur ce  parcours exigeant, promettant une journée intense, spectaculaire et riche en performances.
-
-<a class="button" href="https://www.discgolfscene.com/tournament/Belgian_NT_9_2026">🥏 Lien d'inscription</a>
 
 Prévisions météo
 

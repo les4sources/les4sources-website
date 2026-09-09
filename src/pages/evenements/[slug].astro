@@ -1,28 +1,43 @@
 ---
 import type { GetStaticPaths } from "astro";
-import { getCollection, getEntry, render } from "astro:content";
+import { getEntry, render } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import Breadcrumbs from "@components/ui/Breadcrumbs.astro";
-import Facts from "@components/ui/Facts.astro";
-import PageHero from "@components/ui/PageHero.astro";
+import EventHero from "@components/ui/EventHero.astro";
+import EventPractical from "@components/ui/EventPractical.astro";
+import PageMenu from "@components/ui/PageMenu.astro";
 import Prose from "@components/ui/Prose.astro";
-import Badge from "@components/ds/Badge.astro";
-import BlobPanel from "@components/ds/BlobPanel.astro";
 import Button from "@components/ds/Button.astro";
-import EventCard from "@components/ds/EventCard.astro";
-import PoleTag from "@components/ds/PoleTag.astro";
 import Section from "@components/ds/Section.astro";
+import EventGrid from "@components/home/EventGrid.astro";
+import { eventItems } from "@components/home/events";
 import { siteData } from "@lib/data";
-import { formatDate, formatDateRange, formatTime, upcomingEvents } from "@lib/content";
-import { isPole } from "@lib/poles";
+import { currentYearBrussels, formatDate, formatDateRange, upcomingEvents } from "@lib/content";
+import {
+  isPastEvent,
+  otherDates as seriesDates,
+  parsePriceEuros,
+  registrationLabel,
+  timeLabel as buildTimeLabel,
+} from "@lib/events";
+import { ogImage } from "@lib/og";
+import { isPole, pole as resolvePole } from "@lib/poles";
 import { event as eventSchema, breadcrumbs, eventDocumentTitle } from "@lib/seo";
 import { site } from "@lib/site";
+import { cardTitle } from "@lib/text";
 import type { MergedEvent } from "@lib/claudy";
 
 /**
  * Fiche d'un événement, quelle que soit sa source : un événement publié dans
  * Claudy l'emporte sur son homologue migré de même slug ; une fiche migrée sans
  * homologue reste servie (son URL est un contrat).
+ *
+ * Ce que la page doit dire en trois secondes, à une famille ou un groupe
+ * d'ami·es qui arrive de Facebook ou de Google : quoi, quand, où, combien,
+ * s'il reste de la place, et comment s'inscrire. D'où le héros (thématique,
+ * titre, date), la carte pratique collante avec le bouton, le fichier agenda
+ * et le partage, puis le corps de la fiche. Une fiche passée le dit ; une fiche
+ * complète renvoie aux autres dates de la même série.
  */
 export const getStaticPaths: GetStaticPaths = async () => {
   const { events } = await siteData();
@@ -47,44 +62,71 @@ const Content = rendered?.Content;
 // événement Claudy arrive par URL. L'une ou l'autre, jamais les deux.
 const cover = legacy?.data.cover;
 const remoteCover = event.image;
+const heroImage = cover ?? remoteCover?.url;
+const heroAlt = legacy?.data.coverAlt || remoteCover?.alt || event.title;
 const props: Record<string, string> = legacy?.data.properties ?? {};
 const poleSlug = isPole(event.pole) ? event.pole : undefined;
 
-const dateLabel = formatDateRange(event.start, event.end);
-const timeLabel = event.allDay ? undefined : formatTime(event.start);
-const dateLine = [dateLabel, timeLabel].filter(Boolean).join(" · ");
-
 // « COMPLET ! » est écrit dans le titre par l'éditrice — c'est la seule source.
 const soldOut = /complet/i.test(event.title);
+const past = isPastEvent(event);
+const state = past ? "past" : soldOut ? "soldout" : "upcoming";
+// Le titre affiché : sans « COMPLET ! » (le badge le dit), emoji de tête espacé.
+const title = cardTitle(event.title, soldOut);
 
-// Le corps porte déjà ses propres boutons d'inscription dans la plupart des
-// fiches migrées : n'en ajouter un que si le contenu n'en a aucun.
-const bodySource = legacy?.body ?? event.descriptionHtml ?? "";
-const hasBodyButton = /class="[^"]*\bbutton\b/.test(bodySource);
-const showCta = Boolean(event.registrationUrl) && !hasBodyButton;
+const currentYear = currentYearBrussels();
+const dateLabel = formatDateRange(event.start, event.end, { currentYear });
+const timeLabel = buildTimeLabel(event, props);
+const dateLine = [dateLabel, timeLabel].filter(Boolean).join(" · ");
+// « a eu lieu le vendredi 18 avril » / « a eu lieu du 3 au 5 octobre ».
+const pastWhen = dateLabel ? (dateLabel.startsWith("du ") ? dateLabel : `le ${dateLabel}`) : "";
 
-const facts = [
-  { label: "Horaires", value: props["Horaires"] ?? timeLabel },
-  { label: "Tarif", value: event.priceText ?? props["Tarif"] },
-  { label: "Type d'événement", value: props["Type d'événement"] ?? event.categoryName },
-  { label: "Lieu", value: event.location ?? props["Lieu"] },
-];
+// Lieu : celui de la fiche s'il est ailleurs qu'aux 4 Sources, sinon l'adresse du lieu.
+const elsewhere = event.location && !/4 sources/i.test(event.location) ? event.location : undefined;
+const locationName = elsewhere ?? site.name;
+const addressLines = elsewhere
+  ? []
+  : [site.address.streetAddress, `${site.address.postalCode} ${site.address.locality}`];
+const accessHref = elsewhere ? undefined : "/a-propos/acces-ahinvaux";
+
+// Type d'événement : la propriété de l'éditrice ; pour Claudy, la catégorie si
+// elle ne répète pas déjà l'étiquette du pôle.
+const poleCategory = poleSlug ? resolvePole(poleSlug).category : undefined;
+const typeLabel =
+  props["Type d'événement"] ??
+  (event.source === "claudy" && event.categoryName && event.categoryName !== poleCategory
+    ? event.categoryName
+    : undefined);
+
+const registration =
+  event.registrationUrl && state === "upcoming"
+    ? { url: event.registrationUrl, label: registrationLabel(event) }
+    : undefined;
+const icsHref = event.start ? `${event.path}.ics` : undefined;
+
+// Les autres dates de la même série (soudure, pizza party…), à venir.
+const { events } = await siteData();
+const otherDates = seriesDates(events, event)
+  .slice(0, 4)
+  .map((e) => {
+    const date = formatDate(e.start, { currentYear }) ?? cardTitle(e.title, false);
+    // Une autre date déjà complète est annoncée comme telle : on n'y envoie personne pour rien.
+    return { href: e.path, label: /complet/i.test(e.title) ? `${date} · complet` : date };
+  });
 
 // « Prochainement » : les trois prochaines fiches, celle-ci exclue.
-const { events } = await siteData();
-const legacyEvents = await getCollection("evenements");
-const coverById = new Map(legacyEvents.map((e) => [e.id, e.data.cover]));
-const soon = upcomingEvents(events)
+const soon = upcomingEvents(await eventItems())
   .filter((e) => e.path !== event.path)
   .slice(0, 3);
 
 const crumbs = [
   { label: "Accueil", href: "/" },
   { label: "Les événements", href: "/evenements" },
-  { label: event.title },
+  { label: title },
 ];
 
-const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
+const siteUrlObj = Astro.site ?? new URL(site.url);
+const siteUrl = siteUrlObj.href.replace(/\/$/, "");
 const url = `${siteUrl}${event.path}`;
 
 // La description SEO doit exister : à défaut de résumé, on la compose des faits réels.
@@ -93,23 +135,28 @@ const description =
   [event.title, dateLabel, event.location].filter(Boolean).join(" — ") ||
   `${event.title} aux 4 Sources, à Yvoir.`;
 
+// Image absolue pour le JSON-LD : le crop OG de la couverture locale, sinon l'URL Claudy.
+const jsonldImage = cover ? (await ogImage(cover, siteUrlObj))?.url : remoteCover?.url;
+
 const jsonld = [
   eventSchema({
-    name: event.title,
+    name: title,
     description,
     url,
     startDate: event.start,
     endDate: event.end,
     location: event.location,
-    image: event.image?.url,
+    image: jsonldImage,
     priceText: event.priceText,
+    price: parsePriceEuros(event.priceText),
+    soldOut,
     registrationUrl: event.registrationUrl,
     pole: event.pole,
   }),
   breadcrumbs([
     { name: "Accueil", url: `${siteUrl}/` },
     { name: "Les événements", url: `${siteUrl}/evenements` },
-    { name: event.title, url },
+    { name: title, url },
   ]),
 ];
 ---
@@ -118,83 +165,133 @@ const jsonld = [
   title={event.seoTitle ?? event.title}
   documentTitle={eventDocumentTitle(event.seoTitle ?? event.title, event.start, Astro.url.pathname)}
   description={description}
+  ogImage={cover ?? remoteCover?.url}
   type="article"
   jsonld={jsonld}
 >
-  {
-    cover || remoteCover ? (
-      <div class="mx-auto w-full max-w-site px-6 pt-[clamp(18px,3vw,32px)]">
-        <Breadcrumbs items={crumbs} />
-        {/* Motif signature n°1 : la photo, et l'aplat du pôle qui porte le titre.
-            Les deux variables règlent l'aplat sur mobile sans toucher au DS. */}
-        <div class="mt-5 [--blob-h:320px] [--blob-w:82%] md:[--blob-h:430px] md:[--blob-w:46%]">
-          <BlobPanel
-            image={cover ?? remoteCover?.url}
-            imageAlt={legacy?.data.coverAlt || remoteCover?.alt || event.title}
-            pole={poleSlug}
-            width="var(--blob-w)"
-            height="var(--blob-h)"
-          >
-            <h1 class="font-display text-[clamp(23px,4.6vw,40px)] leading-[1.1] font-bold">
-              {event.title}
-            </h1>
-          </BlobPanel>
-        </div>
+  <div class="px-6 pt-[clamp(18px,3vw,32px)]">
+    <div class="mx-auto w-full max-w-site">
+      <Breadcrumbs items={crumbs} />
+      <div class="mt-5">
+        <EventHero
+          title={title}
+          pole={poleSlug}
+          image={heroImage}
+          imageAlt={heroAlt}
+          dateLine={dateLine}
+          soldOut={soldOut}
+          past={past}
+        />
       </div>
-    ) : (
-      <PageHero title={event.title} lead={event.generatedDescription ? undefined : event.description || undefined} crumbs={crumbs} narrow />
-    )
-  }
-
-  <Section narrow class="pt-9">
-    <div class="flex flex-wrap items-center gap-3">
-      {poleSlug && <PoleTag pole={poleSlug} />}
-      {soldOut && <Badge tone="danger">Complet !</Badge>}
-    </div>
-
-    {dateLine && <p class="mt-4 font-ui text-lead font-semibold text-ink">{dateLine}</p>}
-
-    <Facts items={facts} class="mt-7" />
-
-    {
-      showCta && (
-        <p class="mt-7">
-          <Button href={event.registrationUrl} rel="noopener" size="lg">
-            S'inscrire
-          </Button>
-        </p>
-      )
-    }
-
-    <Prose class="mt-9" width="full">
       {
-        event.descriptionHtml ? (
-          <Fragment set:html={event.descriptionHtml} />
-        ) : Content ? (
-          <Content />
-        ) : null
+        past && (
+          <p class="mt-5 rounded-md bg-paper px-5 py-3 font-ui text-ui text-ink-2">
+            Cet événement a eu lieu {pastWhen}.{" "}
+            <a href="/agenda">Voir les prochains rendez-vous →</a>
+          </p>
+        )
       }
-    </Prose>
+    </div>
+  </div>
+
+  <Section class="pt-8 lg:pt-10">
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,1fr)_360px] lg:gap-14">
+      <EventPractical
+        class="self-start lg:sticky lg:top-24 lg:order-2"
+        state={state}
+        dateLabel={dateLabel}
+        timeLabel={timeLabel}
+        locationName={locationName}
+        addressLines={addressLines}
+        accessHref={accessHref}
+        priceText={event.priceText}
+        typeLabel={typeLabel}
+        registration={registration}
+        icsHref={icsHref}
+        otherDates={otherDates}
+      />
+      <div class="min-w-0 lg:order-1">
+        <Prose width="full">
+          {
+            event.descriptionHtml ? (
+              <Fragment set:html={event.descriptionHtml} />
+            ) : Content ? (
+              <Content />
+            ) : null
+          }
+        </Prose>
+      </div>
+    </div>
+  </Section>
+
+  <Section surface="paper">
+    <PageMenu
+      title="Pratique pour ta venue 🧭"
+      paths={[
+        "/a-propos/acces-ahinvaux",
+        "/le-bar-des-4-sources",
+        "/carte-de-balades-vallee-du-bocq",
+        "/sejours/hebergements-yvoir",
+      ]}
+    />
   </Section>
 
   {
     soon.length > 0 && (
       <Section title="Prochainement aux 4 Sources ⛅" surface="subtle">
-        <ul class="m-0 grid list-none grid-cols-1 items-start gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
-          {soon.map((e) => (
-            <li>
-              <EventCard
-                title={e.title}
-                date={formatDate(e.start) ?? ""}
-                pole={isPole(e.pole) ? e.pole : undefined}
-                image={(e.legacyId ? coverById.get(e.legacyId) : undefined) ?? e.image?.url}
-                soldOut={/complet/i.test(e.title)}
-                href={e.path}
-              />
-            </li>
-          ))}
-        </ul>
+        <EventGrid items={soon} cols={3} />
       </Section>
     )
   }
+
+  {
+    /* Barre collante mobile : la date et le bouton restent sous le pouce tant
+       qu'on lit la fiche ; elle s'efface avec la fin du contenu (sticky, pas
+       fixed), le pied de page reste atteignable. Sur grand écran, c'est la
+       carte pratique collante qui joue ce rôle. */
+    registration && (
+      <div class="sticky bottom-0 z-30 border-t-[1.5px] border-line-soft bg-white px-4 py-3 lg:hidden">
+        <div class="mx-auto flex max-w-site items-center justify-between gap-3">
+          <p class="m-0 min-w-0 font-ui">
+            <span class="block truncate text-[14px] font-bold text-ink">{dateLabel}</span>
+            {timeLabel && <span class="block truncate text-[12px] text-ink-2">{timeLabel}</span>}
+          </p>
+          <Button href={registration.url} rel="noopener" class="shrink-0">
+            {registration.label}
+          </Button>
+        </div>
+      </div>
+    )
+  }
+
+  <script>
+    // « Partager » : la feuille de partage native quand elle existe (mobile,
+    // Safari, Chrome), sinon la copie du lien. Sans l'un ni l'autre, le bouton
+    // reste caché — rien de mort dans la page.
+    const button = document.querySelector<HTMLButtonElement>("[data-share]");
+    if (button) {
+      const canShare = typeof navigator.share === "function";
+      const canCopy = Boolean(navigator.clipboard?.writeText);
+      if (canShare || canCopy) {
+        button.hidden = false;
+        const label = button.textContent;
+        button.addEventListener("click", async () => {
+          const url = window.location.href;
+          try {
+            if (canShare) {
+              await navigator.share({ title: document.title, url });
+            } else {
+              await navigator.clipboard.writeText(url);
+              button.textContent = "Lien copié !";
+              window.setTimeout(() => {
+                button.textContent = label;
+              }, 2000);
+            }
+          } catch {
+            // Partage annulé : rien à faire.
+          }
+        });
+      }
+    }
+  </script>
 </BaseLayout>

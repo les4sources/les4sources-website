@@ -71,6 +71,8 @@ const evenements = defineCollection({
       end: z.coerce.date().optional(),
       location: z.string().optional(),
       registrationUrl: z.string().optional(),
+      /** Libellé du bouton d'inscription tel que l'éditrice l'avait écrit (« Je prends ma place »), sans son emoji. */
+      registrationLabel: z.string().optional(),
       priceText: z.string().optional(),
       category: z.string().optional(),
     }),

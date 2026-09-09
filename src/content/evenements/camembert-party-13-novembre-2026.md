@@ -53,7 +53,7 @@ Bienvenue **le 13 novembre, dès 18h30** :
 
 ![🧀 Camembert Party de novembre](../../assets/migration/evenements__camembert-party-13-novembre-2026/04-a7fc6b1c-4285-4dad-8c2e-8ec985e1f068.jpg)
 
-## **Infos pratiques**
+## Infos pratiques
 
 - Inscription indispensable jusqu’au jeudi midi avant l'événement
 - Tarif : 10 € par personne (6€ pour les enfants) + cash pour le bar 💰

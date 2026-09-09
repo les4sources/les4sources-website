@@ -1,0 +1,116 @@
+---
+/**
+ * Héros de la fiche événement — le motif signature n°1 (la photo, et l'aplat
+ * du pôle à bord courbe, cf. `ds/BlobPanel.astro`) adapté à ce qu'une fiche
+ * doit dire tout de suite : la thématique, le titre, la date. Sur mobile
+ * l'aplat ne recouvre plus la photo : elle passe au-dessus, l'aplat dessous,
+ * rien n'est caché et le titre a toute la largeur.
+ *
+ * Un seul `<h1>` par page : c'est ici qu'il vit.
+ */
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import Badge from "@components/ds/Badge.astro";
+import PoleTag from "@components/ds/PoleTag.astro";
+import { pole as resolvePole, type PoleSlug } from "@lib/poles";
+
+interface Props {
+  title: string;
+  pole?: PoleSlug;
+  /** Libellé de l'étiquette (thématique, catégorie) ; à défaut celui du pôle. */
+  tag?: string;
+  /** Couverture locale optimisée, ou URL déjà servie (Claudy). */
+  image?: ImageMetadata | string;
+  imageAlt?: string;
+  /** « vendredi 18 septembre · à partir de 18h30 ». */
+  dateLine?: string;
+  soldOut?: boolean;
+  past?: boolean;
+}
+
+const { title, pole, tag, image, imageAlt = "", dateLine, soldOut = false, past = false } =
+  Astro.props;
+
+const p = resolvePole(pole);
+// Le texte est en teal sur tous les aplats sauf le rouge (Surfaces.jsx).
+const onPanel = p.slug === "hebergement" ? "text-white" : "text-teal";
+const hasImage = Boolean(image);
+---
+
+<div
+  class:list={[
+    "l4s-event-hero relative overflow-hidden rounded-photo bg-surface",
+    hasImage ? "has-photo" : "",
+  ]}
+>
+  {
+    image && typeof image !== "string" ? (
+      <Image
+        src={image}
+        alt={imageAlt}
+        widths={[640, 960, 1440, 1920, 2400]}
+        sizes="(min-width: 1220px) 1180px, 100vw"
+        loading="eager"
+        class="l4s-event-hero-photo"
+      />
+    ) : image ? (
+      <img src={image} alt={imageAlt} class="l4s-event-hero-photo" />
+    ) : null
+  }
+
+  <div class:list={["l4s-event-hero-panel", p.classes.bg, onPanel]}>
+    <div class="flex flex-wrap items-center gap-2">
+      {pole && (tag ? <PoleTag pole={p.slug}>{tag}</PoleTag> : <PoleTag pole={p.slug} />)}
+      {soldOut && <Badge tone="danger">Complet !</Badge>}
+      {past && <Badge tone="neutral">Passé</Badge>}
+    </div>
+    <h1
+      class="mt-3 font-display text-[clamp(26px,4.4vw,40px)] leading-[1.1] font-bold text-current"
+    >
+      {title}
+    </h1>
+    {/* Sur mobile la carte pratique suit immédiatement le héros et porte la date : on ne la répète pas. */}
+    {dateLine && <p class="mt-3 hidden font-ui text-[17px] font-semibold md:block">{dateLine}</p>}
+  </div>
+</div>
+
+<style is:global>
+  .l4s-event-hero-photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+  }
+  .l4s-event-hero-panel {
+    padding: 22px 24px 26px;
+  }
+  @media (min-width: 768px) {
+    .l4s-event-hero.has-photo {
+      height: clamp(380px, 34vw, 460px);
+    }
+    .l4s-event-hero.has-photo .l4s-event-hero-photo {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      aspect-ratio: auto;
+    }
+    /* L'aplat : moitié gauche, bord droit en courbe douce — la géométrie de BlobPanel. */
+    .l4s-event-hero.has-photo .l4s-event-hero-panel {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 52%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 32px 20% 32px 40px;
+      clip-path: ellipse(100% 78% at 0% 50%);
+      -webkit-clip-path: ellipse(100% 78% at 0% 50%);
+    }
+    .l4s-event-hero:not(.has-photo) .l4s-event-hero-panel {
+      padding: 40px 48px;
+    }
+  }
+</style>

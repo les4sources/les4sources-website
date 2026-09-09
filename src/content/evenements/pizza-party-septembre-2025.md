@@ -38,7 +38,7 @@ Et pour cette Pizza Party, nous en profitons pour inaugurer **notre nouveau four
 
 ![Pizza Party et inauguration du nouveau four !](../../assets/migration/shared/f5cc30e0084a-IMG_2254.jpg)
 
-## **Infos pratiques**
+## Infos pratiques
 
 - [Inscription indispensable](https://www.billetweb.fr/pizza-party-de-septembre-2025) jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons
 - Participation : 7 € par personne
@@ -51,6 +51,6 @@ Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h30, lors
 
 > 🆕 L’inscription se passe désormais via billetweb.fr ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque ou passer par l’app Payconiq.
 
-#### Prévisions météo
+### Prévisions météo
 
 <iframe title="Contenu intégré" src="https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius" name="CW2" width="318" height="318"></iframe>

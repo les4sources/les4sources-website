@@ -20,6 +20,7 @@ category: "Liens et convivialité"
 priceText: "7 €"
 registrationUrl: "https://les4sources.punchpass.com/classes/16926850"
 seoTitle: "Camembert Party — 14 mars 2025"
+registrationLabel: "Inscription à la Camembert Party"
 ---
 
 Viens déguster une "mini-fondue" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes p’tits légumes préférés !
@@ -56,7 +57,7 @@ Nicolas Meulebrouck, aussi appelé The Beer Linguist, zythologue venu tout droit
 *Attention de ne pas le laisser parler trop longtemps, au risque de manger votre fromage froid* 😅
 <!-- /columns -->
 
-## **Infos pratiques**
+## Infos pratiques
 
 - **[Inscription indispensable](https://les4sources.punchpass.com/classes/16926850)** jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer les bonnes quantités pour la préparation des pains
 - Tarif : 7 € par personne + cash pour le bar
@@ -64,5 +65,3 @@ Nicolas Meulebrouck, aussi appelé The Beer Linguist, zythologue venu tout droit
 - Bar avec boissons bios/locales/de saison sur place 🍹
 
 Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30, lorsque le four est encore chaud de la journée.
-
-<a class="button" href="https://les4sources.punchpass.com/classes/16926850">Inscription à la Camembert Party</a>

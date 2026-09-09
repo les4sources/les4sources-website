@@ -20,11 +20,12 @@ pole: "artisanat"
 category: "Artisanat"
 priceText: "485 €"
 registrationUrl: "https://www.billetweb.fr/low-tech-cuisiniere"
+registrationLabel: "ça a l'air super, je prends ma place !"
 ---
 
 > 🔥 Le stage est complet ! D’autres dates arriveront bientôt
 
-### **Trois journées - 9, 10 et 11 avril - pour construire et tester ta cuisinière, s’initier aux low-techs et au travail du métal.**
+### Trois journées - 9, 10 et 11 avril - pour construire et tester ta cuisinière, s’initier aux low-techs et au travail du métal.
 
 - Initiation à la soudure et à la construction métallique
 - Convivialité et repas : auberge espagnole le jeudi midi, pizza party le vendredi soir 🍕
@@ -86,8 +87,6 @@ Elle permet de réchauffer simultanément : sur le dessus, une petite casserole,
 <!-- /columns -->
 
 ### Inscription
-
-<a class="button" href="https://www.billetweb.fr/low-tech-cuisiniere">🤩 ça a l'air super, je prends ma place !</a>
 
 ### Hébergement
 

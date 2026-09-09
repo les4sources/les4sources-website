@@ -19,11 +19,11 @@ category: "Environnement"
 
 Cette journée de formation t’offre l'opportunité de développer des compétences essentielles pour prendre soin de tes arbres fruitiers, assurant leur santé et leur productivité pour les années à venir.
 
-### **Pourquoi la taille est-elle cruciale ?**
+### Pourquoi la taille est-elle cruciale ?
 
 La taille est un élément essentiel dans la gestion d'un verger. Elle influence non seulement la future récolte mais aussi la santé globale de l'arbre. Savoir quand et comment tailler permet de maximiser la production de fruits et d'assurer une croissance équilibrée et durable.
 
-### **Ce que tu apprendras**
+### Ce que tu apprendras
 
 - **Utilisation des outils de taille** Familiarise-toi avec les outils nécessaires et apprends à les manier avec précision et sécurité.
 - **Lecture de l’arbre** Comprends la structure unique de chaque arbre fruitier et identifie les meilleures branches à tailler pour favoriser une croissance saine.
@@ -59,10 +59,10 @@ Ex-professeur d'horticulture, formateur en permaculture et conseiller en projets
 
 <!-- column width="43.8%" -->
 
-![Image](../../assets/migration/evenements__taille-arbres-fruitiers-22-mars-2025/03-image.png)
+![Initiation à la taille d’arbres et arbustes fruitiers](../../assets/migration/evenements__taille-arbres-fruitiers-22-mars-2025/03-image.png)
 <!-- /columns -->
 
-## **En pratique**
+## En pratique
 
 - **Quand?** Le samedi **22 mars 2025** de 9h30 à 17h
 - **À quel prix?** Cette riche journée est accessible au prix de 50€ TVAC

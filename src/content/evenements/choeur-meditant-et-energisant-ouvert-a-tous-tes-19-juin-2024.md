@@ -33,7 +33,7 @@ Profite de ce temps musical pour faire un break dans ta semaine, quitter tes pr�
 - **Pré-requis :** aucun, juste l'élan de chanter
 - **Au choix :** venue ponctuelle ou régulière (chaque 3ème mercredi du mois)
 
-#### **À emporter avec toi**
+### À emporter avec toi
 
 - boissons/encas
 - chaussures/chausson et vêtements confortables (événement exceptionnellement en extérieur si la météo le permet donc prévois des vêtements et chaussures adaptés à la météo au cas où)

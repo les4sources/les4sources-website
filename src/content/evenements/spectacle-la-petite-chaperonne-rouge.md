@@ -18,6 +18,7 @@ start: "2026-05-31T16:00:00+02:00"
 category: "Liens et convivialité"
 priceText: "15 €"
 registrationUrl: "https://www.billetweb.fr/spectacle-la-petite-chaperonne-rouge"
+registrationLabel: "Je prends ma place !"
 ---
 
 ## La Petite Chaperonne Rouge s’invite aux 4 Sources
@@ -34,8 +35,6 @@ Harmonie, trop influencée par les débats sur les réseaux sociaux, est facilem
 
 Comment Jean-Jérôme va-t-il l’aider à profiter de ce moment scénique tant attendu ? Préparez-vous à des moments de rires intenses et à des explosions d’émotions 💕
 
-<a class="button" href="https://www.billetweb.fr/spectacle-la-petite-chaperonne-rouge">🤩 Je prends ma place !</a>
-
 ![Cie artifice 2025 029 5](../../assets/migration/evenements__spectacle-la-petite-chaperonne-rouge/02-cie_artifice_2025-029_-5.jpg)
 
 ## En pratique
@@ -44,7 +43,5 @@ Comment Jean-Jérôme va-t-il l’aider à profiter de ce moment scénique tant 
 - Public : tout public, dès 8 ans
 - Humour pimenté, piano en liberté et interactions avec le public
 - Prix adulte : 15€ | Prix enfant : 8€
-
-<a class="button" href="https://www.billetweb.fr/spectacle-la-petite-chaperonne-rouge">🤩 Je prends ma place !</a>
 
 ![Cie artifice 2025 029 4](../../assets/migration/evenements__spectacle-la-petite-chaperonne-rouge/03-cie_artifice_2025-029_-4.jpg)

@@ -19,9 +19,10 @@ pole: "ressourcement"
 category: "Ressourcement, Artisanat"
 priceText: "75 €"
 registrationUrl: "https://www.billetweb.fr/plantes-papier-pigments"
+registrationLabel: "Je prends ma place !"
 ---
 
-## **Une belle journée - le samedi 3 octobre - pour…**
+## Une belle journée - le samedi 3 octobre - pour…
 
 …cueillir les plantes en pleine nature pour en extraire leurs empreintes et leur silhouette. Aller à la rencontre des pigments végétaux, observer comment ils se déposent sur le papier, comment ils se transforment ou se révèlent selon différents processus. Tester trois techniques différentes (Anthotypes, écoprint et tatakizomé). Terminer en beauté en reliant nos explorations végétales sous forme d’un petit carnet à emporter.
 
@@ -36,8 +37,6 @@ Pas de connaissances requises, viens comme tu es !
 
 ![Pxl 20260823 154130954](../../assets/migration/evenements__weekend-cratif-1/03-pxl_20260823_154130954.jpg)
 <!-- /columns -->
-
-<a class="button" href="https://www.billetweb.fr/plantes-papier-pigments">🍃 Je prends ma place !</a>
 
 ## Bénédicte, d’Explorations Végétales 🌿
 
@@ -65,7 +64,7 @@ Pas de connaissances requises, viens comme tu es !
 ![Pxl 20260823 132108645](../../assets/migration/evenements__weekend-cratif-1/07-pxl_20260823_132108645.jpg)
 <!-- /columns -->
 
-## **En pratique**
+## En pratique
 
 - Au coeur de la clairière des 4 Sources: 📍 Fonds d’Ahinvaux, 1 à Yvoir, entre Namur et Dinant
 - Le samedi 3 octobre de 9h30 à 21h
@@ -73,9 +72,7 @@ Pas de connaissances requises, viens comme tu es !
 - Clôture le samedi soir avec une Pizza Party (cuisson au feu de bois)
 - Apporter son pic-nic et les garnitures pour la pizza 🍕
 
-<a class="button" href="https://www.billetweb.fr/plantes-papier-pigments">🍃 Je prends ma place !</a>
-
-![Mg 0384](../../assets/migration/evenements__weekend-cratif-1/08-_mg_0384.jpg)
+![Plantes Papier Pigments](../../assets/migration/evenements__weekend-cratif-1/08-_mg_0384.jpg)
 
 ### Cette journée créative est entièrement organisée par nos trois intervenant-es, Bénédicte, Olivier et Marianne
 

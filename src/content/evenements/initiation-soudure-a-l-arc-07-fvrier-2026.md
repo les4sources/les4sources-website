@@ -28,13 +28,13 @@ seoTitle: "Initiation à la soudure à l’arc — 7 février 2026"
 
 **NOUVELLE SESSION DU 07 FEVRIER 2026 (9h-12h30)**
 
-## **Objectifs**
+## Objectifs
 
 - découvrir le poste à souder MMA (soudure à l'électrode enrobée), le matériel associé, les normes de sécurité, les principes de base de cette soudure (l'arc électrique, l'électrode, les bons gestes) ;
 - expérimenter l'amorçage, le cordon à plat, le cordon en angle ;
 - être conseillé pour l'acquisition de son matériel personnel.
 
-## **Déroulement**
+## Déroulement
 
 - alternance de temps de transmission théorique et de temps d'expérimentation à l'atelier ;
 - l'intention est de transmettre un maximum de choses par l'expérimentation.
@@ -43,11 +43,11 @@ seoTitle: "Initiation à la soudure à l’arc — 7 février 2026"
 
 **Âge :** autour de 10 à 110 ans
 
-## **Inscription et tarifs**
+## Inscription et tarifs
 
 <a title="Vente de billets en ligne" href="https://www.billetweb.fr/shop.php?event=initiation-a-la-soudure-a-larc-fev-2026" class="shop_frame" target="_blank" data-src="https://www.billetweb.fr/shop.php?event=initiation-a-la-soudure-a-larc-fev-2026" data-max-width="100%" data-initial-height="600" data-scrolling="no" data-id="initiation-a-la-soudure-a-larc-fev-2026" data-resize="1">Vente de billets en ligne</a>
 
-### **Équipement de protection individuel à emporter**
+### Équipement de protection individuel à emporter
 
 - vêtements de travail non synthétiques (pas de short)
 - chaussures de sécurité ou à défaut chaussures fermées de type bottines
@@ -57,12 +57,3 @@ seoTitle: "Initiation à la soudure à l’arc — 7 février 2026"
 ## Instructeur
 
 Sébastien Frennet, membre des 4 Sources
-
-## Autres dates
-
-**Événements**
-
-- [👷🏻‍♀️ ⚡ COMPLET ! Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-5-septembre-2026) — samedi 12 septembre · Formation
-- [👷🏻 ⚡ COMPLET ! Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-17-octobre-2026) — samedi 17 octobre · Formation
-- [👷🏻 ⚡ Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-21-novembre-2026) — samedi 21 novembre · Formation
-- [👷🏻‍♀️ Initiation à la soudure à l’arc ⚡](/evenements/initiation-soudure-a-l-arc-12-dcembre-2026) — samedi 12 décembre · Formation

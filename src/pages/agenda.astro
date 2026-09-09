@@ -26,7 +26,6 @@ const past = pastEvents(events);
 const categories = categoriesOf(upcoming);
 
 const title = entry?.data.title ?? "L’agenda des 4 Sources";
-const icon = entry?.data.icon;
 const description = entry?.data.description ?? "Viens nous rencontrer lors de nos prochains événements !";
 ---
 
@@ -37,7 +36,7 @@ const description = entry?.data.description ?? "Viens nous rencontrer lors de no
   noindex={entry?.data.noindex ?? false}
 >
   <Section narrow class="pb-6">
-    <h1 class="mb-3 font-display text-h1 font-bold">{icon ? `${title} ${icon}` : title}</h1>
+    <h1 class="mb-3 font-display text-h1 font-bold">{title}</h1>
     <Lead>Viens nous rencontrer lors de nos prochains événements !</Lead>
   </Section>
 

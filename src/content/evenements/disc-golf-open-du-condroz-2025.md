@@ -53,6 +53,6 @@ Que vous soyez un joueur expérimenté ou un amateur désireux de relever un dé
 
 [Le parcours des 4 Sources](/projets/disc-golf-attitude-yvoir) offre une expérience immersive avec **des fairways variés, des lancers en sous-bois et des vues panoramiques** sur la région namuroise. En plus du plaisir du jeu, profitez d’un environnement naturel préservé où cohabitent ânes, forêts et prairies classées Natura 2000.
 
-#### 🏆 **Rejoignez-nous pour une journée de compétition et de convivialité !**
+🏆 Rejoignez-nous pour une journée de compétition et de convivialité !
 
 Venez affronter des joueurs de toute la Belgique et d’ailleurs dans une ambiance sportive et amicale.

@@ -145,6 +145,76 @@
     }
   }
 
+  /* Pictos des pôles au pied de page (cf. components/layout/Footer.astro).
+     Chaque `li` porte `--pole` (la couleur pleine) et `--on-pole` (teal ou
+     blanc, ce qui reste lisible dessus). Au survol : le disque prend la
+     couleur du pôle, le picto passe en `--on-pole`, le nom monte au-dessus ;
+     les deux voisins s'allument dans leur propre couleur, sans disque. Que des
+     couleurs, des fondus et un glissement de 2 px — pas de rebond. */
+  .l4s-pole {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: var(--radius-pill);
+    color: var(--color-white);
+    background-color: transparent;
+    cursor: default;
+    transition:
+      background-color 200ms var(--ease-brand),
+      color 200ms var(--ease-brand),
+      transform 200ms var(--ease-brand);
+  }
+  .l4s-pole:hover {
+    background-color: var(--pole);
+    color: var(--on-pole);
+    transform: translateY(-2px);
+  }
+  .l4s-pole:hover + .l4s-pole,
+  .l4s-pole:has(+ .l4s-pole:hover) {
+    color: var(--pole);
+  }
+  .l4s-pole-name {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    padding: 5px 11px;
+    border-radius: var(--radius-pill);
+    background-color: var(--pole);
+    color: var(--on-pole);
+    font-family: var(--font-ui);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.2;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%, 4px);
+    transition:
+      opacity 160ms var(--ease-brand),
+      transform 160ms var(--ease-brand),
+      visibility 0s linear 160ms;
+  }
+  .l4s-pole-name::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border: 5px solid transparent;
+    border-top-color: var(--pole);
+    border-bottom-width: 0;
+  }
+  .l4s-pole:hover .l4s-pole-name {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, 0);
+    transition-delay: 0s;
+  }
+
   /* Motif 5 — étiquette sticker */
   .l4s-sticker {
     display: inline-block;

@@ -17,12 +17,12 @@ properties:
 category: "Environnement"
 registrationUrl: "https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret"
 generatedDescription: true
+registrationLabel: "Tous les détails sur cette semaine de formation"
 ---
 
 ## En pratique
 
-#### **Une semaine intensive - du 17 au 21 novembre - pour démarrer ou progresser dans ton projet de forêt-jardin, organisée par notre partenaire** **[Semisto](https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret).**
-
+Une semaine intensive - du 17 au 21 novembre - pour démarrer ou progresser dans ton projet de forêt-jardin, organisée par notre partenaire [Semisto](https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret).
 Entre le moment “WOW” à la lecture d’un livre ou après avoir regardé une vidéo inspirante et les récoltes abondantes, il y a quelques étapes qui relèvent parfois du parcours du combattant.
 
 Nous concevons des designs avec notre bureau d’études et il faut bien l’avouer : concevoir un projet avec une équipe de designers revient à minimum 5.000€. C’est beaucoup d’argent et nous voulons explorer d’autres pistes, et notamment soutenir les porteur·euse·s de projet qui veulent prendre pleinement part à la création et à l’implantation.
@@ -36,5 +36,3 @@ Pendant cette semaine résidentielle, il y aura des moments de **travail individ
 ![W1920quality90fitscale down](../../assets/migration/shared/b6c72afcb36a-w1920quality90fitscale-down.jpg)
 
 Tu trouveras tous les détails concernant cette semaine de formation [sur le site web de Semisto](https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret).
-
-<a class="button" href="https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret">Tous les détails sur cette semaine de formation</a>

@@ -25,7 +25,7 @@ registrationUrl: "https://les4sources.punchpass.com/classes/15334517?embed=true"
 - **Tarif en conscience** : prix indicatif de 15€/personne à payer en liquide sur place
 - **Prérequis** : aucun
 
-#### **À emporter**
+### À emporter
 
 - tambour.s si vous en avez ;
 - autre.s instrument.s de percussion

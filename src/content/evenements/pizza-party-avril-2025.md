@@ -18,6 +18,7 @@ start: "2025-04-11T18:30:00+02:00"
 category: "Liens et convivialité"
 priceText: "7 €"
 registrationUrl: "https://les4sources.punchpass.com/classes/17202681"
+registrationLabel: "Inscription à la Pizza Party"
 ---
 
 Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !
@@ -32,12 +33,10 @@ Bienvenue **dès 18h30** :
 
 👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !
 
-## **Infos pratiques**
+## Infos pratiques
 
 - **[Inscription indispensable](https://les4sources.punchpass.com/classes/17202681)** jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons
 - Participation : 7 € par personne + cash pour le bar
 - Bar avec boissons bios/locales/de saison sur place 🍹
 
 Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h, lorsque le four est encore chaud de la journée.
-
-<a class="button" href="https://les4sources.punchpass.com/classes/17202681">Inscription à la Pizza Party</a>

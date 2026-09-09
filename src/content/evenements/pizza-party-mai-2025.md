@@ -18,6 +18,7 @@ start: "2025-05-09T18:30:00+02:00"
 category: "Liens et convivialité"
 priceText: "7 €"
 registrationUrl: "https://www.billetweb.fr/pizza-party-de-mai-2025"
+registrationLabel: "Inscription à la Pizza Party"
 ---
 
 Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !
@@ -32,7 +33,7 @@ Bienvenue **dès 18h30** :
 
 👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !
 
-## **Infos pratiques**
+## Infos pratiques
 
 - **[Inscription indispensable](https://www.billetweb.fr/pizza-party-de-mai-2025)** jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons
 - Participation : 7 € par personne
@@ -42,5 +43,3 @@ Bienvenue **dès 18h30** :
 Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h, lorsque le four est encore chaud de la journée.
 
 > 🆕 L’inscription se passe désormais [via BilletWeb](https://www.billetweb.fr/pizza-party-de-mai-2025), ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque.
-
-<a class="button" href="https://www.billetweb.fr/pizza-party-de-mai-2025">Inscription à la Pizza Party</a>

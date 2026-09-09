@@ -20,13 +20,12 @@ registrationUrl: "https://les4sources.punchpass.com/classes/16300562"
 seoTitle: "Low-tech: réchaud rocket stove et… — 23 et 24 novembre 2024"
 ---
 
-### **Au programme**
+### Au programme
 
 <!-- columns -->
 <!-- column width="50%" -->
 
-#### **Deux journées pour construire, comprendre et tester ton réchaud Rocket Stove, s’initier aux low-techs et au travail du métal.**
-
+Deux journées pour construire, comprendre et tester ton réchaud Rocket Stove, s’initier aux low-techs et au travail du métal.
 - Initiation à la soudure et à la construction métallique
 - Échanges de savoirs sur le principe de combustion et sur les low-techs en général
 - Convivialité et préparation de repas en mode low-tech
@@ -79,7 +78,7 @@ Réservations de l’hébergement par e-mail à [sejours@les4sources.be](mailto:
 - Un plat à partager pour l’auberge espagnole du samedi midi
 - Des vêtements adaptés à la météo
 
-![Image](../../assets/migration/evenements__low-tech-novembre-2024/04-image.jpg)
+![Low-tech: réchaud rocket stove et travail du métal](../../assets/migration/evenements__low-tech-novembre-2024/04-image.jpg)
 
 ### Plus d’info ?
 

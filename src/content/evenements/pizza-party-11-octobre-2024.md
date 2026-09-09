@@ -26,7 +26,7 @@ Bienvenue dès 18h30 :
 - nous mettons à ta disposition : une pâte à pizza, un four à pizza chaud (four à bois), une platine à cuisson, des planches à découper, un rouleau à tarte et des assiettes ;
 - tu cuis ta pizza entre 19h et 20h et la déguste en terrasse plein sud, 360°C nature ! (salle de repli prévue en cas de pluie / de froid)
 
-## **Infos pratiques**
+## Infos pratiques
 
 - **[Inscription indispensable](https://les4sources.punchpass.com/classes/15693878)** jusqu’à 2 jours avant l'événement
 - Tarif : 7 € par pâte à pizza (avec la pâte, tout ce que nous mettons à ta disposition et une place en terrasse/salle) + cash pour le bar

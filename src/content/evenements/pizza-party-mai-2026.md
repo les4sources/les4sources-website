@@ -22,6 +22,7 @@ start: "2026-05-08T18:30:00+02:00"
 category: "Liens et convivialité"
 priceText: "10 €"
 registrationUrl: "https://www.billetweb.fr/pizza-party-de-mai-2026"
+registrationLabel: "Je prends mes places !"
 ---
 
 Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée ! Bienvenue **ce vendredi 8 mai, dès 18h30** :
@@ -34,23 +35,19 @@ Viens déguster de délicieuses pizzas tout juste sorties du four, faire des ren
 
 👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !
 
-<a class="button" href="https://www.billetweb.fr/pizza-party-de-mai-2026">🍕 Je prends mes places!</a>
-
 ![🍕Pizza Party de mai](../../assets/migration/evenements__pizza-party-mai-2026/02-20250509_180450_f856e93b.jpg)
 
-## **Infos pratiques**
+## Infos pratiques
 
-- [I](https://www.billetweb.fr/pizza-party-de-septembre-2025)nscription indispensable jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons
+- Inscription indispensable jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons
 - Participation : 10 €/adulte et 6/enfant (jusqu’à 15 ans)
 - Bar avec boissons bios/locales/de saison sur place 🍹
 - Paiement des consommations en cash ou par virement sur place
 
 Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h30, lorsque le four est encore chaud de la journée.
 
-<a class="button" href="https://www.billetweb.fr/pizza-party-de-mai-2026">🍕 Je prends mes places!</a>
-
 > 🆕 L’inscription se passe désormais via billetweb.fr ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque ou passer par l’app Payconiq.
 
-#### Prévisions météo
+### Prévisions météo
 
 <iframe title="Contenu intégré" src="https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius" name="CW2" width="318" height="318"></iframe>

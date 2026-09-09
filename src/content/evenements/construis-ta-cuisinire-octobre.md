@@ -22,16 +22,16 @@ priceText: "485 €"
 seoTitle: "Stage low-tech : construis ta… — du 8 au 10 octobre"
 ---
 
-## **Trois journées - 8, 9 et 10 octobre - pour construire et tester ta cuisinière, s’initier aux low-techs et au travail du métal.**
+## Trois journées - 8, 9 et 10 octobre - pour construire et tester ta cuisinière, s’initier aux low-techs et au travail du métal.
 
 - Initiation à la soudure et à la construction métallique
 - Convivialité et repas : auberge espagnole le jeudi midi, pizza party privée le vendredi soir 🍕
 
 **Tu repars avec ta propre cuisinière au terme des 3 journées d’apprentissage** 🔥
 
-## **Choisis parmi 2 modèles de cuisinière**
+## Choisis parmi 2 modèles de cuisinière
 
-## **👉🏻 La Bonbonne : une cuisinière réalisée au départ d'une bonbonne de gaz…**
+## 👉🏻 La Bonbonne : une cuisinière réalisée au départ d'une bonbonne de gaz…
 
 Capot ouvert, elle permet de mettre à chauffer une grande casserole ou 2 petites. Capot fermé, elle se transforme en four d'un volume d'environ 15L, permettant d'utiliser les grands plats pour four standards (L 39cm, l 25 cm)
 
@@ -39,7 +39,7 @@ ou…
 
 ![Newsletter 2](../../assets/migration/shared/57a64a1c0093-newsletter_-2.jpg)
 
-## **👉🏻 La Nomade : une cuisinière compacte.**
+## 👉🏻 La Nomade : une cuisinière compacte.
 
 Elle permet de réchauffer simultanément : sur le dessus, une petite casserole, et dans le tiroir four, un petit plat pour four standard (L 27cm, l 17 cm). Sa compacité permet de la déplacer facilement.
 
@@ -47,7 +47,7 @@ Elle permet de réchauffer simultanément : sur le dessus, une petite casserole,
 
 💡 *Ces 2 modèles disposent d'un four et permettent d'utiliser votre batterie de cuisine habituelle sans les noircir (pas de contact entre la flamme et les casseroles).*
 
-## **Participation**
+## Participation
 
 **485 € pour les trois journées**, tout compris :
 
@@ -65,11 +65,11 @@ Elle permet de réchauffer simultanément : sur le dessus, une petite casserole,
 
 *Nos heureux participants du stage d’avril !*
 
-## **Inscription**
+## Inscription
 
 Le lien arrive bientôt
 
-## **Hébergement**
+## Hébergement
 
 ![Newsletter 6](../../assets/migration/shared/fc2961260a44-newsletter_-6.jpg)
 
@@ -77,13 +77,13 @@ Tu logeras en chambre partagée aux 4 Sources avec l’ensemble du groupe, l’i
 
 L’hébergement comprend 2 chambres de 4 lits (prévois tes draps de lit), avec une salle de douche par chambre.
 
-## **Repas**
+## Repas
 
 ![Newsletter 4](../../assets/migration/shared/da6e659005ff-newsletter_-4.jpg)
 
 En dehors de l’auberge espagnole et de la Pizza Party privée, les repas sont végétariens et préparés par Stéphanie dans la Cuisine des 4 Sources. Des produits ultra-frais, des plats colorés et du bon pain, que demander de plus ? Mais oui bien sûr : une délicieuse collation pour le milieu d’après-midi ! 🙂
 
-## **En pratique**
+## En pratique
 
 👥 Maximum 6 participants
 

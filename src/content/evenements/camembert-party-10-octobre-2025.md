@@ -19,6 +19,7 @@ start: "2026-02-13T18:30:00+01:00"
 category: "Liens et convivialité"
 priceText: "7 €"
 registrationUrl: "https://www.billetweb.fr/camembert-party-de-fevrier-2026"
+registrationLabel: "Je prends ma place"
 ---
 
 ## Le concept de la Camembert Party ?
@@ -39,8 +40,6 @@ Bienvenue **ce 13 février, dès 18h30** :
 - le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage
 - la grande salle des 4 Sources\*
 
-<a class="button" href="https://www.billetweb.fr/camembert-party-de-fevrier-2026">🧀 Je prends ma place</a>
-
 ## À emporter avec toi
 
 - Ton fromage contenu dans un emballage en bois (cf. photo de l'événement ; bienvenu aux camemberts, vacherins, chaumes, etc.)
@@ -49,9 +48,7 @@ Bienvenue **ce 13 février, dès 18h30** :
 
 - Tes légumes et/ou féculents (ex.: courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces) ou salades froides à manger à côté + assaisonnement
 
-<a class="button" href="https://www.billetweb.fr/camembert-party-de-fevrier-2026">🧀 Je prends ma place</a>
-
-## **Infos pratiques**
+## Infos pratiques
 
 - Inscription indispensable jusqu’au jeudi midi avant l'événement
 - Tarif : 7 € par personne + cash pour le bar
@@ -64,5 +61,3 @@ Bienvenue **ce 13 février, dès 18h30** :
 - Bar avec boissons bios/locales/de saison sur place 🍹
 
 Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.
-
-<a class="button" href="https://www.billetweb.fr/camembert-party-de-fevrier-2026">🧀 Je prends ma place</a>

@@ -17,9 +17,10 @@ properties:
 pole: "ressourcement"
 category: "Ressourcement, Formation"
 registrationUrl: "https://www.billetweb.fr/journee-creative-atelier-decriture"
+registrationLabel: "Je prends ma place !"
 ---
 
-## **Une belle journée - le samedi 3 octobre - pour…**
+## Une belle journée - le samedi 3 octobre - pour…
 
 …un atelier d’écriture sur la thématique **: l’eau, les arbres et moi.** Guidé**·**es par des consignes ludiques, sans stress orthographique ni prétention littéraire.
 
@@ -55,7 +56,7 @@ Allez, plongez ! Offrez-vous ce temps souple et liquide…
 
 ![Newsletter 4](../../assets/migration/evenements__weekend-cratif/05-newsletter_-4.jpg)
 
-## **En pratique**
+## En pratique
 
 - Au coeur de la clairière des 4 Sources: 📍 Fonds d’Ahinvaux, 1 à Yvoir, entre Namur et Dinant
 - Le samedi 3 octobre de 9h30 à 21h
@@ -63,9 +64,7 @@ Allez, plongez ! Offrez-vous ce temps souple et liquide…
 - Clôture le samedi soir avec une Pizza Party (cuisson au feu de bois)
 - Apporter son pic-nic et les garnitures pour la pizza 🍕
 
-<a class="button" href="https://www.billetweb.fr/journee-creative-atelier-decriture">Je prends ma place !</a>
-
-![Mg 0384](../../assets/migration/evenements__weekend-cratif/06-_mg_0384.jpg)
+![Atelier d’écriture](../../assets/migration/evenements__weekend-cratif/06-_mg_0384.jpg)
 
 ### Ce weekend créatif est entièrement organisé par nos trois intervenant-es, Bénédicte, Olivier et Marianne
 

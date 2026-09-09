@@ -262,6 +262,8 @@ export interface MergedEvent extends MergedBase {
   location?: string;
   priceText?: string;
   registrationUrl?: string;
+  /** Libellé du bouton d'inscription (fiche migrée) ; à défaut la fiche en propose un. */
+  registrationLabel?: string;
   categoryName?: string;
 }
 
@@ -292,6 +294,7 @@ export interface LegacyEntry {
     end?: Date;
     location?: string;
     registrationUrl?: string;
+    registrationLabel?: string;
     priceText?: string;
     category?: string;
     duration?: string;
@@ -349,6 +352,7 @@ function fromLegacyEvent(entry: LegacyEntry): MergedEvent {
     location: entry.data.location,
     priceText: entry.data.priceText,
     registrationUrl: entry.data.registrationUrl,
+    registrationLabel: entry.data.registrationLabel,
   };
 }
 

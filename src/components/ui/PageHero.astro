@@ -22,7 +22,6 @@ interface Props {
   coverAlt?: string;
   /** Image distante déjà optimisée (Claudy) — repli quand `cover` est absent. */
   remoteCover?: { url: string; alt?: string; width?: number; height?: number };
-  icon?: string;
   pole?: string;
   crumbs?: Crumb[];
   /** Colonne éditoriale à 760 px plutôt que la pleine largeur du site. */
@@ -39,7 +38,6 @@ const {
   cover,
   coverAlt,
   remoteCover,
-  icon,
   pole,
   crumbs = [],
   narrow = false,
@@ -56,13 +54,8 @@ const hasCover = Boolean(cover) || Boolean(remoteCover);
     {crumbs.length > 0 && <Breadcrumbs items={crumbs} />}
 
     {
-      (icon || (pole && isPole(pole)) || eyebrow) && (
+      ((pole && isPole(pole)) || eyebrow) && (
         <div class:list={["flex flex-wrap items-center gap-3", crumbs.length > 0 ? "mt-5" : ""]}>
-          {icon && (
-            <span class="text-[1.9rem] leading-none" aria-hidden="true">
-              {icon}
-            </span>
-          )}
           {pole && isPole(pole) && <PoleTag pole={pole} />}
           {eyebrow && (
             <span class="font-ui text-[13px] font-bold tracking-[0.08em] text-ink-3 uppercase">

@@ -32,7 +32,7 @@ Bienvenue **dès 18h30** :
 
 👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !
 
-## **Infos pratiques**
+## Infos pratiques
 
 - **[Inscription indispensable](https://www.billetweb.fr/pizza-party-de-juin-2025)** jusqu’au jeudi midi avant l'événement, ce qui nous permet de préparer le bon nombre de pâtons
 - Participation : 7 € par personne

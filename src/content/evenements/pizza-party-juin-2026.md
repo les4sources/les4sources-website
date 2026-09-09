@@ -25,6 +25,7 @@ start: "2026-06-12T18:30:00+02:00"
 category: "Liens et convivialité"
 priceText: "10 €"
 registrationUrl: "https://www.billetweb.fr/pizza-party-de-juillet"
+registrationLabel: "Je m'inscris de ce pas"
 ---
 
 **Edition complète !**
@@ -34,8 +35,6 @@ Chers vous tous-tes, nous sommes archi-complets pour la Pizza Party de ce vendre
 Bienvenue pour un verre à partir de 20h30 🍹, mais pas de possibilité d'improviser des pizzas en plus pour les non inscrits. Merci de votre compréhension et à vendredi ! ☺️
 
 Prochaine PP le 17 juillet ⬇️
-
-<a class="button" href="https://www.billetweb.fr/pizza-party-de-juillet">🍕 Je m'inscris de ce pas</a>
 
 Wahoo, on fête nos 5 ans le 12 juin 🎉 Pour célébrer notre anniversaire en toute convivialité, nous avons invité le P’tit orgue d’Arnaud 🪗
 
@@ -61,9 +60,9 @@ Viens déguster de délicieuses pizzas tout juste sorties du four, faire des ren
 
 ![508613796 1023903979919038 8286032347514294983 n](../../assets/migration/evenements__pizza-party-juin-2026/03-508613796_1023903979919038_8286032347514294983_n.jpg)
 
-## **Infos pratiques**
+## Infos pratiques
 
-- [I](https://www.billetweb.fr/pizza-party-de-septembre-2025)nscription indispensable <u>jusqu’au jeudi 16h avant l'événement</u>, ce qui nous permet de préparer le bon nombre de pâtons
+- Inscription indispensable <u>jusqu’au jeudi 16h avant l'événement</u>, ce qui nous permet de préparer le bon nombre de pâtons
 - Participation : 10€/adulte et 6€/enfant
 - Bar avec boissons bios/locales/de saison sur place 🍹
 - Paiement des consommations en cash ou par virement sur place
@@ -76,6 +75,6 @@ Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h30, lors
 
 <a title="Vente de billets en ligne" href="https://www.billetweb.fr/shop.php?event=pizza-party-des-5-ans" class="shop_frame" target="_blank" data-src="https://www.billetweb.fr/shop.php?event=pizza-party-des-5-ans" data-max-width="100%" data-initial-height="600" data-scrolling="no" data-id="pizza-party-des-5-ans" data-resize="1">Vente de billets en ligne</a>
 
-#### Prévisions météo
+### Prévisions météo
 
 <iframe title="Contenu intégré" src="https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius" name="CW2" width="318" height="318"></iframe>

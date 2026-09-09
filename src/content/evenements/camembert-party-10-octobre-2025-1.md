@@ -45,7 +45,7 @@ Bienvenue **ce 10 octobre, dès 18h30** :
 
 - Tes légumes et/ou féculents (ex.: courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces) ou salades froides à manger à côté + assaisonnement
 
-## **Infos pratiques**
+## Infos pratiques
 
 - [Inscription indispensable jusqu’au jeudi midi avant l'événement](https://www.billetweb.fr/camembert-party-doctobre-2025)
 - Tarif : 7 € par personne + cash pour le bar

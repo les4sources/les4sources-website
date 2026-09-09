@@ -18,17 +18,18 @@ start: "2026-01-17T09:00:00+01:00"
 category: "Artisanat"
 priceText: "80 €"
 registrationUrl: "https://les4sources.punchpass.com/classes/18873222"
+registrationLabel: "Je m'inscris en ligne !"
 ---
 
 **NOUVELLE SESSION DU 17 JANVIER 2026 (9h-12h30)**
 
-## **Objectifs**
+## Objectifs
 
 - découvrir le poste à souder MMA (soudure à l'électrode enrobée), le matériel associé, les normes de sécurité, les principes de base de cette soudure (l'arc électrique, l'électrode, les bons gestes) ;
 - expérimenter l'amorçage, le cordon à plat, le cordon en angle ;
 - être conseillé pour l'acquisition de son matériel personnel.
 
-## **Déroulement**
+## Déroulement
 
 - alternance de temps de transmission théorique et de temps d'expérimentation à l'atelier ;
 - l'intention est de transmettre un maximum de choses par l'expérimentation.
@@ -37,13 +38,11 @@ registrationUrl: "https://les4sources.punchpass.com/classes/18873222"
 
 **Âge :** autour de 10 à 110 ans
 
-## **Inscription et tarifs**
+## Inscription et tarifs
 
 - Tarif: 80 € par participant
 
-<a class="button" href="https://les4sources.punchpass.com/classes/18873222">⚡ Je m'inscris en ligne !</a>
-
-### **Équipement de protection individuel à emporter**
+### Équipement de protection individuel à emporter
 
 - vêtements de travail non synthétiques (pas de short)
 - chaussures de sécurité ou à défaut chaussures fermées de type bottines
@@ -53,12 +52,3 @@ registrationUrl: "https://les4sources.punchpass.com/classes/18873222"
 ## Instructeur
 
 Sébastien Frennet, membre des 4 Sources
-
-## Autres dates
-
-**Événements**
-
-- [👷🏻‍♀️ ⚡ COMPLET ! Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-5-septembre-2026) — samedi 12 septembre · Formation
-- [👷🏻 ⚡ COMPLET ! Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-17-octobre-2026) — samedi 17 octobre · Formation
-- [👷🏻 ⚡ Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-21-novembre-2026) — samedi 21 novembre · Formation
-- [👷🏻‍♀️ Initiation à la soudure à l’arc ⚡](/evenements/initiation-soudure-a-l-arc-12-dcembre-2026) — samedi 12 décembre · Formation

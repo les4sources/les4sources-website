@@ -17,7 +17,7 @@ import { Image } from "astro:assets";
 import logoWhite from "@assets/brand/logo/logo-white.png";
 import PoleIcon from "@components/ds/PoleIcon.astro";
 import { footerGroups, socials } from "@lib/nav";
-import { POLE_STRIP } from "@lib/poles";
+import { POLES, POLE_STRIP } from "@lib/poles";
 import { site } from "@lib/site";
 
 const groups = footerGroups();
@@ -43,13 +43,29 @@ const telHref = `tel:${site.phone.replace(/\s+/g, "")}`;
           loading="lazy"
         />
 
-        <ul class="mt-3 flex list-none flex-wrap items-center gap-2.5 p-0">
+        {/* Les sept pôles. Au survol, le picto s'allume dans la couleur de son
+            pôle (disque plein, picto en teal ou en blanc selon `lightOnSolid`),
+            son nom apparaît au-dessus, et ses deux voisins prennent leur propre
+            couleur en écho. Le CSS vit dans global.css (`.l4s-pole`). */}
+        <ul class="l4s-poles mt-2 -ml-2 flex list-none flex-wrap items-center gap-0.5 p-0">
           {
-            POLE_STRIP.map((slug) => (
-              <li class="flex">
-                <PoleIcon pole={slug} class="h-7 text-white" />
-              </li>
-            ))
+            POLE_STRIP.map((slug) => {
+              const p = POLES[slug];
+              const onPole = p.lightOnSolid ? "var(--color-teal)" : "var(--color-white)";
+              return (
+                <li
+                  class="l4s-pole"
+                  style={`--pole:var(${p.vars.color});--on-pole:${onPole}`}
+                  title={p.category}
+                >
+                  <span class="l4s-pole-name" aria-hidden="true">
+                    {p.category}
+                  </span>
+                  <PoleIcon pole={slug} class="h-7" />
+                  <span class="sr-only">{p.category}</span>
+                </li>
+              );
+            })
           }
         </ul>
 

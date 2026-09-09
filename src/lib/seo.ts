@@ -109,6 +109,10 @@ export interface EventInput {
   image?: string;
   /** Libellé de prix affiché ; devient une `offers` si une inscription existe. */
   priceText?: string;
+  /** Prix en euros, seulement quand le libellé se réduit à ce chiffre. */
+  price?: number;
+  /** « COMPLET ! » dans le titre → `availability: SoldOut`. */
+  soldOut?: boolean;
   registrationUrl?: string;
   pole?: Pole;
 }
@@ -122,7 +126,9 @@ export function event(i: EventInput) {
             "@type": "Offer",
             ...(i.registrationUrl ? { url: i.registrationUrl } : {}),
             ...(i.priceText ? { description: i.priceText } : {}),
-            availability: "https://schema.org/InStock",
+            // Le prix chiffré n'est émis que lorsque le libellé n'est QUE ce prix.
+            ...(i.price !== undefined ? { price: i.price, priceCurrency: "EUR" } : {}),
+            availability: i.soldOut ? "https://schema.org/SoldOut" : "https://schema.org/InStock",
           },
         }
       : {};
@@ -144,7 +150,7 @@ export function event(i: EventInput) {
     },
     ...(i.image ? { image: i.image } : {}),
     ...offers,
-    organizer: { "@id": ORG_ID, name: site.name },
+    organizer: { "@id": ORG_ID, name: site.name, url: site.url },
   };
 }
 

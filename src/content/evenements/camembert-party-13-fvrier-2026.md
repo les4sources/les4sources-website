@@ -20,6 +20,7 @@ category: "Liens et convivialité"
 priceText: "7 €"
 registrationUrl: "https://www.billetweb.fr/camembert-party-de-mars-2026"
 generatedDescription: true
+registrationLabel: "Je prends ma place !"
 ---
 
 ## Le concept de la Camembert Party ?
@@ -54,8 +55,6 @@ Vous pouvez donc participer, ou non, à une session de disc-golf ce 13 mars ! Pa
 
 ![Camembert Party et disc-golf nocturne 🧀](../../assets/migration/evenements__camembert-party-13-fvrier-2026/03-img-20250316-wa0025.jpg)
 
-<a class="button" href="https://www.billetweb.fr/camembert-party-de-mars-2026">🧀 Je prends ma place !</a>
-
 ## À emporter avec toi
 
 - Ton fromage contenu dans un emballage en bois (cf. photo de l'événement ; bienvenu aux camemberts, vacherins, chaumes, etc.)
@@ -64,9 +63,7 @@ Vous pouvez donc participer, ou non, à une session de disc-golf ce 13 mars ! Pa
 
 - Tes légumes et/ou féculents (ex.: courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces) ou salades froides à manger à côté + assaisonnement
 
-<a class="button" href="https://www.billetweb.fr/camembert-party-de-mars-2026">🧀 Je prends ma place !</a>
-
-## **Infos pratiques**
+## Infos pratiques
 
 - Tarif : 7 € par personne + cash pour le bar
 - À emporter
@@ -78,5 +75,3 @@ Vous pouvez donc participer, ou non, à une session de disc-golf ce 13 mars ! Pa
 - Bar avec boissons bios/locales/de saison sur place 🍹
 
 Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.
-
-<a class="button" href="https://www.billetweb.fr/camembert-party-de-mars-2026">🧀 Je prends ma place !</a>

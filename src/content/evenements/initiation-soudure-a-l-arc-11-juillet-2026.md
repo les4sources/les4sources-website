@@ -24,21 +24,20 @@ category: "Artisanat"
 priceText: "80 €"
 registrationUrl: "https://www.billetweb.fr/initiation-a-la-soudure-a-larc"
 seoTitle: "COMPLET ! Initiation à la soudure à l’arc — 11 juillet 2026"
+registrationLabel: "Je réserve une autre date"
 ---
 
 **NOUVELLE SESSION DU 11 JUILLET 2026 (9h-12h30) : COMPLET** ⚠️
 
 Dates encore disponibles : 12 septembre | 21 novembre | 12 décembre
 
-<a class="button" href="https://www.billetweb.fr/initiation-a-la-soudure-a-larc">👩🏻‍🏭 Je réserve une autre date</a>
-
-## **Objectifs**
+## Objectifs
 
 - découvrir le poste à souder MMA (soudure à l'électrode enrobée), le matériel associé, les normes de sécurité, les principes de base de cette soudure (l'arc électrique, l'électrode, les bons gestes) ;
 - expérimenter l'amorçage, le cordon à plat, le cordon en angle ;
 - être conseillé pour l'acquisition de son matériel personnel.
 
-## **Déroulement**
+## Déroulement
 
 - alternance de temps de transmission théorique et de temps d'expérimentation à l'atelier ;
 - l'intention est de transmettre un maximum de choses par l'expérimentation.
@@ -47,11 +46,11 @@ Dates encore disponibles : 12 septembre | 21 novembre | 12 décembre
 
 **Âge :** autour de 10 à 110 ans
 
-## **Inscription, tarif, et autres dates :**
+## Inscription, tarif, et autres dates :
 
 <a title="Vente de billets en ligne" href="https://www.billetweb.fr/shop.php?event=initiation-a-la-soudure-a-larc" class="shop_frame" target="_blank" data-src="https://www.billetweb.fr/shop.php?event=initiation-a-la-soudure-a-larc-fev-2026" data-max-width="100%" data-initial-height="600" data-scrolling="no" data-id="initiation-a-la-soudure-a-larc-fev-2026" data-resize="1">Vente de billets en ligne</a>
 
-### **Équipement de protection individuel à emporter**
+### Équipement de protection individuel à emporter
 
 - vêtements de travail non synthétiques (pas de short)
 - chaussures de sécurité ou à défaut chaussures fermées de type bottines
@@ -61,12 +60,3 @@ Dates encore disponibles : 12 septembre | 21 novembre | 12 décembre
 ## Instructeur
 
 Sébastien Frennet, membre des 4 Sources
-
-## Autres dates
-
-**Événements**
-
-- [👷🏻‍♀️ ⚡ COMPLET ! Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-5-septembre-2026) — 12 septembre 2026 · Formation
-- [👷🏻 ⚡ COMPLET ! Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-17-octobre-2026) — 17 octobre 2026 · Formation
-- [👷🏻 ⚡ Initiation à la soudure à l’arc](/evenements/initiation-soudure-a-l-arc-21-novembre-2026) — 21 novembre 2026 · Formation
-- [👷🏻‍♀️ Initiation à la soudure à l’arc ⚡](/evenements/initiation-soudure-a-l-arc-12-dcembre-2026) — 12 décembre 2026 · Formation

@@ -22,6 +22,7 @@ category: "Liens et convivialité"
 priceText: "15 €"
 registrationUrl: "https://renaudcrols.odoo.com/"
 generatedDescription: true
+registrationLabel: "Je jette un oeil et une oreille sur son site"
 ---
 
 ## En pratique
@@ -31,8 +32,6 @@ Viens écouter de la musique de qualité aux 4 Sources ! 🎶
 **Dès 18h30 ce vendredi 27 mars**, viens avec un plat à déguster (qu'il sera possible de cuir ou chauffer dans notre four à pain). Notre bar extérieur sera disponible, tu auras donc l'occasion de boire un verre et de prendre du temps avant le concert, rencontrer des gens bien et profiter d'un cadre splendide, parce que oui, on a commandé du soleil 🌞
 
 **Dès 20h30**, nous aurons la joie de recevoir Renaud Crols.
-
-<a class="button" href="https://renaudcrols.odoo.com/">🎶 Je jette un oeil et une oreille sur son site</a>
 
 Violoniste, pianiste et chanteur, sa curiosité l'a amené à explorer de nombreux styles musicaux différents tout au long de son parcours. 🎻 🎹
 

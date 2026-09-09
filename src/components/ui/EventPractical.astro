@@ -1,0 +1,166 @@
+---
+/**
+ * Carte pratique de la fiche événement : ce qu'on cherche en premier — quand,
+ * à quelle heure, où, combien — puis le bouton pour s'inscrire, le fichier
+ * agenda et le partage. Collante à droite sur grand écran, en tête sur mobile.
+ *
+ * Trois états : à venir (on s'inscrit), complet (on renvoie aux autres dates
+ * de la série), passé (on renvoie à l'agenda). Aucune ligne n'est inventée :
+ * une valeur absente ne produit pas de ligne.
+ */
+import Badge from "@components/ds/Badge.astro";
+import Button from "@components/ds/Button.astro";
+
+export type EventState = "upcoming" | "soldout" | "past";
+
+export interface OtherDate {
+  href: string;
+  label: string;
+}
+
+interface Props {
+  state: EventState;
+  dateLabel?: string;
+  timeLabel?: string;
+  locationName: string;
+  addressLines?: string[];
+  accessHref?: string;
+  priceText?: string;
+  typeLabel?: string;
+  registration?: { url: string; label: string };
+  /** Lien du fichier iCalendar (« Ajouter à mon agenda »). */
+  icsHref?: string;
+  otherDates?: OtherDate[];
+  class?: string;
+}
+
+const {
+  state,
+  dateLabel,
+  timeLabel,
+  locationName,
+  addressLines = [],
+  accessHref,
+  priceText,
+  typeLabel,
+  registration,
+  icsHref,
+  otherDates = [],
+  class: className,
+} = Astro.props;
+---
+
+<aside
+  aria-label="Infos pratiques"
+  class:list={["rounded-photo border-[1.5px] border-line-soft bg-paper p-6", className]}
+>
+  {
+    state !== "upcoming" && (
+      <p class="mb-3">
+        {state === "soldout" ? (
+          <Badge tone="danger">Complet !</Badge>
+        ) : (
+          <Badge tone="neutral">Événement passé</Badge>
+        )}
+      </p>
+    )
+  }
+
+  {dateLabel && <p class="font-display text-[26px] leading-[1.15] font-bold text-ink">{dateLabel}</p>}
+  {timeLabel && <p class="mt-1 font-ui text-[16px] text-ink-2">{timeLabel}</p>}
+
+  <dl class="m-0 mt-5 grid gap-4 border-t border-line-soft pt-5">
+    <div>
+      <dt class="l4s-overline text-ink-3">Lieu</dt>
+      <dd class="m-0 mt-1 font-ui text-ui">
+        <span class="block font-semibold">{locationName}</span>
+        {addressLines.map((line) => <span class="block text-ink-2">{line}</span>)}
+        {
+          accessHref && (
+            <a href={accessHref} class="mt-1.5 inline-block">
+              Comment venir →
+            </a>
+          )
+        }
+      </dd>
+    </div>
+    {
+      priceText && (
+        <div>
+          <dt class="l4s-overline text-ink-3">Tarif</dt>
+          <dd class="m-0 mt-1 font-ui text-ui">{priceText}</dd>
+        </div>
+      )
+    }
+    {
+      typeLabel && (
+        <div>
+          <dt class="l4s-overline text-ink-3">Type d’événement</dt>
+          <dd class="m-0 mt-1 font-ui text-ui">{typeLabel}</dd>
+        </div>
+      )
+    }
+  </dl>
+
+  <div class="mt-6 grid gap-2.5">
+    {
+      state === "upcoming" && registration && (
+        <Button href={registration.url} rel="noopener" size="lg" fullWidth>
+          {registration.label}
+        </Button>
+      )
+    }
+    {
+      state === "soldout" && (
+        <>
+          <p class="font-ui text-ui text-ink-2">Cette date est complète.</p>
+          {otherDates.length > 0 && (
+            <Button href="#autres-dates" variant="secondary" fullWidth>
+              Voir les autres dates
+            </Button>
+          )}
+        </>
+      )
+    }
+    {
+      state === "past" && (
+        <>
+          <p class="font-ui text-ui text-ink-2">Cet événement a déjà eu lieu.</p>
+          <Button href="/agenda" variant="secondary" fullWidth>
+            Voir les prochains rendez-vous
+          </Button>
+        </>
+      )
+    }
+    <div class="flex flex-wrap gap-2">
+      {
+        icsHref && state !== "past" && (
+          <Button href={icsHref} variant="ghost" size="sm" download>
+            Ajouter à mon agenda
+          </Button>
+        )
+      }
+      {/* Révélé par le script de la fiche quand le navigateur sait partager ou copier. */}
+      <Button type="button" variant="ghost" size="sm" data-share hidden>
+        Partager
+      </Button>
+    </div>
+  </div>
+
+  {
+    otherDates.length > 0 && (
+      <div id="autres-dates" class="mt-6 border-t border-line-soft pt-5">
+        <h2 class="font-display text-h4 font-bold">Autres dates 📅</h2>
+        <ul class="m-0 mt-3 grid list-none gap-2 p-0">
+          {otherDates.map((d) => (
+            <li>
+              <a href={d.href} class="font-ui text-ui">
+                {d.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+</aside>

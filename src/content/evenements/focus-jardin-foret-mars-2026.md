@@ -16,12 +16,12 @@ properties:
   Statut site web: "Préparation en cours"
 category: "Environnement"
 registrationUrl: "https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret-mars-2026"
+registrationLabel: "Tous les détails sur cette semaine de formation"
 ---
 
 ## En pratique 🌳
 
-#### **Une semaine intensive - du 17 au 21 mars - pour démarrer ou progresser dans ton projet de forêt-jardin, organisée par notre partenaire** **[Semisto.](https://www.semisto.org)**
-
+Une semaine intensive - du 17 au 21 mars - pour démarrer ou progresser dans ton projet de forêt-jardin, organisée par notre partenaire [Semisto.](https://www.semisto.org)
 Faire appel à un bureau d'études pour concevoir ton projet de forêt-jardin représente un investissement important. C'est pourquoi nous proposons une alternative plus accessible. Notre ambition : te permettre de devenir pleinement acteur de ta forêt-jardin en acquérant les compétences pour la concevoir et la réaliser toi-même.
 
 Pendant cinq jours, notre collectif d'experts en design, permaculture et écologie t'accompagne pas à pas. Nous t'aidons à définir **la raison d'être de ton projet**, à identifier tes **objectifs** et à établir un **planning réaliste**. Tu découvriras les multiples fonctions de la forêt-jardin et approfondiras tes connaissances en biodiversité, le tout adapté à ton terrain et ta vision.
@@ -29,8 +29,6 @@ Pendant cinq jours, notre collectif d'experts en design, permaculture et écolog
 Notre approche alterne travail individuel sur ton projet, séances de coaching personnalisées avec nos designers et partages d'expérience avec le groupe. Notre équipe sera là pour analyser ton projet sous tous ses angles et répondre à tes questions.
 
 À l'issue de cette semaine, tu repartiras avec des **méthodes concrètes** et surtout, avec une **confiance** renouvelée dans ta capacité à concrétiser ton projet. Notre objectif est que tu sois autonome et serein pour démarrer l'implantation de ta forêt-jardin dans les meilleures conditions.
-
-<a class="button" href="https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret-mars-2026">💡 Tous les détails sur cette semaine de formation</a>
 
 ### Contenu de la formation 📝
 
@@ -44,7 +42,7 @@ Cette semaine de formation s’adresse aux personnes **disposant d’un lieu** o
 
 ![W1920quality90fitscale down](../../assets/migration/shared/b6c72afcb36a-w1920quality90fitscale-down.jpg)
 
-## **Concentre-toi sur l'essentiel : nous nous occupons du reste !**
+## Concentre-toi sur l'essentiel : nous nous occupons du reste !
 
 **Ton hébergement** est réservé dans l’un de nos gîtes, à deux pas de la salle de formation. Des repas savoureux et des boissons chaudes (café, thé, chocolat) te seront servis tout au long du séjour.
 
@@ -58,7 +56,7 @@ Une expérience unique pour faire avancer ton projet dans un cadre inspirant, ac
 
 👌 Des intolérances à nous signaler ? Un formulaire envoyé aux participants permettra de t’assurer des repas adaptés.
 
-### **Prix et inscription**
+### Prix et inscription
 
 Les coûts de la formation induits à [Semisto](https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret-mars-2026) concernent majoritairement :
 
@@ -70,5 +68,3 @@ Les coûts de la formation induits à [Semisto](https://www.semisto.org/poles/fo
 L’inscription à la semaine résidentielle de design s’élève à **980 € TVAC**, hébergement et repas inclus.
 
 Pour les professionnel·le·s, le tarif est de **1 450€**. Les professionnel·le·s (architectes, paysagistes, entrepreneur·e·s de jardin, etc.) peuvent obtenir une facture sur demande.
-
-<a class="button" href="https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret-mars-2026">💡 Tous les détails sur cette semaine de formation</a>

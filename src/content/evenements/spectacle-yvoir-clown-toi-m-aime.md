@@ -19,6 +19,7 @@ start: "2026-01-31T20:00:00+01:00"
 category: "Liens et convivialité"
 priceText: "15 €"
 registrationUrl: "https://www.billetweb.fr/clown-toi-maime"
+registrationLabel: "Je prends ma place !"
 ---
 
 ## Un seule en scène aux 4 Sources
@@ -28,8 +29,6 @@ Quand la poésie rencontre une clown
 Quand la clown dé-couvre une femme !
 
 **Le samedi 31 janvier à 20h,** soyez la bienvenue dans le seule-en-scène de et avec Amélie Fiasse, mis en scène par Sun Lhonoré.
-
-<a class="button" href="https://www.billetweb.fr/clown-toi-maime">🤡 Je prends ma place !</a>
 
 "Clown-toi-m'aime", c'est un strip tease d'histoires, d'émotions, une réappropriation de son corps, une expression de son être dans sa vulnérabilité et sa puissance? C'est un récit de vie poétique et sensible, dans lequel chacun peut s'y reconnaitre.
 
@@ -48,5 +47,3 @@ Quand la clown dé-couvre une femme !
 **Durée** : 1h - 1h10, début du spectacle à 20h
 
 **Photo** : Emilie Tralongo
-
-<a class="button" href="https://www.billetweb.fr/clown-toi-maime">🤡 Je prends ma place !</a>

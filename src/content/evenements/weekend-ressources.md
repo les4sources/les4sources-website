@@ -19,17 +19,16 @@ pole: "ressourcement"
 category: "Ressourcement, Artisanat"
 priceText: "75 €"
 registrationUrl: "https://www.billetweb.fr/journee-creative-construis-ton-objet-en-bois-de-palette"
+registrationLabel: "Je prends ma place !"
 ---
 
-## **Une belle journée - le samedi 3 octobre - pour…**
+## Une belle journée - le samedi 3 octobre - pour…
 
 …construire l’objet de ton choix en bois de palette. Tu viens avec une idée précise ou tu peux réfléchir le jour J de ce qui est possible de faire avec Olivier. Cela peut être un objet d’aménagement, de déco, de petit mobilier...
 
 Aucune connaissance requise particulière !
 
 Pic-nic le midi et Pizza party au soir pour clôturer en beauté la journée 🍕
-
-<a class="button" href="https://www.billetweb.fr/journee-creative-construis-ton-objet-en-bois-de-palette">🪓 Je prends ma place !</a>
 
 ![🪓 Créer un objet en bois de palette](../../assets/migration/evenements__weekend-ressources/02-img_20240225_150154.jpg)
 
@@ -43,15 +42,13 @@ Pic-nic le midi et Pizza party au soir pour clôturer en beauté la journée �
 
 Un coup d’oeil sur son site → [https://debranchesenplanches.be](https://debranchesenplanches.be/) 🌳
 
-## **En pratique**
+## En pratique
 
 - Au coeur de la clairière des 4 Sources: 📍 Fonds d’Ahinvaux, 1 à Yvoir, entre Namur et Dinant
 - Le samedi 3 octobre de 9h30 à 21h
 - Maximum 8 participant-es par atelier : 75€ la place
 - Clôture le samedi soir avec une Pizza Party (cuisson au feu de bois)
 - Apporter son pic-nic et les garnitures pour la pizza 🍕
-
-<a class="button" href="https://www.billetweb.fr/journee-creative-construis-ton-objet-en-bois-de-palette">🪓 Je prends ma place !</a>
 
 ### Cette journée créative est entièrement organisée par nos trois intervenant-es : Bénédicte, Olivier et Marianne !
 

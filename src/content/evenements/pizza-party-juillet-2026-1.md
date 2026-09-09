@@ -29,7 +29,7 @@ registrationUrl: "https://www.billetweb.fr/pizza-party-de-septembre-2025"
 
 En juillet, mange des pizzas comme il te plaît ! Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !
 
-![Mg 0307](../../assets/migration/evenements__pizza-party-juillet-2026-1/02-_mg_0307.jpg)
+![Pizza Party de juillet](../../assets/migration/evenements__pizza-party-juillet-2026-1/02-_mg_0307.jpg)
 
 Bienvenue **ce vendredi 17 juillet, dès 18h30 :**
 
@@ -41,11 +41,11 @@ Bienvenue **ce vendredi 17 juillet, dès 18h30 :**
 
 👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !
 
-![Mg 0392](../../assets/migration/evenements__pizza-party-juillet-2026-1/03-_mg_0392.jpg)
+![Pizza Party de juillet](../../assets/migration/evenements__pizza-party-juillet-2026-1/03-_mg_0392.jpg)
 
-## **Infos pratiques**
+## Infos pratiques
 
-- [I](https://www.billetweb.fr/pizza-party-de-septembre-2025)nscription indispensable <u>jusqu’au jeudi 16h avant l'événement</u>, ce qui nous permet de préparer le bon nombre de pâtons
+- Inscription indispensable <u>jusqu’au jeudi 16h avant l'événement</u>, ce qui nous permet de préparer le bon nombre de pâtons
 - Participation : 10€/adulte et 6€/enfant
 - Bar avec boissons bios/locales/de saison sur place 🍹
 - Paiement des consommations en cash ou par virement sur place
@@ -56,8 +56,8 @@ Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h30, lors
 
 <a title="Vente de billets en ligne" href="https://www.billetweb.fr/shop.php?event=pizza-party-de-juillet" class="shop_frame" target="_blank" data-src="https://www.billetweb.fr/shop.php?event=pizza-party-de-juillet" data-max-width="100%" data-initial-height="600" data-scrolling="no" data-id="pizza-party-de-juillet" data-resize="1">Vente de billets en ligne</a>
 
-#### Prévisions météo
+### Prévisions météo
 
 <iframe title="Contenu intégré" src="https://api.wo-cloud.com/content/widget/?geoObjectKey=4775569&amp;language=fr&amp;region=BE&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius" name="CW2" width="318" height="318"></iframe>
 
-![Mg 0512](../../assets/migration/evenements__pizza-party-juillet-2026-1/04-_mg_0512.jpg)
+![Pizza Party de juillet](../../assets/migration/evenements__pizza-party-juillet-2026-1/04-_mg_0512.jpg)
