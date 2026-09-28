@@ -24,11 +24,20 @@ interface Props {
    * date de plusieurs jours (`data-until`, BaseLayout).
    */
   expire?: boolean;
+  /** Nombre de premières cartes dont la photo se charge d'emblée (visibles à l'arrivée). */
+  eager?: number;
   class?: string;
 }
 
-const { items, cols = 3, withImages = true, snap = false, expire = false, class: className } =
-  Astro.props;
+const {
+  items,
+  cols = 3,
+  withImages = true,
+  snap = false,
+  expire = false,
+  eager = 0,
+  class: className,
+} = Astro.props;
 
 const COLS: Record<3 | 4, string> = {
   3: "sm:grid-cols-2 lg:grid-cols-3",
@@ -46,7 +55,7 @@ const COLS: Record<3 | 4, string> = {
   ]}
 >
   {
-    items.map((e) => (
+    items.map((e, i) => (
       <li
         class="min-w-0"
         data-event
@@ -60,6 +69,7 @@ const COLS: Record<3 | 4, string> = {
           soldOut={e.soldOut}
           href={e.path}
           image={withImages ? e.cover : undefined}
+          imageLoading={i < eager ? "eager" : "lazy"}
         />
       </li>
     ))

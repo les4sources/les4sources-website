@@ -64,7 +64,7 @@ const description = entry?.data.description ?? "Viens nous rencontrer lors de no
             )
           }
 
-          <EventGrid items={upcoming} cols={3} expire />
+          <EventGrid items={upcoming} cols={3} expire eager={3} />
         </div>
 
         <aside

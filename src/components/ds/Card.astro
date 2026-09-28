@@ -29,6 +29,8 @@ interface Props {
   imageAspect?: string;
   /** Largeur d'affichage de la photo, pour que le navigateur choisisse la bonne variante. */
   imageSizes?: string;
+  /** `eager` pour une carte visible dès l'arrivée sur la page (première rangée). */
+  imageLoading?: "eager" | "lazy";
   /** Sans photo : bandeau teinté du pôle avec son pictogramme, au lieu du vide. */
   pole?: PoleSlug;
   /** Rembourrage interne : pixels (20 dans la référence) ou valeur CSS complète. */
@@ -52,6 +54,7 @@ const {
   imageAlt = "",
   imageAspect = "4/3",
   imageSizes = "(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw",
+  imageLoading = "lazy",
   pole,
   padding = 20,
   hoverable = false,
@@ -85,7 +88,7 @@ const fallbackPole = !hasImage && pole ? resolvePole(pole) : undefined;
 <Tag class:list={classes} {...href ? { href } : {}} {...rest}>
   {
     hasImage ? (
-      <div class="w-full overflow-hidden" style={`aspect-ratio:${imageAspect}`}>
+      <div class="w-full overflow-hidden bg-surface" style={`aspect-ratio:${imageAspect}`}>
         {isRemoteImage(image) ? (
           <img
             src={image.src}
@@ -94,7 +97,7 @@ const fallbackPole = !hasImage && pole ? resolvePole(pole) : undefined;
             width={image.width}
             height={image.height}
             alt={imageAlt}
-            loading="lazy"
+            loading={imageLoading}
             decoding="async"
             class="h-full w-full object-cover"
           />
@@ -104,6 +107,7 @@ const fallbackPole = !hasImage && pole ? resolvePole(pole) : undefined;
             alt={imageAlt}
             widths={widthsFor(image)}
             sizes={imageSizes}
+            loading={imageLoading}
             class="h-full w-full object-cover"
           />
         ) : image ? (

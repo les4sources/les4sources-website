@@ -27,16 +27,17 @@ interface Props {
   date: string;
   pole?: PoleSlug;
   image?: ImageMetadata | RemoteImage | string;
+  imageLoading?: "eager" | "lazy";
   soldOut?: boolean;
   href?: string;
   class?: string;
 }
 
-const { title, date, pole = "convivialite", image, soldOut = false, href, class: className } =
+const { title, date, pole = "convivialite", image, imageLoading, soldOut = false, href, class: className } =
   Astro.props;
 ---
 
-<Card image={image} imageAlt={title} imageAspect="16/10" pole={pole} hoverable class={["[&_img]:object-left", className].filter(Boolean).join(" ")}>
+<Card image={image} imageLoading={imageLoading} imageAlt={title} imageAspect="16/10" pole={pole} hoverable class={["[&_img]:object-left", className].filter(Boolean).join(" ")}>
   <div class="mb-2.5 flex flex-wrap items-center gap-2">
     <PoleTag pole={pole} />
     {soldOut && <Badge tone="danger">Complet !</Badge>}

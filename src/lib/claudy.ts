@@ -412,6 +412,8 @@ function fromClaudyExperience(e: ClaudyExperience, twin?: LegacyEntry): MergedEx
     descriptionHtml: e.description_html,
     image: e.image,
     pole: e.category?.pole ?? twin?.data.pole,
+    // Claudy ne porte pas d'emoji de fiche : celui de la fiche migrée jumelle reste.
+    icon: twin?.data.icon,
     source: "claudy",
     legacyId: twin?.id,
     priceText: priceTextOf(e),
