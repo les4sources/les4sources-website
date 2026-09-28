@@ -40,5 +40,69 @@ export function stripSoldOut(value: string): string {
 /** Titre tel qu'une carte l'affiche : sans « COMPLET ! », emoji de tête espacé. */
 export function cardTitle(value: string, soldOut: boolean): string {
   const base = soldOut ? stripSoldOut(value) : value;
-  return spaceAfterLeadingEmoji(base.replace(/\s+/g, " ").trim());
+  return spaceAfterLeadingEmoji(emojiFirst(base.replace(/\s+/g, " ").trim()));
+}
+
+const TRAILING_EMOJI = new RegExp(`\\s*(${PICTO}+)$`, "u");
+const HAS_LEADING_EMOJI = new RegExp(`^${PICTO}`, "u");
+
+/**
+ * « Initiation à la soudure à l'arc ⚡ » → « ⚡ Initiation à la soudure à l'arc » :
+ * la charte place l'emoji d'un nom d'événement EN TÊTE (design/README.md).
+ * Un titre qui en porte déjà un en tête garde sa fin intacte.
+ */
+export function emojiFirst(value: string): string {
+  if (HAS_LEADING_EMOJI.test(value)) return value;
+  const m = value.match(TRAILING_EMOJI);
+  if (!m || m.index === undefined || m.index === 0) return value;
+  return `${m[1]} ${value.slice(0, m.index).trim()}`;
+}
+
+const SITE_SUFFIX = /\s*—\s*Les 4 Sources, tiers-lieu à Yvoir\.?$/i;
+
+/**
+ * Ce qu'une description peut montrer comme accroche (carte, chapeau).
+ *
+ * Une description fabriquée pour le SEO (`generatedDescription`) ne s'affiche
+ * jamais. La migration a aussi complété des descriptions trop courtes du
+ * suffixe du site (« Atelier cuisine — Les 4 Sources, tiers-lieu à Yvoir ») :
+ * le suffixe tombe, et ce qui reste ne s'affiche que s'il fait une vraie
+ * phrase — pas un titre répété, pas une date criée en capitales.
+ */
+export function displayDescription(
+  description: string | undefined,
+  generated?: boolean,
+): string | undefined {
+  if (!description || generated) return undefined;
+  if (!SITE_SUFFIX.test(description)) return description;
+  const rest = description.replace(SITE_SUFFIX, "").trim();
+  const shouting = rest === rest.toUpperCase() && /[A-Z]/.test(rest);
+  if (rest.length < 25 || shouting || /^[→:\-]/.test(rest) || /:$/.test(rest)) return undefined;
+  return rest;
+}
+
+/**
+ * Description `<meta>` d'une fiche venue de Claudy : 50 à 160 caractères,
+ * unique sur le site (seo:check).
+ *
+ * Deux réalités de l'édition dans Claudy : un résumé peut être court
+ * (« Plonge au cœur de notre projet collectif ! »), et une série d'événements
+ * dupliqués partage le même résumé d'une date à l'autre. D'où la précision
+ * (la date d'un événement) ajoutée après le résumé, le suffixe du site pour un
+ * texte trop court — comme l'a fait la migration — et une coupe propre au mot
+ * quand c'est trop long. Aucun fait n'est ajouté qui ne soit déjà sur la fiche.
+ */
+export function seoDescription(text: string | undefined, precision?: string): string {
+  const MAX = 160;
+  const tail = precision ? ` — ${precision}` : "";
+  let base = (text ?? "").replace(/\s+/g, " ").trim();
+  if (base.length + tail.length > MAX) {
+    const room = MAX - tail.length - 1;
+    const cut = base.slice(0, room);
+    base = `${cut.slice(0, Math.max(cut.lastIndexOf(" "), room - 20)).replace(/[\s,;:.!?—–-]+$/, "")}…`;
+  }
+  let out = `${base}${tail}`.replace(/^ — /, "");
+  const suffix = " — Les 4 Sources, tiers-lieu à Yvoir";
+  if (out.length < 50 && out.length + suffix.length <= MAX) out += suffix;
+  return out;
 }

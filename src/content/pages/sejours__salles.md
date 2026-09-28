@@ -15,24 +15,37 @@ Nos espaces se combinent au choix avec notre cuisine professionnelle et, bien é
 
 ## La Grande Salle 🎉
 
+<!-- columns -->
+<!-- column width="55%" -->
+
 ![La grande salle, sous la charpente de l’ancienne grange](../../assets/migration/sejours__salles/06-baafa39c-6519-476e-a909-bbeb55345a8a.jpg)
+
+<!-- column width="45%" -->
 
 Une **salle majestueuse** dans l’ancienne ferme d’Ahinvaux, avec un bar derrière lequel on trouve de la vaisselle pour 80 personnes. Idéale pour un séminaire, une conférence, un grand repas de famille ou des ateliers avec différentes tables.
 
 - 145 mètres carrés, sol carrelé
 - Pièce ouverte sur le hall d’entrée et l’épicerie des 4 Sources
 - De 30 à 100 personnes
+<!-- /columns -->
 
 ### À votre disposition
+
+<!-- columns -->
+<!-- column width="50%" -->
 
 - Chaises et tables pliantes
 - Vaisselle pour 80 personnes
 - Bar avec éviers
 - Samovar, percolateur, bouilloire et thermos
+
+<!-- column width="50%" -->
+
 - Frigo
 - Monte-plats entre l’arrière-cuisine et la salle
 - Sono avec 2 micros
 - WiFi
+<!-- /columns -->
 
 <!-- columns -->
 <!-- column width="50%" -->
@@ -54,7 +67,12 @@ Une **salle majestueuse** dans l’ancienne ferme d’Ahinvaux, avec un bar derr
 
 ## La Petite Salle 🪑
 
+<!-- columns -->
+<!-- column width="55%" -->
+
 ![Une formation dans la petite salle](../../assets/migration/sejours__salles/09-d778f9db-c489-44e6-8dbc-d452e2ab2fe5.jpg)
+
+<!-- column width="45%" -->
 
 Une sympathique **petite salle** pour les petits groupes, idéale pour les formations, ateliers, conseils d’administration ou mises au vert.
 
@@ -68,15 +86,23 @@ Une sympathique **petite salle** pour les petits groupes, idéale pour les forma
 | Pour un cours | 20 participants + formateur·rice |
 | Pour un cercle | 30 participants |
 | Pour une longue table | 18 personnes |
+<!-- /columns -->
 
 ### À votre disposition
+
+<!-- columns -->
+<!-- column width="50%" -->
 
 - Tables et chaises pliantes
 - Percolateur, bouilloire et thermos
 - Flipchart
+
+<!-- column width="50%" -->
+
 - Écran de projection et vidéoprojecteur
 - WiFi
 - En option, sur demande : buffet de produits locaux
+<!-- /columns -->
 
 <!-- columns -->
 <!-- column width="50%" -->
@@ -90,7 +116,12 @@ Une sympathique **petite salle** pour les petits groupes, idéale pour les forma
 
 ## La cuisine professionnelle 🍳
 
+<!-- columns -->
+<!-- column width="55%" -->
+
 La **cuisine** est idéalement située au rez-de-chaussée du bâtiment, avec un accès direct vers l’extérieur pour le chargement et le déchargement depuis un véhicule. Idéale pour un **atelier cuisine** ou pour la **transformation alimentaire**.
+
+<!-- column width="45%" -->
 
 ### À votre disposition
 
@@ -99,6 +130,7 @@ La **cuisine** est idéalement située au rez-de-chaussée du bâtiment, avec un
 - Frigo
 - Lave-vaisselle professionnel à cycle court
 - Monte-plats pour l’envoi des plats vers la grande salle
+<!-- /columns -->
 
 ## Tarifs 💶
 

@@ -5,6 +5,7 @@ import mdx from "@astrojs/mdx";
 import tailwindcss from "@tailwindcss/vite";
 import rehypeColumns from "./src/plugins/rehype-columns.ts";
 import rehypeA11y from "./src/plugins/rehype-a11y.ts";
+import rehypeYoutube from "./src/plugins/rehype-youtube.ts";
 
 // Origine canonique de production. Surcharge possible avec la variable SITE.
 // Canonique = www (l'apex les4sources.be redirige en 301 vers www — cf deploy/nginx.conf).
@@ -31,12 +32,15 @@ export default defineConfig({
     // Les marqueurs `<!-- columns -->` du contenu migré deviennent une grille.
     // Le greffon tourne avant `rehype-raw` : il voit encore les commentaires
     // comme des nœuds bruts, exactement ce dont il a besoin.
-    rehypePlugins: [rehypeColumns, rehypeA11y],
+    // Les vidéos YouTube deviennent une vignette locale, l'iframe n'arrive qu'au clic.
+    rehypePlugins: [rehypeColumns, rehypeA11y, rehypeYoutube],
   },
 
   image: {
-    // Optimisation locale uniquement — aucun hotlink externe (ISC-8, ISC-13).
-    domains: [],
+    // Aucun hotlink externe (ISC-8, ISC-13) : les seules images distantes sont
+    // celles publiées dans Claudy, téléchargées et converties AU BUILD en
+    // fichiers locaux (src/lib/remote-image.ts, contrat docs/CLAUDY.md).
+    domains: ["app.les4sources.be"],
     remotePatterns: [],
   },
 

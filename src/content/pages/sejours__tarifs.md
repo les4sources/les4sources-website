@@ -8,29 +8,13 @@ coverAlt: "Tarifs des hébergements et salles"
 
 ## Hébergements 🛏️
 
-### [La Chevêche](/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes) (8 personnes)
-
-- 1 nuit en semaine : 200 €
-- 1 nuit en week-end (uniquement du 15 novembre au 14 mars) : 260 €
-- un week-end (2 nuits) : 480 €
-- du lundi au vendredi (4 nuits) : 780 €
-- du lundi au dimanche (6 nuits) : 995 €
-
-### [La Hulotte](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes) (15 personnes)
-
-- 1 nuit en semaine : 400 €
-- 1 nuit en week-end (uniquement du 15 novembre au 14 mars) : 485 €
-- un week-end (2 nuits) : 910 €
-- du lundi au vendredi (4 nuits) : 1 490 €
-- du lundi au dimanche (6 nuits) : 1 900 €
-
-### [Le Grand-Duc](/sejours/hebergements-yvoir/le-grand-duc-gite-25-personnes) (23 personnes)
-
-- 1 nuit en semaine : 650 €
-- 1 nuit en week-end (uniquement du 15 novembre au 14 mars) : 750 €
-- un week-end (2 nuits) : 1 350 €
-- du lundi au vendredi (4 nuits) : 2 410 €
-- du lundi au dimanche (6 nuits) : 2 900 €
+| Durée du séjour | [La Chevêche](/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes) · 8 personnes | [La Hulotte](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes) · 15 personnes | [Le Grand-Duc](/sejours/hebergements-yvoir/le-grand-duc-gite-25-personnes) · 23 personnes |
+| --- | --- | --- | --- |
+| 1 nuit en semaine | 200 € | 400 € | 650 € |
+| 1 nuit en week-end (uniquement du 15 novembre au 14 mars) | 260 € | 485 € | 750 € |
+| un week-end (2 nuits) | 480 € | 910 € | 1 350 € |
+| du lundi au vendredi (4 nuits) | 780 € | 1 490 € | 2 410 € |
+| du lundi au dimanche (6 nuits) | 995 € | 1 900 € | 2 900 € |
 
 Charges, nettoyage et taxes compris. À emporter avec vous : draps de lit, essuies de bain, essuies de vaisselle et savons biodégradables.
 

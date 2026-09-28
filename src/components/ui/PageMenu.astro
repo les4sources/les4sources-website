@@ -1,4 +1,5 @@
 ---
+import { displayDescription } from "@lib/text";
 /**
  * Menu de fin de page : les pages liées, en cartes de lien (titre, chapeau).
  *
@@ -33,7 +34,7 @@ const items = paths
       href: path,
       title: d.title,
       icon: d.icon,
-      description: d.generatedDescription ? undefined : d.description,
+      description: displayDescription(d.description, d.generatedDescription),
     };
   })
   .filter((i): i is NonNullable<typeof i> => Boolean(i));

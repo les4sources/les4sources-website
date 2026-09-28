@@ -7,10 +7,11 @@
  */
 import { getCollection } from "astro:content";
 import type { ImageMetadata } from "astro";
-import { currentYearBrussels, formatDateRange } from "@lib/content";
+import { currentYearBrussels, expiresAt, formatDateRange } from "@lib/content";
 import { siteData } from "@lib/data";
-import { isPole, type PoleSlug } from "@lib/poles";
-import { cardTitle } from "@lib/text";
+import { isPole, pole as resolvePole, type PoleSlug } from "@lib/poles";
+import { claudyImage, type RemoteImage } from "@lib/remote-image";
+import { cardTitle, displayDescription } from "@lib/text";
 
 export interface EventItem {
   /** Titre tel qu'une carte l'affiche : sans « COMPLET ! » (le badge le dit), emoji de tête espacé. */
@@ -19,19 +20,26 @@ export interface EventItem {
   /** Date déjà formatée (« samedi 6 septembre », l'année seulement si ce n'est pas celle en cours). */
   dateLabel?: string;
   start?: string;
+  end?: string;
+  /** Instant ISO après lequel la carte n'est plus « à venir » (garde côté navigateur). */
+  until?: string;
   pole: PoleSlug;
   /** Thématiques de l'événement, découpées (« Ressourcement, Artisanat »). */
   categories: string[];
   soldOut: boolean;
-  cover?: ImageMetadata;
+  cover?: ImageMetadata | RemoteImage;
 }
 
 export interface ActivityItem {
   title: string;
   path: string;
+  /** Emoji de la fiche (« 🐎 »), affiché devant le titre. */
+  icon?: string;
+  /** Taille de groupe (« 3 à 8 personnes »). */
+  participants?: string;
   description?: string;
   pole: PoleSlug;
-  cover?: ImageMetadata;
+  cover?: ImageMetadata | RemoteImage;
 }
 
 const splitCategories = (value?: string): string[] =>
@@ -42,6 +50,17 @@ const splitCategories = (value?: string): string[] =>
 
 /** Un titre qui crie « COMPLET » l'est. */
 const isSoldOut = (title: string): boolean => /complet/i.test(title);
+
+/** « 3 à 8 personnes », « Jusqu'à 15 personnes », « À partir de 6 personnes ». */
+export function participantsOf(min?: number, max?: number): string | undefined {
+  if (min && max) return min === max ? `${max} personnes` : `${min} à ${max} personnes`;
+  if (max) return `Jusqu'à ${max} personnes`;
+  if (min) return `À partir de ${min} personnes`;
+  return undefined;
+}
+
+/** Largeurs des variantes d'une photo de carte (380 px affichés au plus, écrans denses compris). */
+const CARD_WIDTHS = [400, 640, 960];
 
 let cachedEvents: Promise<EventItem[]> | null = null;
 let cachedActivities: Promise<ActivityItem[]> | null = null;
@@ -55,19 +74,29 @@ async function buildEvents(): Promise<EventItem[]> {
   }
 
   const currentYear = currentYearBrussels();
-  return events.map((e) => {
+  return Promise.all(events.map(async (e) => {
     const soldOut = isSoldOut(e.title);
+    const pole: PoleSlug = isPole(e.pole) ? e.pole : "convivialite";
+    // L'image publiée dans Claudy l'emporte : c'est celle que l'éditrice a choisie.
+    const remote = e.source === "claudy" ? await claudyImage(e.image?.url, CARD_WIDTHS) : undefined;
     return {
       title: cardTitle(e.title, soldOut),
       path: e.path,
       dateLabel: formatDateRange(e.start, e.end, { currentYear }),
       start: e.start,
-      pole: isPole(e.pole) ? e.pole : "convivialite",
-      categories: splitCategories(e.categoryName),
+      end: e.end,
+      until: expiresAt(e),
+      pole,
+      // Un événement Claudy rattaché à un pôle se filtre sous le nom du pôle, comme
+      // les fiches migrées — pas sous la catégorie interne de Claudy (« Parties »).
+      categories:
+        e.source === "claudy" && isPole(e.pole)
+          ? [resolvePole(e.pole).category]
+          : splitCategories(e.categoryName),
       soldOut,
-      cover: e.legacyId ? covers.get(e.legacyId) : undefined,
+      cover: remote ?? (e.legacyId ? covers.get(e.legacyId) : undefined),
     };
-  });
+  }));
 }
 
 async function buildActivities(): Promise<ActivityItem[]> {
@@ -78,12 +107,18 @@ async function buildActivities(): Promise<ActivityItem[]> {
     if (cover) covers.set(entry.id, cover);
   }
 
-  return experiences.map((x) => ({
-    title: x.title,
-    path: x.path,
-    description: x.description || undefined,
-    pole: isPole(x.pole) ? x.pole : "nature",
-    cover: x.legacyId ? covers.get(x.legacyId) : undefined,
+  return Promise.all(experiences.map(async (x) => {
+    const remote = x.source === "claudy" ? await claudyImage(x.image?.url, CARD_WIDTHS) : undefined;
+    return {
+      title: x.title,
+      path: x.path,
+      icon: x.icon,
+      participants: participantsOf(x.minParticipants, x.maxParticipants),
+      // Une description fabriquée au build sert au SEO, jamais d'accroche de carte.
+      description: displayDescription(x.description, x.generatedDescription),
+      pole: isPole(x.pole) ? x.pole : "nature",
+      cover: remote ?? (x.legacyId ? covers.get(x.legacyId) : undefined),
+    };
   }));
 }
 

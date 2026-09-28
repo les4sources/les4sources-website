@@ -91,6 +91,26 @@ claudy: source=fixture events=3 experiences=2 merged=5 legacy_only=0
 
 **Le build ne casse jamais à cause de Claudy** : une API injoignable ou une réponse invalide est journalisée puis ignorée.
 
+**Images.** Une image publiée dans Claudy l'emporte sur la couverture migrée. Elle est téléchargée et convertie en WebP **au build** (`src/lib/remote-image.ts`, domaine autorisé dans `astro.config.mjs`) : `dist/` ne contient jamais d'URL `app.les4sources.be/rails` (`seo:check` échoue sinon). Une image injoignable est ignorée, la fiche retombe sur la couverture migrée ou le bandeau du pôle. Sur un build avec cache, Astro peut afficher « error … revalidating a cached remote asset … Proceeding with stale cache » : c'est un avertissement sans effet (Astro ne transmet pas `image.domains` à sa revalidation), l'image en cache est utilisée.
+
+**Pôle et catégorie.** Tant qu'une catégorie Claudy n'est rattachée à aucun pôle, l'événement garde le pôle de sa fiche migrée jumelle ; il se filtre dans l'agenda sous le nom du pôle.
+
+**Descriptions.** Pour une fiche Claudy, la `<meta description>` est le résumé suivi de la date (`seoDescription`, `src/lib/text.ts`) : une série dupliquée partage son résumé, la date garde chaque description unique.
+
+## Fraîcheur : un site statique qui ne ment pas sur les dates
+
+« À venir » et « passé » sont calculés au build. Deux mécanismes empêchent le site d'annoncer un événement d'hier :
+
+- **Garde-fou navigateur.** Chaque carte d'une liste « à venir » porte `data-until` (fin de la dernière journée de l'événement) ; un script inline de `BaseLayout` la retire une fois la date passée, masque une liste vidée, et sur la fiche remplace le bouton d'inscription par « Cet événement a déjà eu lieu » (`data-from`).
+- **Rebuild quotidien.** `.github/workflows/rebuild-quotidien.yml` appelle chaque nuit le webhook de déploiement d'Hatchbox, stocké dans le secret GitHub `HATCHBOX_DEPLOY_HOOK_URL` (même URL que `WEBSITE_REBUILD_WEBHOOK_URL` côté Claudy). Sans le secret, le job ne fait rien et le signale.
+
+## Petits plus
+
+- **`/agenda.ics`** — l'agenda en abonnement calendrier (Apple, Google, Outlook), bouton « S'abonner » sur `/agenda`. Chaque fiche garde aussi son `.ics` individuel.
+- **Vidéos YouTube en façade** — `src/plugins/rehype-youtube.ts` remplace l'iframe par sa vignette locale et un bouton lecture ; l'iframe (youtube-nocookie) n'arrive qu'au clic. Pour une nouvelle vidéo dans le contenu : `bun run youtube:thumbnails` (télécharge la vignette dans `public/youtube/`) ; sans vignette, l'iframe reste telle quelle.
+- **Transitions de page** — fondu court entre pages via les View Transitions CSS, sans JavaScript, coupé sous « mouvement réduit ».
+- **/activites** — page composée (`src/pages/activites.astro`) : les familles d'activités et leur ordre viennent de `src/content/pages/activites.md`, chaque lien vers le catalogue devient une vignette de sa fiche.
+
 ## Design
 
 Le brand system Claude Design des 4 Sources est la source de vérité visuelle. Sa copie de référence vit dans `design/` (règles de marque dans `design/README.md`, jetons dans `design/tokens/`, kits de pages et composants React de référence). Les jetons sont exposés à Tailwind v4 dans `src/styles/tokens.css` (bloc `@theme`) : teal `#224246` sur blanc, les 4 pôles et les 3 familles de pictos avec leurs teintes et encres, Averia Serif Libre pour les titres et le texte courant, Be Vietnam Pro pour l'interface. Les composants ne référencent que ces noms (`bg-teal`, `text-ink-2`, `font-display`, `text-pole-nature`, `rounded-photo`…).
@@ -105,7 +125,7 @@ Les polices sont auto-hébergées via les paquets `@fontsource/averia-serif-libr
 
 - `astro check` — types ;
 - `astro build` — génération de `dist/` ;
-- `seo:check` — titre ≤ 60 caractères, description 50–160, unicité, `alt` sur toutes les images, un seul `<h1>`, canonical, JSON-LD valide, aucun vestige `images.spr.so` / `super.so` / `notion.site`, aucun contenu factice, liens internes ;
+- `seo:check` — titre ≤ 60 caractères, description 50–160, unicité, `alt` sur toutes les images, un seul `<h1>`, canonical, JSON-LD valide, aucun hotlink (`images.spr.so` / `super.so` / `notion.site` / `app.les4sources.be/rails`), aucun contenu factice, liens internes ;
 - `claudy:check` — conformité de la fixture (et de l'API si `CLAUDY_PUBLIC_API_URL` est défini) ;
 - `caddy:check` — `deploy/Caddyfile` à jour par rapport à `public/_redirects` (`bun run caddy:generate` le régénère).
 

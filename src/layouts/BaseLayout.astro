@@ -51,7 +51,7 @@ const allJsonld = [organization({ siteUrl }), ...jsonld];
     <link rel="icon" href="/favicon.ico" sizes="32x32" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <meta name="theme-color" content="#0B3D3A" />
+    <meta name="theme-color" content="#224246" />
     <SEO
       title={docTitle}
       ogTitle={ogTitle}
@@ -76,5 +76,46 @@ const allJsonld = [organization({ siteUrl }), ...jsonld];
     {/* La page /newsletter est le formulaire : pas de bande en double. */}
     {pathname !== "/newsletter" && <NewsletterBand />}
     <Footer />
+    {
+      /* Le site est statique : une page construite il y a trois jours croit
+         encore qu'un événement d'hier est « à venir ». Ce garde-fou, sans
+         dépendance, retire ce qui a expiré (`data-until`), révèle ce qui ne
+         vaut qu'après (`data-from`) et masque une liste vidée. Le rebuild
+         quotidien remet ensuite tout d'aplomb côté serveur. */
+    }
+    <script is:inline>
+      (function () {
+        var now = Date.now();
+        document.querySelectorAll("[data-until]").forEach(function (el) {
+          var t = Date.parse(el.getAttribute("data-until") || "");
+          if (t && t <= now) {
+            var list = el.parentElement;
+            el.remove();
+            if (list && list.hasAttribute("data-expiring") && !list.querySelector("[data-until]")) {
+              list.hidden = true;
+            }
+          }
+        });
+        document.querySelectorAll("[data-from]").forEach(function (el) {
+          var t = Date.parse(el.getAttribute("data-from") || "");
+          if (t && t <= now) el.hidden = false;
+        });
+        // Façade vidéo (rehype-youtube) : l'iframe YouTube n'existe qu'au clic.
+        document.addEventListener("click", function (e) {
+          var link = e.target instanceof Element && e.target.closest("a[data-yt]");
+          // Cmd/Ctrl/Maj-clic, clic milieu : le lien ouvre YouTube comme tout lien.
+          if (!link || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+          e.preventDefault();
+          var frame = document.createElement("iframe");
+          frame.src = link.getAttribute("data-yt");
+          frame.title = link.getAttribute("data-yt-title") || "Vidéo";
+          frame.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+          frame.allowFullscreen = true;
+          frame.className = "yt-frame";
+          link.replaceWith(frame);
+          frame.focus();
+        });
+      })();
+    </script>
   </body>
 </html>

@@ -1,0 +1,31 @@
+name: Rebuild quotidien
+
+# Le site est statique : « à venir », « passé » et les fiches Claudy sont
+# figés au moment du build. Chaque nuit, ce job demande à Hatchbox de
+# reconstruire le site depuis `main`, pour que l'agenda bascule d'un jour et
+# que tout ce qui a été publié dans Claudy apparaisse même sans webhook.
+#
+# Secret attendu : HATCHBOX_DEPLOY_HOOK_URL — l'URL « Trigger a deploy » de
+# l'app Hatchbox du site (Settings → Deploy webhook). Sans lui, le job ne
+# fait rien et le dit ; le garde-fou du navigateur (`data-until`) continue de
+# retirer les événements passés entre deux builds.
+
+on:
+  schedule:
+    # 03:17 UTC — entre 4 h et 5 h à Bruxelles, hors de toute heure pleine chargée.
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Déclencher le déploiement Hatchbox
+        env:
+          HOOK: ${{ secrets.HATCHBOX_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::notice::HATCHBOX_DEPLOY_HOOK_URL absent — rebuild quotidien inactif."
+            exit 0
+          fi
+          curl --fail --silent --show-error --retry 3 --retry-delay 20 -X POST "$HOOK" -o /dev/null -w "Hatchbox a répondu %{http_code}\n"

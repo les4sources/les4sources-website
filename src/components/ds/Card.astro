@@ -15,17 +15,20 @@
 import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
 import { pole as resolvePole, type PoleSlug } from "@lib/poles";
+import { isRemoteImage, type RemoteImage } from "@lib/remote-image";
 import PoleIcon from "./PoleIcon.astro";
 
 type Surface = "white" | "paper" | "subtle" | "teal";
 
 interface Props {
   surface?: Surface;
-  /** Image locale optimisée (ImageMetadata) ou URL déjà servie telle quelle. */
-  image?: ImageMetadata | string;
+  /** Image locale optimisée (ImageMetadata), image Claudy rapatriée au build, ou URL servie telle quelle. */
+  image?: ImageMetadata | RemoteImage | string;
   imageAlt?: string;
   /** Rapport de la zone photo, en syntaxe CSS ("4/3", "16/9"…). */
   imageAspect?: string;
+  /** Largeur d'affichage de la photo, pour que le navigateur choisisse la bonne variante. */
+  imageSizes?: string;
   /** Sans photo : bandeau teinté du pôle avec son pictogramme, au lieu du vide. */
   pole?: PoleSlug;
   /** Rembourrage interne : pixels (20 dans la référence) ou valeur CSS complète. */
@@ -48,6 +51,7 @@ const {
   image,
   imageAlt = "",
   imageAspect = "4/3",
+  imageSizes = "(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw",
   pole,
   padding = 20,
   hoverable = false,
@@ -65,6 +69,13 @@ const classes = [
   className,
 ];
 
+// Variantes de 400 à 1280 px, jamais au-delà de l'original : une carte de
+// 380 px n'a pas à télécharger une photo de 2 000 px.
+const widthsFor = (img: ImageMetadata): number[] => {
+  const ws = [400, 640, 960, 1280].filter((w) => w < img.width);
+  return ws.length > 0 ? ws : [img.width];
+};
+
 const Tag = href ? "a" : "div";
 const hasImage = Boolean(image) || Astro.slots.has("image");
 // Repli sans photo : le bandeau du pôle. Jamais de cadre blanc vide.
@@ -75,8 +86,26 @@ const fallbackPole = !hasImage && pole ? resolvePole(pole) : undefined;
   {
     hasImage ? (
       <div class="w-full overflow-hidden" style={`aspect-ratio:${imageAspect}`}>
-        {image && typeof image !== "string" ? (
-          <Image src={image} alt={imageAlt} class="h-full w-full object-cover" />
+        {isRemoteImage(image) ? (
+          <img
+            src={image.src}
+            srcset={image.srcset}
+            sizes={imageSizes}
+            width={image.width}
+            height={image.height}
+            alt={imageAlt}
+            loading="lazy"
+            decoding="async"
+            class="h-full w-full object-cover"
+          />
+        ) : image && typeof image !== "string" ? (
+          <Image
+            src={image}
+            alt={imageAlt}
+            widths={widthsFor(image)}
+            sizes={imageSizes}
+            class="h-full w-full object-cover"
+          />
         ) : image ? (
           <img src={image} alt={imageAlt} loading="lazy" decoding="async" class="h-full w-full object-cover" />
         ) : (

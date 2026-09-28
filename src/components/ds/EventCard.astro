@@ -19,13 +19,14 @@ import Badge from "./Badge.astro";
 import Card from "./Card.astro";
 import PoleTag from "./PoleTag.astro";
 import type { PoleSlug } from "@lib/poles";
+import type { RemoteImage } from "@lib/remote-image";
 
 interface Props {
   title: string;
   /** Date déjà formatée en français ("samedi 12 septembre"). */
   date: string;
   pole?: PoleSlug;
-  image?: ImageMetadata | string;
+  image?: ImageMetadata | RemoteImage | string;
   soldOut?: boolean;
   href?: string;
   class?: string;

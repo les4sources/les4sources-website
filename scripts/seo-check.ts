@@ -28,8 +28,12 @@ const TITLE_MAX = 60;
 const DESC_MIN = 50;
 const DESC_MAX = 160;
 
-/** Hôtes de l'ancien site : leur présence dans dist/ signifie un hotlink oublié. */
-const FORBIDDEN_HOSTS = ["images.spr.so", "super.so", "notion.site"];
+/**
+ * Hôtes interdits dans dist/ : l'ancien hébergement (hotlink oublié) et le
+ * stockage d'images de Claudy — ses images sont rapatriées au build
+ * (src/lib/remote-image.ts), jamais servies depuis Claudy.
+ */
+const FORBIDDEN_HOSTS = ["images.spr.so", "super.so", "notion.site", "app.les4sources.be/rails", "app.les4sources.be/uploads"];
 /** Marqueurs de contenu bidon : le site ne doit contenir que du vrai texte. */
 const FORBIDDEN_WORDS = ["lorem ipsum", "placeholder"];
 
@@ -168,7 +172,7 @@ for (const file of htmlFiles) {
 
   // vestiges de l'ancien hébergement
   for (const host of FORBIDDEN_HOSTS) {
-    if (html.includes(host)) err(page, `référence à l'ancien site : ${host}`);
+    if (html.includes(host)) err(page, `hotlink interdit : ${host}`);
   }
 
   // faux contenu

@@ -63,20 +63,55 @@ export function startOfTodayBrussels(now: Date = new Date()): Date {
 
 interface Datable {
   start?: string | Date;
+  end?: string | Date;
 }
 
-function startInstant(item: Datable): number | null {
-  if (!item.start) return null;
-  const d = item.start instanceof Date ? item.start : new Date(item.start);
+function instant(value: string | Date | undefined): number | null {
+  if (!value) return null;
+  const d = value instanceof Date ? value : new Date(value);
   return Number.isNaN(d.getTime()) ? null : d.getTime();
 }
 
-/** Événements à venir (date absente = considéré à venir), du plus proche au plus lointain. */
+function startInstant(item: Datable): number | null {
+  return instant(item.start);
+}
+
+/**
+ * Dernier instant où l'événement a lieu : sa fin si elle est connue, sinon son
+ * début. Un stage « du 8 au 10 octobre » reste à venir tant qu'il se déroule.
+ */
+function lastInstant(item: Datable): number | null {
+  const start = startInstant(item);
+  const end = instant(item.end);
+  return end !== null && start !== null && end > start ? end : start;
+}
+
+/**
+ * Fin de la dernière journée civile (Bruxelles) d'un événement, en ISO — la
+ * date au-delà de laquelle le navigateur retire la carte d'une liste « à
+ * venir » construite il y a quelques jours (voir `data-until`, BaseLayout).
+ * Minuit UTC du lendemain : une à deux heures de grâce après minuit à Bruxelles.
+ */
+export function expiresAt(item: Datable): string | undefined {
+  const last = lastInstant(item);
+  if (last === null) return undefined;
+  const civil = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Brussels",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date(last));
+  const next = new Date(`${civil}T00:00:00Z`);
+  next.setUTCDate(next.getUTCDate() + 1);
+  return next.toISOString();
+}
+
+/** Événements à venir ou en cours (date absente = considéré à venir), du plus proche au plus lointain. */
 export function upcomingEvents<T extends Datable>(events: T[], now: Date = new Date()): T[] {
   const floor = startOfTodayBrussels(now).getTime();
   return events
     .filter((e) => {
-      const t = startInstant(e);
+      const t = lastInstant(e);
       return t === null || t >= floor;
     })
     .sort((a, b) => (startInstant(a) ?? Infinity) - (startInstant(b) ?? Infinity));
@@ -101,7 +136,8 @@ export function upcomingEventsWithin<T extends Datable>(
   return events
     .filter((e) => {
       const t = startInstant(e);
-      return t !== null && t >= min && t < max;
+      const last = lastInstant(e);
+      return t !== null && last !== null && last >= min && t < max;
     })
     .sort((a, b) => (startInstant(a) ?? 0) - (startInstant(b) ?? 0));
 }
@@ -111,7 +147,7 @@ export function pastEvents<T extends Datable>(events: T[], now: Date = new Date(
   const floor = startOfTodayBrussels(now).getTime();
   return events
     .filter((e) => {
-      const t = startInstant(e);
+      const t = lastInstant(e);
       return t !== null && t < floor;
     })
     .sort((a, b) => (startInstant(b) ?? 0) - (startInstant(a) ?? 0));

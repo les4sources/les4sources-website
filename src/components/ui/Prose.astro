@@ -236,6 +236,19 @@ const { width = "prose", class: className } = Astro.props;
   .prose-4s :global(td:first-child) {
     white-space: normal;
     min-width: 12ch;
+    max-width: 30ch;
+  }
+  /* Grilles tarifaires : les montants se lisent en colonne, chiffres alignés. */
+  .prose-4s :global(td:not(:first-child)),
+  .prose-4s :global(th:not(:first-child)) {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  .prose-4s :global(th a) {
+    color: inherit;
+  }
+  .prose-4s :global(tbody tr:hover td) {
+    background: var(--color-paper);
   }
 
   /* ── Images ─────────────────────────────────────────────────────────── */
@@ -283,6 +296,18 @@ const { width = "prose", class: className } = Astro.props;
   }
   .prose-4s :global(iframe.embed-map) {
     aspect-ratio: 4 / 3;
+  }
+  /* Façade vidéo (global.css) : la vignette remplit son cadre, sans les marges
+     ni les coins des images du texte ; le lien n'est pas souligné. */
+  .prose-4s :global(a.yt-facade) {
+    text-decoration: none;
+  }
+  .prose-4s :global(a.yt-facade > img) {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto;
+    margin: 0;
+    border-radius: 0;
   }
 
   /* ── Signet et pièce jointe → cartes de lien ────────────────────────── */
@@ -362,6 +387,27 @@ const { width = "prose", class: className } = Astro.props;
   }
   .prose-4s :global(.column > :last-child) {
     margin-bottom: 0;
+  }
+  /* Les photos d'une rangée de colonnes partagent un même cadre (4/3) : deux
+     photos côte à côte ne s'arrêtent plus à deux hauteurs différentes. */
+  .prose-4s :global(.column img) {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    margin: 0 0 0.9rem;
+  }
+  /* Une ligne en italique sous une photo est sa légende : elle s'y colle. */
+  .prose-4s :global(.column p:has(> img) + p:has(> em:only-child)) {
+    margin-top: -0.3rem;
+    font-family: var(--font-ui);
+    font-size: var(--text-caption);
+    color: var(--color-ink-3);
+  }
+  .prose-4s :global(.column p:has(> img)) {
+    margin-bottom: 0;
+  }
+  .prose-4s :global(.column p:has(> img) + p:has(> em:only-child) em) {
+    font-style: normal;
   }
   @media (min-width: 768px) {
     .prose-4s :global(.columns) {

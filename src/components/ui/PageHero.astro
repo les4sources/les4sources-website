@@ -10,6 +10,8 @@
 import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
 import PoleTag from "@components/ds/PoleTag.astro";
+import Photo from "@components/ui/Photo.astro";
+import type { RemoteImage } from "@lib/remote-image";
 import { isPole } from "@lib/poles";
 import Breadcrumbs, { type Crumb } from "./Breadcrumbs.astro";
 
@@ -20,8 +22,8 @@ interface Props {
   lead?: string;
   cover?: ImageMetadata;
   coverAlt?: string;
-  /** Image distante déjà optimisée (Claudy) — repli quand `cover` est absent. */
-  remoteCover?: { url: string; alt?: string; width?: number; height?: number };
+  /** Image Claudy rapatriée au build (src/lib/remote-image.ts) — repli quand `cover` est absent. */
+  remoteCover?: RemoteImage;
   pole?: string;
   crumbs?: Crumb[];
   /** Colonne éditoriale à 760 px plutôt que la pleine largeur du site. */
@@ -45,7 +47,8 @@ const {
   class: className,
 } = Astro.props;
 
-const container = narrow ? "max-w-narrow" : "max-w-site";
+// Une seule grille : la colonne étroite garde le bord gauche du site (voir Section).
+const container = "max-w-site";
 const hasCover = Boolean(cover) || Boolean(remoteCover);
 ---
 
@@ -79,7 +82,7 @@ const hasCover = Boolean(cover) || Boolean(remoteCover);
 {
   hasCover && (
     <div class:list={[bleed ? "mt-8" : "mt-8 px-6"]}>
-      <div class:list={["mx-auto w-full", bleed ? "" : container]}>
+      <div class:list={["mx-auto w-full", !bleed && container, !bleed && narrow && "[&>*]:max-w-narrow"]}>
         {cover ? (
           <Image
             src={cover}
@@ -93,11 +96,11 @@ const hasCover = Boolean(cover) || Boolean(remoteCover);
             ]}
           />
         ) : remoteCover ? (
-          <img
-            src={remoteCover.url}
+          <Photo
+            src={remoteCover}
             alt={remoteCover.alt || coverAlt || title}
-            width={remoteCover.width}
-            height={remoteCover.height}
+            sizes={narrow ? "(min-width: 800px) 760px, 100vw" : "(min-width: 1220px) 1180px, 100vw"}
+            loading="eager"
             class:list={[
               "w-full object-cover",
               bleed ? "max-h-[62vh]" : "max-h-[520px] rounded-photo",

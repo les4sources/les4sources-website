@@ -1,0 +1,165 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import Button from "@components/ds/Button.astro";
+import Card from "@components/ds/Card.astro";
+import Section from "@components/ds/Section.astro";
+import PageHero from "@components/ui/PageHero.astro";
+import ReservationBand from "@components/ui/ReservationBand.astro";
+import { activityByPath, type ActivityItem } from "@components/home/events";
+import { byPath, visible } from "@lib/content";
+import { breadcrumbs } from "@lib/seo";
+import { site } from "@lib/site";
+import { displayDescription, stripEmoji } from "@lib/text";
+
+/**
+ * /activites — les activités pour groupes, rangées en trois familles
+ * (« toujours disponible », « sur demande », « en saison »).
+ *
+ * La page migrée les listait en trois colonnes de liens : vingt-cinq titres
+ * soulignés d'affilée, sans une image. Ici chaque lien devient une vignette de
+ * sa fiche du catalogue — sa photo, son titre, la taille de groupe — dans
+ * l'ordre et les familles choisis par l'éditrice. Tout le texte reste celui du
+ * Markdown de la page (`src/content/pages/activites.md`), lu ici section par
+ * section : l'éditer suffit à changer la page.
+ */
+const pages = visible(await getCollection("pages"));
+const entry = byPath(pages, "/activites");
+if (!entry) {
+  throw new Error('Aucune entrée `pages` avec legacyPath "/activites" — vérifie src/content/pages/activites.md.');
+}
+const d = entry.data;
+const body = entry.body ?? "";
+
+/** Markdown en ligne de cette page : du gras, rien d'autre. Le texte est échappé. */
+const inline = (text: string): string =>
+  text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
+
+const paragraphs = (block: string): string[] =>
+  block
+    .split(/\n{2,}/)
+    .map((p) => p.trim())
+    .filter((p) => p && !p.startsWith("- ") && !p.startsWith("<"));
+
+interface Family {
+  title: string;
+  id: string;
+  text: string[];
+  tiles: { label: string; path: string; item?: ActivityItem }[];
+}
+
+const [introBlock, ...sectionBlocks] = body.split(/^## /m);
+const families: Family[] = await Promise.all(
+  sectionBlocks.map(async (block, i) => {
+    const [heading, ...rest] = block.split("\n");
+    const content = rest.join("\n");
+    const links = [...content.matchAll(/^- \[(.+?)\]\((\/catalogue\/[^)]+)\)/gm)];
+    return {
+      title: heading.trim(),
+      id: ["toujours", "sur-demande", "en-saison"][i] ?? `famille-${i + 1}`,
+      text: paragraphs(content),
+      tiles: await Promise.all(
+        links.map(async ([, label, path]) => ({ label, path, item: await activityByPath(path) })),
+      ),
+    };
+  }),
+);
+
+const crumbs = [
+  { label: "Accueil", href: "/" },
+  { label: d.title, href: "/activites" },
+];
+const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
+---
+
+<BaseLayout
+  title={d.seoTitle ?? d.title}
+  description={d.description}
+  ogImage={d.cover ?? d.ogImage}
+  jsonld={[breadcrumbs(crumbs.map((c) => ({ name: c.label, url: `${siteUrl}${c.href}` })))]}
+>
+  <PageHero
+    title={d.title}
+    lead={displayDescription(d.description, d.generatedDescription)}
+    cover={d.cover}
+    coverAlt={d.coverAlt}
+    crumbs={crumbs}
+  />
+
+  <Section class="pb-4">
+    <div class="grid max-w-[68ch] gap-4 font-body text-body">
+      {paragraphs(introBlock).map((p) => <p set:html={inline(p)} />)}
+    </div>
+    <nav aria-label="Les trois familles d’activités" class="mt-6 flex flex-wrap gap-2.5">
+      {
+        families.map((f) => (
+          <Button variant="secondary" size="sm" href={`#${f.id}`}>
+            {stripEmoji(f.title)}
+          </Button>
+        ))
+      }
+    </nav>
+  </Section>
+
+  {
+    families.map((f, i) => (
+      <Section id={f.id} title={f.title} surface={i % 2 === 1 ? "subtle" : "transparent"}>
+        {f.text.length > 0 && (
+          <div class="-mt-3 mb-7 grid max-w-[68ch] gap-3 font-body text-body text-ink-2">
+            {f.text.map((p) => (
+              <p set:html={inline(p)} />
+            ))}
+          </div>
+        )}
+        <ul class="m-0 grid list-none grid-cols-2 gap-4 p-0 md:grid-cols-3 lg:grid-cols-4 lg:gap-5">
+          {f.tiles.map(({ label, path, item }) => (
+            <li class="min-w-0">
+              <Card
+                hoverable
+                href={path}
+                image={item?.cover}
+                imageAlt={item?.title ?? label}
+                imageAspect="4/3"
+                imageSizes="(min-width: 1024px) 280px, (min-width: 768px) 30vw, 46vw"
+                pole={item?.pole}
+                padding={0}
+                class="h-full"
+              >
+                <div class="p-3.5 sm:p-4">
+                  {/* Le titre de la fiche liée fait foi : il ne peut pas contredire sa page. */}
+                  <h3 class="m-0 font-display text-[17px] leading-snug font-bold text-ink sm:text-[18px]">
+                    {item ? (
+                      <>
+                        {item.icon && (
+                          <span class="mr-1.5" aria-hidden="true">
+                            {item.icon}
+                          </span>
+                        )}
+                        {item.title}
+                      </>
+                    ) : (
+                      label
+                    )}
+                  </h3>
+                  {item?.participants && (
+                    <p class="m-0 mt-1.5 font-ui text-caption text-ink-3">{item.participants}</p>
+                  )}
+                </div>
+              </Card>
+            </li>
+          ))}
+        </ul>
+      </Section>
+    ))
+  }
+
+  <Section class="pt-0">
+    <Button href="/catalogue">Tout le catalogue, avec les tarifs</Button>
+  </Section>
+
+  <ReservationBand />
+</BaseLayout>

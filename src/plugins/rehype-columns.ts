@@ -191,7 +191,11 @@ export default function rehypeColumns() {
         i += 1;
       }
 
-      const filled = columns.filter((c) => c.children.length > 0);
+      // Une colonne qui ne porte que des sauts de ligne (le blanc entre
+      // `<!-- columns -->` et le premier `<!-- column -->`) n'en est pas une :
+      // rendue, elle décalait tout le bloc d'une gouttière vers la droite.
+      const blank = (n: RootContent) => n.type === "text" && n.value.trim() === "";
+      const filled = columns.filter((c) => c.children.some((n) => !blank(n)));
       if (filled.length === 0) continue;
       if (filled.length === 1) {
         // Une seule colonne : pas la peine d'une grille, le contenu suffit.

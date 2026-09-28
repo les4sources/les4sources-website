@@ -12,7 +12,13 @@ import Section from "@components/ds/Section.astro";
 import EventGrid from "@components/home/EventGrid.astro";
 import { eventItems } from "@components/home/events";
 import { siteData } from "@lib/data";
-import { currentYearBrussels, formatDate, formatDateRange, upcomingEvents } from "@lib/content";
+import {
+  currentYearBrussels,
+  expiresAt,
+  formatDate,
+  formatDateRange,
+  upcomingEvents,
+} from "@lib/content";
 import {
   isPastEvent,
   otherDates as seriesDates,
@@ -21,10 +27,11 @@ import {
   timeLabel as buildTimeLabel,
 } from "@lib/events";
 import { ogImage } from "@lib/og";
-import { isPole, pole as resolvePole } from "@lib/poles";
+import { isPole, pole as resolvePole, type PoleSlug } from "@lib/poles";
+import { claudyImage, claudyOgImage } from "@lib/remote-image";
 import { event as eventSchema, breadcrumbs, eventDocumentTitle } from "@lib/seo";
 import { site } from "@lib/site";
-import { cardTitle } from "@lib/text";
+import { cardTitle, seoDescription } from "@lib/text";
 import type { MergedEvent } from "@lib/claudy";
 
 /**
@@ -58,14 +65,16 @@ const legacy = event.legacyId ? await getEntry("evenements", event.legacyId) : u
 const rendered = legacy ? await render(legacy) : undefined;
 const Content = rendered?.Content;
 
-// La couverture d'une fiche migrée est une image locale optimisée ; celle d'un
-// événement Claudy arrive par URL. L'une ou l'autre, jamais les deux.
-const cover = legacy?.data.cover;
-const remoteCover = event.image;
-const heroImage = cover ?? remoteCover?.url;
-const heroAlt = legacy?.data.coverAlt || remoteCover?.alt || event.title;
+// L'image publiée dans Claudy l'emporte (c'est le choix de l'éditrice) ; elle
+// est rapatriée et optimisée au build. À défaut, la couverture de la fiche
+// migrée jumelle — une image locale.
+const remoteCover = event.source === "claudy" ? event.image : undefined;
+const remoteHero = await claudyImage(remoteCover?.url, [640, 960, 1440, 1920]);
+const cover = remoteHero ? undefined : legacy?.data.cover;
+const heroImage = remoteHero ?? cover;
+const heroAlt = (remoteHero ? remoteCover?.alt : legacy?.data.coverAlt) || event.title;
+const poleSlug: PoleSlug = isPole(event.pole) ? event.pole : "convivialite";
 const props: Record<string, string> = legacy?.data.properties ?? {};
-const poleSlug = isPole(event.pole) ? event.pole : undefined;
 
 // « COMPLET ! » est écrit dans le titre par l'éditrice — c'est la seule source.
 const soldOut = /complet/i.test(event.title);
@@ -130,13 +139,23 @@ const siteUrl = siteUrlObj.href.replace(/\/$/, "");
 const url = `${siteUrl}${event.path}`;
 
 // La description SEO doit exister : à défaut de résumé, on la compose des faits réels.
+// Pour Claudy, le résumé suivi de la date : une série dupliquée partage son
+// résumé, la date rend chaque description unique (seoDescription).
 const description =
-  event.description ||
-  [event.title, dateLabel, event.location].filter(Boolean).join(" — ") ||
-  `${event.title} aux 4 Sources, à Yvoir.`;
+  event.source === "claudy"
+    ? seoDescription(event.description || event.title, dateLabel)
+    : event.description ||
+      [event.title, dateLabel, event.location].filter(Boolean).join(" — ") ||
+      `${event.title} aux 4 Sources, à Yvoir.`;
 
-// Image absolue pour le JSON-LD : le crop OG de la couverture locale, sinon l'URL Claudy.
-const jsonldImage = cover ? (await ogImage(cover, siteUrlObj))?.url : remoteCover?.url;
+// Image absolue pour le JSON-LD et Open Graph : le recadrage 1200 × 630 de la
+// couverture, locale ou rapatriée de Claudy — toujours servi par le site.
+const remoteOg = remoteHero ? await claudyOgImage(remoteCover?.url) : undefined;
+const jsonldImage = cover
+  ? (await ogImage(cover, siteUrlObj))?.url
+  : remoteOg
+    ? new URL(remoteOg, siteUrlObj).href
+    : undefined;
 
 const jsonld = [
   eventSchema({
@@ -165,7 +184,7 @@ const jsonld = [
   title={event.seoTitle ?? event.title}
   documentTitle={eventDocumentTitle(event.seoTitle ?? event.title, event.start, Astro.url.pathname)}
   description={description}
-  ogImage={cover ?? remoteCover?.url}
+  ogImage={cover ?? remoteOg}
   type="article"
   jsonld={jsonld}
 >
@@ -209,6 +228,7 @@ const jsonld = [
         registration={registration}
         icsHref={icsHref}
         otherDates={otherDates}
+        until={expiresAt(event)}
       />
       <div class="min-w-0 lg:order-1">
         <Prose width="full">
@@ -239,7 +259,7 @@ const jsonld = [
   {
     soon.length > 0 && (
       <Section title="Prochainement aux 4 Sources ⛅" surface="subtle">
-        <EventGrid items={soon} cols={3} />
+        <EventGrid items={soon} cols={3} expire />
       </Section>
     )
   }
@@ -250,7 +270,10 @@ const jsonld = [
        fixed), le pied de page reste atteignable. Sur grand écran, c'est la
        carte pratique collante qui joue ce rôle. */
     registration && (
-      <div class="sticky bottom-0 z-30 border-t-[1.5px] border-line-soft bg-white px-4 py-3 lg:hidden">
+      <div
+        class="sticky bottom-0 z-30 border-t-[1.5px] border-line-soft bg-white px-4 py-3 lg:hidden"
+        data-until={expiresAt(event)}
+      >
         <div class="mx-auto flex max-w-site items-center justify-between gap-3">
           <p class="m-0 min-w-0 font-ui">
             <span class="block truncate text-[14px] font-bold text-ink">{dateLabel}</span>

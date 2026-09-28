@@ -113,8 +113,8 @@ export interface IcsOptions {
   now?: Date;
 }
 
-/** Le texte `.ics` d'un événement daté ; `undefined` s'il n'a pas de date. */
-export function icsForEvent(e: MergedEvent, opts: IcsOptions): string | undefined {
+/** Les lignes VEVENT d'un événement daté ; `undefined` s'il n'a pas de date. */
+function vevent(e: MergedEvent, opts: IcsOptions): string[] | undefined {
   if (!e.start) return undefined;
   const start = civil(e.start);
   if (!start) return undefined;
@@ -157,13 +157,7 @@ export function icsForEvent(e: MergedEvent, opts: IcsOptions): string | undefine
   const stamp = (opts.now ?? new Date()).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z");
   const host = new URL(opts.siteUrl).host;
 
-  const body = [
-    "BEGIN:VCALENDAR",
-    "VERSION:2.0",
-    "PRODID:-//Les 4 Sources//Site web//FR",
-    "CALSCALE:GREGORIAN",
-    "METHOD:PUBLISH",
-    ...VTIMEZONE,
+  return [
     "BEGIN:VEVENT",
     `UID:${e.path.replace(/^\//, "").replace(/\//g, "-")}@${host}`,
     `DTSTAMP:${stamp}`,
@@ -173,7 +167,49 @@ export function icsForEvent(e: MergedEvent, opts: IcsOptions): string | undefine
     `LOCATION:${escapeText(location)}`,
     `URL:${url}`,
     "END:VEVENT",
+  ];
+}
+
+function calendar(events: string[][], header: string[] = []): string {
+  const body = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//Les 4 Sources//Site web//FR",
+    "CALSCALE:GREGORIAN",
+    "METHOD:PUBLISH",
+    ...header,
+    ...VTIMEZONE,
+    ...events.flat(),
     "END:VCALENDAR",
   ];
   return body.map(foldLine).join("\r\n") + "\r\n";
+}
+
+/** Le texte `.ics` d'un événement daté ; `undefined` s'il n'a pas de date. */
+export function icsForEvent(e: MergedEvent, opts: IcsOptions): string | undefined {
+  const lines = vevent(e, opts);
+  return lines ? calendar([lines]) : undefined;
+}
+
+/**
+ * Le calendrier auquel on s'abonne (`/agenda.ics`) : tous les événements
+ * datés reçus, chacun avec ses horaires. Le nom et la fréquence de
+ * rafraîchissement sont ceux que lisent Apple Calendar, Google Agenda et
+ * Outlook ; l'UID de chaque événement est celui de son fichier individuel, un
+ * abonné qui l'avait déjà ajouté à la main ne le voit pas en double.
+ */
+export function icsForCalendar(
+  entries: { event: MergedEvent; horaires?: string }[],
+  opts: Omit<IcsOptions, "horaires">,
+): string {
+  const events = entries
+    .map(({ event, horaires }) => vevent(event, { ...opts, horaires }))
+    .filter((lines): lines is string[] => Boolean(lines));
+  return calendar(events, [
+    `X-WR-CALNAME:${escapeText(site.name)}`,
+    `X-WR-CALDESC:${escapeText("Les événements du tiers-lieu Les 4 Sources, à Yvoir")}`,
+    "X-WR-TIMEZONE:Europe/Brussels",
+    "REFRESH-INTERVAL;VALUE=DURATION:PT12H",
+    "X-PUBLISHED-TTL:PT12H",
+  ]);
 }

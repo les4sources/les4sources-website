@@ -1,4 +1,6 @@
 ---
+import { displayDescription } from "@lib/text";
+import { activityByPath } from "@components/home/events";
 import { getCollection, render } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
@@ -35,16 +37,17 @@ const participantsOf = (x: MergedExperience): string | undefined =>
         ? `À partir de ${x.minParticipants} personnes`
         : undefined;
 
-const items: CardItem[] = listed.map((x) => ({
+const items: CardItem[] = await Promise.all(listed.map(async (x) => ({
   title: x.title,
   href: x.path,
-  description: x.generatedDescription ? undefined : x.description || undefined,
+  description: displayDescription(x.description, x.generatedDescription),
   eyebrow: x.duration,
   meta: [participantsOf(x), x.priceText].filter(Boolean).join(" · ") || undefined,
   icon: x.icon,
   pole: x.pole,
-  image: (x.legacyId ? coverById.get(x.legacyId) : undefined) ?? x.image,
-}));
+  // La photo de la carte : l'image Claudy rapatriée, sinon la couverture migrée.
+  image: (await activityByPath(x.path))?.cover ?? (x.legacyId ? coverById.get(x.legacyId) : undefined),
+})));
 
 // Filtres : uniquement les pôles réellement représentés dans le catalogue.
 const present: PoleSlug[] = Object.values(POLES)
@@ -65,7 +68,7 @@ const description =
 >
   <PageHero
     title={title}
-    lead={entry?.data.generatedDescription ? undefined : entry?.data.description}
+    lead={displayDescription(entry?.data.description, entry?.data.generatedDescription)}
     cover={entry?.data.cover}
     coverAlt={entry?.data.coverAlt}
     crumbs={[{ label: "Accueil", href: "/" }, { label: "Le catalogue" }]}

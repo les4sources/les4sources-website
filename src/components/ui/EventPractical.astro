@@ -31,6 +31,12 @@ interface Props {
   /** Lien du fichier iCalendar (« Ajouter à mon agenda »). */
   icsHref?: string;
   otherDates?: OtherDate[];
+  /**
+   * Fin de l'événement (ISO). Une fiche construite avant l'événement bascule
+   * d'elle-même dans le navigateur une fois cette date passée : le bouton
+   * d'inscription disparaît, la mention « déjà eu lieu » apparaît.
+   */
+  until?: string;
   class?: string;
 }
 
@@ -46,6 +52,7 @@ const {
   registration,
   icsHref,
   otherDates = [],
+  until,
   class: className,
 } = Astro.props;
 ---
@@ -105,9 +112,21 @@ const {
   <div class="mt-6 grid gap-2.5">
     {
       state === "upcoming" && registration && (
-        <Button href={registration.url} rel="noopener" size="lg" fullWidth>
-          {registration.label}
-        </Button>
+        <div class="grid" data-until={until}>
+          <Button href={registration.url} rel="noopener" size="lg" fullWidth>
+            {registration.label}
+          </Button>
+        </div>
+      )
+    }
+    {
+      state !== "past" && until && (
+        <div class="grid gap-2.5" data-from={until} hidden>
+          <p class="font-ui text-ui text-ink-2">Cet événement a déjà eu lieu.</p>
+          <Button href="/agenda" variant="secondary" fullWidth>
+            Voir les prochains rendez-vous
+          </Button>
+        </div>
       )
     }
     {

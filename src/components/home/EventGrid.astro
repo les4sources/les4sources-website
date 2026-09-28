@@ -18,10 +18,17 @@ interface Props {
   withImages?: boolean;
   /** Rangée défilante sous 640 px au lieu d'une pile. */
   snap?: boolean;
+  /**
+   * Liste « à venir » : chaque carte porte sa date d'expiration et le
+   * navigateur la retire une fois l'événement passé, même si le dernier build
+   * date de plusieurs jours (`data-until`, BaseLayout).
+   */
+  expire?: boolean;
   class?: string;
 }
 
-const { items, cols = 3, withImages = true, snap = false, class: className } = Astro.props;
+const { items, cols = 3, withImages = true, snap = false, expire = false, class: className } =
+  Astro.props;
 
 const COLS: Record<3 | 4, string> = {
   3: "sm:grid-cols-2 lg:grid-cols-3",
@@ -30,6 +37,7 @@ const COLS: Record<3 | 4, string> = {
 ---
 
 <ul
+  data-expiring={expire ? "" : undefined}
   class:list={[
     "m-0 list-none p-0",
     snap ? "l4s-snap-row sm:grid sm:gap-5" : "grid grid-cols-1 gap-5",
@@ -39,7 +47,12 @@ const COLS: Record<3 | 4, string> = {
 >
   {
     items.map((e) => (
-      <li class="min-w-0" data-event data-categories={e.categories.join("|")}>
+      <li
+        class="min-w-0"
+        data-event
+        data-categories={e.categories.join("|")}
+        data-until={expire ? e.until : undefined}
+      >
         <EventCard
           title={e.title}
           date={e.dateLabel ?? ""}

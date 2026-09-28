@@ -229,3 +229,97 @@
     transform: rotate(-2deg);
   }
 }
+
+/* ── Façade vidéo YouTube (src/plugins/rehype-youtube.ts) ────────────── */
+.yt-facade,
+.yt-frame {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 1.8rem 0;
+  border: 0;
+  border-radius: var(--radius-photo);
+  overflow: hidden;
+  background: var(--color-teal);
+}
+.yt-facade img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  border-radius: 0;
+  transition: transform 200ms var(--ease-brand), opacity 200ms var(--ease-brand);
+}
+.yt-facade:hover img {
+  opacity: 0.88;
+}
+/* Le bouton lecture : un disque jaune surligneur, le triangle en teal. */
+.yt-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 76px;
+  height: 76px;
+  margin: -38px 0 0 -38px;
+  border-radius: 999px;
+  background: var(--color-highlight);
+  box-shadow: var(--shadow-md);
+  transition: transform 160ms var(--ease-brand);
+}
+.yt-play::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -13px 0 0 -8px;
+  border-style: solid;
+  border-width: 13px 0 13px 22px;
+  border-color: transparent transparent transparent var(--color-teal);
+}
+.yt-facade:hover .yt-play,
+.yt-facade:focus-visible .yt-play {
+  transform: scale(1.06);
+}
+.yt-label {
+  position: absolute;
+  left: 16px;
+  bottom: 14px;
+  max-width: calc(100% - 32px);
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--color-teal);
+  color: var(--color-white);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ── Transitions de page (View Transitions, sans JavaScript) ────────────
+   D'une page à l'autre du site, un fondu court (180 ms, la courbe de la
+   charte) au lieu d'un écran blanc ; l'en-tête ne bouge pas. Les navigateurs
+   qui ne connaissent pas la règle l'ignorent ; « mouvement réduit » la coupe. */
+@view-transition {
+  navigation: auto;
+}
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none;
+  }
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 180ms;
+  animation-timing-function: var(--ease-brand);
+}
+.l4s-site-header {
+  view-transition-name: site-header;
+}
+::view-transition-group(site-header) {
+  animation: none;
+}

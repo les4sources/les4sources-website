@@ -1,0 +1,51 @@
+---
+/**
+ * Une photo, d'où qu'elle vienne : image locale optimisée (`astro:assets`) ou
+ * image Claudy déjà rapatriée et convertie au build (`RemoteImage`). Les deux
+ * sortent en `<img srcset>` servis depuis `/_astro/` — jamais de hotlink.
+ */
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import { isRemoteImage, type RemoteImage } from "@lib/remote-image";
+
+interface Props {
+  src: ImageMetadata | RemoteImage;
+  alt: string;
+  /** Largeurs des variantes locales ; ignorées pour une image Claudy (déjà transformée). */
+  widths?: number[];
+  sizes: string;
+  loading?: "eager" | "lazy";
+  class?: string;
+}
+
+const { src, alt, widths = [480, 720, 960, 1440], sizes, loading = "lazy", class: className } =
+  Astro.props;
+
+const local = isRemoteImage(src) ? undefined : src;
+const localWidths = local ? widths.filter((w) => w < local.width) : [];
+---
+
+{
+  isRemoteImage(src) ? (
+    <img
+      src={src.src}
+      srcset={src.srcset}
+      sizes={sizes}
+      width={src.width}
+      height={src.height}
+      alt={alt}
+      loading={loading}
+      decoding="async"
+      class={className}
+    />
+  ) : local ? (
+    <Image
+      src={local}
+      alt={alt}
+      widths={localWidths.length > 0 ? localWidths : [local.width]}
+      sizes={sizes}
+      loading={loading}
+      class={className}
+    />
+  ) : null
+}

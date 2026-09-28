@@ -9,6 +9,7 @@
     "check": "astro check",
     "seo:check": "bun run scripts/seo-check.ts",
     "claudy:check": "bun run scripts/claudy-check.ts",
+    "youtube:thumbnails": "bun run scripts/youtube-thumbnails.ts",
     "caddy:generate": "bun run scripts/redirects-to-caddy.ts",
     "caddy:check": "bun run scripts/redirects-to-caddy.ts --check",
     "verify": "astro check && astro build && bun run seo:check && bun run claudy:check && bun run caddy:check",

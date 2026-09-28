@@ -8,8 +8,9 @@
  *
  * Un seul `<h1>` par page : c'est ici qu'il vit.
  */
-import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
+import Photo from "@components/ui/Photo.astro";
+import type { RemoteImage } from "@lib/remote-image";
 import Badge from "@components/ds/Badge.astro";
 import PoleTag from "@components/ds/PoleTag.astro";
 import { pole as resolvePole, type PoleSlug } from "@lib/poles";
@@ -19,8 +20,8 @@ interface Props {
   pole?: PoleSlug;
   /** Libellé de l'étiquette (thématique, catégorie) ; à défaut celui du pôle. */
   tag?: string;
-  /** Couverture locale optimisée, ou URL déjà servie (Claudy). */
-  image?: ImageMetadata | string;
+  /** Couverture locale optimisée, ou image Claudy rapatriée au build. */
+  image?: ImageMetadata | RemoteImage;
   imageAlt?: string;
   /** « vendredi 18 septembre · à partir de 18h30 ». */
   dateLine?: string;
@@ -44,8 +45,8 @@ const hasImage = Boolean(image);
   ]}
 >
   {
-    image && typeof image !== "string" ? (
-      <Image
+    image && (
+      <Photo
         src={image}
         alt={imageAlt}
         widths={[640, 960, 1440, 1920, 2400]}
@@ -53,9 +54,7 @@ const hasImage = Boolean(image);
         loading="eager"
         class="l4s-event-hero-photo"
       />
-    ) : image ? (
-      <img src={image} alt={imageAlt} class="l4s-event-hero-photo" />
-    ) : null
+    )
   }
 
   <div class:list={["l4s-event-hero-panel", p.classes.bg, onPanel]}>

@@ -1,4 +1,5 @@
 ---
+import { displayDescription } from "@lib/text";
 import { getCollection, render } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
@@ -23,7 +24,7 @@ const projets = listable(await getCollection("projets")).sort((a, b) =>
 const items: CardItem[] = projets.map((p) => ({
   title: p.data.title,
   href: pathOf(p),
-  description: p.data.generatedDescription ? undefined : p.data.description,
+  description: displayDescription(p.data.description, p.data.generatedDescription),
   icon: p.data.icon,
   pole: p.data.pole,
   image: p.data.cover,
@@ -43,7 +44,7 @@ const description =
 >
   <PageHero
     title={title}
-    lead={entry?.data.generatedDescription ? undefined : entry?.data.description}
+    lead={displayDescription(entry?.data.description, entry?.data.generatedDescription)}
     cover={entry?.data.cover}
     coverAlt={entry?.data.coverAlt}
     crumbs={[{ label: "Accueil", href: "/" }, { label: "Les projets" }]}

@@ -311,7 +311,7 @@ export function slugOfPath(path: string): string {
 
 const iso = (d: Date | undefined): string | undefined => d?.toISOString();
 
-function fromClaudyEvent(e: ClaudyEvent, legacyId?: string): MergedEvent {
+function fromClaudyEvent(e: ClaudyEvent, twin?: LegacyEntry): MergedEvent {
   return {
     slug: e.slug,
     path: e.path ?? `/evenements/${e.slug}`,
@@ -319,10 +319,12 @@ function fromClaudyEvent(e: ClaudyEvent, legacyId?: string): MergedEvent {
     description: e.summary ?? "",
     descriptionHtml: e.description_html,
     image: e.image,
-    pole: e.category?.pole,
+    // Tant que l'éditrice n'a pas rattaché la catégorie à un pôle dans Claudy,
+    // la fiche migrée jumelle garde sa couleur : carte et fiche restent d'accord.
+    pole: e.category?.pole ?? twin?.data.pole,
     categoryName: e.category?.name,
     source: "claudy",
-    legacyId,
+    legacyId: twin?.id,
     start: e.starts_at,
     end: e.ends_at,
     allDay: e.all_day,
@@ -375,7 +377,7 @@ export function mergeEvents(claudyEvents: ClaudyEvent[], legacyEntries: LegacyEn
   for (const e of claudyEvents) {
     const twin = legacyBySlug.get(e.slug);
     if (twin) claimed.add(e.slug);
-    merged.push(fromClaudyEvent(e, twin?.id));
+    merged.push(fromClaudyEvent(e, twin));
   }
   for (const [slug, entry] of legacyBySlug) {
     if (!claimed.has(slug)) merged.push(fromLegacyEvent(entry));
@@ -401,7 +403,7 @@ function priceTextOf(e: ClaudyExperience): string | undefined {
   return undefined;
 }
 
-function fromClaudyExperience(e: ClaudyExperience, legacyId?: string): MergedExperience {
+function fromClaudyExperience(e: ClaudyExperience, twin?: LegacyEntry): MergedExperience {
   return {
     slug: e.slug,
     path: e.path ?? `/catalogue/${e.slug}`,
@@ -409,9 +411,9 @@ function fromClaudyExperience(e: ClaudyExperience, legacyId?: string): MergedExp
     description: e.summary ?? "",
     descriptionHtml: e.description_html,
     image: e.image,
-    pole: e.category?.pole,
+    pole: e.category?.pole ?? twin?.data.pole,
     source: "claudy",
-    legacyId,
+    legacyId: twin?.id,
     priceText: priceTextOf(e),
     duration: e.duration_text,
     minParticipants: e.min_participants,
@@ -459,7 +461,7 @@ export function mergeExperiences(
   for (const e of claudyExperiences) {
     const twin = legacyBySlug.get(e.slug);
     if (twin) claimed.add(e.slug);
-    merged.push(fromClaudyExperience(e, twin?.id));
+    merged.push(fromClaudyExperience(e, twin));
   }
   for (const [slug, entry] of legacyBySlug) {
     if (!claimed.has(slug)) merged.push(fromLegacyExperience(entry));

@@ -1,4 +1,5 @@
 ---
+import { displayDescription } from "@lib/text";
 import type { GetStaticPaths } from "astro";
 import { getCollection, render, type CollectionEntry } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
@@ -61,7 +62,7 @@ const childItems: CardItem[] = children.map((c) => ({
   title: c.data.title,
   href: pathOf(c),
   // Une description fabriquée ne s'affiche pas : elle ne sert que le SEO.
-  description: c.data.generatedDescription ? undefined : c.data.description,
+  description: displayDescription(c.data.description, c.data.generatedDescription),
   icon: c.data.icon,
   image: c.data.cover,
 }));
@@ -99,7 +100,7 @@ const jsonld = [breadcrumbs(crumbs.map((c) => ({ name: c.label, url: `${siteUrl}
 >
   <PageHero
     title={d.title}
-    lead={d.generatedDescription ? undefined : d.description}
+    lead={displayDescription(d.description, d.generatedDescription)}
     cover={d.cover}
     coverAlt={d.coverAlt}
     pole={d.pole ?? "hebergement"}

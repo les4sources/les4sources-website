@@ -33,31 +33,47 @@ const NEEDS = [
 const telHref = `tel:${site.phone.replace(/\s+/g, "")}`;
 ---
 
-<Section surface="paper" narrow id={id} class={className}>
-  <h2 class="font-display text-h2 font-bold">Alors, envie de venir aux 4 Sources ?</h2>
-  <p class="mt-4 max-w-[68ch] font-body text-body">
-    Complète notre formulaire pour nous envoyer une demande de réservation. Il te permet de préciser
-    tes besoins :
-  </p>
-  <ul class="m-0 mt-4 flex list-none flex-wrap gap-x-5 gap-y-2 p-0 font-body text-body">
-    {NEEDS.map((need) => <li>✔️ {need}</li>)}
-  </ul>
+<Section surface="teal" id={id} class={className}>
+  {/* Sur teal — la seule surface sombre de la charte — la bande se détache de
+      la newsletter (papier) qui la suit, et l'appel à réserver devient le
+      moment fort de la page : le bouton jaune est le même que « Réserver » dans
+      l'en-tête. */}
+  <div class="grid grid-cols-1 gap-10 md:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] md:items-center md:gap-14">
+    <div>
+      <h2 class="font-display text-h2 font-bold text-white">Alors, envie de venir aux 4 Sources ?</h2>
+      <p class="mt-4 max-w-[60ch] font-body text-body text-white/90">
+        Complète notre formulaire pour nous envoyer une demande de réservation. Il te permet de
+        préciser tes besoins :
+      </p>
+      <ul class="m-0 mt-5 grid list-none gap-x-6 gap-y-2.5 p-0 font-body text-body text-white sm:grid-cols-2">
+        {/* Le ✔️ de la charte est une coche sombre : sur teal elle disparaît.
+            Même coche, en jaune surligneur, dessinée en texte. */}
+        {NEEDS.map((need) => (
+          <li class="flex gap-2.5">
+            <span aria-hidden="true" class="font-ui font-bold text-highlight">✓</span>
+            <span>{need}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
 
-  <div class="mt-6 flex flex-wrap gap-2.5">
-    <Button variant="primary" href={site.reservationUrl}>Faire une demande de séjour</Button>
-    {
-      practical && (
-        <>
-          <Button variant="secondary" href="/sejours/tarifs">Tarifs</Button>
-          <Button variant="secondary" href="/sejours/disponibilites">Disponibilités</Button>
-        </>
-      )
-    }
+    <div class="rounded-photo bg-white/[0.06] p-6 ring-1 ring-white/15 md:p-7">
+      <Button variant="highlight" size="lg" href={site.reservationUrl} fullWidth>
+        Faire une demande de séjour
+      </Button>
+      {
+        practical && (
+          <div class="mt-3 grid grid-cols-2 gap-2.5">
+            <Button variant="inverse" href="/sejours/tarifs" fullWidth>Tarifs</Button>
+            <Button variant="inverse" href="/sejours/disponibilites" fullWidth>Disponibilités</Button>
+          </div>
+        )
+      }
+      <p class="mt-6 border-t border-white/15 pt-5 font-body text-small text-white/90 [&_a]:text-white">
+        💁 <b class="text-white">Une question au sujet des séjours ?</b> Contacte Malau à <a
+          href={`mailto:${site.emailSejours}`}>{site.emailSejours}</a
+        > ou au <a href={telHref} class="whitespace-nowrap">{site.phone}</a>.
+      </p>
+    </div>
   </div>
-
-  <p class="mt-6 max-w-[68ch] font-body text-body">
-    💁 <b>Une question au sujet des séjours ?</b> Contacte Malau à <a
-      href={`mailto:${site.emailSejours}`}>{site.emailSejours}</a
-    > ou au <a href={telHref}>{site.phone}</a>.
-  </p>
 </Section>

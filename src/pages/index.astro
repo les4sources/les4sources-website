@@ -1,4 +1,5 @@
 ---
+import Photo from "@components/ui/Photo.astro";
 import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
 import BaseLayout from "@layouts/BaseLayout.astro";
@@ -114,7 +115,7 @@ const featured = await Promise.all(
   </Section>
 
   <Section title="Prochainement aux 4 Sources ⛅" surface="subtle">
-    {upcoming.length > 0 && <EventGrid items={upcoming} cols={4} snap />}
+    {upcoming.length > 0 && <EventGrid items={upcoming} cols={4} snap expire />}
 
     <div class:list={[upcoming.length > 0 && "mt-7"]}>
       <Button variant="secondary" href="/agenda">L’agenda des 4 Sources</Button>
@@ -233,7 +234,7 @@ const featured = await Promise.all(
     <div class="grid grid-cols-1 items-center gap-10 md:grid-cols-[1fr_1.4fr] md:gap-12">
       {
         pizzaParty?.cover && (
-          <Image
+          <Photo
             src={pizzaParty.cover}
             alt="Pizza Party aux 4 Sources"
             widths={[480, 720, 960]}
@@ -315,8 +316,10 @@ const featured = await Promise.all(
     </div>
   </Section>
 
-  <Section title="Nos soutiens 💚" surface="paper">
-    <div class="flex flex-wrap items-center justify-center gap-x-16 gap-y-8 sm:gap-x-24">
+  {/* Sur blanc, calés à gauche comme le titre : la bande papier qui suit est
+      celle de la newsletter, deux bandes papier d'affilée se confondaient. */}
+  <Section title="Nos soutiens 💚" class="border-t-[1.5px] border-line-soft">
+    <div class="flex flex-wrap items-center justify-start gap-x-14 gap-y-8 sm:gap-x-20">
       <Image
         src={soutienWallonie}
         alt="Wallonie Relance"

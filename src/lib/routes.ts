@@ -17,6 +17,7 @@ const EXACT = new Set([
   "/projets",
   "/sejours",
   "/le-bar-des-4-sources",
+  "/activites",
   "/404",
 ]);
 

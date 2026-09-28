@@ -1,7 +1,9 @@
 ---
 /**
  * Section — bande horizontale du site (portage de `Section` dans shared.jsx).
- * Beaucoup de blanc, une seule colonne, 1180 px (ou 760 px en `narrow`).
+ * Beaucoup de blanc, une seule colonne, 1180 px. En `narrow`, la colonne de
+ * lecture fait 760 px mais reste calée sur le bord gauche du site — le même que
+ * le logo de l'en-tête, les bandes et le pied de page : une seule grille.
  * Le titre h2 porte, par convention de la charte, un emoji en fin de ligne
  * (« Nos projets 🎴 ») : il est passé tel quel dans `title`.
  */
@@ -34,7 +36,7 @@ const { title, surface = "transparent", narrow = false, id, class: className } =
     className,
   ]}
 >
-  <div class:list={["mx-auto w-full", narrow ? "max-w-narrow" : "max-w-site"]}>
+  <div class:list={["mx-auto w-full max-w-site", narrow && "[&>*]:max-w-narrow"]}>
     {
       title && (
         <h2

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
+import Button from "@components/ds/Button.astro";
 import Lead from "@components/ds/Lead.astro";
 import Section from "@components/ds/Section.astro";
 import Tag from "@components/ds/Tag.astro";
@@ -24,6 +25,12 @@ const events = await eventItems();
 const upcoming = upcomingEvents(events).filter((e) => Boolean(e.start));
 const past = pastEvents(events);
 const categories = categoriesOf(upcoming);
+
+// L'agenda en abonnement (src/pages/agenda.ics.ts) : webcal:// ouvre l'app
+// calendrier du système ; Google Agenda prend l'URL en paramètre `cid`.
+const feed = new URL("/agenda.ics", Astro.site ?? "https://www.les4sources.be");
+const webcal = feed.href.replace(/^https?:/, "webcal:");
+const googleCalendar = `https://calendar.google.com/calendar/render?cid=${encodeURIComponent(webcal)}`;
 
 const title = entry?.data.title ?? "L’agenda des 4 Sources";
 const description = entry?.data.description ?? "Viens nous rencontrer lors de nos prochains événements !";
@@ -57,8 +64,25 @@ const description = entry?.data.description ?? "Viens nous rencontrer lors de no
             )
           }
 
-          <EventGrid items={upcoming} cols={3} />
+          <EventGrid items={upcoming} cols={3} expire />
         </div>
+
+        <aside
+          aria-labelledby="abonnement"
+          class="mt-12 grid gap-5 rounded-photo bg-paper p-6 md:grid-cols-[minmax(0,1fr)_auto] md:items-center md:gap-10 md:p-8"
+        >
+          <div>
+            <h2 id="abonnement" class="font-display text-h3 font-bold">L’agenda dans ton calendrier 📅</h2>
+            <p class="mt-2 max-w-[60ch] font-body text-body text-ink-2">
+              Abonne ton calendrier à l’agenda des 4 Sources : chaque nouvel événement y apparaît tout
+              seul, avec son lieu, ses horaires et le lien vers sa fiche.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-2.5">
+            <Button href={webcal}>S’abonner</Button>
+            <Button variant="secondary" href={googleCalendar} rel="noopener">Google Agenda</Button>
+          </div>
+        </aside>
 
       </Fragment>
 

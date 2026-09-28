@@ -1,4 +1,5 @@
 ---
+import { displayDescription } from "@lib/text";
 import type { GetStaticPaths } from "astro";
 import { getCollection, render, type CollectionEntry } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
@@ -46,7 +47,7 @@ const jsonld = [
 >
   <PageHero
     title={d.title}
-    lead={d.generatedDescription ? undefined : d.description}
+    lead={displayDescription(d.description, d.generatedDescription)}
     cover={d.cover}
     coverAlt={d.coverAlt}
     pole={d.pole}
