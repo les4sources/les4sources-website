@@ -45,10 +45,21 @@ const CATEGORY_BY_TYPE: Record<string, string> = {
   Atelier: "ateliers",
   "Pizza Party": "parties",
 };
-/** Choix au cas par cas, quand la fiche Super n'a pas de type. */
+/** Choix au cas par cas, quand la fiche Super n'a pas de type (Michael, 2026-09-29). */
 const CATEGORY_BY_SLUG: Record<string, string> = {
-  "winter-taiga": process.env.WINTER_TAIGA_CATEGORY ?? "",
+  "winter-taiga": "projections",
 };
+
+/**
+ * Catégories et pôles (Michael, 2026-09-29) : le pôle donne la couleur et le
+ * picto des cartes du site. Une catégorie absente de Claudy est créée.
+ */
+const CATEGORIES: { slug: string; name: string; pole: string }[] = [
+  { slug: "ateliers", name: "Ateliers", pole: "artisanat" },
+  { slug: "parties", name: "Parties", pole: "convivialite" },
+  { slug: "week-ends", name: "Week-ends", pole: "ressourcement" },
+  { slug: "projections", name: "Projections", pole: "convivialite" },
+];
 
 const LOCATION = "Les 4 Sources, Yvoir";
 
@@ -274,6 +285,18 @@ async function main() {
     plans.push(draft ? { slug, action: "patch", id: draft.id, payload } : { slug, action: "post", payload });
   }
 
+  // Les catégories d'abord : un événement ne peut pas viser une catégorie qui n'existe pas encore.
+  const existingCategories: any[] = TOKEN ? (await api("GET", "/event_categories")).data : [];
+  const categoryPlans = CATEGORIES.map((c) => {
+    const found = existingCategories.find((e) => e.slug === c.slug);
+    if (!TOKEN) return { ...c, action: "à vérifier" as const };
+    if (!found) return { ...c, action: "créer" as const };
+    return found.pole === c.pole ? { ...c, action: "inchangée" as const, id: found.id } : { ...c, action: "pôle" as const, id: found.id };
+  });
+  console.log("Catégories :");
+  for (const c of categoryPlans) console.log(`  ${c.action.padEnd(10)} ${c.slug} → ${c.pole}`);
+  console.log("");
+
   for (const p of plans) {
     const head = `${p.action.toUpperCase().padEnd(5)} ${p.slug}`;
     if (p.action === "skip") {
@@ -293,6 +316,11 @@ async function main() {
   if (!APPLY) {
     console.log("\nÀ blanc : rien n'a été écrit. Relancer avec --apply pour publier dans Claudy.");
     return;
+  }
+  for (const c of categoryPlans) {
+    if (c.action === "créer") await api("POST", "/event_categories", { event_category: { name: c.name, slug: c.slug, pole: c.pole } });
+    if (c.action === "pôle") await api("PATCH", `/event_categories/${(c as { id: number }).id}`, { event_category: { pole: c.pole } });
+    if (c.action === "créer" || c.action === "pôle") console.log(`✓ catégorie ${c.slug} → ${c.pole}`);
   }
   for (const p of plans.filter((p) => p.action !== "skip")) {
     const res =
