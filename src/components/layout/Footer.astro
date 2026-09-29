@@ -31,9 +31,11 @@ const telHref = `tel:${site.phone.replace(/\s+/g, "")}`;
 <footer class="bg-teal text-white">
   <div class="mx-auto max-w-[calc(var(--container-site)+3rem)] px-6 pt-14 pb-8">
     <div
-      class="grid grid-cols-1 gap-8 min-[640px]:grid-cols-2 min-[1000px]:grid-cols-[1.2fr_repeat(4,1fr)]"
+      class="grid grid-cols-2 gap-x-6 gap-y-9 min-[1000px]:grid-cols-[1.45fr_repeat(4,1fr)] min-[1000px]:gap-8"
     >
-      <div>
+      {/* Sous 1 000 px, la marque prend toute la largeur et les quatre groupes de
+          liens vont deux par deux : le pied de page mobile reste court. */}
+      <div class="col-span-2 min-[1000px]:col-span-1">
         <Image
           src={logoWhite}
           alt={site.name}
@@ -47,7 +49,7 @@ const telHref = `tel:${site.phone.replace(/\s+/g, "")}`;
             pôle (disque plein, picto en teal ou en blanc selon `lightOnSolid`),
             son nom apparaît au-dessus, et ses deux voisins prennent leur propre
             couleur en écho. Le CSS vit dans global.css (`.l4s-pole`). */}
-        <ul class="l4s-poles mt-2 -ml-2 flex list-none flex-wrap items-center gap-0.5 p-0">
+        <ul class="l4s-poles mt-2 -ml-2 flex list-none flex-wrap items-center gap-0.5 p-0 min-[1000px]:flex-nowrap">
           {
             POLE_STRIP.map((slug) => {
               const p = POLES[slug];
@@ -72,12 +74,12 @@ const telHref = `tel:${site.phone.replace(/\s+/g, "")}`;
         <address class="mt-4 font-ui text-[13px] leading-relaxed text-white/90 not-italic">
           <span class="block">{streetAddress}</span>
           <span class="block">{postalCode} {locality}, Belgique</span>
-          <a href={`mailto:${site.email}`} class="block text-white no-underline hover:underline">
+          <a href={`mailto:${site.email}`} class="inline-block py-1.5 text-white no-underline hover:underline">
             {site.email}
           </a>
           <span class="mt-1 flex flex-wrap items-center gap-2">
-            <a href={telHref} class="text-white no-underline hover:underline">{site.phone}</a>
-            <span class="rounded-xs bg-hebergement px-1.5 py-0.5 font-ui text-[11px] font-bold text-white">
+            <a href={telHref} class="inline-block py-1.5 text-white no-underline hover:underline">{site.phone}</a>
+            <span class="rounded-xs bg-hebergement-ink px-1.5 py-0.5 font-ui text-[11px] font-bold text-white">
               réservations
             </span>
           </span>
@@ -90,13 +92,13 @@ const telHref = `tel:${site.phone.replace(/\s+/g, "")}`;
             <p class="mb-3.5 font-ui text-overline font-bold tracking-[0.08em] uppercase text-white/70">
               {group.title}
             </p>
-            <ul class="grid list-none gap-2 p-0">
+            <ul class="grid list-none gap-0 p-0">
               {group.links.map((link) => (
                 <li>
                   <a
                     href={link.path}
                     rel={link.external ? "noopener" : undefined}
-                    class="font-ui text-ui font-normal text-white no-underline hover:underline"
+                    class="inline-block py-1.5 font-ui text-ui font-normal text-white no-underline hover:underline"
                   >
                     {link.label}
                   </a>

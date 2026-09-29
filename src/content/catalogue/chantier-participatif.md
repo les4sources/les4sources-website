@@ -19,7 +19,7 @@ Pailler les boxes, placer une clôture, nettoyer le poulailler, réparer et cons
 
 Il y a tant de choses à faire aux 4 Sources !
 
-Voici quelques heures ou chacun donne de soi au service du « nous ». Propositions variées, adaptées aux possibilités de chacun, d’actions au service du projet, essentiellement en extérieur. A vivre en groupe, entre amis, en famille, en équipe.
+Voici quelques heures ou chacun donne de soi au service du « nous ». Propositions variées, adaptées aux possibilités de chacun, d’actions au service du projet, essentiellement en extérieur. À vivre en groupe, entre amis, en famille, en équipe.
 
 ![Chantier participatif](../../assets/migration/catalogue__chantier-participatif/02-c4d3d572-0fe2-495d-ae66-6244b2bb653a.jpg)
 

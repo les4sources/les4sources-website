@@ -35,7 +35,7 @@ Harmonie, trop influencée par les débats sur les réseaux sociaux, est facilem
 
 Comment Jean-Jérôme va-t-il l’aider à profiter de ce moment scénique tant attendu ? Préparez-vous à des moments de rires intenses et à des explosions d’émotions 💕
 
-![Cie artifice 2025 029 5](../../assets/migration/evenements__spectacle-la-petite-chaperonne-rouge/02-cie_artifice_2025-029_-5.jpg)
+![Deux comédiens jouent devant un décor peint, face au public en plein air](../../assets/migration/evenements__spectacle-la-petite-chaperonne-rouge/02-cie_artifice_2025-029_-5.jpg)
 
 ## En pratique
 
@@ -44,4 +44,4 @@ Comment Jean-Jérôme va-t-il l’aider à profiter de ce moment scénique tant 
 - Humour pimenté, piano en liberté et interactions avec le public
 - Prix adulte : 15€ | Prix enfant : 8€
 
-![Cie artifice 2025 029 4](../../assets/migration/evenements__spectacle-la-petite-chaperonne-rouge/03-cie_artifice_2025-029_-4.jpg)
+![Un comédien en scène derrière un castelet rouge décoré](../../assets/migration/evenements__spectacle-la-petite-chaperonne-rouge/03-cie_artifice_2025-029_-4.jpg)

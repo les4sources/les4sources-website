@@ -1,9 +1,9 @@
 ---
-title: "Echanges sur les 4 Sources autour d’un repas"
+title: "Échanges sur les 4 Sources autour d’un repas"
 description: "Par curiosité ou inspiration… Une personne du collectif se joindra à l’un de vos repas pour témoigner et répondre à vos questions."
 legacyPath: "/catalogue/echanges-sur-les-4-sources-autour-dun-repas"
 cover: "../../assets/migration/shared/978e8f8350cd-img-20250316-wa0022.jpg"
-coverAlt: "Echanges sur les 4 Sources autour d’un repas"
+coverAlt: "Échanges sur les 4 Sources autour d’un repas"
 icon: "🍴"
 properties:
   Statut: "Disponible"
@@ -22,7 +22,7 @@ maxParticipants: 20
 
 Par curiosité ou inspiration… Une personne du collectif se joindra à l’un de vos repas pour témoigner et répondre à vos questions.
 
-![Echanges sur les 4 Sources autour d’un repas](../../assets/migration/catalogue__echanges-sur-les-4-sources-autour-dun-repas/02-img-20250316-wa0016.jpg)
+![Échanges sur les 4 Sources autour d’un repas](../../assets/migration/catalogue__echanges-sur-les-4-sources-autour-dun-repas/02-img-20250316-wa0016.jpg)
 
 ## En pratique
 

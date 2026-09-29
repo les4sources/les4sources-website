@@ -113,7 +113,7 @@ Idéalement **3 à 4 mois à l'avance**, surtout pour le résidentiel de printem
 ![La Hulotte, gîte pour 15 personnes](../../assets/migration/shared/b1dc51d286e7-981dc533-fce0-417b-9f7c-ffd762e22873.png)
 
 - Accueille jusqu’à **15 personnes**
-- Aux 1er et 2ème étages
+- Aux 1er et 2e étages
 - 4 chambres, chacune avec salle de douche
 - Une mezzanine avec 2 lits d’appoint
 - Cuisine et séjour

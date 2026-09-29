@@ -112,10 +112,9 @@ const spots: Spot[] = [
   },
 ];
 
-const first = spots[0]!.id;
 ---
 
-<section id="plan" class="l4s-plan" data-l4s-plan data-first={first} aria-label="Plan du lieu">
+<section id="plan" class="l4s-plan" data-l4s-plan aria-label="Plan du lieu">
   <div class="relative">
     <Image
       src={plan}
@@ -313,7 +312,9 @@ const first = spots[0]!.id;
       });
     });
 
+    // Aucun panneau ouvert d'office : celui des hébergements répéterait la carte
+    // « Nos hébergements » juste au-dessus. La consigne invite à choisir.
     if (hint) hint.hidden = false;
-    open(root.dataset.first ?? "", false);
+    open("", false);
   });
 </script>

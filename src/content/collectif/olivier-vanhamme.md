@@ -1,6 +1,6 @@
 ---
 title: "Olivier Vanhamme"
-description: "Olivier est un artisan-designer et arboriste-grimpeur curieux et passionné. Vous retrouvez ses créations dans les gites, les salles et à l’épicerie."
+description: "Olivier est un artisan-designer et arboriste-grimpeur curieux et passionné. Vous retrouvez ses créations dans les gîtes, les salles et à l’épicerie."
 legacyPath: "/collectif/olivier-vanhamme"
 properties:
   Type: "Habitant·e"
@@ -12,7 +12,7 @@ photo: "../../assets/migration/collectif__olivier-vanhamme/01-25f1df7d-151f-4fcc
 <!-- columns -->
 <!-- column width="50%" -->
 
-Olivier est un artisan-designer et arboriste-grimpeur curieux et passionné. Vous retrouvez ses créations dans les gites, les salles et à l’épicerie.
+Olivier est un artisan-designer et arboriste-grimpeur curieux et passionné. Vous retrouvez ses créations dans les gîtes, les salles et à l’épicerie.
 
 Il est celui qui donne envie de toucher les choses : créer du beau mobilier, aménager des espaces en bois de forêt ou de récup, réparer ce qui peut l'être, et réfléchir ensemble à la manière dont on prend soin de nos espaces verts. Coupes de bois, clôtures, abreuvoirs… il a l'œil et les mains 👐🏻
 
@@ -24,7 +24,7 @@ On a rarement vu quelqu'un d'aussi sérieux dans ses engagements et aussi peu pr
 
 [debranchesenplanches.be](https://debranchesenplanches.be/)
 
-[\[email protected\]](mailto:)
+[olivier@les4sources.be](mailto:olivier@les4sources.be)
 
 <!-- column width="50%" -->
 

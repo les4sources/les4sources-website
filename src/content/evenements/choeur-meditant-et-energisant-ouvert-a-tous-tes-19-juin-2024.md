@@ -1,9 +1,9 @@
 ---
-title: "Choeur méditant & énergisant : ouvert à tous.tes"
+title: "Chœur méditant & énergisant : ouvert à tous·tes"
 description: "Rejoins-nous pour une soirée de chants à plusieurs voix et ressource-toi en musique. Inscris-toi dès maintenant via le formulaire Punchpass. Tarif en…"
 legacyPath: "/evenements/choeur-meditant-et-energisant-ouvert-a-tous-tes-19-juin-2024"
 cover: "../../assets/migration/evenements__choeur-meditant-et-energisant-ouvert-a-tous-tes-19-juin-2024/01-IMG_5125.jpg"
-coverAlt: "Choeur méditant & énergisant : ouvert à tous.tes"
+coverAlt: "Chœur méditant & énergisant : ouvert à tous·tes"
 properties:
   Date: "2024-06-19"
   Horaires: "19h45-21h30"
@@ -27,11 +27,9 @@ Profite de ce temps musical pour faire un break dans ta semaine, quitter tes pr�
 
 - **Inscription nécessaire** [via le formulaire Punchpass](https://les4sources.punchpass.com/classes/14001486?embed=true)
 - **Tarif en conscience**
-
-- Prix indicatif : 20€/personne pour une participation ponctuelle, 15€/personne pour une participation régulière chaque mois
-
+  - Prix indicatif : 20€/personne pour une participation ponctuelle, 15€/personne pour une participation régulière chaque mois
 - **Pré-requis :** aucun, juste l'élan de chanter
-- **Au choix :** venue ponctuelle ou régulière (chaque 3ème mercredi du mois)
+- **Au choix :** venue ponctuelle ou régulière (chaque 3e mercredi du mois)
 
 ### À emporter avec toi
 

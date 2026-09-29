@@ -1,9 +1,9 @@
 ---
-title: "Chœur méditant & énergisant : ouvert à tous.tes"
+title: "Chœur méditant & énergisant : ouvert à tous·tes"
 description: "Durant une soirée, mêle ta voix à celles des personnes présentes et découvre des chants à plusieurs voix."
 legacyPath: "/evenements/chorale-meditant-energisant-nom-16-octobre-2024"
 cover: "../../assets/migration/shared/5eaebcfe8685-t1gakkhy8bjyatl1hmkq.jpg"
-coverAlt: "Chœur méditant & énergisant : ouvert à tous.tes"
+coverAlt: "Chœur méditant & énergisant : ouvert à tous·tes"
 icon: "🗓️"
 properties:
   Date: "2024-10-16"
@@ -26,12 +26,9 @@ Profite de ce temps musical pour faire un break dans ta semaine, quitter tes pr�
 
 - **Inscription nécessaire** via [le formulaire d’inscription](https://les4sources.punchpass.com/org/8599/classes/15693872)
 - **Tarif en conscience**
-
-- Prix indicatif : 
-
-- 20€/personne pour une participation ponctuelle 
-- 15€/personne pour une participation régulière chaque mois
-
+  - Prix indicatif :
+    - 20€/personne pour une participation ponctuelle
+    - 15€/personne pour une participation régulière chaque mois
 - **Pré-requis :** aucun, juste l'élan de chanter
 - **Au choix :** venue ponctuelle ou régulière (chaque 3e mercredi du mois)
 

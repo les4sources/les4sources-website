@@ -31,8 +31,8 @@ gallery:
 ## La Hulotte 🦉
 
 - [Chambre « Mélisse »](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/chambre-mlisse)
-- [La cuisine (2ème étage)](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-cuisine)
-- [Le séjour (2ème étage)](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/le-sjour)
+- [La cuisine (2e étage)](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-cuisine)
+- [Le séjour (2e étage)](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/le-sjour)
 
 ## Biodiversité 🐸
 

@@ -32,7 +32,7 @@ Chacun, chacune repart avec **deux pains** confectionnés par ses soins.
 
 |  |  |  |  |
 | --- | --- | --- | --- |
-| **Durée** | **Nbre de pers.** | **Prix** | **A prévoir** |
+| **Durée** | **Nbre de pers.** | **Prix** | **À prévoir** |
 | 9h – 17h | 8 pers. max | 360 € | Tablier(s) |
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)

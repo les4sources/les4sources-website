@@ -8,7 +8,7 @@ coverAlt: "Les ânes des 4 Sources"
 
 Lors de votre visite, vous aurez l'occasion de faire la rencontre de notre cheptel d’ânes et d’Eventy, notre cheval, mais également de Poncho et Morgane, respectivement alpaga et lama. Vous y entendrez Shiny et ses cocottes et vous pourrez apercevoir quelques chats câlins. Chacun·e d'eux contribue à la vie et à l'énergie des 4 Sources et nous sommes ravi·es de partager leur présence avec vous.
 
-## Les ânes des 4 Sources 🐎
+## Les ânes des 4 Sources 🫏
 
 Nous partageons les espaces avec 26 ânes qui passent d’une prairie à l’autre au fil des saisons. Ce sont des partenaires d’entretien des pâtures incroyables qui œuvrent 7 jours sur 7, 24h sur 24.
 

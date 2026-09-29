@@ -50,13 +50,13 @@ Découvre [notre collectif](/notre-collectif)
 <!-- columns -->
 <!-- column width="43.8%" -->
 
-![5b02a02e c20f 46c8 9763 bbe82859cff4](../../assets/migration/index/08-5b02a02e-c20f-46c8-9763-bbe82859cff4.jpg)
+![Une chambre avec trois lits simples et une salle d’eau attenante](../../assets/migration/index/08-5b02a02e-c20f-46c8-9763-bbe82859cff4.jpg)
 
 <!-- column width="56.3%" -->
 
 Nos nombreux espaces accueillent tes séjours et activités entre collègues, entre amis ou tout simplement en famille.
 
-- **[2 gites](/sejours/hebergements-yvoir)** pouvant accueillir jusqu’à 25 personnes
+- **[2 gîtes](/sejours/hebergements-yvoir)** pouvant accueillir jusqu’à 25 personnes
 - **[une grande salle](/sejours/salles)** pour 30 à 100 personnes
 - **[une petite salle](/sejours/salles)** pour 10 à 30 personnes
 - une **[cuisine professionnelle](/sejours/salles)**
@@ -124,7 +124,7 @@ Télécharge notre carte de randonnées au départ des 4 Sources, avec des balad
 <!-- columns -->
 <!-- column width="25%" -->
 
-![Giphy](../../assets/migration/index/12-giphy.gif)
+![Un boulanger fait tournoyer une pâte à pizza devant le four à bois](../../assets/migration/index/12-giphy.gif)
 
 <!-- column width="75%" -->
 
@@ -155,7 +155,7 @@ Nous te proposons **une série d’activités passionnantes** pour tes…
 
 **Catalogue des activités**
 
-- [🐎 Bain d’ânes](/catalogue/temps-avec-le-troupeau-d-anes)
+- [🫏 Bain d’ânes](/catalogue/temps-avec-le-troupeau-d-anes)
 - [🪢 Grimpe encadrée dans les arbres](/catalogue/grimpe-encadree-dans-les-arbres)
 - [🤾🏻‍♂️ Initiation au Disc-golf](/catalogue/initiation-au-disc-golf)
 
@@ -164,7 +164,7 @@ Nous te proposons **une série d’activités passionnantes** pour tes…
 <!-- columns -->
 <!-- column width="33.3%" -->
 
-![WR complete inblock positif](../../assets/migration/index/16-WR-complete-inblock-positif.png)
+![Logo Wallonie Relance](../../assets/migration/index/16-WR-complete-inblock-positif.png)
 
 <!-- column width="33.3%" -->
 
@@ -172,7 +172,7 @@ Nous te proposons **une série d’activités passionnantes** pour tes…
 
 <!-- column width="33.3%" -->
 
-![White](../../assets/migration/index/18-white.png)
+![](../../assets/migration/index/18-white.png)
 <!-- /columns -->
 
 [🗓️ L’agenda des 4 Sources](/agenda)

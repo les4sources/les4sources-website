@@ -1,6 +1,8 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
+import { readFile, writeFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
 import mdx from "@astrojs/mdx";
 import tailwindcss from "@tailwindcss/vite";
 import rehypeColumns from "./src/plugins/rehype-columns.ts";
@@ -13,6 +15,36 @@ import remarkDropCover from "./src/plugins/remark-drop-cover.ts";
 // Canonique = www (l'apex les4sources.be redirige en 301 vers www — cf deploy/nginx.conf).
 const SITE = process.env.SITE ?? "https://www.les4sources.be";
 
+/**
+ * Retire du sitemap les pages qui se déclarent `noindex` : un sitemap qui
+ * propose une page que la page elle-même refuse d'indexer envoie deux signaux
+ * contraires aux moteurs. Tourne après @astrojs/sitemap, sur dist/.
+ * @returns {import("astro").AstroIntegration}
+ */
+function sitemapWithoutNoindex() {
+  return {
+    name: "l4s-sitemap-noindex",
+    hooks: {
+      "astro:build:done": async ({ dir }) => {
+        const root = fileURLToPath(dir);
+        const file = `${root}sitemap-0.xml`;
+        const xml = await readFile(file, "utf8").catch(() => "");
+        if (!xml) return;
+        const entries = xml.match(/<url>[\s\S]*?<\/url>/g) ?? [];
+        let out = xml;
+        for (const entry of entries) {
+          const loc = entry.match(/<loc>([^<]+)<\/loc>/)?.[1];
+          if (!loc) continue;
+          const path = new URL(loc).pathname.replace(/\/$/, "");
+          const html = await readFile(`${root}${path.slice(1)}${path ? "/" : ""}index.html`, "utf8").catch(() => "");
+          if (/<meta name="robots" content="[^"]*noindex/.test(html)) out = out.replace(entry, "");
+        }
+        await writeFile(file, out);
+      },
+    },
+  };
+}
+
 // https://astro.build/config
 export default defineConfig({
   site: SITE,
@@ -24,9 +56,11 @@ export default defineConfig({
   // Les URLs sont un contrat : cf. migration/urls.txt et le champ `legacyPath`.
 
   integrations: [
-    // Aucun filtre : les 209 URLs du site actuel doivent toutes être dans le sitemap.
-    // Les pages `noindex` sont exclues automatiquement par l'intégration.
+    // Toutes les URLs du site actuel sont dans le sitemap, sauf les pages
+    // `noindex` (événements annulés, fiches retirées) : l'intégration ne les
+    // exclut pas d'elle-même, c'est le rôle de l'étape suivante.
     sitemap(),
+    sitemapWithoutNoindex(),
     mdx(),
   ],
 

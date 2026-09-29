@@ -22,7 +22,7 @@ category: "Liens et convivialité"
 priceText: "15 €"
 registrationUrl: "https://renaudcrols.odoo.com/"
 generatedDescription: true
-registrationLabel: "Je jette un oeil et une oreille sur son site"
+registrationLabel: "Je jette un œil et une oreille sur son site"
 ---
 
 ## En pratique

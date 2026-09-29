@@ -34,8 +34,12 @@ const DESC_MAX = 160;
  * (src/lib/remote-image.ts), jamais servies depuis Claudy.
  */
 const FORBIDDEN_HOSTS = ["images.spr.so", "super.so", "notion.site", "app.les4sources.be/rails", "app.les4sources.be/uploads"];
-/** Marqueurs de contenu bidon : le site ne doit contenir que du vrai texte. */
-const FORBIDDEN_WORDS = ["lorem ipsum", "placeholder"];
+/**
+ * Marqueurs de contenu bidon : le site ne doit contenir que du vrai texte.
+ * « email protected » est l'obfuscation Cloudflare de l'ancien site, aspirée à
+ * la migration à la place d'une vraie adresse : un lien mort.
+ */
+const FORBIDDEN_WORDS = ["lorem ipsum", "placeholder", "email protected"];
 
 type Issue = { page: string; msg: string };
 const errors: Issue[] = [];

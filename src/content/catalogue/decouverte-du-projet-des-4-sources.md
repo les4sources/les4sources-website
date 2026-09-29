@@ -24,7 +24,7 @@ Découvre son histoire, sa raison d’être, ses valeurs et sa façon de s’inc
 
 Un moment riche en partages et transmissions, qui permet d’apercevoir un peu plus les coulisses d’un projet comme celui-ci.
 
-![Un tour la dcouverte du projet des 4 sources](../../assets/migration/catalogue__decouverte-du-projet-des-4-sources/02-un_tour__la_dcouverte_du_projet_des_4_sources.jpg)
+![Un groupe réuni en cercle dans la cour en graviers](../../assets/migration/catalogue__decouverte-du-projet-des-4-sources/02-un_tour__la_dcouverte_du_projet_des_4_sources.jpg)
 
 <!-- columns -->
 <!-- column width="50%" -->
@@ -44,7 +44,7 @@ Un moment riche en partages et transmissions, qui permet d’apercevoir un peu p
 
 - Durée : 2h
 - Nombre de personnes : maximum 30 personnnes
-- A prévoir : des vêtements pour l’extérieur
+- À prévoir : des vêtements pour l’extérieur
 - Tarif : 120€
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)

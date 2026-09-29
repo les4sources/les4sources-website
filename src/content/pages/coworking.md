@@ -43,9 +43,7 @@ Lors d’un engagement semestriel, le 6e mois est offert !
 - Impression en noir et blanc : 0,10 €
 - Impression couleurs : 0,50 €
 
-Les paiements peuvent s’effectuer par virement bancaire sur le compte `BE72 5230 8060 1116`, soit en liquide dans notre caisse située dans le bar auto-géré.
-
-![Le coworking dans la Clairière](../../assets/migration/coworking/04-_G0A4642.jpg)
+Les paiements peuvent s’effectuer par virement bancaire sur le compte BE72 5230 8060 1116, soit en liquide dans notre caisse située dans le bar auto-géré.
 
 ## Conditions spécifiques 📋
 

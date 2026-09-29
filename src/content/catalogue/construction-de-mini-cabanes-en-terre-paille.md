@@ -24,7 +24,7 @@ Images à venir !
 
 - Durée : 4h
 - Nombre de participant·es : 3 à 10 personnes (àpd 5 ans minimum accompagné d’un adulte)
-- A prévoir : vêtements de travail extérieurs et chaussures fermées
+- À prévoir : vêtements de travail extérieurs et chaussures fermées
 - Conditions spéciales : réserver min. 2 semaines à l’avance | utilisation d’outils tranchant
 - Prix : 240€
 

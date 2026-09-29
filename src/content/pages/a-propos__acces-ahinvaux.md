@@ -12,9 +12,9 @@ embeds:
 
 Voici l'adresse à laquelle vous rendre :
 
-**Les 4 Sources**
-Domaine d'Ahinvaux
-Fonds d'Ahinvaux, 1
+**Les 4 Sources**\
+Domaine d'Ahinvaux\
+Fonds d'Ahinvaux, 1\
 5530 Yvoir
 
 [Les 4 Sources sur Google Maps](https://goo.gl/maps/DHsryPyuof4yJKhj8)

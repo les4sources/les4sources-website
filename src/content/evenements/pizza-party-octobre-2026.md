@@ -37,7 +37,9 @@ Bienvenue le 9 octobre**, dès 18h30** :
 - et vous les dégustez en terrasse plein sud, 360°C nature !
 - en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂
 
-👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !
+👍 Le four de boulangerie est chauffé au bois\
+👍 Les pâtons sont bio et au levain\
+👍 Et les gens sont super cools !
 
 ![Pizza Party d’octobre !](../../assets/migration/evenements__pizza-party-octobre-2026/03-_mg_0502.jpg)
 

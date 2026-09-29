@@ -29,16 +29,13 @@ Viens déguster une "mini-fondue" en trempant du pain frais dans ton fromage tou
 Bienvenue **ce 13 février, dès 18h30** :
 
 - tu amènes…
-
-- ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre)
-- tes petits légumes
-
+  - ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre)
+  - tes petits légumes
 - nous mettons à ta disposition…
-
-- de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu
-- des planches à découper et des platines de cuisson
-- le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage
-- la grande salle des 4 Sources\*
+  - de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu
+  - des planches à découper et des platines de cuisson
+  - le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage
+  - la grande salle des 4 Sources\*
 
 ## À emporter avec toi
 

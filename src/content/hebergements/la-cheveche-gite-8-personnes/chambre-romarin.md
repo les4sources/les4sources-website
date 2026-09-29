@@ -6,6 +6,7 @@ properties:
   Page: "Biodiversité"
 capacity: 8
 generatedDescription: true
+pole: "nature"
 ---
 
 ![Escargot de Bourgogne](../../../assets/migration/shared/4ce542448649-escargot_de_bourgogne.jpg)

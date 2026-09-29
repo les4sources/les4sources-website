@@ -22,9 +22,9 @@ Rejoignez-nous pour transformer vos élans en un projet collectif passionnant et
 
 Venez découvrir notre atelier de création de projet collectif basé sur les élans. C'est une occasion unique pour les associations et les groupes de jeunes de se réunir, d'échanger des idées et de voir qu’il est possible de construire des projets collectifs tout en œuvrant à l’épanouissement individuel.
 
-Au cours de cet atelier, nous explorerons comment passer d’une idée individuelle à une réalisation collective. Nous aborderons également les défis auxquels nous pouvons être confronté.es lors de la gestion d'un projet collectif et certaines façons de les surmonter.
+Au cours de cet atelier, nous explorerons comment passer d’une idée individuelle à une réalisation collective. Nous aborderons également les défis auxquels nous pouvons être confronté·es lors de la gestion d'un projet collectif et certaines façons de les surmonter.
 
-C'est une occasion idéale pour expérimenter ensemble comment créer des projets collectif qui nous animent chacun.e individuellement. Alors, rejoignez-nous pour une expérience d'apprentissage enrichissante et amusante.
+C'est une occasion idéale pour expérimenter ensemble comment créer des projets collectif qui nous animent chacun·e individuellement. Alors, rejoignez-nous pour une expérience d'apprentissage enrichissante et amusante.
 
 ### En pratique
 
@@ -37,9 +37,7 @@ C'est une occasion idéale pour expérimenter ensemble comment créer des projet
 | 1h00 | 60€ | \+ 7,5€/personne |
 | 2h00 | 120€ | \+ 15€/personne |
 
-- Plus d’infos & réservation : envoyez un mail à [\[email protected\]](mailto:)
-
-> 💁 **Envie de loger sur place avant ou après l’événement ?** Découvrez [nos hébergements](/sejours/hebergements-yvoir)
+- Plus d’infos & réservation : envoyez un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 

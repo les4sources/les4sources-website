@@ -38,9 +38,7 @@ Vous choisirez les graines pour les combiner et créer votre propre bombe à gra
 | 1h00 | 60€ | \+ 7,5€/pers. | 195€ | \+ 5€/pers. | 320€ | \+ 3€/pers. | \+ 3€/pers |
 | 2h00 | 120€ | \+ 15€/pers. | 390€ | \+ 10€/pers. | 640€ | \+ 6€/pers. | \+ 3€/pers |
 
-- Plus d’infos & réservation : envoyez un mail à [\[email protected\]](mailto:)
-
-> 💁 **Envie de loger sur place avant ou après l’événement ?** Découvrez [nos hébergements](/sejours/hebergements-yvoir)
+- Plus d’infos & réservation : envoyez un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 

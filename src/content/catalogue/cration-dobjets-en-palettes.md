@@ -30,7 +30,7 @@ Avec cet atelier, développez vos compétences avec ou sans pré-requis, partage
 
 - Durée : 3h
 - Maximum 10 personnes | âge minimum : 8 ans
-- A prévoir : chaussures fermées et vêtements pouvant être salis
+- À prévoir : chaussures fermées et vêtements pouvant être salis
 - Prix : 180€
 
 ![Création d’objets en palettes](../../assets/migration/catalogue__cration-dobjets-en-palettes/03-_g0a7695.jpg)

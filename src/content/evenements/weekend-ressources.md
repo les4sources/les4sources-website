@@ -42,16 +42,16 @@ Pic-nic le midi et Pizza party au soir pour clôturer en beauté la journée �
 
 ![🪓 Créer un objet en bois de palette](../../assets/migration/evenements__weekend-ressources/03-_g0a7706.jpg)
 
-Un coup d’oeil sur son site → [https://debranchesenplanches.be](https://debranchesenplanches.be/) 🌳
+Un coup d’œil sur son site → [https://debranchesenplanches.be](https://debranchesenplanches.be/) 🌳
 
 ## En pratique
 
-- Au coeur de la clairière des 4 Sources: 📍 Fonds d’Ahinvaux, 1 à Yvoir, entre Namur et Dinant
+- Au cœur de la clairière des 4 Sources: 📍 Fonds d’Ahinvaux, 1 à Yvoir, entre Namur et Dinant
 - Le samedi 3 octobre de 9h30 à 21h
-- Maximum 8 participant-es par atelier : 75€ la place
+- Maximum 8 participant·es par atelier : 75€ la place
 - Clôture le samedi soir avec une Pizza Party (cuisson au feu de bois)
 - Apporter son pic-nic et les garnitures pour la pizza 🍕
 
-### Cette journée créative est entièrement organisée par nos trois intervenant-es : Bénédicte, Olivier et Marianne !
+### Cette journée créative est entièrement organisée par nos trois intervenant·es : Bénédicte, Olivier et Marianne !
 
-![Pxl 20260211 115416194](../../assets/migration/evenements__weekend-ressources/04-pxl_20260211_115416194.jpg)
+![Trois personnes souriantes posent devant une vallée boisée](../../assets/migration/evenements__weekend-ressources/04-pxl_20260211_115416194.jpg)

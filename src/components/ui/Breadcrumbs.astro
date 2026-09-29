@@ -1,5 +1,12 @@
 ---
-/** Fil d'Ariane — contenu fonctionnel, donc Be Vietnam Pro, discret. */
+/**
+ * Fil d'Ariane — contenu fonctionnel, donc Be Vietnam Pro, discret.
+ * Les emoji des titres n'y ont pas leur place (ils restent dans le h1), et le
+ * chevron précède chaque niveau : au retour à la ligne, il part avec son libellé
+ * au lieu de rester seul en bout de ligne.
+ */
+import { stripEmoji } from "@lib/text";
+
 export interface Crumb {
   label: string;
   href?: string;
@@ -18,18 +25,18 @@ const { items, class: className } = Astro.props;
     {
       items.map((c, i) => (
         <li class="flex items-center gap-2">
+          {i > 0 && (
+            <span class="text-ink-4" aria-hidden="true">
+              ›
+            </span>
+          )}
           {c.href && i < items.length - 1 ? (
             <a href={c.href} class="text-ink-2 no-underline hover:text-teal">
-              {c.label}
+              {stripEmoji(c.label)}
             </a>
           ) : (
             <span class="font-semibold text-teal" aria-current="page">
-              {c.label}
-            </span>
-          )}
-          {i < items.length - 1 && (
-            <span class="text-ink-4" aria-hidden="true">
-              ›
+              {stripEmoji(c.label)}
             </span>
           )}
         </li>

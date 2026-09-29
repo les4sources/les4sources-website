@@ -30,7 +30,7 @@ registrationLabel: "Je m'inscris de ce pas"
 
 **Edition complète !**
 
-Chers vous tous-tes, nous sommes archi-complets pour la Pizza Party de ce vendredi. Nous avons établi une limite fixée par notre capacité à produire des pâtons 🍕
+Chers vous tous·tes, nous sommes archi-complets pour la Pizza Party de ce vendredi. Nous avons établi une limite fixée par notre capacité à produire des pâtons 🍕
 
 Bienvenue pour un verre à partir de 20h30 🍹, mais pas de possibilité d'improviser des pizzas en plus pour les non inscrits. Merci de votre compréhension et à vendredi ! ☺️
 
@@ -56,9 +56,11 @@ Viens déguster de délicieuses pizzas tout juste sorties du four, faire des ren
 - et vous les dégustez en terrasse plein sud, 360°C nature !
 - en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂
 
-👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !
+👍 Le four de boulangerie est chauffé au bois\
+👍 Les pâtons sont bio et au levain\
+👍 Et les gens sont super cools !
 
-![508613796 1023903979919038 8286032347514294983 n](../../assets/migration/evenements__pizza-party-juin-2026/03-508613796_1023903979919038_8286032347514294983_n.jpg)
+![Une foule attablée devant le bar des 4 Sources](../../assets/migration/evenements__pizza-party-juin-2026/03-508613796_1023903979919038_8286032347514294983_n.jpg)
 
 ## Infos pratiques
 
@@ -67,7 +69,7 @@ Viens déguster de délicieuses pizzas tout juste sorties du four, faire des ren
 - Bar avec boissons bios/locales/de saison sur place 🍹
 - Paiement des consommations en cash ou par virement sur place
 
-![Orgue de barbarie00004](../../assets/migration/evenements__pizza-party-juin-2026/04-orgue__de_barbarie00004.jpg)
+![Des carnets de musique perforés pour orgue de barbarie](../../assets/migration/evenements__pizza-party-juin-2026/04-orgue__de_barbarie00004.jpg)
 
 Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h30, lorsque le four est encore chaud de la journée.
 

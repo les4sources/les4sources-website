@@ -30,24 +30,13 @@ Apprenez à identifier les constellations, à comprendre les phases de la lune o
 > *”C’est incroyable de découvrir toutes les facettes de notre univers! Merci pour tout cet apport théorique et pratique!”*
 <!-- /columns -->
 
-![Initiation lastronomie et observation des toiles](../../assets/migration/catalogue__initiation-astronomie-etoiles-yvoir/02-initiation__lastronomie_et_observation_des_toiles.jpg)
-
-En toute saison en Belgique, un ciel dégagé n'est jamais garanti.
-
-Notez que les risques de ciel nébuleux sont plus grands en hiver qu'en été. Cependant, si le ciel est plus souvent dégagé en été, la nuit tombe également plus tard à cette période et se fait moins noire pendant toute une période allant environ de fin mai à mi-juillet. Bien qu'il soit toujours possible d'observer le ciel et ses astres à cette période, sachez que le soleil se couchera fort tard et que nous ne verrons les étoiles que bien après qu'il soit couché et en moins grand nombre (car il n'y a pas ce que les astronomes appellent le crépuscule astronomique). Ce n'est donc pas une période idéale pour l'observation.
-
-Il redevient intéressant d'observer les étoiles dès la fin juillet - début août (retour du crépuscule astronomique), avec une date particulièrement intéressante vers la mi-août avec la nuit des étoiles filantes. A partir de là, les nuits redeviennent plus longues, plus sombres et tombent plus tôt.
-
-- **de la ⁠fin d'automne jusqu’au début du printemps :** risque de ciel couvert plus grand
-- **de ⁠fin mai à mi-juillet :** la nuit arrive plus tard et la nuit complète (crépuscule astronomique) n'arrive jamais : l'observation ne commencera pas avant 22h30 - 23h30 selon la date
-- **mi-août :** nuit des étoiles filantes ! 💫 grand nombre d'étoiles filantes observables, soirée idéale
+![Une aurore boréale violette au-dessus de la forêt, la nuit](../../assets/migration/catalogue__initiation-astronomie-etoiles-yvoir/02-initiation__lastronomie_et_observation_des_toiles.jpg)
 
 ### En pratique
 
 - Durée : 3h
 - Nombre de participant·es : 2 à 8 personnes
-- A prévoir : vêtements adaptés à l’extérieur
-- Tarif : 180 € + 22.5€ / pers. jusqu’à 20 pers.
+- À prévoir : vêtements adaptés à l’extérieur
 
 ![Initiation à l’astronomie et observation des étoiles](../../assets/migration/catalogue__initiation-astronomie-etoiles-yvoir/03-20250404_185723_833e2a83.jpg)
 
@@ -59,7 +48,7 @@ En toute saison en Belgique, un ciel dégagé n'est jamais garanti.
 
 Notez que les risques de ciel nébuleux sont plus grands en hiver qu'en été. Cependant, si le ciel est plus souvent dégagé en été, la nuit tombe également plus tard à cette période et se fait moins noire pendant toute une période allant environ de fin mai à mi-juillet. Bien qu'il soit toujours possible d'observer le ciel et ses astres à cette période, sachez que le soleil se couchera fort tard et que nous ne verrons les étoiles que bien après qu'il soit couché et en moins grand nombre (car il n'y a pas ce que les astronomes appellent le crépuscule astronomique). Ce n'est donc pas une période idéale pour l'observation.
 
-Il redevient intéressant d'observer les étoiles dès la fin juillet - début août (retour du crépuscule astronomique), avec une date particulièrement intéressante vers la mi-août avec la nuit des étoiles filantes. A partir de là, les nuits redeviennent plus longues, plus sombres et tombent plus tôt.
+Il redevient intéressant d'observer les étoiles dès la fin juillet - début août (retour du crépuscule astronomique), avec une date particulièrement intéressante vers la mi-août avec la nuit des étoiles filantes. À partir de là, les nuits redeviennent plus longues, plus sombres et tombent plus tôt.
 
 - **de la ⁠fin d'automne jusqu’au début du printemps :** risque de ciel couvert plus grand
 - **de ⁠fin mai à mi-juillet :** la nuit arrive plus tard et la nuit complète (crépuscule astronomique) n'arrive jamais : l'observation ne commencera pas avant 22h30 - 23h30 selon la date

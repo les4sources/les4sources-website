@@ -1,12 +1,12 @@
 ---
 title: "Semisto"
-description: "Les 4 Sources sont le QG de Semisto, l’association qui oeuvre à nous faire passer dans l’ère des forêts comestibles. Semisto a été créé par Michael…"
+description: "Les 4 Sources sont le QG de Semisto, l’association qui œuvre à nous faire passer dans l’ère des forêts comestibles. Semisto a été créé par Michael…"
 legacyPath: "/projets/semisto"
 cover: "../../assets/migration/projets__semisto/01-w1920quality90fitscale-down.jpg"
 coverAlt: "Semisto"
 ---
 
-**Les 4 Sources sont le QG de Semisto, l’association qui oeuvre à nous faire passer dans l’ère des forêts comestibles. Semisto a été créé par** **[Michael](/collectif/michael-hulet), co-fondateur de notre collectif.**
+**Les 4 Sources sont le QG de Semisto, l’association qui œuvre à nous faire passer dans l’ère des forêts comestibles. Semisto a été créé par** **[Michael](/collectif/michael-hulet), co-fondateur de notre collectif.**
 
 <!-- columns -->
 <!-- column width="50%" -->
@@ -39,7 +39,7 @@ Des actions concrètes pour faire émerger et soutenir un **réseau de micro-pé
 
 ## [Food Forest Heroes](https://www.semisto.org/poles/food-forest-heroes)
 
-![Ffh](../../assets/migration/projets__semisto/06-ffh.jpg)
+![Couverture « Food Forest Heroes » de Semisto : une femme souriante travaille le sol avec un outil à long manche](../../assets/migration/projets__semisto/06-ffh.jpg)
 
 Des groupes locaux de **planteur·euse·s ultra-MOTIVÉS pour planter l’abondance** en musique et tisser de nouveaux liens enrichissants 🧑‍🎤 🎵 🎻
 <!-- /columns -->

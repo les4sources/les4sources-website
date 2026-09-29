@@ -32,7 +32,7 @@ Vous aurez l’occasion d’apprendre plusieurs morceaux à plusieurs voix, chac
 | 1h00 | 60€ | \+ 7,5€/pers. | 195€ | \+ 5€/pers. | 320€ | \+ 3€/pers. |
 | 2h00 | 120€ | \+ 15€/pers. | 390€ | \+ 10€/pers. | 640€ | \+ 6€/pers. |
 
-- Plus d’infos & réservation : envoyez un mail à [\[email protected\]](mailto:)
+- Plus d’infos & réservation : envoyez un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
 
 > 💁 **Envie de loger sur place avant ou après l’événement ?** Découvrez [nos hébergements](/sejours/hebergements-yvoir)
 

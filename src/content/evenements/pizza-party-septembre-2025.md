@@ -34,7 +34,9 @@ Et pour cette Pizza Party, nous en profitons pour inaugurer **notre nouveau four
 - et vous les dégustez en terrasse plein sud, 360°C nature !
 - en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂
 
-👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !
+👍 Le four de boulangerie est chauffé au bois\
+👍 Les pâtons sont bio et au levain\
+👍 Et les gens sont super cools !
 
 ![Pizza Party et inauguration du nouveau four !](../../assets/migration/shared/f5cc30e0084a-IMG_2254.jpg)
 

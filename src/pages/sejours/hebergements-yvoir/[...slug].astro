@@ -58,14 +58,22 @@ const children = all
   .sort((a, b) => a.data.title.localeCompare(b.data.title, "fr"));
 const parent = isLodging ? undefined : byPath(all, here.slice(0, here.lastIndexOf("/")));
 
-const childItems: CardItem[] = children.map((c) => ({
+// Les fiches de faune et de flore (propriété Notion « Page : Biodiversité »)
+// vivent sous les gîtes sur l'ancien site : elles ne sont pas des pièces, elles
+// ont leur propre bloc sous « Les espaces ».
+const isBiodiversity = (c: CollectionEntry<"hebergements">) =>
+  c.data.properties.Page === "Biodiversité";
+
+const toItem = (c: CollectionEntry<"hebergements">): CardItem => ({
   title: c.data.title,
   href: pathOf(c),
   // Une description fabriquée ne s'affiche pas : elle ne sert que le SEO.
   description: displayDescription(c.data.description, c.data.generatedDescription),
   icon: c.data.icon,
   image: c.data.cover,
-}));
+});
+const childItems = children.filter((c) => !isBiodiversity(c)).map(toItem);
+const natureItems = children.filter(isBiodiversity).map(toItem);
 
 // Les pages pratiques réellement publiées — leur libellé vient de leur titre.
 const pages = visible(await getCollection("pages"));
@@ -76,15 +84,18 @@ const practical = ["/sejours/tarifs", "/sejours/disponibilites", "/sejours/regle
   })
   .filter((l): l is { label: string; href: string } => Boolean(l));
 
-// Fil d'Ariane : Accueil › Séjours › Les hébergements › (chaque niveau) › page
+// Fil d'Ariane : Accueil › Séjours › Les hébergements › (chaque niveau) › page.
+// Chaque niveau intermédiaire porte le titre de sa page, jamais un bout d'URL
+// (« photos des hbergements ») ; faute de page, le segment sert de repli.
 const crumbs = [
   { label: "Accueil", href: "/" },
   { label: "Séjours", href: "/sejours" },
   { label: "Les hébergements", href: BASE },
-  ...rest.map((seg, i) => ({
-    label: i === rest.length - 1 ? d.title : seg.replace(/-/g, " "),
-    href: `${BASE}/${rest.slice(0, i + 1).join("/")}`,
-  })),
+  ...rest.map((seg, i) => {
+    const href = `${BASE}/${rest.slice(0, i + 1).join("/")}`;
+    const label = i === rest.length - 1 ? d.title : (byPath(all, href)?.data.title ?? seg.replace(/-/g, " "));
+    return { label, href };
+  }),
 ];
 
 const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
@@ -103,7 +114,8 @@ const jsonld = [breadcrumbs(crumbs.map((c) => ({ name: c.label, url: `${siteUrl}
     lead={displayDescription(d.description, d.generatedDescription)}
     cover={d.cover}
     coverAlt={d.coverAlt}
-    pole={d.pole ?? "hebergement"}
+    coverPosition={d.coverPosition}
+    pole={d.pole ?? (isBiodiversity(entry) ? "nature" : "hebergement")}
     crumbs={crumbs}
     narrow={!isLodging}
   />
@@ -144,10 +156,17 @@ const jsonld = [breadcrumbs(crumbs.map((c) => ({ name: c.label, url: `${siteUrl}
           </aside>
         </div>
 
-        {children.length > 0 && (
+        {childItems.length > 0 && (
           <div class="mt-16">
             <h2 class="mb-7 font-display text-h2 font-bold">Les espaces 🛏️</h2>
             <CardGrid items={childItems} />
+          </div>
+        )}
+
+        {natureItems.length > 0 && (
+          <div class="mt-16">
+            <h2 class="mb-7 font-display text-h2 font-bold">Biodiversité 🌿</h2>
+            <CardGrid items={natureItems} />
           </div>
         )}
       </Section>

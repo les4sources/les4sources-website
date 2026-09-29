@@ -17,7 +17,7 @@ category: "Ressourcement"
 registrationUrl: "https://les4sources.punchpass.com/classes/15334517?embed=true"
 ---
 
-**Célèbre cette nouvelle lune, accompagné.e par les vibrations de tambours et profite d'un moment intense qui favorise la connexion à soi, aux autres et au Vivant.**
+**Célèbre cette nouvelle lune, accompagné·e par les vibrations de tambours et profite d'un moment intense qui favorise la connexion à soi, aux autres et au Vivant.**
 
 ## En pratique
 

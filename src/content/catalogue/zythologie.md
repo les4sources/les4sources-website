@@ -43,7 +43,7 @@ Bref, vous parlerez bière, dégusterez bière, apprendrez bière, le tout dans 
 ## En pratique
 
 - Durée : 2h
-- Nombre de participant**·**es : maximum 25 personnes
+- Nombre de participant·es : maximum 25 personnes
 - Tarif : 120 € au total + 7€/pers.
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)

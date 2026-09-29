@@ -28,7 +28,7 @@ Aucune expérience préalable nécessaire, juste l'envie de créer et de s'amuse
 
 Nous fournissons tous les matériaux et outils nécessaires. C'est une excellente occasion d'apprendre de nouvelles compétences et de repartir avec un bijou unique que vous avez créé vous-même.
 
-![Mg 8927](../../assets/migration/catalogue__construction-dobjets-en-acier-de-rcup/02-_mg_8927.jpg)
+![Des bracelets et bijoux en perles étalés sur une table en bois](../../assets/migration/catalogue__construction-dobjets-en-acier-de-rcup/02-_mg_8927.jpg)
 
 ## En pratique
 
@@ -37,7 +37,7 @@ Nous fournissons tous les matériaux et outils nécessaires. C'est une excellent
 - La durée de cet atelier peut s’adapter en fonction de votre disponibilité et/ou votre budget
 - 180 € pour l’atelier
 
-![Mg 8843](../../assets/migration/catalogue__construction-dobjets-en-acier-de-rcup/03-_mg_8843.jpg)
+![Des jeunes bricolent autour d’une table sous un auvent, avec une animatrice](../../assets/migration/catalogue__construction-dobjets-en-acier-de-rcup/03-_mg_8843.jpg)
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 

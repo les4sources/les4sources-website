@@ -74,6 +74,9 @@ export function displayDescription(
   generated?: boolean,
 ): string | undefined {
   if (!description || generated) return undefined;
+  // Une description coupée (« … ») est un extrait pour le référencement : un
+  // chapeau qui s'arrête au milieu d'une phrase ne s'affiche pas.
+  if (/(?:…|\.\.\.)\s*$/.test(description)) return undefined;
   if (!SITE_SUFFIX.test(description)) return description;
   const rest = description.replace(SITE_SUFFIX, "").trim();
   const shouting = rest === rest.toUpperCase() && /[A-Z]/.test(rest);

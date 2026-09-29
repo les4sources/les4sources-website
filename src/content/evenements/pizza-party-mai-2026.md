@@ -33,7 +33,9 @@ Viens déguster de délicieuses pizzas tout juste sorties du four, faire des ren
 - et vous les dégustez en terrasse plein sud, 360°C nature !
 - en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂
 
-👍 Le four de boulangerie est chauffé au bois 👍 Les pâtons sont bio et au levain 👍 Et les gens sont super cools !
+👍 Le four de boulangerie est chauffé au bois\
+👍 Les pâtons sont bio et au levain\
+👍 Et les gens sont super cools !
 
 ![🍕Pizza Party de mai](../../assets/migration/evenements__pizza-party-mai-2026/02-20250509_180450_f856e93b.jpg)
 

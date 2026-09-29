@@ -50,17 +50,18 @@ const description =
     crumbs={[{ label: "Accueil", href: "/" }, { label: "Les projets" }]}
   />
 
-  {
-    Content && (
-      <Section class="pt-10 pb-0">
-        <Prose width="full">
-          <Content />
-        </Prose>
-      </Section>
-    )
-  }
-
   <Section title="Les fiches projets 🎴">
     <CardGrid items={items} aspect="16/10" empty="Les fiches projets arrivent bientôt." />
+    {
+      /* Le texte migré ne parle que des projets « sans fiche pour le moment » :
+         il vient après les fiches, pas avant. */
+      Content && (
+        <div class="mt-10">
+          <Prose width="full">
+            <Content />
+          </Prose>
+        </div>
+      )
+    }
   </Section>
 </BaseLayout>

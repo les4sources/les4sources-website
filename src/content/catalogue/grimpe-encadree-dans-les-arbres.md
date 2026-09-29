@@ -26,7 +26,7 @@ Découvrez le frisson de grimper aux arbres dans un environnement encadré et s�
 
 L'atelier de grimpe encadrée dans les arbres offre une expérience unique en son genre. Vous aurez l'occasion d'explorer la nature d'une manière totalement nouvelle, en grimpant aux arbres et en profitant de la vue panoramique incroyable. C'est un excellent moyen de se connecter à la nature et de passer un moment inoubliable.
 
-![Mg 8964](../../assets/migration/catalogue__grimpe-encadree-dans-les-arbres/03-_mg_8964.jpg)
+![Une grimpeuse encordée assise dans les branches d’un grand arbre](../../assets/migration/catalogue__grimpe-encadree-dans-les-arbres/03-_mg_8964.jpg)
 
 ### En pratique
 
@@ -39,7 +39,7 @@ L'atelier de grimpe encadrée dans les arbres offre une expérience unique en so
 | 2h | 120€ |
 | 3h | 180€ |
 
-![Mg 8948](../../assets/migration/catalogue__grimpe-encadree-dans-les-arbres/04-_mg_8948.jpg)
+![Une personne encordée grimpe dans le feuillage d’un arbre](../../assets/migration/catalogue__grimpe-encadree-dans-les-arbres/04-_mg_8948.jpg)
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 

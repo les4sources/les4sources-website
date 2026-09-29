@@ -33,6 +33,6 @@ Tu pourras découvrir les nombreuses fonctions de la forêt-jardin, approfondir 
 
 Pendant cette semaine résidentielle, il y aura des moments de **travail individuel**, des **séances de coaching** avec les designers Semisto et des **échanges en grand groupe** avec les autres porteurs de projet. Les formateurs-designers Semisto et plusieurs designers de notre [bureau d’études](https://www.semisto.org/poles/bureau-d-etudes-semisto) seront là tout au long de ces journées pour prendre le temps d’analyser avec toi ton projet.
 
-![W1920quality90fitscale down](../../assets/migration/shared/b6c72afcb36a-w1920quality90fitscale-down.jpg)
+![Un groupe écoute une animatrice en forêt](../../assets/migration/shared/b6c72afcb36a-w1920quality90fitscale-down.jpg)
 
 Tu trouveras tous les détails concernant cette semaine de formation [sur le site web de Semisto](https://www.semisto.org/poles/formations-semisto/toutes-les-formations/focus-jardin-foret).

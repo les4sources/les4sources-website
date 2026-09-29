@@ -19,17 +19,17 @@ maxParticipants: 8
 
 Découvrez le disc-golf, un jeu passionnant qui combine la précision du golf et l'esprit du frisbee, et partagez un moment inoubliable entre amis, collègues ou en famille dans un cadre naturel et convivial !
 
-Initiez-vous au disc-golf, une activité ludique et sportive qui saura rassembler les jeunes, les collègues, les groupes d'amis, les associations et les familles ! Dans un cadre convivial et naturel, venez découvrir ce jeu qui combine la précision du golf et l'esprit du frisbee. Que vous soyez novices ou joueur.euses aguerri.es, ce moment de partage et de compétition amicale vous promet des souvenirs inoubliables. Alors n'hésitez plus, rejoignez-nous pour une initiation !
+Initiez-vous au disc-golf, une activité ludique et sportive qui saura rassembler les jeunes, les collègues, les groupes d'amis, les associations et les familles ! Dans un cadre convivial et naturel, venez découvrir ce jeu qui combine la précision du golf et l'esprit du frisbee. Que vous soyez novices ou joueur·euses aguerri·es, ce moment de partage et de compétition amicale vous promet des souvenirs inoubliables. Alors n'hésitez plus, rejoignez-nous pour une initiation !
 
 ![Initiation au Disc-golf](../../assets/migration/catalogue__initiation-au-disc-golf/02-20250510_153904_37c36bca.jpg)
 
-Après une brève introduction aux règles du disc-golf, vous serez prêt.es à vous lancer dans l'aventure. À travers un parcours unique en son genre, vous devrez faire preuve de stratégie et de précision pour lancer votre disque et atteindre les cibles. Chaque cible est une nouvelle occasion de se surpasser et de s'amuser ensemble. Quel que soit votre niveau, l'important est de participer et de profiter de l'expérience.
+Après une brève introduction aux règles du disc-golf, vous serez prêt·es à vous lancer dans l'aventure. À travers un parcours unique en son genre, vous devrez faire preuve de stratégie et de précision pour lancer votre disque et atteindre les cibles. Chaque cible est une nouvelle occasion de se surpasser et de s'amuser ensemble. Quel que soit votre niveau, l'important est de participer et de profiter de l'expérience.
 
 ![Photo discgolf](../../assets/migration/catalogue__initiation-au-disc-golf/03-photo-discgolf.jpg)
 
 ### En pratique
 
-| **Durée de l’activité** | **Entre 5 et 15 personnes** | A prévoir |
+| **Durée de l’activité** | **Entre 5 et 15 personnes** | À prévoir |
 | --- | --- | --- |
 | 2h30 | 16€/personne | vêtements confortables (pour l’extérieur) |
 

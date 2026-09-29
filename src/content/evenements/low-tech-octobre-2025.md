@@ -122,7 +122,7 @@ Mais oui bien sûr : une délicieuse collation pour le milieu d’après-midi ! 
 
 ### L’équipe
 
-**2 artisan-es passionné-es par la ferronnerie, la menuiserie et les low-techs, qui ont la transmission dans le sang !**
+**2 artisan·es passionné·es par la ferronnerie, la menuiserie et les low-techs, qui ont la transmission dans le sang !**
 
 <!-- columns -->
 <!-- column width="50%" -->

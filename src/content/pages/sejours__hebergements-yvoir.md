@@ -26,7 +26,7 @@ coverAlt: "L’ancienne ferme d’Ahinvaux, où se trouvent les gîtes"
 ## [La Hulotte](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes)
 
 - Accueille jusqu’à **15 personnes**
-- Aux 1er et 2ème étages
+- Aux 1er et 2e étages
 - 4 chambres, chacune avec salle de douche
 - Une mezzanine avec 2 lits d’appoint
 - Cuisine et séjour
@@ -39,7 +39,7 @@ Chaque gîte est indépendant et a sa propre porte d’entrée. La porte d’acc
 🪄 *La Chevêche + La Hulotte = Le Grand-Duc*
 
 - Accueille jusqu’à **25 personnes**
-- Rez-de-chaussée, 1er et 2ème étage
+- Rez-de-chaussée, 1er et 2e étage
 - 7 chambres avec salle de douche
 - Mezzanine avec 2 lits d’appoint
 

@@ -37,7 +37,7 @@ La journée sera rythmée par des ateliers pratiques en petits groupes, encadré
 
 <!-- column width="50%" -->
 
-![W2048quality90fitscale down 14](../../assets/migration/evenements__taille-arbres-fruitiers-22-mars-2025/02-w2048quality90fitscale-down_-14.jpg)
+![Un homme se penche sur un arbuste pour le tailler](../../assets/migration/evenements__taille-arbres-fruitiers-22-mars-2025/02-w2048quality90fitscale-down_-14.jpg)
 <!-- /columns -->
 
 Cette formation est ouverte à tous, des jardiniers amateurs aux professionnels de l'agroforesterie. Que tu aies un petit verger familial ou que tu envisages de développer un projet de permaculture à plus grande échelle, cette journée te fournira les connaissances et compétences nécessaires pour bien démarrer.

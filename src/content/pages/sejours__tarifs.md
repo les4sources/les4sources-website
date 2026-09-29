@@ -94,7 +94,7 @@ Découvre [les salles et la cuisine professionnelle](/sejours/salles) des 4 Sour
 
 ## Hébergements + salles + cuisine = la totale ! 🤩
 
-Prend les 4 Sources à l‘abordage et loue toute l’ancienne ferme !
+Prend les 4 Sources à l’abordage et loue toute l’ancienne ferme !
 
 ### En basse saison 🗓️
 

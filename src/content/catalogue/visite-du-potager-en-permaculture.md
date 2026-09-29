@@ -39,9 +39,7 @@ Cette activité est une excellente occasion de passer du temps en plein air, d'a
 | 2h00 | 120€ | \+ 15€ en supplément |
 | 3h00 | 180€ | \+ 22,5€ en supplément |
 
-- Pus d’infos & réservation : envoyez un mail à [\[email protected\]](mailto:)
-
-> 💁 **Envie de loger sur place avant ou après l’événement ?** Découvrez [nos hébergements](/sejours/hebergements-yvoir)
+- Pus d’infos & réservation : envoyez un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 

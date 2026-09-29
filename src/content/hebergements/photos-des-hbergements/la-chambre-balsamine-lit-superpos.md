@@ -7,4 +7,4 @@ properties:
 generatedDescription: true
 ---
 
-![IMG 8243 2](../../../assets/migration/shared/5e35169402b8-IMG_8243_-2.jpg)
+![Une chambre avec deux lits simples en bois](../../../assets/migration/shared/5e35169402b8-IMG_8243_-2.jpg)

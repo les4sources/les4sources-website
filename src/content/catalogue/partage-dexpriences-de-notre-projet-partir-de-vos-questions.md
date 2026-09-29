@@ -21,7 +21,7 @@ maxParticipants: 25
 archived: true
 ---
 
-Rejoignez-nous pour une exploration des enjeux du travail en collectif. Nous vous partagerons nos expériences, nos outils et les approches mises en place pour renforcer les organisations dans lesquelles nous sommes investi.es.
+Rejoignez-nous pour une exploration des enjeux du travail en collectif. Nous vous partagerons nos expériences, nos outils et les approches mises en place pour renforcer les organisations dans lesquelles nous sommes investi·es.
 
 Cet atelier offre une occasion unique d'échanger et de partager des expériences propres à la gouvernance partagée, aux dynamiques de groupe, au modèle économique, à la gestion et pérennisation de projets et à l’utilisation d’outils d’intelligence collective. Il s'agit de comprendre comment nous pouvons renforcer nos organisations en construisant ensemble, en tirant parti de la prise de responsabilité partagée et de notre diversité.
 
@@ -43,9 +43,7 @@ L'atelier sera participatif, ça sera sur base de vos questions que nous échang
 | 3h00 | 180€ | \+ 22,5€/personne |
 | 4h00 | 240€ | \+ 30€/personne |
 
-- Plus d’infos & réservation : envoyez un mail à [\[email protected\]](mailto:)
-
-> 💁 **Envie de loger sur place avant ou après l’événement ?** Découvrez [nos hébergements](/sejours/hebergements-yvoir)
+- Plus d’infos & réservation : envoyez un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 

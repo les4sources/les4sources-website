@@ -135,7 +135,7 @@ En dehors de l’auberge espagnole et de la Pizza Party, les repas sont végéta
 
 ### L’équipe
 
-2 artisan-es passionné-es par la ferronnerie et les low-techs, qui ont la transmission dans le sang !
+2 artisan·es passionné·es par la ferronnerie et les low-techs, qui ont la transmission dans le sang !
 
 <!-- columns -->
 <!-- column width="50%" -->

@@ -22,6 +22,8 @@ interface Props {
   lead?: string;
   cover?: ImageMetadata;
   coverAlt?: string;
+  /** Point focal de la couverture (« 50% 25% »), cf. `coverPosition` du contenu. */
+  coverPosition?: string;
   /** Image Claudy rapatriée au build (src/lib/remote-image.ts) — repli quand `cover` est absent. */
   remoteCover?: RemoteImage;
   pole?: string;
@@ -39,6 +41,7 @@ const {
   lead,
   cover,
   coverAlt,
+  coverPosition,
   remoteCover,
   pole,
   crumbs = [],
@@ -50,6 +53,17 @@ const {
 // Une seule grille : la colonne étroite garde le bord gauche du site (voir Section).
 const container = "max-w-site";
 const hasCover = Boolean(cover) || Boolean(remoteCover);
+
+// Un seul format de hero d'une page à l'autre : 4/3 sur mobile, 16/9 dans la
+// colonne étroite, 21/9 en pleine largeur. Seul un vrai bandeau (plus large que
+// 2,4:1) garde son format, pour ne pas être agrandi jusqu'au flou.
+const source = cover ?? remoteCover;
+const banner = source?.width && source?.height ? source.width / source.height > 2.4 : false;
+const frame = bleed
+  ? "max-h-[62vh]"
+  : banner
+    ? "rounded-photo"
+    : ["aspect-[4/3] rounded-photo sm:aspect-[16/9]", !narrow && "lg:aspect-[21/9]"];
 ---
 
 <header class:list={["px-6 pt-[clamp(18px,3vw,32px)]", hasCover ? "pb-0" : "pb-2", className]}>
@@ -70,12 +84,12 @@ const hasCover = Boolean(cover) || Boolean(remoteCover);
     }
 
     <h1
-      class="mt-4 max-w-[20ch] font-display text-[clamp(30px,6vw,48px)] leading-[1.12] font-bold tracking-[-0.01em]"
+      class="mt-4 max-w-[24ch] font-display text-[clamp(30px,6vw,48px)] leading-[1.12] font-bold tracking-[-0.01em]"
     >
       {title}
     </h1>
 
-    {lead && <p class="mt-4 max-w-[640px] font-body text-lead text-ink-2">{lead}</p>}
+    {lead && <p data-l4s-lead class="mt-4 max-w-[640px] font-body text-lead text-ink-2">{lead}</p>}
   </div>
 </header>
 
@@ -90,10 +104,8 @@ const hasCover = Boolean(cover) || Boolean(remoteCover);
             widths={[640, 960, 1440, 1920, 2400]}
             sizes={narrow ? "(min-width: 800px) 760px, 100vw" : "(min-width: 1220px) 1180px, 100vw"}
             loading="eager"
-            class:list={[
-              "l4s-vt-hero w-full object-cover",
-              bleed ? "max-h-[62vh]" : "max-h-[520px] rounded-photo",
-            ]}
+            class:list={["l4s-vt-hero w-full object-cover", frame]}
+            style={coverPosition ? `object-position:${coverPosition}` : undefined}
           />
         ) : remoteCover ? (
           <Photo
@@ -101,10 +113,7 @@ const hasCover = Boolean(cover) || Boolean(remoteCover);
             alt={remoteCover.alt || coverAlt || title}
             sizes={narrow ? "(min-width: 800px) 760px, 100vw" : "(min-width: 1220px) 1180px, 100vw"}
             loading="eager"
-            class:list={[
-              "l4s-vt-hero w-full object-cover",
-              bleed ? "max-h-[62vh]" : "max-h-[520px] rounded-photo",
-            ]}
+            class:list={["l4s-vt-hero w-full object-cover", frame]}
           />
         ) : null}
       </div>

@@ -1,12 +1,12 @@
 ---
 title: "Claudy"
-description: "Claudy est le 5ème mousquetaire des 4 Sources. C’est le petit nom de notre logiciel de gestion open source, programmé par Michael et d’autres contributeurs."
+description: "Claudy est le 5e mousquetaire des 4 Sources. C’est le petit nom de notre logiciel de gestion open source, programmé par Michael et d’autres contributeurs."
 legacyPath: "/projets/claudy"
 cover: "../../assets/migration/projets__claudy/01-photo-1587620962725-abab7fe55159.jpg"
 coverAlt: "Claudy"
 ---
 
-**Claudy est le 5ème mousquetaire des 4 Sources. C’est le petit nom de notre logiciel de gestion open source, programmé par** **[Michael](/collectif/michael-hulet)** **et d’autres contributeurs.**
+**Claudy est le 5e mousquetaire des 4 Sources. C’est le petit nom de notre logiciel de gestion open source, programmé par** **[Michael](/collectif/michael-hulet)** **et d’autres contributeurs.**
 
 ## Agenda
 

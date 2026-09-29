@@ -7,4 +7,4 @@ properties:
 generatedDescription: true
 ---
 
-![IMG 8246](../../../assets/migration/shared/7feb8ae0442d-IMG_8246.jpg)
+![Une chambre avec un lit superposé, deux lits simples et une salle d’eau attenante](../../../assets/migration/shared/7feb8ae0442d-IMG_8246.jpg)

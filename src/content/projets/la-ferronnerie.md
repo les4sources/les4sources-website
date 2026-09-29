@@ -21,13 +21,13 @@ Passionné par le métal, [Seb](/collectif/sbastien-frennet) met son savoir-fair
 <!-- columns -->
 <!-- column width="50%" -->
 
-![PHOTO 2025 06 10 18 55 21](../../assets/migration/projets__la-ferronnerie/04-PHOTO-2025-06-10-18-55-21.jpg)
+![Une rampe en métal le long d’un escalier extérieur](../../assets/migration/projets__la-ferronnerie/04-PHOTO-2025-06-10-18-55-21.jpg)
 
 ![Le Fer en mains](../../assets/migration/projets__la-ferronnerie/05-img-20250316-wa0006.jpg)
 
 <!-- column width="50%" -->
 
-![PHOTO 2025 04 10 20 07 42](../../assets/migration/projets__la-ferronnerie/06-PHOTO-2025-04-10-20-07-42.jpg)
+![Des structures métalliques élancées alignées le long d’une clôture](../../assets/migration/projets__la-ferronnerie/06-PHOTO-2025-04-10-20-07-42.jpg)
 
 ![Le Fer en mains](../../assets/migration/projets__la-ferronnerie/07-_g0a6757_-1.jpg)
 <!-- /columns -->

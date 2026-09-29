@@ -7,4 +7,4 @@ properties:
 generatedDescription: true
 ---
 
-![G0A2834](../../../assets/migration/shared/3c1f3720ab07-_G0A2834.jpg)
+![Une façade en pierre couverte de plantes grimpantes](../../../assets/migration/shared/3c1f3720ab07-_G0A2834.jpg)

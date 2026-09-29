@@ -5,6 +5,7 @@ legacyPath: "/sejours/hebergements-yvoir/photos-des-hbergements/salamandre-tache
 properties:
   Page: "Biodiversité"
 generatedDescription: true
+pole: "nature"
 ---
 
 ![Salamandre tachetée](../../../assets/migration/shared/f16d783c25dd-20221116_135325_10B47022.jpg)

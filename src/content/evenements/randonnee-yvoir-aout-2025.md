@@ -25,7 +25,7 @@ Vous aurez l’occasion de découvrir la région d’Yvoir à travers des monume
 
 - **Jour 1 (9 août) : découverte des 3 châteaux**
 
-Rendez-vous à la gare d’Yvoir 🚂 pour prendre le train jusqu’à Dinant. Durant cette randonnée, vous aurez la chance de découvrir 3 magnifiques châteaux en ruine (Crèvecoeur, Montaigle et Poilvache).
+Rendez-vous à la gare d’Yvoir 🚂 pour prendre le train jusqu’à Dinant. Durant cette randonnée, vous aurez la chance de découvrir 3 magnifiques châteaux en ruine (Crèvecœur, Montaigle et Poilvache).
 
 - **Jour 2 (10 août) : le chemin du Bocq**
 

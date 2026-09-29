@@ -1,9 +1,9 @@
 ---
-title: "Camembert & Karoké Party🎤🧀"
-description: "Camembert & Karoké Party🎤🧀 — Les 4 Sources, tiers-lieu à Yvoir"
+title: "Camembert & Karaoké Party🎤🧀"
+description: "Camembert & Karaoké Party🎤🧀 — Les 4 Sources, tiers-lieu à Yvoir"
 legacyPath: "/evenements/camembert-party-14-novembre-2025"
 cover: "../../assets/migration/evenements__camembert-party-14-novembre-2025/01-_Cover_pour_le_site_4S_-2.jpg"
-coverAlt: "Camembert & Karoké Party🎤🧀"
+coverAlt: "Camembert & Karaoké Party🎤🧀"
 icon: "🧀"
 properties:
   Date: "2025-11-14"
@@ -26,16 +26,13 @@ Viens déguster une "mini-fondue" en trempant du pain frais dans ton fromage tou
 Bienvenue **ce 14 novembre** **dès 18h30** :
 
 - tu amènes…
-
-- ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre)
-- tes petits légumes
-
+  - ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre)
+  - tes petits légumes
 - nous mettons à ta disposition…
-
-- de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu
-- des planches à découper et des platines de cuisson
-- le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage
-- la grande salle des 4 Sources
+  - de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu
+  - des planches à découper et des platines de cuisson
+  - le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage
+  - la grande salle des 4 Sources
 
 ## À emporter avec toi
 

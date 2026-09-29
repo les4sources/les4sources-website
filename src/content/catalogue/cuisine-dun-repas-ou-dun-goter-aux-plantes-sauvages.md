@@ -28,7 +28,7 @@ Cuisinez un repas ou un goûter en utilisant des plantes sauvages et apprenez à
 
 En plus de la cuisine, cet atelier offre également une occasion unique d'éducation environnementale. Vous aurez l'opportunité de comprendre l'importance de la biodiversité locale et comment la nature peut fournir une alimentation saine et diversifiée. Vous apprendrez quels types de plantes sont comestibles, comment en identifier quelques-unes et où les trouver.
 
-Dans une ambiance conviviale et détendue, vous pourrez également partager vos expériences, discuter de vos découvertes et poser toutes vos questions à notre animateur.ice expert.e en plantes sauvages. À la fin de l'atelier, vous repartirez non seulement avec des recettes originales à base de plantes sauvages, mais aussi avec une meilleure connaissance et appréciation de la nature qui nous entoure.
+Dans une ambiance conviviale et détendue, vous pourrez également partager vos expériences, discuter de vos découvertes et poser toutes vos questions à notre animateur·ice expert·e en plantes sauvages. À la fin de l'atelier, vous repartirez non seulement avec des recettes originales à base de plantes sauvages, mais aussi avec une meilleure connaissance et appréciation de la nature qui nous entoure.
 
 Cet atelier est organisé en collaboration avec [Empreintes ASBL](https://www.empreintes.be/).
 

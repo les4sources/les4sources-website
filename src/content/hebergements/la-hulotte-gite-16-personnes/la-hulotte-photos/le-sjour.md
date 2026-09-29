@@ -6,4 +6,4 @@ capacity: 16
 generatedDescription: true
 ---
 
-![G0A2780](../../../../assets/migration/shared/45c528537c2a-_G0A2780.jpg)
+![Le séjour : tables en bois et escalier menant à une mezzanine](../../../../assets/migration/shared/45c528537c2a-_G0A2780.jpg)

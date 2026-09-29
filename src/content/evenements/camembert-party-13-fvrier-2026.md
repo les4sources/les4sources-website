@@ -30,16 +30,13 @@ Viens déguster une "mini-fondue" en trempant du pain frais dans ton fromage tou
 Bienvenue **ce 13 mars, dès 18h30** :
 
 - tu amènes…
-
-- ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre)
-- tes petits légumes
-
+  - ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre)
+  - tes petits légumes
 - nous mettons à ta disposition…
-
-- de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu
-- des planches à découper et des platines de cuisson
-- le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage
-- la grande salle des 4 Sources
+  - de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu
+  - des planches à découper et des platines de cuisson
+  - le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage
+  - la grande salle des 4 Sources
 
 ## Et pour cette édition, notre partenaire [DiscGolf](https://www.discgolfattitude.be/) propose…
 
@@ -51,7 +48,7 @@ Cerise sur le panier : le club a réussi un joli coup (presque un ace !) en ache
 
 Vous pouvez donc participer, ou non, à une session de disc-golf ce 13 mars ! Pas besoin d’inscription si ce n’est celle de la Camembert Party.
 
-![202210910 2981222505532898 253882220115932684 n](../../assets/migration/evenements__camembert-party-13-fvrier-2026/02-202210910_2981222505532898_253882220115932684_n.jpg)
+![Un joueur lance un disque vers une corbeille de disc-golf dans une prairie](../../assets/migration/evenements__camembert-party-13-fvrier-2026/02-202210910_2981222505532898_253882220115932684_n.jpg)
 
 ![Camembert Party et disc-golf nocturne 🧀](../../assets/migration/evenements__camembert-party-13-fvrier-2026/03-img-20250316-wa0025.jpg)
 

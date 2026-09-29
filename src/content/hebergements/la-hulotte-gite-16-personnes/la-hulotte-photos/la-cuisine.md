@@ -6,4 +6,4 @@ capacity: 16
 generatedDescription: true
 ---
 
-![G0A2782](../../../../assets/migration/shared/7864d1223515-_G0A2782.jpg)
+![Une cuisine équipée aux murs ocre](../../../../assets/migration/shared/7864d1223515-_G0A2782.jpg)

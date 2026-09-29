@@ -35,9 +35,7 @@ Rejoignez-nous pour cet atelier stimulant et enrichissant qui vous offrira de no
 | 1h00 | 60€ | \+ 7,5€/personne |
 | 2h00 | 120€ | \+ 15€/personne |
 
-- Plus d’infos & réservation : envoyez un mail à [\[email protected\]](mailto:)
-
-> 💁 **Envie de loger sur place avant ou après l’événement ?** Découvrez [nos hébergements](/sejours/hebergements-yvoir)
+- Plus d’infos & réservation : envoyez un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be) **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 

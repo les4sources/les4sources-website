@@ -34,9 +34,7 @@ Cet atelier est idéal pour les groupes qui cherchent à vivre un temps qualitat
 | 3h00 | 180€ | \+ 22,5€/pers. | 540€ | \+ 15€/pers. |
 | 4h00 | 240€ | \+ 30€/pers. | 720€ | \+ 20€/pers. |
 
-- Plus d’infos & réservation : envoyez un mail à [\[email protected\]](mailto:)
-
-> 💁 **Envie de loger sur place avant ou après l’événement ?** Découvrez [nos hébergements](/sejours/hebergements-yvoir)
+- Plus d’infos & réservation : envoyez un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 

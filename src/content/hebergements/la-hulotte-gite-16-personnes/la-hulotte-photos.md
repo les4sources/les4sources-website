@@ -12,6 +12,6 @@ generatedDescription: true
 
 **La Hulotte (photos)**
 
-- [Chambre ‘Mélisse’](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos/chambre-mlisse)
+- [Chambre « Mélisse »](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos/chambre-mlisse)
 - [La cuisine](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos/la-cuisine)
 - [Le séjour](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos/le-sjour)

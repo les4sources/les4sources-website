@@ -40,7 +40,7 @@ Notre approche alterne travail individuel sur ton projet, séances de coaching p
 
 Cette semaine de formation s’adresse aux personnes **disposant d’un lieu** où implanter une nouvelle forêt-jardin, ou avec une forêt-jardin dont l’implantation a démarré.
 
-![W1920quality90fitscale down](../../assets/migration/shared/b6c72afcb36a-w1920quality90fitscale-down.jpg)
+![Un groupe écoute une animatrice en forêt](../../assets/migration/shared/b6c72afcb36a-w1920quality90fitscale-down.jpg)
 
 ## Concentre-toi sur l'essentiel : nous nous occupons du reste !
 
@@ -52,7 +52,7 @@ Une expérience unique pour faire avancer ton projet dans un cadre inspirant, ac
 
 ***Une semaine où tout est pensé pour ton confort et ton inspiration.***
 
-**Tu ne devras pas te préoccuper des repas** : pour plus de facilité, ceux-ci sont inclus dans le prix de la formation. Nous te proposons des plats sains et variés, et pour les petits déjeuners, il y a de délicieux pains au levain cuits au four à bois des 4 Sources et des oeufs frais des poules. 🐔
+**Tu ne devras pas te préoccuper des repas** : pour plus de facilité, ceux-ci sont inclus dans le prix de la formation. Nous te proposons des plats sains et variés, et pour les petits déjeuners, il y a de délicieux pains au levain cuits au four à bois des 4 Sources et des œufs frais des poules. 🐔
 
 👌 Des intolérances à nous signaler ? Un formulaire envoyé aux participants permettra de t’assurer des repas adaptés.
 

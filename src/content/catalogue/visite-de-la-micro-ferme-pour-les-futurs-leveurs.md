@@ -36,7 +36,7 @@ Bavardage sur les besoins des animaux, leurs comportements, leur bien-être, les
 
 - Durée : 3h
 - Nombre de participant·es : 1 à 10 personnes
-- A prévoir : bottes ou bottines fermées | vêtements d’extérieur pouvant être salis
+- À prévoir : bottes ou bottines fermées | vêtements d’extérieur pouvant être salis
 - **Conditions spéciales** : PAS de chiens, même tenus en laisse. Réserver minimum 2 semaines à l’avance
 - Prix : 180€
 

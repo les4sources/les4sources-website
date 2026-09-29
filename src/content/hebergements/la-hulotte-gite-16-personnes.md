@@ -3,6 +3,7 @@ title: "La Hulotte"
 description: "Un logement de caractère unique pour 15 personnes, au cœur d'un tiers-lieu où vivent 6 familles, dans une clairière entourée de forêts."
 legacyPath: "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes"
 cover: "../../assets/migration/sejours__hebergements-yvoir__la-hulotte-gite-16-personnes/01-photo-1553264646-7eb44743436f.jpg"
+coverPosition: "50% 30%"
 coverAlt: "La Hulotte"
 capacity: 16
 gallery:
@@ -26,7 +27,7 @@ Proche d'Yvoir, de Crupet et d'Evrehailles, c'est l'endroit idéal pour une esca
 - **2 chambres** : la Sarriette (2 lits simples pouvant être réunis en un lit double + 1 lit simple) et l’Origan (2 lits simples pouvant être réunis en un lit double + 1 lit superposé)
 - Un **séjour** de 25 m² composé d'un divan-lit et de tables pour 10-12 personnes
 - Une petite **cuisine** équipée avec taques au gaz, four électrique, frigo. Pas de lave-vaisselle.
-- La **mezzanine** du Laurier, ouverte sur le living du 2ème étage : 2 lits simples (pouvant aussi être utilisés comme espace salon), sans sanitaire indépendant
+- La **mezzanine** du Laurier, ouverte sur le living du 2e étage : 2 lits simples (pouvant aussi être utilisés comme espace salon), sans sanitaire indépendant
 
 **ℹ️ La Hulotte convient bien pour un groupe de 10-12 personnes en hiver, et jusqu’à 15 personnes à la belle saison lorsque la météo clémente permet de manger en terrasse.**
 

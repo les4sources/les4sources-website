@@ -34,14 +34,13 @@ Alternance de temps de transmission théorique et de temps d’expérimentation 
 ### En pratique
 
 - Durée : 3h30
-- Nombre de participant-es : 3 maximum (14 ans minimum)
+- Nombre de participant·es : 3 maximum (14 ans minimum)
 - 210€ + 6€/pers.
 - À emporter avec soi :
-
-- Vêtements de travail non synthétiques (pas de short)
-- Chaussures de sécurité (ou à défaut chaussures fermées de type bottines)
-- Protections auditives (bouchons d'oreilles disponibles sur place)
-- Gants, masques et EPI spécifiques disponibles en prêt
+  - Vêtements de travail non synthétiques (pas de short)
+  - Chaussures de sécurité (ou à défaut chaussures fermées de type bottines)
+  - Protections auditives (bouchons d'oreilles disponibles sur place)
+  - Gants, masques et EPI spécifiques disponibles en prêt
 
 ![Initiation à la soudure à l’arc](../../assets/migration/catalogue__initiation-la-soudure/03-_g0a7893.jpg)
 

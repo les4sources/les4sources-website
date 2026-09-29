@@ -6,6 +6,7 @@ properties:
   Page: "Biodiversité"
 capacity: 16
 generatedDescription: true
+pole: "nature"
 ---
 
 ![Les crapauds dans les mares](../../../assets/migration/shared/31495c8186b0-IMG_20230320_142947.jpg)

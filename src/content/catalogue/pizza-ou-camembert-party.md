@@ -28,13 +28,13 @@ Vous gérez le feu et la cuisson du four, vous permettant d’enfourner 30 pizza
 
 Que la meilleure pizza … soit dégustée comme il se doit ! 🍕
 
-![Mg 0355](../../assets/migration/catalogue__pizza-ou-camembert-party/02-_mg_0355.jpg)
+![Des jeunes préparent des pizzas autour d’une table en extérieur](../../assets/migration/catalogue__pizza-ou-camembert-party/02-_mg_0355.jpg)
 
-![Mg 0384](../../assets/migration/catalogue__pizza-ou-camembert-party/03-_mg_0384.jpg)
+![Une pizza garnie dans un plat en métal, entourée d’autres pizzas](../../assets/migration/catalogue__pizza-ou-camembert-party/03-_mg_0384.jpg)
 
 ### En pratique
 
-- Min. 15 participant-es (excepté les jours de boulangerie (mardi et vendredi))
+- Min. 15 participant·es (excepté les jours de boulangerie (mardi et vendredi))
 - Activité réalisable **à la demande**, midis et soirs, tous les jours **sauf le lundi.** ⚠️ Les mercredis, jeudis, samedis et dimanches, votre groupe doit prévoir **3h30** de chauffe avant de pouvoir enfourner 🔥
 - Le four est chaud **les mardis et vendredis** (pour les cuissons de la boulangerie)
 - Vous amenez tous vos ingrédients pour garnir vos pâtes à pizzas : passata, légumes, fromages…
@@ -44,7 +44,7 @@ Que la meilleure pizza … soit dégustée comme il se doit ! 🍕
 - Forfait de 40€ pour la préparation, le bois, l’utilisation du matériel et la mise en place
 - 5€/pâton
 
-![Mg 0320](../../assets/migration/catalogue__pizza-ou-camembert-party/04-_mg_0320.jpg)
+![Des mains étalent des pâtes à pizza sur une longue table farinée](../../assets/migration/catalogue__pizza-ou-camembert-party/04-_mg_0320.jpg)
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 

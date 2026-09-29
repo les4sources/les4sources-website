@@ -29,10 +29,8 @@ pole: "vie-collective"
 - Inscription nécessaire
 - Tarif en conscience (prix indicatif : 12 €/personne)
 - À emporter avec toi :
-
-- boissons/en-cas
-- goûter à partager en mode auberge espagnole
-
+  - boissons/en-cas
+  - goûter à partager en mode auberge espagnole
 - Min. 3 projets participants
 
 ## **Facilitatrices**

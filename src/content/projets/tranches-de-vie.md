@@ -50,7 +50,7 @@ Chez Tranches de Vie, le four à bois n'est pas qu'un outil de cuisson. Il est a
 
 <!-- column width="50%" -->
 
-![Dscf8830](../../assets/migration/projets__tranches-de-vie/07-dscf8830.jpg)
+![Des mains pétrissent une pâte à pain](../../assets/migration/projets__tranches-de-vie/07-dscf8830.jpg)
 <!-- /columns -->
 
 #### Des pains qui nourrissent vraiment
@@ -61,7 +61,7 @@ Produits avec des ingrédients locaux et une grande attention aux éléments nat
 
 Stéphanie rêve d'élargir la portée de Tranches de Vie en organisant des ateliers de transmission pour que chacun puisse s'initier à la boulangerie au levain. Elle imagine aussi des rendez-vous hebdomadaires où le four à bois serait au service des habitants, permettant à chacun de cuire ses plats tout en partageant un moment convivial.
 
-![Dscf8733](../../assets/migration/projets__tranches-de-vie/08-dscf8733.jpg)
+![Des mains pétrissent une grosse boule de pâte dans un pétrin en bois](../../assets/migration/projets__tranches-de-vie/08-dscf8733.jpg)
 
 ### Rejoignez-nous !
 

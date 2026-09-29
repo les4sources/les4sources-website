@@ -16,7 +16,7 @@ Retrouvez nos activités à jour, classées en **3 catégories** : toujours disp
 Les activités suivantes sont disponibles, à demander lors de votre réservation. N’hésitez tout de même pas à nous contacter au préalable pour que nous puissions nous organiser !
 
 - [🍃 Un tour à la découverte du projet des 4 Sources](/catalogue/decouverte-du-projet-des-4-sources)
-- [🐎 Bain d’ânes](/catalogue/temps-avec-le-troupeau-d-anes)
+- [🫏 Bain d’ânes](/catalogue/temps-avec-le-troupeau-d-anes)
 - [🍕 Pizza Party pour groupes](/catalogue/pizza-ou-camembert-party)
 - [🧀 Camembert Party pour groupes](/catalogue/camembert-party)
 

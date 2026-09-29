@@ -6,7 +6,7 @@ cover: "../../assets/migration/a-propos__notre-projet/01-_G0A4757.jpg"
 coverAlt: "Les 4 Sources vues du ciel"
 ---
 
-![Le schéma des trois facettes des 4 Sources](../../assets/migration/a-propos__notre-projet/02-4sources.jpg)
+![Le long bâtiment en pierre des 4 Sources, au pied d’une colline boisée](../../assets/migration/a-propos__notre-projet/02-4sources.jpg)
 
 ## Un lieu de nature 🌳
 

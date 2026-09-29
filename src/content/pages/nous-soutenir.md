@@ -14,6 +14,6 @@ Le groupe fondateur des 4 Sources a choisi de baliser l’achat du lieu de faço
 
 ## Faire un don 💚
 
-Si tu souhaites toi aussi soutenir cette initiative et permettre de pérenniser le projet, l’achat et le développement du lieu, prends contact avec Les 4 Sources via [contact@les4sources.be](mailto:contact@les4sources.be), ou soutiens le projet via le numéro de compte de la Fondation Privée Les 4 Sources : `BE72 5230 8060 1116`, en indiquant *« Dons »* ainsi que ton adresse e-mail afin que nous puissions te remercier.
+Si tu souhaites toi aussi soutenir cette initiative et permettre de pérenniser le projet, l’achat et le développement du lieu, prends contact avec Les 4 Sources via [contact@les4sources.be](mailto:contact@les4sources.be), ou soutiens le projet via le numéro de compte de la Fondation Privée Les 4 Sources : BE72 5230 8060 1116, en indiquant *« Dons »* ainsi que ton adresse e-mail afin que nous puissions te remercier.
 
 > 🙏 M·E·R·C·I à tous·tes celles·eux qui soutiennent le projet via leurs passages aux 4 Sources et/ou leurs soutiens via le temps et l’argent qu’iels y consacrent !

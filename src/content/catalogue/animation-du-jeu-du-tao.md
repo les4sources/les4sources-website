@@ -18,7 +18,7 @@ archived: true
 
 Plongez au cœur de votre être avec le Jeu du Tao, un atelier transformateur qui explore une quête que vous choisirez et mène à la coopération.
 
-Venez découvrir le Jeu du Tao, une expérience ludique et interactive qui vous invite à cheminer avec une de vos quêtes dans un environnement convivial et coopératif. Que vous cherchiez à résoudre un défi personnel, une question logistique, à approfondir votre compréhension de vous-même ou simplement à passer un moment singulier avec des ami.es, le Jeu du Tao offre une occasion unique d'exploration et de croissance. Rejoignez-nous pour cet atelier et embarquez dans un voyage de découverte et de transformation.
+Venez découvrir le Jeu du Tao, une expérience ludique et interactive qui vous invite à cheminer avec une de vos quêtes dans un environnement convivial et coopératif. Que vous cherchiez à résoudre un défi personnel, une question logistique, à approfondir votre compréhension de vous-même ou simplement à passer un moment singulier avec des ami·es, le Jeu du Tao offre une occasion unique d'exploration et de croissance. Rejoignez-nous pour cet atelier et embarquez dans un voyage de découverte et de transformation.
 
 ### En pratique
 
@@ -30,7 +30,7 @@ Venez découvrir le Jeu du Tao, une expérience ludique et interactive qui vous 
 | 3h00 | 180€ |
 | 4h00 | 240€ |
 
-- Plus d’infos & réservation : envoyez un mail à [\[email protected\]](mailto:)
+- Plus d’infos & réservation : envoyez un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
 
 > 💁 **Envie de loger sur place avant ou après l’événement ?** Découvrez [nos hébergements](/sejours/hebergements-yvoir)
 

@@ -20,7 +20,7 @@ Atelier cuisine
 
 Nous sommes heureux de vous proposer plusieurs ateliers de cuisine autour de douceurs sucrées et salées, réalisées avec des ingrédients locaux, de saison et issus du circuit-court 🍰
 
-![Mg 8473](../../assets/migration/catalogue__ateliers-cuisine-sucr-ou-sal/02-_mg_8473.jpg)
+![Des tartelettes jaunes décorées d’une inscription en chocolat](../../assets/migration/catalogue__ateliers-cuisine-sucr-ou-sal/02-_mg_8473.jpg)
 
 Dans une ambiance conviviale et bienveillante, prenez le temps de découvrir, comprendre et créer ensemble des recettes simples, savoureuses et respectueuses de notre environnement. Ces moments sont une invitation à ralentir, à mettre les mains à la pâte et à (re)trouver le plaisir de cuisiner en conscience, en valorisant des produits de qualité et en limitant le gaspillage.
 
@@ -57,8 +57,6 @@ Confection de biscuits apéritifs au fromage et de quiches (1/2/pers.)
 | --- | --- | --- | --- |
 | **Durée** | **Nbre de pers.** | **Prix** | **Autres conditions** |
 | 2h | 4 à 6 personnes ou 2 à 3 duos parent-enfant | 120€+ 7.5€/pers. pour les ingrédients | Les enfants de 6 à 12 ans participent obligatoirement en duo avec un adulte. |
-
-> 💁 **Envie de loger sur place avant ou après l’événement ?** Fais-nous part de ta demande à [contact@les4sources.be](mailto:contact@les4sources.be).
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 

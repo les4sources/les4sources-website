@@ -29,7 +29,7 @@ Colin vous propose un questionnement sur notre rapport à la nature, à nos choi
 
 Cette balade est organisée par Colin Vanhamme, dans le cadre d’un TFF de la Formation *[Interprète Nature et Environnement](https://www.education-environnement.be/formation.php?idc=2&c=interprete-nature-et-environnement-guide-nature-cnb-de-liege)* du CRIE de Liège.
 
-![531821888 1069714572004645 4237573810800682198 n](../../assets/migration/evenements__balade-nature-juin-2026/02-531821888_1069714572004645_4237573810800682198_n.jpg)
+![Un groupe de randonneurs à l’écoute d’un guide, en forêt](../../assets/migration/evenements__balade-nature-juin-2026/02-531821888_1069714572004645_4237573810800682198_n.jpg)
 
 ## Infos pratiques
 
@@ -42,7 +42,7 @@ Cette balade est organisée par Colin Vanhamme, dans le cadre d’un TFF de la F
 
 > 🆕 Une info complémentaire ? Appelle Colin au 0489/36.90.18, ou par e-mail à [vanhammecolin@gmail.com](mailto:vanhammecolin@gmail.com).
 
-![534204871 1069714672004635 3756803300538429767 n](../../assets/migration/evenements__balade-nature-juin-2026/03-534204871_1069714672004635_3756803300538429767_n.jpg)
+![Deux randonneurs contemplent la vallée depuis un point de vue](../../assets/migration/evenements__balade-nature-juin-2026/03-534204871_1069714672004635_3756803300538429767_n.jpg)
 
 ### Prévisions météo
 

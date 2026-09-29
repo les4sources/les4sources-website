@@ -23,7 +23,7 @@ maxParticipants: 16
 
 ### Cet atelier automnal est conçu pour vous familiariser avec le monde fascinant des champignons.
 
-Vous découvrirez quelques champignons lors d’une balade, apprendrez à reconnaître les caractéristiques clés qui vous aideront à les identifier et comprendrez leur rôle essentiel dans l'écosystème. Que vous soyez des novices complet.es ou que vous ayez déjà une certaine expérience en mycologie, cet événement est une excellente occasion d'approfondir vos connaissances et vos compétences.
+Vous découvrirez quelques champignons lors d’une balade, apprendrez à reconnaître les caractéristiques clés qui vous aideront à les identifier et comprendrez leur rôle essentiel dans l'écosystème. Que vous soyez des novices complet·es ou que vous ayez déjà une certaine expérience en mycologie, cet événement est une excellente occasion d'approfondir vos connaissances et vos compétences.
 
 Nous commencerons par une introduction générale sur les champignons, suivie d'une session pratique d'identification en forêt pour mettre en pratique ce que nous aurons appris.
 
@@ -32,7 +32,7 @@ Nous commencerons par une introduction générale sur les champignons, suivie d'
 ### En pratique
 
 - Durée : 3h
-- Nombre de participant-es : 2 à 8 personnes
+- Nombre de participant·es : 2 à 8 personnes
 - Vêtements adaptés à la saison, et en extérieur
 - Prix : 180 € au total + 22.5€ / pers. jusqu’à 16 pers.
 

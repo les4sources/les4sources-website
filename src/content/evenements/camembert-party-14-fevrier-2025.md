@@ -30,18 +30,18 @@ Viens déguster une "mini-fondue" en trempant du pain frais dans ton fromage tou
 Bienvenue **dès 18h30** :
 
 - tu amènes…
-
-- 🧀 ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre). Tous les fromages coulants sont les bienvenus, et si fromage et toi ne font pas bonne affaire, n’hésite pas à apporter autre chose.
-- 🍄‍🟫 tes p’tits légumes (inspiration : courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces ou salades froides à manger à côté)
-- ton assaisonnement éventuel
-
+  - 🧀 ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre). Tous les fromages coulants sont les bienvenus, et si fromage et toi ne font pas bonne affaire, n’hésite pas à apporter autre chose.
+  - 🍄‍🟫 tes p’tits légumes (inspiration : courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces ou salades froides à manger à côté)
+  - ton assaisonnement éventuel
 - nous mettons à ta disposition…
+  - de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu
+  - le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage
+  - la grande salle (chauffée, bien sûr) des 4 Sources
 
-- de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu
-- le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage
-- la grande salle (chauffée, bien sûr) des 4 Sources
-
-👍 Le four de boulangerie est chauffé au bois 👍 Le pain est bio et au levain 👍 La salle est chauffée 😅 👍 Et les gens sont super cools !
+👍 Le four de boulangerie est chauffé au bois\
+👍 Le pain est bio et au levain\
+👍 La salle est chauffée 😅\
+👍 Et les gens sont super cools !
 
 ## Infos pratiques
 

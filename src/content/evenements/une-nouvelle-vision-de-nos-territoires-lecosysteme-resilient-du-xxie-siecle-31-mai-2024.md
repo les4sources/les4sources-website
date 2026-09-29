@@ -25,9 +25,9 @@ Tera, établi sur trois communes, met l'accent sur **le** **développement rural
 
 Découvre toutes les facettes de cet incroyable projet et rejoins-nous pour cette conférence !
 
-![Dkcezpgblrc8lwimykpz](../../assets/migration/evenements__une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024/02-dkcezpgblrc8lwimykpz.jpg)
+![Affiche des Rencontres territoires et résilience avec Frédéric Bosqué (TERA)](../../assets/migration/evenements__une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024/02-dkcezpgblrc8lwimykpz.jpg)
 
-![Wiignvvg7ei7dkbztufc](../../assets/migration/evenements__une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024/03-wiignvvg7ei7dkbztufc.jpg)
+![Affiche de la conférence « Une nouvelle vision de nos territoires : l’écosystème résilient du XXIe siècle »](../../assets/migration/evenements__une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024/03-wiignvvg7ei7dkbztufc.jpg)
 
 **19h30 :** Ouverture des portes **20h :** Conférence de Frédéric Bosqué
 
@@ -35,11 +35,11 @@ Découvre toutes les facettes de cet incroyable projet et rejoins-nous pour cett
 
 - **Inscription obligatoire** [en prenant un "Ticket"](https://les4sources.punchpass.com/classes/14999166)
 
-- Offert aux habitant.es d'Anhée, Dinant, Hastière, Houyet, Onhaye et Yvoir
+- Offert aux habitant·es d'Anhée, Dinant, Hastière, Houyet, Onhaye et Yvoir
 - Participation en conscience et paiement en liquide sur place pour les autres provenances
 
 - Bar accessible
 
-[Un atelier est proposé le lendemain](https://les4sources.punchpass.com/classes/15001443) aux habitant.es d'Anhée, Dinant, Hastière, Houyet, Onhaye et Yvoir pour travailler plus spécifiquement sur ce territoire.
+[Un atelier est proposé le lendemain](https://les4sources.punchpass.com/classes/15001443) aux habitant·es d'Anhée, Dinant, Hastière, Houyet, Onhaye et Yvoir pour travailler plus spécifiquement sur ce territoire.
 
 *Conférence co-organisée par le Collectif Maison de la Transition, la Fondation Cyrys et Les 4 Sources. Événements inscrits dans le cadre d'une collaboration avec Trois-Tiers et Les Passerelles.*

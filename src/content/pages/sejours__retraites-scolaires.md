@@ -17,7 +17,7 @@ Vous êtes au bon endroit ! Nous proposons des retraites et séjours scolaires i
 🪄 *La Chevêche + La Hulotte = Le Grand-Duc*
 
 - Accueille jusqu’à **25 personnes**
-- Rez-de-chaussée, 1er et 2ème étage
+- Rez-de-chaussée, 1er et 2e étage
 - 7 chambres avec salle de douche
 - Mezzanine avec 2 lits d’appoint
 

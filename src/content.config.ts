@@ -45,6 +45,9 @@ const sharedFields = {
   /** OBLIGATOIRE — chemin exact de l'URL d'origine, ex. "/sejours/tarifs". */
   legacyPath: z.string(),
   coverAlt: z.string().optional(),
+  /** Point focal de la couverture, en CSS `object-position` (« 50% 25% ») : une
+      photo en portrait recadrée en bandeau garde son sujet dans le cadre. */
+  coverPosition: z.string().regex(/^\d{1,3}% \d{1,3}%$/).optional(),
   /** Émoji éventuel repris du site actuel. */
   icon: z.string().optional(),
   /** Paires clé/valeur libres extraites des propriétés Notion. */

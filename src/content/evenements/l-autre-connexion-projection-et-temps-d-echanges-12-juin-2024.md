@@ -23,7 +23,7 @@ registrationUrl: "https://les4sources.punchpass.com/classes/15451408?embed=true"
 
 **Viens partager un moment autour du documentaire** ***"L'Autre connexion"*. Un film inspirant qui raconte l'expérience d'une école de la forêt nourrie de pratiques de connexion transmises par les peuples premiers, la Wolf-Kid au Canada.**
 
-Une soirée pour se rencontrer, se questionner, découvrir des projets existants en Wallonie et des outils en lien avec la nature à destination des enfants et des familles, applicables par tous.tes.
+Une soirée pour se rencontrer, se questionner, découvrir des projets existants en Wallonie et des outils en lien avec la nature à destination des enfants et des familles, applicables par tous·tes.
 
 <iframe src="https://www.youtube.com/embed/Voptaq1CKU8?rel=0&amp;start=51" title="www.youtube.com" loading="lazy" allowfullscreen class="embed embed-video"></iframe>
 

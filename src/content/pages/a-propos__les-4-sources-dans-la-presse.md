@@ -2,8 +2,8 @@
 title: "Les 4 Sources dans les médias"
 description: "Grandeur Nature, Info-lux, l’UNamur : il arrive que des journalistes racontent nos expériences dans les journaux, à la radio et à la télévision."
 legacyPath: "/a-propos/les-4-sources-dans-la-presse"
-cover: "../../assets/migration/a-propos__les-4-sources-dans-la-presse/01-gradients_11.jpg"
-coverAlt: "Les 4 Sources dans les médias"
+cover: "../../assets/migration/a-propos/07-presse.jpg"
+coverAlt: "Un groupe de personnes discute au bord d’un cours d’eau ; au premier plan, un homme porte un casque audio"
 embeds:
   - kind: "bookmark"
     src: "https://www.info-lux.com/yvoir-les-4-sources/pays/belgique/wallonie/province-de-namur/yvoir/?fbclid=IwZXh0bgNhZW0CMTEAAR0JcDjZL8kNuTvgnRs3nfwTOYFa-ANzbXUAVYdhW0eZgVLzCXLlWyxZzDs_aem_AbVmZo0acSQG6iK9xhYABpAVDakdtPVPK0LT9VJHZeGgxpLF_Oq7xmhIvhlR6DZa1GSP8QlwnpPDGFmmJ2RhiD7R"

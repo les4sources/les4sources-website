@@ -3,6 +3,7 @@ title: "La Chevêche"
 description: "Un logement de caractère unique pour 8 personnes, au cœur d'un écolieu où vivent 6 familles, dans une clairière entourée de forêts."
 legacyPath: "/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes"
 cover: "../../assets/migration/sejours__hebergements-yvoir__la-cheveche-gite-8-personnes/01-photo-1699488169278-68f988a8b876.jpg"
+coverPosition: "50% 25%"
 coverAlt: "La Chevêche"
 capacity: 8
 gallery:

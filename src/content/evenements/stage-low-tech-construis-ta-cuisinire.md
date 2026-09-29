@@ -66,7 +66,7 @@ Elle permet de réchauffer simultanément : sur le dessus, une petite casserole,
 
 **Café, tisane, fruits et biscuits !**
 
-![1000022095](../../assets/migration/shared/133ec18a58ce-1000022095.jpg)
+![Huit personnes posent derrière une rangée de réchauds en métal](../../assets/migration/shared/133ec18a58ce-1000022095.jpg)
 
 *Nos heureux participants du stage d’avril !*
 
@@ -105,7 +105,7 @@ En dehors de l’auberge espagnole et de la Pizza Party privée, les repas sont 
 
 ## Facilitateur·rice
 
-2 artisan-es passionné-es par la ferronnerie et les low-techs, qui ont la transmission dans le sang !
+2 artisan·es passionné·es par la ferronnerie et les low-techs, qui ont la transmission dans le sang !
 
 *Sébastien et Magali, tous deux membres des 4 Sources*
 

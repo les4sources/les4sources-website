@@ -27,7 +27,7 @@ maxParticipants: 20
 
 ![Visite de la micro-ferme](../../assets/migration/catalogue__visite-de-la-micro-ferme/03-7e407ea3-fc2b-4d00-8852-82b91023227b.jpg)
 
-![559050390 1115283734114395 9043628362625578479 n](../../assets/migration/catalogue__visite-de-la-micro-ferme/04-559050390_1115283734114395_9043628362625578479_n.jpg)
+![Une femme caresse un âne dans une prairie](../../assets/migration/catalogue__visite-de-la-micro-ferme/04-559050390_1115283734114395_9043628362625578479_n.jpg)
 
 <!-- column width="50%" -->
 
@@ -52,7 +52,7 @@ Une promenade à travers les prairies des 4 Sources, c'est la garantie de rentre
 
 - Durée : 2h
 - Nombre de participant·es : 1 à 20 personnes
-- A prévoir : bottes ou bottines fermées | vêtements d’extérieur pouvant être salis
+- À prévoir : bottes ou bottines fermées | vêtements d’extérieur pouvant être salis
 - Conditions spéciales : PAS de chiens, même tenus en laisse. Petits enfants accompagnés d’un adulte chacun
 - Prix : 120€
 

@@ -17,7 +17,7 @@ icon: "👪"
 ### La Hulotte
 
 - Accueille jusqu’à **15 personnes**
-- Aux 1er et 2ème étages
+- Aux 1er et 2e étages
 - 4 chambres, chacune avec salle de douche
 - Une mezzanine avec 2 lits d’appoint
 - Cuisine et séjour
@@ -31,7 +31,7 @@ icon: "👪"
 🪄 *La Chevêche + La Hulotte = Le Grand-Duc*
 
 - Accueille jusqu’à **25 personnes**
-- Rez-de-chaussée, 1er et 2ème étage
+- Rez-de-chaussée, 1er et 2e étage
 - 7 chambres avec salle de douche
 - Mezzanine avec 2 lits d’appoint
 <!-- /columns -->

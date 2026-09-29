@@ -5,6 +5,7 @@ legacyPath: "/sejours/hebergements-yvoir/photos-des-hbergements/couleuvre-helvti
 properties:
   Page: "Biodiversité"
 generatedDescription: true
+pole: "nature"
 ---
 
 ![Couleuvre helvétique](../../../assets/migration/shared/7320336afb1d-couleuvre_helvetique.jpg)

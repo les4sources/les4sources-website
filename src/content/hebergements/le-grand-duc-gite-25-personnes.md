@@ -3,6 +3,7 @@ title: "Le Grand-Duc"
 description: "Un logement pour groupe de caractère unique, jusqu’à 25 personnes, au cœur d'un écolieu où vivent 6 familles : 7 chambres avec salle de douche, sur 3 étages."
 legacyPath: "/sejours/hebergements-yvoir/le-grand-duc-gite-25-personnes"
 cover: "../../assets/migration/sejours__hebergements-yvoir__le-grand-duc-gite-25-personnes/01-photo-1543549789-add7e987e50a.jpg"
+coverPosition: "50% 18%"
 coverAlt: "Le Grand-Duc"
 capacity: 25
 gallery:
@@ -42,11 +43,11 @@ Ce logement pour 25 personnes se situe sur 3 étages et comprend :
 - **2 chambres** : la Sarriette (2 lits simples pouvant être réunis en un lit double + 1 lit superposé) et l’Origan (2 lits simples pouvant être réunis en un lit double + 1 lit simple)
 - **Séjour** de 25 m² composé d'un divan-lit et de tables pour 10-12 personnes
 - Petite **cuisine** équipée avec taques, four, frigo (pas de lave-vaisselle)
-- **Mezzanine** du Laurier, ouverte sur le living du 2ème étage : 2 lits simples (pouvant aussi être utilisés comme espace « salon »), sans sanitaire indépendant
+- **Mezzanine** du Laurier, ouverte sur le living du 2e étage : 2 lits simples (pouvant aussi être utilisés comme espace « salon »), sans sanitaire indépendant
 
 ![Le plan des hébergements](../../assets/migration/shared/ca43e8bd25f2-composition-hebergements-juillet-2024.jpg)
 
-→ [Chambre « Mélisse »](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/chambre-mlisse) · [La cuisine (2ème étage)](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-cuisine) · [Le séjour (2ème étage)](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/le-sjour)
+→ [Chambre « Mélisse »](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/chambre-mlisse) · [La cuisine (2e étage)](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-cuisine) · [Le séjour (2e étage)](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/le-sjour)
 
 ## Bon à savoir 🧭
 

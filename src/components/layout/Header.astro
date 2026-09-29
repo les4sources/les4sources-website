@@ -35,7 +35,7 @@ const activePath = drawerNav
   .sort((a, b) => b.path.length - a.path.length)[0]?.path;
 ---
 
-<header class="l4s-site-header sticky top-0 z-50 border-b-[1.5px] border-line-soft bg-[rgba(255,255,255,0.96)]">
+<header class="l4s-site-header sticky top-0 z-50 border-b-[1.5px] border-line-soft bg-white">
   <div class="mx-auto flex h-[72px] max-w-[calc(var(--container-site)+3rem)] items-center gap-4 px-6 min-[900px]:gap-8">
     <Logo href="/" size="md" variant="teal" class="shrink-0" />
 
@@ -72,7 +72,7 @@ const activePath = drawerNav
         id="l4s-nav-toggle"
         aria-expanded="false"
         aria-controls="l4s-nav-drawer"
-        class="inline-flex h-[var(--control-h-sm)] items-center gap-2 rounded-pill border-[1.5px] border-line px-3.5 font-ui text-[13px] font-bold text-teal transition-colors duration-[120ms] hover:bg-surface min-[900px]:hidden"
+        class="inline-flex h-[var(--control-h-md)] items-center gap-2 rounded-pill border-[1.5px] border-line px-4 font-ui text-[13px] font-bold text-teal transition-colors duration-[120ms] hover:bg-surface min-[900px]:hidden"
       >
         <span data-l4s-toggle-label>Menu</span>
         <span data-l4s-icon="open" class="inline-flex">
@@ -120,6 +120,7 @@ const activePath = drawerNav
 <script>
   const toggle = document.getElementById("l4s-nav-toggle");
   const drawer = document.getElementById("l4s-nav-drawer");
+  const header = document.querySelector(".l4s-site-header");
 
   if (toggle && drawer) {
     const label = toggle.querySelector<HTMLElement>("[data-l4s-toggle-label]");
@@ -135,6 +136,11 @@ const activePath = drawerNav
       if (iconClose) iconClose.hidden = !open;
       // Verrou de défilement pendant que le tiroir couvre la page.
       document.body.style.overflow = open ? "hidden" : "";
+      // Tout ce qui est hors de l'en-tête devient inerte : au clavier, le focus
+      // reste dans le tiroir au lieu de filer vers la page cachée dessous.
+      for (const el of Array.from(document.body.children)) {
+        if (el !== header && !(el instanceof HTMLScriptElement)) el.toggleAttribute("inert", open);
+      }
     };
 
     toggle.addEventListener("click", () => setOpen(drawer.hidden));

@@ -1,6 +1,6 @@
 ---
 title: "Séjours et locations"
-description: "Gites de 4 à 25 personnes, chambres et bivouac tentes/hamacs. Salles polyvalentes pour conférences, ateliers ou conseils d’administration."
+description: "Gîtes de 4 à 25 personnes, chambres et bivouac tentes/hamacs. Salles polyvalentes pour conférences, ateliers ou conseils d’administration."
 seoTitle: "Séjours et locations à Yvoir"
 legacyPath: "/sejours"
 cover: "../../assets/migration/sejours/01-20240825_122817_01629579_-1.jpg"
@@ -13,9 +13,9 @@ icon: "🏡"
 
 ## [Nos hébergements](/sejours/hebergements-yvoir)
 
-![5b02a02e c20f 46c8 9763 bbe82859cff4](../../assets/migration/sejours/02-5b02a02e-c20f-46c8-9763-bbe82859cff4.jpg)
+![Une chambre avec trois lits simples et une salle d’eau attenante](../../assets/migration/sejours/02-5b02a02e-c20f-46c8-9763-bbe82859cff4.jpg)
 
-**2 hébergements** pour venir en famille, entre collègues ou entre ami.es jusqu’à 25 personnes. En semaine, des **chambres et lits** accessibles dès 35€ par personne (et même 15€ par enfant).
+**2 hébergements** pour venir en famille, entre collègues ou entre ami·es jusqu’à 25 personnes. En semaine, des **chambres et lits** accessibles dès 35€ par personne (et même 15€ par enfant).
 
 🏕️ À la belle saison, un **espace pour camper** seul·e ou en groupe de 20 personnes et des espaces pour poser un hamac.
 
@@ -23,7 +23,7 @@ icon: "🏡"
 
 ## [Nos salles et la cuisine](/sejours/salles)
 
-![DSC00960](../../assets/migration/sejours/03-DSC00960.jpg)
+![Un public nombreux assis dans une grande salle sous charpente](../../assets/migration/sejours/03-DSC00960.jpg)
 
 **Des espaces polyvalents pour 10 à 100 personnes**, pour vos conférences, ateliers et autres événements enrichissants.
 
@@ -36,20 +36,20 @@ Notamment **notre petite salle**, idéale pour une journée de mise au vert, une
 
 <a class="button" href="/sejours/sejours">Faire une demande de séjour</a>
 
-![51167fb3 8ae5 440a bdef 030372dd22e7](../../assets/migration/sejours/04-51167fb3-8ae5-440a-bdef-030372dd22e7.png)
+![Vue aérienne des 4 Sources annotée : hébergements, salles, terrasse partagée, bar, parking, sentier de randonnée et jardin](../../assets/migration/sejours/04-51167fb3-8ae5-440a-bdef-030372dd22e7.png)
 
 ## Le Bar des 4 Sources
 
 <!-- columns -->
 <!-- column width="50%" -->
 
-![G0A3514 1](../../assets/migration/sejours/05-_G0A3514_-1.jpg)
+![Le bar extérieur des 4 Sources, avec tables et chaises en fer forgé](../../assets/migration/sejours/05-_G0A3514_-1.jpg)
 
 <!-- column width="50%" -->
 
 Notre magnifique terrasse plein sud et son tilleul centenaire, entourée de 360° de pleine nature, dispose d’un [bar champêtre](/le-bar-des-4-sources) ouvert du lever au coucher du soleil.
 
-La terrasse **est un espace partagé par toutes les personnes de passage sur le lieu** (personnes hébergées, locataires de salles, participant.es à des activités, promeneur.euses).
+La terrasse **est un espace partagé par toutes les personnes de passage sur le lieu** (personnes hébergées, locataires de salles, participant·es à des activités, promeneur·euses).
 
 Elle est accessible à pied, à cheval ou à vélo.
 
@@ -62,7 +62,7 @@ Avec ta location, tu peux demander l’accès à notre petit bois privé de 1,5 
 
 Envoie un e-mail à [sejours@les4sources.be](mailto:sejours@les4sources.be) ou demande le jour même à la personne qui vous accueille s’il est accessible ou s’il y a déjà une activité qui s’y passe durant ton séjour.
 
-![20250719 150904 3017005B 1](../../assets/migration/sejours/06-20250719_150904_3017005B_-1.jpg)
+![Un groupe dans une prairie en bordure de forêt ; l’un d’eux lance un disque](../../assets/migration/sejours/06-20250719_150904_3017005B_-1.jpg)
 
 ## Les balades des 4 Sources
 
@@ -73,9 +73,9 @@ Envoie un e-mail à [sejours@les4sources.be](mailto:sejours@les4sources.be) ou d
 
 <!-- column width="50%" -->
 
-Tu trouveras dans chaque gite **un carnet de randonnées** pour explorer la région, que tu sois plus *« petite balade digestive »* entre deux activités ou *« challenge grande rando »*.
+Tu trouveras dans chaque gîte **un carnet de randonnées** pour explorer la région, que tu sois plus *« petite balade digestive »* entre deux activités ou *« challenge grande rando »*.
 
-Adeptes de la marche, il est aussi possible de [rejoindre Les 4 sources à pied](/a-propos/acces-ahinvaux) depuis la gare d’Yvoir ou de Godinne.
+Adeptes de la marche, il est aussi possible de [rejoindre Les 4 Sources à pied](/a-propos/acces-ahinvaux) depuis la gare d’Yvoir ou de Godinne.
 <!-- /columns -->
 
 ## Nos autres services

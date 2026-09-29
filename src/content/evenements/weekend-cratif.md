@@ -24,9 +24,9 @@ registrationLabel: "Je prends ma place !"
 
 ## Une belle journée - le samedi 3 octobre - pour…
 
-…un atelier d’écriture sur la thématique **: l’eau, les arbres et moi.** Guidé**·**es par des consignes ludiques, sans stress orthographique ni prétention littéraire.
+…un atelier d’écriture sur la thématique **: l’eau, les arbres et moi.** Guidé·es par des consignes ludiques, sans stress orthographique ni prétention littéraire.
 
-Apprendre de nouvelles choses sur l'eau, les arbres et leur lien intime et fascinant, grâce à des lectures courtes de textes variés; vous laisser touché.es par vos observations; être stimulé.es par des consignes d'écriture simples qui vont déclencher votre créativité, ouvrir votre sensibilité et générer une réalisation personnelle qui n'attend que ce moment pour éclore...
+Apprendre de nouvelles choses sur l'eau, les arbres et leur lien intime et fascinant, grâce à des lectures courtes de textes variés; vous laisser touché·es par vos observations; être stimulé·es par des consignes d'écriture simples qui vont déclencher votre créativité, ouvrir votre sensibilité et générer une réalisation personnelle qui n'attend que ce moment pour éclore...
 
 Voilà quelques-uns des ingrédients de la journée d'exploration que je vous propose autour de l'eau et des arbres. L'atelier est inspiré entre autres par les écrits de Baptiste Morizot et les nouvelles découvertes concernant l'eau douce, bleue et … verte.
 
@@ -60,14 +60,14 @@ Allez, plongez ! Offrez-vous ce temps souple et liquide…
 
 ## En pratique
 
-- Au coeur de la clairière des 4 Sources: 📍 Fonds d’Ahinvaux, 1 à Yvoir, entre Namur et Dinant
+- Au cœur de la clairière des 4 Sources: 📍 Fonds d’Ahinvaux, 1 à Yvoir, entre Namur et Dinant
 - Le samedi 3 octobre de 9h30 à 21h
-- Maximum 8 participant-es par atelier : 75€ la place
+- Maximum 8 participant·es par atelier : 75€ la place
 - Clôture le samedi soir avec une Pizza Party (cuisson au feu de bois)
 - Apporter son pic-nic et les garnitures pour la pizza 🍕
 
 ![Atelier d’écriture](../../assets/migration/evenements__weekend-cratif/06-_mg_0384.jpg)
 
-### Ce weekend créatif est entièrement organisé par nos trois intervenant-es, Bénédicte, Olivier et Marianne
+### Ce weekend créatif est entièrement organisé par nos trois intervenant·es, Bénédicte, Olivier et Marianne
 
-![Pxl 20260211 115416194](../../assets/migration/evenements__weekend-cratif/07-pxl_20260211_115416194.jpg)
+![Trois personnes souriantes posent devant une vallée boisée](../../assets/migration/evenements__weekend-cratif/07-pxl_20260211_115416194.jpg)

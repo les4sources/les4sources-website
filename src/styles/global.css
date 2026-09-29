@@ -49,6 +49,8 @@
   h3 { font-size: var(--text-h3); line-height: 1.15; font-weight: 400; }
   h4 { font-size: var(--text-h4); line-height: 1.15; font-weight: 700; }
   p { margin: 0; text-wrap: pretty; }
+  /* Une ancre (#bar, #plan…) ou un scrollIntoView ne se cache pas sous l'en-tête collant (72 px). */
+  [id] { scroll-margin-top: 96px; }
   ::selection { background: var(--color-socioculturel); color: var(--color-teal); }
   :focus-visible { outline: none; box-shadow: var(--shadow-focus); border-radius: var(--radius-xs); }
   @media (prefers-reduced-motion: reduce) {
@@ -202,6 +204,13 @@
       background-color 200ms var(--ease-brand),
       color 200ms var(--ease-brand),
       transform 200ms var(--ease-brand);
+  }
+  /* Bureau : les sept pictos tiennent sur une ligne dans la colonne du logo. */
+  @media (min-width: 1000px) {
+    .l4s-pole {
+      width: 36px;
+      height: 36px;
+    }
   }
   .l4s-pole:hover {
     background-color: var(--pole);

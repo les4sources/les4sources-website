@@ -5,12 +5,13 @@ legacyPath: "/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-ba
 properties:
   Page: "Biodiversité"
 capacity: 8
+pole: "nature"
 ---
 
 <!-- columns -->
 <!-- column width="50%" -->
 
-![P6090523 rec](../../../assets/migration/shared/bad81044223a-p6090523_rec.jpg)
+![Une cynoglosse d’Allemagne en fleur](../../../assets/migration/shared/bad81044223a-p6090523_rec.jpg)
 
 <!-- column width="50%" -->
 
