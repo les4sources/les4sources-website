@@ -11,7 +11,6 @@ coverAlt: "Un séjour aux 4 Sources"
 
 ### [Tarifs](/sejours/tarifs)
 
-![Tarifs](../../assets/migration/sejours__sejours/02-tarifs.jpg)
 
 Hébergements de groupes, chambres, salles, bivouac et compagnie. Tous nos tarifs s’y retrouvent.
 
@@ -21,7 +20,6 @@ Hébergements de groupes, chambres, salles, bivouac et compagnie. Tous nos tarif
 
 ### [Disponibilités](/sejours/disponibilites)
 
-![Disponibilités](../../assets/migration/sejours__sejours/03-disponibilites.jpg)
 
 Actuellement, tu y trouveras les disponibilités des hébergements de groupe. Pour le reste, le mieux est de nous contacter.
 
@@ -33,7 +31,6 @@ Actuellement, tu y trouveras les disponibilités des hébergements de groupe. Po
 
 ### [Activités](/activites)
 
-![Activités](../../assets/migration/sejours__sejours/04-activites.jpg)
 
 Il y a tant à faire aux 4 Sources ! Y venir pour un séjour, c’est l’occasion d’expérimenter de nombreuses activités étonnantes.
 
@@ -43,7 +40,6 @@ Il y a tant à faire aux 4 Sources ! Y venir pour un séjour, c’est l’occasi
 
 ### [Règles du lieu](/sejours/regles-du-lieu)
 
-![Règles du lieu](../../assets/migration/sejours__sejours/05-regles.jpg)
 
 Les 4 Sources sont un lieu de vie traversé par un sentier public. Voici les règles à suivre, notamment en matière de bruit.
 
@@ -55,7 +51,6 @@ Les 4 Sources sont un lieu de vie traversé par un sentier public. Voici les rè
 
 ### [Conditions générales](/sejours/conditions)
 
-![Conditions générales](../../assets/migration/sejours__sejours/06-conditions.jpg)
 
 Nos conditions sont plutôt sympas, et il est toujours intéressant d’y passer pour une lecture en diagonale avant de réserver.
 

@@ -121,6 +121,17 @@ const { width = "prose", class: className } = Astro.props;
     text-decoration-thickness: 3px;
   }
 
+  /* Un intertitre-lien (hubs /a-propos, /sejours/sejours) se lit comme un titre :
+     pas de soulignement au repos, le surligné jaune de la charte au survol. */
+  .prose-4s :global(:is(h2, h3, h4) a) {
+    color: inherit;
+    text-decoration-color: transparent;
+  }
+  .prose-4s :global(:is(h2, h3, h4) a:hover) {
+    color: var(--color-teal);
+    text-decoration-color: var(--color-highlight);
+  }
+
   /* ── Listes ─────────────────────────────────────────────────────────── */
   .prose-4s :global(ul),
   .prose-4s :global(ol) {

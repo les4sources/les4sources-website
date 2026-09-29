@@ -32,9 +32,15 @@ export default function rehypeA11y() {
       }
     });
 
+    // Tout le document remonte d'un même cran quand son plus haut titre est
+    // plus bas que h2 : des `###` frères restent frères (tous h2), au lieu
+    // d'un premier titre promu seul et plus gros que ses voisins.
+    const top = Math.min(...headings.map((h) => Number(h.tagName![1])));
+    const shift = Number.isFinite(top) && top > 2 ? top - 2 : 0;
+
     let previous = 1;
     for (const heading of headings) {
-      const original = Number(heading.tagName![1]);
+      const original = Number(heading.tagName![1]) - shift;
       let level = Math.max(2, original);
       if (level > previous + 1) level = previous + 1;
       heading.tagName = `h${level}`;

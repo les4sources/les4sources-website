@@ -115,7 +115,7 @@ const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
             ))}
           </div>
         )}
-        <ul class="m-0 grid list-none grid-cols-2 gap-4 p-0 md:grid-cols-3 lg:grid-cols-4 lg:gap-5">
+        <ul class="l4s-tiles m-0 grid list-none grid-cols-1 gap-3 p-0 min-[480px]:grid-cols-2 min-[480px]:gap-4 md:grid-cols-3 lg:grid-cols-4 lg:gap-5">
           {f.tiles.map(({ label, path, item }) => (
             <li class="min-w-0">
               <Card
@@ -124,7 +124,7 @@ const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
                 image={item?.cover}
                 imageAlt={item?.title ?? label}
                 imageAspect="4/3"
-                imageSizes="(min-width: 1024px) 280px, (min-width: 768px) 30vw, 46vw"
+                imageSizes="(min-width: 1024px) 280px, (min-width: 768px) 30vw, (min-width: 480px) 46vw, 112px"
                 pole={item?.pole}
                 padding={0}
                 class="h-full"
@@ -163,3 +163,20 @@ const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
 
   <ReservationBand />
 </BaseLayout>
+
+<style>
+  /* Sous 480 px, deux colonnes serrent les titres sur cinq lignes et une seule
+     colonne de grandes cartes allonge la page sans fin : chaque tuile devient
+     une rangée, vignette carrée à gauche, titre à droite. */
+  @media (max-width: 479.98px) {
+    .l4s-tiles :global([data-l4s-card]) {
+      display: grid;
+      grid-template-columns: 112px minmax(0, 1fr);
+      align-items: center;
+    }
+    .l4s-tiles :global([data-l4s-card] > div:first-child) {
+      aspect-ratio: 1 / 1 !important;
+      height: 100%;
+    }
+  }
+</style>
