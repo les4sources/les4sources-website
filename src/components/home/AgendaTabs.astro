@@ -5,6 +5,11 @@
  * statiques : le composant du DS déclare ses panneaux par un nom de slot
  * calculé, ce que le compilateur Astro refuse.
  *
+ * L'onglet actif vit dans l'URL : `#a-venir` / `#passes` (les identifiants
+ * des panneaux). Un lien partagé vers `/agenda#passes` s'ouvre sur les
+ * événements passés ; changer d'onglet met l'adresse à jour sans faire
+ * défiler la page ni empiler l'historique.
+ *
  * Sans JavaScript, les onglets sont des ancres et les deux panneaux restent
  * affichés : la page entière est lisible.
  */
@@ -12,9 +17,14 @@ interface Props {
   upcomingLabel: string;
   pastLabel: string;
   id?: string;
+  /** Ancre du panneau « à venir » (et hash de l'URL quand il est actif). */
+  upcomingHash?: string;
+  /** Ancre du panneau « passés ». */
+  pastHash?: string;
 }
 
-const { upcomingLabel, pastLabel, id = "agenda" } = Astro.props;
+const { upcomingLabel, pastLabel, id = "agenda", upcomingHash = "a-venir", pastHash = "passes" } =
+  Astro.props;
 
 const TAB =
   "-mb-[1.5px] shrink-0 border-b-[3px] px-3.5 py-2.5 font-ui text-ui no-underline transition-colors duration-[120ms]";
@@ -27,8 +37,8 @@ const OFF = "border-transparent text-ink-2 hover:text-teal";
     <a
       role="tab"
       id={`${id}-tab-upcoming`}
-      href={`#${id}-panel-upcoming`}
-      aria-controls={`${id}-panel-upcoming`}
+      href={`#${upcomingHash}`}
+      aria-controls={upcomingHash}
       aria-selected="true"
       tabindex="0"
       class:list={[TAB, ON]}>{upcomingLabel}</a
@@ -36,8 +46,8 @@ const OFF = "border-transparent text-ink-2 hover:text-teal";
     <a
       role="tab"
       id={`${id}-tab-past`}
-      href={`#${id}-panel-past`}
-      aria-controls={`${id}-panel-past`}
+      href={`#${pastHash}`}
+      aria-controls={pastHash}
       aria-selected="false"
       tabindex="-1"
       class:list={[TAB, OFF]}>{pastLabel}</a
@@ -46,21 +56,21 @@ const OFF = "border-transparent text-ink-2 hover:text-teal";
 
   <div
     role="tabpanel"
-    id={`${id}-panel-upcoming`}
+    id={upcomingHash}
     aria-labelledby={`${id}-tab-upcoming`}
     tabindex="0"
     data-active
-    class="pt-6 focus-visible:outline-none"
+    class="l4s-tabpanel pt-6 focus-visible:outline-none"
   >
     <slot name="upcoming" />
   </div>
 
   <div
     role="tabpanel"
-    id={`${id}-panel-past`}
+    id={pastHash}
     aria-labelledby={`${id}-tab-past`}
     tabindex="0"
-    class="pt-6 focus-visible:outline-none"
+    class="l4s-tabpanel pt-6 focus-visible:outline-none"
   >
     <slot name="past" />
   </div>
@@ -69,6 +79,11 @@ const OFF = "border-transparent text-ink-2 hover:text-teal";
 <style>
   .l4s-tabs[data-ready] [role="tabpanel"]:not([data-active]) {
     display: none;
+  }
+  /* Arrivée sur /agenda#passes : la page s'arrête au panneau en gardant sous
+     l'en-tête collant (72 px) la rangée d'onglets qui le nomme. */
+  .l4s-tabpanel {
+    scroll-margin-top: 136px;
   }
 </style>
 
@@ -93,17 +108,42 @@ const OFF = "border-transparent text-ink-2 hover:text-teal";
       if (focus) tabs[index]?.focus();
     };
 
+    // L'onglet dont le panneau porte le hash de l'URL, sinon aucun.
+    const fromHash = (): number => {
+      const hash = decodeURIComponent(window.location.hash.slice(1));
+      return hash ? panels.findIndex((panel) => panel.id === hash) : -1;
+    };
+
+    // Changer d'onglet écrit son hash dans l'adresse, sans défilement ni
+    // entrée d'historique supplémentaire.
+    const remember = (index: number) => {
+      const panelId = panels[index]?.id;
+      if (!panelId) return;
+      history.replaceState(history.state, "", `#${panelId}`);
+    };
+
     tabs.forEach((tab, index) => {
       tab.addEventListener("click", (event) => {
         event.preventDefault();
         select(index, false);
+        remember(index);
       });
       tab.addEventListener("keydown", (event) => {
         const step = event.key === "ArrowRight" ? 1 : event.key === "ArrowLeft" ? -1 : 0;
         if (step === 0) return;
         event.preventDefault();
-        select((index + step + tabs.length) % tabs.length);
+        const next = (index + step + tabs.length) % tabs.length;
+        select(next);
+        remember(next);
       });
+    });
+
+    // Arrivée sur /agenda#passes, ou hash changé à la main : l'onglet suit.
+    const initial = fromHash();
+    if (initial >= 0) select(initial, false);
+    window.addEventListener("hashchange", () => {
+      const index = fromHash();
+      if (index >= 0) select(index, false);
     });
 
     root.setAttribute("data-ready", "");

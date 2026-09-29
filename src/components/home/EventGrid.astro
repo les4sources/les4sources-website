@@ -2,10 +2,16 @@
 /**
  * Grille d'EventCard — 3 colonnes (agenda, événements) ou 4 (accueil).
  * Chaque case porte ses thématiques : c'est ce que filtre la barre de Tags.
+ * Chaque case est un conteneur flex : la carte la remplit, toutes les cartes
+ * d'une rangée ont la même hauteur.
  *
  * `snap` : sous 640 px, une rangée défilante avec accroche (`.l4s-snap-row`,
  * global.css) plutôt qu'une pile de cartes pleine largeur — c'est le choix de
  * l'accueil, pas des listes longues de l'agenda.
+ *
+ * En quatre colonnes (l'accueil), la grille ne montre que des rangées pleines
+ * — 4 ou 8 cartes, jamais une carte seule sur sa rangée : le bouton vers
+ * l'agenda mène au reste.
  */
 import EventCard from "@components/ds/EventCard.astro";
 import type { EventItem } from "./events";
@@ -26,6 +32,8 @@ interface Props {
   expire?: boolean;
   /** Nombre de premières cartes dont la photo se charge d'emblée (visibles à l'arrivée). */
   eager?: number;
+  /** Niveau des titres de carte : 3 sous un h2, 4 sous un intertitre h3 (année). */
+  headingLevel?: 3 | 4;
   class?: string;
 }
 
@@ -36,6 +44,7 @@ const {
   snap = false,
   expire = false,
   eager = 0,
+  headingLevel = 3,
   class: className,
 } = Astro.props;
 
@@ -43,6 +52,9 @@ const COLS: Record<3 | 4, string> = {
   3: "sm:grid-cols-2 lg:grid-cols-3",
   4: "sm:grid-cols-2 lg:grid-cols-4",
 };
+
+// Quatre colonnes : des rangées pleines seulement (4, 8…), à partir de 4 cartes.
+const shown = cols === 4 && items.length > 4 ? items.slice(0, Math.floor(items.length / 4) * 4) : items;
 ---
 
 <ul
@@ -55,9 +67,9 @@ const COLS: Record<3 | 4, string> = {
   ]}
 >
   {
-    items.map((e, i) => (
+    shown.map((e, i) => (
       <li
-        class="min-w-0"
+        class="flex min-w-0"
         data-event
         data-categories={e.categories.join("|")}
         data-until={expire ? e.until : undefined}
@@ -70,6 +82,7 @@ const COLS: Record<3 | 4, string> = {
           href={e.path}
           image={withImages ? e.cover : undefined}
           imageLoading={i < eager ? "eager" : "lazy"}
+          headingLevel={headingLevel}
         />
       </li>
     ))
