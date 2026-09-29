@@ -2,6 +2,8 @@
 title: "🖋️ Atelier d’écriture"
 description: "…un atelier d’écriture sur la thématique : l’eau, les arbres et moi. Guidé·es par des consignes ludiques, sans stress orthographique ni prétention littéraire."
 legacyPath: "/evenements/weekend-cratif"
+# Annulé faute d'inscriptions (fiche Super, constaté le 2026-09-29) : servie, hors listes et calendrier.
+archived: true
 start: "2026-10-03"
 cover: "../../assets/migration/shared/d5053d58cb5a-evenement_gnral__a_-4.jpg"
 coverAlt: "🖋️ Atelier d’écriture"

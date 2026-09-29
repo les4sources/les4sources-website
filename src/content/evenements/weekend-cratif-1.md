@@ -2,6 +2,8 @@
 title: "🌻 Plantes Papier Pigments"
 description: "…cueillir les plantes en pleine nature pour en extraire leurs empreintes et leur silhouette. Aller à la rencontre des pigments végétaux, observer comment ils…"
 legacyPath: "/evenements/weekend-cratif-1"
+# Annulé faute d'inscriptions (fiche Super, constaté le 2026-09-29) : servie, hors listes et calendrier.
+archived: true
 start: "2026-10-03"
 cover: "../../assets/migration/shared/c012588143c2-evenement_gnral__a_-2.jpg"
 coverAlt: "🌻 Plantes Papier Pigments"
