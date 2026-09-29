@@ -18,7 +18,11 @@ export const GET: APIRoute = async ({ site: astroSite }) => {
   since.setUTCMonth(since.getUTCMonth() - 3);
 
   const listed = events.filter(
-    (e) => e.path.startsWith("/evenements/") && e.start && new Date(e.end ?? e.start) >= since,
+    (e) =>
+      e.path.startsWith("/evenements/") &&
+      !e.archived &&
+      e.start &&
+      new Date(e.end ?? e.start) >= since,
   );
   const entries = await Promise.all(
     listed.map(async (event) => {

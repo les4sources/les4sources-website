@@ -265,6 +265,8 @@ export interface MergedEvent extends MergedBase {
   /** Libellé du bouton d'inscription (fiche migrée) ; à défaut la fiche en propose un. */
   registrationLabel?: string;
   categoryName?: string;
+  /** Fiche retirée du programme (annulée) : URL préservée, absente des listes et du calendrier. */
+  archived?: boolean;
 }
 
 export interface MergedExperience extends MergedBase {
@@ -355,6 +357,7 @@ function fromLegacyEvent(entry: LegacyEntry): MergedEvent {
     priceText: entry.data.priceText,
     registrationUrl: entry.data.registrationUrl,
     registrationLabel: entry.data.registrationLabel,
+    archived: entry.data.archived === true,
   };
 }
 

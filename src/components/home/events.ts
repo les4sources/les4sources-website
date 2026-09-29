@@ -74,7 +74,8 @@ async function buildEvents(): Promise<EventItem[]> {
   }
 
   const currentYear = currentYearBrussels();
-  return Promise.all(events.map(async (e) => {
+  // Une fiche retirée du programme reste servie à son URL, jamais listée.
+  return Promise.all(events.filter((e) => e.archived !== true).map(async (e) => {
     const soldOut = isSoldOut(e.title);
     const pole: PoleSlug = isPole(e.pole) ? e.pole : "convivialite";
     // L'image publiée dans Claudy l'emporte : c'est celle que l'éditrice a choisie.

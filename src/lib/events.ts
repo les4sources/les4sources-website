@@ -108,7 +108,7 @@ export function otherDates<T extends MergedEvent>(all: T[], current: T, now: Dat
   const key = seriesKey(current.title);
   if (!key) return [];
   return all
-    .filter((e) => e.path !== current.path && Boolean(e.start) && !isPastEvent(e, now))
+    .filter((e) => e.path !== current.path && Boolean(e.start) && !e.archived && !isPastEvent(e, now))
     .filter((e) => seriesKey(e.title) === key)
     .sort((a, b) => new Date(a.start!).getTime() - new Date(b.start!).getTime());
 }

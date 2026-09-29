@@ -11,7 +11,7 @@
 import Badge from "@components/ds/Badge.astro";
 import Button from "@components/ds/Button.astro";
 
-export type EventState = "upcoming" | "soldout" | "past";
+export type EventState = "upcoming" | "soldout" | "past" | "withdrawn";
 
 export interface OtherDate {
   href: string;
@@ -66,6 +66,8 @@ const {
       <p class="mb-3">
         {state === "soldout" ? (
           <Badge tone="danger">Complet !</Badge>
+        ) : state === "withdrawn" ? (
+          <Badge tone="neutral">Annulé</Badge>
         ) : (
           <Badge tone="neutral">Événement passé</Badge>
         )}
@@ -120,7 +122,7 @@ const {
       )
     }
     {
-      state !== "past" && until && (
+      (state === "upcoming" || state === "soldout") && until && (
         <div class="grid gap-2.5" data-from={until} hidden>
           <p class="font-ui text-ui text-ink-2">Cet événement a déjà eu lieu.</p>
           <Button href="/agenda" variant="secondary" fullWidth>
@@ -142,6 +144,16 @@ const {
       )
     }
     {
+      state === "withdrawn" && (
+        <>
+          <p class="font-ui text-ui text-ink-2">Cet événement n’est plus au programme.</p>
+          <Button href="/agenda" variant="secondary" fullWidth>
+            Voir les prochains rendez-vous
+          </Button>
+        </>
+      )
+    }
+    {
       state === "past" && (
         <>
           <p class="font-ui text-ui text-ink-2">Cet événement a déjà eu lieu.</p>
@@ -153,7 +165,7 @@ const {
     }
     <div class="flex flex-wrap gap-2">
       {
-        icsHref && state !== "past" && (
+        icsHref && (state === "upcoming" || state === "soldout") && (
           <Button href={icsHref} variant="ghost" size="sm" download>
             Ajouter à mon agenda
           </Button>

@@ -115,6 +115,8 @@ export interface EventInput {
   soldOut?: boolean;
   registrationUrl?: string;
   pole?: Pole;
+  /** Retiré du programme : `eventStatus: EventCancelled`. */
+  cancelled?: boolean;
 }
 
 /** Event — pour les fiches événement (agenda, événements). */
@@ -142,7 +144,7 @@ export function event(i: EventInput) {
     ...(i.startDate ? { startDate: i.startDate } : {}),
     ...(i.endDate ? { endDate: i.endDate } : {}),
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-    eventStatus: "https://schema.org/EventScheduled",
+    eventStatus: i.cancelled ? "https://schema.org/EventCancelled" : "https://schema.org/EventScheduled",
     location: {
       "@type": "Place",
       name: i.location ?? site.name,

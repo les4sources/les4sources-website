@@ -79,7 +79,9 @@ const props: Record<string, string> = legacy?.data.properties ?? {};
 // « COMPLET ! » est écrit dans le titre par l'éditrice — c'est la seule source.
 const soldOut = /complet/i.test(event.title);
 const past = isPastEvent(event);
-const state = past ? "past" : soldOut ? "soldout" : "upcoming";
+// Retirée du programme (annulée) : ni inscription, ni « autres dates », ni indexation.
+const withdrawn = event.archived === true && !past;
+const state = past ? "past" : withdrawn ? "withdrawn" : soldOut ? "soldout" : "upcoming";
 // Le titre affiché : sans « COMPLET ! » (le badge le dit), emoji de tête espacé.
 const title = cardTitle(event.title, soldOut);
 
@@ -171,6 +173,7 @@ const jsonld = [
     soldOut,
     registrationUrl: event.registrationUrl,
     pole: event.pole,
+    cancelled: withdrawn,
   }),
   breadcrumbs([
     { name: "Accueil", url: `${siteUrl}/` },
@@ -186,6 +189,7 @@ const jsonld = [
   description={description}
   ogImage={cover ?? remoteOg}
   type="article"
+  noindex={withdrawn}
   jsonld={jsonld}
 >
   <div class="px-6 pt-[clamp(18px,3vw,32px)]">
@@ -202,6 +206,14 @@ const jsonld = [
           past={past}
         />
       </div>
+      {
+        withdrawn && (
+          <p class="mt-5 rounded-md bg-paper px-5 py-3 font-ui text-ui text-ink-2">
+            Cet événement est annulé.{" "}
+            <a href="/agenda">Voir les prochains rendez-vous →</a>
+          </p>
+        )
+      }
       {
         past && (
           <p class="mt-5 rounded-md bg-paper px-5 py-3 font-ui text-ui text-ink-2">
