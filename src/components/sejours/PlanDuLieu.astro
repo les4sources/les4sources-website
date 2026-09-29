@@ -1,0 +1,319 @@
+---
+/**
+ * PlanDuLieu — la vue aérienne annotée de /sejours, rendue cliquable.
+ *
+ * Les étiquettes sont incrustées dans la photo : chaque zone cliquable se pose
+ * exactement sur l'une d'elles (coordonnées en % de l'image 1000 × 703), et la
+ * même liste s'affiche en pastilles sous la photo — sur mobile, les étiquettes
+ * sont trop petites pour le doigt, les pastilles sont la vraie commande.
+ *
+ * Sans JavaScript : zones et pastilles sont des liens vers la page de l'espace.
+ * Avec JavaScript : elles ouvrent le panneau de l'espace sous la photo. Les
+ * textes sont ceux déjà publiés sur le site, au mot près — rien d'inventé.
+ * « Jardin » n'a pas de zone : aucun texte publié ne le décrit.
+ */
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import Button from "@components/ds/Button.astro";
+
+import plan from "@assets/migration/sejours/04-51167fb3-8ae5-440a-bdef-030372dd22e7.png";
+import hebergementsPhoto from "@assets/migration/sejours/02-5b02a02e-c20f-46c8-9763-bbe82859cff4.jpg";
+import sallesPhoto from "@assets/migration/sejours/03-DSC00960.jpg";
+import terrassePhoto from "@assets/migration/sejours/05-_G0A3514_-1.jpg";
+import barPhoto from "@assets/migration/le-bar-des-4-sources/01-IMG_2199.jpg";
+import baladesPhoto from "@assets/migration/sejours/07-randonnees-yvoir.jpg";
+
+interface Spot {
+  id: string;
+  label: string;
+  /** Rectangle de l'étiquette dans la photo, en % : gauche, haut, largeur, hauteur. */
+  box: [number, number, number, number];
+  paragraphs: string[];
+  photo?: ImageMetadata;
+  photoAlt?: string;
+  href: string;
+  cta: string;
+}
+
+const spots: Spot[] = [
+  {
+    id: "hebergements",
+    label: "Hébergements",
+    box: [37.6, 19.2, 12.6, 4.6],
+    paragraphs: [
+      "<b>2 hébergements</b> pour venir en famille, entre collègues ou entre ami.es jusqu’à 25 personnes. En semaine, des <b>chambres et lits</b> accessibles dès 35€ par personne (et même 15€ par enfant).",
+      "🏕️ À la belle saison, un <b>espace pour camper</b> seul·e ou en groupe de 20 personnes et des espaces pour poser un hamac.",
+    ],
+    photo: hebergementsPhoto,
+    photoAlt: "Nos hébergements",
+    href: "/sejours/hebergements-yvoir",
+    cta: "Nos hébergements",
+  },
+  {
+    id: "salles",
+    label: "Salles",
+    box: [71.8, 32.8, 6.6, 4.4],
+    paragraphs: [
+      "<b>Des espaces polyvalents pour 10 à 100 personnes</b>, pour vos conférences, ateliers et autres événements enrichissants.",
+      "Notamment <b>notre petite salle</b>, idéale pour une journée de mise au vert, une formation, une réunion, un conseil d’administration ou un atelier en cercle.",
+    ],
+    photo: sallesPhoto,
+    photoAlt: "Nos salles et la cuisine",
+    href: "/sejours/salles",
+    cta: "Nos salles et la cuisine",
+  },
+  {
+    id: "terrasse",
+    label: "Terrasse partagée",
+    box: [32.4, 41.6, 11.8, 3.6],
+    paragraphs: [
+      "La terrasse <b>est un espace partagé par toutes les personnes de passage sur le lieu</b> (personnes hébergées, locataires de salles, participant.es à des activités, promeneur.euses).",
+      "Elle est accessible à pied, à cheval ou à vélo.",
+    ],
+    photo: terrassePhoto,
+    photoAlt: "La terrasse du bar des 4 Sources",
+    href: "/sejours/regles-du-lieu",
+    cta: "Règles du lieu",
+  },
+  {
+    id: "bar",
+    label: "Bar des 4 Sources",
+    box: [47.9, 49.8, 11.2, 3.6],
+    paragraphs: [
+      "Notre magnifique terrasse plein sud et son tilleul centenaire, entourée de 360° de pleine nature, dispose d’un <b>bar champêtre</b> ouvert du lever au coucher du soleil.",
+    ],
+    photo: barPhoto,
+    photoAlt: "Le bar des 4 Sources",
+    href: "/le-bar-des-4-sources",
+    cta: "Le bar des 4 Sources",
+  },
+  {
+    id: "sentier",
+    label: "Sentier de randonnée",
+    box: [54.6, 58.9, 13.2, 3.6],
+    paragraphs: [
+      "Tu trouveras dans chaque gite <b>un carnet de randonnées</b> pour explorer la région, que tu sois plus <i>« petite balade digestive »</i> entre deux activités ou <i>« challenge grande rando »</i>.",
+      "Télécharge notre carte de randonnées au départ des 4 Sources, avec des balades et randos adaptées aux familles et aux aventuriers.",
+    ],
+    photo: baladesPhoto,
+    photoAlt: "Les balades au départ des 4 Sources",
+    href: "/carte-de-balades-vallee-du-bocq",
+    cta: "Télécharger la carte",
+  },
+  {
+    id: "parking",
+    label: "Parking",
+    box: [13.4, 63.6, 6.2, 3.6],
+    paragraphs: [
+      "Depuis les villages d'accès que sont Yvoir et Crupet, suivez les panneaux indiquant <i>« Domaine d'Ahinvaux »</i> et engagez-vous dans la petite route en graviers qui serpente à travers les bois jusqu'aux pâtures et au parking du lieu.",
+    ],
+    href: "/a-propos/acces-ahinvaux",
+    cta: "Accéder aux 4 Sources",
+  },
+];
+
+const first = spots[0]!.id;
+---
+
+<section id="plan" class="l4s-plan" data-l4s-plan data-first={first} aria-label="Plan du lieu">
+  <div class="relative">
+    <Image
+      src={plan}
+      alt="Vue aérienne du site : hébergements, salles, terrasse partagée, bar des 4 Sources, sentier de randonnée, parking et jardin"
+      widths={[640, 960, 1440]}
+      sizes="(min-width: 1024px) 880px, 100vw"
+      class="block w-full rounded-photo"
+    />
+    {
+      spots.map((s) => (
+        <a
+          href={s.href}
+          class="l4s-plan-spot"
+          style={`left:${s.box[0]}%;top:${s.box[1]}%;width:${s.box[2]}%;height:${s.box[3]}%`}
+          data-spot={s.id}
+          aria-label={s.label}
+          tabindex="-1"
+        />
+      ))
+    }
+  </div>
+
+  <p class="mt-5 mb-3 font-ui text-overline font-bold tracking-[0.08em] text-ink-2 uppercase" data-plan-hint hidden>
+    Choisis un espace
+  </p>
+  <div class="flex flex-wrap gap-2" role="group" aria-label="Espaces du lieu">
+    {
+      spots.map((s) => (
+        <a href={s.href} class="l4s-plan-chip" data-spot={s.id} data-chip>
+          {s.label}
+        </a>
+      ))
+    }
+  </div>
+
+  {
+    spots.map((s) => (
+      <div
+        id={`plan-${s.id}`}
+        class:list={[
+          "l4s-plan-panel mt-5 grid grid-cols-1 overflow-hidden rounded-photo border-[1.5px] border-line-soft bg-white",
+          s.photo && "md:grid-cols-[2fr_3fr]",
+        ]}
+        data-panel={s.id}
+        hidden
+      >
+        {s.photo && (
+          <Image
+            src={s.photo}
+            alt={s.photoAlt ?? ""}
+            widths={[400, 640]}
+            sizes="(min-width: 768px) 350px, 100vw"
+            class="block aspect-[4/3] h-full w-full object-cover"
+          />
+        )}
+        <div class="p-6">
+          <h3 class="mb-3 font-display text-h3 font-bold">{s.label}</h3>
+          {s.paragraphs.map((p, i) => (
+            <p class:list={["font-body text-body", i > 0 && "mt-2.5"]} set:html={p} />
+          ))}
+          <div class="mt-5">
+            <Button variant="secondary" href={s.href}>
+              {s.cta}
+            </Button>
+          </div>
+        </div>
+      </div>
+    ))
+  }
+</section>
+
+<style>
+  /* Zone cliquable posée sur une étiquette de la photo : invisible au repos,
+     cerclée de blanc au survol, au focus et quand son panneau est ouvert. */
+  .l4s-plan-spot {
+    position: absolute;
+    border-radius: var(--radius-pill);
+    outline: 3px solid transparent;
+    outline-offset: 2px;
+    transition: outline-color 200ms var(--ease-brand);
+  }
+  /* Pastille « + » accrochée à l'étiquette : dit « ceci se touche » sans survol. */
+  .l4s-plan-spot::after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: -14px;
+    display: grid;
+    place-items: center;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    border-radius: var(--radius-pill);
+    background: var(--color-teal);
+    color: var(--color-white);
+    font: 700 14px/1 var(--font-ui);
+    box-shadow: var(--shadow-md);
+    transition: transform 200ms var(--ease-brand), background-color 200ms var(--ease-brand);
+  }
+  .l4s-plan-spot:hover,
+  .l4s-plan-spot:focus-visible,
+  .l4s-plan-spot[aria-current="true"] {
+    outline-color: var(--color-white);
+  }
+  .l4s-plan-spot[aria-current="true"]::after {
+    background: var(--color-highlight);
+    color: var(--color-teal);
+    transform: rotate(45deg);
+  }
+  /* Sous 640 px les étiquettes sont trop petites pour le doigt : les « + »
+     encombreraient la vignette, les pastilles sous la photo prennent le relais. */
+  @media (max-width: 639.98px) {
+    .l4s-plan-spot::after {
+      display: none;
+    }
+  }
+
+  .l4s-plan-chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+    padding: 6px 16px;
+    border: 1.5px solid var(--color-line);
+    border-radius: var(--radius-pill);
+    background: var(--color-white);
+    color: var(--color-ink);
+    font: 600 var(--text-ui) / 1.2 var(--font-ui);
+    text-decoration: none;
+    transition:
+      background-color 150ms var(--ease-brand),
+      border-color 150ms var(--ease-brand),
+      color 150ms var(--ease-brand);
+  }
+  .l4s-plan-chip:hover {
+    border-color: var(--color-teal);
+  }
+  .l4s-plan-chip[aria-current="true"] {
+    background: var(--color-teal);
+    border-color: var(--color-teal);
+    color: var(--color-white);
+  }
+  .l4s-plan-chip:focus-visible {
+    outline: none;
+    box-shadow: var(--shadow-focus);
+  }
+
+  .l4s-plan-panel:not([hidden]) {
+    animation: l4s-plan-in 200ms var(--ease-brand);
+  }
+  @keyframes l4s-plan-in {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .l4s-plan-panel:not([hidden]) {
+      animation: none;
+    }
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>("[data-l4s-plan]").forEach((root) => {
+    const triggers = Array.from(root.querySelectorAll<HTMLAnchorElement>("[data-spot]"));
+    const panels = Array.from(root.querySelectorAll<HTMLElement>("[data-panel]"));
+    const hint = root.querySelector<HTMLElement>("[data-plan-hint]");
+
+    const open = (id: string, reveal: boolean) => {
+      triggers.forEach((t) => t.setAttribute("aria-current", String(t.dataset.spot === id)));
+      panels.forEach((p) => (p.hidden = p.dataset.panel !== id));
+      const shown = panels.find((p) => !p.hidden);
+      if (reveal && shown) {
+        const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        shown.scrollIntoView({ block: "nearest", behavior: still ? "auto" : "smooth" });
+      }
+    };
+
+    triggers.forEach((t) => {
+      const id = t.dataset.spot ?? "";
+      // Avec JS, zones et pastilles deviennent des boutons qui ouvrent un panneau.
+      t.setAttribute("role", "button");
+      t.setAttribute("aria-controls", `plan-${id}`);
+      t.addEventListener("click", (event) => {
+        // Cmd/Ctrl/Maj-clic : le lien ouvre la page de l'espace, comme tout lien.
+        if (event.metaKey || event.ctrlKey || event.shiftKey || event.button !== 0) return;
+        event.preventDefault();
+        // Une zone de la photo peut laisser le panneau hors écran : on l'y amène.
+        open(id, !t.hasAttribute("data-chip"));
+      });
+      t.addEventListener("keydown", (event) => {
+        if (event.key !== " ") return;
+        event.preventDefault();
+        open(id, false);
+      });
+    });
+
+    if (hint) hint.hidden = false;
+    open(root.dataset.first ?? "", false);
+  });
+</script>

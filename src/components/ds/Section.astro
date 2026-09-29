@@ -7,10 +7,14 @@
  * Le titre h2 porte, par convention de la charte, un emoji en fin de ligne
  * (« Nos projets 🎴 ») : il est passé tel quel dans `title`.
  */
+import Highlight from "./Highlight.astro";
+
 type Surface = "transparent" | "paper" | "subtle" | "teal";
 
 interface Props {
   title?: string;
+  /** Mot-clé du titre à surligner en jaune (motif 3) ; il doit figurer tel quel dans `title`. */
+  highlight?: string;
   surface?: Surface;
   narrow?: boolean;
   /** Identifiant d'ancre (« #agenda »). */
@@ -25,7 +29,13 @@ const SURFACES: Record<Surface, string> = {
   teal: "bg-teal text-white",
 };
 
-const { title, surface = "transparent", narrow = false, id, class: className } = Astro.props;
+const { title, highlight, surface = "transparent", narrow = false, id, class: className } = Astro.props;
+// Le mot-clé absent du titre ne surligne rien : le titre reste entier.
+const at = title && highlight ? title.indexOf(highlight) : -1;
+const parts =
+  title && highlight && at >= 0
+    ? [title.slice(0, at), highlight, title.slice(at + highlight.length)]
+    : undefined;
 ---
 
 <section
@@ -45,7 +55,13 @@ const { title, surface = "transparent", narrow = false, id, class: className } =
             surface === "teal" ? "text-white" : "text-ink",
           ]}
         >
-          {title}
+          {parts ? (
+            // Sur une seule ligne : un retour entre les morceaux deviendrait une
+            // espace avant la virgule de « Hébergements, salles… ».
+            <>{parts[0]}<Highlight>{parts[1]}</Highlight>{parts[2]}</>
+          ) : (
+            title
+          )}
         </h2>
       )
     }

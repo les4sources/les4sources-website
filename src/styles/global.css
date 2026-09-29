@@ -93,6 +93,36 @@
     -webkit-box-decoration-break: clone;
   }
 
+  /* Le surligneur se trace de gauche à droite pendant que son texte entre à
+     l'écran. L'animation suit le défilement (pas de durée, pas de rebond) : elle
+     avance au rythme de la main. Un surlignage déjà en haut de l’écran au
+     chargement est plein d’emblée ; sans prise en charge ou en mouvement réduit, il est
+     simplement statique. */
+  @supports (animation-timeline: view()) {
+    @media (prefers-reduced-motion: no-preference) {
+      .l4s-highlight,
+      .l4s-marker {
+        background-repeat: no-repeat;
+        animation: l4s-marker-draw linear both;
+        animation-timeline: view();
+        animation-range: entry 40% cover 40%;
+      }
+      /* Sur une surface teal, le texte surligné est teal : la part pas encore
+         tracée disparaîtrait dans le fond. Là, le surligneur reste statique. */
+      :is(.bg-teal, .bg-teal-deep, .bg-teal-soft) :is(.l4s-highlight, .l4s-marker) {
+        animation: none;
+      }
+    }
+  }
+  @keyframes l4s-marker-draw {
+    from {
+      background-size: 0% 100%;
+    }
+    to {
+      background-size: 100% 100%;
+    }
+  }
+
   /* Carte cliquable dont un seul élément est interactif : le lien du titre
      s'étire sur toute la carte. Cf. src/components/ds/EventCard.astro. */
   .l4s-stretch-link::after {

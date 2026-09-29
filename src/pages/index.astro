@@ -114,7 +114,7 @@ const featured = await Promise.all(
     </div>
   </Section>
 
-  <Section title="Prochainement aux 4 Sources ⛅" surface="subtle">
+  <Section title="Prochainement aux 4 Sources ⛅" highlight="Prochainement" surface="subtle">
     {upcoming.length > 0 && <EventGrid items={upcoming} cols={4} snap expire />}
 
     <div class:list={[upcoming.length > 0 && "mt-7"]}>
@@ -122,7 +122,7 @@ const featured = await Promise.all(
     </div>
   </Section>
 
-  <Section title="Hébergements, salles polyvalentes et cuisine professionnelle 🏡">
+  <Section title="Hébergements, salles polyvalentes et cuisine professionnelle 🏡" highlight="Hébergements">
     <div class="grid grid-cols-1 items-center gap-10 md:grid-cols-[1.1fr_1fr] md:gap-12">
       <Image
         src={sejoursPhoto}
@@ -153,7 +153,7 @@ const featured = await Promise.all(
     </div>
   </Section>
 
-  <Section title="Nos projets 🎴">
+  <Section title="Nos projets 🎴" highlight="projets">
     <Lead class="mb-7">Aux 4 Sources émergent des projets plein de sens aux valeurs partagées.</Lead>
 
     <div class="l4s-snap-row sm:grid sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
@@ -230,7 +230,7 @@ const featured = await Promise.all(
     </div>
   </Section>
 
-  <Section title="Nos activités pour groupes 👥">
+  <Section title="Nos activités pour groupes 👥" highlight="activités">
     <div class="grid grid-cols-1 items-center gap-10 md:grid-cols-[1fr_1.4fr] md:gap-12">
       {
         pizzaParty?.cover && (
@@ -318,7 +318,7 @@ const featured = await Promise.all(
 
   {/* Sur blanc, calés à gauche comme le titre : la bande papier qui suit est
       celle de la newsletter, deux bandes papier d'affilée se confondaient. */}
-  <Section title="Nos soutiens 💚" class="border-t-[1.5px] border-line-soft">
+  <Section title="Nos soutiens 💚" highlight="soutiens" class="border-t-[1.5px] border-line-soft">
     <div class="flex flex-wrap items-center justify-start gap-x-14 gap-y-8 sm:gap-x-20">
       <Image
         src={soutienWallonie}

@@ -16,8 +16,8 @@ interface Props {
 const { thickness = 0.4, class: className } = Astro.props;
 // Même calcul que Display.jsx : top = (1 - thickness) * 100 - 5, bas figé à 92 %.
 const top = Math.round((1 - Math.min(Math.max(thickness, 0), 1)) * 100 - 5);
+// Le span tient sur une ligne : un retour autour du slot deviendrait une espace
+// surlignée, et une espace avant la ponctuation qui suit.
 ---
 
-<span class:list={["l4s-marker", className]} style={`--marker-top:${top}%`}>
-  <slot />
-</span>
+<span class:list={["l4s-marker", className]} style={`--marker-top:${top}%`}><slot /></span>
