@@ -268,7 +268,8 @@ const featured = await Promise.all(
       <p class="mb-3 font-body text-body">
         Nous te proposons <b>une série d’activités passionnantes</b> pour tes…
       </p>
-      <ul class="m-0 grid list-none gap-2 p-0 font-body text-body sm:grid-cols-2 lg:grid-cols-3">
+      {/* Retrait suspendu : la 2e ligne d'un élément s'aligne sur le texte, pas sous la coche. */}
+      <ul class="m-0 grid list-none gap-2 p-0 font-body text-body sm:grid-cols-2 lg:grid-cols-3 [&>li]:-indent-[1.55em] [&>li]:pl-[1.55em]">
         <li>✔️ <a href="/sejours/retraites-scolaires">Retraites scolaires</a></li>
         <li>✔️ <a href="/mariage-champetre">Mariages</a></li>
         <li>✔️ <a href="/sejours/mises-au-vert">Mises au vert</a> (associations et entreprises)</li>
@@ -289,7 +290,7 @@ const featured = await Promise.all(
     </div>
 
     <div class="mt-12">
-      <p class="mb-4 font-ui text-ui font-bold text-ink-2">Catalogue des activités</p>
+      <p class="l4s-overline mb-4">Catalogue des activités</p>
       <div class="l4s-snap-row sm:grid sm:grid-cols-3 sm:gap-5">
         {
           featured.map((a) => (

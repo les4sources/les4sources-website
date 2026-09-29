@@ -1,5 +1,6 @@
 ---
 import { displayDescription } from "@lib/text";
+import { isPastEvent } from "@lib/events";
 import type { GetStaticPaths } from "astro";
 import { getCollection, render, type CollectionEntry } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
@@ -97,6 +98,13 @@ const crumbs = [
 ];
 
 const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
+// Les trois pages /agenda/… héritées de Super sont des événements de 2024 :
+// leur date (propriété Notion) s'affiche en sur-titre, et « a eu lieu » dit
+// qu'on ne s'y inscrit plus, même si le texte migré parle encore d'inscription.
+const agendaDate = pathOf(entry).startsWith("/agenda/") ? d.properties["Date (fr)"] : undefined;
+const agendaPast = agendaDate ? isPastEvent({ start: d.properties.Date }) : false;
+const eyebrow = agendaDate ? (agendaPast ? `${agendaDate} · a eu lieu` : agendaDate) : undefined;
+
 const jsonld =
   crumbs.length > 2
     ? [breadcrumbs(crumbs.map((c) => ({ name: c.label, url: `${siteUrl}${c.href}` })))]
@@ -116,6 +124,7 @@ const jsonld =
     cover={d.cover}
     coverAlt={d.coverAlt}
     pole={d.pole}
+    eyebrow={eyebrow}
     crumbs={crumbs}
     narrow={!wide}
   />
