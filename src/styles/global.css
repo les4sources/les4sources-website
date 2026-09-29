@@ -38,6 +38,12 @@
     font-family: var(--font-display);
     text-wrap: balance;
   }
+  /* Titres de carte et intertitres : « pretty » évite un mot seul en dernière
+     ligne sans couper « Camembert / Party pour groupes » comme le fait « balance ». */
+  h3, h4 { text-wrap: pretty; }
+  li { text-wrap: pretty; }
+  /* Mot composé d'un titre, gardé d'un seul tenant (src/lib/typo.ts). */
+  .l4s-nobr { white-space: nowrap; }
   h1 { font-size: var(--text-h1); line-height: 1.15; font-weight: 700; letter-spacing: -0.01em; }
   h2 { font-size: var(--text-h2); line-height: 1.15; font-weight: 700; letter-spacing: -0.01em; }
   h3 { font-size: var(--text-h3); line-height: 1.15; font-weight: 400; }

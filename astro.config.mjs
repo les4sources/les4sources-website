@@ -6,6 +6,8 @@ import tailwindcss from "@tailwindcss/vite";
 import rehypeColumns from "./src/plugins/rehype-columns.ts";
 import rehypeA11y from "./src/plugins/rehype-a11y.ts";
 import rehypeYoutube from "./src/plugins/rehype-youtube.ts";
+import rehypeTidy from "./src/plugins/rehype-tidy.ts";
+import remarkDropCover from "./src/plugins/remark-drop-cover.ts";
 
 // Origine canonique de production. Surcharge possible avec la variable SITE.
 // Canonique = www (l'apex les4sources.be redirige en 301 vers www — cf deploy/nginx.conf).
@@ -33,7 +35,10 @@ export default defineConfig({
     // Le greffon tourne avant `rehype-raw` : il voit encore les commentaires
     // comme des nœuds bruts, exactement ce dont il a besoin.
     // Les vidéos YouTube deviennent une vignette locale, l'iframe n'arrive qu'au clic.
-    rehypePlugins: [rehypeColumns, rehypeA11y, rehypeYoutube],
+    // Titres vides et grilles tarifaires migrées remis d'aplomb (src/plugins/rehype-tidy.ts).
+    // La photo de couverture n'est pas répétée dans le corps (src/plugins/remark-drop-cover.ts).
+    remarkPlugins: [remarkDropCover],
+    rehypePlugins: [rehypeColumns, rehypeTidy, rehypeA11y, rehypeYoutube],
   },
 
   image: {

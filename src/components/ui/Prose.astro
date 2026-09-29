@@ -219,7 +219,8 @@ const { width = "prose", class: className } = Astro.props;
     text-align: left;
     vertical-align: top;
     color: var(--color-ink);
-    white-space: nowrap;
+    min-width: 9ch;
+    max-width: 34ch;
   }
   .prose-4s :global(th:last-child),
   .prose-4s :global(td:last-child) {
@@ -233,16 +234,27 @@ const { width = "prose", class: className } = Astro.props;
     font-weight: 700;
     color: var(--color-teal);
   }
-  .prose-4s :global(td:first-child) {
-    white-space: normal;
+  /* La colonne des intitulés reste visible quand la grille défile (mobile). */
+  .prose-4s :global(td:first-child),
+  .prose-4s :global(th:first-child) {
+    position: sticky;
+    left: 0;
+    z-index: 1;
     min-width: 12ch;
     max-width: 30ch;
+    background: var(--color-white);
+    box-shadow: inset -1px 0 0 var(--color-line-soft);
   }
-  /* Grilles tarifaires : les montants se lisent en colonne, chiffres alignés. */
-  .prose-4s :global(td:not(:first-child)),
-  .prose-4s :global(th:not(:first-child)) {
+  .prose-4s :global(th:first-child) {
+    background: var(--color-paper);
+  }
+  /* Grilles tarifaires : seules les colonnes de montants (marquées par
+     src/plugins/rehype-tidy.ts) s'alignent à droite, en chiffres tabulaires ;
+     un montant ne se coupe pas, le texte d'une condition, si. */
+  .prose-4s :global(.is-num) {
     text-align: right;
     font-variant-numeric: tabular-nums;
+    white-space: nowrap;
   }
   .prose-4s :global(th a) {
     color: inherit;
@@ -293,6 +305,12 @@ const { width = "prose", class: className } = Astro.props;
   .prose-4s :global(iframe.embed-form) {
     aspect-ratio: auto;
     min-height: 720px;
+  }
+  /* Tally ajuste lui-même sa hauteur (dynamicHeight) : un plancher bas évite
+     375 px de gris sous un formulaire court (/newsletter). */
+  .prose-4s :global(iframe.embed-tally) {
+    min-height: 280px;
+    background: transparent;
   }
   .prose-4s :global(iframe.embed-map) {
     aspect-ratio: 4 / 3;
