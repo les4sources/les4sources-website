@@ -22,7 +22,7 @@ registrationUrl: "https://www.billetweb.fr/initiation-a-la-soudure-a-larc"
 registrationLabel: "Je prends ma place !"
 ---
 
-**NOUVELLE SESSION DU 21 NOVEMBRE 2026 (9h-12h30)**
+**SESSION COMPLETE DU 21 NOVEMBRE 2026 (9h-12h30)**
 
 Prochaine date : 12 décembre (une seule place disponible)
 

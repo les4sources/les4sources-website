@@ -21,7 +21,7 @@ priceText: "80 €"
 seoTitle: "Initiation à la soudure à l’arc — samedi 12 décembre"
 ---
 
-**NOUVELLE ET DERNIERE SESSION 2026 : 12 DECEMBRE (9h-12h30)**
+**NOUVELLE ET DERNIERE SESSION COMPLETE : 12 DECEMBRE (9h-12h30)**
 
 ## Objectifs
 
