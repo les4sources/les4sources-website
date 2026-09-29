@@ -1,25 +1,35 @@
 ---
 /**
- * EventCard — Card + PoleTag + badge « Complet ! » + titre h4 + date
+ * EventCard — Card + PoleTag + badge « Complet ! » + titre + date
  * (portage d'`EventCard` dans Surfaces.jsx).
  *
- * L'image de la carte est la photo de couverture NUE (4/3, coins de photo en
- * tête, `object-cover`) — jamais l'aplat organique du pôle avec le titre dedans.
- * Ce motif appartient au héros de la fiche événement, où le titre a la place de
- * respirer ; dans une carte il le tronque (« za Party ! »). Sans photo, la carte
- * porte un bandeau court teinté à la couleur du pôle avec son pictogramme,
- * jamais un cadre blanc vide.
+ * L'image de la carte est la photo de couverture NUE (16/9, coins de photo en
+ * tête, `object-cover` centré) — jamais l'aplat organique du pôle avec le titre
+ * dedans. Ce motif appartient au héros de la fiche événement, où le titre a la
+ * place de respirer ; dans une carte il le tronque (« za Party ! »). Les
+ * couvertures Super et Claudy sont des 16/9 (1366 × 768, 1920 × 1080) dont
+ * le titre incrusté touche presque le bord gauche : au même rapport, elles
+ * s'affichent entières, sans « nitiation à la soudure » ; une photo d'un
+ * autre format est recadrée au centre. Sans photo, la
+ * carte porte un bandeau court teinté à la couleur du pôle avec son
+ * pictogramme, jamais un cadre blanc vide.
  *
  * La carte n'est pas elle-même un lien : c'est le titre qui l'est, étiré sur
  * toute la carte par `l4s-stretch-link`. Un seul élément interactif, une seule
  * cible de tabulation, et la zone cliquable reste celle de la carte entière.
+ * La photo est décorative (`alt=""`) : le lien porte déjà le titre, un lecteur
+ * d'écran ne l'entend pas deux fois.
+ *
+ * La carte remplit sa cellule (`h-full`) : dans une grille, toutes les cartes
+ * d'une rangée ont la même hauteur, quelle que soit la longueur du titre.
  */
 import type { ImageMetadata } from "astro";
+import { getImage } from "astro:assets";
 import Badge from "./Badge.astro";
 import Card from "./Card.astro";
 import PoleTag from "./PoleTag.astro";
 import type { PoleSlug } from "@lib/poles";
-import type { RemoteImage } from "@lib/remote-image";
+import { isRemoteImage, type RemoteImage } from "@lib/remote-image";
 
 interface Props {
   title: string;
@@ -30,20 +40,88 @@ interface Props {
   imageLoading?: "eager" | "lazy";
   soldOut?: boolean;
   href?: string;
+  /** Niveau du titre : 3 sous un h2 de section, 4 sous un intertitre h3 (année). */
+  headingLevel?: 3 | 4;
   class?: string;
 }
 
-const { title, date, pole = "convivialite", image, imageLoading, soldOut = false, href, class: className } =
-  Astro.props;
+const {
+  title,
+  date,
+  pole = "convivialite",
+  image,
+  imageLoading,
+  soldOut = false,
+  href,
+  headingLevel = 3,
+  class: className,
+} = Astro.props;
+
+const Heading = headingLevel === 4 ? "h4" : "h3";
+
+// La photo est rendue ici plutôt que par Card : un `alt=""` passé en
+// expression sortirait en attribut nu (`alt`), écrit en toutes lettres il
+// reste `alt=""`. Mêmes variantes que Card (400 à 1280 px, jamais au-delà
+// de l'original), même largeur d'affichage.
+const SIZES = "(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw";
+const loading = imageLoading ?? "lazy";
+const remote = isRemoteImage(image) ? image : undefined;
+const local: ImageMetadata | undefined =
+  image && typeof image !== "string" && !isRemoteImage(image) ? image : undefined;
+const localWidths = local ? [400, 640, 960, 1280].filter((w) => w < local.width) : [];
+const picture = local
+  ? await getImage({
+      src: local,
+      widths: localWidths.length > 0 ? localWidths : [local.width],
+      sizes: SIZES,
+    })
+  : undefined;
+const plain = typeof image === "string" ? image : undefined;
 ---
 
-<Card image={image} imageLoading={imageLoading} imageAlt={title} imageAspect="16/10" pole={pole} hoverable class={["[&_img]:object-left", className].filter(Boolean).join(" ")}>
+<Card
+  imageAspect="16/9"
+  pole={pole}
+  hoverable
+  class={["h-full w-full", className].filter(Boolean).join(" ")}
+>
+  {
+    remote ? (
+      <img
+        slot="image"
+        alt=""
+        src={remote.src}
+        srcset={remote.srcset}
+        sizes={SIZES}
+        width={remote.width}
+        height={remote.height}
+        loading={loading}
+        decoding="async"
+        class="h-full w-full object-cover"
+      />
+    ) : picture ? (
+      <img
+        slot="image"
+        alt=""
+        src={picture.src}
+        srcset={picture.srcSet.attribute}
+        sizes={SIZES}
+        width={picture.attributes.width}
+        height={picture.attributes.height}
+        loading={loading}
+        decoding="async"
+        class="h-full w-full object-cover"
+      />
+    ) : plain ? (
+      <img slot="image" alt="" src={plain} loading="lazy" decoding="async" class="h-full w-full object-cover" />
+    ) : null
+  }
   <div class="mb-2.5 flex flex-wrap items-center gap-2">
     <PoleTag pole={pole} />
     {soldOut && <Badge tone="danger">Complet !</Badge>}
   </div>
 
-  <h3 class="mb-1.5 font-display text-h4 font-bold">
+  <Heading class="mb-1.5 font-display text-h4 font-bold">
     {
       href ? (
         <a href={href} class="l4s-stretch-link text-inherit no-underline hover:text-teal-soft">
@@ -53,7 +131,7 @@ const { title, date, pole = "convivialite", image, imageLoading, soldOut = false
         title
       )
     }
-  </h3>
+  </Heading>
 
   <p class="font-ui text-ui text-ink-2">{date}</p>
 </Card>

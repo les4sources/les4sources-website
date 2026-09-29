@@ -10,6 +10,9 @@ import { byPath, pastEvents, upcomingEvents, visible, yearOf } from "@lib/conten
  * /evenements — mêmes composants que l'agenda : la grille des rendez-vous à
  * venir, puis la trace des événements passés, groupés par année (les plus
  * récentes d'abord) et sans photo pour rester légers.
+ *
+ * Hiérarchie : h1 → h2 « À venir » → cartes h3 ; h2 « Passés » → h3 année →
+ * cartes h4.
  */
 const pages = visible(await getCollection("pages"));
 const entry = byPath(pages, "/evenements");
@@ -55,7 +58,7 @@ const description =
         years.map((year) => (
           <section>
             <h3 class="mb-5 font-display text-h3 font-bold">{year}</h3>
-            <EventGrid items={byYear.get(year) ?? []} cols={3} withImages={false} />
+            <EventGrid items={byYear.get(year) ?? []} cols={3} withImages={false} headingLevel={4} />
           </section>
         ))
       }

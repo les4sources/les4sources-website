@@ -9,6 +9,7 @@ import { getCollection } from "astro:content";
 import type { ImageMetadata } from "astro";
 import { currentYearBrussels, expiresAt, formatDateRange } from "@lib/content";
 import { siteData } from "@lib/data";
+import { eventPole, isPastEvent } from "@lib/events";
 import { isPole, pole as resolvePole, type PoleSlug } from "@lib/poles";
 import { claudyImage, type RemoteImage } from "@lib/remote-image";
 import { cardTitle, displayDescription } from "@lib/text";
@@ -26,6 +27,7 @@ export interface EventItem {
   pole: PoleSlug;
   /** Thématiques de l'événement, découpées (« Ressourcement, Artisanat »). */
   categories: string[];
+  /** Complet — jamais pour un événement passé : sa carte ne dit pas « complet ». */
   soldOut: boolean;
   cover?: ImageMetadata | RemoteImage;
 }
@@ -76,12 +78,13 @@ async function buildEvents(): Promise<EventItem[]> {
   const currentYear = currentYearBrussels();
   // Une fiche retirée du programme reste servie à son URL, jamais listée.
   return Promise.all(events.filter((e) => e.archived !== true).map(async (e) => {
-    const soldOut = isSoldOut(e.title);
-    const pole: PoleSlug = isPole(e.pole) ? e.pole : "convivialite";
+    const titledSoldOut = isSoldOut(e.title);
+    // Le pôle de la fiche, sinon celui de sa thématique (Environnement → nature…).
+    const pole: PoleSlug = eventPole(e);
     // L'image publiée dans Claudy l'emporte : c'est celle que l'éditrice a choisie.
     const remote = e.source === "claudy" ? await claudyImage(e.image?.url, CARD_WIDTHS) : undefined;
     return {
-      title: cardTitle(e.title, soldOut),
+      title: cardTitle(e.title, titledSoldOut),
       path: e.path,
       dateLabel: formatDateRange(e.start, e.end, { currentYear }),
       start: e.start,
@@ -94,7 +97,7 @@ async function buildEvents(): Promise<EventItem[]> {
         e.source === "claudy" && isPole(e.pole)
           ? [resolvePole(e.pole).category]
           : splitCategories(e.categoryName),
-      soldOut,
+      soldOut: titledSoldOut && !isPastEvent(e),
       cover: remote ?? (e.legacyId ? covers.get(e.legacyId) : undefined),
     };
   }));

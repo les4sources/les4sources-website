@@ -8,6 +8,7 @@
  * fin de la fiche, ou par un horaire du type « 9h-12h30 » écrit par l'éditrice.
  */
 import type { MergedEvent } from "./claudy";
+import { hasClockTime, isAllDayEvent } from "./events";
 import { site } from "./site";
 import { stripEmoji, stripSoldOut } from "./text";
 
@@ -122,7 +123,6 @@ function vevent(e: MergedEvent, opts: IcsOptions): string[] | undefined {
   const hours = parseHoursRange(opts.horaires);
 
   const lines: string[] = [];
-  const startHasTime = start.h !== 0 || start.min !== 0;
 
   if (hours) {
     // L'horaire écrit par l'éditrice fait foi : « 9h-12h30 » le jour de la fiche.
@@ -130,9 +130,11 @@ function vevent(e: MergedEvent, opts: IcsOptions): string[] | undefined {
     const to: Civil = { ...(end ?? start), h: hours.to[0], min: hours.to[1] };
     lines.push(`DTSTART;TZID=Europe/Brussels:${dateTimeOf(from)}`);
     lines.push(`DTEND;TZID=Europe/Brussels:${dateTimeOf(to)}`);
-  } else if (e.allDay || !startHasTime) {
-    // Journée(s) entière(s) : DTEND exclusif, le lendemain du dernier jour.
-    const last = end ?? start;
+  } else if (isAllDayEvent(e)) {
+    // Journée(s) entière(s) — déclarée, ou datée sans heure (minuit UTC pile,
+    // jamais « 1h » à Bruxelles) : dates seules, DTEND exclusif, le lendemain
+    // du dernier jour.
+    const last = end && dateOf(end) > dateOf(start) ? end : start;
     const next = new Date(Date.UTC(last.y, last.m - 1, last.d + 1));
     lines.push(`DTSTART;VALUE=DATE:${dateOf(start)}`);
     lines.push(
@@ -140,7 +142,9 @@ function vevent(e: MergedEvent, opts: IcsOptions): string[] | undefined {
     );
   } else {
     lines.push(`DTSTART;TZID=Europe/Brussels:${dateTimeOf(start)}`);
-    if (end && (end.h !== 0 || end.min !== 0 || dateOf(end) !== dateOf(start))) {
+    // Une fin n'est écrite que si elle a une heure et vient après le début :
+    // sans fin connue, pas de DTEND (plutôt qu'un événement de durée nulle).
+    if (end && hasClockTime(e.end) && new Date(e.end!).getTime() > new Date(e.start).getTime()) {
       lines.push(`DTEND;TZID=Europe/Brussels:${dateTimeOf(end)}`);
     }
   }

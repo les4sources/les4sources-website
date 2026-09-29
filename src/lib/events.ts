@@ -7,6 +7,7 @@
  */
 import type { MergedEvent } from "./claudy";
 import { formatTime } from "./content";
+import { isPole, POLE_SLUGS, POLES, type PoleSlug } from "./poles";
 import { stripEmoji, stripSoldOut } from "./text";
 
 const fold = (s: string) => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -84,18 +85,153 @@ export function parsePriceEuros(text?: string): number | undefined {
 }
 
 /**
+ * L'instant porte-t-il une heure réellement saisie ? Une fiche migrée datée
+ * « 2026-03-27 » arrive ici sérialisée à minuit UTC pile
+ * (`2026-03-27T00:00:00.000Z`) — soit 1h ou 2h à Bruxelles. Ce minuit-là
+ * n'est pas une heure : c'est l'absence d'heure. Une date sans « T » non plus.
+ */
+export function hasClockTime(value?: string): boolean {
+  if (!value || !value.includes("T")) return false;
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return false;
+  return !(
+    d.getUTCHours() === 0 &&
+    d.getUTCMinutes() === 0 &&
+    d.getUTCSeconds() === 0 &&
+    d.getUTCMilliseconds() === 0
+  );
+}
+
+/** Journée entière : déclarée comme telle (Claudy), ou datée sans heure. */
+export function isAllDayEvent(e: { allDay?: boolean; start?: string }): boolean {
+  return e.allDay === true || !hasClockTime(e.start);
+}
+
+/**
+ * Date d'un événement pour le JSON-LD : la date civile seule (« 2026-03-27 »)
+ * quand aucune heure n'est connue — jamais un « 01:00 » fabriqué —, sinon
+ * l'instant tel quel.
+ */
+export function schemaDate(value?: string): string | undefined {
+  if (!value) return undefined;
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return undefined;
+  return hasClockTime(value) ? value : civilDay(d);
+}
+
+// Une heure écrite « 9h », « 9h30 », « 20:00 » ou « 20h00 ».
+const HOUR = String.raw`(\d{1,2})\s*(?:h|:)(\d{2})?`;
+const RANGE = new RegExp(`(?:\\bde\\s+)?${HOUR}\\s*(?:-|–|—|à|au)\\s*${HOUR}`, "gi");
+const OPEN_END = new RegExp(`^(?:dès\\s+|à partir de\\s+)?${HOUR}\\s*(?:-|–|—)\\s*(?:…|\\.\\.\\.)?$`, "i");
+const LONE = new RegExp(`\\b${HOUR}(?![\\d])`, "gi");
+
+const hourText = (h: string, m?: string): string => {
+  const hour = String(Number(h));
+  return m && m !== "00" ? `${hour}h${m}` : `${hour}h`;
+};
+
+/**
+ * Un horaire saisi à la main, remis dans la forme unique du site : les heures
+ * en « 20h » / « 20h30 », les plages en « de 9h à 12h30 », une fin ouverte en
+ * « à partir de 18h30 », deux journées séparées par une virgule.
+ * « 20:00-22:00 » → « de 20h à 22h » ; « 8h30 à 17h » → « de 8h30 à 17h » ;
+ * « samedi 10h-18h - dimanche 9h-18h » → « samedi de 10h à 18h, dimanche de 9h à 18h ».
+ * Seule la forme change : aucune heure n'est ajoutée ni retirée.
+ */
+export function normalizeHours(text: string): string {
+  const segments = text
+    .trim()
+    .split(/\s+[-–—]\s+(?=\p{L})/u)
+    .map((segment) => {
+      const s = segment.trim();
+      const open = s.match(OPEN_END);
+      if (open) return `à partir de ${hourText(open[1]!, open[2])}`;
+      return s
+        .replace(RANGE, (_m, h1: string, m1: string | undefined, h2: string, m2: string | undefined) =>
+          `de ${hourText(h1, m1)} à ${hourText(h2, m2)}`,
+        )
+        .replace(LONE, (_m, h: string, m: string | undefined) => hourText(h, m))
+        .replace(/\bde\s+de\s+/gi, "de ")
+        .replace(/\s{2,}/g, " ");
+    });
+  return segments.join(", ");
+}
+
+/**
  * Horaire lisible : la propriété « Horaires » de l'éditrice quand elle existe
- * (« à partir de 18h30 », « 9h-12h30 »), sinon l'heure de début, et de fin si
- * elle est connue ; rien pour une journée entière.
+ * (« à partir de 18h30 », « de 9h à 12h30 »), remise en forme, sinon l'heure
+ * de début, et de fin si elle est connue ; rien pour une journée entière ni
+ * pour une fiche datée sans heure.
  */
 export function timeLabel(e: MergedEvent, props: Record<string, string> = {}): string | undefined {
   const fromProps = props["Horaires"]?.trim();
-  if (fromProps) return fromProps;
-  if (e.allDay) return undefined;
+  if (fromProps) return normalizeHours(fromProps);
+  if (isAllDayEvent(e)) return undefined;
   const from = formatTime(e.start);
-  const to = formatTime(e.end);
+  const to = hasClockTime(e.end) ? formatTime(e.end) : undefined;
   if (from && to && to !== from) return `de ${from} à ${to}`;
   return from;
+}
+
+/**
+ * Le pôle d'un événement : celui de la fiche ou de Claudy ; à défaut, celui
+ * que désigne sa thématique (« Environnement », « Nature », « Sports » → nature,
+ * « Artisanat » → artisanat…) ; « convivialite » seulement quand rien n'est connu.
+ */
+const CATEGORY_POLE: Record<string, PoleSlug> = {
+  environnement: "nature",
+  nature: "nature",
+  sport: "nature",
+  sports: "nature",
+};
+for (const slug of POLE_SLUGS) {
+  CATEGORY_POLE[fold(POLES[slug].category)] = slug;
+  CATEGORY_POLE[fold(POLES[slug].label)] = slug;
+}
+
+export function eventPole(e: { pole?: string; categoryName?: string }): PoleSlug {
+  if (isPole(e.pole)) return e.pole;
+  for (const c of (e.categoryName ?? "").split(/\s*,\s*/)) {
+    const found = CATEGORY_POLE[fold(c.trim())];
+    if (found) return found;
+  }
+  return "convivialite";
+}
+
+const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+
+/**
+ * Les prévisions météo n'ont de sens que pour un événement à venir dans les
+ * sept jours : ni pour une fiche passée, ni trois mois à l'avance.
+ */
+export function showsWeather(e: { start?: string; end?: string }, now: Date = new Date()): boolean {
+  if (!e.start || isPastEvent(e, now)) return false;
+  const t = new Date(e.start).getTime();
+  if (Number.isNaN(t)) return false;
+  return t - now.getTime() <= WEEK_MS;
+}
+
+// Le widget météo des fiches migrées (wo-cloud), avec l'intertitre ou le
+// paragraphe « Prévisions météo » qui l'annonce.
+const WEATHER_IFRAME = /<iframe\b[^>]*\bsrc="[^"]*wo-cloud\.com[^"]*"[^>]*>\s*<\/iframe>/gi;
+const WEATHER_HEADING =
+  /<(h[2-6]|p)\b[^>]*>\s*(?:<(?:strong|b)>)?\s*Prévisions\s+météo\s*(?:<\/(?:strong|b)>)?\s*<\/\1>\s*/gi;
+
+/**
+ * Le corps HTML d'une fiche, widget météo compris ou non : retiré (avec son
+ * intertitre) hors de la semaine qui précède l'événement, sinon tenu à la
+ * largeur de la colonne de texte.
+ */
+export function filterWeather(html: string, show: boolean): string {
+  if (!show) {
+    return html
+      .replace(WEATHER_HEADING, "")
+      .replace(WEATHER_IFRAME, "")
+      .replace(/<p>\s*<\/p>/g, "");
+  }
+  return html.replace(WEATHER_IFRAME, (tag) =>
+    tag.replace(/<iframe\b/i, '<iframe style="max-width:68ch"'),
+  );
 }
 
 /** Libellé du bouton d'inscription : celui de l'éditrice, sinon le nôtre. */

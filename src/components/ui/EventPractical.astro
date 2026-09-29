@@ -16,6 +16,8 @@ export type EventState = "upcoming" | "soldout" | "past" | "withdrawn";
 export interface OtherDate {
   href: string;
   label: string;
+  /** Cette autre date est complète elle aussi. */
+  soldOut?: boolean;
 }
 
 interface Props {
@@ -55,6 +57,14 @@ const {
   until,
   class: className,
 } = Astro.props;
+
+// « Voir les autres dates » n'est proposé que s'il reste une date avec de la place.
+const openDates = otherDates.filter((d) => !d.soldOut);
+
+// Zone cliquable portée à 40 px de haut sans changer le dessin : un
+// pseudo-élément déborde du lien ou du bouton (36 px → 40, 20 px → 40).
+const HIT_SM = "relative before:absolute before:inset-x-0 before:-inset-y-0.5 before:content-['']";
+const HIT_LINK = "relative before:absolute before:inset-x-0 before:-inset-y-2.5 before:content-['']";
 ---
 
 <aside
@@ -86,7 +96,7 @@ const {
         {addressLines.map((line) => <span class="block text-ink-2">{line}</span>)}
         {
           accessHref && (
-            <a href={accessHref} class="mt-1.5 inline-block">
+            <a href={accessHref} class:list={["mt-1.5 inline-block", HIT_LINK]}>
               Comment venir →
             </a>
           )
@@ -115,7 +125,8 @@ const {
     {
       state === "upcoming" && registration && (
         <div class="grid" data-until={until}>
-          <Button href={registration.url} rel="noopener" size="lg" fullWidth>
+          {/* `data-register` : la barre collante mobile s'efface tant que ce bouton est à l'écran. */}
+          <Button href={registration.url} rel="noopener" size="lg" fullWidth data-register>
             {registration.label}
           </Button>
         </div>
@@ -135,7 +146,7 @@ const {
       state === "soldout" && (
         <>
           <p class="font-ui text-ui text-ink-2">Cette date est complète.</p>
-          {otherDates.length > 0 && (
+          {openDates.length > 0 && (
             <Button href="#autres-dates" variant="secondary" fullWidth>
               Voir les autres dates
             </Button>
@@ -166,13 +177,13 @@ const {
     <div class="flex flex-wrap gap-2">
       {
         icsHref && (state === "upcoming" || state === "soldout") && (
-          <Button href={icsHref} variant="ghost" size="sm" download>
+          <Button href={icsHref} variant="ghost" size="sm" download class={HIT_SM}>
             Ajouter à mon agenda
           </Button>
         )
       }
       {/* Révélé par le script de la fiche quand le navigateur sait partager ou copier. */}
-      <Button type="button" variant="ghost" size="sm" data-share hidden>
+      <Button type="button" variant="ghost" size="sm" data-share hidden class={HIT_SM}>
         Partager
       </Button>
     </div>

@@ -60,7 +60,8 @@ const hasImage = Boolean(image);
   <div class:list={["l4s-event-hero-panel", p.classes.bg, onPanel]}>
     <div class="flex flex-wrap items-center gap-2">
       {pole && (tag ? <PoleTag pole={p.slug}>{tag}</PoleTag> : <PoleTag pole={p.slug} />)}
-      {soldOut && <Badge tone="danger">Complet !</Badge>}
+      {/* Une fiche passée dit « Passé », jamais « Complet ! ». */}
+      {soldOut && !past && <Badge tone="danger">Complet !</Badge>}
       {past && <Badge tone="neutral">Passé</Badge>}
     </div>
     <h1
@@ -81,6 +82,17 @@ const hasImage = Boolean(image);
     aspect-ratio: 16 / 10;
     object-fit: cover;
   }
+  /* Sur mobile la photo est seule au-dessus de l'aplat. Les couvertures Super
+     et Claudy sont des 16/9 dont le titre incrusté, sur un aplat à gauche,
+     touche presque le bord : au même rapport elles passent entières, sans
+     « zza Party ! ». Une photo d'un autre format est recadrée à droite, sur
+     la partie photo, jamais sur l'aplat incrusté. */
+  @media (max-width: 767px) {
+    .l4s-event-hero-photo {
+      aspect-ratio: 16 / 9;
+      object-position: right center;
+    }
+  }
   .l4s-event-hero-panel {
     padding: 22px 24px 26px;
   }
@@ -94,7 +106,10 @@ const hasImage = Boolean(image);
       height: 100%;
       aspect-ratio: auto;
     }
-    /* L'aplat : moitié gauche, bord droit en courbe douce — la géométrie de BlobPanel. */
+    /* L'aplat : moitié gauche, bord droit en courbe douce — la géométrie de BlobPanel.
+       Le rembourrage droit (10 % du héros) laisse au titre une colonne
+       d'environ 455 px à 1180 px de large — trois ou quatre lignes, pas six —
+       tout en restant en deçà de la courbe, qui se resserre en haut et en bas. */
     .l4s-event-hero.has-photo .l4s-event-hero-panel {
       position: absolute;
       top: 0;
@@ -104,7 +119,7 @@ const hasImage = Boolean(image);
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 32px 20% 32px 40px;
+      padding: 32px 10% 32px 40px;
       clip-path: ellipse(100% 78% at 0% 50%);
       -webkit-clip-path: ellipse(100% 78% at 0% 50%);
     }

@@ -1,8 +1,13 @@
 ---
 /**
  * Tag — pilule de filtre sélectionnable (portage de `Tag` dans Display.jsx).
- * `href` produit un lien de filtre (le cas du site : les filtres de l'agenda
- * sont des URLs) ; sinon un `<button>` avec `aria-pressed`.
+ * `href` produit un lien de filtre ; sinon un `<button>` dont l'état vit dans
+ * `aria-pressed` : le dessin « sélectionné » (aplat teal, texte blanc) en
+ * découle, si bien qu'un script n'a qu'à basculer l'attribut. Le survol
+ * n'éclaircit qu'une pilule non sélectionnée — jamais du blanc sur gris clair.
+ *
+ * La pilule mesure 32 px comme dans la charte ; sa zone cliquable, elle,
+ * déborde de 4 px en haut et en bas (pseudo-élément) pour atteindre 40 px.
  */
 interface Props {
   selected?: boolean;
@@ -13,22 +18,31 @@ interface Props {
 
 const { selected = false, href, class: className, ...rest } = Astro.props;
 
-const classes = [
-  "inline-flex h-8 items-center gap-1.5 rounded-pill border-[1.5px] px-3 font-ui text-ui no-underline transition-colors duration-[120ms]",
-  selected
-    ? "border-teal bg-teal text-white"
-    : "border-line bg-white text-ink hover:bg-surface",
+const BASE =
+  "relative inline-flex h-8 items-center gap-1.5 rounded-pill border-[1.5px] px-3 font-ui text-ui no-underline transition-colors duration-[120ms] before:absolute before:inset-x-0 before:-inset-y-1 before:content-['']";
+
+// Lien : l'état est connu au build.
+const linkClasses = [
+  BASE,
+  selected ? "border-teal bg-teal text-white" : "border-line bg-white text-ink hover:bg-surface",
+  className,
+];
+
+// Bouton : l'état suit `aria-pressed`.
+const buttonClasses = [
+  BASE,
+  "cursor-pointer border-line bg-white text-ink hover:not-aria-pressed:bg-surface aria-pressed:border-teal aria-pressed:bg-teal aria-pressed:text-white",
   className,
 ];
 ---
 
 {
   href ? (
-    <a href={href} aria-current={selected ? "true" : undefined} class:list={classes} {...rest}>
+    <a href={href} aria-current={selected ? "true" : undefined} class:list={linkClasses} {...rest}>
       <slot />
     </a>
   ) : (
-    <button type="button" aria-pressed={selected} class:list={classes} {...rest}>
+    <button type="button" aria-pressed={selected ? "true" : "false"} class:list={buttonClasses} {...rest}>
       <slot />
     </button>
   )

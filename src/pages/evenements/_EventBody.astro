@@ -1,0 +1,21 @@
+---
+/**
+ * Corps d'une fiche événement, passé au filtre météo (`filterWeather`,
+ * src/lib/events.ts) : le widget de prévisions des fiches migrées n'est rendu
+ * que pour un événement à venir dans les sept jours, tenu à la largeur de la
+ * colonne de texte ; sinon il disparaît avec son intertitre. Le Markdown n'est
+ * pas touché — le tri se fait au rendu.
+ *
+ * Préfixé d'un `_` : Astro n'en fait pas une route.
+ */
+import { filterWeather } from "@lib/events";
+
+interface Props {
+  showWeather: boolean;
+}
+
+const { showWeather } = Astro.props;
+const html = Astro.slots.has("default") ? await Astro.slots.render("default") : "";
+---
+
+<Fragment set:html={filterWeather(html, showWeather)} />

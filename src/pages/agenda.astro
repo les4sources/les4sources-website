@@ -7,14 +7,18 @@ import Section from "@components/ds/Section.astro";
 import Tag from "@components/ds/Tag.astro";
 import AgendaTabs from "@components/home/AgendaTabs.astro";
 import EventGrid from "@components/home/EventGrid.astro";
-import { categoriesOf, eventItems } from "@components/home/events";
-import { byPath, pastEvents, upcomingEvents, visible } from "@lib/content";
+import { categoriesOf, eventItems, type EventItem } from "@components/home/events";
+import { byPath, pastEvents, upcomingEvents, visible, yearOf } from "@lib/content";
 
 /**
  * /agenda — d'après `design/ui_kits/Agenda.jsx` : titre, chapeau, onglets
  * « À venir / Passés », filtres par thématique, grille de trois colonnes.
  * Les onglets et les filtres sont progressifs : sans JavaScript, tout
  * s'affiche et rien n'est perdu.
+ *
+ * Hiérarchie des titres : h1 (la page) → h2 (« À venir », lu seulement par
+ * les lecteurs d'écran — l'onglet le dit à l'œil ; puis chaque année des
+ * événements passés) → h3 (les cartes).
  */
 const pages = visible(await getCollection("pages"));
 const entry = byPath(pages, "/agenda");
@@ -25,6 +29,17 @@ const events = await eventItems();
 const upcoming = upcomingEvents(events).filter((e) => Boolean(e.start));
 const past = pastEvents(events);
 const categories = categoriesOf(upcoming);
+
+// Les événements passés, par année, les plus récentes d'abord (comme /evenements).
+const pastByYear = new Map<number, EventItem[]>();
+for (const e of past) {
+  const y = yearOf(e.start);
+  if (y === undefined) continue;
+  const bucket = pastByYear.get(y) ?? [];
+  bucket.push(e);
+  pastByYear.set(y, bucket);
+}
+const pastYears = [...pastByYear.keys()].sort((a, b) => b - a);
 
 // L'agenda en abonnement (src/pages/agenda.ics.ts) : webcal:// ouvre l'app
 // calendrier du système ; Google Agenda prend l'URL en paramètre `cid`.
@@ -50,6 +65,7 @@ const description = entry?.data.description ?? "Viens nous rencontrer lors de no
   <Section class="pt-0">
     <AgendaTabs upcomingLabel="À venir" pastLabel="Passés">
       <Fragment slot="upcoming">
+        <h2 class="sr-only">Événements à venir</h2>
         <div data-filter-root>
           {
             categories.length > 1 && (
@@ -87,7 +103,18 @@ const description = entry?.data.description ?? "Viens nous rencontrer lors de no
       </Fragment>
 
       <Fragment slot="past">
-        <EventGrid items={past} cols={3} withImages={false} />
+        <div class="grid gap-12">
+          {
+            pastYears.map((year) => (
+              <section aria-labelledby={`passes-${year}`}>
+                <h2 id={`passes-${year}`} class="mb-5 font-display text-h3 font-bold">
+                  {year}
+                </h2>
+                <EventGrid items={pastByYear.get(year) ?? []} cols={3} withImages={false} />
+              </section>
+            ))
+          }
+        </div>
       </Fragment>
     </AgendaTabs>
   </Section>
@@ -100,17 +127,9 @@ const description = entry?.data.description ?? "Viens nous rencontrer lors de no
     const cards = Array.from(root.querySelectorAll<HTMLElement>("[data-event]"));
     if (tags.length === 0) return;
 
+    // Le dessin d'une pilule sélectionnée découle d'`aria-pressed` (ds/Tag.astro).
     const paint = (active: HTMLElement) => {
-      for (const tag of tags) {
-        const on = tag === active;
-        tag.setAttribute("aria-pressed", on ? "true" : "false");
-        tag.classList.toggle("border-teal", on);
-        tag.classList.toggle("bg-teal", on);
-        tag.classList.toggle("text-white", on);
-        tag.classList.toggle("border-line", !on);
-        tag.classList.toggle("bg-white", !on);
-        tag.classList.toggle("text-ink", !on);
-      }
+      for (const tag of tags) tag.setAttribute("aria-pressed", tag === active ? "true" : "false");
     };
 
     for (const tag of tags) {
