@@ -52,6 +52,61 @@ const allJsonld = [organization({ siteUrl }), ...jsonld];
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#224246" />
+    {
+      /* Transition « carte → hero » (voir .l4s-vt-hero dans global.css). Script
+         classique dans le <head> : `pagereveal` doit être écouté avant le premier rendu. */
+    }
+    <script is:inline>
+      (function () {
+        if (!("onpagereveal" in window)) return;
+        var clean = function (url) {
+          return new URL(url, location.href).pathname.replace(/\/+$/, "") || "/";
+        };
+        // La photo de la carte qui mène à `url`, si elle est à l'écran.
+        var cardPhoto = function (url) {
+          var path = clean(url);
+          var links = document.querySelectorAll("[data-l4s-card] a[href], a[data-l4s-card][href]");
+          for (var i = 0; i < links.length; i++) {
+            if (clean(links[i].href) !== path) continue;
+            var card = links[i].closest("[data-l4s-card]");
+            var img = card && card.querySelector("img");
+            if (!img) continue;
+            var r = img.getBoundingClientRect();
+            if (r.bottom > 0 && r.top < innerHeight) return img;
+          }
+          return null;
+        };
+        // La carte prend le nom ; le hero propre à la page (s'il y en a un) le cède
+        // le temps de la transition, sinon deux éléments porteraient le même nom.
+        var tag = function (img, vt) {
+          var own = Array.prototype.slice.call(document.querySelectorAll(".l4s-vt-hero"));
+          own.forEach(function (el) {
+            el.style.viewTransitionName = "none";
+          });
+          img.style.viewTransitionName = "l4s-hero";
+          vt.finished.finally(function () {
+            img.style.viewTransitionName = "";
+            own.forEach(function (el) {
+              el.style.viewTransitionName = "";
+            });
+          });
+        };
+        // Départ d'une liste : la photo de la carte cliquée prend le nom du hero.
+        window.addEventListener("pageswap", function (e) {
+          if (!e.viewTransition || !e.activation || !e.activation.entry) return;
+          var img = cardPhoto(e.activation.entry.url);
+          if (img) tag(img, e.viewTransition);
+        });
+        // Retour sur une liste : la carte de la fiche quittée reçoit le hero.
+        window.addEventListener("pagereveal", function (e) {
+          var nav = window.navigation;
+          var from = nav && nav.activation && nav.activation.from;
+          if (!e.viewTransition || !from) return;
+          var img = cardPhoto(from.url);
+          if (img) tag(img, e.viewTransition);
+        });
+      })();
+    </script>
     <SEO
       title={docTitle}
       ogTitle={ogTitle}

@@ -65,6 +65,7 @@ const { items, empty, aspect = "4/3", columns = 3, poleHeader = false, class: cl
       {items.map((item) => (
         <li
           data-card
+          data-l4s-card
           data-pole={item.pole ?? ""}
           class="relative flex flex-col overflow-hidden rounded-photo border-[1.5px] border-line-soft bg-white transition-[transform,box-shadow] duration-200 ease-[cubic-bezier(0.2,0.7,0.2,1)] hover:-translate-y-0.5 hover:shadow-md focus-within:shadow-md"
         >

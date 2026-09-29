@@ -353,3 +353,25 @@
 ::view-transition-group(site-header) {
   animation: none;
 }
+
+/* ── La photo de la carte devient le hero de la fiche ───────────────────
+   Le hero d'une fiche (événement, catalogue, projet, page migrée) porte le
+   nom `l4s-hero` en permanence ; côté liste, le script de BaseLayout ne le
+   pose que sur la photo de la carte cliquée (et, au retour, sur celle de la
+   fiche qu'on quitte) — jamais deux éléments du même nom. Les deux
+   instantanés gardent leur recadrage (object-fit) pendant qu'ils glissent. */
+.l4s-vt-hero {
+  view-transition-name: l4s-hero;
+}
+::view-transition-group(l4s-hero) {
+  animation-duration: 200ms;
+  animation-timing-function: var(--ease-brand);
+}
+::view-transition-old(l4s-hero),
+::view-transition-new(l4s-hero) {
+  height: 100%;
+  object-fit: cover;
+  overflow: clip;
+  animation-duration: 200ms;
+  animation-timing-function: var(--ease-brand);
+}

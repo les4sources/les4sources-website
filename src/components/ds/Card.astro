@@ -85,7 +85,7 @@ const hasImage = Boolean(image) || Astro.slots.has("image");
 const fallbackPole = !hasImage && pole ? resolvePole(pole) : undefined;
 ---
 
-<Tag class:list={classes} {...href ? { href } : {}} {...rest}>
+<Tag class:list={classes} data-l4s-card {...href ? { href } : {}} {...rest}>
   {
     hasImage ? (
       <div class="w-full overflow-hidden bg-surface" style={`aspect-ratio:${imageAspect}`}>
