@@ -17,7 +17,8 @@ import { byPath, visible, listable, pathOf } from "@lib/content";
  */
 const pages = visible(await getCollection("pages"));
 const entry = byPath(pages, "/collectif");
-const rendered = entry ? await render(entry) : undefined;
+// Un corps migré vide ne produit pas de section vide (un blanc de 100 px sous le titre).
+const rendered = entry?.body?.trim() ? await render(entry) : undefined;
 const Content = rendered?.Content;
 
 const members = listable(await getCollection("collectif")).sort((a, b) =>

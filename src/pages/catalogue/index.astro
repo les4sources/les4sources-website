@@ -16,7 +16,8 @@ import type { MergedExperience } from "@lib/claudy";
 // La page éditoriale /catalogue, si la migration en fournit une, coiffe le listing.
 const pages = visible(await getCollection("pages"));
 const entry = byPath(pages, "/catalogue");
-const rendered = entry ? await render(entry) : undefined;
+// Un corps migré vide ne produit pas de section vide (un blanc de 100 px sous le titre).
+const rendered = entry?.body?.trim() ? await render(entry) : undefined;
 const Content = rendered?.Content;
 
 const { experiences } = await siteData();
