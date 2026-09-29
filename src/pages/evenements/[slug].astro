@@ -20,14 +20,19 @@ import {
   upcomingEvents,
 } from "@lib/content";
 import {
+  eventPole,
+  filterWeather,
   isPastEvent,
   otherDates as seriesDates,
   parsePriceEuros,
   registrationLabel,
+  schemaDate,
+  showsWeather,
   timeLabel as buildTimeLabel,
 } from "@lib/events";
 import { ogImage } from "@lib/og";
-import { isPole, pole as resolvePole, type PoleSlug } from "@lib/poles";
+import { pole as resolvePole, type PoleSlug } from "@lib/poles";
+import EventBody from "./_EventBody.astro";
 import { claudyImage, claudyOgImage } from "@lib/remote-image";
 import { event as eventSchema, breadcrumbs, eventDocumentTitle } from "@lib/seo";
 import { site } from "@lib/site";
@@ -73,7 +78,8 @@ const remoteHero = await claudyImage(remoteCover?.url, [640, 960, 1440, 1920]);
 const cover = remoteHero ? undefined : legacy?.data.cover;
 const heroImage = remoteHero ?? cover;
 const heroAlt = (remoteHero ? remoteCover?.alt : legacy?.data.coverAlt) || event.title;
-const poleSlug: PoleSlug = isPole(event.pole) ? event.pole : "convivialite";
+// Le pôle de la fiche, sinon celui de sa thématique (Environnement → nature…).
+const poleSlug: PoleSlug = eventPole(event);
 const props: Record<string, string> = legacy?.data.properties ?? {};
 
 // « COMPLET ! » est écrit dans le titre par l'éditrice — c'est la seule source.
@@ -122,8 +128,12 @@ const otherDates = seriesDates(events, event)
   .map((e) => {
     const date = formatDate(e.start, { currentYear }) ?? cardTitle(e.title, false);
     // Une autre date déjà complète est annoncée comme telle : on n'y envoie personne pour rien.
-    return { href: e.path, label: /complet/i.test(e.title) ? `${date} · complet` : date };
+    const full = /complet/i.test(e.title);
+    return { href: e.path, label: full ? `${date} · complet` : date, soldOut: full };
   });
+
+// Le widget météo du corps : seulement dans la semaine qui précède l'événement.
+const showWeather = showsWeather(event);
 
 // « Prochainement » : les trois prochaines fiches, celle-ci exclue.
 const soon = upcomingEvents(await eventItems())
@@ -164,8 +174,9 @@ const jsonld = [
     name: title,
     description,
     url,
-    startDate: event.start,
-    endDate: event.end,
+    // Sans heure connue, la date seule : jamais un « 01:00 » tiré d'un minuit UTC.
+    startDate: schemaDate(event.start),
+    endDate: schemaDate(event.end),
     location: event.location,
     image: jsonldImage,
     priceText: event.priceText,
@@ -246,9 +257,11 @@ const jsonld = [
         <Prose width="full">
           {
             event.descriptionHtml ? (
-              <Fragment set:html={event.descriptionHtml} />
+              <Fragment set:html={filterWeather(event.descriptionHtml, showWeather)} />
             ) : Content ? (
-              <Content />
+              <EventBody showWeather={showWeather}>
+                <Content />
+              </EventBody>
             ) : null
           }
         </Prose>
@@ -280,11 +293,15 @@ const jsonld = [
     /* Barre collante mobile : la date et le bouton restent sous le pouce tant
        qu'on lit la fiche ; elle s'efface avec la fin du contenu (sticky, pas
        fixed), le pied de page reste atteignable. Sur grand écran, c'est la
-       carte pratique collante qui joue ce rôle. */
+       carte pratique collante qui joue ce rôle. Tant que le bouton de la
+       carte pratique est à l'écran, la barre s'efface (fondu et glissement
+       de 180 ms, instantané en mouvement réduit) : pas deux fois le même
+       bouton sous les yeux. */
     registration && (
       <div
-        class="sticky bottom-0 z-30 border-t-[1.5px] border-line-soft bg-white px-4 py-3 lg:hidden"
+        class="l4s-cta-bar sticky bottom-0 z-30 border-t-[1.5px] border-line-soft bg-white px-4 py-3 lg:hidden"
         data-until={expiresAt(event)}
+        data-cta-bar
       >
         <div class="mx-auto flex max-w-site items-center justify-between gap-3">
           <p class="m-0 min-w-0 font-ui">
@@ -298,6 +315,46 @@ const jsonld = [
       </div>
     )
   }
+
+  <style>
+    .l4s-cta-bar {
+      transition:
+        opacity 180ms var(--ease-brand),
+        transform 180ms var(--ease-brand),
+        visibility 0s linear 0s;
+    }
+    .l4s-cta-bar[data-covered] {
+      opacity: 0;
+      transform: translateY(100%);
+      visibility: hidden;
+      pointer-events: none;
+      transition:
+        opacity 180ms var(--ease-brand),
+        transform 180ms var(--ease-brand),
+        visibility 0s linear 180ms;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .l4s-cta-bar,
+      .l4s-cta-bar[data-covered] {
+        transition: none;
+        transform: none;
+      }
+    }
+  </style>
+
+  <script>
+    // Barre collante mobile : masquée tant que le bouton d'inscription de la
+    // carte pratique est visible. Sans IntersectionObserver, elle reste là.
+    const bar = document.querySelector<HTMLElement>("[data-cta-bar]");
+    const register = document.querySelector<HTMLElement>("[data-register]");
+    if (bar && register && "IntersectionObserver" in window) {
+      bar.setAttribute("data-covered", "");
+      new IntersectionObserver((entries) => {
+        const visible = entries.some((entry) => entry.isIntersecting);
+        bar.toggleAttribute("data-covered", visible);
+      }).observe(register);
+    }
+  </script>
 
   <script>
     // « Partager » : la feuille de partage native quand elle existe (mobile,
