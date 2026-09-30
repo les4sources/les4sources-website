@@ -1,7 +1,7 @@
 ---
 title: "Nos hébergements"
 description: "Nous t’accueillons au cœur de notre clairière, dans l’ancienne ferme d’Ahinvaux : une bâtisse en pleine nature, rénovée en matériaux naturels."
-seoTitle: "Gîtes de groupe à Yvoir"
+seoTitle: "Gîtes et chambres à Yvoir"
 legacyPath: "/sejours/hebergements-yvoir"
 cover: "../../assets/migration/sejours__hebergements-yvoir/01-_G0A2757.jpg"
 coverAlt: "L’ancienne ferme d’Ahinvaux, où se trouvent les gîtes"

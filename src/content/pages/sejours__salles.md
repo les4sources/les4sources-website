@@ -1,7 +1,7 @@
 ---
 title: "Nos salles et la cuisine"
 description: "Des espaces polyvalents et modulables pour tes événements privés et professionnels, dans une ancienne grange vibrant à la douce chaleur de matériaux naturels."
-seoTitle: "Salles et cuisine professionnelle à Yvoir"
+seoTitle: "Salles polyvalentes et cuisine professionnelle à Yvoir"
 legacyPath: "/sejours/salles"
 cover: "../../assets/migration/sejours__salles/01-_G0A3585.jpg"
 coverAlt: "La grande salle des 4 Sources"

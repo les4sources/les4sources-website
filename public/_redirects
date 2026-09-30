@@ -45,3 +45,19 @@
 /teams-buildings                                                          /un-team-building-aux-4-sources         301
 
 # <<< fin des redirections de migration
+
+# Identifiants Notion bruts que Super servait en 200 (galeries de photos, titre « Facebook »),
+# liés depuis trois pages mais absents du sitemap : ils renvoient vers la page qui les montrait.
+/2950d14933178023aa06fddb228afa57                                         /a-propos/les-animaux-des-4-sources     301
+/2950d149331780098a45cf1a675b22ad                                         /a-propos/les-animaux-des-4-sources     301
+/2950d1493317807988a5ddaecbf8871e                                         /a-propos/les-animaux-des-4-sources     301
+/2950d149331780059b36f15c4e45700d                                         /a-propos/les-animaux-des-4-sources     301
+/3c20d149331780b39f2acde0ca98a398                                         /mariage-champetre                      301
+/3c20d149331780ad946ffee918fd14f6                                         /mariage-champetre                      301
+/3c20d1493317800d89ffd1dc5e4c31e7                                         /mariage-champetre                      301
+/3c20d1493317800b81a7c0794fbd4f2c                                         /mariage-champetre                      301
+/3c20d1493317804fbfb3ee15a3956648                                         /mariage-champetre                      301
+/3c20d14933178060b2edd9d4f0dd7d4b                                         /mariage-champetre                      301
+/28a0d149331780ef91b2c8a34eb37c94                                         /sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos  301
+/28a0d14933178055bceaeb83c235f1ec                                         /sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos  301
+/28a0d14933178083a347ddb0d5a936d5                                         /sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos  301

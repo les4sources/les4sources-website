@@ -11,7 +11,7 @@ redir @apex https://www.les4sources.be{uri} permanent
 @trailing path_regexp trailing ^(.+)/$
 redir @trailing {re.trailing.1} permanent
 
-# Anciennes URLs (15 règles, public/_redirects).
+# Anciennes URLs (28 règles, public/_redirects).
 redir /catalogue/atelier-fabrication-de-pizza /catalogue permanent
 redir /catalogue/modle-pour-un-nouvel-atelier /catalogue permanent
 redir /catalogue/participation-la-production-du-pain /catalogue permanent
@@ -27,6 +27,19 @@ redir /projets/le-bar-des-4-sources /le-bar-des-4-sources permanent
 redir /projets/production-et-transformation /projets permanent
 redir /sejours/entre-amis-aux-4-sources /sejours/en-famille-aux-4-sources permanent
 redir /teams-buildings /un-team-building-aux-4-sources permanent
+redir /2950d14933178023aa06fddb228afa57 /a-propos/les-animaux-des-4-sources permanent
+redir /2950d149331780098a45cf1a675b22ad /a-propos/les-animaux-des-4-sources permanent
+redir /2950d1493317807988a5ddaecbf8871e /a-propos/les-animaux-des-4-sources permanent
+redir /2950d149331780059b36f15c4e45700d /a-propos/les-animaux-des-4-sources permanent
+redir /3c20d149331780b39f2acde0ca98a398 /mariage-champetre permanent
+redir /3c20d149331780ad946ffee918fd14f6 /mariage-champetre permanent
+redir /3c20d1493317800d89ffd1dc5e4c31e7 /mariage-champetre permanent
+redir /3c20d1493317800b81a7c0794fbd4f2c /mariage-champetre permanent
+redir /3c20d1493317804fbfb3ee15a3956648 /mariage-champetre permanent
+redir /3c20d14933178060b2edd9d4f0dd7d4b /mariage-champetre permanent
+redir /28a0d149331780ef91b2c8a34eb37c94 /sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos permanent
+redir /28a0d14933178055bceaeb83c235f1ec /sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos permanent
+redir /28a0d14933178083a347ddb0d5a936d5 /sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos permanent
 
 # Le fichier de règles n'a rien à faire en ligne.
 @rules path /_redirects
