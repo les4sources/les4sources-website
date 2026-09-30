@@ -19,7 +19,7 @@ embeds:
 
 ![De Branches en Planches](../../assets/migration/projets__de-branches-en-planches/03-WhatsApp_Image_2023-10-02_at_15.53.jpg)
 
-Olivier vous accompagne dans la réalisation d’objets et espaces uniques, utiles et esthétiques qui ont du sens. Soit via des [ateliers](https://debranchesenplanches.be/propositions/#ateliers), soit via des [réalisations sur mesure](https://debranchesenplanches.be/propositions/#surmesure).
+Olivier t’accompagne dans la réalisation d’objets et espaces uniques, utiles et esthétiques qui ont du sens. Soit via des [ateliers](https://debranchesenplanches.be/propositions/#ateliers), soit via des [réalisations sur mesure](https://debranchesenplanches.be/propositions/#surmesure).
 
 <!-- column width="50%" -->
 
@@ -27,7 +27,7 @@ Olivier vous accompagne dans la réalisation d’objets et espaces uniques, util
 
 ![Olivier vanhamme arboriste](../../assets/migration/projets__de-branches-en-planches/04-olivier-vanhamme-arboriste.jpg)
 
-Olivier vous propose ses services pour de [l’élagage ou de l’abattage](https://debranchesenplanches.be/propositions/#elagage).
+Olivier te propose ses services pour de [l’élagage ou de l’abattage](https://debranchesenplanches.be/propositions/#elagage).
 <!-- /columns -->
 
 <a class="bookmark" href="https://debranchesenplanches.be/">Accueil</a>

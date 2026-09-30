@@ -1,6 +1,6 @@
 ---
 title: "Accompagnement d’écoles démocratiques en création"
-description: "Accompagnement d'écoles démocratiques en création - Découvrez l'expérience de projets éducatifs belges, posez vos questions et rencontrez d'autres initiatives…"
+description: "Accompagnement d'écoles démocratiques en création - Découvre l'expérience de projets éducatifs belges, pose tes questions et rencontre d'autres initiatives…"
 legacyPath: "/agenda/accompagnement-dcoles-dmocratiques-en-cration"
 cover: "../../assets/migration/agenda__accompagnement-dcoles-dmocratiques-en-cration/01-photo-1611843467160-25afb8df1074.jpg"
 coverAlt: "Accompagnement d’écoles démocratiques en création"

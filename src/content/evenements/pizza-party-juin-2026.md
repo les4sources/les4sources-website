@@ -32,7 +32,7 @@ registrationLabel: "Je m'inscris de ce pas"
 
 Chers vous tous·tes, nous sommes archi-complets pour la Pizza Party de ce vendredi. Nous avons établi une limite fixée par notre capacité à produire des pâtons 🍕
 
-Bienvenue pour un verre à partir de 20h30 🍹, mais pas de possibilité d'improviser des pizzas en plus pour les non inscrits. Merci de votre compréhension et à vendredi ! ☺️
+Bienvenue pour un verre à partir de 20h30 🍹, mais pas de possibilité d'improviser des pizzas en plus pour les non inscrits. Merci de ta compréhension et à vendredi ! ☺️
 
 Prochaine PP le 17 juillet ⬇️
 
@@ -53,7 +53,7 @@ Viens déguster de délicieuses pizzas tout juste sorties du four, faire des ren
 - nos boulangères préparent de délicieux pâtons au levain le jour même
 - tu amènes ta garniture en fonction de tes envies
 - nous cuisons les pizzas au feu de bois entre 19h et 20h
-- et vous les dégustez en terrasse plein sud, 360°C nature !
+- et tu les dégustes en terrasse plein sud, 360°C nature !
 - en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂
 
 👍 Le four de boulangerie est chauffé au bois\

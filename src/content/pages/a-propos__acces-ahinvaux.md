@@ -10,7 +10,7 @@ embeds:
     title: "www.google.com"
 ---
 
-Voici l'adresse à laquelle vous rendre :
+Voici l'adresse à laquelle te rendre :
 
 **Les 4 Sources**\
 Domaine d'Ahinvaux\
@@ -25,7 +25,7 @@ Fonds d'Ahinvaux, 1\
 
 ## En voiture 🚗
 
-Depuis les villages d'accès que sont Yvoir et Crupet, suivez les panneaux indiquant *« Domaine d'Ahinvaux »* et engagez-vous dans la petite route en graviers qui serpente à travers les bois jusqu'aux pâtures et au parking du lieu.
+Depuis les villages d'accès que sont Yvoir et Crupet, suis les panneaux indiquant *« Domaine d'Ahinvaux »* et engage-toi dans la petite route en graviers qui serpente à travers les bois jusqu'aux pâtures et au parking du lieu.
 
 ![La route en graviers à travers les bois](../../assets/migration/a-propos__acces-ahinvaux/03-_Cover_pour_le_site_4S_-1.jpg)
 
@@ -33,18 +33,18 @@ Depuis les villages d'accès que sont Yvoir et Crupet, suivez les panneaux indiq
 
 La gare SNCB d'Yvoir se situe à :
 
-- 7 minutes en bus : [ligne TEC 128, arrêt « Notre Dame de Lourdes »](https://www.letec.be/Planning/Details/Line/128%20CINEY%20-%20DURNAL%20-%20YVOIR/N1280), situé au bas du chemin en graviers menant aux 4 Sources. Comptez 10 minutes pour vous y rendre à pied.
-- [25 minutes en vélo et 1h10 à pied](https://www.komoot.com/fr-fr/tour/1732812616?share_token=ajiV5PQZBbj3ZSBOMCxBngCYBBnZEV6Xw6m6E4x7hMnF2GUQkt&ref=wtd). La route que vous empruntez vous fait découvrir le village et les traces de l'activité de la carrière d'Yvoir.
+- 7 minutes en bus : [ligne TEC 128, arrêt « Notre Dame de Lourdes »](https://www.letec.be/Planning/Details/Line/128%20CINEY%20-%20DURNAL%20-%20YVOIR/N1280), situé au bas du chemin en graviers menant aux 4 Sources. Compte 10 minutes pour t’y rendre à pied.
+- [25 minutes en vélo et 1h10 à pied](https://www.komoot.com/fr-fr/tour/1732812616?share_token=ajiV5PQZBbj3ZSBOMCxBngCYBBnZEV6Xw6m6E4x7hMnF2GUQkt&ref=wtd). La route que tu empruntes te fait découvrir le village et les traces de l'activité de la carrière d'Yvoir.
 
-En cas de besoin, un vélo et ses sacoches peuvent vous être prêtés pour aller faire des courses durant votre séjour.
+En cas de besoin, un vélo et ses sacoches peuvent t’être prêtés pour aller faire des courses durant ton séjour.
 
 ![À vélo vers les 4 Sources](../../assets/migration/a-propos__acces-ahinvaux/04-716e9ea9-14d2-4a01-bc87-5c8c0ede3b5d.jpg)
 
 ## En bottines, en VTT, à cheval ou en calèche 🥾
 
-Rejoignez-nous par la route de Crupet, d'Yvoir ou via la forêt domaniale de Tricointe ([comptez 1h à 1h20 à pied depuis la gare de Godinne](https://www.komoot.com/fr-fr/tour/1732793830?share_token=al0HnYCNvTHgnvnEDb1nbvEMxK23REcwX7ErBA7Q3tTI8zbV8j&ref=wtd)), de quoi faire le plein de nature avant votre arrivée. Grand·es marcheur·euses, combinez votre séjour avec une randonnée à l’aller et au retour :
+Rejoins-nous par la route de Crupet, d'Yvoir ou via la forêt domaniale de Tricointe ([compte 1h à 1h20 à pied depuis la gare de Godinne](https://www.komoot.com/fr-fr/tour/1732793830?share_token=al0HnYCNvTHgnvnEDb1nbvEMxK23REcwX7ErBA7Q3tTI8zbV8j&ref=wtd)), de quoi faire le plein de nature avant ton arrivée. Grand·e marcheur·euse, combine ton séjour avec une randonnée à l’aller et au retour :
 
-- Gare de Jambes → Les 4 Sources : [24,4 km par le GR 126](https://www.komoot.com/fr-fr/tour/1721517930?share_token=ax0CUOy8w2gR30efiYdmthW8CMe6sxBBgVucckYBfHs68fcaOD&ref=wtd) (7h) ou [19 km par le RAVeL](https://www.komoot.com/fr-fr/tour/1721614333?share_token=a83TYVHQuaaJCBGqFXPBLoGwuwuk15VKW1cox5qTDZswUwQkKS&ref=wtd) (5h) — soyez juste vigilant·es à quitter le GR à Tricointe, comme indiqué sur l’itinéraire
+- Gare de Jambes → Les 4 Sources : [24,4 km par le GR 126](https://www.komoot.com/fr-fr/tour/1721517930?share_token=ax0CUOy8w2gR30efiYdmthW8CMe6sxBBgVucckYBfHs68fcaOD&ref=wtd) (7h) ou [19 km par le RAVeL](https://www.komoot.com/fr-fr/tour/1721614333?share_token=a83TYVHQuaaJCBGqFXPBLoGwuwuk15VKW1cox5qTDZswUwQkKS&ref=wtd) (5h) — sois juste vigilant·e à quitter le GR à Tricointe, comme indiqué sur l’itinéraire
 - Les 4 Sources → gare de Dinant : [16,5 km par le GR 126](https://www.komoot.com/fr-fr/tour/1723826403?share_token=aQZqX05HN9xrBJefQ1YFPkAw2gD3RAbV2N2Aw23Yveb92vtSmh&ref=wtd) (4h45), en rejoignant le GR 126 à Tricointe, comme proposé sur l’itinéraire
 
 ![En randonnée dans la vallée du Bocq](../../assets/migration/a-propos__acces-ahinvaux/05-88c12149-5b09-4e22-baf3-fc979ebaa916.jpg)

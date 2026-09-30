@@ -18,7 +18,7 @@ minParticipants: 1
 maxParticipants: 20
 ---
 
-### Venez à la rencontre des animaux de ferme des 4 Sources.
+### Viens à la rencontre des animaux de ferme des 4 Sources.
 
 <!-- columns -->
 <!-- column width="50%" -->
@@ -33,13 +33,13 @@ maxParticipants: 20
 
 **Qui sera ton meilleur ami aujourd'hui ?**
 
-Préparez-vous à craquer. Sérieusement.
+Prépare-toi à craquer. Sérieusement.
 
-Dans les prairies des 4 Sources, une bande de personnages hauts en couleur vous attendent, et ils ont déjà hâte de faire votre connaissance (ou peut-être ont-ils d’autres choses en tête comme de la géopolitique?)
+Dans les prairies des 4 Sources, une bande de personnages hauts en couleur t’attendent, et ils ont déjà hâte de faire ta connaissance (ou peut-être ont-ils d’autres choses en tête comme de la géopolitique?)
 
 **Les cochons ? Des stars.** Ils le savent, et ils assument. Plutôt sociables, ils rappliquent en trottinant, le groin en avant, prêts à renifler chaussures, mains, et probablement un sandwich dans un sac. Attachants, expressifs, et franchement irrésistibles. 🐷
 
-**Les poules ? Des divas.** Elles font semblant de ne pas vous voir, mais elles viennent quand même. Écoutez leur petit caquetage permanent, elles ont toujours quelque chose à raconter, même si personne ne sait exactement quoi. 🐔
+**Les poules ? Des divas.** Elles font semblant de ne pas te voir, mais elles viennent quand même. Écoute leur petit caquetage permanent, elles ont toujours quelque chose à raconter, même si personne ne sait exactement quoi. 🐔
 
 **Les lamas ? Des princes.** Grand, majestueux, légèrement condescendant… et pourtant tellement fascinant. Quand un lama accepte de se laisser caresser, c'est un privilège. 🦙 Parfois, ils font barrage routier, sur le chemin qui mène aux 4 Sources, mais ne procèdent pas au test du ballon.
 

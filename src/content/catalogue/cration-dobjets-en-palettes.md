@@ -1,6 +1,6 @@
 ---
 title: "Création d’objets en palettes"
-description: "Construction réalisée à partir de matériaux de récup’, notre artisan-designer Olivier sera là pour vous accompagner des techniques de démontage de palettes…"
+description: "Construction réalisée à partir de matériaux de récup’, notre artisan-designer Olivier sera là pour t’accompagner des techniques de démontage de palettes…"
 legacyPath: "/catalogue/cration-dobjets-en-palettes"
 cover: "../../assets/migration/shared/54ded18b9696-_g0a7703.jpg"
 coverAlt: "Création d’objets en palettes"
@@ -18,11 +18,11 @@ minParticipants: 3
 maxParticipants: 8
 ---
 
-### Réalisez un objet sur mesure et venez vous faire la main !
+### Réalise un objet sur mesure et viens te faire la main !
 
-Construction réalisée à partir de matériaux de récup’, notre artisan-designer Olivier sera là pour vous accompagner des techniques de démontage de palettes jusqu’à la réalisation de l’objet de votre choix. Tout est possible : jouet, petit mobilier, siège, déco de tables, nichoirs, porte-manteaux ou tout autre objet de la vie quotidienne !
+Construction réalisée à partir de matériaux de récup’, notre artisan-designer Olivier sera là pour t’accompagner des techniques de démontage de palettes jusqu’à la réalisation de l’objet de ton choix. Tout est possible : jouet, petit mobilier, siège, déco de tables, nichoirs, porte-manteaux ou tout autre objet de la vie quotidienne !
 
-Avec cet atelier, développez vos compétences avec ou sans pré-requis, partagez ensemble vos expériences et développez votre créativité !
+Avec cet atelier, développe tes compétences avec ou sans pré-requis, partage tes expériences avec les autres et développe ta créativité !
 
 ![Création d’objets en palettes](../../assets/migration/catalogue__cration-dobjets-en-palettes/02-_g0a7676.jpg)
 

@@ -1,6 +1,6 @@
 ---
 title: "Nos hébergements"
-description: "Nous vous accueillons au cœur de notre clairière, dans l’ancienne ferme d’Ahinvaux : une bâtisse en pleine nature, rénovée en matériaux naturels."
+description: "Nous t’accueillons au cœur de notre clairière, dans l’ancienne ferme d’Ahinvaux : une bâtisse en pleine nature, rénovée en matériaux naturels."
 seoTitle: "Gîtes de groupe à Yvoir"
 legacyPath: "/sejours/hebergements-yvoir"
 cover: "../../assets/migration/sejours__hebergements-yvoir/01-_G0A2757.jpg"
@@ -38,7 +38,7 @@ Chaque gîte est indépendant et a sa propre porte d’entrée. La porte d’acc
 
 🪄 *La Chevêche + La Hulotte = Le Grand-Duc*
 
-- Accueille jusqu’à **25 personnes**
+- Accueille jusqu’à **23 personnes**
 - Rez-de-chaussée, 1er et 2e étage
 - 7 chambres avec salle de douche
 - Mezzanine avec 2 lits d’appoint
@@ -51,7 +51,7 @@ Chaque gîte est indépendant et a sa propre porte d’entrée. La porte d’acc
 
 En pleine forêt ou dans les pâtures en lisière de celle-ci, un espace où **poser sa tente et son hamac**. Idéal pour profiter pleinement de notre ciel étoilé, de la nature et du calme environnant.
 
-**Envie d’une nouvelle expérience en hamac ?** Nous vous en louons (simple… ou double !) pour découvrir cette douce sensation d’être bercé·e·s comme une chenille entre 2 arbres.
+**Envie d’une nouvelle expérience en hamac ?** Nous t’en louons (simple… ou double !) pour découvrir cette douce sensation d’être bercé·e comme une chenille entre 2 arbres.
 
 ![Hamacs dans le bois des 4 Sources](../../assets/migration/sejours__hebergements-yvoir/05-20240808_080152_29FD74F5.jpg)
 
@@ -63,7 +63,7 @@ Oui c’est possible, avec un maximum de 2 chiens sur le lieu et moyennant un su
 
 ### Puis-je louer la salle pour une fête d’anniversaire ?
 
-Oui, avec grand plaisir, pour autant que vous teniez compte du fait que la salle se trouve sur un lieu habité par plusieurs familles et qu’il y a des règles à respecter concernant le bruit. Si vous préférez un chalet isolé au milieu du néant, c’est ailleurs 🤗 Le mieux étant de nous contacter pour nous faire part de votre demande.
+Oui, avec grand plaisir, pour autant que tu tiennes compte du fait que la salle se trouve sur un lieu habité par plusieurs familles et qu’il y a des règles à respecter concernant le bruit. Si tu préfères un chalet isolé au milieu du néant, c’est ailleurs 🤗 Le mieux étant de nous contacter pour nous faire part de ta demande.
 
 C’est aussi l’occasion d’inviter ses amis et sa famille à participer à [une activité organisée par les 4 Sources](/activites).
 

@@ -18,9 +18,9 @@ Après 8 ans de navigation et beaucoup d’expérimentations, un système de fon
 
 Nous en pratiquons notre version depuis une petite année et l’avons baptisée « la gouvernance par cycles ».
 
-Plongez au cœur de ce système d’organisation de la collaboration au sein d’un collectif. Découvrez le fonctionnement, le calendrier récurrent, les écueils et les bienfaits observés par les porteurs du projet des 4 Sources.
+Plonge au cœur de ce système d’organisation de la collaboration au sein d’un collectif. Découvre le fonctionnement, le calendrier récurrent, les écueils et les bienfaits observés par les porteurs du projet des 4 Sources.
 
-Selon vos besoins, possibilité d’échanges sur les perspectives d’adaptation de la méthode à votre collectif et temps de questions réponses sur les questions de gouvernances participatives.
+Selon tes besoins, possibilité d’échanges sur les perspectives d’adaptation de la méthode à ton collectif et temps de questions réponses sur les questions de gouvernances participatives.
 
 ## En pratique
 

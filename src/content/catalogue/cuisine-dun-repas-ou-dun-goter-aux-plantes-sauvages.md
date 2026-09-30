@@ -1,6 +1,6 @@
 ---
 title: "Cuisine d’un repas ou d’un goûter aux plantes sauvages"
-description: "Vivez une expérience culinaire unique et enrichissante en cuisinant un repas ou un goûter avec des plantes sauvages récoltées le jour-même."
+description: "Vis une expérience culinaire unique et enrichissante en cuisinant un repas ou un goûter avec des plantes sauvages récoltées le jour-même."
 legacyPath: "/catalogue/cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages"
 cover: "../../assets/migration/shared/17025bcde3f3-20260611_120942.jpg"
 coverAlt: "Cuisine d’un repas ou d’un goûter aux plantes sauvages"
@@ -20,15 +20,15 @@ maxParticipants: 12
 
 ### Activité de saison : mi-avril à septembre (saison des plantes sauvages) 🌿
 
-#### Vivez une expérience culinaire unique et enrichissante en cuisinant un repas ou un goûter avec des plantes sauvages récoltées le jour-même.
+#### Vis une expérience culinaire unique et enrichissante en cuisinant un repas ou un goûter avec des plantes sauvages récoltées le jour-même.
 
-Cuisinez un repas ou un goûter en utilisant des plantes sauvages et apprenez à les reconnaître et à les utiliser. C'est une excellente occasion de passer du temps en plein air, d'apprendre de nouvelles compétences et de savourer des plats délicieux et sains. Cet atelier est parfait pour les groupes de jeunes, les associations et les familles qui cherchent une activité à la fois éducative et ludique.
+Cuisine un repas ou un goûter en utilisant des plantes sauvages et apprends à les reconnaître et à les utiliser. C'est une excellente occasion de passer du temps en plein air, d'apprendre de nouvelles compétences et de savourer des plats délicieux et sains. Cet atelier est parfait pour les groupes de jeunes, les associations et les familles qui cherchent une activité à la fois éducative et ludique.
 
 ![Cuisine d’un repas ou d’un goûter aux plantes sauvages](../../assets/migration/catalogue__cuisine-dun-repas-ou-dun-goter-aux-plantes-sauvages/02-20260611_121217.jpg)
 
-En plus de la cuisine, cet atelier offre également une occasion unique d'éducation environnementale. Vous aurez l'opportunité de comprendre l'importance de la biodiversité locale et comment la nature peut fournir une alimentation saine et diversifiée. Vous apprendrez quels types de plantes sont comestibles, comment en identifier quelques-unes et où les trouver.
+En plus de la cuisine, cet atelier offre également une occasion unique d'éducation environnementale. Tu auras l'opportunité de comprendre l'importance de la biodiversité locale et comment la nature peut fournir une alimentation saine et diversifiée. Tu apprendras quels types de plantes sont comestibles, comment en identifier quelques-unes et où les trouver.
 
-Dans une ambiance conviviale et détendue, vous pourrez également partager vos expériences, discuter de vos découvertes et poser toutes vos questions à notre animateur·ice expert·e en plantes sauvages. À la fin de l'atelier, vous repartirez non seulement avec des recettes originales à base de plantes sauvages, mais aussi avec une meilleure connaissance et appréciation de la nature qui nous entoure.
+Dans une ambiance conviviale et détendue, tu pourras également partager tes expériences, discuter de tes découvertes et poser toutes tes questions à notre animateur·ice expert·e en plantes sauvages. À la fin de l'atelier, tu repartiras non seulement avec des recettes originales à base de plantes sauvages, mais aussi avec une meilleure connaissance et appréciation de la nature qui nous entoure.
 
 Cet atelier est organisé en collaboration avec [Empreintes ASBL](https://www.empreintes.be/).
 

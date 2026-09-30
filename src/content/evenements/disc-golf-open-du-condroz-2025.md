@@ -19,7 +19,7 @@ L’Open du Condroz est un tournoi officiel PDGA ouvert aux joueurs de tous nive
 
 L’**Open du Condroz 2025** est de retour pour une nouvelle édition sur l’un des **plus beaux parcours de disc-golf de Belgique**, niché en pleine nature aux 4 Sources à Yvoir.
 
-Que vous soyez un joueur expérimenté ou un amateur désireux de relever un défi, ce tournoi est l’occasion idéale de tester votre précision et votre stratégie sur un **parcours 18 trous vallonné**, offrant un cadre exceptionnel et des défis techniques variés.
+Que tu sois un joueur expérimenté ou un amateur désireux de relever un défi, ce tournoi est l’occasion idéale de tester ta précision et ta stratégie sur un **parcours 18 trous vallonné**, offrant un cadre exceptionnel et des défis techniques variés.
 
 ## Horaires du tournoi
 
@@ -51,8 +51,8 @@ Que vous soyez un joueur expérimenté ou un amateur désireux de relever un dé
 
 ## Un cadre unique en pleine nature
 
-[Le parcours des 4 Sources](/projets/disc-golf-attitude-yvoir) offre une expérience immersive avec **des fairways variés, des lancers en sous-bois et des vues panoramiques** sur la région namuroise. En plus du plaisir du jeu, profitez d’un environnement naturel préservé où cohabitent ânes, forêts et prairies classées Natura 2000.
+[Le parcours des 4 Sources](/projets/disc-golf-attitude-yvoir) offre une expérience immersive avec **des fairways variés, des lancers en sous-bois et des vues panoramiques** sur la région namuroise. En plus du plaisir du jeu, profite d’un environnement naturel préservé où cohabitent ânes, forêts et prairies classées Natura 2000.
 
-🏆 Rejoignez-nous pour une journée de compétition et de convivialité !
+🏆 Rejoins-nous pour une journée de compétition et de convivialité !
 
-Venez affronter des joueurs de toute la Belgique et d’ailleurs dans une ambiance sportive et amicale.
+Viens affronter des joueurs de toute la Belgique et d’ailleurs dans une ambiance sportive et amicale.

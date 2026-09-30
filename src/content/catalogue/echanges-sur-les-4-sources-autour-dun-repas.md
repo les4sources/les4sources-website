@@ -1,6 +1,6 @@
 ---
 title: "Échanges sur les 4 Sources autour d’un repas"
-description: "Par curiosité ou inspiration… Une personne du collectif se joindra à l’un de vos repas pour témoigner et répondre à vos questions."
+description: "Par curiosité ou inspiration… Une personne du collectif se joindra à l’un de tes repas pour témoigner et répondre à tes questions."
 legacyPath: "/catalogue/echanges-sur-les-4-sources-autour-dun-repas"
 cover: "../../assets/migration/shared/978e8f8350cd-img-20250316-wa0022.jpg"
 coverAlt: "Échanges sur les 4 Sources autour d’un repas"
@@ -18,9 +18,9 @@ minParticipants: 1
 maxParticipants: 20
 ---
 
-### Vous êtes en hébergement ici, vous vous posez des questions sur les 4 Sources, son projet, son origine, la façon dont il s’est développé, sa gouvernance, ses réussites et écueils…
+### Tu es en hébergement ici, tu te poses des questions sur les 4 Sources, son projet, son origine, la façon dont il s’est développé, sa gouvernance, ses réussites et écueils…
 
-Par curiosité ou inspiration… Une personne du collectif se joindra à l’un de vos repas pour témoigner et répondre à vos questions.
+Par curiosité ou inspiration… Une personne du collectif se joindra à l’un de tes repas pour témoigner et répondre à tes questions.
 
 ![Échanges sur les 4 Sources autour d’un repas](../../assets/migration/catalogue__echanges-sur-les-4-sources-autour-dun-repas/02-img-20250316-wa0016.jpg)
 

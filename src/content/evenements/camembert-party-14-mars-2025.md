@@ -50,11 +50,11 @@ Bienvenue **dès 18h30** :
 
 <!-- column width="56.3%" -->
 
-Mmmmh, un savoureux camembert chauffé au feu de bois ! 🧀 🔥 🪵 Vous pensiez l’accompagner d’un bon vin ? 🍷 Ce 14 mars, Les 4 Sources vous feront encore sortir des sentiers battus en vous proposant d’associer votre fromage coulant avec… une bière !
+Mmmmh, un savoureux camembert chauffé au feu de bois ! 🧀 🔥 🪵 Tu pensais l’accompagner d’un bon vin ? 🍷 Ce 14 mars, Les 4 Sources te feront encore sortir des sentiers battus en te proposant d’associer ton fromage coulant avec… une bière !
 
-Nicolas Meulebrouck, aussi appelé The Beer Linguist, zythologue venu tout droit du joyeux village d’Evrehailles, sera présent pour vous guider dans ce choix, pour vous faire vivre une nouvelle expérience gustative 🍻 🤓
+Nicolas Meulebrouck, aussi appelé The Beer Linguist, zythologue venu tout droit du joyeux village d’Evrehailles, sera présent pour te guider dans ce choix, pour te faire vivre une nouvelle expérience gustative 🍻 🤓
 
-*Attention de ne pas le laisser parler trop longtemps, au risque de manger votre fromage froid* 😅
+*Attention de ne pas le laisser parler trop longtemps, au risque de manger ton fromage froid* 😅
 <!-- /columns -->
 
 ## Infos pratiques

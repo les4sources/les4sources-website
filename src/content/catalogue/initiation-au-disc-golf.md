@@ -1,6 +1,6 @@
 ---
 title: "Initiation au Disc-golf"
-description: "Découvrez le disc-golf, un jeu passionnant qui combine la précision du golf et l'esprit du frisbee, et partagez un moment inoubliable entre amis, collègues ou…"
+description: "Découvre le disc-golf, un jeu passionnant qui combine la précision du golf et l'esprit du frisbee, et partage un moment inoubliable entre amis, collègues ou…"
 legacyPath: "/catalogue/initiation-au-disc-golf"
 cover: "../../assets/migration/shared/1ac3a09656ae-20250510_153904_37c36bca.jpg"
 coverAlt: "Initiation au Disc-golf"
@@ -17,13 +17,13 @@ minParticipants: 1
 maxParticipants: 8
 ---
 
-Découvrez le disc-golf, un jeu passionnant qui combine la précision du golf et l'esprit du frisbee, et partagez un moment inoubliable entre amis, collègues ou en famille dans un cadre naturel et convivial !
+Découvre le disc-golf, un jeu passionnant qui combine la précision du golf et l'esprit du frisbee, et partage un moment inoubliable entre amis, collègues ou en famille dans un cadre naturel et convivial !
 
-Initiez-vous au disc-golf, une activité ludique et sportive qui saura rassembler les jeunes, les collègues, les groupes d'amis, les associations et les familles ! Dans un cadre convivial et naturel, venez découvrir ce jeu qui combine la précision du golf et l'esprit du frisbee. Que vous soyez novices ou joueur·euses aguerri·es, ce moment de partage et de compétition amicale vous promet des souvenirs inoubliables. Alors n'hésitez plus, rejoignez-nous pour une initiation !
+Initie-toi au disc-golf, une activité ludique et sportive qui saura rassembler les jeunes, les collègues, les groupes d'amis, les associations et les familles ! Dans un cadre convivial et naturel, viens découvrir ce jeu qui combine la précision du golf et l'esprit du frisbee. Que tu sois novice ou joueur·euse aguerri·e, ce moment de partage et de compétition amicale te promet des souvenirs inoubliables. Alors n'hésite plus, rejoins-nous pour une initiation !
 
 ![Initiation au Disc-golf](../../assets/migration/catalogue__initiation-au-disc-golf/02-20250510_153904_37c36bca.jpg)
 
-Après une brève introduction aux règles du disc-golf, vous serez prêt·es à vous lancer dans l'aventure. À travers un parcours unique en son genre, vous devrez faire preuve de stratégie et de précision pour lancer votre disque et atteindre les cibles. Chaque cible est une nouvelle occasion de se surpasser et de s'amuser ensemble. Quel que soit votre niveau, l'important est de participer et de profiter de l'expérience.
+Après une brève introduction aux règles du disc-golf, tu seras prêt·e à te lancer dans l'aventure. À travers un parcours unique en son genre, tu devras faire preuve de stratégie et de précision pour lancer ton disque et atteindre les cibles. Chaque cible est une nouvelle occasion de se surpasser et de s'amuser ensemble. Quel que soit ton niveau, l'important est de participer et de profiter de l'expérience.
 
 ![Photo discgolf](../../assets/migration/catalogue__initiation-au-disc-golf/03-photo-discgolf.jpg)
 

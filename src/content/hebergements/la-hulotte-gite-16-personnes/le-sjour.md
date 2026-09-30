@@ -4,7 +4,7 @@ description: "Le séjour (2e étage) — Les 4 Sources, tiers-lieu à Yvoir"
 legacyPath: "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/le-sjour"
 properties:
   Page: "Hulotte"
-capacity: 16
+capacity: 15
 generatedDescription: true
 ---
 

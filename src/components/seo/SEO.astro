@@ -15,6 +15,8 @@ interface Props {
   ogImageHeight?: number;
   type?: "website" | "article";
   noindex?: boolean;
+  /** Chemin canonique quand ce n'est pas la page elle-même (fiche retirée → fiche qui la remplace). */
+  canonicalPath?: string;
   jsonld?: object[];
 }
 
@@ -27,13 +29,14 @@ const {
   ogImageHeight: ogImageHeightProp,
   type = "website",
   noindex = false,
+  canonicalPath,
   jsonld = [],
 } = Astro.props;
 
 // Site monolingue FR sans préfixe de langue : pas de hreflang, une seule URL par page.
 const siteUrl = Astro.site ?? new URL(site.url);
 const pathname = Astro.url.pathname.replace(/\/+$/, "") || "/";
-const canonical = new URL(pathname, siteUrl).href;
+const canonical = new URL(canonicalPath ?? pathname, siteUrl).href;
 
 // ImageMetadata (asset importé, typiquement la cover) → crop OG 1200×630 généré
 // au build ; string → URL telle quelle ; absent → image OG par défaut du site.

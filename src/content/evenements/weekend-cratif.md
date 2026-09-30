@@ -1,6 +1,6 @@
 ---
 title: "🖋️ Atelier d’écriture"
-description: "…un atelier d’écriture sur la thématique : l’eau, les arbres et moi. Guidé·es par des consignes ludiques, sans stress orthographique ni prétention littéraire."
+description: "…un atelier d’écriture sur la thématique : l’eau, les arbres et moi. Guidé·e par des consignes ludiques, sans stress orthographique ni prétention littéraire."
 legacyPath: "/evenements/weekend-cratif"
 # Annulé faute d'inscriptions (fiche Super, constaté le 2026-09-29) : servie, hors listes et calendrier.
 archived: true
@@ -24,15 +24,15 @@ registrationLabel: "Je prends ma place !"
 
 ## Une belle journée - le samedi 3 octobre - pour…
 
-…un atelier d’écriture sur la thématique **: l’eau, les arbres et moi.** Guidé·es par des consignes ludiques, sans stress orthographique ni prétention littéraire.
+…un atelier d’écriture sur la thématique **: l’eau, les arbres et moi.** Guidé·e par des consignes ludiques, sans stress orthographique ni prétention littéraire.
 
-Apprendre de nouvelles choses sur l'eau, les arbres et leur lien intime et fascinant, grâce à des lectures courtes de textes variés; vous laisser touché·es par vos observations; être stimulé·es par des consignes d'écriture simples qui vont déclencher votre créativité, ouvrir votre sensibilité et générer une réalisation personnelle qui n'attend que ce moment pour éclore...
+Apprendre de nouvelles choses sur l'eau, les arbres et leur lien intime et fascinant, grâce à des lectures courtes de textes variés; te laisser toucher par tes observations; être stimulé·e par des consignes d'écriture simples qui vont déclencher ta créativité, ouvrir ta sensibilité et générer une réalisation personnelle qui n'attend que ce moment pour éclore...
 
-Voilà quelques-uns des ingrédients de la journée d'exploration que je vous propose autour de l'eau et des arbres. L'atelier est inspiré entre autres par les écrits de Baptiste Morizot et les nouvelles découvertes concernant l'eau douce, bleue et … verte.
+Voilà quelques-uns des ingrédients de la journée d'exploration que je te propose autour de l'eau et des arbres. L'atelier est inspiré entre autres par les écrits de Baptiste Morizot et les nouvelles découvertes concernant l'eau douce, bleue et … verte.
 
 Aucun enjeu littéraire, pas de résultat attendu, zéro stress orthographique. Qui sait !? Peut-être un moment de réconciliation avec l'écrit… ou la joie de partager des découvertes et des émotions en sécurité dans un petit groupe.
 
-Allez, plongez ! Offrez-vous ce temps souple et liquide…
+Allez, plonge ! Offre-toi ce temps souple et liquide…
 
 [https://www.savoirs-racines.org/leau-les-arbres-et-moi/](https://www.savoirs-racines.org/leau-les-arbres-et-moi/)
 

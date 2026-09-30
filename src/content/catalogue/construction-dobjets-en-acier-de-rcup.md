@@ -1,6 +1,6 @@
 ---
 title: "Création de bijoux en matériaux de récup’"
-description: "Venez découvrir l'art de transformer des matériaux de récupération en bijoux uniques !"
+description: "Viens découvrir l'art de transformer des matériaux de récupération en bijoux uniques !"
 legacyPath: "/catalogue/construction-dobjets-en-acier-de-rcup"
 cover: "../../assets/migration/shared/379b3aafd9a9-_mg_8844.jpg"
 coverAlt: "Création de bijoux en matériaux de récup’"
@@ -18,15 +18,15 @@ minParticipants: 2
 maxParticipants: 6
 ---
 
-### Transformez des objets du quotidien en bijoux uniques et durables.
+### Transforme des objets du quotidien en bijoux uniques et durables.
 
-Venez découvrir l'art de transformer des matériaux de récupération en bijoux uniques !
+Viens découvrir l'art de transformer des matériaux de récupération en bijoux uniques !
 
-Cet atelier vous permettra de donner une seconde vie à des objets du quotidien tout en laissant libre cours à votre créativité.
+Cet atelier te permettra de donner une seconde vie à des objets du quotidien tout en laissant libre cours à ta créativité.
 
 Aucune expérience préalable nécessaire, juste l'envie de créer et de s'amuser !
 
-Nous fournissons tous les matériaux et outils nécessaires. C'est une excellente occasion d'apprendre de nouvelles compétences et de repartir avec un bijou unique que vous avez créé vous-même.
+Nous fournissons tous les matériaux et outils nécessaires. C'est une excellente occasion d'apprendre de nouvelles compétences et de repartir avec un bijou unique que tu as créé toi-même.
 
 ![Des bracelets et bijoux en perles étalés sur une table en bois](../../assets/migration/catalogue__construction-dobjets-en-acier-de-rcup/02-_mg_8927.jpg)
 
@@ -34,7 +34,7 @@ Nous fournissons tous les matériaux et outils nécessaires. C'est une excellent
 
 - Durée : 3h
 - Maximum 10 personnes | âge minimum : 8 ans
-- La durée de cet atelier peut s’adapter en fonction de votre disponibilité et/ou votre budget
+- La durée de cet atelier peut s’adapter en fonction de ta disponibilité et/ou ton budget
 - 180 € pour l’atelier
 
 ![Des jeunes bricolent autour d’une table sous un auvent, avec une animatrice](../../assets/migration/catalogue__construction-dobjets-en-acier-de-rcup/03-_mg_8843.jpg)

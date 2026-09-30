@@ -1,6 +1,6 @@
 ---
 title: "Visite de la micro-ferme pour les futurs éleveurs"
-description: "Embarquez pour une visite des différents espaces d’élevage."
+description: "Embarque pour une visite des différents espaces d’élevage."
 legacyPath: "/catalogue/visite-de-la-micro-ferme-pour-les-futurs-leveurs"
 cover: "../../assets/migration/shared/acd055b8bb84-_g0a3517_-1.jpg"
 coverAlt: "Visite de la micro-ferme pour les futurs éleveurs"
@@ -27,9 +27,9 @@ maxParticipants: 10
 
 <!-- column width="50%" -->
 
-Embarquez pour une visite des différents espaces d’élevage.
+Embarque pour une visite des différents espaces d’élevage.
 
-Bavardage sur les besoins des animaux, leurs comportements, leur bien-être, les abris, les enclos, le temps à consacrer, les normes, le matériel, les impacts sur la biodiversité et toutes les questions que vous vous posez, vous qui avez l’idée d’accueillir des poules ou des cochons, pour votre propre consommation d’œufs ou de chair.
+Bavardage sur les besoins des animaux, leurs comportements, leur bien-être, les abris, les enclos, le temps à consacrer, les normes, le matériel, les impacts sur la biodiversité et toutes les questions que tu te poses, toi qui as l’idée d’accueillir des poules ou des cochons, pour ta propre consommation d’œufs ou de chair.
 <!-- /columns -->
 
 ## En pratique :

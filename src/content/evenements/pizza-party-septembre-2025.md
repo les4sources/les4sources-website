@@ -26,12 +26,12 @@ registrationUrl: "https://www.billetweb.fr/pizza-party-de-septembre-2025"
 
 Viens déguster de délicieuses pizzas tout juste sorties du four, faire des rencontres et profiter d’une ambiance décontractée !
 
-Et pour cette Pizza Party, nous en profitons pour inaugurer **notre nouveau four à pain,** acquis grâce à votre contribution lors de notre dernier crowdfunding ! Et pour fêter ça (car on aime la musique), la [Petite Fanfare de la Grande Vie](https://petitefanfare.org/) viendra nous honorer de sa présence ! Bienvenue **ce 12 septembre dès 18h30** :
+Et pour cette Pizza Party, nous en profitons pour inaugurer **notre nouveau four à pain,** acquis grâce à ta contribution lors de notre dernier crowdfunding ! Et pour fêter ça (car on aime la musique), la [Petite Fanfare de la Grande Vie](https://petitefanfare.org/) viendra nous honorer de sa présence ! Bienvenue **ce 12 septembre dès 18h30** :
 
 - nos boulangères préparent de délicieux pâtons au levain le jour même
 - tu amènes ta garniture en fonction de tes envies
 - nous cuisons les pizzas au feu de bois entre 19h et 20h
-- et vous les dégustez en terrasse plein sud, 360°C nature !
+- et tu les dégustes en terrasse plein sud, 360°C nature !
 - en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂
 
 👍 Le four de boulangerie est chauffé au bois\
@@ -51,7 +51,7 @@ Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h30, lors
 
 **[Inscription à la Pizza Party de septembre](https://www.billetweb.fr/pizza-party-de-septembre-2025)**
 
-> 🆕 L’inscription se passe désormais via billetweb.fr ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque ou passer par l’app Payconiq.
+> 🆕 L’inscription se passe désormais via billetweb.fr ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, tu devras introduire le numéro de ta carte de banque ou passer par l’app Payconiq.
 
 ### Prévisions météo
 

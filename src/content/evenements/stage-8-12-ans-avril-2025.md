@@ -25,7 +25,7 @@ registrationLabel: "Inscription au stage"
 
 ## En pratique
 
-**Cette semaine de stage, une première aux 4 Sources, offre à votre enfant de 8 à 12 ans un cadre d’expérimentation et de découvertes dans un superbe lieu de nature.**
+**Cette semaine de stage, une première aux 4 Sources, offre à ton enfant de 8 à 12 ans un cadre d’expérimentation et de découvertes dans un superbe lieu de nature.**
 
 Chaque matinée est consacrée à la construction d’objets en bois de récup’ dans le Dôme, un espace de travail adapté aux enfants, avec nos artisans Magali et Olivier.
 

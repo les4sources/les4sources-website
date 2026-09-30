@@ -18,9 +18,9 @@ archived: true
 
 Un moment collectif différent qui allie musique et médiation
 
-Profitez d’un moment collectif autour de la musique. Quittez vos préoccupations mentales, recharger vos batteries, et vibrer aux sons de chants venus du monde entier.
+Profite d’un moment collectif autour de la musique. Quitte tes préoccupations mentales, recharge tes batteries, et vibre aux sons de chants venus du monde entier.
 
-Vous aurez l’occasion d’apprendre plusieurs morceaux à plusieurs voix, chacun issu de différentes traditions. Certains d’entre eux vous inviteront dans un univers dynamique, d’autres dans une atmosphère calme et posée. Une chouette façon de se rencontrer autrement et de se reconnecter à soi et aux autres à travers la voix.
+Tu auras l’occasion d’apprendre plusieurs morceaux à plusieurs voix, chacun issu de différentes traditions. Certains d’entre eux t’inviteront dans un univers dynamique, d’autres dans une atmosphère calme et posée. Une chouette façon de se rencontrer autrement et de se reconnecter à soi et aux autres à travers la voix.
 
 ### En pratique
 
@@ -32,9 +32,9 @@ Vous aurez l’occasion d’apprendre plusieurs morceaux à plusieurs voix, chac
 | 1h00 | 60€ | \+ 7,5€/pers. | 195€ | \+ 5€/pers. | 320€ | \+ 3€/pers. |
 | 2h00 | 120€ | \+ 15€/pers. | 390€ | \+ 10€/pers. | 640€ | \+ 6€/pers. |
 
-- Plus d’infos & réservation : envoyez un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
+- Plus d’infos & réservation : envoie un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
 
-> 💁 **Envie de loger sur place avant ou après l’événement ?** Découvrez [nos hébergements](/sejours/hebergements-yvoir)
+> 💁 **Envie de loger sur place avant ou après l’événement ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 
 ## D’autres ateliers à découvrir
 

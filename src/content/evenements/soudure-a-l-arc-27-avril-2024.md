@@ -1,6 +1,6 @@
 ---
 title: "Initiation à la soudure à l’arc"
-description: "Découvrez l'initiation à la soudure à l'arc, expérimentez et apprenez les principes de base de cette technique artisanale. Tarif : 80 €. Inscrivez-vous en…"
+description: "Découvre l'initiation à la soudure à l'arc, expérimente et apprends les principes de base de cette technique artisanale. Tarif : 80 €. Inscris-toi en…"
 legacyPath: "/evenements/soudure-a-l-arc-27-avril-2024"
 icon: "🗓️"
 properties:

@@ -1,6 +1,6 @@
 ---
 title: "Nos salles et la cuisine"
-description: "Des espaces polyvalents et modulables pour vos événements privés et professionnels, dans une ancienne grange vibrant à la douce chaleur de matériaux naturels."
+description: "Des espaces polyvalents et modulables pour tes événements privés et professionnels, dans une ancienne grange vibrant à la douce chaleur de matériaux naturels."
 seoTitle: "Salles et cuisine professionnelle à Yvoir"
 legacyPath: "/sejours/salles"
 cover: "../../assets/migration/sejours__salles/01-_G0A3585.jpg"
@@ -9,7 +9,7 @@ coverAlt: "La grande salle des 4 Sources"
 
 Nos espaces se combinent au choix avec notre cuisine professionnelle et, bien évidemment, avec notre terrasse et le bar extérieur au cadre exceptionnel.
 
-- [La Grande Salle](#la-grande-salle-), de 30 à 100 personnes
+- [La Grande Salle](#la-grande-salle-), de 30 à 80 personnes
 - [La Petite Salle](#la-petite-salle-), de 10 à 30 personnes
 - [La cuisine professionnelle](#la-cuisine-professionnelle-)
 
@@ -26,10 +26,10 @@ Une **salle majestueuse** dans l’ancienne ferme d’Ahinvaux, avec un bar derr
 
 - 145 mètres carrés, sol carrelé
 - Pièce ouverte sur le hall d’entrée et l’épicerie des 4 Sources
-- De 30 à 100 personnes
+- De 30 à 80 personnes
 <!-- /columns -->
 
-### À votre disposition
+### À ta disposition
 
 <!-- columns -->
 <!-- column width="50%" -->
@@ -88,7 +88,7 @@ Une sympathique **petite salle** pour les petits groupes, idéale pour les forma
 | Pour une longue table | 18 personnes |
 <!-- /columns -->
 
-### À votre disposition
+### À ta disposition
 
 <!-- columns -->
 <!-- column width="50%" -->
@@ -123,7 +123,7 @@ La **cuisine** est idéalement située au rez-de-chaussée du bâtiment, avec un
 
 <!-- column width="45%" -->
 
-### À votre disposition
+### À ta disposition
 
 - Matériel horeca
 - Four au gaz

@@ -1,6 +1,6 @@
 ---
 title: "Grimpe encadrée dans les arbres"
-description: "Découvrez le frisson de grimper aux arbres dans un environnement encadré et sécurisé. Que vous soyez un groupe de jeunes à la recherche d'une aventure, des…"
+description: "Découvre le frisson de grimper aux arbres dans un environnement encadré et sécurisé. Que tu viennes avec un groupe de jeunes en quête d'aventure, avec…"
 legacyPath: "/catalogue/grimpe-encadree-dans-les-arbres"
 cover: "../../assets/migration/shared/f0e535e70a28-_mg_8964.jpg"
 coverAlt: "Grimpe encadrée dans les arbres"
@@ -22,9 +22,9 @@ maxParticipants: 8
 
 ### Une aventure inoubliable au cœur de la nature en grimpant aux arbres dans un cadre sécurisé et encadré.
 
-Découvrez le frisson de grimper aux arbres dans un environnement encadré et sécurisé. Que vous soyez un groupe de jeunes à la recherche d'une aventure, des collègues cherchant à renforcer votre esprit d'équipe, ou une famille voulant passer du temps de qualité ensemble, cette activité est faite pour vous.
+Découvre le frisson de grimper aux arbres dans un environnement encadré et sécurisé. Que tu viennes avec un groupe de jeunes à la recherche d'une aventure, avec des collègues pour renforcer ton esprit d'équipe, ou en famille pour passer du temps de qualité ensemble, cette activité est faite pour toi.
 
-L'atelier de grimpe encadrée dans les arbres offre une expérience unique en son genre. Vous aurez l'occasion d'explorer la nature d'une manière totalement nouvelle, en grimpant aux arbres et en profitant de la vue panoramique incroyable. C'est un excellent moyen de se connecter à la nature et de passer un moment inoubliable.
+L'atelier de grimpe encadrée dans les arbres offre une expérience unique en son genre. Tu auras l'occasion d'explorer la nature d'une manière totalement nouvelle, en grimpant aux arbres et en profitant de la vue panoramique incroyable. C'est un excellent moyen de se connecter à la nature et de passer un moment inoubliable.
 
 ![Une grimpeuse encordée assise dans les branches d’un grand arbre](../../assets/migration/catalogue__grimpe-encadree-dans-les-arbres/03-_mg_8964.jpg)
 

@@ -18,17 +18,17 @@ Atelier cuisine
 
 Atelier cuisine
 
-Nous sommes heureux de vous proposer plusieurs ateliers de cuisine autour de douceurs sucrées et salées, réalisées avec des ingrédients locaux, de saison et issus du circuit-court 🍰
+Nous sommes heureux de te proposer plusieurs ateliers de cuisine autour de douceurs sucrées et salées, réalisées avec des ingrédients locaux, de saison et issus du circuit-court 🍰
 
 ![Des tartelettes jaunes décorées d’une inscription en chocolat](../../assets/migration/catalogue__ateliers-cuisine-sucr-ou-sal/02-_mg_8473.jpg)
 
-Dans une ambiance conviviale et bienveillante, prenez le temps de découvrir, comprendre et créer ensemble des recettes simples, savoureuses et respectueuses de notre environnement. Ces moments sont une invitation à ralentir, à mettre les mains à la pâte et à (re)trouver le plaisir de cuisiner en conscience, en valorisant des produits de qualité et en limitant le gaspillage.
+Dans une ambiance conviviale et bienveillante, prends le temps de découvrir, comprendre et créer ensemble des recettes simples, savoureuses et respectueuses de notre environnement. Ces moments sont une invitation à ralentir, à mettre les mains à la pâte et à (re)trouver le plaisir de cuisiner en conscience, en valorisant des produits de qualité et en limitant le gaspillage.
 
 Les confections sont réalisées à partir de matières premières locales, de saison et sans additifs (ni conservateurs, ni colorants chimiques).
 
 ## **Atelier Desserts** 🥧
 
-Vous pouvez avoir le choix entre :
+Tu peux avoir le choix entre :
 
 - Un crumble aux fruits du moment et sa glace 🍦
 - Une croûte aux fruits ou au caramel 🥧

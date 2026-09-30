@@ -12,4 +12,4 @@ embeds:
 
 <iframe src="https://app.les4sources.be/public/calendar-lodgings-modal?no_title=true" title="Calendrier des disponibilités des hébergements" loading="lazy" allowfullscreen class="embed embed-iframe"></iframe>
 
-N’hésitez pas à nous contacter à [sejours@les4sources.be](mailto:sejours@les4sources.be) en nous signalant les dates qui vous intéressent, nous reviendrons vers vous.
+N’hésite pas à nous contacter à [sejours@les4sources.be](mailto:sejours@les4sources.be) en nous signalant les dates qui t’intéressent, nous reviendrons vers toi.

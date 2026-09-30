@@ -27,7 +27,7 @@ Voici quelques heures ou chacun donne de soi au service du « nous ». Propositi
 
 - Durée : 2h à 8h (avec pauses)
 - Nombre de participant·es : maximum 20 personnes
-- Conditions spéciales : présentez-nous votre groupe à l’avance afin que nous puissions préparer un chantier en adéquation avec vos envies et vos possibilités
+- Conditions spéciales : présente-nous ton groupe à l’avance afin que nous puissions préparer un chantier en adéquation avec tes envies et tes possibilités
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 

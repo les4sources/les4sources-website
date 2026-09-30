@@ -7,13 +7,13 @@ coverAlt: "Une activité de groupe aux 4 Sources"
 icon: "🤸🏻‍♂️"
 ---
 
-Plongez-vous ensemble dans notre **écrin de verdure**, à la fois hors du monde et au cœur du vivant ! Nous vous proposons différentes activités dans notre **fermette bucolique**, entourée de nature à 360°. Artisanat, ressourcement, réflexion et/ou chantiers collectifs : vous vivrez des **moments dépaysants et inspirants, hors du commun et hors du temps.**
+Plonge-toi dans notre **écrin de verdure**, à la fois hors du monde et au cœur du vivant ! Nous te proposons différentes activités dans notre **fermette bucolique**, entourée de nature à 360°. Artisanat, ressourcement, réflexion et/ou chantiers collectifs : tu vivras des **moments dépaysants et inspirants, hors du commun et hors du temps.**
 
-Retrouvez nos activités à jour, classées en **3 catégories** : toujours disponible, sur demande, et en saison !
+Retrouve nos activités à jour, classées en **3 catégories** : toujours disponible, sur demande, et en saison !
 
 ## Toujours disponible 🌻
 
-Les activités suivantes sont disponibles, à demander lors de votre réservation. N’hésitez tout de même pas à nous contacter au préalable pour que nous puissions nous organiser !
+Les activités suivantes sont disponibles, à demander lors de ta réservation. N’hésite tout de même pas à nous contacter au préalable pour que nous puissions nous organiser !
 
 - [🍃 Un tour à la découverte du projet des 4 Sources](/catalogue/decouverte-du-projet-des-4-sources)
 - [🫏 Bain d’ânes](/catalogue/temps-avec-le-troupeau-d-anes)

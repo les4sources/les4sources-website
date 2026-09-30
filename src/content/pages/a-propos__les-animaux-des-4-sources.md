@@ -6,11 +6,11 @@ cover: "../../assets/migration/a-propos__les-animaux-des-4-sources/01-20251012_1
 coverAlt: "Les ânes des 4 Sources"
 ---
 
-Lors de votre visite, vous aurez l'occasion de faire la rencontre de notre cheptel d’ânes et d’Eventy, notre cheval, mais également de Poncho et Morgane, respectivement alpaga et lama. Vous y entendrez Shiny et ses cocottes et vous pourrez apercevoir quelques chats câlins. Chacun·e d'eux contribue à la vie et à l'énergie des 4 Sources et nous sommes ravi·es de partager leur présence avec vous.
+Lors de ta visite, tu auras l'occasion de faire la rencontre de notre cheptel d’ânes et d’Eventy, notre cheval, mais également de Poncho et Morgane, respectivement alpaga et lama. Tu y entendras Shiny et ses cocottes et tu pourras apercevoir quelques chats câlins. Chacun·e d'eux contribue à la vie et à l'énergie des 4 Sources et nous sommes ravi·es de partager leur présence avec toi.
 
 ## Les ânes des 4 Sources 🫏
 
-Nous partageons les espaces avec 26 ânes qui passent d’une prairie à l’autre au fil des saisons. Ce sont des partenaires d’entretien des pâtures incroyables qui œuvrent 7 jours sur 7, 24h sur 24.
+Nous partageons les espaces avec 25 ânes qui passent d’une prairie à l’autre au fil des saisons. Ce sont des partenaires d’entretien des pâtures incroyables qui œuvrent 7 jours sur 7, 24h sur 24.
 
 ## Eventy, the one and only cheval 🐴
 
@@ -18,7 +18,7 @@ Nous partageons les espaces avec 26 ânes qui passent d’une prairie à l’aut
 
 ## Poncho et Morgane 🦙
 
-En liberté sur le lieu après avoir vécu dans un refuge, ils font partie des mascottes des 4 Sources. Ne vous étonnez pas si vous les croisez sur la terrasse : leur bac de nourriture se trouve juste derrière le bar.
+En liberté sur le lieu après avoir vécu dans un refuge, ils font partie des mascottes des 4 Sources. Ne t’étonne pas si tu les croises sur la terrasse : leur bac de nourriture se trouve juste derrière le bar.
 
 <!-- columns -->
 <!-- column width="50%" -->
@@ -33,7 +33,7 @@ En liberté sur le lieu après avoir vécu dans un refuge, ils font partie des m
 
 ## Les poules et Shiny 🐔
 
-Nous avons 14 poules et un coq, Shiny. Vous ne pourrez pas le manquer si vous logez sur place, au moins à l’oreille : un vrai ténor !
+Nous avons 16 poules et un coq, Shiny. Tu ne pourras pas le manquer si tu loges sur place, au moins à l’oreille : un vrai ténor !
 
 <!-- columns -->
 <!-- column width="50%" -->

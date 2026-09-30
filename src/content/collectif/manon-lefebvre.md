@@ -9,7 +9,7 @@ photo: "../../assets/migration/collectif__manon-lefebvre/01-5177a898-9dd4-42a4-9
 <!-- columns -->
 <!-- column width="50%" -->
 
-Manon s’occupe de notre administration mais pas que ! Elle est aussi artisane, elle crée des boucles d’oreille en bois de récupération, et des objets de déco. Vous trouverez quelques unes de ses merveilles sur l’étagère artisanat, dans notre épicerie!
+Manon s’occupe de notre administration mais pas que ! Elle est aussi artisane, elle crée des boucles d’oreille en bois de récupération, et des objets de déco. Tu trouveras quelques unes de ses merveilles sur l’étagère artisanat, dans notre épicerie!
 
 [www.bouclela.be](http://www.bouclela.be)
 

@@ -20,7 +20,7 @@ seoTitle: "Chantier participatif — Vie collective"
 
 Découvre les 4 Sources d’une autre façon !
 
-Venez découvrir les 4 Sources en donnant un coup de main aux tâches qui occupent le collectif sur lieu : soin aux animaux, travail au potager, gestion des espaces verts, petites réparations, entretiens divers… les tâches évoluent selon les besoins et les saisons. Rien de tel pour rencontrer le collectif à travers une expérience commune !
+Viens découvrir les 4 Sources en donnant un coup de main aux tâches qui occupent le collectif sur lieu : soin aux animaux, travail au potager, gestion des espaces verts, petites réparations, entretiens divers… les tâches évoluent selon les besoins et les saisons. Rien de tel pour rencontrer le collectif à travers une expérience commune !
 
 > *”Ce temps d’immersion nous a permis de revoir ce que nous souhaitions mettre en priorité dans notre quotidien”*
 
@@ -36,7 +36,7 @@ Venez découvrir les 4 Sources en donnant un coup de main aux tâches qui occupe
 | 3h00 | 0€ | 0€ |
 | 4h00 | 0€ | 0€ |
 
-- Plus d’infos & réservation : envoyez un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
+- Plus d’infos & réservation : envoie un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 

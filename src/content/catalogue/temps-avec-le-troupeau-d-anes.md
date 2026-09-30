@@ -1,6 +1,6 @@
 ---
 title: "Bain d’ânes"
-description: "Venez passer un moment inoubliable en compagnie de notre troupeau d’ânes. Cette activité s'adresse à tous : groupes d'ami·es, familles, groupes de jeunes…"
+description: "Viens passer un moment inoubliable en compagnie de notre troupeau d’ânes. Cette activité s'adresse à tous : groupes d'ami·es, familles, groupes de jeunes…"
 legacyPath: "/catalogue/temps-avec-le-troupeau-d-anes"
 cover: "../../assets/migration/shared/8310a8380629-_G0A4772.jpg"
 coverAlt: "Bain d’ânes"
@@ -17,13 +17,13 @@ minParticipants: 1
 maxParticipants: 8
 ---
 
-### Vivez une expérience unique et apaisante en parfaite harmonie avec la nature et notre troupeau de 24 ânes !
+### Vis une expérience unique et apaisante en parfaite harmonie avec la nature et notre troupeau de 25 ânes !
 
-Venez passer un moment inoubliable en compagnie de notre troupeau d’ânes. Cette activité s'adresse à tous : groupes d'ami·es, familles, groupes de jeunes, associations et collègues. C'est une occasion unique de se ressourcer et de profiter des bienfaits apportés par la présence de ces animaux doux et affectueux.
+Viens passer un moment inoubliable en compagnie de notre troupeau d’ânes. Cette activité s'adresse à tous : groupes d'ami·es, familles, groupes de jeunes, associations et collègues. C'est une occasion unique de se ressourcer et de profiter des bienfaits apportés par la présence de ces animaux doux et affectueux.
 
-Au contact des ânes, vous pourrez vous détendre et vous déconnecter du stress quotidien. Les ânes sont des animaux très apaisants, connus pour leur douceur et leur patience. Leur simple présence a un effet calmant et thérapeutique.
+Au contact des ânes, tu pourras te détendre et te déconnecter du stress quotidien. Les ânes sont des animaux très apaisants, connus pour leur douceur et leur patience. Leur simple présence a un effet calmant et thérapeutique.
 
-Que vous veniez entre amis pour partager une expérience différente, en famille pour une sortie ludique et éducative, ou en groupe de travail pour un team building original, cette activité vous offrira un moment de détente et de bien-être. Venez faire le plein de sérénité en compagnie de notre troupeau d'ânes.
+Que tu viennes entre amis pour partager une expérience différente, en famille pour une sortie ludique et éducative, ou en groupe de travail pour un team building original, cette activité t’offrira un moment de détente et de bien-être. Viens faire le plein de sérénité en compagnie de notre troupeau d'ânes.
 
 ![Bain d’ânes](../../assets/migration/catalogue__temps-avec-le-troupeau-d-anes/02-5483f435-f8e5-4830-899f-e8ad284b1149.png)
 

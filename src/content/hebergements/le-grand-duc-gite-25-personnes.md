@@ -1,11 +1,11 @@
 ---
 title: "Le Grand-Duc"
-description: "Un logement pour groupe de caractère unique, jusqu’à 25 personnes, au cœur d'un écolieu où vivent 6 familles : 7 chambres avec salle de douche, sur 3 étages."
+description: "Un logement pour groupe de caractère unique, jusqu’à 23 personnes, au cœur d'un écolieu où vivent 6 familles : 7 chambres avec salle de douche, sur 3 étages."
 legacyPath: "/sejours/hebergements-yvoir/le-grand-duc-gite-25-personnes"
 cover: "../../assets/migration/sejours__hebergements-yvoir__le-grand-duc-gite-25-personnes/01-photo-1543549789-add7e987e50a.jpg"
 coverPosition: "50% 18%"
 coverAlt: "Le Grand-Duc"
-capacity: 25
+capacity: 23
 gallery:
   - "../../assets/migration/shared/096816461c46-_G0A2754.jpg"
   - "../../assets/migration/shared/7864d1223515-_G0A2782.jpg"
@@ -18,15 +18,15 @@ gallery:
   - "../../assets/migration/shared/5d995e8472aa-photo-5013018.jpg"
 ---
 
-Accueille toute la famille ou tout ton groupe et profite d'une grande terrasse exposée plein sud, entourée de forêts idéales pour de belles randonnées. Immergez-vous tous ensemble dans un cadre naturel magnifique avec des ânes, un lama, un alpaga et Eventy, notre fjord islandais.
+Accueille toute la famille ou tout ton groupe et profite d'une grande terrasse exposée plein sud, entourée de forêts idéales pour de belles randonnées. Immerge-toi avec eux dans un cadre naturel magnifique avec des ânes, un lama, un alpaga et Eventy, notre fjord islandais.
 
 Proche d'Yvoir, de Crupet et d'Evrehailles, c'est l'endroit idéal pour une escapade en pleine nature !
 
-## Pour 25 personnes 🛏️
+## Pour 23 personnes 🛏️
 
 Le Grand-Duc se situe dans une grande bâtisse rénovée et se compose de nos 2 hébergements, disponibles également indépendamment. Le reste du bâtiment, l’ancien corps de ferme, accueille une habitante et une grande salle disponible à la location.
 
-Ce logement pour 25 personnes se situe sur 3 étages et comprend :
+Ce logement pour 23 personnes se situe sur 3 étages et comprend :
 
 ### Au rez-de-chaussée
 
@@ -60,7 +60,7 @@ Chaque chambre dispose d'une salle de douche avec douche, lavabo et WC.
 
 ### Draps de lit
 
-Nous vous invitons à venir avec vos propres draps. Si nécessaire, nous fournissons des draps pour 10 €/lit.
+Nous t’invitons à venir avec tes propres draps. Si nécessaire, nous fournissons des draps pour 10 €/lit.
 
 ### Arrivée et départ
 

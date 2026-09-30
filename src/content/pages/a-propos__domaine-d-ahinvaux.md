@@ -6,7 +6,7 @@ cover: "../../assets/migration/a-propos__domaine-d-ahinvaux/01-1_-9.jpg"
 coverAlt: "Le Domaine d’Ahinvaux"
 ---
 
-**Les 4 Sources est un endroit idéalement situé pour ceux qui recherchent un refuge tranquille en pleine nature, tout en étant à proximité des sites naturels les plus remarquables de Wallonie.** Que vous soyez amateur·ices de paysages pittoresques, de sports de plein air ou simplement en quête de détente, la région environnante offre une multitude d'opportunités pour un séjour mémorable.
+**Les 4 Sources est un endroit idéalement situé pour ceux qui recherchent un refuge tranquille en pleine nature, tout en étant à proximité des sites naturels les plus remarquables de Wallonie.** Que tu sois amateur·ice de paysages pittoresques, de sports de plein air ou simplement en quête de détente, la région environnante offre une multitude d'opportunités pour un séjour mémorable.
 
 ## Géographie 🗺️
 

@@ -1,6 +1,6 @@
 ---
 title: "Pizza Party anniversaire + concert surprise"
-description: "Venez célébrer les 3 ans des 4 Sources lors d'une Pizza Party anniversaire suivie d'un concert surprise ! Réservez votre place dès maintenant et profitez…"
+description: "Viens célébrer les 3 ans des 4 Sources lors d'une Pizza Party anniversaire suivie d'un concert surprise ! Réserve ta place dès maintenant et profite…"
 legacyPath: "/evenements/pizza-party-anniversaire-concert-surprise"
 cover: "../../assets/migration/evenements__pizza-party-anniversaire-concert-surprise/01-photo-1514845505178-849cebf1a91d.jpg"
 coverAlt: "Pizza Party anniversaire + concert surprise"

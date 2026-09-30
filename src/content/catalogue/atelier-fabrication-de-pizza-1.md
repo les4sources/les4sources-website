@@ -1,6 +1,6 @@
 ---
 title: "Atelier pain au levain"
-description: "Vous avez toujours rêvé d’être un·e boulanger·e hors pair, qui parcourt le monde entier pour montrer son talent ? Non ? Alors simplement apprendre à…"
+description: "Tu as toujours rêvé d’être un·e boulanger·e hors pair, qui parcourt le monde entier pour montrer son talent ? Non ? Alors simplement apprendre à…"
 legacyPath: "/catalogue/atelier-fabrication-de-pizza-1"
 cover: "../../assets/migration/shared/c98f7a2d3f02-20260522_155714_6fed2a9a.jpg"
 coverAlt: "Atelier pain au levain"
@@ -14,13 +14,13 @@ properties:
 pole: "production"
 ---
 
-Vous avez toujours rêvé d’être un·e boulanger·e hors pair, qui parcourt le monde entier pour montrer son talent ? Non ? Alors simplement apprendre à confectionner du bon pain ? Oui ? Alors… 🍞
+Tu as toujours rêvé d’être un·e boulanger·e hors pair, qui parcourt le monde entier pour montrer son talent ? Non ? Alors simplement apprendre à confectionner du bon pain ? Oui ? Alors… 🍞
 
 ![Atelier pain au levain](../../assets/migration/catalogue__atelier-fabrication-de-pizza-1/02-20251115_100419_e1467a68.jpg)
 
 Pour cet atelier, on a du pain sur la planche… Une journée pour découvrir le processus de fabrication du pain dans la boulangerie des 4 Sources, du pétrissage, à l’enfournement en passant par le boulage.
 
-Vous serez immergé dans une journée de boulangerie pour comprendre les processus de fermentation lorsqu’on prépare un pain au levain, les plis et replis, les bonnes recettes, le fonctionnement du four au feu de bois…
+Tu seras immergé·e dans une journée de boulangerie pour comprendre les processus de fermentation lorsqu’on prépare un pain au levain, les plis et replis, les bonnes recettes, le fonctionnement du four au feu de bois…
 
 Pas de panique, nous serons dans le pétrin pour une bonne partie de la journée,  mais pour vivre un moment collectif et joyeux !
 

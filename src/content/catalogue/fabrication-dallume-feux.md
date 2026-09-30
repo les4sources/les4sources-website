@@ -1,6 +1,6 @@
 ---
 title: "Fabrication d’allume-feux"
-description: "Vous repartez avec ces petites boules de cire et de copeaux de bois qui sont vos alliées de choix pour allumer votre feu, votre cuisinière à bois, votre…"
+description: "Tu repars avec ces petites boules de cire et de copeaux de bois qui sont tes alliées de choix pour allumer ton feu, ta cuisinière à bois, ton…"
 legacyPath: "/catalogue/fabrication-dallume-feux"
 cover: "../../assets/migration/shared/d6c901565b9e-20260416_212002.jpg"
 coverAlt: "Fabrication d’allume-feux"
@@ -18,9 +18,9 @@ minParticipants: 1
 maxParticipants: 20
 ---
 
-### Lors de votre visite aux 4 Sources venez vous ambiancer autour d’une activité courte mais ludique : fabriquez des allume-feux !
+### Lors de ta visite aux 4 Sources viens t’ambiancer autour d’une activité courte mais ludique : fabrique des allume-feux !
 
-Vous repartez avec ces petites boules de cire et de copeaux de bois qui sont vos alliées de choix pour allumer votre feu, votre cuisinière à bois, votre barbecue, avec l’aisance d’un Robinson.
+Tu repars avec ces petites boules de cire et de copeaux de bois qui sont tes alliées de choix pour allumer ton feu, ta cuisinière à bois, ton barbecue, avec l’aisance d’un Robinson.
 
 Ce sera également l’occasion de tester les réchauds et cuisinières à bois low-tech fabriquées aux 4 Sources.
 
@@ -30,7 +30,7 @@ Ce sera également l’occasion de tester les réchauds et cuisinières à bois 
 
 - Durée : 1h30
 - Nombre de participant·es : 1 à 20 personnes
-- À prévoir : vêtements pour bricoler et pour être à l’extérieur Si vous avez des vieilles bougies, amenez-les ! 🕯️
+- À prévoir : vêtements pour bricoler et pour être à l’extérieur Si tu as des vieilles bougies, amène-les ! 🕯️
 - Prix : 90€
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)

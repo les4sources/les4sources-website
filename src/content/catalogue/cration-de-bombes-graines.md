@@ -1,6 +1,6 @@
 ---
 title: "Création de “bombes à graines”"
-description: "Une expérience enrichissante et éducative qui vous permettra de contribuer à la biodiversité de votre environnement d'une manière amusante et interactive."
+description: "Une expérience enrichissante et éducative qui te permettra de contribuer à la biodiversité de ton environnement d'une manière amusante et interactive."
 legacyPath: "/catalogue/cration-de-bombes-graines"
 cover: "../../assets/migration/shared/7702206bd289-photo-1505129028284-2bdc1f281fc7.jpg"
 coverAlt: "Création de “bombes à graines”"
@@ -20,13 +20,13 @@ maxParticipants: 16
 archived: true
 ---
 
-Une expérience enrichissante et éducative qui vous permettra de contribuer à la biodiversité de votre environnement d'une manière amusante et interactive.
+Une expérience enrichissante et éducative qui te permettra de contribuer à la biodiversité de ton environnement d'une manière amusante et interactive.
 
-Venez découvrir l'univers passionnant des plantes comestibles en créant vos propres "bombes" de graines. Cet atelier s'adresse à tous, que vous soyez un groupe d'associations, des familles, des groupes d'amis ou des collègues.
+Viens découvrir l'univers passionnant des plantes comestibles en créant tes propres "bombes" de graines. Cet atelier s'adresse à tous, que tu viennes avec un groupe d'associations, en famille, entre amis ou entre collègues.
 
-Vous choisirez les graines pour les combiner et créer votre propre bombe à graines.
+Tu choisiras les graines pour les combiner et créer ta propre bombe à graines.
 
-À la fin de l'atelier, vous pourrez emporter vos "bombes à graines” pour semer l'abondance autour de vous. C'est une manière ludique et engageante de contribuer à la biodiversité de votre environnement tout en apprenant plus sur les plantes comestibles.
+À la fin de l'atelier, tu pourras emporter tes "bombes à graines” pour semer l'abondance autour de toi. C'est une manière ludique et engageante de contribuer à la biodiversité de ton environnement tout en apprenant plus sur les plantes comestibles.
 
 ### En pratique
 
@@ -38,7 +38,7 @@ Vous choisirez les graines pour les combiner et créer votre propre bombe à gra
 | 1h00 | 60€ | \+ 7,5€/pers. | 195€ | \+ 5€/pers. | 320€ | \+ 3€/pers. | \+ 3€/pers |
 | 2h00 | 120€ | \+ 15€/pers. | 390€ | \+ 10€/pers. | 640€ | \+ 6€/pers. | \+ 3€/pers |
 
-- Plus d’infos & réservation : envoyez un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
+- Plus d’infos & réservation : envoie un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 

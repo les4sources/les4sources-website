@@ -35,7 +35,7 @@ Bienvenue le 18 septembre **dès 18h30** :
 - nos boulangères préparent de délicieux pâtons au levain le jour même
 - tu amènes ta garniture en fonction de tes envies
 - nous cuisons les pizzas au feu de bois entre 19h et 20h
-- et vous les dégustez en terrasse plein sud, 360°C nature !
+- et tu les dégustes en terrasse plein sud, 360°C nature !
 - en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂
 
 👍 Le four de boulangerie est chauffé au bois\
@@ -57,7 +57,7 @@ Le lien de l’inscription arrive bientôt ❤️
 
 ![Pizza Party !](../../assets/migration/evenements__pizza-party-septembre-2026-1/04-_mg_0307.jpg)
 
-> 🆕 L’inscription se passe désormais via billetweb.fr ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque ou passer par l’app Payconiq.
+> 🆕 L’inscription se passe désormais via billetweb.fr ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, tu devras introduire le numéro de ta carte de banque ou passer par l’app Payconiq.
 
 ### Prévisions météo
 

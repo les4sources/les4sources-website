@@ -1,6 +1,6 @@
 ---
 title: "Atelier pizza"
-description: "Vous avez toujours rêvé d’être un·e pizzaiolo hors pair, qui parcourt le monde entier pour montrer son talent ? Non ? Alors simplement apprendre à…"
+description: "Tu as toujours rêvé d’être un·e pizzaiolo hors pair, qui parcourt le monde entier pour montrer son talent ? Non ? Alors simplement apprendre à…"
 legacyPath: "/catalogue/atelier-pizza"
 cover: "../../assets/migration/shared/6856cf1c31e9-_mg_0320.jpg"
 coverAlt: "Atelier pizza"
@@ -16,7 +16,7 @@ pole: "production"
 maxParticipants: 15
 ---
 
-Vous avez toujours rêvé d’être un·e pizzaiolo hors pair, qui parcourt le monde entier pour montrer son talent ? Non ? Alors simplement apprendre à confectionner des vraies bonnes pizzas ? Oui ? Alors…
+Tu as toujours rêvé d’être un·e pizzaiolo hors pair, qui parcourt le monde entier pour montrer son talent ? Non ? Alors simplement apprendre à confectionner des vraies bonnes pizzas ? Oui ? Alors…
 
 ![Une pizza garnie dans un plat en métal, entourée d’autres pizzas](../../assets/migration/catalogue__atelier-pizza/02-_mg_0384.jpg)
 

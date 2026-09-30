@@ -1,6 +1,6 @@
 ---
 title: "Spectacle 16h : La petite chaperonne rouge 🎪"
-description: "Revisitez l’histoire du Petit Chaperon Rouge dans un spectacle qui dérape joyeusement, le dimanche 31 mai à 16h 😊"
+description: "Revisite l’histoire du Petit Chaperon Rouge dans un spectacle qui dérape joyeusement, le dimanche 31 mai à 16h 😊"
 legacyPath: "/evenements/spectacle-la-petite-chaperonne-rouge"
 cover: "../../assets/migration/evenements__spectacle-la-petite-chaperonne-rouge/01-evenement_gnral__a_-3.jpg"
 coverAlt: "Spectacle 16h : La petite chaperonne rouge 🎪"
@@ -25,7 +25,7 @@ registrationLabel: "Je prends ma place !"
 
 > 🤒 **Reporté ! Jean-Jérôme est malade !** Nous allons fixer une nouvelle date et revenons vers toutes les personnes inscrites.
 
-Revisitez l’histoire du Petit Chaperon Rouge dans un spectacle qui dérape joyeusement, le dimanche 31 mai à 16h 😊
+Revisite l’histoire du Petit Chaperon Rouge dans un spectacle qui dérape joyeusement, le dimanche 31 mai à 16h 😊
 
 Prêts à se déchaîner, Harmonie et Jean-Jérôme revêtent leur plus beau costume pour nous narrer l’histoire du Petit Chaperon Rouge.
 
@@ -33,7 +33,7 @@ Attachants, animés de l’envie de bien faire, ils voient malgré tout leur spe
 
 Harmonie, trop influencée par les débats sur les réseaux sociaux, est facilement perturbée. Et à la moindre frustration, elle est sur le point de dérailler !
 
-Comment Jean-Jérôme va-t-il l’aider à profiter de ce moment scénique tant attendu ? Préparez-vous à des moments de rires intenses et à des explosions d’émotions 💕
+Comment Jean-Jérôme va-t-il l’aider à profiter de ce moment scénique tant attendu ? Prépare-toi à des moments de rires intenses et à des explosions d’émotions 💕
 
 ![Deux comédiens jouent devant un décor peint, face au public en plein air](../../assets/migration/evenements__spectacle-la-petite-chaperonne-rouge/02-cie_artifice_2025-029_-5.jpg)
 

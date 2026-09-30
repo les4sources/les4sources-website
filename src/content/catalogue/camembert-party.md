@@ -1,6 +1,6 @@
 ---
 title: "Camembert Party pour groupes"
-description: "Découvrez cette mini-fondue sur mesure ! Trempez du pain frais dans votre fromage tout juste sorti du four à bois et dégoulinant à point. Agrémentez le tout…"
+description: "Découvre cette mini-fondue sur mesure ! Trempe du pain frais dans ton fromage tout juste sorti du four à bois et dégoulinant à point. Agrémente le tout…"
 legacyPath: "/catalogue/camembert-party"
 cover: "../../assets/migration/shared/29c8a142dcab-625821448_1206896078286493_7798068368539566867_n.jpg"
 coverAlt: "Camembert Party pour groupes"
@@ -18,22 +18,22 @@ minParticipants: 4
 maxParticipants: 48
 ---
 
-### Vivez un moment convivial, chaleureux et savoureux !
+### Vis un moment convivial, chaleureux et savoureux !
 
-Découvrez cette mini-fondue sur mesure ! Trempez du pain frais dans votre fromage tout juste sorti du four à bois et dégoulinant à point. Agrémentez le tout avec des petits légumes croustillants.
+Découvre cette mini-fondue sur mesure ! Trempe du pain frais dans ton fromage tout juste sorti du four à bois et dégoulinant à point. Agrémente le tout avec des petits légumes croustillants.
 
-Durant la journée, les boulangères vous auront préparé du pain et ce sont elles qui se chargeront de la cuisson de vos fromages et légumes dans le four à bois professionnel.
+Durant la journée, les boulangères t’auront préparé du pain et ce sont elles qui se chargeront de la cuisson de tes fromages et légumes dans le four à bois professionnel.
 
-Un moment tout particulier dont vous vous souviendrez… On l’espère.
+Un moment tout particulier dont tu te souviendras… On l’espère.
 
 ![Camembert Party pour groupes](../../assets/migration/catalogue__camembert-party/02-20251114_183305_d3bc2665-1.jpg)
 
 ### En pratique
 
 - Min. 10 personnes, excepté les jours de boulangerie (mardi et vendredi)
-- **Durée** : les mardis et vendredis, le four est chauffé par la boulangerie. Les mercredis, jeudis, samedis et dimanches, prévoir 3h de votre temps pour lancer et chauffer le four avant l’enfournement 🔥
+- **Durée** : les mardis et vendredis, le four est chauffé par la boulangerie. Les mercredis, jeudis, samedis et dimanches, prévoir 3h de ton temps pour lancer et chauffer le four avant l’enfournement 🔥
 - Enfournement des fromages et légumes entre 19h à 20h, au moment où le four est encore chaud suite à la cuisson des pains
-- À emporter : vos fromages et légumes préférés 🧄
+- À emporter : tes fromages et légumes préférés 🧄
 
 ### Tarifs
 

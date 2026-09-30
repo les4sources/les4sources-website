@@ -1,6 +1,6 @@
 ---
 title: "Construction de mini cabanes en terre-paille"
-description: "Construisez de vos mains un mini abri vernaculaire. Terre, paille, genêts. Vivez l’expérience d’élever de la terre en quelques heures, avec des matériaux…"
+description: "Construis de tes mains un mini abri vernaculaire. Terre, paille, genêts. Vis l’expérience d’élever de la terre en quelques heures, avec des matériaux…"
 legacyPath: "/catalogue/construction-de-mini-cabanes-en-terre-paille"
 cover: "../../assets/migration/shared/18b5518315e8-_cover_pour_le_site_4s.jpg"
 coverAlt: "Construction de mini cabanes en terre-paille"
@@ -14,9 +14,9 @@ properties:
 pole: "nature"
 ---
 
-### Un temps hors du temps pour vous reconnecter à votre âme de chasseur-cueilleur.
+### Un temps hors du temps pour te reconnecter à ton âme de chasseur-cueilleur.
 
-Construisez de vos mains un mini abri vernaculaire. Terre, paille, genêts. Vivez l’expérience d’élever de la terre en quelques heures, avec des matériaux naturels prélevés dans l’environnement direct et à la seule force de vos mains, un réel abri en taille réduite.
+Construis de tes mains un mini abri vernaculaire. Terre, paille, genêts. Vis l’expérience d’élever de la terre en quelques heures, avec des matériaux naturels prélevés dans l’environnement direct et à la seule force de tes mains, un réel abri en taille réduite.
 
 Images à venir !
 

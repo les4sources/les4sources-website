@@ -1,15 +1,15 @@
 ---
 title: "Un team building aux 4 Sources ?"
-description: "On vous ouvre nos portes pour un teambuilding qui change des habituelles journées en salle de conf'."
+description: "On t’ouvre nos portes pour un teambuilding qui change des habituelles journées en salle de conf'."
 legacyPath: "/un-team-building-aux-4-sources"
 icon: "🏨"
 ---
 
-## L'endroit idéal où votre équipe va enfin souffler 🌿
+## L'endroit idéal où ton équipe va enfin souffler 🌿
 
-On vous propose un cadre vert et ressourçant, des activités en plein air pour se dépenser (et bien rigoler, qui sait), des espaces de travail confortables pour les moments plus sérieux, et des hébergements sur place pour que la bonne ambiance se prolonge jusqu'au lendemain matin.
+On te propose un cadre vert et ressourçant, des activités en plein air pour se dépenser (et bien rigoler, qui sait), des espaces de travail confortables pour les moments plus sérieux, et des hébergements sur place pour que la bonne ambiance se prolonge jusqu'au lendemain matin.
 
-Pas de chichi, pas de superflu : juste ce qu'il faut pour que votre équipe reparte avec le sourire et de l'énergie à revendre.
+Pas de chichi, pas de superflu : juste ce qu'il faut pour que ton équipe reparte avec le sourire et de l'énergie à revendre.
 
 ## Des hébergements accueillants 🏡
 
@@ -28,13 +28,13 @@ Pas de chichi, pas de superflu : juste ce qu'il faut pour que votre équipe repa
 
 <!-- column width="50%" -->
 
-![Le Grand-Duc, gîte pour 25 personnes](../../assets/migration/shared/796c7c3be552-_G0A2834.jpg)
+![Le Grand-Duc, gîte pour 23 personnes](../../assets/migration/shared/796c7c3be552-_G0A2834.jpg)
 
 ### Le Grand-Duc
 
 🪄 *La Chevêche + La Hulotte = Le Grand-Duc*
 
-- Accueille jusqu’à **25 personnes**
+- Accueille jusqu’à **23 personnes**
 - Rez-de-chaussée, 1er et 2e étage
 - 7 chambres avec salle de douche
 - Mezzanine avec 2 lits d’appoint

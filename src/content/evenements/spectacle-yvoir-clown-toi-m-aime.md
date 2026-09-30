@@ -28,7 +28,7 @@ Quand la poésie rencontre une clown
 
 Quand la clown dé-couvre une femme !
 
-**Le samedi 31 janvier à 20h,** soyez la bienvenue dans le seule-en-scène de et avec Amélie Fiasse, mis en scène par Sun Lhonoré.
+**Le samedi 31 janvier à 20h,** sois le·la bienvenu·e dans le seule-en-scène de et avec Amélie Fiasse, mis en scène par Sun Lhonoré.
 
 "Clown-toi-m'aime", c'est un strip tease d'histoires, d'émotions, une réappropriation de son corps, une expression de son être dans sa vulnérabilité et sa puissance? C'est un récit de vie poétique et sensible, dans lequel chacun peut s'y reconnaitre.
 

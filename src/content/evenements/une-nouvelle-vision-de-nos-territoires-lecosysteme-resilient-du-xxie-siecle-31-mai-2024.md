@@ -1,7 +1,7 @@
 ---
 title: "Une nouvelle vision de nos territoires : l’écosystème résilient du XXIe siècle"
 seoTitle: "Une nouvelle vision de nos territoires : l’écosystème…"
-description: "Découvrez comment rassembler des projets citoyens et entrepreneuriaux innovants au sein d'un même territoire. Frédéric Bosqué partage son expérience avec…"
+description: "Découvre comment rassembler des projets citoyens et entrepreneuriaux innovants au sein d'un même territoire. Frédéric Bosqué partage son expérience avec…"
 legacyPath: "/evenements/une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024"
 cover: "../../assets/migration/evenements__une-nouvelle-vision-de-nos-territoires-lecosysteme-resilient-du-xxie-siecle-31-mai-2024/01-photo-1641706531193-03f3fa564779.jpg"
 coverAlt: "Une nouvelle vision de nos territoires : l’écosystème résilient du XXIe siècle"

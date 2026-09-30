@@ -1,6 +1,6 @@
 ---
 title: "Visite du potager en permaculture"
-description: "Découvrez les techniques durables de jardinage lors d’une session « plaisir » au potager des 4 Sources."
+description: "Découvre les techniques durables de jardinage lors d’une session « plaisir » au potager des 4 Sources."
 legacyPath: "/catalogue/visite-du-potager-en-permaculture"
 cover: "../../assets/migration/shared/d48967351e59-photo-1625395944199-3f09ebc31e5c.jpg"
 coverAlt: "Visite du potager en permaculture"
@@ -20,13 +20,13 @@ maxParticipants: 8
 archived: true
 ---
 
-Découvrez les techniques durables de jardinage lors d’une session « plaisir » au potager des 4 Sources.
+Découvre les techniques durables de jardinage lors d’une session « plaisir » au potager des 4 Sources.
 
-Venez découvrir les secrets de la permaculture lors de notre visite guidée du potager. Cette activité est idéale pour les groupes de jeunes, les groupes d'amis, les familles, les associations et les collègues qui souhaitent en savoir plus sur les techniques durables de jardinage.
+Viens découvrir les secrets de la permaculture lors de notre visite guidée du potager. Cette activité est idéale pour les groupes de jeunes, les groupes d'amis, les familles, les associations et les collègues qui souhaitent en savoir plus sur les techniques durables de jardinage.
 
-Au cours de la visite, vous aurez l'occasion de voir de près comment nous cultivons une variété de légumes et de fruits en utilisant des méthodes respectueuses de l'environnement. Vous apprendrez comment les principes de la permaculture peuvent aider à créer un jardin productif et durable.
+Au cours de la visite, tu auras l'occasion de voir de près comment nous cultivons une variété de légumes et de fruits en utilisant des méthodes respectueuses de l'environnement. Tu apprendras comment les principes de la permaculture peuvent aider à créer un jardin productif et durable.
 
-Cette activité est une excellente occasion de passer du temps en plein air, d'apprendre de nouvelles compétences et de prendre conscience de l'importance de l'agriculture durable. Nous vous attendons avec impatience pour cette visite enrichissante de notre potager en permaculture.
+Cette activité est une excellente occasion de passer du temps en plein air, d'apprendre de nouvelles compétences et de prendre conscience de l'importance de l'agriculture durable. Nous t’attendons avec impatience pour cette visite enrichissante de notre potager en permaculture.
 
 ### En pratique
 
@@ -39,7 +39,7 @@ Cette activité est une excellente occasion de passer du temps en plein air, d'a
 | 2h00 | 120€ | \+ 15€ en supplément |
 | 3h00 | 180€ | \+ 22,5€ en supplément |
 
-- Pus d’infos & réservation : envoyez un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
+- Pus d’infos & réservation : envoie un mail à [contact@les4sources.be](mailto:contact@les4sources.be)
 
 > 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 

@@ -5,14 +5,14 @@ legacyPath: "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes"
 cover: "../../assets/migration/sejours__hebergements-yvoir__la-hulotte-gite-16-personnes/01-photo-1553264646-7eb44743436f.jpg"
 coverPosition: "50% 30%"
 coverAlt: "La Hulotte"
-capacity: 16
+capacity: 15
 gallery:
   - "../../assets/migration/shared/096816461c46-_G0A2754.jpg"
   - "../../assets/migration/shared/7864d1223515-_G0A2782.jpg"
   - "../../assets/migration/shared/45c528537c2a-_G0A2780.jpg"
 ---
 
-Accueille toute la famille ou tout ton groupe et profite d'une grande terrasse exposée plein sud, entourée de forêts idéales pour de belles randonnées. Immergez-vous tous ensemble dans un cadre naturel magnifique avec des ânes, un lama, un alpaga et Eventy, notre fjord islandais.
+Accueille toute la famille ou tout ton groupe et profite d'une grande terrasse exposée plein sud, entourée de forêts idéales pour de belles randonnées. Immerge-toi avec eux dans un cadre naturel magnifique avec des ânes, un lama, un alpaga et Eventy, notre fjord islandais.
 
 Proche d'Yvoir, de Crupet et d'Evrehailles, c'est l'endroit idéal pour une escapade en pleine nature !
 
@@ -44,7 +44,7 @@ Chaque chambre dispose d'une salle de douche avec douche, lavabo et WC.
 
 ### Draps de lit
 
-Nous vous invitons à venir avec vos propres draps. Si nécessaire, nous fournissons des draps pour 10 €/lit.
+Nous t’invitons à venir avec tes propres draps. Si nécessaire, nous fournissons des draps pour 10 €/lit.
 
 ### Arrivée et départ
 

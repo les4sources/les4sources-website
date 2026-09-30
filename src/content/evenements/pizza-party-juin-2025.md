@@ -27,7 +27,7 @@ Bienvenue **dès 18h30** :
 - nos boulangères préparent de délicieux pâtons au levain le jour-même
 - tu amènes ta garniture en fonction de tes envies
 - nous cuisons les pizzas au feu de bois entre 19h et 20h
-- et vous les dégustez en terrasse plein sud, 360°C nature !
+- et tu les dégustes en terrasse plein sud, 360°C nature !
 - en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂
 
 👍 Le four de boulangerie est chauffé au bois\
@@ -43,6 +43,6 @@ Bienvenue **dès 18h30** :
 
 Les enfournements dans le four de tes pizzas ont lieu entre 18h45 et 20h, lorsque le four est encore chaud de la journée.
 
-> 🆕 L’inscription se passe désormais [via BilletWeb](https://www.billetweb.fr/pizza-party-de-juin-2025), ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, vous devrez introduire le numéro de votre carte de banque.
+> 🆕 L’inscription se passe désormais [via BilletWeb](https://www.billetweb.fr/pizza-party-de-juin-2025), ce qui permet de réserver plusieurs participations en une seule fois. Pour le paiement par Bancontact, tu devras introduire le numéro de ta carte de banque.
 
-**La Pizza Party est complète ! Bienvenue pour venir boire un verre - mais** 🅿️ **privilégiez de vous garer à la rue du Redeau en bas du sentier. Merci !**
+**La Pizza Party est complète ! Bienvenue pour venir boire un verre - mais** 🅿️ **privilégie de te garer à la rue du Redeau en bas du sentier. Merci !**

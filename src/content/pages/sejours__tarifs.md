@@ -11,12 +11,12 @@ coverAlt: "Tarifs des hébergements et salles"
 | Durée du séjour | [La Chevêche](/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes) · 8 personnes | [La Hulotte](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes) · 15 personnes | [Le Grand-Duc](/sejours/hebergements-yvoir/le-grand-duc-gite-25-personnes) · 23 personnes |
 | --- | --- | --- | --- |
 | 1 nuit en semaine | 200 € | 400 € | 650 € |
-| 1 nuit en week-end (uniquement du 15 novembre au 14 mars) | 260 € | 485 € | 750 € |
+| 1 nuit en week-end (uniquement du 15 novembre à la mi-mars) | 260 € | 485 € | 750 € |
 | un week-end (2 nuits) | 480 € | 910 € | 1 350 € |
 | du lundi au vendredi (4 nuits) | 780 € | 1 490 € | 2 410 € |
 | du lundi au dimanche (6 nuits) | 995 € | 1 900 € | 2 900 € |
 
-Charges, nettoyage et taxes compris. À emporter avec vous : draps de lit, essuies de bain, essuies de vaisselle et savons biodégradables.
+Charges, nettoyage et taxes compris. À emporter avec toi : draps de lit, essuies de bain, essuies de vaisselle et savons biodégradables.
 
 ### Services payants
 
@@ -27,7 +27,7 @@ Charges, nettoyage et taxes compris. À emporter avec vous : draps de lit, essui
 
 ### Lits et chambres, avec accès aux espaces partagés 🛌
 
-Seul·e, en couple, en famille ou en petits groupes, nous t’accueillons **en semaine uniquement**, les week-ends étant réservés aux groupes. Une chambre est mise à votre disposition et les espaces de vie (séjour et cuisine) sont partagés avec les autres personnes de passage.
+Seul·e, en couple, en famille ou en petits groupes, nous t’accueillons **en semaine uniquement**, les week-ends étant réservés aux groupes. Une chambre est mise à ta disposition et les espaces de vie (séjour et cuisine) sont partagés avec les autres personnes de passage.
 
 - Enfants jusqu’à 3 ans : gratuit
 - Enfants de 3 à 12 ans : 15 €/nuit
@@ -90,7 +90,7 @@ Découvre [les salles et la cuisine professionnelle](/sejours/salles) des 4 Sour
 
 *(\*\*) Journée complète : de 8h à 18h*
 
-*(\*\*\*) Forfait soir : pour prolonger votre location de jour jusqu’à 23h maximum*
+*(\*\*\*) Forfait soir : pour prolonger ta location de jour jusqu’à 23h maximum*
 
 ## Hébergements + salles + cuisine = la totale ! 🤩
 
@@ -98,7 +98,7 @@ Prend les 4 Sources à l’abordage et loue toute l’ancienne ferme !
 
 ### En basse saison 🗓️
 
-*Du 15 novembre au 15 mars à l’exception des congés de Noël. Réduction de 10 % à partir de 3 nuits, de 25 % pour 6 nuits.*
+*Du 15 novembre à la mi-mars à l’exception des congés de Noël. Réduction de 10 % à partir de 3 nuits, de 25 % pour 6 nuits.*
 
 |  | Lundi | Mardi | Mercr. | Jeudi | Vend. | Samedi | Dimanche |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -106,7 +106,7 @@ Prend les 4 Sources à l’abordage et loue toute l’ancienne ferme !
 
 ### En haute saison 🗓️
 
-*Du 16 mars au 14 novembre. Réduction de 10 % à partir de 3 nuits, de 25 % pour 6 nuits. 2 nuits minimum.*
+*De la mi-mars au 14 novembre. Réduction de 10 % à partir de 3 nuits, de 25 % pour 6 nuits. 2 nuits minimum.*
 
 |  | Lundi | Mardi | Mercr. | Jeudi | Vend. | Samedi | Dimanche |
 | --- | --- | --- | --- | --- | --- | --- | --- |

@@ -56,8 +56,8 @@ Découvre [notre collectif](/notre-collectif)
 
 Nos nombreux espaces accueillent tes séjours et activités entre collègues, entre amis ou tout simplement en famille.
 
-- **[2 gîtes](/sejours/hebergements-yvoir)** pouvant accueillir jusqu’à 25 personnes
-- **[une grande salle](/sejours/salles)** pour 30 à 100 personnes
+- **[2 gîtes](/sejours/hebergements-yvoir)** pouvant accueillir jusqu’à 23 personnes
+- **[une grande salle](/sejours/salles)** pour 30 à 80 personnes
 - **[une petite salle](/sejours/salles)** pour 10 à 30 personnes
 - une **[cuisine professionnelle](/sejours/salles)**
 - **[un bivouac](/sejours/bivouac)** pour tentes et hamacs
@@ -67,7 +67,7 @@ Nos nombreux espaces accueillent tes séjours et activités entre collègues, en
 
 ## La Guinguette des 4 Sources 🍹
 
-**WOW, nous avons récolté près de 20.000€ grâce à plus de 115 donatrices et donateurs !** Merci de nous avoir soutenu, maintenant à nous de jouer pour sublimer la terrasse 🙂 Et, et et… Saviez-vous qu’il était toujours possible de nous soutenir ?
+**WOW, nous avons récolté près de 20.000€ grâce à plus de 115 donatrices et donateurs !** Merci de nous avoir soutenu, maintenant à nous de jouer pour sublimer la terrasse 🙂 Et, et et… Savais-tu qu’il était toujours possible de nous soutenir ?
 
 <a class="button" href="/nous-soutenir">💌 Nous soutenir</a>
 
@@ -130,7 +130,7 @@ Télécharge notre carte de randonnées au départ des 4 Sources, avec des balad
 
 **🍕** [Une Pizza Party pour ton groupe ?](/catalogue/pizza-ou-camembert-party)
 
-C’est possible le mardi soir et le vendredi soir aux 4 Sources ! Par temps plus frais, couplez votre Pizza Party privée avec la location de notre petite salle !
+C’est possible le mardi soir et le vendredi soir aux 4 Sources ! Par temps plus frais, couple ta Pizza Party privée avec la location de notre petite salle !
 
 Révise ton italien et viens chanter Eros Ramazzotti en cuisant de délicieuses pizzas avec tes amis ou ta famille dans notre four à bois.
 

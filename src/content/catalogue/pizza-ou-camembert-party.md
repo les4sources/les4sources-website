@@ -18,13 +18,13 @@ minParticipants: 4
 maxParticipants: 60
 ---
 
-### Rien de tel qu’une Pizza Party pour souder votre groupe autour d’un délicieux repas ! 😋
+### Rien de tel qu’une Pizza Party pour souder ton groupe autour d’un délicieux repas ! 😋
 
 Un moment convivial où chacun·e met la main à la pâte.
 
-Les boulangères vous concoctent des pâtons au levain et mettent à votre disposition tout le matériel de cuisson 🔥 Vous amenez de quoi garnir la pâte et profitez d’une cuisson au feu de bois dans le four professionnel des boulangères.
+Les boulangères te concoctent des pâtons au levain et mettent à ta disposition tout le matériel de cuisson 🔥 Tu amènes de quoi garnir la pâte et profites d’une cuisson au feu de bois dans le four professionnel des boulangères.
 
-Vous gérez le feu et la cuisson du four, vous permettant d’enfourner 30 pizzas à la fois ! De quoi vous régaler et permettre à chacun·e de partager ses talents culinaires !
+Tu gères le feu et la cuisson du four, te permettant d’enfourner 30 pizzas à la fois ! De quoi te régaler et permettre à chacun·e de partager ses talents culinaires !
 
 Que la meilleure pizza … soit dégustée comme il se doit ! 🍕
 
@@ -35,9 +35,9 @@ Que la meilleure pizza … soit dégustée comme il se doit ! 🍕
 ### En pratique
 
 - Min. 15 participant·es (excepté les jours de boulangerie (mardi et vendredi))
-- Activité réalisable **à la demande**, midis et soirs, tous les jours **sauf le lundi.** ⚠️ Les mercredis, jeudis, samedis et dimanches, votre groupe doit prévoir **3h30** de chauffe avant de pouvoir enfourner 🔥
+- Activité réalisable **à la demande**, midis et soirs, tous les jours **sauf le lundi.** ⚠️ Les mercredis, jeudis, samedis et dimanches, ton groupe doit prévoir **3h30** de chauffe avant de pouvoir enfourner 🔥
 - Le four est chaud **les mardis et vendredis** (pour les cuissons de la boulangerie)
-- Vous amenez tous vos ingrédients pour garnir vos pâtes à pizzas : passata, légumes, fromages…
+- Tu amènes tous tes ingrédients pour garnir tes pâtes à pizzas : passata, légumes, fromages…
 
 ### Tarifs
 

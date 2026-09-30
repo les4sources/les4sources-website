@@ -10,7 +10,7 @@ icon: "🧉"
 
 #### Le bar des 4 Sources accueille les marcheur·euse·s et cyclistes du lever au coucher du soleil, ainsi que toutes les personnes de passage sur le lieu pour une activité ou une location.
 
-Implanté au cœur de la clairière, notre bar vous permet de profiter de la magnifique terrasse plein sud. Il est accessible à pied, à cheval ou à vélo, depuis les villages de Bauche, Crupet et Yvoir ainsi qu’à travers la Forêt domaniale de Tricointe.
+Implanté au cœur de la clairière, notre bar te permet de profiter de la magnifique terrasse plein sud. Il est accessible à pied, à cheval ou à vélo, depuis les villages de Bauche, Crupet et Yvoir ainsi qu’à travers la Forêt domaniale de Tricointe.
 
 L’accès en voiture est réservé à celles et ceux qui viennent pour une location ou activité organisée par Les 4 Sources.
 

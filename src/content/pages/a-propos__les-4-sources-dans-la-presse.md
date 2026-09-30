@@ -13,7 +13,7 @@ embeds:
     title: "www.youtube.com"
 ---
 
-> 🎙️ Contactez-nous pour toute demande de tournage ou d’interview : [contact@les4sources.be](mailto:contact@les4sources.be).
+> 🎙️ Contacte-nous pour toute demande de tournage ou d’interview : [contact@les4sources.be](mailto:contact@les4sources.be).
 
 ## Au cœur de la vallée du Bocq 📻
 

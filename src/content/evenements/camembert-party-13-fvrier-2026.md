@@ -40,13 +40,13 @@ Bienvenue **ce 13 mars, dès 18h30** :
 
 ## Et pour cette édition, notre partenaire [DiscGolf](https://www.discgolfattitude.be/) propose…
 
-Au programme : la mythique Camembert Party (attention aux drives bien coulants) suivie d'un petit Glow Contest après le repas. L'occasion parfaite de tester vos plus belles lignes... même dans la nuit !
+Au programme : la mythique Camembert Party (attention aux drives bien coulants) suivie d'un petit Glow Contest après le repas. L'occasion parfaite de tester tes plus belles lignes... même dans la nuit !
 
-Que votre putting soit aussi précis que votre découpe de fromage !
+Que ton putting soit aussi précis que ta découpe de fromage !
 
-Cerise sur le panier : le club a réussi un joli coup (presque un ace !) en achetant des disques Glow à prix très intéressant : ils seront en vente pendant le souper au prix d'achat de 14 €. De quoi illuminer vos prochains parcours !
+Cerise sur le panier : le club a réussi un joli coup (presque un ace !) en achetant des disques Glow à prix très intéressant : ils seront en vente pendant le souper au prix d'achat de 14 €. De quoi illuminer tes prochains parcours !
 
-Vous pouvez donc participer, ou non, à une session de disc-golf ce 13 mars ! Pas besoin d’inscription si ce n’est celle de la Camembert Party.
+Tu peux donc participer, ou non, à une session de disc-golf ce 13 mars ! Pas besoin d’inscription si ce n’est celle de la Camembert Party.
 
 ![Un joueur lance un disque vers une corbeille de disc-golf dans une prairie](../../assets/migration/evenements__camembert-party-13-fvrier-2026/02-202210910_2981222505532898_253882220115932684_n.jpg)
 

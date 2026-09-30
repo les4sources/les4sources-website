@@ -1,6 +1,6 @@
 ---
 title: "Construction d’objets en acier de récup’"
-description: "Apprenez à transformer de simples pièces d'acier en objets uniques et fonctionnels."
+description: "Apprends à transformer de simples pièces d'acier en objets uniques et fonctionnels."
 legacyPath: "/catalogue/cration-de-bijoux-en-matriaux-de-rcup"
 cover: "../../assets/migration/shared/b6cf2f217fc8-img_20231113_085355.jpg"
 coverAlt: "Construction d’objets en acier de récup’"
@@ -18,11 +18,11 @@ minParticipants: 3
 maxParticipants: 10
 ---
 
-Apprenez à transformer de simples pièces d'acier en objets uniques et fonctionnels.
+Apprends à transformer de simples pièces d'acier en objets uniques et fonctionnels.
 
-Débutant·e ou expert·e, notre équipe vous guidera à travers chaque étape du processus.
+Débutant·e ou expert·e, notre équipe te guidera à travers chaque étape du processus.
 
-Cet atelier vous invite à découvrir l’art de transformer l’acier de récupération en objets uniques et fonctionnels. Que vous soyez débutant·e ou expert·e, vous apprendrez les techniques de base pour travailler ce matériau robuste et durable. Sous la supervision de notre instructeur Seb, vous aurez l'occasion de manipuler des outils de découpe, de façonnage et de soudure pour créer votre propre objet en acier. Du simple bougeoir ou brasero, les possibles sont multiples selon les heures dont vous disposez.
+Cet atelier t’invite à découvrir l’art de transformer l’acier de récupération en objets uniques et fonctionnels. Que tu sois débutant·e ou expert·e, tu apprendras les techniques de base pour travailler ce matériau robuste et durable. Sous la supervision de notre instructeur Seb, tu auras l'occasion de manipuler des outils de découpe, de façonnage et de soudure pour créer ton propre objet en acier. Du simple bougeoir ou brasero, les possibles sont multiples selon les heures dont tu disposes.
 
 ### En pratique
 

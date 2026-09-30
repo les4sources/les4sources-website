@@ -7,7 +7,7 @@ coverAlt: "L’espace de coworking des 4 Sources"
 icon: "💼"
 ---
 
-Ici, nous vous proposons un espace avec 3 bureaux disponibles, accessible **du lundi au vendredi (excepté le jeudi) de 8h à 20h**.
+Ici, nous te proposons un espace avec 3 bureaux disponibles, accessible **du lundi au vendredi (excepté le jeudi) de 8h à 20h**.
 
 ![Un bureau du coworking, face à la clairière](../../assets/migration/coworking/02-_G0A4644.jpg)
 

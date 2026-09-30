@@ -7,13 +7,13 @@ coverAlt: "Une fête d’anniversaire aux 4 Sources"
 icon: "🎂"
 ---
 
-Que vous soyez en famille, entre amis ou en petit collectif, composez votre célébration à la carte avec hébergements, salles conviviales et activités mémorables. Les 4 Sources, c’est 15 hectares de nature classée Natura 2000, un habitat collectif et des valeurs fortes.
+Que tu sois en famille, entre amis ou en petit collectif, compose ta célébration à la carte avec hébergements, salles conviviales et activités mémorables. Les 4 Sources, c’est 15 hectares de nature classée Natura 2000, un habitat collectif et des valeurs fortes.
 
 ![Une fête sur la terrasse des 4 Sources](../../assets/migration/anniversaire/02-20250726_134302_9770D844.jpg)
 
 ## Dormir sur place pour prolonger la fête 🌙
 
-Des gîtes pour 8, 15 ou 25 personnes. Une terrasse plein sud pour boire un verre ou pour un grand repas festif. Une cuisine équipée. Et un espace bivouac pour dormir sous tente, hamac ou en van aménagé.
+Des gîtes pour 8, 15 ou 23 personnes. Une terrasse plein sud pour boire un verre ou pour un grand repas festif. Une cuisine équipée. Et un espace bivouac pour dormir sous tente, hamac ou en van aménagé.
 
 → [Découvre nos hébergements](/sejours/hebergements-yvoir)
 

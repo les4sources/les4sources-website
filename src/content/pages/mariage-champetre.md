@@ -1,6 +1,6 @@
 ---
 title: "Un mariage champêtre aux 4 Sources"
-description: "Venez célébrer votre mariage aux 4 Sources, au cœur de la clairière, entouré·es de bois, d’animaux, de vos amis et de votre famille."
+description: "Viens célébrer ton mariage aux 4 Sources, au cœur de la clairière, entouré·e de bois, d’animaux, de tes amis et de ta famille."
 legacyPath: "/mariage-champetre"
 cover: "../../assets/migration/mariage-champetre/01-photo-4995726.jpg"
 coverAlt: "Un mariage champêtre aux 4 Sources"
@@ -11,7 +11,7 @@ icon: "💍"
 
 ![Un mariage aux 4 Sources](../../assets/migration/mariage-champetre/02-20260704_171252_d97e983d.jpg)
 
-C'est avec une immense joie que nous vous le proposons : venez célébrer votre mariage aux 4 Sources ! Eh oui, il est possible d'organiser la Fête de votre vie (en fait, on vous souhaite des fêtes en permanence) ici, au cœur de la clairière, entouré·es de bois, d'animaux, de vos amis et de votre famille 🐎 Un mariage champêtre, une cérémonie forestière… Tant de possibilités dans la verdure 🍃
+C'est avec une immense joie que nous te le proposons : viens célébrer ton mariage aux 4 Sources ! Eh oui, il est possible d'organiser la Fête de ta vie (en fait, on te souhaite des fêtes en permanence) ici, au cœur de la clairière, entouré·e de bois, d'animaux, de tes amis et de ta famille 🐎 Un mariage champêtre, une cérémonie forestière… Tant de possibilités dans la verdure 🍃
 
 <!-- columns -->
 <!-- column width="50%" -->
@@ -48,7 +48,7 @@ C'est avec une immense joie que nous vous le proposons : venez célébrer votre 
 
 ## Dormir sur place pour prolonger la fête 🌙
 
-Il est aussi possible de louer le gîte pour dormir sur place (8, 15 ou 25 personnes), et/ou un espace bivouac pour dormir sous tente, hamac ou en van aménagé.
+Il est aussi possible de louer le gîte pour dormir sur place (8, 15 ou 23 personnes), et/ou un espace bivouac pour dormir sous tente, hamac ou en van aménagé.
 
 → [Découvre nos hébergements](/sejours/hebergements-yvoir)
 
@@ -62,14 +62,14 @@ Il est aussi possible de louer le gîte pour dormir sur place (8, 15 ou 25 perso
 ![Les invités dans la clairière](../../assets/migration/mariage-champetre/16-20260704_173323_11de7180.jpg)
 <!-- /columns -->
 
-## Des expériences enrichissantes pour tous vos invités 🎒
+## Des expériences enrichissantes pour tous tes invités 🎒
 
-Composez une fête sur-mesure avec des expériences uniques : ateliers d’artisanat ou de cuisine, découverte de la nature et du projet, disc-golf, bain d’ânes…
+Compose une fête sur-mesure avec des expériences uniques : ateliers d’artisanat ou de cuisine, découverte de la nature et du projet, disc-golf, bain d’ânes…
 
 <a class="button" href="/catalogue">Le catalogue des activités</a>
 
 ![Le Grand-Duc, pour dormir sur place](../../assets/migration/mariage-champetre/18-_g0a2754.jpg)
 
-Bref, ce n'est pas nous qui nous marions mais nous sommes aussi enthousiastes à l'idée de vous accueillir. Et on sait qu'un mariage, ça se prépare quelques mois à l'avance…
+Bref, ce n'est pas nous qui nous marions mais nous sommes aussi enthousiastes à l'idée de t’accueillir. Et on sait qu'un mariage, ça se prépare quelques mois à l'avance…
 
-> 🎂 **Prêt·e à célébrer un mariage inoubliable ?** Contacte Malau pour imaginer ensemble la fête qui vous ressemble, à **[sejours@les4sources.be](mailto:sejours@les4sources.be)** ou au **+32 (0)490 46 77 10**.
+> 🎂 **Prêt·e à célébrer un mariage inoubliable ?** Contacte Malau pour imaginer ensemble la fête qui te ressemble, à **[sejours@les4sources.be](mailto:sejours@les4sources.be)** ou au **+32 (0)490 46 77 10**.

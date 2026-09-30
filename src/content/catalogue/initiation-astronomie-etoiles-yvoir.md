@@ -1,6 +1,6 @@
 ---
 title: "Initiation à l’astronomie et observation des étoiles"
-description: "Apprenez à identifier les constellations, à comprendre les phases de la lune ou à découvrir les secrets des étoiles. Que vous soyez des amateur·ices…"
+description: "Apprends à identifier les constellations, à comprendre les phases de la lune ou à découvrir les secrets des étoiles. Que tu sois amateur·ice…"
 legacyPath: "/catalogue/initiation-astronomie-etoiles-yvoir"
 cover: "../../assets/migration/shared/12368e51d844-initiation__lastronomie_et_observation_des_toiles.jpg"
 coverAlt: "Initiation à l’astronomie et observation des étoiles"
@@ -18,12 +18,12 @@ minParticipants: 2
 maxParticipants: 20
 ---
 
-### Découvrez les merveilles de l'univers et approfondissez vos connaissances en astronomie lors de notre atelier d'observation des étoiles.
+### Découvre les merveilles de l'univers et approfondis tes connaissances en astronomie lors de notre atelier d'observation des étoiles.
 
 <!-- columns -->
 <!-- column width="62.5%" -->
 
-Apprenez à identifier les constellations, à comprendre les phases de la lune ou à découvrir les secrets des étoiles. Que vous soyez des amateur·ices d'astronomie en herbe ou des passionné·es du ciel étoilé, cet atelier est une excellente occasion de se rassembler et d'apprendre ensemble.
+Apprends à identifier les constellations, à comprendre les phases de la lune ou à découvrir les secrets des étoiles. Que tu sois amateur·ice d'astronomie en herbe ou passionné·e du ciel étoilé, cet atelier est une excellente occasion de se rassembler et d'apprendre ensemble.
 
 <!-- column width="37.5%" -->
 
@@ -46,7 +46,7 @@ Apprenez à identifier les constellations, à comprendre les phases de la lune o
 
 En toute saison en Belgique, un ciel dégagé n'est jamais garanti.
 
-Notez que les risques de ciel nébuleux sont plus grands en hiver qu'en été. Cependant, si le ciel est plus souvent dégagé en été, la nuit tombe également plus tard à cette période et se fait moins noire pendant toute une période allant environ de fin mai à mi-juillet. Bien qu'il soit toujours possible d'observer le ciel et ses astres à cette période, sachez que le soleil se couchera fort tard et que nous ne verrons les étoiles que bien après qu'il soit couché et en moins grand nombre (car il n'y a pas ce que les astronomes appellent le crépuscule astronomique). Ce n'est donc pas une période idéale pour l'observation.
+Note que les risques de ciel nébuleux sont plus grands en hiver qu'en été. Cependant, si le ciel est plus souvent dégagé en été, la nuit tombe également plus tard à cette période et se fait moins noire pendant toute une période allant environ de fin mai à mi-juillet. Bien qu'il soit toujours possible d'observer le ciel et ses astres à cette période, sache que le soleil se couchera fort tard et que nous ne verrons les étoiles que bien après qu'il soit couché et en moins grand nombre (car il n'y a pas ce que les astronomes appellent le crépuscule astronomique). Ce n'est donc pas une période idéale pour l'observation.
 
 Il redevient intéressant d'observer les étoiles dès la fin juillet - début août (retour du crépuscule astronomique), avec une date particulièrement intéressante vers la mi-août avec la nuit des étoiles filantes. À partir de là, les nuits redeviennent plus longues, plus sombres et tombent plus tôt.
 

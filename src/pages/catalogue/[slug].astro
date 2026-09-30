@@ -31,6 +31,17 @@ interface Props {
 
 const { experience } = Astro.props;
 
+/**
+ * Fiches retirées (statut « Indisponible ») : l'URL reste servie — c'est un
+ * contrat —, mais hors index. Quand une fiche active la remplace, elle devient
+ * la canonique : les moteurs reportent sur elle ce que l'ancienne avait acquis.
+ */
+const SUCCESSORS: Record<string, string> = {
+  chantier: "/catalogue/chantier-participatif",
+  "cration-de-bombes-graines": "/catalogue/fabrication-de-bombes-graines",
+  "balade-avec-un-ane": "/catalogue/temps-avec-le-troupeau-d-anes",
+};
+
 const legacy = experience.legacyId ? await getEntry("catalogue", experience.legacyId) : undefined;
 const rendered = legacy ? await render(legacy) : undefined;
 const Content = rendered?.Content;
@@ -103,7 +114,13 @@ const jsonld = [
 ];
 ---
 
-<BaseLayout title={experience.seoTitle ?? experience.title} description={description} jsonld={jsonld}>
+<BaseLayout
+  title={experience.seoTitle ?? experience.title}
+  description={description}
+  noindex={experience.archived === true}
+  canonicalPath={experience.archived === true ? SUCCESSORS[experience.slug] : undefined}
+  jsonld={jsonld}
+>
   <PageHero
     title={experience.title}
     lead={displayDescription(experience.description, experience.generatedDescription)}

@@ -1,13 +1,13 @@
 ---
 title: "Mise au vert aux 4 Sources, pour petites équipes engagées"
-description: "Votre mise au vert au cœur d'un tiers-lieu de 15 ha à Yvoir. Salles, hébergements et ateliers pour 6 à 25 personnes. Devis sur demande."
+description: "Ta mise au vert au cœur d'un tiers-lieu de 15 ha à Yvoir. Salles, hébergements et ateliers pour 6 à 23 personnes. Devis sur demande."
 legacyPath: "/sejours/mises-au-vert"
 cover: "../../assets/migration/sejours__mises-au-vert/01-img_4040.jpg"
 coverAlt: "Mise au vert aux 4 Sources, pour petites équipes engagées"
 icon: "🍃"
 ---
 
-Les 4 Sources, c'est 15 hectares de nature entre Namur et Dinant, à Yvoir ; un vrai bol d'air pour les équipes qui ont besoin de se retrouver ailleurs qu'au bureau. ASBL, professions libérales, collectifs, startups : de 6 à 25 personnes, on vous accueille les bras ouverts pour une mise au vert qui fait du bien.
+Les 4 Sources, c'est 15 hectares de nature entre Namur et Dinant, à Yvoir ; un vrai bol d'air pour les équipes qui ont besoin de se retrouver ailleurs qu'au bureau. ASBL, professions libérales, collectifs, startups : de 6 à 23 personnes, on t’accueille les bras ouverts pour une mise au vert qui fait du bien.
 
 ![Une équipe en mise au vert aux 4 Sources](../../assets/migration/sejours__mises-au-vert/02-dclic_1.jpg)
 
@@ -22,13 +22,13 @@ On nous choisit particulièrement quand on est :
 - Un **collectif** qui a besoin d'un cadre pour une journée de gouvernance ou de prise de décision
 - Une **petite startup** ou une **PME** qui veut sortir du bureau pour un lancement, un bilan, un sprint ou un hackaton
 
-Les groupes que nous recevons comptent généralement entre **6 et 25 personnes**.
+Les groupes que nous recevons comptent généralement entre **6 et 23 personnes**.
 
 ![Réunion d’équipe dans la petite salle](../../assets/migration/sejours__mises-au-vert/03-img_4040.jpg)
 
 ### Nos formules
 
-Trois formats, selon ce dont vous avez besoin.
+Trois formats, selon ce dont tu as besoin.
 
 #### ☀️ La journée au vert
 
@@ -36,11 +36,11 @@ Pour une journée stratégique, un bilan trimestriel, un atelier de cohésion. D
 
 #### 🌙 Le 24 h résidentiel
 
-**Une journée + une nuit sur place.** Le format que nos équipes préfèrent : un souper partagé le soir, un petit-déjeuner copieux, et une seconde demi-journée pour consolider. Arrivée la veille 16h, départ le lendemain 17h. De 6 à 25 personnes.
+**Une journée + une nuit sur place.** Le format que nos équipes préfèrent : un souper partagé le soir, un petit-déjeuner copieux, et une seconde demi-journée pour consolider. Arrivée la veille 16h, départ le lendemain 17h. De 6 à 23 personnes.
 
 #### 🌿 La longue mise au vert
 
-**Deux nuits, trois jours.** Pour un séminaire complet, une retraite d'équipe, ou un moment de ressourcement en profondeur. Idéal en semaine. Possibilité d'intégrer [un ou plusieurs ateliers de notre catalogue](/catalogue). De 6 à 25 personnes.
+**Deux nuits, trois jours.** Pour un séminaire complet, une retraite d'équipe, ou un moment de ressourcement en profondeur. Idéal en semaine. Possibilité d'intégrer [un ou plusieurs ateliers de notre catalogue](/catalogue). De 6 à 23 personnes.
 
 ![Pause sur la terrasse](../../assets/migration/sejours__mises-au-vert/04-img_6987.jpg)
 
@@ -48,7 +48,7 @@ Pour une journée stratégique, un bilan trimestriel, un atelier de cohésion. D
 
 Pour que tu puisses te concentrer sur ton équipe et rien d'autre :
 
-- 🏡 **Hébergement** en gîte résidentiel (jusqu’à 25 personnes)
+- 🏡 **Hébergement** en gîte résidentiel (jusqu’à 23 personnes)
 - 🪑 **Salle de travail privative** lumineuse et équipée (vidéoprojecteur et écran, flipchart, WiFi, jusqu’à 25 personnes)
 - ☕ **Pauses café-thé** avec viennoiseries maison ou goûter aux plantes sauvages
 - 🔥 **Espaces communs** : terrasse, jardin
@@ -66,7 +66,7 @@ Une mise au vert, c'est un moment hors-bureau que s'offre une équipe pour prend
 
 #### Combien de personnes pouvez-vous accueillir ?
 
-De **6 à 25 personnes en formule résidentielle** (avec hébergement sur place). Jusqu'à **50-60 personnes en journée** sans nuitée.
+De **6 à 23 personnes en formule résidentielle** (avec hébergement sur place). Jusqu'à **50-60 personnes en journée** sans nuitée.
 
 #### Faut-il une voiture pour venir ?
 
@@ -127,7 +127,7 @@ Pizza party au four à bois, ateliers cuisine, fabrication d’allume-feux ou de
 
 ### Travailler au calme… 🍃
 
-Vous souhaitez trouver un lieu au calme, avec une nature environnante exceptionnelle pour mieux vous concentrer pendant certaines périodes de votre mise au vert ? Profitez de [notre coworking](/coworking) avec 3 bureaux. Chaises confortables, wifi, imprimante et écrans 24” HDMI.
+Tu souhaites trouver un lieu au calme, avec une nature environnante exceptionnelle pour mieux te concentrer pendant certaines périodes de ta mise au vert ? Profite de [notre coworking](/coworking) avec 3 bureaux. Chaises confortables, wifi, imprimante et écrans 24” HDMI.
 
 ![Le coworking dans la Clairière](../../assets/migration/sejours__mises-au-vert/22-img-20240314-wa0036.jpg)
 

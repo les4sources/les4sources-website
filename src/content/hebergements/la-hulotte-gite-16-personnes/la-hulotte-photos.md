@@ -2,7 +2,7 @@
 title: "La Hulotte (photos)"
 description: "La Hulotte (photos) — Les 4 Sources, tiers-lieu à Yvoir"
 legacyPath: "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos"
-capacity: 16
+capacity: 15
 gallery:
   - "../../../assets/migration/shared/096816461c46-_G0A2754.jpg"
   - "../../../assets/migration/shared/7864d1223515-_G0A2782.jpg"

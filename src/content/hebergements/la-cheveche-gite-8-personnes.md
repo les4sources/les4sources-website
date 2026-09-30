@@ -15,7 +15,7 @@ gallery:
   - "../../assets/migration/shared/5d995e8472aa-photo-5013018.jpg"
 ---
 
-Accueille toute la famille ou tout ton groupe et profite d'une grande terrasse exposée plein sud, entourée de forêts idéales pour de belles randonnées. Immergez-vous tous ensemble dans un cadre naturel magnifique avec des ânes, un lama, un alpaga et Eventy, notre fjord islandais.
+Accueille toute la famille ou tout ton groupe et profite d'une grande terrasse exposée plein sud, entourée de forêts idéales pour de belles randonnées. Immerge-toi avec eux dans un cadre naturel magnifique avec des ânes, un lama, un alpaga et Eventy, notre fjord islandais.
 
 Proche d'Yvoir, de Crupet et d'Evrehailles, c'est l'endroit idéal pour une escapade en pleine nature !
 
@@ -58,7 +58,7 @@ Chaque chambre dispose d'une salle de douche avec douche, lavabo et WC.
 
 ### Draps de lit
 
-Nous vous invitons à venir avec vos propres draps. Si nécessaire, nous fournissons des draps pour 10 €/lit.
+Nous t’invitons à venir avec tes propres draps. Si nécessaire, nous fournissons des draps pour 10 €/lit.
 
 ### Arrivée et départ
 
@@ -78,7 +78,7 @@ Notre carte de balades, disponible dans la Chevêche, permet de partir majoritai
 
 ### Coworking 🖥️
 
-Nous pouvons mettre à votre disposition un espace lumineux avec 3 bureaux. N’hésitez pas à nous signaler votre intérêt pour cet espace.
+Nous pouvons mettre à ta disposition un espace lumineux avec 3 bureaux. N’hésite pas à nous signaler ton intérêt pour cet espace.
 
 - WiFi et câbles Ethernet
 - 2 écrans HDMI

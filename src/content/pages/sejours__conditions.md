@@ -26,7 +26,7 @@ Les présentes conditions générales s’appliquent à la location des héberge
 
 ## 3. Annulations et modifications
 
-> ![](../../assets/migration/sejours__conditions/01-airbnb.png) **Vous avez réservé via Airbnb ?** Les conditions d’annulation valables sur Airbnb prévalent.
+> ![](../../assets/migration/sejours__conditions/01-airbnb.png) **Tu as réservé via Airbnb ?** Les conditions d’annulation valables sur Airbnb prévalent.
 
 ### Hébergements
 
@@ -70,4 +70,4 @@ Tout litige sera réglé à l’amiable dans la mesure du possible. En cas d’�
 
 ## 8. Contact
 
-Pour toute question ou modification de réservation, veuillez nous contacter à **[sejours@les4sources.be](mailto:sejours@les4sources.be)**.
+Pour toute question ou modification de réservation, contacte-nous à **[sejours@les4sources.be](mailto:sejours@les4sources.be)**.

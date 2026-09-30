@@ -15,7 +15,7 @@ coverAlt: "Semisto"
 
 ![Création de forêt-jardin](../../assets/migration/projets__semisto/03-design-labs.jpg)
 
-Nous concevons en équipe des **forêts-jardins** **et** **jardins nourriciers** qui respectent votre vision, qui régénèrent la biosphère et vous reconnectent à votre environnement.
+Nous concevons en équipe des **forêts-jardins** **et** **jardins nourriciers** qui respectent ta vision, qui régénèrent la biosphère et te reconnectent à ton environnement.
 
 <!-- column width="50%" -->
 

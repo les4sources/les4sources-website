@@ -2,7 +2,7 @@
 title: "Chambre « Mélisse »"
 description: "Chambre « Mélisse » — Les 4 Sources, tiers-lieu à Yvoir — Chambre « Mélisse »"
 legacyPath: "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/la-hulotte-photos/chambre-mlisse"
-capacity: 16
+capacity: 15
 generatedDescription: true
 seoTitle: "Chambre « Mélisse » — La Hulotte (photos)"
 ---

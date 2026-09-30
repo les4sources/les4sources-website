@@ -63,7 +63,7 @@ Stéphanie rêve d'élargir la portée de Tranches de Vie en organisant des atel
 
 ![Des mains pétrissent une grosse boule de pâte dans un pétrin en bois](../../assets/migration/projets__tranches-de-vie/08-dscf8733.jpg)
 
-### Rejoignez-nous !
+### Rejoins-nous !
 
 Viens participer à un atelier de confection de pain avec Stéphanie, Romane et Thomas, et repars avec tes mains dans la farine (et ton pain sous le bras). Un vrai moment d'échange autour du levain, du geste, et du plaisir de faire soi-même.
 

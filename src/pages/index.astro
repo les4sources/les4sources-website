@@ -50,7 +50,7 @@ const pizzaParty = await activityByPath("/catalogue/pizza-ou-camembert-party");
 // Les trois activités mises en avant par la page migrée, avec leur photo de fiche.
 const featured = await Promise.all(
   [
-    { label: "🐎 Bain d’ânes", path: "/catalogue/temps-avec-le-troupeau-d-anes" },
+    { label: "🫏 Bain d’ânes", path: "/catalogue/temps-avec-le-troupeau-d-anes" },
     { label: "🪢 Grimpe encadrée dans les arbres", path: "/catalogue/grimpe-encadree-dans-les-arbres" },
     { label: "🤾🏻‍♂️ Initiation au Disc-golf", path: "/catalogue/initiation-au-disc-golf" },
   ].map(async (a) => ({ ...a, item: await activityByPath(a.path) })),
@@ -140,9 +140,9 @@ const featured = await Promise.all(
 
         <ul class="m-0 mb-6 grid list-disc gap-2 pl-6 font-body text-body">
           <li>
-            <b><a href="/sejours/hebergements-yvoir">2 gites</a></b> pouvant accueillir jusqu’à 25 personnes
+            <b><a href="/sejours/hebergements-yvoir">2 gîtes</a></b> pouvant accueillir jusqu’à 23 personnes
           </li>
-          <li><b><a href="/sejours/salles">une grande salle</a></b> pour 30 à 100 personnes</li>
+          <li><b><a href="/sejours/salles">une grande salle</a></b> pour 30 à 80 personnes</li>
           <li><b><a href="/sejours/salles">une petite salle</a></b> pour 10 à 30 personnes</li>
           <li>une <b><a href="/sejours/salles">cuisine professionnelle</a></b></li>
           <li><b><a href="/sejours/bivouac">un bivouac</a></b> pour tentes et hamacs</li>
@@ -250,7 +250,7 @@ const featured = await Promise.all(
         </h3>
         <p class="font-body text-body">
           C’est possible le mardi soir et le vendredi soir aux 4 Sources ! Par temps plus frais,
-          couplez votre Pizza Party privée avec la location de notre petite salle !
+          couple ta Pizza Party privée avec la location de notre petite salle !
         </p>
         <p class="mt-2.5 font-body text-body">
           Révise ton italien et viens chanter Eros Ramazzotti en cuisant de délicieuses pizzas avec

@@ -1,6 +1,6 @@
 ---
 title: "Introduction à la zythologie"
-description: "Il s’agit de l’art de déguster une bière afin d’en découvrir les moindres arômes, saveurs et, encore mieux, l’associer avec un bon repas. Si vous êtes un·e…"
+description: "Il s’agit de l’art de déguster une bière afin d’en découvrir les moindres arômes, saveurs et, encore mieux, l’associer avec un bon repas. Si tu es un·e…"
 legacyPath: "/catalogue/zythologie"
 cover: "../../assets/migration/shared/0caec834de45-img-20250522-wa0047.jpg"
 coverAlt: "Introduction à la zythologie"
@@ -18,9 +18,9 @@ minParticipants: 4
 maxParticipants: 20
 ---
 
-### **Avez-vous déjà entendu parler de la zythologie ?**
+### **As-tu déjà entendu parler de la zythologie ?**
 
-Il s’agit de l’art de déguster une bière afin d’en découvrir les moindres arômes, saveurs et, encore mieux, l’associer avec un bon repas. Si vous êtes un·e grand·e (ou petit·e) amateur·ice de bières, cette activité est faite pour vous.
+Il s’agit de l’art de déguster une bière afin d’en découvrir les moindres arômes, saveurs et, encore mieux, l’associer avec un bon repas. Si tu es un·e grand·e (ou petit·e) amateur·ice de bières, cette activité est faite pour toi.
 
 À expérimenter en famille ou entre ami·e·s, bien évidemment 🍻
 
@@ -28,17 +28,17 @@ Pas besoin de connaissance préalable, juste l’envie de découvrir, d’ouvrir
 
 ![Introduction à la zythologie](../../assets/migration/catalogue__zythologie/02-img-20250522-wa0047.jpg)
 
-Il vous arrive de vous sentir perdu·e au milieu d’un rayon ou magasin de bières ? C’est vrai qu’entre des indications comme EBC, IBU, dry-hopping ou des termes comme IPA, NEIPA, gose, gueuze, barriqué, il y a de quoi perdre la tête. Pour déchiffrer un peu tout cela, quoi de mieux que de suivre une initiation à la zythologie, l’art de déguster la bière ?
+Il t’arrive de te sentir perdu·e au milieu d’un rayon ou magasin de bières ? C’est vrai qu’entre des indications comme EBC, IBU, dry-hopping ou des termes comme IPA, NEIPA, gose, gueuze, barriqué, il y a de quoi perdre la tête. Pour déchiffrer un peu tout cela, quoi de mieux que de suivre une initiation à la zythologie, l’art de déguster la bière ?
 
-Entre amis, membres de la famille ou seule·e avec vous-même, vous y apprendrez les ingrédients de base d’une bière, leur influence sur ce liquide parfois amer, parfois acide, parfois sucré et parfois les trois ! Le tout, encadré par un zythologue et cervalobelophile passionné, Nicolas de The Beer Linguist.
+Entre amis, membres de la famille ou seul·e avec toi-même, tu y apprendras les ingrédients de base d’une bière, leur influence sur ce liquide parfois amer, parfois acide, parfois sucré et parfois les trois ! Le tout, encadré par un zythologue et cervalobelophile passionné, Nicolas de The Beer Linguist.
 
 ![Introduction à la zythologie](../../assets/migration/catalogue__zythologie/03-img-20250522-wa0056.jpg)
 
-Aux 4 Sources, Nico de Beer Linguist se fera un plaisir d'animer vos événements en famille, entre amis ou avec vos collègues, accompagné de sa collection atypique : celle des étiquettes de bière. 🏷️Il déchiffre avec vous les drôles d'inscriptions que peuvent afficher certaines bouteilles, comme NEIPA, Gose, Lambiek, Weissbier ou encore Imperial Milk Sout (si, si, ça existe !).
+Aux 4 Sources, Nico de Beer Linguist se fera un plaisir d'animer tes événements en famille, entre amis ou avec tes collègues, accompagné de sa collection atypique : celle des étiquettes de bière. 🏷️Il déchiffre avec toi les drôles d'inscriptions que peuvent afficher certaines bouteilles, comme NEIPA, Gose, Lambiek, Weissbier ou encore Imperial Milk Sout (si, si, ça existe !).
 
-🤔 Le Beer Linguist aime tellement partager sa passion qu'il n'a pas peur des défis et se pliera même à des styles (alcoolisés ou non) que vous proposerez.
+🤔 Le Beer Linguist aime tellement partager sa passion qu'il n'a pas peur des défis et se pliera même à des styles (alcoolisés ou non) que tu proposeras.
 
-Bref, vous parlerez bière, dégusterez bière, apprendrez bière, le tout dans une ambiance bon enfant. Que demander de plus ? 🍺
+Bref, tu parleras bière, dégusteras bière, apprendras bière, le tout dans une ambiance bon enfant. Que demander de plus ? 🍺
 
 ## En pratique
 

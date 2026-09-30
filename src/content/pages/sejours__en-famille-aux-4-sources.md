@@ -1,6 +1,6 @@
 ---
 title: "Un temps en famille aux 4 Sources"
-description: "Des gîtes jusqu’à 25 personnes, des salles pour les grands groupes, la cuisine professionnelle et des ateliers à faire en famille."
+description: "Des gîtes jusqu’à 23 personnes, des salles pour les grands groupes, la cuisine professionnelle et des ateliers à faire en famille."
 legacyPath: "/sejours/en-famille-aux-4-sources"
 cover: "../../assets/migration/sejours__en-famille-aux-4-sources/01-gite_familial_yvoir_dinant.jpg"
 coverAlt: "Un temps en famille aux 4 Sources"
@@ -24,13 +24,13 @@ icon: "👪"
 
 <!-- column width="50%" -->
 
-![Le Grand-Duc, gîte pour 25 personnes](../../assets/migration/shared/796c7c3be552-_G0A2834.jpg)
+![Le Grand-Duc, gîte pour 23 personnes](../../assets/migration/shared/796c7c3be552-_G0A2834.jpg)
 
 ### Le Grand-Duc
 
 🪄 *La Chevêche + La Hulotte = Le Grand-Duc*
 
-- Accueille jusqu’à **25 personnes**
+- Accueille jusqu’à **23 personnes**
 - Rez-de-chaussée, 1er et 2e étage
 - 7 chambres avec salle de douche
 - Mezzanine avec 2 lits d’appoint
@@ -42,7 +42,7 @@ icon: "👪"
 
 ![Une fête de famille dans la grande salle](../../assets/migration/sejours__en-famille-aux-4-sources/04-location-salle-fete-yvoir_-1.jpg)
 
-Nos salles vous permettent, par exemple, d’organiser une fête et de permettre à 25 personnes de loger sur place. La grande salle accueille jusqu’à 80 personnes et est reliée à la cuisine professionnelle par un passe-plat.
+Nos salles te permettent, par exemple, d’organiser une fête et de permettre à 23 personnes de loger sur place. La grande salle accueille jusqu’à 80 personnes et est reliée à la cuisine professionnelle par un passe-plat.
 
 Les cuisines des gîtes n’étant pas très grandes, la cuisine professionnelle est un atout très utile pour les grands groupes, pour préparer à manger à plusieurs ou accueillir l’intendance.
 

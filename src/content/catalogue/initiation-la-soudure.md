@@ -19,11 +19,11 @@ maxParticipants: 3
 seoTitle: "Initiation à la soudure à l’arc — Artisanat"
 ---
 
-### **Vous voulez ajouter une corde à votre arc et vous familiariser avec les techniques de soudure ?**
+### **Tu veux ajouter une corde à ton arc et te familiariser avec les techniques de soudure ?**
 
 L’occasion d’expérimenter l’amorçage, le cordon à plat, le cordon en angle et d’être conseillé pour l’acquisition de son matériel personnel.
 
-Participez à cet atelier qui vous permettra de découvrir le poste à souder MMA (soudure à l’électrode enrobée), le matériel associé, les normes de sécurité et les principes de base de cette soudure (l’arc électrique, l’électrode, les bons gestes)!
+Participe à cet atelier qui te permettra de découvrir le poste à souder MMA (soudure à l’électrode enrobée), le matériel associé, les normes de sécurité et les principes de base de cette soudure (l’arc électrique, l’électrode, les bons gestes)!
 
 ![Initiation à la soudure à l’arc](../../assets/migration/catalogue__initiation-la-soudure/02-_g0a7860.jpg)
 

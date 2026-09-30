@@ -36,7 +36,7 @@ Bienvenue **ce vendredi 17 juillet, dès 18h30 :**
 - nos boulangères préparent de délicieux pâtons au levain le jour même
 - tu amènes ta garniture en fonction de tes envies
 - nous cuisons les pizzas au feu de bois entre 19h et 20h
-- et vous les dégustez en terrasse plein sud, 360°C nature !
+- et tu les dégustes en terrasse plein sud, 360°C nature !
 - en cas de pluie, on se réfugie dans la grande salle des 4 Sources 🙂
 
 👍 Le four de boulangerie est chauffé au bois\

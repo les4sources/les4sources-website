@@ -42,6 +42,6 @@ Un espace ressourçant parsemé d’arbres fruitiers basse tige et mi-tige, de n
 
 ## Le jus des 4 Sources 🧃
 
-Saviez-vous que de toutes ces pommes récoltées, nous en faisions du jus ? En cubis ou en bouteilles, retrouvez notre production à l’épicerie !
+Savais-tu que de toutes ces pommes récoltées, nous en faisions du jus ? En cubis ou en bouteilles, retrouve notre production à l’épicerie !
 
 ![Le jus de pomme des 4 Sources](../../assets/migration/a-propos__jardin-foret-et-verger/06-e099bd41-d607-40e1-bce6-6e931bf06e6e.jpg)

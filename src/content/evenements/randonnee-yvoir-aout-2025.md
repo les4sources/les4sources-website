@@ -21,11 +21,11 @@ category: "Sports, Ressourcement, Environnement"
 
 Chaque randonnée se fera en étoile au départ des 4 Sources ⭐
 
-Vous aurez l’occasion de découvrir la région d’Yvoir à travers des monuments, des cours d’eau, de magnifiques points de vue, des chemins zigzaguant dans les bois, un projet de tiers-lieu, et sa nature environnante !
+Tu auras l’occasion de découvrir la région d’Yvoir à travers des monuments, des cours d’eau, de magnifiques points de vue, des chemins zigzaguant dans les bois, un projet de tiers-lieu, et sa nature environnante !
 
 - **Jour 1 (9 août) : découverte des 3 châteaux**
 
-Rendez-vous à la gare d’Yvoir 🚂 pour prendre le train jusqu’à Dinant. Durant cette randonnée, vous aurez la chance de découvrir 3 magnifiques châteaux en ruine (Crèvecœur, Montaigle et Poilvache).
+Rendez-vous à la gare d’Yvoir 🚂 pour prendre le train jusqu’à Dinant. Durant cette randonnée, tu auras la chance de découvrir 3 magnifiques châteaux en ruine (Crèvecœur, Montaigle et Poilvache).
 
 - **Jour 2 (10 août) : le chemin du Bocq**
 
@@ -40,7 +40,7 @@ Cet itinéraire donne accès à de magnifiques points de vue sur la Meuse en pas
 ![Pub Colin](../../assets/migration/evenements__randonnee-yvoir-aout-2025/02-Pub_Colin.jpg)
 
 - **Lieu de rendez-vous** : gare d’Yvoir pour le jour 1 et Fonds d’Ahinvaux 5530 Yvoir (Les 4 Sources) pour le jours 2 et 3.
-- **Dates** : 9, 10, 11 août - 1, 2 ou 3 jours selon votre envie et vos dispos.
+- **Dates** : 9, 10, 11 août - 1, 2 ou 3 jours selon ton envie et tes dispos.
 - **Heure** : départ 9h et arrivée 18h (+ ou -)
 - **Âge ou conditions minimum** : savoir marcher 26 km + 600m de dénivelé (+ ou -) / jours, en étant à l’aise, avec sac à dos pour la journée
 - **Nombre de participants** : entre 8 et 12 pers. / journée(s)
@@ -54,11 +54,11 @@ Si le prix est un frein, merci de revenir vers nous
 ### Autres infos
 
 - Une visio d’information (en ligne) sera organisée mi-juillet pour les précisions, questions… Un lien avec plus d’infos sera envoyé par e-mail
-- La liste du matériel vous sera communiqué après la visioconférence
+- La liste du matériel te sera communiqué après la visioconférence
 
 ## Un p’tit mot sur le guide
 
-Colin habite dans le magnifique domaine où est implanté le tiers-lieu des 4 Sources. Il suit une formation de guide nature et de guide de randonnée (de moyenne montagne). Il a 18 ans et a la chance de pouvoir vous proposer ce magnifique séjour dans le cadre de sa formation de guide de randonnée, comme stage pratique, accompagné de Samuel Demont, son maître de stage. Il se réjouit de vous partager ses passions, entre randonnée et nature, à travers des moments de contemplation, de partage, de réflexion et de plaisir.
+Colin habite dans le magnifique domaine où est implanté le tiers-lieu des 4 Sources. Il suit une formation de guide nature et de guide de randonnée (de moyenne montagne). Il a 18 ans et a la chance de pouvoir te proposer ce magnifique séjour dans le cadre de sa formation de guide de randonnée, comme stage pratique, accompagné de Samuel Demont, son maître de stage. Il se réjouit de te partager ses passions, entre randonnée et nature, à travers des moments de contemplation, de partage, de réflexion et de plaisir.
 
 **Colin Vanhamme** ✉️ [vanhammecolin@gmail.com](mailto:vanhammecolin@gmail.com) 📞 0489 36 90 18
 

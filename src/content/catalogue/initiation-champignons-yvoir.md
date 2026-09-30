@@ -1,7 +1,7 @@
 ---
 title: "Initiation ou perfectionnement à l’identification de champignons"
 seoTitle: "Initiation ou perfectionnement à l’identification de…"
-description: "Vous découvrirez quelques champignons lors d’une balade, apprendrez à reconnaître les caractéristiques clés qui vous aideront à les identifier et comprendrez…"
+description: "Tu découvriras quelques champignons lors d’une balade, apprendras à reconnaître les caractéristiques clés qui t’aideront à les identifier et comprendras…"
 legacyPath: "/catalogue/initiation-champignons-yvoir"
 cover: "../../assets/migration/shared/4562082db291-_G0A4667_-1.jpg"
 coverAlt: "Initiation ou perfectionnement à l’identification de champignons"
@@ -21,9 +21,9 @@ maxParticipants: 16
 
 ## Activité de saison : automne 🍂
 
-### Cet atelier automnal est conçu pour vous familiariser avec le monde fascinant des champignons.
+### Cet atelier automnal est conçu pour te familiariser avec le monde fascinant des champignons.
 
-Vous découvrirez quelques champignons lors d’une balade, apprendrez à reconnaître les caractéristiques clés qui vous aideront à les identifier et comprendrez leur rôle essentiel dans l'écosystème. Que vous soyez des novices complet·es ou que vous ayez déjà une certaine expérience en mycologie, cet événement est une excellente occasion d'approfondir vos connaissances et vos compétences.
+Tu découvriras quelques champignons lors d’une balade, apprendras à reconnaître les caractéristiques clés qui t’aideront à les identifier et comprendras leur rôle essentiel dans l'écosystème. Que tu sois novice complet·e ou que tu aies déjà une certaine expérience en mycologie, cet événement est une excellente occasion d'approfondir tes connaissances et tes compétences.
 
 Nous commencerons par une introduction générale sur les champignons, suivie d'une session pratique d'identification en forêt pour mettre en pratique ce que nous aurons appris.
 

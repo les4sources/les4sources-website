@@ -17,6 +17,8 @@ interface Props {
   ogImage?: string | ImageMetadata;
   type?: "website" | "article";
   noindex?: boolean;
+  /** Chemin canonique quand ce n'est pas la page elle-même (cf. SEO.astro). */
+  canonicalPath?: string;
   /** Schémas JSON-LD propres à la page (Event, BreadcrumbList, FAQPage…). */
   jsonld?: object[];
 }
@@ -28,6 +30,7 @@ const {
   ogImage,
   type = "website",
   noindex = false,
+  canonicalPath,
   jsonld = [],
 } = Astro.props;
 
@@ -114,6 +117,7 @@ const allJsonld = [organization({ siteUrl }), ...jsonld];
       ogImage={ogImage}
       type={type}
       noindex={noindex}
+      canonicalPath={canonicalPath}
       jsonld={allJsonld}
     />
   </head>

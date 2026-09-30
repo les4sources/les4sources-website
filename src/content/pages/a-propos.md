@@ -62,7 +62,7 @@ Nous mettons notre temps et notre énergie au service des 4 Sources. Tu peux ég
 
 ![Les ânes des 4 Sources](../../assets/migration/a-propos/06-animaux.jpg)
 
-Ils vivent avec nous aux 4 Sources : 26 ânes, Eventy le cheval, 16 poules et Shiny le coq, un alpaga, un lama et quelques chats.
+Ils vivent avec nous aux 4 Sources : 25 ânes, Eventy le cheval, 16 poules et Shiny le coq, un alpaga, un lama et quelques chats.
 
 **[Découvre les animaux](/a-propos/les-animaux-des-4-sources)**
 

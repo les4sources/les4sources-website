@@ -1,6 +1,6 @@
 ---
 title: "🔥Stage low-tech : construis ta cuisinière !"
-description: "Nouvel événement passionnant avec facilitateur·rice. Logement sur place disponible. Contactez-nous pour plus d'informations."
+description: "Nouvel événement passionnant avec facilitateur·rice. Logement sur place disponible. Contacte-nous pour plus d'informations."
 legacyPath: "/evenements/construis-ta-cuisinire-octobre"
 # Annulé (Michael, 2026-09-29) : la fiche reste servie, hors listes et calendrier.
 archived: true
@@ -47,7 +47,7 @@ Elle permet de réchauffer simultanément : sur le dessus, une petite casserole,
 
 ![Stage low-tech : construis ta cuisinière !](../../assets/migration/shared/1c714d234264-newsletter_-3.jpg)
 
-💡 *Ces 2 modèles disposent d'un four et permettent d'utiliser votre batterie de cuisine habituelle sans les noircir (pas de contact entre la flamme et les casseroles).*
+💡 *Ces 2 modèles disposent d'un four et permettent d'utiliser ta batterie de cuisine habituelle sans les noircir (pas de contact entre la flamme et les casseroles).*
 
 ## Participation
 

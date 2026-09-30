@@ -4,7 +4,7 @@ description: "Les crapauds (mars) — Les 4 Sources, tiers-lieu à Yvoir"
 legacyPath: "/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/vue-depuis-la-terrasse"
 properties:
   Page: "Biodiversité"
-capacity: 16
+capacity: 15
 generatedDescription: true
 pole: "nature"
 ---

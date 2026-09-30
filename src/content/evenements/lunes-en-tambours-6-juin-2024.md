@@ -27,7 +27,7 @@ registrationUrl: "https://les4sources.punchpass.com/classes/15334517?embed=true"
 
 ### À emporter
 
-- tambour.s si vous en avez ;
+- tambour.s si tu en as ;
 - autre.s instrument.s de percussion
 - boissons/encas
 - vêtements confortables et chaussures tous-terrains adaptés au temps extérieur ou intérieur (choix du lieu en fonction de la météo et du nombre de personnes présentes)

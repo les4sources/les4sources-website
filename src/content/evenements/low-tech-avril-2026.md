@@ -60,7 +60,7 @@ Elle permet de réchauffer simultanément : sur le dessus, une petite casserole,
 ![🔥 COMPLET ! Low-tech : construis ta cuisinière](../../assets/migration/evenements__low-tech-avril-2026/03-_g0a6765.jpg)
 <!-- /columns -->
 
-💡 Ces 2 modèles disposent d'un four et permettent d'utiliser votre batterie de cuisine habituelle sans les noircir (pas de contact entre la flamme et les casseroles).
+💡 Ces 2 modèles disposent d'un four et permettent d'utiliser ta batterie de cuisine habituelle sans les noircir (pas de contact entre la flamme et les casseroles).
 
 ### Participation
 
