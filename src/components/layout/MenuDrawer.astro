@@ -1,0 +1,138 @@
+---
+/**
+ * Menu complet du site — tiroir à gauche, inspiré de semisto.org.
+ *
+ * Ouvert par le bouton ☰ de l'en-tête (toutes tailles d'écran). Le tiroir
+ * reste fixe à gauche pendant que la page entière (`.l4s-page` : en-tête,
+ * contenu, pied de page) glisse vers la droite et s'estompe. Les rubriques
+ * sont celles du pied de page (`footerGroups()` dans src/lib/nav.ts) : une
+ * seule source pour les deux, chaque intertitre porte le picto de son pôle.
+ *
+ * Accessibilité : `role="dialog"` + `aria-modal`, la page devient `inert`
+ * (le focus ne peut pas s'échapper), Échap ou le voile referment et rendent
+ * le focus au bouton ☰, le défilement de la page est verrouillé sans saut
+ * (scrollbar-gutter dans global.css). En mouvement réduit, aucune glissade.
+ */
+import { HEADER_CTA, footerGroups } from "@lib/nav";
+import { site } from "@lib/site";
+import { POLES, type PoleSlug } from "@lib/poles";
+import Button from "@components/ds/Button.astro";
+import PoleIcon from "@components/ds/PoleIcon.astro";
+
+const groups = footerGroups();
+/** Le picto de chaque rubrique : la famille de la charte qui lui correspond. */
+const PICTO: Record<string, PoleSlug> = {
+  Séjours: "hebergement",
+  "Aux 4 Sources": "convivialite",
+  Découvrir: "nature",
+  "À propos": "vie-collective",
+};
+
+const current = Astro.url.pathname.replace(/\/+$/, "") || "/";
+const isCurrent = (path: string) => path === current;
+const telHref = `tel:${site.phone.replace(/\s+/g, "")}`;
+---
+
+<div
+  id="l4s-menu"
+  class="l4s-menu"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Menu du site"
+  data-l4s-menu
+  inert
+>
+  <div class="l4s-menu-top">
+    <button type="button" class="l4s-menu-close" data-l4s-menu-close aria-label="Fermer le menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M6 6l12 12M18 6 6 18" />
+      </svg>
+    </button>
+    <a href={site.portalUrl} rel="noopener" class="l4s-menu-portal">Espace client</a>
+  </div>
+
+  <nav aria-label="Menu complet" class="l4s-menu-body">
+    <a href="/" class="l4s-menu-home" aria-current={isCurrent("/") ? "page" : undefined}>Accueil</a>
+
+    {
+      groups.map((group) => {
+        const slug = PICTO[group.title];
+        return (
+          <section class="l4s-menu-group">
+            <h2 class="l4s-menu-heading">
+              {slug && (
+                <span class="l4s-menu-picto" style={`color:var(${POLES[slug].vars.color})`} aria-hidden="true">
+                  <PoleIcon pole={slug} class="h-5" />
+                </span>
+              )}
+              {group.title}
+            </h2>
+            <ul>
+              {group.links.map((link) => (
+                <li>
+                  <a
+                    href={link.path}
+                    rel={link.external ? "noopener" : undefined}
+                    aria-current={!link.external && isCurrent(link.path) ? "page" : undefined}
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        );
+      })
+    }
+  </nav>
+
+  <div class="l4s-menu-foot">
+    <Button variant="highlight" size="lg" href={HEADER_CTA.href} fullWidth>{HEADER_CTA.label}</Button>
+    <p>
+      Réservations : <a href={telHref}>{site.phone}</a><br />
+      <a href={`mailto:${site.emailSejours}`}>{site.emailSejours}</a>
+    </p>
+  </div>
+</div>
+
+<button type="button" class="l4s-menu-scrim" data-l4s-menu-close tabindex="-1" aria-hidden="true"></button>
+
+<script>
+  const menu = document.querySelector<HTMLElement>("[data-l4s-menu]");
+  const page = document.querySelector<HTMLElement>(".l4s-page");
+  const toggles = () => Array.from(document.querySelectorAll<HTMLElement>("[data-l4s-menu-toggle]"));
+
+  if (menu && page) {
+    const root = document.documentElement;
+    let opener: HTMLElement | null = null;
+
+    const setOpen = (open: boolean, restoreFocus = true) => {
+      root.classList.toggle("l4s-menu-open", open);
+      menu.inert = !open;
+      page.inert = open;
+      for (const t of toggles()) t.setAttribute("aria-expanded", String(open));
+      if (open) {
+        opener = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+        // Le focus va au bouton Fermer une fois le tiroir à l'écran (après la
+        // glissade, sinon le navigateur fait défiler pour le montrer).
+        menu.querySelector<HTMLElement>("[data-l4s-menu-close]")?.focus({ preventScroll: true });
+      } else if (restoreFocus) {
+        (opener ?? toggles()[0])?.focus({ preventScroll: true });
+      }
+    };
+
+    for (const t of toggles()) t.addEventListener("click", () => setOpen(!root.classList.contains("l4s-menu-open")));
+    document.querySelectorAll("[data-l4s-menu-close]").forEach((el) => el.addEventListener("click", () => setOpen(false)));
+    // Un lien suivi referme le tiroir (utile pour une ancre de la même page).
+    menu.addEventListener("click", (event) => {
+      if ((event.target as HTMLElement).closest("a")) setOpen(false, false);
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && root.classList.contains("l4s-menu-open")) setOpen(false);
+    });
+    // Retour arrière depuis le cache du navigateur : la page revient fermée.
+    window.addEventListener("pageshow", () => {
+      if (root.classList.contains("l4s-menu-open")) setOpen(false, false);
+    });
+  }
+</script>

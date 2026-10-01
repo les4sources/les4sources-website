@@ -1,19 +1,17 @@
 ---
 /**
- * En-tête du site — portage de `design/ui_kits/Nav.jsx`.
+ * En-tête du site — inspiré de semisto.org, dans la charte des 4 Sources.
  *
- * Collant, 72 px, fond blanc à 96 %, filet doux en bas. Marque + mot
- * « Les 4 Sources » à gauche, liens en pilules à droite, puis le bouton jaune
- * « Réserver » : la demande de réservation dans Claudy (décision du
- * 2026-09-08 — la maquette l'envoyait vers le bar). Pas de recherche, pas de
- * bascule de thème : le teal est la seule surface sombre de la charte, il
- * n'existe pas de thème sombre.
+ * En haut de page, la navigation flotte dans une pilule blanche ombrée ; dès
+ * qu'on défile, la pilule se fond dans une barre blanche pleine largeur. La
+ * hauteur (72 px) et la position de chaque élément ne bougent pas d'un pixel
+ * entre les deux états : seuls le fond, l'ombre et le filet changent.
  *
- * Sous 900 px, les liens passent dans un tiroir plein écran ouvert par un
- * bouton hamburger, qui devient une croix « Fermer » une fois le tiroir ouvert.
- * Le tiroir ajoute ce que l'en-tête compact n'a pas la place de montrer : le
- * bouton « Réserver », le lien Contact et le téléphone des réservations.
- * Script en ligne, sans framework.
+ * Pilule : ☰ (ouvre le menu complet, src/components/layout/MenuDrawer.astro),
+ * la marque, puis les six liens du site historique (dès 1 080 px), le lien
+ * courant souligné de teal, le survol souligné de jaune. À droite : l'espace
+ * client (dès 1 280 px) et le bouton jaune « Réserver » — la demande de
+ * réservation dans Claudy (décision du 2026-09-08).
  */
 import { HEADER_CTA, primaryNav } from "@lib/nav";
 import { site } from "@lib/site";
@@ -21,144 +19,65 @@ import Button from "@components/ds/Button.astro";
 import Logo from "@components/ds/Logo.astro";
 
 const nav = primaryNav();
-/** Le tiroir liste aussi Contact, que l'en-tête compact n'affiche pas. */
-const drawerNav = [...nav, { label: "Contact", path: "/contact" }];
-
-// Le href reste en E.164, l'affichage garde les espaces.
-const telHref = `tel:${site.phone.replace(/\s+/g, "")}`;
 
 const current = Astro.url.pathname.replace(/\/+$/, "") || "/";
 // Un seul lien courant : le plus spécifique qui corresponde
 // (/sejours/salles → « Salles », pas « Séjours »).
-const activePath = drawerNav
+const activePath = nav
   .filter((l) => current === l.path || current.startsWith(`${l.path}/`))
   .sort((a, b) => b.path.length - a.path.length)[0]?.path;
 ---
 
-<header class="l4s-site-header sticky top-0 z-50 border-b-[1.5px] border-line-soft bg-white">
-  <div class="mx-auto flex h-[72px] max-w-[calc(var(--container-site)+3rem)] items-center gap-4 px-6 min-[900px]:gap-8">
-    <Logo href="/" size="md" variant="teal" class="shrink-0" />
-
-    <nav aria-label="Navigation principale" class="ml-auto hidden gap-1.5 min-[900px]:flex">
-      {
-        nav.map((link) => {
-          const on = link.path === activePath;
-          return (
-            <a
-              href={link.path}
-              aria-current={on ? "page" : undefined}
-              class:list={[
-                "rounded-pill px-3 py-2 font-ui text-ui text-teal no-underline transition-colors duration-[120ms]",
-                on ? "bg-surface font-bold" : "hover:bg-surface",
-              ]}
-            >
-              {link.label}
-            </a>
-          );
-        })
-      }
-    </nav>
-
-    <div class="ml-auto flex items-center gap-3 min-[900px]:ml-0">
-      {/* Le masquage vit sur l'enveloppe : `hidden` posé sur le Button perdrait
-          contre son propre `inline-flex`, l'ordre des utilitaires dans la
-          feuille l'emportant sur l'ordre des classes. */}
-      <div class="hidden min-[900px]:block">
-        <Button variant="highlight" size="sm" href={HEADER_CTA.href}>{HEADER_CTA.label}</Button>
-      </div>
-
+<header class="l4s-site-header" data-l4s-header data-at-top>
+  <div class="l4s-header-inner">
+    <div class="l4s-header-pill">
       <button
         type="button"
-        id="l4s-nav-toggle"
+        class="l4s-burger"
+        data-l4s-menu-toggle
         aria-expanded="false"
-        aria-controls="l4s-nav-drawer"
-        class="inline-flex h-[var(--control-h-md)] items-center gap-2 rounded-pill border-[1.5px] border-line px-4 font-ui text-[13px] font-bold text-teal transition-colors duration-[120ms] hover:bg-surface min-[900px]:hidden"
+        aria-controls="l4s-menu"
+        aria-label="Ouvrir le menu"
       >
-        <span data-l4s-toggle-label>Menu</span>
-        <span data-l4s-icon="open" class="inline-flex">
-          <svg viewBox="0 0 20 20" class="h-4 w-4 fill-current" aria-hidden="true" focusable="false">
-            <path d="M2 4h16v2H2zM2 9h16v2H2zM2 14h16v2H2z" />
-          </svg>
-        </span>
-        <span data-l4s-icon="close" class="inline-flex" hidden>
-          <svg viewBox="0 0 20 20" class="h-4 w-4 fill-current" aria-hidden="true" focusable="false">
-            <path d="M4.3 3 10 8.7 15.7 3 17 4.3 11.3 10l5.7 5.7-1.3 1.3L10 11.3 4.3 17 3 15.7 8.7 10 3 4.3z" />
-          </svg>
-        </span>
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M3.5 6.5h17M3.5 12h17M3.5 17.5h11" />
+        </svg>
       </button>
-    </div>
-  </div>
 
-  <div id="l4s-nav-drawer" class="l4s-drawer" hidden>
-    <nav aria-label="Navigation principale (mobile)" class="flex flex-col gap-1">
-      {
-        drawerNav.map((link) => (
-          <a
-            href={link.path}
-            aria-current={link.path === activePath ? "page" : undefined}
-            class:list={[
-              "rounded-md px-3 py-3 font-display text-h3 text-teal no-underline",
-              link.path === activePath ? "bg-surface font-bold" : "",
-            ]}
-          >
-            {link.label}
-          </a>
-        ))
-      }
-    </nav>
-    <Button variant="highlight" size="lg" href={HEADER_CTA.href} fullWidth class="mt-6">
-      {HEADER_CTA.label}
-    </Button>
-    <p class="mt-4 px-3 font-ui text-ui text-ink-2">
-      Réservations : <a href={telHref} class="font-bold text-teal no-underline hover:underline"
-        >{site.phone}</a
-      >
-    </p>
+      <Logo href="/" size="md" variant="teal" class="l4s-header-logo" />
+
+      <nav aria-label="Navigation principale" class="l4s-header-nav">
+        {
+          nav.map((link) => (
+            <a href={link.path} class="l4s-navlink" aria-current={link.path === activePath ? "page" : undefined}>
+              {link.label}
+            </a>
+          ))
+        }
+      </nav>
+    </div>
+
+    <div class="l4s-header-actions">
+      <a href={site.portalUrl} rel="noopener" class="l4s-header-portal">Espace client</a>
+      <Button variant="highlight" size="md" href={HEADER_CTA.href} class="l4s-header-cta">
+        {HEADER_CTA.label}
+      </Button>
+    </div>
   </div>
 </header>
 
 <script>
-  const toggle = document.getElementById("l4s-nav-toggle");
-  const drawer = document.getElementById("l4s-nav-drawer");
-  const header = document.querySelector(".l4s-site-header");
-
-  if (toggle && drawer) {
-    const label = toggle.querySelector<HTMLElement>("[data-l4s-toggle-label]");
-    const iconOpen = toggle.querySelector<HTMLElement>('[data-l4s-icon="open"]');
-    const iconClose = toggle.querySelector<HTMLElement>('[data-l4s-icon="close"]');
-
-    const setOpen = (open: boolean) => {
-      drawer.hidden = !open;
-      toggle.setAttribute("aria-expanded", String(open));
-      if (label) label.textContent = open ? "Fermer" : "Menu";
-      // Hamburger fermé, croix ouvert : l'icône dit l'action du bouton.
-      if (iconOpen) iconOpen.hidden = open;
-      if (iconClose) iconClose.hidden = !open;
-      // Verrou de défilement pendant que le tiroir couvre la page.
-      document.body.style.overflow = open ? "hidden" : "";
-      // Tout ce qui est hors de l'en-tête devient inerte : au clavier, le focus
-      // reste dans le tiroir au lieu de filer vers la page cachée dessous.
-      for (const el of Array.from(document.body.children)) {
-        if (el !== header && !(el instanceof HTMLScriptElement)) el.toggleAttribute("inert", open);
-      }
-    };
-
-    toggle.addEventListener("click", () => setOpen(drawer.hidden));
-
-    drawer.addEventListener("click", (event) => {
-      if ((event.target as HTMLElement).closest("a")) setOpen(false);
-    });
-
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && !drawer.hidden) {
-        setOpen(false);
-        toggle.focus();
-      }
-    });
-
-    // Le tiroir n'existe que sous 900 px : repasser au-dessus le referme.
-    window.matchMedia("(min-width: 900px)").addEventListener("change", (event) => {
-      if (event.matches && !drawer.hidden) setOpen(false);
-    });
+  // Pilule flottante en haut de page, barre pleine dès qu'on défile. Une
+  // sentinelle d'1 px en haut du document dit si l'on est « en haut » : pas
+  // d'écouteur de défilement, aucun travail tant que l'état ne change pas.
+  const header = document.querySelector<HTMLElement>("[data-l4s-header]");
+  if (header) {
+    const sentinel = document.createElement("div");
+    sentinel.setAttribute("aria-hidden", "true");
+    sentinel.style.cssText = "position:absolute;top:0;left:0;width:1px;height:8px;pointer-events:none";
+    document.body.prepend(sentinel);
+    new IntersectionObserver(([entry]) => {
+      header.toggleAttribute("data-at-top", entry?.isIntersecting ?? true);
+    }).observe(sentinel);
   }
 </script>

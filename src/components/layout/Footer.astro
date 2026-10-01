@@ -1,20 +1,18 @@
 ---
 /**
- * Pied de page — portage de `design/ui_kits/Footer.jsx`.
+ * Pied de page — inspiré de semisto.org, dans la charte des 4 Sources.
  *
- * Aplat teal (la seule surface sombre de la charte), texte et pictogrammes en
- * blanc. Colonne 1 : le logo blanc, le bandeau des 7 pictogrammes de pôle et le
- * bloc NAP complet — l'adresse postale de `site.ts` (la même que le JSON-LD),
- * l'e-mail, et le seul téléphone publié sur le site, la ligne réservations,
- * avec son étiquette. Colonnes 2 à 5 : les groupes de `nav.ts`. Barre du bas :
- * la phrase de licence de l'ancien site (« licence », avec le lien vers la
- * licence) et les réseaux sociaux.
+ * Aplat teal (la seule surface sombre de la charte). Colonne de marque : la
+ * marque en blanc (vectorielle, le mot lisible à côté, comme dans l'en-tête), la devise, le bandeau des sept pictos de pôle, le bloc NAP
+ * complet (adresse de `site.ts` — la même que le JSON-LD —, e-mail, et le
+ * seul téléphone publié, celui des réservations) et les réseaux sociaux.
+ * Puis les quatre groupes de `nav.ts` sous des surtitres jaunes. Barre du
+ * bas : licence, conditions, crédit.
  *
  * Règle stricte héritée de src/lib/site.ts : une donnée inconnue n'est pas
  * affichée. Rien n'est inventé ici — ni rue, ni e-mail, ni réseau social.
  */
-import { Image } from "astro:assets";
-import logoWhite from "@assets/brand/logo/logo-white.png";
+import Logo from "@components/ds/Logo.astro";
 import PoleIcon from "@components/ds/PoleIcon.astro";
 import { footerGroups, socials } from "@lib/nav";
 import { POLES, POLE_STRIP } from "@lib/poles";
@@ -23,43 +21,35 @@ import { site } from "@lib/site";
 const groups = footerGroups();
 const socialLinks = socials();
 const { streetAddress, postalCode, locality } = site.address;
+const year = new Date().getFullYear();
 
 // Le href reste en E.164, l'affichage garde les espaces.
 const telHref = `tel:${site.phone.replace(/\s+/g, "")}`;
+
+/** Pictogrammes des réseaux connus ; un réseau sans picto garde son nom. */
+const SOCIAL_ICON: Record<string, string> = {
+  Facebook:
+    "M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4V10.5H8v3h2.4V21h3.1Z",
+};
 ---
 
-<footer class="bg-teal text-white">
-  <div class="mx-auto max-w-[calc(var(--container-site)+3rem)] px-6 pt-14 pb-8">
-    <div
-      class="grid grid-cols-2 gap-x-6 gap-y-9 min-[1000px]:grid-cols-[1.45fr_repeat(4,1fr)] min-[1000px]:gap-8"
-    >
-      {/* Sous 1 000 px, la marque prend toute la largeur et les quatre groupes de
-          liens vont deux par deux : le pied de page mobile reste court. */}
-      <div class="col-span-2 min-[1000px]:col-span-1">
-        <Image
-          src={logoWhite}
-          alt={site.name}
-          height={120}
-          width={120}
-          class="-ml-3 h-[120px] w-auto"
-          loading="lazy"
-        />
+<footer class="l4s-footer">
+  <div class="l4s-footer-inner">
+    <div class="l4s-footer-grid">
+      <div class="l4s-footer-brand">
+        <Logo href="/" variant="white" size="lg" class="l4s-footer-logo" />
+        <p class="l4s-footer-tagline">Lieu d’activités, de nature et de vie collective.</p>
 
         {/* Les sept pôles. Au survol, le picto s'allume dans la couleur de son
-            pôle (disque plein, picto en teal ou en blanc selon `lightOnSolid`),
-            son nom apparaît au-dessus, et ses deux voisins prennent leur propre
-            couleur en écho. Le CSS vit dans global.css (`.l4s-pole`). */}
-        <ul class="l4s-poles mt-2 -ml-2 flex list-none flex-wrap items-center gap-0.5 p-0 min-[1000px]:flex-nowrap">
+            pôle, son nom apparaît au-dessus, ses deux voisins prennent leur
+            propre couleur en écho (`.l4s-pole` dans global.css). */}
+        <ul class="l4s-poles mt-5 -ml-2 flex list-none flex-wrap items-center gap-0.5 p-0 min-[1000px]:flex-nowrap">
           {
             POLE_STRIP.map((slug) => {
               const p = POLES[slug];
               const onPole = p.lightOnSolid ? "var(--color-teal)" : "var(--color-white)";
               return (
-                <li
-                  class="l4s-pole"
-                  style={`--pole:var(${p.vars.color});--on-pole:${onPole}`}
-                  title={p.category}
-                >
+                <li class="l4s-pole" style={`--pole:var(${p.vars.color});--on-pole:${onPole}`} title={p.category}>
                   <span class="l4s-pole-name" aria-hidden="true">
                     {p.category}
                   </span>
@@ -71,35 +61,45 @@ const telHref = `tel:${site.phone.replace(/\s+/g, "")}`;
           }
         </ul>
 
-        <address class="mt-4 font-ui text-[13px] leading-relaxed text-white/90 not-italic">
-          <span class="block">{streetAddress}</span>
-          <span class="block">{postalCode} {locality}, Belgique</span>
-          <a href={`mailto:${site.email}`} class="inline-block py-1.5 text-white no-underline hover:underline">
-            {site.email}
-          </a>
-          <span class="mt-1 flex flex-wrap items-center gap-2">
-            <a href={telHref} class="inline-block py-1.5 text-white no-underline hover:underline">{site.phone}</a>
-            <span class="rounded-xs bg-hebergement-ink px-1.5 py-0.5 font-ui text-[11px] font-bold text-white">
-              réservations
-            </span>
+        <address class="l4s-footer-nap">
+          <span>{streetAddress}</span>
+          <span>{postalCode} {locality}, Belgique</span>
+          <a href={`mailto:${site.email}`}>{site.email}</a>
+          <span class="l4s-footer-phone">
+            <a href={telHref}>{site.phone}</a>
+            <span class="l4s-footer-badge">réservations</span>
           </span>
         </address>
+
+        {
+          socialLinks.length > 0 && (
+            <ul class="l4s-footer-socials">
+              {socialLinks.map((s) => (
+                <li>
+                  <a href={s.url} rel="noopener" aria-label={s.label} title={s.label}>
+                    {SOCIAL_ICON[s.label] ? (
+                      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                        <path d={SOCIAL_ICON[s.label]} />
+                      </svg>
+                    ) : (
+                      s.label
+                    )}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )
+        }
       </div>
 
       {
         groups.map((group) => (
-          <nav aria-label={group.title}>
-            <p class="mb-3.5 font-ui text-overline font-bold tracking-[0.08em] uppercase text-white/70">
-              {group.title}
-            </p>
-            <ul class="grid list-none gap-0 p-0">
+          <nav aria-label={group.title} class="l4s-footer-group">
+            <p class="l4s-footer-overline">{group.title}</p>
+            <ul>
               {group.links.map((link) => (
                 <li>
-                  <a
-                    href={link.path}
-                    rel={link.external ? "noopener" : undefined}
-                    class="inline-block py-1.5 font-ui text-ui font-normal text-white no-underline hover:underline"
-                  >
+                  <a href={link.path} rel={link.external ? "noopener" : undefined}>
                     {link.label}
                   </a>
                 </li>
@@ -110,29 +110,19 @@ const telHref = `tel:${site.phone.replace(/\s+/g, "")}`;
       }
     </div>
 
-    <div
-      class="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-white/20 pt-5 font-ui text-caption text-white/75"
-    >
-      <p class="max-w-[62ch]">
-        Ce site web et nos photos sont sous <a
-          href={site.licence.url}
-          rel="noopener"
-          class="text-white/75 underline hover:text-white">licence {site.licence.name}</a
+    <div class="l4s-footer-bottom">
+      <p>
+        © {year} {site.name} · Site et photos sous <a href={site.licence.url} rel="noopener"
+          >licence Creative Commons BY-NC-SA 4.0</a
         >.
       </p>
-      {
-        socialLinks.length > 0 && (
-          <ul class="flex list-none flex-wrap gap-4 p-0">
-            {socialLinks.map((s) => (
-              <li>
-                <a href={s.url} rel="noopener" class="text-white/75 no-underline hover:text-white">
-                  {s.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        )
-      }
+      <ul>
+        <li><a href="/sejours/conditions">Conditions générales</a></li>
+        <li><a href="/sejours/regles-du-lieu">Règles du lieu</a></li>
+      </ul>
+      <p class="l4s-footer-credit">
+        Site web propulsé par <a href="https://supergenial.be" rel="noopener">Super Génial</a>
+      </p>
     </div>
   </div>
 </footer>
