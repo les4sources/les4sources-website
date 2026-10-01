@@ -9,11 +9,17 @@ import Highlight from "@components/ds/Highlight.astro";
 import Lead from "@components/ds/Lead.astro";
 import Section from "@components/ds/Section.astro";
 import EventGrid from "@components/home/EventGrid.astro";
-import HeroCloud from "@components/home/HeroCloud.astro";
+import HeroSplit from "@components/home/HeroSplit.astro";
 import { activityByPath, eventItems } from "@components/home/events";
 import { byPath, upcomingEventsWithin, visible } from "@lib/content";
 
 import cover from "@assets/migration/index/01-dji_fly_20260425_162224_848_1777127142778_photo_optimized.jpg";
+import photoBar from "@assets/migration/le-bar-des-4-sources/04-2g0a1417.jpg";
+import photoPrairie from "@assets/migration/sejours/06-20250719_150904_3017005B_-1.jpg";
+import photoGrange from "@assets/migration/a-propos/01-Design_sans_titre_-2.jpg";
+import photoTablee from "@assets/migration/a-propos/03-86ddfc5d-f420-4d9f-bad3-170e47039417.jpg";
+import photoVallee from "@assets/migration/a-propos/04-bf56a13f-8f8c-4069-bbc7-829dfc79be7d.jpg";
+import photoVerger from "@assets/migration/a-propos/08-ae92c468-098c-489c-b62c-57cc0fe6f2c5.jpg";
 import sejoursPhoto from "@assets/migration/index/08-5b02a02e-c20f-46c8-9763-bbe82859cff4.jpg";
 import semisto from "@assets/migration/index/09-semisto.jpg";
 import branches from "@assets/migration/index/10-de-branches-en-planches.jpg";
@@ -63,66 +69,75 @@ const featured = await Promise.all(
   ogImage={d.cover ?? d.ogImage}
   noindex={d.noindex}
 >
-  <HeroCloud
-    image={cover}
-    imageAlt={d.coverAlt ?? ""}
-    title="Les 4 Sources"
-    subtitle="Tiers-lieu dans la clairière, entre Namur et Dinant"
+  <HeroSplit
+    overline="Les 4 Sources · Yvoir"
+    title="Lieu d’activités, de nature et de vie collective"
+    lead="Tiers-lieu dans la clairière, entre Namur et Dinant."
+    photos={[
+      { src: cover, alt: d.coverAlt ?? "Les 4 Sources vues du ciel, dans leur clairière" },
+      { src: photoBar, alt: "Le Bar des 4 Sources et sa terrasse" },
+      { src: photoPrairie, alt: "Un groupe dans la prairie, au pied de la forêt" },
+      { src: photoGrange, alt: "La grange des 4 Sources au printemps" },
+    ]}
   >
     <Fragment slot="actions">
-      <Button variant="primary" href="/sejours">Séjours et locations</Button>
-      <Button variant="secondary" href="/agenda">L’agenda des 4 Sources</Button>
+      <Button variant="primary" size="lg" href="/sejours">Séjours et locations</Button>
+      <Button variant="secondary" size="lg" href="/agenda">L’agenda des 4 Sources</Button>
     </Fragment>
-  </HeroCloud>
+  </HeroSplit>
 
-  <Section>
-    <div class="grid grid-cols-1 gap-10 md:grid-cols-3">
-      <div>
-        <h2 class="mb-3 font-display text-h3 font-bold">Lieu d’activités</h2>
-        <p class="font-body text-body">
-          Un lieu où vivre des expériences innovantes et inspirantes en famille, entre ami·e·s ou
-          entre collègues.
-        </p>
-        <p class="mt-2.5 font-body text-body">
-          Nos <a href="/sejours">hébergements et salles</a>, <a href="/activites">activités</a> et <a
-            href="/agenda">événements</a
-          >.
-        </p>
-      </div>
-
-      <div>
-        <h2 class="mb-3 font-display text-h3 font-bold">Lieu de nature</h2>
-        <p class="font-body text-body">
-          Une clairière de 15 hectares où l’accueil de la biodiversité fait partie intégrante de
-          l’ADN du projet.
-        </p>
-        <p class="mt-2.5 font-body text-body">
-          <a href="/biodiversite">La biodiversité aux 4 Sources</a>
-        </p>
-      </div>
-
-      <div>
-        <h2 class="mb-3 font-display text-h3 font-bold">Lieu de vie collective</h2>
-        <p class="font-body text-body">
-          Un tiers-lieu sur lequel <a href="/projets">différents projets</a> se déploient et où 5 foyers
-          sont installés.
-        </p>
-        <p class="mt-2.5 font-body text-body">
-          Découvre <a href="/notre-collectif">notre collectif</a>
-        </p>
-      </div>
+  <Section
+    overline="Le lieu"
+    title="Un lieu de nature, d’habitat collectif et d’activités"
+    align="center"
+    surface="paper"
+  >
+    <div class="l4s-rows">
+      <article class="l4s-row">
+        <Image src={photoTablee} alt="Une grande tablée en terrasse, aux 4 Sources" widths={[480, 720, 1080]} sizes="(min-width: 900px) 600px, 100vw" class="l4s-row-photo" />
+        <div>
+          <h3>Lieu d’activités</h3>
+          <p>
+            Un lieu où vivre des expériences innovantes et inspirantes en famille, entre ami·e·s ou
+            entre collègues.
+          </p>
+          <a href="/activites" class="l4s-arrowlink">Nos activités</a>
+        </div>
+      </article>
+      <article class="l4s-row">
+        <Image src={photoVallee} alt="La vallée boisée autour des 4 Sources" widths={[480, 720, 1080]} sizes="(min-width: 900px) 600px, 100vw" class="l4s-row-photo" />
+        <div>
+          <h3>Lieu de nature</h3>
+          <p>
+            Une clairière de 15 hectares où l’accueil de la biodiversité fait partie intégrante de
+            l’ADN du projet.
+          </p>
+          <a href="/biodiversite" class="l4s-arrowlink">La biodiversité aux 4 Sources</a>
+        </div>
+      </article>
+      <article class="l4s-row">
+        <Image src={photoVerger} alt="Récolte de pommes au verger, en famille" widths={[480, 720, 1080]} sizes="(min-width: 900px) 600px, 100vw" class="l4s-row-photo" />
+        <div>
+          <h3>Lieu de vie collective</h3>
+          <p>
+            Un tiers-lieu sur lequel <a href="/projets">différents projets</a> se déploient et où 5
+            foyers sont installés.
+          </p>
+          <a href="/notre-collectif" class="l4s-arrowlink">Découvre notre collectif</a>
+        </div>
+      </article>
     </div>
   </Section>
 
-  <Section title="Prochainement aux 4 Sources ⛅" highlight="Prochainement" surface="subtle">
+  <Section overline="Agenda" title="Prochainement aux 4 Sources ⛅" highlight="Prochainement" align="center">
     {upcoming.length > 0 && <EventGrid items={upcoming} cols={4} snap expire />}
 
-    <div class:list={[upcoming.length > 0 && "mt-7"]}>
+    <div class:list={["flex justify-center", upcoming.length > 0 && "mt-9"]}>
       <Button variant="secondary" href="/agenda">L’agenda des 4 Sources</Button>
     </div>
   </Section>
 
-  <Section title="Hébergements, salles polyvalentes et cuisine professionnelle 🏡" highlight="Hébergements">
+  <Section overline="Séjours" title="Hébergements, salles polyvalentes et cuisine professionnelle 🏡" highlight="Hébergements" align="center" surface="paper">
     <div class="grid grid-cols-1 items-center gap-10 md:grid-cols-[1.1fr_1fr] md:gap-12">
       <Image
         src={sejoursPhoto}
@@ -153,8 +168,8 @@ const featured = await Promise.all(
     </div>
   </Section>
 
-  <Section title="Nos projets 🎴" highlight="projets">
-    <Lead class="mb-7">Aux 4 Sources émergent des projets plein de sens aux valeurs partagées.</Lead>
+  <Section overline="Vie collective" title="Nos projets 🎴" highlight="projets" align="center">
+    <Lead class="mx-auto -mt-4 mb-10 max-w-[52ch] text-center">Aux 4 Sources émergent des projets plein de sens aux valeurs partagées.</Lead>
 
     <div class="l4s-snap-row sm:grid sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
       <Card hoverable image={semisto} imageAlt="Semisto" imageAspect="16/10">
@@ -196,7 +211,7 @@ const featured = await Promise.all(
       </Card>
     </div>
 
-    <div class="mt-7">
+    <div class="mt-9 flex justify-center">
       <Button variant="secondary" href="/projets">Tous les projets</Button>
     </div>
   </Section>
@@ -230,7 +245,7 @@ const featured = await Promise.all(
     </div>
   </Section>
 
-  <Section title="Nos activités pour groupes 👥" highlight="activités">
+  <Section overline="Groupes" title="Nos activités pour groupes 👥" highlight="activités" align="center" surface="paper">
     <div class="grid grid-cols-1 items-center gap-10 md:grid-cols-[1fr_1.4fr] md:gap-12">
       {
         pizzaParty?.cover && (
@@ -317,10 +332,10 @@ const featured = await Promise.all(
     </div>
   </Section>
 
-  {/* Sur blanc, calés à gauche comme le titre : la bande papier qui suit est
-      celle de la newsletter, deux bandes papier d'affilée se confondaient. */}
-  <Section title="Nos soutiens 💚" highlight="soutiens" class="border-t-[1.5px] border-line-soft">
-    <div class="flex flex-wrap items-center justify-start gap-x-14 gap-y-8 sm:gap-x-20">
+  {/* Sur blanc et centrés, comme les autres en-têtes de section : la bande qui
+      suit est celle de la newsletter, sur fond teinté. */}
+  <Section title="Nos soutiens 💚" highlight="soutiens" align="center" class="border-t-[1.5px] border-line-soft">
+    <div class="flex flex-wrap items-center justify-center gap-x-14 gap-y-8 sm:gap-x-20">
       <Image
         src={soutienWallonie}
         alt="Wallonie Relance"

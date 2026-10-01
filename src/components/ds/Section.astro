@@ -6,6 +6,11 @@
  * le logo de l'en-tête, les bandes et le pied de page : une seule grille.
  * Le titre h2 porte, par convention de la charte, un emoji en fin de ligne
  * (« Nos projets 🎴 ») : il est passé tel quel dans `title`.
+ *
+ * Inspiration semisto.org : un `overline` (surtitre court en capitales) peut
+ * précéder le titre, et `align="center"` centre l'en-tête de section (le
+ * contenu, lui, garde sa grille). Le contenu apparaît en fondu léger quand la
+ * section entre à l'écran (`.l4s-reveal`, global.css).
  */
 import Highlight from "./Highlight.astro";
 
@@ -17,6 +22,10 @@ interface Props {
   highlight?: string;
   surface?: Surface;
   narrow?: boolean;
+  /** Surtitre court au-dessus du titre (« Agenda », « Le lieu »). */
+  overline?: string;
+  /** Centre le surtitre et le titre (sections d'accueil). */
+  align?: "start" | "center";
   /** Identifiant d'ancre (« #agenda »). */
   id?: string;
   class?: string;
@@ -29,7 +38,17 @@ const SURFACES: Record<Surface, string> = {
   teal: "bg-teal text-white",
 };
 
-const { title, highlight, surface = "transparent", narrow = false, id, class: className } = Astro.props;
+const {
+  title,
+  highlight,
+  overline,
+  align = "start",
+  surface = "transparent",
+  narrow = false,
+  id,
+  class: className,
+} = Astro.props;
+const centered = align === "center";
 // Le mot-clé absent du titre ne surligne rien : le titre reste entier.
 const at = title && highlight ? title.indexOf(highlight) : -1;
 const parts =
@@ -46,12 +65,26 @@ const parts =
     className,
   ]}
 >
-  <div class:list={["mx-auto w-full max-w-site", narrow && "[&>*]:max-w-narrow"]}>
+  <div class:list={["l4s-reveal mx-auto w-full max-w-site", narrow && "[&>*]:max-w-narrow"]}>
+    {
+      overline && (
+        <p
+          class:list={[
+            "l4s-section-overline mb-3",
+            centered && "is-centered",
+            surface === "teal" && "is-on-teal",
+          ]}
+        >
+          {overline}
+        </p>
+      )
+    }
     {
       title && (
         <h2
           class:list={[
-            "mb-7 font-display text-h2 font-bold",
+            "font-display text-h2 font-bold",
+            centered ? "mx-auto mb-10 max-w-[22ch] text-center" : "mb-7",
             surface === "teal" ? "text-white" : "text-ink",
           ]}
         >

@@ -2,8 +2,13 @@
 /**
  * En-tête de page du brand system : fil d'Ariane en Be Vietnam Pro, étiquette
  * de pôle, H1 Averia Bold (l'emoji fait partie du titre, comme sur le site
- * actuel), chapeau en encre secondaire, puis la photo de couverture aux coins
- * de photo (16 px) — ou pleine largeur avec `bleed`.
+ * actuel), chapeau en encre secondaire, et la photo de couverture.
+ *
+ * Refonte inspirée de semisto.org : dès 1 000 px, une page qui a une vraie
+ * photo de couverture ouvre sur une bande papier partagée — le texte à gauche,
+ * la photo à droite (4/3, coins de photo, ombre douce), comme le hero de
+ * l'accueil. Un bandeau très large (plus de 2,4:1) ou `bleed` garde la photo
+ * pleine largeur sous le titre. Sous 1 000 px : titre, puis photo.
  *
  * Un seul `<h1>` par page : c'est ici qu'il vit.
  */
@@ -54,20 +59,32 @@ const {
 const container = "max-w-site";
 const hasCover = Boolean(cover) || Boolean(remoteCover);
 
-// Un seul format de hero d'une page à l'autre : 4/3 sur mobile, 16/9 dans la
-// colonne étroite, 21/9 en pleine largeur. Seul un vrai bandeau (plus large que
-// 2,4:1) garde son format, pour ne pas être agrandi jusqu'au flou.
+// Un vrai bandeau (plus large que 2,4:1) garde son format, pour ne pas être
+// agrandi jusqu'au flou : il reste pleine largeur sous le titre.
 const source = cover ?? remoteCover;
 const banner = source?.width && source?.height ? source.width / source.height > 2.4 : false;
-const frame = bleed
-  ? "max-h-[62vh]"
-  : banner
-    ? "rounded-photo"
-    : ["aspect-[4/3] rounded-photo sm:aspect-[16/9]", !narrow && "lg:aspect-[21/9]"];
+// Hero partagé texte | photo : une vraie photo, ni bandeau ni fond perdu.
+const split = hasCover && !banner && !bleed;
+const frame = bleed ? "max-h-[62vh]" : "rounded-photo";
 ---
 
-<header class:list={["px-6 pt-[clamp(18px,3vw,32px)]", hasCover ? "pb-0" : "pb-2", className]}>
-  <div class:list={["mx-auto w-full", container]}>
+<header
+  class:list={[
+    // La bande papier passe sous l'en-tête collant (72 px) : la pilule flotte dessus.
+    split
+      ? "-mt-[72px] bg-paper px-6 pt-[calc(72px+clamp(18px,3vw,32px))] pb-10 min-[1000px]:pb-16"
+      : ["px-6 pt-[clamp(18px,3vw,32px)]", hasCover ? "pb-0" : "pb-2"],
+    className,
+  ]}
+>
+  <div
+    class:list={[
+      "mx-auto w-full",
+      container,
+      split && "min-[1000px]:grid min-[1000px]:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] min-[1000px]:items-center min-[1000px]:gap-14",
+    ]}
+  >
+    <div class:list={[split && "min-[1000px]:py-6"]}>
     {crumbs.length > 0 && <Breadcrumbs items={crumbs} />}
 
     {
@@ -90,11 +107,38 @@ const frame = bleed
     </h1>
 
     {lead && <p data-l4s-lead class="mt-4 max-w-[640px] font-body text-lead text-ink-2">{lead}</p>}
+    </div>
+
+    {
+      split && (
+        <div class="mt-8 min-[1000px]:mt-0">
+          {cover ? (
+            <Image
+              src={cover}
+              alt={coverAlt || title}
+              widths={[640, 960, 1280, 1600]}
+              sizes="(min-width: 1000px) 560px, 100vw"
+              loading="eager"
+              class="l4s-vt-hero aspect-[4/3] w-full rounded-photo object-cover shadow-lg"
+              style={coverPosition ? `object-position:${coverPosition}` : undefined}
+            />
+          ) : remoteCover ? (
+            <Photo
+              src={remoteCover}
+              alt={remoteCover.alt || coverAlt || title}
+              sizes="(min-width: 1000px) 560px, 100vw"
+              loading="eager"
+              class="l4s-vt-hero aspect-[4/3] w-full rounded-photo object-cover shadow-lg"
+            />
+          ) : null}
+        </div>
+      )
+    }
   </div>
 </header>
 
 {
-  hasCover && (
+  hasCover && !split && (
     <div class:list={[bleed ? "mt-8" : "mt-8 px-6"]}>
       <div class:list={["mx-auto w-full", !bleed && container, !bleed && narrow && "[&>*]:max-w-narrow"]}>
         {cover ? (

@@ -1,0 +1,144 @@
+/* ============================================================
+   Sections de page — refonte inspirée de semisto.org.
+   Surtitre de section, apparition en fondu, rangées alternées.
+   ============================================================ */
+
+@layer components {
+  /* Surtitre de section : capitales espacées, un trait jaune devant ; centré,
+     il prend un trait de chaque côté (comme les surtitres de Semisto). */
+  .l4s-section-overline {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--color-ink-2);
+    font-family: var(--font-ui);
+    font-size: var(--text-overline);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .l4s-section-overline::before,
+  .l4s-section-overline.is-centered::after {
+    content: "";
+    width: 28px;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--color-highlight);
+  }
+  .l4s-section-overline.is-centered {
+    justify-content: center;
+  }
+  .l4s-section-overline.is-on-teal {
+    color: var(--color-highlight);
+  }
+
+  /* Le contenu d'une section apparaît en fondu léger quand elle entre à
+     l'écran. Opacité seule : une transformation, même animée vers « none »,
+     ferait de la section le repère des éléments `position: fixed` qu'elle
+     contient (barre d'inscription mobile des fiches événement). Animation liée au défilement, sans durée ni rebond ;
+     une section déjà à l'écran au chargement est entière d'emblée. Sans prise
+     en charge ou en mouvement réduit : rien ne bouge. */
+  @supports (animation-timeline: view()) {
+    @media (prefers-reduced-motion: no-preference) {
+      .l4s-reveal {
+        animation: l4s-reveal linear both;
+        animation-timeline: view();
+        animation-range: entry 0% entry 35%;
+      }
+    }
+  }
+  @keyframes l4s-reveal {
+    from {
+      opacity: 0;
+    }
+  }
+
+  /* Rangées alternées image / texte (« Quatre pôles » de Semisto). */
+  .l4s-rows {
+    display: grid;
+    gap: 56px;
+  }
+  @media (min-width: 900px) {
+    .l4s-rows {
+      gap: 72px;
+    }
+  }
+  .l4s-row {
+    display: grid;
+    align-items: center;
+    gap: 24px;
+  }
+  @media (min-width: 900px) {
+    .l4s-row {
+      grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+      gap: 64px;
+    }
+    .l4s-row:nth-child(even) > :first-child {
+      order: 2;
+    }
+  }
+  .l4s-row-photo {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border-radius: var(--radius-photo);
+    object-fit: cover;
+    box-shadow: var(--shadow-lg);
+  }
+  .l4s-row h3 {
+    margin: 0 0 12px;
+    color: var(--color-teal);
+    font-family: var(--font-display);
+    font-size: clamp(26px, 2.6vw, 34px);
+    font-weight: 700;
+    line-height: 1.15;
+  }
+  .l4s-row p {
+    max-width: 46ch;
+    margin: 0;
+    color: var(--color-ink-2);
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  /* Lien « → » de Semisto : gras, souligné jaune épais. */
+  .l4s-arrowlink {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 18px;
+    padding-block: 6px;
+    color: var(--color-teal);
+    font-family: var(--font-ui);
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: var(--color-highlight);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+  }
+  .l4s-arrowlink::after {
+    content: "→";
+    transition: transform 150ms var(--ease-brand);
+  }
+  .l4s-arrowlink:hover {
+    color: var(--color-teal);
+    text-decoration-thickness: 3px;
+  }
+  .l4s-arrowlink:hover::after {
+    transform: translateX(3px);
+  }
+}
+
+@layer components {
+  /* Un titre-lien (cartes de /sejours, intertitres des hubs) se lit comme un
+     titre : pas de soulignement au repos, le surligné jaune au survol. */
+  :is(h1, h2, h3, h4) a:not([class*="l4s-"]) {
+    color: inherit;
+    text-decoration-color: transparent;
+  }
+  :is(h1, h2, h3, h4) a:not([class*="l4s-"]):hover {
+    color: var(--color-teal);
+    text-decoration-color: var(--color-highlight);
+  }
+}
