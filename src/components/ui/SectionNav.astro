@@ -1,0 +1,69 @@
+---
+/**
+ * SectionNav — les autres pages de la section, à droite du texte sur
+ * ordinateur, collées sous l'en-tête pendant le défilement ; sous le texte
+ * sur mobile. La page courante est marquée (`aria-current="page"`).
+ */
+import type { NavGroup } from "@lib/nav";
+
+interface Props {
+  section: NavGroup;
+  current: string;
+  class?: string;
+}
+
+const { section, current, class: className } = Astro.props;
+const here = current.replace(/\/+$/, "") || "/";
+---
+
+<nav aria-label={`Rubrique ${section.title}`} class:list={["l4s-sectionnav", className]}>
+  <p class="l4s-overline mb-4">{section.title}</p>
+  <ul class="m-0 list-none p-0">
+    {
+      section.links.map((l) => (
+        <li>
+          <a href={l.path} aria-current={l.path === here ? "page" : undefined}>
+            {l.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>
+
+<style>
+  .l4s-sectionnav {
+    border-top: 1.5px solid var(--color-line-soft);
+    padding-top: 28px;
+  }
+  @media (min-width: 1024px) {
+    .l4s-sectionnav {
+      position: sticky;
+      /* Sous la pilule de l'en-tête collant (72 px), avec de l'air. */
+      top: 112px;
+      border-top: 0;
+      border-left: 1.5px solid var(--color-line-soft);
+      padding: 4px 0 4px 28px;
+    }
+  }
+  .l4s-sectionnav li + li {
+    margin-top: 2px;
+  }
+  .l4s-sectionnav a {
+    display: block;
+    padding: 7px 0;
+    color: var(--color-ink-2);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.35;
+    text-decoration: none;
+    transition: color 150ms var(--ease-brand);
+  }
+  .l4s-sectionnav a:hover {
+    color: var(--color-teal-soft);
+  }
+  .l4s-sectionnav a[aria-current="page"] {
+    color: var(--color-teal);
+    font-weight: 700;
+  }
+</style>

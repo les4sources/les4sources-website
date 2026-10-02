@@ -1,0 +1,184 @@
+---
+/**
+ * Slideshow — un petit diaporama de photos dans une section (accueil :
+ * hébergements et salles). Même mécanique que le hero de l'accueil : flèches +
+ * pastilles, sans défilement automatique, fondu de 400 ms coupé en mouvement
+ * réduit ; sans JavaScript, la première photo reste affichée.
+ */
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
+export interface Slide {
+  src: ImageMetadata;
+  alt: string;
+}
+
+interface Props {
+  slides: Slide[];
+  /** Attribut `sizes` des photos. */
+  sizes: string;
+  widths?: number[];
+  /** Nom du groupe de pastilles pour les lecteurs d'écran. */
+  label?: string;
+  class?: string;
+}
+
+const {
+  slides,
+  sizes,
+  widths = [480, 720, 960, 1280],
+  label = "Choisir une photo",
+  class: className,
+} = Astro.props;
+const many = slides.length > 1;
+---
+
+<div class:list={["l4s-slideshow", className]} data-l4s-carousel>
+  {
+    slides.map((s, i) => (
+      <Image
+        src={s.src}
+        alt={s.alt}
+        widths={widths}
+        sizes={sizes}
+        loading="lazy"
+        class="l4s-slideshow-photo"
+        data-slide={i}
+        data-active={i === 0 ? "" : undefined}
+        aria-hidden={i === 0 ? undefined : "true"}
+      />
+    ))
+  }
+
+  {
+    many && (
+      <div class="l4s-slideshow-controls">
+        <div class="l4s-slideshow-dots" role="group" aria-label={label}>
+          {slides.map((_, i) => (
+            <button
+              type="button"
+              data-goto={i}
+              aria-label={`Photo ${i + 1} sur ${slides.length}`}
+              aria-current={i === 0 ? "true" : undefined}
+            />
+          ))}
+        </div>
+        <div class="l4s-slideshow-arrows">
+          <button type="button" data-step="-1" aria-label="Photo précédente">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M14.5 6 8.5 12l6 6" />
+            </svg>
+          </button>
+          <button type="button" data-step="1" aria-label="Photo suivante">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="m9.5 6 6 6-6 6" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    )
+  }
+</div>
+
+<style>
+  .l4s-slideshow {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+    border-radius: var(--radius-photo);
+    background: var(--color-surface);
+  }
+  .l4s-slideshow-photo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 400ms var(--ease-brand);
+  }
+  .l4s-slideshow-photo[data-active] {
+    opacity: 1;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .l4s-slideshow-photo {
+      transition: none;
+    }
+  }
+
+  .l4s-slideshow-controls {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    left: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .l4s-slideshow-dots {
+    display: flex;
+    gap: 2px;
+  }
+  /* Pastille de 9 px, zone cliquable de 26 px. */
+  .l4s-slideshow-dots button {
+    display: grid;
+    place-items: center;
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+  }
+  .l4s-slideshow-dots button::before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    border: 1.5px solid var(--color-white);
+    border-radius: var(--radius-pill);
+    background: transparent;
+    box-shadow: var(--shadow-sm);
+    transition:
+      background-color 200ms var(--ease-brand),
+      transform 200ms var(--ease-brand);
+  }
+  .l4s-slideshow-dots button[aria-current="true"]::before {
+    background: var(--color-white);
+    transform: scale(1.15);
+  }
+  .l4s-slideshow-arrows {
+    display: flex;
+    gap: 8px;
+  }
+  .l4s-slideshow-arrows button {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: var(--radius-pill);
+    background: var(--color-white);
+    color: var(--color-teal);
+    box-shadow: var(--shadow-md);
+    cursor: pointer;
+    transition: background-color 150ms var(--ease-brand);
+  }
+  .l4s-slideshow-arrows button:hover {
+    background: var(--color-highlight);
+  }
+  .l4s-slideshow-arrows svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+</style>
+
+<script>
+  import { initCarousels } from "./carousel";
+  initCarousels();
+</script>

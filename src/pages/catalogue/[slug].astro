@@ -145,7 +145,7 @@ const jsonld = [
       experience.bookingUrl ? (
         <p class="mt-7">
           <Button href={experience.bookingUrl} rel="noopener" size="lg">
-            Réserver cette activité
+            {experience.bookingLabel ?? "Réserver cette activité"}
           </Button>
         </p>
       ) : (

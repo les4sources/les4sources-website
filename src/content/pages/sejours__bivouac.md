@@ -40,5 +40,3 @@ Voyage léger en louant hamac, tarp et matelas isolant.
 
 - 15 €/nuit
 <!-- /columns -->
-
-![Hamacs entre les arbres](../../assets/migration/shared/6c76e91841bc-20240808_080152_29FD74F5.jpg)

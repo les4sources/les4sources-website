@@ -10,12 +10,14 @@ properties:
   Thématique: "Production et transformation"
   Type: "Toujours disponible"
   Public(s)-cible(s): "Team building, Groupes d’amis, Groupes de jeunes, Familles, Collectifs/Assoc', Mises au vert"
-  Participants min: "4"
-  Participants max: "60"
+  Participants min: "8"
+  Participants max: "80"
   Sur la page d'accueil: "false"
 pole: "production"
-minParticipants: 4
-maxParticipants: 60
+minParticipants: 8
+maxParticipants: 80
+bookingUrl: "https://tranchesdevie.les4sources.be/pizza-party-privee"
+bookingLabel: "Demander ma Pizza Party privée"
 ---
 
 ### Rien de tel qu’une Pizza Party pour souder ton groupe autour d’un délicieux repas ! 😋
@@ -34,9 +36,9 @@ Que la meilleure pizza … soit dégustée comme il se doit ! 🍕
 
 ### En pratique
 
-- Min. 15 participant·es (excepté les jours de boulangerie (mardi et vendredi))
-- Activité réalisable **à la demande**, midis et soirs, tous les jours **sauf le lundi.** ⚠️ Les mercredis, jeudis, samedis et dimanches, ton groupe doit prévoir **3h30** de chauffe avant de pouvoir enfourner 🔥
-- Le four est chaud **les mardis et vendredis** (pour les cuissons de la boulangerie)
+- De **8 à 80 personnes**
+- En soirée, **le mardi et le vendredi** : les jours de boulangerie, quand le four est déjà chaud et l’équipe présente. Quelques autres dates sont ouvertes en plus ; le calendrier de réservation dit lesquelles.
+- Demande ta date **au moins 10 jours à l’avance** : l’équipe a besoin de ce délai pour te répondre et préparer la pâte.
 - Tu amènes tous tes ingrédients pour garnir tes pâtes à pizzas : passata, légumes, fromages…
 
 ### Tarifs
@@ -46,7 +48,7 @@ Que la meilleure pizza … soit dégustée comme il se doit ! 🍕
 
 ![Des mains étalent des pâtes à pizza sur une longue table farinée](../../assets/migration/catalogue__pizza-ou-camembert-party/04-_mg_0320.jpg)
 
-> 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
+> 💁 Pour réserver, fais ta demande sur [la page Pizza Party privée de Tranches de Vie](https://tranchesdevie.les4sources.be/pizza-party-privee) : choisis ta date, la boulangerie te répond par e-mail et tu règles quelques jours avant la party. **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 
 ## D’autres activités à découvrir
 

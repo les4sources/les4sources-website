@@ -10,12 +10,14 @@ properties:
   Thématique: "Production et transformation"
   Type: "Toujours disponible"
   Public(s)-cible(s): "Team building, Groupes d’amis, Groupes de jeunes, Familles, Collectifs/Assoc'"
-  Participants min: "4"
-  Participants max: "48"
+  Participants min: "8"
+  Participants max: "80"
   Sur la page d'accueil: "false"
 pole: "production"
-minParticipants: 4
-maxParticipants: 48
+minParticipants: 8
+maxParticipants: 80
+bookingUrl: "https://tranchesdevie.les4sources.be/pizza-party-privee"
+bookingLabel: "Demander ma Camembert Party"
 ---
 
 ### Vis un moment convivial, chaleureux et savoureux !
@@ -30,8 +32,9 @@ Un moment tout particulier dont tu te souviendras… On l’espère.
 
 ### En pratique
 
-- Min. 10 personnes, excepté les jours de boulangerie (mardi et vendredi)
-- **Durée** : les mardis et vendredis, le four est chauffé par la boulangerie. Les mercredis, jeudis, samedis et dimanches, prévoir 3h de ton temps pour lancer et chauffer le four avant l’enfournement 🔥
+- De **8 à 80 personnes**
+- En soirée, **le mardi et le vendredi** : les jours de boulangerie, quand le four est déjà chaud. Quelques autres dates sont ouvertes en plus ; le calendrier de réservation dit lesquelles.
+- Demande ta date **au moins 10 jours à l’avance**.
 - Enfournement des fromages et légumes entre 19h à 20h, au moment où le four est encore chaud suite à la cuisson des pains
 - À emporter : tes fromages et légumes préférés 🧄
 
@@ -42,7 +45,7 @@ Un moment tout particulier dont tu te souviendras… On l’espère.
 
 ![Camembert Party pour groupes](../../assets/migration/catalogue__camembert-party/03-20250110_193739_cbaf3b65.jpg)
 
-> 💁 Pour plus d’informations et pour réserver, envoie-nous un e-mail à [contact@les4sources.be](mailto:contact@les4sources.be). **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
+> 💁 Pour réserver, fais ta demande sur [la page Pizza Party privée de Tranches de Vie](https://tranchesdevie.les4sources.be/pizza-party-privee) en précisant « Camembert Party » dans l’occasion : la boulangerie te répond par e-mail. **Envie de loger sur place avant ou après l’activité ?** Découvre [nos hébergements](/sejours/hebergements-yvoir)
 
 ## D’autres activités à découvrir
 

@@ -107,3 +107,32 @@ export function footerGroups(): NavGroup[] {
 export function socials(): SocialLink[] {
   return [...site.socials];
 }
+
+/**
+ * Menus de section : sur ordinateur, les pages d'une section affichent les
+ * autres pages de la même section dans une colonne qui suit le défilement
+ * (demande de Michael, 2026-10-02 : la moitié droite de l'écran restait vide).
+ * Les libellés sont les titres de la page hub (`/a-propos`).
+ */
+const SECTIONS: NavGroup[] = [
+  {
+    title: "À propos",
+    links: [
+      { label: "À propos des 4 Sources", path: "/a-propos" },
+      { label: "Accéder aux 4 Sources", path: "/a-propos/acces-ahinvaux" },
+      { label: "Raison d’être du projet", path: "/a-propos/notre-projet" },
+      { label: "Soutenir Les 4 Sources", path: "/nous-soutenir" },
+      { label: "Notre collectif", path: "/notre-collectif" },
+      { label: "Les animaux", path: "/a-propos/les-animaux-des-4-sources" },
+      { label: "Dans la presse", path: "/a-propos/les-4-sources-dans-la-presse" },
+      { label: "Un tiers-lieu nourricier", path: "/a-propos/jardin-foret-et-verger" },
+      { label: "Le Domaine d’Ahinvaux", path: "/a-propos/domaine-d-ahinvaux" },
+    ],
+  },
+];
+
+/** La section d'une page (hors page hub, qui liste déjà toute la section). */
+export function sectionOf(path: string): NavGroup | undefined {
+  const clean = path.replace(/\/+$/, "") || "/";
+  return SECTIONS.find((s) => s.links.slice(1).some((l) => l.path === clean));
+}

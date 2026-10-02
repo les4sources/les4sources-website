@@ -1,6 +1,7 @@
 ---
 import Photo from "@components/ui/Photo.astro";
-import { getCollection } from "astro:content";
+import Slideshow from "@components/ui/Slideshow.astro";
+import { getCollection, getEntry } from "astro:content";
 import { Image } from "astro:assets";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import Button from "@components/ds/Button.astro";
@@ -16,11 +17,13 @@ import { byPath, upcomingEventsWithin, visible } from "@lib/content";
 import cover from "@assets/migration/index/01-dji_fly_20260425_162224_848_1777127142778_photo_optimized.jpg";
 import photoBar from "@assets/migration/le-bar-des-4-sources/04-2g0a1417.jpg";
 import photoPrairie from "@assets/migration/sejours/06-20250719_150904_3017005B_-1.jpg";
-import photoGrange from "@assets/migration/a-propos/01-Design_sans_titre_-2.jpg";
-import photoTablee from "@assets/migration/a-propos/03-86ddfc5d-f420-4d9f-bad3-170e47039417.jpg";
+import photoPizzaParty from "@assets/migration/evenements__pizza-party-juin-2026/03-508613796_1023903979919038_8286032347514294983_n.jpg";
 import photoVallee from "@assets/migration/a-propos/04-bf56a13f-8f8c-4069-bbc7-829dfc79be7d.jpg";
-import photoVerger from "@assets/migration/a-propos/08-ae92c468-098c-489c-b62c-57cc0fe6f2c5.jpg";
-import sejoursPhoto from "@assets/migration/index/08-5b02a02e-c20f-46c8-9763-bbe82859cff4.jpg";
+import photoRecolte from "@assets/migration/catalogue__chantier-participatif/02-c4d3d572-0fe2-495d-ae66-6244b2bb653a.jpg";
+import photoChambre from "@assets/migration/index/08-5b02a02e-c20f-46c8-9763-bbe82859cff4.jpg";
+import photoGrandeSalle from "@assets/migration/sejours__salles/06-baafa39c-6519-476e-a909-bbeb55345a8a.jpg";
+import photoPetiteSalle from "@assets/migration/sejours__salles/07-location-salle-reunion-yvoir.jpg";
+import photoCercle from "@assets/migration/sejours__salles/03-location-salle-fete-yvoir.jpg";
 import semisto from "@assets/migration/index/09-semisto.jpg";
 import branches from "@assets/migration/index/10-de-branches-en-planches.jpg";
 import pain from "@assets/migration/index/11-pain.jpg";
@@ -52,6 +55,8 @@ const upcoming = upcomingEventsWithin(await eventItems(), 2);
 
 /** La fiche Pizza Party du catalogue prête sa photo à la section des groupes. */
 const pizzaParty = await activityByPath("/catalogue/pizza-ou-camembert-party");
+/** Sa réservation passe par la page Pizza Party privée de Tranches de Vie. */
+const pizzaBookingUrl = (await getEntry("catalogue", "pizza-ou-camembert-party"))?.data.bookingUrl;
 
 // Les trois activités mises en avant par la page migrée, avec leur photo de fiche.
 const featured = await Promise.all(
@@ -70,14 +75,18 @@ const featured = await Promise.all(
   noindex={d.noindex}
 >
   <HeroSplit
-    overline="Les 4 Sources · Yvoir"
+    overline="Les 4 Sources à Yvoir"
     title="Lieu d’activités, de nature et de vie collective"
     lead="Tiers-lieu dans la clairière, entre Namur et Dinant."
     photos={[
-      { src: cover, alt: d.coverAlt ?? "Les 4 Sources vues du ciel, dans leur clairière" },
+      {
+        src: cover,
+        alt: d.coverAlt ?? "Les 4 Sources vues du ciel, dans leur clairière",
+        // Le cadre est plus haut que large sur ordinateur : on garde le bâtiment, à droite.
+        position: "95% 50%",
+      },
       { src: photoBar, alt: "Le Bar des 4 Sources et sa terrasse" },
       { src: photoPrairie, alt: "Un groupe dans la prairie, au pied de la forêt" },
-      { src: photoGrange, alt: "La grange des 4 Sources au printemps" },
     ]}
   >
     <Fragment slot="actions">
@@ -94,7 +103,7 @@ const featured = await Promise.all(
   >
     <div class="l4s-rows">
       <article class="l4s-row">
-        <Image src={photoTablee} alt="Une grande tablée en terrasse, aux 4 Sources" widths={[480, 720, 1080]} sizes="(min-width: 900px) 600px, 100vw" class="l4s-row-photo" />
+        <Image src={photoPizzaParty} alt="Une Pizza Party en terrasse, devant le Bar des 4 Sources" widths={[480, 720, 1080]} sizes="(min-width: 900px) 600px, 100vw" class="l4s-row-photo" />
         <div>
           <h3>Lieu d’activités</h3>
           <p>
@@ -116,7 +125,7 @@ const featured = await Promise.all(
         </div>
       </article>
       <article class="l4s-row">
-        <Image src={photoVerger} alt="Récolte de pommes au verger, en famille" widths={[480, 720, 1080]} sizes="(min-width: 900px) 600px, 100vw" class="l4s-row-photo" />
+        <Image src={photoRecolte} alt="Des mains ramassent des pommes à la récolte du verger" widths={[480, 720, 1080]} sizes="(min-width: 900px) 600px, 100vw" class="l4s-row-photo" />
         <div>
           <h3>Lieu de vie collective</h3>
           <p>
@@ -139,12 +148,15 @@ const featured = await Promise.all(
 
   <Section overline="Séjours" title="Hébergements, salles polyvalentes et cuisine professionnelle 🏡" highlight="Hébergements" align="center" surface="paper">
     <div class="grid grid-cols-1 items-center gap-10 md:grid-cols-[1.1fr_1fr] md:gap-12">
-      <Image
-        src={sejoursPhoto}
-        alt="Hébergements et salles des 4 Sources"
-        widths={[480, 720, 960]}
+      <Slideshow
+        slides={[
+          { src: photoChambre, alt: "Une chambre d’un gîte des 4 Sources" },
+          { src: photoGrandeSalle, alt: "La grande salle, sous la charpente de l’ancienne grange" },
+          { src: photoPetiteSalle, alt: "La petite salle installée pour une réunion" },
+          { src: photoCercle, alt: "Un grand cercle réuni dans la grande salle" },
+        ]}
         sizes="(min-width: 768px) 560px, 100vw"
-        class="block aspect-[4/3] w-full rounded-photo object-cover"
+        label="Choisir une photo des hébergements et des salles"
       />
 
       <div>
@@ -228,7 +240,7 @@ const featured = await Promise.all(
           location.
         </p>
         <div class="mt-5">
-          <Button variant="highlight" href="/le-bar-des-4-sources">Voir la carte du bar</Button>
+          <Button variant="highlight" href="/le-bar-des-4-sources">Découvrir le bar</Button>
         </div>
       </div>
 
@@ -271,7 +283,14 @@ const featured = await Promise.all(
           Révise ton italien et viens chanter Eros Ramazzotti en cuisant de délicieuses pizzas avec
           tes amis ou ta famille dans notre four à bois.
         </p>
-        <div class="mt-5">
+        <div class="mt-5 flex flex-wrap gap-3">
+          {
+            pizzaBookingUrl && (
+              <Button variant="primary" href={pizzaBookingUrl} rel="noopener">
+                Réserver ma Pizza Party privée
+              </Button>
+            )
+          }
           <Button variant="secondary" href="/catalogue/camembert-party"
             >Existe aussi en Camembert Party !</Button
           >

@@ -61,8 +61,8 @@ Une **salle majestueuse** dans l’ancienne ferme d’Ahinvaux, avec un bar derr
 ![Ateliers en intelligence collective](../../assets/migration/sejours__salles/05-location-salle-yvoir-assesse.jpg)
 *Ateliers en intelligence collective*
 
-![La grande salle dressée pour une fête](../../assets/migration/sejours__salles/02-_G0A2828.jpg)
-*Dressée pour une fête*
+![La grande salle vide, avec son bar et sa mezzanine](../../assets/migration/sejours__salles/02-_G0A2828.jpg)
+*Prête à être aménagée pour ton événement*
 <!-- /columns -->
 
 ## La Petite Salle 🪑

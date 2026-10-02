@@ -92,6 +92,10 @@ const catalogue = defineCollection({
       duration: z.string().optional(),
       minParticipants: z.number().optional(),
       maxParticipants: z.number().optional(),
+      /** Réservation hors Claudy (ex. la Pizza Party privée chez Tranches de Vie) : remplace le bouton « Nous écrire ». */
+      bookingUrl: z.string().url().optional(),
+      /** Libellé du bouton de réservation ; à défaut « Réserver cette activité ». */
+      bookingLabel: z.string().optional(),
     }),
 });
 

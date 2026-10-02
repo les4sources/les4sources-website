@@ -58,8 +58,6 @@ Seul·e, en couple, en famille ou en petits groupes, nous t’accueillons **en s
 - 15 €/nuit
 <!-- /columns -->
 
-![Hamacs dans le bois des 4 Sources](../../assets/migration/shared/6c76e91841bc-20240808_080152_29FD74F5.jpg)
-
 ## Salles et cuisine professionnelle 🪑
 
 Découvre [les salles et la cuisine professionnelle](/sejours/salles) des 4 Sources. Des espaces pour tout type d’activités !

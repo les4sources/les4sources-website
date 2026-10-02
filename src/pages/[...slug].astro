@@ -7,9 +7,11 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 import PageHero from "@components/ui/PageHero.astro";
 import Prose from "@components/ui/Prose.astro";
 import ReservationBand from "@components/ui/ReservationBand.astro";
+import SectionNav from "@components/ui/SectionNav.astro";
 import Section from "@components/ds/Section.astro";
 import { pathOf, visible } from "@lib/content";
 import { isReservedPath } from "@lib/routes";
+import { sectionOf } from "@lib/nav";
 import { breadcrumbs } from "@lib/seo";
 import { site } from "@lib/site";
 
@@ -72,6 +74,13 @@ const RESERVATION_PAGES = new Set([
 ]);
 const withReservation = RESERVATION_PAGES.has(pathOf(entry));
 
+/**
+ * Une page de rubrique (À propos…) montre les autres pages de sa rubrique dans
+ * une colonne de droite de 240 px ; le texte garde sa colonne de lecture, ou
+ * la largeur restante pour une page à colonnes.
+ */
+const section = sectionOf(pathOf(entry));
+
 // Fil d'Ariane dérivé du chemin réel (une page profonde = un fil d'Ariane).
 const segments = pathOf(entry).split("/").filter(Boolean);
 // Libellés des sections du site actuel ; à défaut, le segment est humanisé (majuscule, tirets → espaces).
@@ -129,11 +138,28 @@ const jsonld =
     narrow={!wide}
   />
 
-  <Section narrow={!wide} class="pt-10">
-    {/* Les embeds sont rendus À LEUR PLACE dans le corps Markdown (voir
-        scripts/migrate/lib/transform.ts) — ne pas les répéter ici. */}
-    <Prose width={wide ? "full" : "prose"}><Content /></Prose>
-  </Section>
+  {
+    section ? (
+      <Section class="pt-10">
+        <div class="grid grid-cols-1 gap-12 lg:grid-cols-[minmax(0,1fr)_240px] lg:gap-16">
+          <Prose width={wide ? "full" : "prose"}>
+            <Content />
+          </Prose>
+          <div>
+            <SectionNav section={section} current={pathOf(entry)} />
+          </div>
+        </div>
+      </Section>
+    ) : (
+      <Section narrow={!wide} class="pt-10">
+        {/* Les embeds sont rendus À LEUR PLACE dans le corps Markdown (voir
+            scripts/migrate/lib/transform.ts) — ne pas les répéter ici. */}
+        <Prose width={wide ? "full" : "prose"}>
+          <Content />
+        </Prose>
+      </Section>
+    )
+  }
 
   {withReservation && <ReservationBand />}
 </BaseLayout>

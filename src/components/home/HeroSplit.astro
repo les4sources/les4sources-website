@@ -5,8 +5,9 @@
  * l'en-tête (la pilule flotte sur la photo). Le bord gauche de la photo suit
  * une courbe douce : le motif « bord organique » de la charte (BlobPanel).
  *
- * Plusieurs photos : un carrousel manuel (flèches + pastilles), sans
- * défilement automatique — on regarde à son rythme. Fondu de 400 ms, coupé en
+ * Plusieurs photos : un carrousel manuel (flèches + pastilles, script partagé
+ * `@components/ui/carousel`), sans défilement automatique — on regarde à son
+ * rythme. Fondu de 400 ms, coupé en
  * mouvement réduit. Sans JavaScript, la première photo reste affichée.
  *
  * Sous 1 000 px, la photo passe en tête, pleine largeur, puis le texte.
@@ -17,6 +18,8 @@ import type { ImageMetadata } from "astro";
 export interface HeroPhoto {
   src: ImageMetadata;
   alt: string;
+  /** Cadrage dans le cadre (CSS `object-position`), ex. "85% 50%" pour garder le bâtiment à droite. */
+  position?: string;
 }
 
 interface Props {
@@ -29,6 +32,19 @@ interface Props {
 
 const { photos, overline, title, lead } = Astro.props;
 const many = photos.length > 1;
+
+/**
+ * Le cadre recadre (object-fit: cover) : sur ordinateur il fait 50vw de large
+ * sur au plus 860 px de haut, sur mobile 100vw sur 85vw. Une photo paysage y
+ * est donc affichée bien plus large que le cadre ; on le dit au navigateur,
+ * sinon il choisit une variante trop petite et la photo paraît floue.
+ */
+const sizesOf = (src: ImageMetadata) => {
+  const ratio = src.width / src.height;
+  const desktop = Math.round(Math.max(860 * ratio, 960));
+  const mobile = Math.max(100, Math.round(85 * ratio));
+  return `(min-width: 1000px) ${desktop}px, ${mobile}vw`;
+};
 ---
 
 <section class="l4s-herosplit" data-l4s-carousel>
@@ -38,8 +54,9 @@ const many = photos.length > 1;
         <Image
           src={p.src}
           alt={p.alt}
-          widths={[640, 960, 1280, 1600, 2000]}
-          sizes="(min-width: 1000px) 50vw, 100vw"
+          widths={[640, 960, 1280, 1600, 2000, 2600, 3200]}
+          sizes={sizesOf(p.src)}
+          style={p.position ? `object-position: ${p.position}` : undefined}
           loading={i === 0 ? "eager" : "lazy"}
           fetchpriority={i === 0 ? "high" : "auto"}
           class="l4s-herosplit-photo"
@@ -265,34 +282,6 @@ const many = photos.length > 1;
 </style>
 
 <script>
-  document.querySelectorAll<HTMLElement>("[data-l4s-carousel]").forEach((root) => {
-    const slides = Array.from(root.querySelectorAll<HTMLElement>("[data-slide]"));
-    const dots = Array.from(root.querySelectorAll<HTMLButtonElement>("[data-goto]"));
-    if (slides.length < 2) return;
-    let index = 0;
-
-    const show = (next: number) => {
-      index = (next + slides.length) % slides.length;
-      slides.forEach((s, i) => {
-        const on = i === index;
-        s.toggleAttribute("data-active", on);
-        // La photo visible est lue par les lecteurs d'écran, les autres non.
-        if (on) s.removeAttribute("aria-hidden");
-        else s.setAttribute("aria-hidden", "true");
-        // Une photo paresseuse se charge dès qu'on la demande.
-        if (on && s instanceof HTMLImageElement) s.loading = "eager";
-      });
-      dots.forEach((d, i) => d.setAttribute("aria-current", String(i === index)));
-    };
-
-    root.querySelectorAll<HTMLButtonElement>("[data-step]").forEach((b) =>
-      b.addEventListener("click", () => show(index + Number(b.dataset.step))),
-    );
-    dots.forEach((d) => d.addEventListener("click", () => show(Number(d.dataset.goto))));
-    // Flèches du clavier quand le focus est dans les commandes.
-    root.addEventListener("keydown", (event) => {
-      if (event.key === "ArrowRight") show(index + 1);
-      else if (event.key === "ArrowLeft") show(index - 1);
-    });
-  });
+  import { initCarousels } from "@components/ui/carousel";
+  initCarousels();
 </script>

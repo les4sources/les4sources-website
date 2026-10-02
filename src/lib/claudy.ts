@@ -275,6 +275,8 @@ export interface MergedExperience extends MergedBase {
   minParticipants?: number;
   maxParticipants?: number;
   bookingUrl?: string;
+  /** Libellé du bouton de réservation (fiche migrée) ; à défaut « Réserver cette activité ». */
+  bookingLabel?: string;
   /** Fiche conservée (URL préservée) mais retirée des listings. */
   archived?: boolean;
 }
@@ -302,6 +304,8 @@ export interface LegacyEntry {
     duration?: string;
     minParticipants?: number;
     maxParticipants?: number;
+    bookingUrl?: string;
+    bookingLabel?: string;
   };
 }
 
@@ -423,7 +427,8 @@ function fromClaudyExperience(e: ClaudyExperience, twin?: LegacyEntry): MergedEx
     duration: e.duration_text,
     minParticipants: e.min_participants,
     maxParticipants: e.max_participants,
-    bookingUrl: e.booking_url,
+    bookingUrl: e.booking_url ?? twin?.data.bookingUrl,
+    bookingLabel: e.booking_url ? undefined : twin?.data.bookingLabel,
   };
 }
 
@@ -444,6 +449,8 @@ function fromLegacyExperience(entry: LegacyEntry): MergedExperience {
     duration: entry.data.duration,
     minParticipants: entry.data.minParticipants,
     maxParticipants: entry.data.maxParticipants,
+    bookingUrl: entry.data.bookingUrl,
+    bookingLabel: entry.data.bookingLabel,
     // La fiche reste servie (son URL est un contrat) mais quitte les listings.
     archived: entry.data.archived === true,
   };
