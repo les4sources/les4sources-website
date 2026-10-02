@@ -10,12 +10,9 @@ gallery:
   - "../../assets/migration/shared/096816461c46-_G0A2754.jpg"
   - "../../assets/migration/shared/7864d1223515-_G0A2782.jpg"
   - "../../assets/migration/shared/45c528537c2a-_G0A2780.jpg"
-  - "../../assets/migration/shared/eee8f9e92016-photo-5003253.jpg"
-  - "../../assets/migration/shared/dcfdbcef84fa-photo-5013779.jpg"
-  - "../../assets/migration/shared/8923450c102c-photo-5013479.jpg"
-  - "../../assets/migration/shared/3455508e2ee7-photo-5007479.jpg"
-  - "../../assets/migration/shared/6df02b7b27cc-photo-5013024.jpg"
-  - "../../assets/migration/shared/5d995e8472aa-photo-5013018.jpg"
+  - "../../assets/migration/shared/3c1f3720ab07-_G0A2834.jpg"
+  - "../../assets/migration/shared/5e35169402b8-IMG_8243_-2.jpg"
+  - "../../assets/migration/shared/7feb8ae0442d-IMG_8246.jpg"
 ---
 
 Accueille toute la famille ou tout ton groupe et profite d'une grande terrasse exposée plein sud, entourée de forêts idéales pour de belles randonnées. Immerge-toi avec eux dans un cadre naturel magnifique avec des ânes, un lama, un alpaga et Eventy, notre fjord islandais.
