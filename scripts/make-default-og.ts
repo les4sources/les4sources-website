@@ -12,7 +12,7 @@
 import { mkdir } from "node:fs/promises";
 import sharp from "sharp";
 
-const SRC = "src/assets/images/les-4-sources-tiers-lieu-yvoir-vue-drone.jpg";
+const SRC = "src/assets/images/accueil/01-vue-drone-printemps.jpg";
 const OUT = "public/og/les4sources-og.jpg";
 
 await mkdir("public/og", { recursive: true });

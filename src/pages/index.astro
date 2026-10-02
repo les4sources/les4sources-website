@@ -14,9 +14,13 @@ import HeroSplit from "@components/home/HeroSplit.astro";
 import { activityByPath, eventItems } from "@components/home/events";
 import { byPath, upcomingEventsWithin, visible } from "@lib/content";
 
-import cover from "@assets/migration/index/01-dji_fly_20260425_162224_848_1777127142778_photo_optimized.jpg";
-import photoBar from "@assets/migration/le-bar-des-4-sources/04-2g0a1417.jpg";
-import photoPrairie from "@assets/migration/sejours/06-20250719_150904_3017005B_-1.jpg";
+// Le carrousel du hero : les six photos choisies par Michael le 2026-10-02.
+import heroDrone from "@assets/images/accueil/01-vue-drone-printemps.jpg";
+import heroAnes from "@assets/images/accueil/02-anes-prairie.jpg";
+import heroPains from "@assets/images/accueil/03-pains-four-a-bois.jpg";
+import heroDiscGolf from "@assets/images/accueil/04-disc-golf.jpg";
+import heroReunion from "@assets/images/accueil/05-reunion-sous-le-tilleul.jpg";
+import heroSoudure from "@assets/images/accueil/06-atelier-soudure-dome.jpg";
 import photoPizzaParty from "@assets/migration/evenements__pizza-party-juin-2026/03-508613796_1023903979919038_8286032347514294983_n.jpg";
 import photoVallee from "@assets/migration/a-propos/04-bf56a13f-8f8c-4069-bbc7-829dfc79be7d.jpg";
 import photoRecolte from "@assets/migration/catalogue__chantier-participatif/02-c4d3d572-0fe2-495d-ae66-6244b2bb653a.jpg";
@@ -71,7 +75,7 @@ const featured = await Promise.all(
 <BaseLayout
   title={d.seoTitle ?? d.title}
   description={d.description}
-  ogImage={d.cover ?? d.ogImage}
+  ogImage={heroDrone}
   noindex={d.noindex}
 >
   <HeroSplit
@@ -79,14 +83,12 @@ const featured = await Promise.all(
     title="Lieu d’activités, de nature et de vie collective"
     lead="Tiers-lieu dans la clairière, entre Namur et Dinant."
     photos={[
-      {
-        src: cover,
-        alt: d.coverAlt ?? "Les 4 Sources vues du ciel, dans leur clairière",
-        // Le cadre est plus haut que large sur ordinateur : on garde le bâtiment, à droite.
-        position: "95% 50%",
-      },
-      { src: photoBar, alt: "Le Bar des 4 Sources et sa terrasse" },
-      { src: photoPrairie, alt: "Un groupe dans la prairie, au pied de la forêt" },
+      { src: heroDrone, alt: "Les 4 Sources vues du ciel au printemps : la grange, les mares et les prairies" },
+      { src: heroAnes, alt: "Deux ânes broutent dans la prairie, au pied des bois", position: "70% 50%" },
+      { src: heroPains, alt: "Des pains au levain tout juste sortis du four à bois" },
+      { src: heroDiscGolf, alt: "Une partie de disc-golf devant le Bar des 4 Sources" },
+      { src: heroReunion, alt: "Une réunion de travail à l’ombre des arbres, en terrasse" },
+      { src: heroSoudure, alt: "Un atelier de soudure sous le dôme", position: "70% 50%" },
     ]}
   >
     <Fragment slot="actions">
