@@ -5,6 +5,7 @@ import SEO from "@components/seo/SEO.astro";
 import Header from "@components/layout/Header.astro";
 import Footer from "@components/layout/Footer.astro";
 import MenuDrawer from "@components/layout/MenuDrawer.astro";
+import Analytics from "@components/layout/Analytics.astro";
 import NewsletterBand from "@components/ds/NewsletterBand.astro";
 import { documentTitle as buildDocumentTitle, organization, tidyTitle } from "@lib/seo";
 import { site } from "@lib/site";
@@ -121,6 +122,7 @@ const allJsonld = [organization({ siteUrl }), ...jsonld];
       canonicalPath={canonicalPath}
       jsonld={allJsonld}
     />
+    <Analytics />
   </head>
   <body class="bg-white font-body text-ink">
     {/* z-[60] : l'en-tête collant est en z-50, le lien d'évitement doit passer devant. */}

@@ -1,0 +1,73 @@
+---
+/**
+ * Mesure d'audience sans cookie (2026-10-03) : chaque page vue et quelques
+ * clics clés partent vers Claudy, qui les compte dans Reporting › Site web.
+ *
+ * Rien n'est écrit dans le navigateur — ni cookie, ni localStorage, ni
+ * sessionStorage. Le script envoie l'adresse de la page, le référent et, pour
+ * un clic, sa destination ; Claudy en tire une empreinte du jour sans garder
+ * l'IP (voir `SiteStats::Tracker` dans Claudy).
+ *
+ * Sans `CLAUDY_PUBLIC_API_URL` au build (poste local, CI), rien n'est émis :
+ * on ne mesure que le site de production.
+ */
+const api = process.env.CLAUDY_PUBLIC_API_URL?.replace(/\/+$/, "");
+const endpoint = api ? `${api}/hits` : undefined;
+const notFound = Astro.url.pathname.replace(/\/+$/, "") === "/404";
+---
+
+{endpoint && <meta name="l4s-stats" content={endpoint} data-not-found={notFound ? "" : undefined} />}
+
+<script>
+  import { clickEvent } from "@lib/analytics";
+
+  const meta = document.querySelector<HTMLMetaElement>('meta[name="l4s-stats"]');
+  const endpoint = meta?.content;
+
+  function send(kind: "pageview" | "event", name?: string, target?: string): void {
+    if (!endpoint) return;
+    const body = JSON.stringify({
+      k: kind,
+      n: name,
+      t: target,
+      u: location.href,
+      r: document.referrer || undefined,
+    });
+    try {
+      // `sendBeacon` + chaîne = requête text/plain « simple » : pas de requête
+      // préalable CORS, et l'envoi survit à la navigation qui suit un clic.
+      if (!navigator.sendBeacon?.(endpoint, body)) {
+        void fetch(endpoint, { method: "POST", body, keepalive: true, mode: "no-cors" }).catch(() => {});
+      }
+    } catch {
+      // La mesure ne doit jamais gêner la page.
+    }
+  }
+
+  if (endpoint) {
+    send("pageview");
+    if (meta?.hasAttribute("data-not-found")) send("event", "not_found");
+
+    document.addEventListener(
+      "click",
+      (event) => {
+        const link = event.target instanceof Element ? event.target.closest<HTMLAnchorElement>("a[href]") : null;
+        if (!link) return;
+        const name = clickEvent(link.href, location.hostname);
+        if (name) send("event", name, name === "telephone" || name === "email" ? undefined : link.href);
+      },
+      { capture: true },
+    );
+
+    // Les formulaires Tally intégrés annoncent leur envoi par postMessage.
+    window.addEventListener("message", (event) => {
+      if (!/(^|\.)tally\.so$/.test(new URL(event.origin).hostname)) return;
+      try {
+        const data = typeof event.data === "string" ? JSON.parse(event.data) : event.data;
+        if (data?.event === "Tally.FormSubmitted") send("event", "tally_submit", data.payload?.formId);
+      } catch {
+        // Message d'un autre format : ignoré.
+      }
+    });
+  }
+</script>

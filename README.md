@@ -104,6 +104,10 @@ claudy: source=fixture events=3 experiences=2 merged=5 legacy_only=0
 - **Garde-fou navigateur.** Chaque carte d'une liste « à venir » porte `data-until` (fin de la dernière journée de l'événement) ; un script inline de `BaseLayout` la retire une fois la date passée, masque une liste vidée, et sur la fiche remplace le bouton d'inscription par « Cet événement a déjà eu lieu » (`data-from`).
 - **Rebuild quotidien.** `.github/workflows/rebuild-quotidien.yml` appelle chaque nuit le webhook de déploiement d'Hatchbox, stocké dans le secret GitHub `HATCHBOX_DEPLOY_HOOK_URL` (même URL que `WEBSITE_REBUILD_WEBHOOK_URL` côté Claudy). Sans le secret, le job ne fait rien et le signale.
 
+## Mesure d'audience sans cookie
+
+`src/components/layout/Analytics.astro` envoie à Claudy (`POST {CLAUDY_PUBLIC_API_URL}/hits`, par `navigator.sendBeacon`) chaque page vue, l'affichage de la page 404, l'envoi d'un formulaire Tally intégré et les clics clés (Réserver, Tally, téléphone, e-mail, liens sortants) — leur classement vit dans `src/lib/analytics.ts`. Rien n'est écrit dans le navigateur : ni cookie, ni stockage local. Claudy ne garde ni IP ni User-Agent, seulement une empreinte du jour dont la clé est détruite le lendemain ; les robots et les membres connectés à Claudy ne comptent pas. Les chiffres se lisent dans Claudy › Reporting › Site web. Sans `CLAUDY_PUBLIC_API_URL` au build (poste local, CI), le script n'est pas émis.
+
 ## Petits plus
 
 - **`/agenda.ics`** — l'agenda en abonnement calendrier (Apple, Google, Outlook), bouton « S'abonner » sur `/agenda`. Chaque fiche garde aussi son `.ics` individuel.
