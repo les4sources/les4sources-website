@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
-import { readFile, writeFile } from "node:fs/promises";
+import { copyFile, readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import mdx from "@astrojs/mdx";
 import tailwindcss from "@tailwindcss/vite";
@@ -40,6 +40,9 @@ function sitemapWithoutNoindex() {
           if (/<meta name="robots" content="[^"]*noindex/.test(html)) out = out.replace(entry, "");
         }
         await writeFile(file, out);
+        // L'ancien site (Super) publiait son sitemap à /sitemap.xml, et la Search
+        // Console le connaît sous cette adresse : on y sert l'index, sitemap valide.
+        await copyFile(`${root}sitemap-index.xml`, `${root}sitemap.xml`).catch(() => {});
       },
     },
   };
