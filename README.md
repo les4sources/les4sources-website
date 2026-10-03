@@ -106,7 +106,7 @@ claudy: source=fixture events=3 experiences=2 merged=5 legacy_only=0
 
 ## Mesure d'audience sans cookie
 
-`src/components/layout/Analytics.astro` envoie à Claudy (`POST {CLAUDY_PUBLIC_API_URL}/hits`, par `navigator.sendBeacon`) chaque page vue, l'affichage de la page 404, l'envoi d'un formulaire Tally intégré et les clics clés (Réserver, Tally, téléphone, e-mail, liens sortants) — leur classement vit dans `src/lib/analytics.ts`. Rien n'est écrit dans le navigateur : ni cookie, ni stockage local. Claudy ne garde ni IP ni User-Agent, seulement une empreinte du jour dont la clé est détruite le lendemain ; les robots et les membres connectés à Claudy ne comptent pas. Les chiffres se lisent dans Claudy › Reporting › Site web. Sans `CLAUDY_PUBLIC_API_URL` au build (poste local, CI), le script n'est pas émis.
+`src/components/layout/Analytics.astro` envoie à Claudy (`POST /site-stats/hits` sur l'origine de `CLAUDY_PUBLIC_API_URL`, par `navigator.sendBeacon`) chaque page vue, l'affichage de la page 404, l'envoi d'un formulaire Tally intégré et les clics clés (Réserver, Tally, téléphone, e-mail, liens sortants) — leur classement vit dans `src/lib/analytics.ts`. Rien n'est écrit dans le navigateur : ni cookie, ni stockage local. Claudy ne garde ni IP ni User-Agent, seulement une empreinte du jour dont la clé est détruite le lendemain ; les robots et les membres connectés à Claudy ne comptent pas. Les chiffres se lisent dans Claudy › Reporting › Site web. Sans `CLAUDY_PUBLIC_API_URL` au build (poste local, CI), le script n'est pas émis.
 
 ## Petits plus
 

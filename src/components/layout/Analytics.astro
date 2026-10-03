@@ -11,8 +11,10 @@
  * Sans `CLAUDY_PUBLIC_API_URL` au build (poste local, CI), rien n'est émis :
  * on ne mesure que le site de production.
  */
-const api = process.env.CLAUDY_PUBLIC_API_URL?.replace(/\/+$/, "");
-const endpoint = api ? `${api}/hits` : undefined;
+// Hors de l'API publique de Claudy, qui reste en lecture seule : même origine,
+// chemin `/site-stats/hits`.
+const api = process.env.CLAUDY_PUBLIC_API_URL;
+const endpoint = api ? new URL("/site-stats/hits", api).href : undefined;
 const notFound = Astro.url.pathname.replace(/\/+$/, "") === "/404";
 ---
 
