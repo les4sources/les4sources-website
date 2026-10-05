@@ -68,20 +68,25 @@ export function isPastEvent(e: { start?: string; end?: string }, now: Date = new
   return civilDay(d) < civilDay(now);
 }
 
+const FREE_ENTRY = /\b(gratuit|gratuite|entr[ée]e libre|prix libre|participation libre)\b/i;
+const EURO_AMOUNT = /(?:€\s*(\d+(?:[.,]\d{1,2})?)|(\d+(?:[.,]\d{1,2})?)\s*(?:€|euros?\b|eur\b))/gi;
+
 /**
- * Prix chiffré quand le libellé n'est QUE ce prix (« 10 € », « €80.00 »,
- * « 7 euros ») — pour l'`offers.price` du JSON-LD. « Pizzas à prix libre » ou
- * « 10 € par adulte / 6 € par enfant » ne donnent rien : on n'en tire pas un
- * chiffre qui ne dirait pas toute la vérité.
+ * Prix chiffré d'un libellé — pour l'`offers.price` du JSON-LD.
+ *  - un seul montant en euros (« 10 € », « €80.00 », « 80 € la journée,
+ *    matériel compris ») → ce montant ;
+ *  - aucun montant mais une entrée gratuite ou à prix libre (« Gratuit »,
+ *    « Participation libre ») → 0, le prix d'entrée minimal ;
+ *  - plusieurs montants (« 10 € par adulte / 6 € par enfant ») → rien : on n'en
+ *    tire pas un chiffre qui ne dirait pas toute la vérité.
  */
 export function parsePriceEuros(text?: string): number | undefined {
   if (!text) return undefined;
-  const m = text
-    .trim()
-    .match(/^(?:€\s*)?(\d+(?:[.,]\d{1,2})?)\s*(?:€|euros?|eur)?$/i);
-  if (!m?.[1]) return undefined;
-  const n = Number(m[1].replace(",", "."));
-  return Number.isFinite(n) ? n : undefined;
+  const amounts = [...text.matchAll(EURO_AMOUNT)].map((m) => Number((m[1] ?? m[2] ?? "").replace(",", ".")));
+  const distinct = [...new Set(amounts.filter(Number.isFinite))];
+  if (distinct.length === 1) return distinct[0];
+  if (distinct.length === 0 && FREE_ENTRY.test(text)) return 0;
+  return undefined;
 }
 
 /**
