@@ -109,8 +109,10 @@ export interface EventInput {
   image?: string;
   /** Libellé de prix affiché ; devient une `offers` si une inscription existe. */
   priceText?: string;
-  /** Prix en euros, seulement quand le libellé se réduit à ce chiffre. */
+  /** Prix en euros, seulement quand le libellé n'en porte qu'un (0 = entrée gratuite). */
   price?: number;
+  /** ISO 8601 — début de la mise en vente : la publication de la fiche. */
+  validFrom?: string;
   /** « COMPLET ! » dans le titre → `availability: SoldOut`. */
   soldOut?: boolean;
   registrationUrl?: string;
@@ -122,14 +124,15 @@ export interface EventInput {
 /** Event — pour les fiches événement (agenda, événements). */
 export function event(i: EventInput) {
   const offers =
-    i.registrationUrl || i.priceText
+    i.registrationUrl || i.priceText || i.price !== undefined
       ? {
           offers: {
             "@type": "Offer",
             ...(i.registrationUrl ? { url: i.registrationUrl } : {}),
             ...(i.priceText ? { description: i.priceText } : {}),
-            // Le prix chiffré n'est émis que lorsque le libellé n'est QUE ce prix.
+            // Le prix chiffré n'est émis que lorsque le libellé n'en porte qu'un.
             ...(i.price !== undefined ? { price: i.price, priceCurrency: "EUR" } : {}),
+            ...(i.validFrom ? { validFrom: i.validFrom } : {}),
             availability: i.soldOut ? "https://schema.org/SoldOut" : "https://schema.org/InStock",
           },
         }
@@ -153,6 +156,8 @@ export function event(i: EventInput) {
     ...(i.image ? { image: i.image } : {}),
     ...offers,
     organizer: { "@id": ORG_ID, name: site.name, url: site.url },
+    // Aucun intervenant n'est structuré dans Claudy : l'organisateur porte l'événement.
+    performer: { "@type": "Organization", "@id": ORG_ID, name: site.name, url: site.url },
   };
 }
 

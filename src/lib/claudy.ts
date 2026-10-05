@@ -261,10 +261,14 @@ export interface MergedEvent extends MergedBase {
   allDay: boolean;
   location?: string;
   priceText?: string;
+  /** Tarif brut de la fiche migrée (« €0.00 ») quand il n'a pas donné de `priceText`. */
+  priceFallback?: string;
   registrationUrl?: string;
   /** Libellé du bouton d'inscription (fiche migrée) ; à défaut la fiche en propose un. */
   registrationLabel?: string;
   categoryName?: string;
+  /** ISO 8601 — date de publication dans Claudy (inconnue pour une fiche migrée). */
+  publishedAt?: string;
   /** Fiche retirée du programme (annulée) : URL préservée, absente des listes et du calendrier. */
   archived?: boolean;
 }
@@ -300,6 +304,8 @@ export interface LegacyEntry {
     registrationUrl?: string;
     registrationLabel?: string;
     priceText?: string;
+    /** Propriétés Notion brutes conservées par la migration (`Tarif`, `Date`…). */
+    properties?: Record<string, string>;
     category?: string;
     duration?: string;
     minParticipants?: number;
@@ -337,6 +343,7 @@ function fromClaudyEvent(e: ClaudyEvent, twin?: LegacyEntry): MergedEvent {
     location: e.location,
     priceText: e.price_text,
     registrationUrl: e.registration_url,
+    publishedAt: e.published_at,
   };
 }
 
@@ -359,6 +366,8 @@ function fromLegacyEvent(entry: LegacyEntry): MergedEvent {
     allDay: false,
     location: entry.data.location,
     priceText: entry.data.priceText,
+    // La migration n'a pas gardé « €0.00 » comme libellé : le tarif reste la source du prix.
+    priceFallback: entry.data.priceText ? undefined : entry.data.properties?.Tarif,
     registrationUrl: entry.data.registrationUrl,
     registrationLabel: entry.data.registrationLabel,
     archived: entry.data.archived === true,
