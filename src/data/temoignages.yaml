@@ -1,0 +1,66 @@
+# Témoignages publiés dans la newsletter des 4 Sources (Listmonk, liste 1).
+# Texte et signature recopiés À L'IDENTIQUE de la campagne d'origine : on ne
+# reformule pas, on ne complète pas un prénom. `campaign` est l'id Listmonk de
+# la première newsletter qui l'a publié, pour retrouver la source.
+#
+# `pages` = les legacyPath où le témoignage s'affiche ; `home` = il fait partie
+# de la sélection de la page d'accueil.
+
+- id: olivier-focus-jardin-foret
+  quote: "La semaine avec Semisto aux 4 Sources est riche en informations, partage de savoirs et d’expériences. Le travail que j’ai réalisé sur mon projet, accompagné des formateurs, m’a permis de revenir avec un plan relativement défini que j’ai de suite partagé avec ma famille. Convaincus, nous avons démarré la transformation avant l’hiver."
+  author: "Olivier"
+  newsletter: { campaign: 3, month: "2026-02" }
+  pages:
+    - /projets/semisto
+
+- id: anso-jo-halte-balade
+  quote: "Merci pour ce lieu magique qui nous permet une douce halte sur notre balade !"
+  author: "AnSo & Jo"
+  newsletter: { campaign: 6, month: "2026-03" }
+  home: true
+  pages:
+    - /le-bar-des-4-sources
+    - /carte-de-balades-vallee-du-bocq
+
+- id: delphine-groupe-formation
+  quote: "Un moment magique pour tout le groupe de notre formation. Merci d'avoir pensé et concrétisé ce lieu qui était en résonance avec nos valeurs profondes."
+  author: "Delphine & co"
+  newsletter: { campaign: 7, month: "2026-04" }
+  pages:
+    - /sejours/mises-au-vert
+    - /sejours/salles
+
+- id: madeleine-logement-groupe
+  quote: "Très chouette logement pour un groupe, propre, avec de l'espace pour que chacun s'y sente bien, mais aussi de beaux espaces pour se réunir tous ensemble. N'hésitez pas, allez-y !"
+  author: "Madeleine"
+  newsletter: { campaign: 14, month: "2026-06" }
+  home: true
+  pages:
+    - /sejours
+    - /sejours/hebergements-yvoir
+
+- id: team-odoo-anes
+  quote: "Merci pour l'accueil chaleureux et la découverte de ce cadre magnifique ! Nous voilà ressourcés grâce à tout l'amour que les ânes ont à offrir ! Nous reviendrons !"
+  author: "La team Odoo"
+  newsletter: { campaign: 18, month: "2026-07" }
+  home: true
+  pages:
+    - /un-team-building-aux-4-sources
+    - /catalogue/temps-avec-le-troupeau-d-anes
+    - /a-propos/les-animaux-des-4-sources
+
+- id: martine-atelier-pizza
+  quote: "Très belle matinée au vert avec l'équipe Brabant Hesbaye de la Fondation Rurale de Wallonie. Très contents d'avoir fait ensemble l'atelier Pizza !"
+  author: "Martine"
+  newsletter: { campaign: 26, month: "2026-09" }
+  pages:
+    - /un-team-building-aux-4-sources
+    - /sejours/mises-au-vert
+    - /catalogue/atelier-pizza
+
+- id: institut-sainte-marie-huy
+  quote: "Un tout grand merci pour l'accueil dans ce lieu incroyable. Merci d'avoir accueilli nos 18 ados. Ils repartent ressourcés et plus curieux qu'avant leur arrivée."
+  author: "Amélie, Marie-Line et Aurélie, pour l'Institut Sainte-Marie Huy"
+  newsletter: { campaign: 28, month: "2026-10" }
+  pages:
+    - /sejours/retraites-scolaires

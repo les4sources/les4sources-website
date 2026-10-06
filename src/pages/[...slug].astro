@@ -8,6 +8,7 @@ import PageHero from "@components/ui/PageHero.astro";
 import Prose from "@components/ui/Prose.astro";
 import ReservationBand from "@components/ui/ReservationBand.astro";
 import SectionNav from "@components/ui/SectionNav.astro";
+import Temoignages from "@components/ui/Temoignages.astro";
 import Section from "@components/ds/Section.astro";
 import { pathOf, visible } from "@lib/content";
 import { isReservedPath } from "@lib/routes";
@@ -160,6 +161,8 @@ const jsonld =
       </Section>
     )
   }
+
+  <Temoignages path={pathOf(entry)} />
 
   {withReservation && <ReservationBand />}
 </BaseLayout>

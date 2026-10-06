@@ -13,6 +13,8 @@ import EventGrid from "@components/home/EventGrid.astro";
 import HeroSplit from "@components/home/HeroSplit.astro";
 import { activityByPath, eventItems } from "@components/home/events";
 import { byPath, upcomingEventsWithin, visible } from "@lib/content";
+import Temoignages from "@components/ui/Temoignages.astro";
+import { homeTemoignages } from "@lib/temoignages";
 
 // Le carrousel du hero : les six photos choisies par Michael le 2026-10-02.
 import heroDrone from "@assets/images/accueil/01-vue-drone-printemps.jpg";
@@ -352,6 +354,10 @@ const featured = await Promise.all(
       </div>
     </div>
   </Section>
+
+  {/* Ce que les visiteur·euse·s en disent, repris de la newsletter : après les
+      activités pour groupes (papier), sur fond teinté. */}
+  <Temoignages items={await homeTemoignages()} align="center" />
 
   {/* Sur blanc et centrés, comme les autres en-têtes de section : la bande qui
       suit est celle de la newsletter, sur fond teinté. */}
