@@ -6,6 +6,7 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 import PageHero from "@components/ui/PageHero.astro";
 import Prose from "@components/ui/Prose.astro";
 import Section from "@components/ds/Section.astro";
+import Temoignages from "@components/ui/Temoignages.astro";
 import { pathOf, visible } from "@lib/content";
 import { breadcrumbs } from "@lib/seo";
 import { site } from "@lib/site";
@@ -61,4 +62,6 @@ const jsonld = [
   <Section class="pt-10">
     <Prose width="full"><Content /></Prose>
   </Section>
+
+  <Temoignages path={pathOf(entry)} />
 </BaseLayout>

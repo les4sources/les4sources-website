@@ -11,6 +11,7 @@ import PageHero from "@components/ui/PageHero.astro";
 import Prose from "@components/ui/Prose.astro";
 import Button from "@components/ds/Button.astro";
 import Section from "@components/ds/Section.astro";
+import Temoignages from "@components/ui/Temoignages.astro";
 import { siteData } from "@lib/data";
 import { isPole } from "@lib/poles";
 import { breadcrumbs } from "@lib/seo";
@@ -172,6 +173,8 @@ const jsonld = [
       }
     </Prose>
   </Section>
+
+  <Temoignages path={experience.path} surface="transparent" />
 
   {
     related.length > 0 && (

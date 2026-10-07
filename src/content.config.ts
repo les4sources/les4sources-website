@@ -1,5 +1,5 @@
 import { defineCollection, z } from "astro:content";
-import { glob } from "astro/loaders";
+import { file, glob } from "astro/loaders";
 
 /**
  * Modèle de contenu. Une collection par section du site actuel ; l'id d'une
@@ -130,4 +130,24 @@ const hebergements = defineCollection({
     }),
 });
 
-export const collections = { pages, evenements, catalogue, collectif, projets, hebergements };
+/**
+ * 7. Témoignages repris des newsletters (src/data/temoignages.yaml). Texte et
+ * signature à l'identique de la campagne d'origine ; `pages` dit où chacun
+ * s'affiche (des legacyPath), `home` s'il fait partie de la sélection d'accueil.
+ */
+const temoignages = defineCollection({
+  loader: file("src/data/temoignages.yaml"),
+  schema: z.object({
+    quote: z.string().min(1),
+    author: z.string().min(1),
+    newsletter: z.object({
+      /** Id Listmonk de la campagne qui l'a publié en premier. */
+      campaign: z.number().int(),
+      month: z.string().regex(/^\d{4}-\d{2}$/),
+    }),
+    pages: z.array(z.string().startsWith("/")).default([]),
+    home: z.boolean().default(false),
+  }),
+});
+
+export const collections = { pages, evenements, catalogue, collectif, projets, hebergements, temoignages };

@@ -6,6 +6,7 @@ import Highlight from "@components/ds/Highlight.astro";
 import Lead from "@components/ds/Lead.astro";
 import Logo from "@components/ds/Logo.astro";
 import Section from "@components/ds/Section.astro";
+import Temoignages from "@components/ui/Temoignages.astro";
 import { byPath, visible } from "@lib/content";
 
 import cover from "@assets/migration/le-bar-des-4-sources/01-IMG_2199.jpg";
@@ -103,4 +104,6 @@ const gallery = [
       }
     </div>
   </Section>
+
+  <Temoignages path={entry.data.legacyPath} narrow />
 </BaseLayout>

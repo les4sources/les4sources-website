@@ -1,0 +1,61 @@
+---
+/**
+ * Témoignages — « Ils sont passés par ici », la rubrique de la newsletter,
+ * reprise sur le site. Les textes viennent de `src/data/temoignages.yaml`, à
+ * l'identique de la newsletter d'origine ; rien ne s'affiche quand la page n'en
+ * a aucun (jamais de faux témoignage pour remplir).
+ *
+ * `path` choisit les témoignages d'une page (son legacyPath) ; `items` passe
+ * une sélection déjà faite (la page d'accueil).
+ */
+import Section from "@components/ds/Section.astro";
+import { temoignagesFor, type Temoignage } from "@lib/temoignages";
+
+type Surface = "transparent" | "paper" | "subtle";
+
+interface Props {
+  path?: string;
+  items?: Temoignage[];
+  surface?: Surface;
+  align?: "start" | "center";
+  narrow?: boolean;
+}
+
+const { path, items, surface = "subtle", align = "start", narrow = false } = Astro.props;
+const list = items ?? (path ? await temoignagesFor(path) : []);
+// Les cartes se détachent du fond : blanches sur fond teinté, papier sur blanc.
+const card = surface === "transparent" ? "bg-paper" : "bg-white";
+const cols =
+  narrow || list.length === 1
+    ? "grid-cols-1"
+    : list.length === 2
+      ? "grid-cols-1 md:grid-cols-2"
+      : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3";
+---
+
+{
+  list.length > 0 && (
+    <Section
+      overline="Témoignages"
+      title="Ils sont passés par ici 💬"
+      highlight="passés par ici"
+      surface={surface}
+      align={align}
+      narrow={narrow}
+    >
+      <div class:list={["grid gap-6", cols]}>
+        {list.map((t) => (
+          <figure class:list={["flex flex-col rounded-photo p-7", card]}>
+            <span aria-hidden="true" class="font-display text-h1 leading-none text-highlight">
+              “
+            </span>
+            <blockquote class="mt-1 flex-1 font-display text-lead italic text-ink">
+              <p>{t.quote}</p>
+            </blockquote>
+            <figcaption class="mt-5 font-ui text-ui font-semibold text-ink-2">— {t.author}</figcaption>
+          </figure>
+        ))}
+      </div>
+    </Section>
+  )
+}

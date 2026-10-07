@@ -9,6 +9,7 @@ import PoleTag from "@components/ds/PoleTag.astro";
 import Section from "@components/ds/Section.astro";
 import PageMenu from "@components/ui/PageMenu.astro";
 import ReservationBand from "@components/ui/ReservationBand.astro";
+import Temoignages from "@components/ui/Temoignages.astro";
 import Toc from "@components/sejours/Toc.astro";
 import PlanDuLieu from "@components/sejours/PlanDuLieu.astro";
 import { byPath, visible } from "@lib/content";
@@ -228,6 +229,8 @@ const menuPaths = [
       </div>
     </div>
   </Section>
+
+  <Temoignages path="/sejours" />
 
   <ReservationBand id="venir" />
 </BaseLayout>

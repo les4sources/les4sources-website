@@ -209,6 +209,33 @@ for (const [t, ps] of titles) if (ps.length > 1) err(ps.sort().join(", "), `titl
 for (const [d, ps] of descs)
   if (ps.length > 1) err(ps.sort().join(", "), `description dupliquée : « ${d.slice(0, 60)}… »`);
 
+// témoignages : chaque page listée dans src/data/temoignages.yaml doit exister
+// et afficher la signature (une faute dans `pages` ne s'affiche nulle part, en silence).
+{
+  const { parse } = await import("yaml");
+  const list = parse(await readFile("src/data/temoignages.yaml", "utf8")) as {
+    id: string;
+    author: string;
+    pages?: string[];
+  }[];
+  const pageFile = new Map(htmlFiles.map((f) => [pagePath(f), f]));
+  for (const t of list) {
+    for (const p of t.pages ?? []) {
+      const file = pageFile.get(p.replace(/\/+$/, "") || "/");
+      if (!file) {
+        err(p, `témoignage « ${t.id} » posé sur une page qui n'existe pas`);
+        continue;
+      }
+      const shown = [...(await readFile(file, "utf8")).matchAll(/<figcaption[^>]*>([^<]*)<\/figcaption>/g)]
+        .map((m) => decode(m[1]));
+      const name = t.author.replace(/['’]/g, "");
+      if (!shown.some((c) => c.replace(/['’]/g, "").includes(name))) {
+        err(p, `témoignage « ${t.id} » absent de la page`);
+      }
+    }
+  }
+}
+
 // garde-fou : l'accueil ne doit jamais partir en noindex
 const home = htmlFiles.find((f) => pagePath(f) === "/");
 if (home && /<meta\s+name=["']robots["'][^>]*noindex/i.test(await readFile(home, "utf8"))) {
