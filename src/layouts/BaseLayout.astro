@@ -9,6 +9,7 @@ import Analytics from "@components/layout/Analytics.astro";
 import NewsletterBand from "@components/ds/NewsletterBand.astro";
 import { documentTitle as buildDocumentTitle, organization, tidyTitle } from "@lib/seo";
 import { site } from "@lib/site";
+import { lengthenDescription } from "@lib/text";
 
 interface Props {
   /** Titre de la page (`seoTitle ?? title` du contenu) — nettoyé et situé par `documentTitle()`. */
@@ -45,6 +46,11 @@ const ogTitle = tidyTitle(title);
 const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
 // Organization + LodgingBusiness : émis sur toutes les pages (NAP cohérent, GEO).
 const allJsonld = [organization({ siteUrl }), ...jsonld];
+
+// Le contenu est rendu d'abord : une description trop courte se prolonge de
+// ses premières phrases (lengthenDescription).
+const content = await Astro.slots.render("default");
+const metaDescription = lengthenDescription(description, content);
 ---
 
 <!doctype html>
@@ -115,7 +121,7 @@ const allJsonld = [organization({ siteUrl }), ...jsonld];
     <SEO
       title={docTitle}
       ogTitle={ogTitle}
-      description={description}
+      description={metaDescription}
       ogImage={ogImage}
       type={type}
       noindex={noindex}
@@ -125,6 +131,14 @@ const allJsonld = [organization({ siteUrl }), ...jsonld];
     <Analytics />
   </head>
   <body class="bg-white font-body text-ink">
+    {
+      /* Cloudflare (Scrape Shield) réécrit chaque lien mailto: en
+         /cdn-cgi/l/email-protection#…, une adresse qui répond 404 aux robots :
+         Ahrefs comptait ainsi le pied de page et le menu de chaque page comme
+         « lien vers une page cassée ». Les balises email_off le lui interdisent ;
+         set:html, parce qu'Astro ne garantit pas un commentaire HTML écrit nu. */
+    }
+    <Fragment set:html="<!--email_off-->" />
     {/* z-[60] : l'en-tête collant est en z-50, le lien d'évitement doit passer devant. */}
     <a
       href="#main"
@@ -135,7 +149,7 @@ const allJsonld = [organization({ siteUrl }), ...jsonld];
     <div class="l4s-page">
       <Header />
       <main id="main">
-        <slot />
+        <Fragment set:html={content} />
       </main>
       {/* La page /newsletter est le formulaire : pas de bande en double. */}
       {pathname !== "/newsletter" && <NewsletterBand />}
@@ -183,5 +197,6 @@ const allJsonld = [organization({ siteUrl }), ...jsonld];
         });
       })();
     </script>
+    <Fragment set:html="<!--/email_off-->" />
   </body>
 </html>
