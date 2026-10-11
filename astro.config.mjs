@@ -84,6 +84,8 @@ export default defineConfig({
     // fichiers locaux (src/lib/remote-image.ts, contrat docs/CLAUDY.md).
     domains: ["app.les4sources.be"],
     remotePatterns: [],
+    // `src` ramené à la plus grande largeur de `widths` (src/lib/image-service.ts).
+    service: { entrypoint: "./src/lib/image-service.ts" },
   },
 
   vite: {

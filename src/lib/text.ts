@@ -109,3 +109,56 @@ export function seoDescription(text: string | undefined, precision?: string): st
   if (out.length < 50 && out.length + suffix.length <= MAX) out += suffix;
   return out;
 }
+
+const ENTITIES: Record<string, string> = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " };
+
+/** Texte brut des paragraphes d'un fragment HTML rendu. */
+function paragraphs(html: string): string[] {
+  return [...html.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)]
+    .map((m) =>
+      m[1]
+        .replace(/<[^>]+>/g, " ")
+        .replace(/&(#x[\da-f]+|#\d+|\w+);/gi, (all, e: string) =>
+          e[0] === "#"
+            ? String.fromCodePoint(e[1] === "x" || e[1] === "X" ? parseInt(e.slice(2), 16) : +e.slice(1))
+            : (ENTITIES[e.toLowerCase()] ?? all),
+        )
+        .replace(/\s+/g, " ")
+        .replace(/\s+([,.;:!?…)])/g, "$1")
+        .trim(),
+    )
+    .filter((p) => p.length >= 20);
+}
+
+/**
+ * Description `<meta>` assez longue pour un aperçu de résultat de recherche.
+ *
+ * Ahrefs signale toute description sous 110 caractères (« Meta description too
+ * short ») : titre seul, date seule, ou résumé complété du suffixe du site. On
+ * la prolonge alors des premières phrases de la page elle-même (`html`, le
+ * contenu rendu) — rien qui ne soit déjà affiché — jusqu'à 110 caractères, et
+ * on coupe au mot avant 160. Sans texte à reprendre, elle reste telle quelle.
+ */
+export function lengthenDescription(description: string, html: string): string {
+  const MIN = 110;
+  const MAX = 160;
+  if (description.length >= MIN) return description;
+  const base = description.replace(SITE_SUFFIX, "").trim();
+  const seen = (s: string) => base.toLowerCase().includes(s.toLowerCase());
+  let out = base;
+  for (const p of paragraphs(html)) {
+    if (seen(p) || seen(p.replace(/[.!?…]+$/, ""))) continue;
+    for (const sentence of p.split(/(?<=[.!?…])\s+/)) {
+      if (seen(sentence)) continue;
+      out += /[.!?…]$/.test(out) ? ` ${sentence}` : `. ${sentence}`;
+      if (out.length >= MIN) break;
+    }
+    if (out.length >= MIN) break;
+  }
+  if (out.length < MIN) return description;
+  if (out.length > MAX) {
+    const cut = out.slice(0, MAX - 1);
+    out = `${cut.slice(0, cut.lastIndexOf(" ")).replace(/[\s,;:.!?—–-]+$/, "")}…`;
+  }
+  return out;
+}
