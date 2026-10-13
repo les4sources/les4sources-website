@@ -138,7 +138,7 @@ const metaDescription = lengthenDescription(description, content);
          « lien vers une page cassée ». Les balises email_off le lui interdisent ;
          set:html, parce qu'Astro ne garantit pas un commentaire HTML écrit nu. */
     }
-    <Fragment set:html="<!--email_off-->" />
+    <Fragment set:html={"<!--email_off-->"} />
     {/* z-[60] : l'en-tête collant est en z-50, le lien d'évitement doit passer devant. */}
     <a
       href="#main"
@@ -197,6 +197,6 @@ const metaDescription = lengthenDescription(description, content);
         });
       })();
     </script>
-    <Fragment set:html="<!--/email_off-->" />
+    <Fragment set:html={"<!--/email_off-->"} />
   </body>
 </html>

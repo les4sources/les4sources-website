@@ -2,8 +2,8 @@
 title: "Bain d’ânes"
 description: "Viens passer un moment inoubliable en compagnie de notre troupeau d’ânes. Cette activité s'adresse à tous : groupes d'ami·es, familles, groupes de jeunes…"
 legacyPath: "/catalogue/temps-avec-le-troupeau-d-anes"
-cover: "../../assets/migration/shared/8310a8380629-_G0A4772.jpg"
-coverAlt: "Bain d’ânes"
+cover: "../../assets/images/catalogue/bain-d-anes.jpg"
+coverAlt: "Une enfant caresse le museau d’un âne dans une prairie fleurie des 4 Sources"
 icon: "🫏"
 properties:
   Statut: "Disponible"
