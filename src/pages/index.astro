@@ -67,7 +67,7 @@ const pizzaBookingUrl = (await getEntry("catalogue", "pizza-ou-camembert-party")
 // Les trois activités mises en avant par la page migrée, avec leur photo de fiche.
 const featured = await Promise.all(
   [
-    { label: "🫏 Bain d’ânes", path: "/catalogue/temps-avec-le-troupeau-d-anes" },
+    { label: "🫏 Rencontre avec le troupeau d’ânes", path: "/catalogue/temps-avec-le-troupeau-d-anes" },
     { label: "🪢 Grimpe encadrée dans les arbres", path: "/catalogue/grimpe-encadree-dans-les-arbres" },
     { label: "🤾🏻‍♂️ Initiation au Disc-golf", path: "/catalogue/initiation-au-disc-golf" },
   ].map(async (a) => ({ ...a, item: await activityByPath(a.path) })),
