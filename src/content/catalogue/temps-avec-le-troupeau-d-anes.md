@@ -1,5 +1,5 @@
 ---
-title: "Bain d’ânes"
+title: "Rencontre avec le troupeau d’ânes"
 description: "Viens passer un moment inoubliable en compagnie de notre troupeau d’ânes. Cette activité s'adresse à tous : groupes d'ami·es, familles, groupes de jeunes…"
 legacyPath: "/catalogue/temps-avec-le-troupeau-d-anes"
 cover: "../../assets/images/catalogue/bain-d-anes.jpg"
@@ -17,7 +17,7 @@ minParticipants: 1
 maxParticipants: 8
 ---
 
-### Vis une expérience unique et apaisante en parfaite harmonie avec la nature et notre troupeau de 25 ânes !
+### Vis une expérience unique et apaisante en parfaite harmonie avec la nature et notre troupeau de 24 ânes !
 
 Viens passer un moment inoubliable en compagnie de notre troupeau d’ânes. Cette activité s'adresse à tous : groupes d'ami·es, familles, groupes de jeunes, associations et collègues. C'est une occasion unique de se ressourcer et de profiter des bienfaits apportés par la présence de ces animaux doux et affectueux.
 
@@ -25,7 +25,7 @@ Au contact des ânes, tu pourras te détendre et te déconnecter du stress quoti
 
 Que tu viennes entre amis pour partager une expérience différente, en famille pour une sortie ludique et éducative, ou en groupe de travail pour un team building original, cette activité t’offrira un moment de détente et de bien-être. Viens faire le plein de sérénité en compagnie de notre troupeau d'ânes.
 
-![Bain d’ânes](../../assets/migration/catalogue__temps-avec-le-troupeau-d-anes/02-5483f435-f8e5-4830-899f-e8ad284b1149.png)
+![Rencontre avec le troupeau d’ânes](../../assets/migration/catalogue__temps-avec-le-troupeau-d-anes/02-5483f435-f8e5-4830-899f-e8ad284b1149.png)
 
 ### En pratique
 

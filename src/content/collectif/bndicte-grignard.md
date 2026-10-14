@@ -14,7 +14,7 @@ photo: "../../assets/migration/collectif__bndicte-grignard/01-01476a3f-eaa5-4c9c
 
 Bénédicte fait partie du collectif des 4 Sources.
 
-Elle s'occupe principalement des animaux - ânes et cheval - et propose des bains d'ânes, une expérience douce et originale au cœur de la nature 💚
+Elle s'occupe principalement des animaux - ânes et cheval - et propose des rencontres avec le troupeau d'ânes, une expérience douce et originale au cœur de la nature 💚
 
 Ancienne professeure d'anglais, elle a troqué les salles de classe pour la vie au grand air, sans pour autant mettre de côté sa curiosité : musique (elle joue de la harpe 🎵), randonnées, géopolitique… elle cultive des intérêts aussi variés que les jolis de pots de fleurs que tu trouveras sur la terrasse au printemps.
 

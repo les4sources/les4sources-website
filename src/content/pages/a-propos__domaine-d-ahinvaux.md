@@ -30,7 +30,7 @@ Notre collectif a posé ses valises en 2021 aux 4 Sources, sur un lieu historiqu
 
 Au début des années 2000, la Ferme est achetée par Martine et Didier. Durant 20 ans, ils rénovent les bâtiments avec une attention particulière portée sur l’artisanat, l’écologie et les matériaux naturels.
 
-Ils font venir 6 ânes comme partenaires d’entretien des pâtures, et ceux-ci donnent naissance au troupeau actuel composé de 25 ânes. Ils aménagent les étangs, classent 13 hectares de pâtures en zone Natura 2000 et laissent 2 hectares se reboiser en lisière de forêt.
+Ils font venir 6 ânes comme partenaires d’entretien des pâtures, et ceux-ci donnent naissance au troupeau actuel composé de 24 ânes. Ils aménagent les étangs, classent 13 hectares de pâtures en zone Natura 2000 et laissent 2 hectares se reboiser en lisière de forêt.
 
 <!-- columns -->
 <!-- column width="50%" -->
