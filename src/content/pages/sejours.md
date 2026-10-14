@@ -82,8 +82,8 @@ Adeptes de la marche, il est aussi possible de [rejoindre Les 4 Sources à pied]
 
 - **Besoin de délicieux repas ?** Demande-nous notre listing de traiteurs partageant la philosophie des 4 Sources.
 - **Envie d’un petit déjeuner ?** Nous serons ravis de te proposer de bons produits bio ou locaux.
-- Sur demande, profite du four au feu de bois le vendredi soir, après la cuisson des pains, et **[organise ta Pizza/Camembert Party](/catalogue/pizza-ou-camembert-party)** **🍕**
-- Un grand **barbecue** est à la disposition des locataires des espaces (hébergements et salles) sur la terrasse. Le matériel est disponible, mais il faut prévoir du charbon.
+- Sur demande, profite du four au feu de bois le mardi soir et le vendredi soir, après la cuisson des pains, et **[organise ta Pizza/Camembert Party](/catalogue/pizza-ou-camembert-party)** **🍕**
+- Un grand **barbecue** est à la disposition des locataires des espaces (hébergements et salles) sur la terrasse. Le matériel est disponible, mais il faut prévoir du charbon de bois.
 
 > 💡 Pour en savoir plus, pour poser une question au sujet de nos activités, pour demander le tarif pour ton groupe, une seule destination : **[sejours@les4sources.be](mailto:sejours@les4sources.be)** **📬**
 
