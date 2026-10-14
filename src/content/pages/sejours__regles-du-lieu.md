@@ -19,12 +19,16 @@ Les 4 Sources étant notamment un lieu de vie et un lieu de biodiversité class�
 
 Différents espaces privatifs, représentés par une barrière basse en bois, sont réservés aux habitants et donc interdits d’accès.
 
+## Chiens en laisse 🐕
+
+Des animaux vivent en liberté sur le domaine : les chiens doivent être tenus en laisse sur l’ensemble du domaine.
+
 ## Accès aux pâtures 🐴
 
 Les prairies sont réservées aux animaux (ânes, lama, alpaga et cheval) et ne sont accessibles qu’avec l’accompagnement d’un habitant.
 
+Aucun chien ne doit être introduit dans les pâtures des ânes. Nous déclinons toute responsabilité en cas d’accident.
+
 ## La terrasse ☀️
 
 La terrasse est utilisée par les habitants, les personnes qui séjournent et les personnes de passage qui viennent boire un verre ou pique-niquer, le domaine étant traversé par un sentier de balade.
-
-Un espace distinct pour les personnes qui séjournent peut être envisagé.
