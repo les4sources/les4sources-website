@@ -24,8 +24,6 @@ registrationLabel: "Je prends ma place !"
 
 **SESSION COMPLETE DU 21 NOVEMBRE 2026 (9h-12h30)**
 
-Prochaine date : 12 décembre (une seule place disponible)
-
 ## Objectifs
 
 - découvrir le poste à souder MMA (soudure à l'électrode enrobée), le matériel associé, les normes de sécurité, les principes de base de cette soudure (l'arc électrique, l'électrode, les bons gestes) ;
