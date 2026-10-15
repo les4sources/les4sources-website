@@ -35,11 +35,16 @@ const GUIDE = `# Règles du site des 4 Sources
 
 ## Où vit le texte
 - Pages ordinaires : un fichier Markdown par page dans src/content/<section>/. Sections : ${COLLECTIONS.join(", ")}.
-- Quatre pages sont composées à part ; leur texte affiché est dans un fichier .astro (modifiable avec remplacer_texte uniquement, en touchant au texte et jamais au code autour) :
+- Quatre pages sont composées à part, section par section, dans un fichier .astro (modifiable avec remplacer_texte) :
 ${Object.entries(PAGES_COMPOSEES)
   .map(([url, f]) => `  - ${url} → ${f}`)
   .join("\n")}
   Leur titre et leur description (Google) restent dans le Markdown de même legacyPath.
+  Dans un .astro on peut changer un texte, retirer une section entière (de <Section … à </Section>), ou ajouter une image :
+  1. ajouter_image (ou lister_images pour une photo déjà sur le site) ;
+  2. une ligne d'import en haut du fichier, entre les deux ---, à côté des autres : import logoCommune from "@assets/images/contenu/logo-commune-yvoir.png";
+  3. à l'endroit voulu, sur le modèle des images voisines : <Image src={logoCommune} alt="Commune d'Yvoir" widths={[240, 300]} sizes="120px" class="h-auto max-h-[120px] w-auto object-contain" />
+  Recopie les classes des éléments voisins : n'invente pas de style. Si le build refuse, etat_publication dit pourquoi.
 - Témoignages : ${TEMOIGNAGES} (recopiés tels quels des newsletters, jamais reformulés).
 - Les événements et les activités publiés dans Claudy s'affichent tout seuls : ils ne se modifient pas ici.
 
@@ -58,7 +63,8 @@ ${Object.entries(PAGES_COMPOSEES)
 ## Le texte
 - Markdown : ## pour les intertitres (jamais #), **gras**, listes avec -, liens [texte](/adresse).
 - Chaque image décrit ce qu'elle montre : ![Le four à pain allumé](../../assets/images/contenu/four.jpg).
-- Les images sont ajoutées au site avec ajouter_image : jamais d'image hébergée ailleurs.
+- Les images sont ajoutées au site avec ajouter_image (ou reprises du site avec lister_images) : jamais d'image hébergée ailleurs.
+- Remplacer une photo = changer son chemin (cover:, gallery:, ![…](…) ou import) vers une autre image du site.
 - Les vidéos, formulaires Tally et cartes se déclarent dans l'en-tête, champ embeds : [{ kind: "youtube", src: "…", title: "…" }].
 - Rien d'inventé, pas de texte de remplissage : une page vide vaut mieux qu'une page fausse.
 
@@ -197,7 +203,7 @@ export function creerServeur({ env, editeur }: Contexte): McpServer {
     {
       title: "Remplacer un passage",
       description:
-        "Remplace un passage exact d'un fichier par un nouveau texte. Le passage doit apparaître une seule fois (copie-le depuis lire_page, avec assez de contexte). Idéal pour corriger un mot, une phrase, un prix, et seul moyen de modifier une page composée (.astro) ou les témoignages.",
+        "Remplace un passage exact d'un fichier par un nouveau texte (vide pour le supprimer). Le passage doit apparaître une seule fois (copie-le depuis lire_page, avec assez de contexte). Idéal pour corriger un mot, une phrase, un prix ; seul moyen de modifier une page composée (.astro : texte, section retirée, image ajoutée — voir regles_du_site) ou les témoignages.",
       inputSchema: {
         fichier: z.string().describe("Chemin du fichier, ex. src/content/pages/coworking.md."),
         ancien: z.string().min(1).describe("Passage actuel, recopié à l'identique."),
@@ -214,8 +220,6 @@ export function creerServeur({ env, editeur }: Contexte): McpServer {
       const n = actuel.split(ancien).length - 1;
       if (n === 0) return erreur("Passage introuvable : relis le fichier avec lire_page et recopie-le à l'identique (espaces, apostrophes ’ ou ').");
       if (n > 1) return erreur(`Passage trouvé ${n} fois : ajoute du contexte autour pour qu'il soit unique.`);
-      if (fichier.endsWith(".astro") && /[<>{}]/.test(ancien + nouveau) && !memeBalisage(ancien, nouveau))
-        return erreur("Dans une page composée, ne change que le texte : les balises < >, les accolades { } et le code doivent rester identiques.");
       return enregistrer(fichier, actuel.replace(ancien, () => nouveau), resume, false);
     },
   );
@@ -264,7 +268,7 @@ export function creerServeur({ env, editeur }: Contexte): McpServer {
     {
       title: "Ajouter une image",
       description:
-        "Copie une image (JPEG, PNG ou WebP, 10 Mo au plus) depuis une adresse web publique dans le site, et rend le chemin à utiliser dans une page. L'image n'apparaît que lorsqu'une page l'utilise (cover: ou ![…](…)).",
+        "Copie une image (JPEG, PNG, WebP ou logo SVG, 10 Mo au plus) depuis une adresse web publique dans le site, et rend le chemin à utiliser dans une page. Accepte les liens de partage Google Drive (« tous les utilisateurs disposant du lien ») et Dropbox. L'image n'apparaît que lorsqu'une page l'utilise.",
       inputSchema: {
         url: z.string().url().describe("Adresse directe de l'image (le lien doit ouvrir l'image elle-même)."),
         nom: z.string().describe("Nom de fichier sans extension : minuscules, chiffres, tirets (ex. four-a-pain-2027)."),
@@ -275,14 +279,16 @@ export function creerServeur({ env, editeur }: Contexte): McpServer {
     },
     async ({ url, nom, pour_fichier, resume }) => {
       if (!estSlugValide(nom) || nom.includes("/")) return erreur("`nom` : minuscules, chiffres et tirets seulement.");
-      const u = new URL(url);
+      const u = new URL(lienDirect(url));
       if (u.protocol !== "https:") return erreur("Seules les adresses https sont acceptées.");
       const res = await fetch(u.toString(), { redirect: "follow" });
       if (!res.ok) return erreur(`L'image n'a pas pu être téléchargée (${res.status}). Le lien doit ouvrir l'image directement, sans page de connexion.`);
       const octets = new Uint8Array(await res.arrayBuffer());
       if (octets.length > 10 * 1024 * 1024) return erreur("Image trop lourde (10 Mo au plus).");
       const ext = formatImage(octets);
-      if (!ext) return erreur("Ce lien ne renvoie pas une image JPEG, PNG ou WebP (souvent une page web autour de l'image : prends le lien direct).");
+      if (!ext) return erreur("Ce lien ne renvoie pas une image JPEG, PNG, WebP ou SVG (souvent une page web autour de l'image : prends le lien direct, ou vérifie que le partage est public).");
+      if (ext === "svg" && /<script|\son\w+\s*=|javascript:|<foreignObject/i.test(new TextDecoder().decode(octets)))
+        return erreur("Ce SVG contient du code actif : refusé. Prends le logo en PNG.");
       const chemin = `${DOSSIER_IMAGES}/${nom}.${ext}`;
       const base = await depot.base();
       if (await depot.existe(chemin, base.sha)) return erreur(`${chemin} existe déjà : choisis un autre nom.`);
@@ -293,8 +299,31 @@ export function creerServeur({ env, editeur }: Contexte): McpServer {
         `Image enregistrée : ${chemin} (${Math.round(octets.length / 1024)} Ko).\n` +
           `Depuis ${pour_fichier && estContenu(pour_fichier) ? pour_fichier : "une page à la racine d'une section (src/content/<section>/x.md)"}, utilise :\n` +
           `- en couverture : cover: "${rel}" et coverAlt: "ce que montre l'image"\n` +
-          `- dans le texte : ![ce que montre l'image](${rel})\n\n` +
+          `- dans le texte : ![ce que montre l'image](${rel})\n` +
+          `- dans une page composée (.astro) : import monImage from "@assets/${chemin.replace("src/assets/", "")}"; puis <Image src={monImage} alt="…" … /> (voir regles_du_site)\n\n` +
           "Elle n'apparaît sur le site que dans une page qui l'utilise ; tu peux écrire cette page tout de suite, sans attendre la publication de l'image.",
+      );
+    },
+  );
+
+  server.registerTool(
+    "lister_images",
+    {
+      title: "Lister les images du site",
+      description:
+        "Les images déjà présentes dans le site (dossiers nommés d'après la page d'origine, ex. sejours__salles, accueil, contenu), pour en réutiliser une ou remplacer une photo par une autre. Filtre par mot-clé dans le chemin.",
+      inputSchema: { recherche: z.string().optional().describe("Mot-clé dans le chemin (ex. salle, hulotte, logo).") },
+      annotations: { readOnlyHint: true },
+    },
+    async ({ recherche }) => {
+      const base = await depot.base();
+      const q = recherche?.toLowerCase().trim();
+      const images = (await depot.images(base.sha)).filter((c) => !q || c.toLowerCase().includes(q));
+      if (!images.length) return texte("Aucune image ne correspond.");
+      const max = 150;
+      return texte(
+        `${images.length} image(s)${images.length > max ? ` (les ${max} premières ; précise la recherche)` : ""} :\n${images.slice(0, max).join("\n")}\n\n` +
+          "Depuis une page Markdown, le chemin est relatif (ex. ../../assets/…) ; dans un .astro, import depuis \"@assets/…\".",
       );
     },
   );
@@ -350,20 +379,29 @@ export function creerServeur({ env, editeur }: Contexte): McpServer {
   return server;
 }
 
-/** Les balises et le code d'un passage .astro, sans le texte entre eux. */
-function memeBalisage(a: string, b: string): boolean {
-  const squelette = (s: string) => (s.match(/<[^>]*>|\{[^}]*\}/g) ?? []).join("");
-  return squelette(a) === squelette(b);
+/** Un lien de partage Google Drive ou Dropbox, transformé en lien qui renvoie le fichier lui-même. */
+export function lienDirect(url: string): string {
+  const drive = /^https:\/\/drive\.google\.com\/(?:file\/d\/([\w-]+)|open\?id=([\w-]+))/.exec(url);
+  if (drive) return `https://drive.google.com/uc?export=download&id=${drive[1] ?? drive[2]}`;
+  if (/^https:\/\/(www\.)?dropbox\.com\//.test(url)) {
+    const u = new URL(url);
+    u.searchParams.delete("dl");
+    u.searchParams.set("raw", "1");
+    return u.toString();
+  }
+  return url;
 }
 
 function finLigne(s: string): string {
   return s.endsWith("\n") ? s : `${s}\n`;
 }
 
-function formatImage(o: Uint8Array): "jpg" | "png" | "webp" | null {
+function formatImage(o: Uint8Array): "jpg" | "png" | "webp" | "svg" | null {
   if (o[0] === 0xff && o[1] === 0xd8 && o[2] === 0xff) return "jpg";
   if (o[0] === 0x89 && o[1] === 0x50 && o[2] === 0x4e && o[3] === 0x47) return "png";
   if (String.fromCharCode(...o.slice(0, 4)) === "RIFF" && String.fromCharCode(...o.slice(8, 12)) === "WEBP") return "webp";
+  const debut = new TextDecoder().decode(o.slice(0, 512)).trimStart();
+  if (/^(<\?xml[^>]*>\s*)?(<!--[\s\S]*?-->\s*)*(<!DOCTYPE svg[^>]*>\s*)?<svg[\s>]/i.test(debut)) return "svg";
   return null;
 }
 

@@ -19,7 +19,7 @@ Claude ──outil MCP──▶ Worker ──API GitHub──▶ branche `conten
 
 - Le Worker **n'écrit jamais sur `main`** : seulement sur `contenu`. Seul le workflow pousse sur `main`, et seulement après un `bun run verify` vert. Un contenu qui casserait le site n'est jamais publié.
 - Avant même d'écrire, le Worker refuse ce qu'il sait que le build refuserait : titre trop long, description hors 50–160 caractères, titre ou description en double, `legacyPath` modifié ou déjà pris, image sans description ou hébergée ailleurs, « lorem ipsum ». Sur une page existante, seuls les défauts **ajoutés** bloquent.
-- Fichiers modifiables : `src/content/**/*.md(x)`, `src/data/temoignages.yaml`, et le texte des quatre pages composées (`index.astro`, `agenda.astro`, `sejours/index.astro`, `le-bar-des-4-sources.astro`, par remplacement exact et sans toucher aux balises). Images : `src/assets/images/contenu/`. Rien d'autre.
+- Fichiers modifiables : `src/content/**/*.md(x)`, `src/data/temoignages.yaml`, et les quatre pages composées (`index.astro`, `agenda.astro`, `sejours/index.astro`, `le-bar-des-4-sources.astro`, par remplacement exact : texte, section retirée, image ou logo ajouté ; le build tranche). Images : `src/assets/images/contenu/`. Rien d'autre.
 - Chaque commit est signé du nom de l'éditeur (la clé du secret `EDITEURS`) et du résumé de la modification.
 
 ## Outils
@@ -32,7 +32,8 @@ Claude ──outil MCP──▶ Worker ──API GitHub──▶ branche `conten
 | `remplacer_texte` | Remplace un passage exact (petites corrections, pages composées, témoignages) |
 | `modifier_page` | Réécrit une page Markdown complète |
 | `creer_page` | Crée une page dans une section |
-| `ajouter_image` | Copie une image (lien https direct, JPEG/PNG/WebP, 10 Mo max) dans le site |
+| `ajouter_image` | Copie une image dans le site (lien https direct, Google Drive ou Dropbox ; JPEG/PNG/WebP ou logo SVG, 10 Mo max) |
+| `lister_images` | Les images déjà dans le site, pour en réutiliser ou en échanger une |
 | `etat_publication` | En vérification, en ligne, ou refusé (avec la raison) |
 | `abandonner_modifications` | Jette ce qui n'est pas encore en ligne |
 
@@ -79,7 +80,7 @@ La branche `main` ne doit pas être protégée contre les pushes de GitHub Actio
 ## Développement
 
 ```bash
-bun test          # validations + serveur MCP contre un faux GitHub
+bun test          # validations + serveur MCP contre un faux GitHub, dont les demandes réelles d'E rejouées
 bun run check     # TypeScript
 bun run dev       # wrangler dev, avec un .dev.vars (GITHUB_TOKEN, EDITEURS) non commité
 ```

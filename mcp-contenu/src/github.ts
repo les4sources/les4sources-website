@@ -132,6 +132,15 @@ export class Depot {
     return { entrees, textes };
   }
 
+  /** Les images de `src/assets` (hors pictos de la marque), en une requête. */
+  async images(sha: string): Promise<string[]> {
+    const t = await this.requete<{ tree: { path: string; type: string }[] }>(`/git/trees/${sha}?recursive=1`);
+    return t.tree
+      .filter((e) => e.type === "blob" && e.path.startsWith("src/assets/") && !e.path.startsWith("src/assets/brand/"))
+      .filter((e) => /\.(jpe?g|png|webp|avif|svg)$/i.test(e.path))
+      .map((e) => e.path);
+  }
+
   /**
    * Un commit sur `contenu`, au-dessus de `base`. Les fichiers texte passent
    * en clair ; un fichier binaire (image) passe par un blob base64.

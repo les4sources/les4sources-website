@@ -4,11 +4,12 @@
  * et surtout qu'une écriture va sur `contenu`, jamais sur `main`.
  */
 import { afterAll, beforeEach, describe, expect, test } from "bun:test";
-import { readdirSync, readFileSync } from "node:fs";
+import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { dirname } from "node:path";
 import { join } from "node:path";
 import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js";
 import type { Env } from "../src/github";
-import { creerServeur } from "../src/mcp";
+import { creerServeur, lienDirect } from "../src/mcp";
 
 const RACINE = join(import.meta.dir, "../..");
 const API = "https://api.github.com/repos/les4sources/les4sources-website";
@@ -16,6 +17,12 @@ const API = "https://api.github.com/repos/les4sources/les4sources-website";
 function fichiers(dossier: string): string[] {
   return readdirSync(join(RACINE, dossier), { withFileTypes: true }).flatMap((e) =>
     e.isDirectory() ? fichiers(`${dossier}/${e.name}`) : /\.(mdx?|astro|yaml)$/.test(e.name) ? [`${dossier}/${e.name}`] : [],
+  );
+}
+
+function fichiersTous(dossier: string): string[] {
+  return readdirSync(join(RACINE, dossier), { withFileTypes: true }).flatMap((e) =>
+    e.isDirectory() ? fichiersTous(`${dossier}/${e.name}`) : [`${dossier}/${e.name}`],
   );
 }
 
@@ -27,6 +34,7 @@ class FauxGitHub {
   refs = new Map<string, string>();
   arbres = new Map<string, Map<string, string>>();
   blobs = new Map<string, string>();
+  binaires = new Map<string, string>();
   runs: { id: number; status: string; conclusion: string | null; head_sha: string; created_at: string; html_url: string }[] = [];
   n = 0;
 
@@ -71,6 +79,11 @@ class FauxGitHub {
       const texte = this.commits.get(m[2]!)!.arbre.get(decodeURI(m[1]!));
       return texte === undefined ? json({ message: "Not Found" }, 404) : new Response(texte);
     }
+    if ((m = /^\/git\/trees\/(\w+)\?recursive=1$/.exec(chemin))) {
+      const actifs = fichiersTous("src/assets");
+      const chemins = new Set([...this.commits.get(m[1]!)!.arbre.keys(), ...actifs]);
+      return json({ tree: [...chemins].map((path) => ({ path, type: "blob" })) });
+    }
     if ((m = /^\/git\/commits\/(\w+)$/.exec(chemin))) {
       this.arbres.set(`t-${m[1]}`, this.commits.get(m[1]!)!.arbre);
       return json({ tree: { sha: `t-${m[1]}` } });
@@ -78,6 +91,7 @@ class FauxGitHub {
     if (chemin === "/git/blobs" && methode === "POST") {
       const sha = `b${++this.n}`;
       this.blobs.set(sha, `[binaire ${corps.content.length}]`);
+      this.binaires.set(`[binaire ${corps.content.length}]`, corps.content);
       return json({ sha }, 201);
     }
     if (chemin === "/git/trees" && methode === "POST") {
@@ -107,6 +121,8 @@ class FauxGitHub {
       return json({ jobs: [{ id: 7, conclusion: "failure", steps: [{ name: "Vérifier le site (bun run verify)", conclusion: "failure" }] }] });
     if (chemin === "/actions/jobs/7/logs")
       return new Response("2026-10-15T12:00:00.0000000Z ✗ src/content/pages/coworking.md: erreur de build simulée\n");
+    if (url.href === "https://images.exemple.org/logo.png")
+      return new Response(readFileSync(join(RACINE, "src/assets/migration/index/17-fondation-cyrys.png")));
     if (url.hostname === "images.exemple.org")
       return new Response(new Uint8Array([0xff, 0xd8, 0xff, 0xe0, 1, 2, 3]), { status: 200 });
     throw new Error(`Requête non simulée : ${methode} ${url.href}`);
@@ -170,7 +186,7 @@ describe("protocole", () => {
   test("tools/list expose les outils", async () => {
     const r = await rpc("tools/list");
     expect(r.result.tools.map((t: { name: string }) => t.name).sort()).toEqual(
-      ["abandonner_modifications", "ajouter_image", "creer_page", "etat_publication", "lire_page", "lister_pages", "modifier_page", "regles_du_site", "remplacer_texte"].sort(),
+      ["abandonner_modifications", "ajouter_image", "creer_page", "etat_publication", "lire_page", "lister_images", "lister_pages", "modifier_page", "regles_du_site", "remplacer_texte"].sort(),
     );
   });
 });
@@ -237,11 +253,11 @@ describe("écriture", () => {
     expect(gh.refs.has("contenu")).toBe(false);
   });
 
-  test("dans un .astro, le code autour du texte reste intact", async () => {
+  test("dans un .astro, un passage introuvable est refusé", async () => {
     const r = await appeler("remplacer_texte", {
       fichier: "src/pages/index.astro",
-      ancien: 'title="Nos soutiens 💚"',
-      nouveau: 'title={"Nos soutiens"}',
+      ancien: 'title="Nos soutiens 🌈"',
+      nouveau: 'title="Nos soutiens"',
       resume: "Test",
     });
     expect(r.erreur).toBe(true);
@@ -289,4 +305,97 @@ describe("publication", () => {
     expect(gh.refs.get("contenu")).toBe("m0");
     expect((await appeler("etat_publication")).texte).toContain("Tout est en ligne");
   });
+});
+
+/**
+ * Les demandes réelles transmises par Michael le 2026-10-15 (en mémoire
+ * seulement : rien n'est publié). Avec MCP_EXPORT=<dossier>, les fichiers
+ * modifiés sont écrits dans ce dossier pour y lancer un vrai build.
+ */
+describe("scénario : les demandes d'E", () => {
+  const ecrire = async (fichier: string, ancien: string, nouveau: string, resume: string) => {
+    const r = await appeler("remplacer_texte", { fichier, ancien, nouveau, resume });
+    expect({ fichier, r }).toEqual({ fichier, r: { texte: expect.stringContaining("Enregistré"), erreur: false } });
+  };
+
+  test("toutes passent par le MCP", async () => {
+    // 1. Un logo de soutien en plus sur l'accueil (image + import + <Image>).
+    const img = await appeler("ajouter_image", { url: "https://images.exemple.org/logo.png", nom: "logo-test-soutien", resume: "Logo d'un soutien" });
+    expect(img.texte).toContain('import monImage from "@assets/images/contenu/logo-test-soutien.png"');
+    await ecrire(
+      "src/pages/index.astro",
+      'import soutienCyrys from "@assets/migration/index/17-fondation-cyrys.png";',
+      'import soutienCyrys from "@assets/migration/index/17-fondation-cyrys.png";\nimport soutienTest from "@assets/images/contenu/logo-test-soutien.png";',
+      "Accueil : import du logo",
+    );
+    await ecrire(
+      "src/pages/index.astro",
+      `        alt="Fondation Cyrys"
+        widths={[240, 300]}
+        sizes="120px"
+        class="h-auto max-h-[120px] w-auto object-contain"
+      />`,
+      `        alt="Fondation Cyrys"
+        widths={[240, 300]}
+        sizes="120px"
+        class="h-auto max-h-[120px] w-auto object-contain"
+      />
+      <Image src={soutienTest} alt="Un autre soutien" widths={[240, 300]} sizes="120px" class="h-auto max-h-[120px] w-auto object-contain" />`,
+      "Accueil : logo d'un soutien",
+    );
+
+    // 2. Retirer la carte des balades de l'accueil (un bloc de balisage entier).
+    const accueil = gh.texte("contenu", "src/pages/index.astro")!;
+    const debut = accueil.indexOf('      <div>\n        <h3 class="mb-2.5 font-display text-h3 font-bold text-white">Carte de balades</h3>');
+    const fin = accueil.indexOf("      </div>\n", accueil.indexOf("Télécharger la carte")) + "      </div>\n".length;
+    await ecrire("src/pages/index.astro", accueil.slice(debut, fin), "", "Accueil : sans la carte des balades");
+
+    // 3. La description de « À propos ».
+    await ecrire(
+      "src/content/pages/a-propos.md",
+      "Un écolieu / tiers-lieu avec des fondements solides et une raison d’être : accès, projet, collectif, animaux, presse, verger et histoire du lieu.",
+      "Le projet, le collectif, les animaux, le verger et l’histoire du Domaine d’Ahinvaux, le tiers-lieu des 4 Sources à Yvoir.",
+      "À propos : nouvelle description",
+    );
+
+    // 4. Le réseau, dans « Notre collectif ».
+    await ecrire("src/content/pages/notre-collectif.md", "- [Savonnerie Snoap](/collectif/olivier-vanhamme)\n", "- [Savonnerie Snoap](/collectif/olivier-vanhamme)\n- Le verger de la Molignée\n- La Cafet\n", "Collectif : réseau");
+
+    // 5. Les points de vente du pain.
+    await ecrire(
+      "src/content/projets/tranches-de-vie.md",
+      "fait par des gens qui savent pourquoi ils le font.\n",
+      "fait par des gens qui savent pourquoi ils le font.\n\nLes pains sont aussi disponibles à l’épicerie de la gare.\n",
+      "Boulangerie : points de vente",
+    );
+
+    // 6. Une photo de salle remplacée par une autre déjà sur le site.
+    const salles = await appeler("lister_images", { recherche: "sejours__salles" });
+    expect(salles.texte).toContain("src/assets/migration/sejours__salles/02-_G0A2828.jpg");
+    await ecrire(
+      "src/content/pages/sejours__salles.md",
+      'cover: "../../assets/migration/sejours__salles/01-_G0A3585.jpg"',
+      'cover: "../../assets/migration/sejours__salles/02-_G0A2828.jpg"',
+      "Salles : autre photo de couverture",
+    );
+
+    expect(gh.texte("main", "src/pages/index.astro")).toContain("Carte de balades"); // main intact
+    const sortie = process.env.MCP_EXPORT;
+    if (sortie) {
+      const arbre = gh.commits.get(gh.refs.get("contenu")!)!.arbre;
+      const origine = gh.commits.get("m0")!.arbre;
+      for (const [chemin, texte] of arbre) {
+        if (origine.get(chemin) === texte) continue;
+        mkdirSync(dirname(join(sortie, chemin)), { recursive: true });
+        const b64 = gh.binaires.get(texte);
+        writeFileSync(join(sortie, chemin), b64 ? Buffer.from(b64, "base64") : texte);
+      }
+    }
+  });
+});
+
+test("liens de partage Google Drive et Dropbox", () => {
+  expect(lienDirect("https://drive.google.com/file/d/1AbC_d-9/view?usp=sharing")).toBe("https://drive.google.com/uc?export=download&id=1AbC_d-9");
+  expect(lienDirect("https://www.dropbox.com/scl/fi/x/logo.png?rlkey=k&dl=0")).toBe("https://www.dropbox.com/scl/fi/x/logo.png?rlkey=k&raw=1");
+  expect(lienDirect("https://exemple.org/a.jpg")).toBe("https://exemple.org/a.jpg");
 });
