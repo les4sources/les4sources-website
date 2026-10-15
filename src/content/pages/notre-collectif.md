@@ -31,9 +31,6 @@ coverAlt: "Le collectif des 4 Sources"
 - [Chocamel](https://www.facebook.com/people/Chocamel/61550969679434/)
 - [Savonnerie Snoap](/collectif/olivier-vanhamme)
 - [Le Verger de la Molignée](https://www.vergerdelamolignee.com/)
-- [La Cafet](https://www.mariecharlotte-lacafet.be/)
-- [L’épicerie de la gare](https://www.facebook.com/p/L%C3%A9picerie-de-la-gare-61580180248921/)
-- [L’épicerie des Massennes](https://www.epiceriedesmassennes.be/)
 - [Un présent pour demain](https://www.facebook.com/presentpourdemain/?locale=fr_FR)
 - [Les Potions de Mana](https://www.lespotionsdemana.be/)
 
