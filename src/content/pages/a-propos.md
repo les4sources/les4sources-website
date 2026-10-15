@@ -28,7 +28,7 @@ Les 4 Sources sont accessibles à pied, en vélo, à cheval, en train et en voit
 
 ![Le projet des 4 Sources](../../assets/migration/a-propos/03-86ddfc5d-f420-4d9f-bad3-170e47039417.jpg)
 
-Les 4 Sources, c’est un écolieu / tiers-lieu avec des fondements solides, une raison d’être et une philosophie propre.
+Les 4 Sources, c’est une microferme, un lieu de nature et d’accueil, un centre d’animation et de formation, avec une raison d’être et une philosophie propres.
 
 **[En savoir plus sur le projet des 4 Sources](/a-propos/notre-projet)**
 <!-- /columns -->
