@@ -1,0 +1,23 @@
+// Worker Cloudflare du MCP « contenu » — mode d'emploi dans README.md.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "les4sources-mcp-contenu",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "observability": { "enabled": true },
+  "kv_namespaces": [
+    // Jetons OAuth et compteur d'essais de mot de passe.
+    // `bunx wrangler kv namespace create OAUTH_KV`, puis recopier l'id ici.
+    { "binding": "OAUTH_KV", "id": "A_REMPLACER_PAR_L_ID_DU_NAMESPACE" }
+  ],
+  "vars": {
+    "GITHUB_REPO": "les4sources/les4sources-website",
+    "BRANCHE_PRINCIPALE": "main",
+    "BRANCHE_CONTENU": "contenu",
+    "WORKFLOW_PUBLICATION": "publication-contenu.yml",
+    "COMMIT_EMAIL": "mcp-contenu@users.noreply.github.com",
+    "SITE_URL": "https://www.les4sources.be"
+  }
+  // Secrets (jamais ici) : `bunx wrangler secret put GITHUB_TOKEN`, `bunx wrangler secret put EDITEURS`.
+}

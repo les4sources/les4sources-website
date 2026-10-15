@@ -1,0 +1,60 @@
+name: Publication des contenus
+
+# Mise en ligne des modifications faites depuis Claude (MCP `mcp-contenu/`).
+#
+# Le MCP n'écrit que sur la branche `contenu`. À chaque poussée, ce job y
+# intègre `main`, construit et vérifie le site exactement comme la CI
+# (`bun run verify`), et seulement si TOUT passe, pousse le résultat sur
+# `main` — que Hatchbox déploie comme n'importe quel push. Une modification
+# qui casserait le site reste sur `contenu`, refusée ; l'éditrice en lit la
+# raison avec l'outil `etat_publication` et la corrige ou l'abandonne.
+
+on:
+  push:
+    branches: [contenu]
+
+permissions:
+  contents: write
+
+# Une publication à la fois ; une poussée qui arrive pendant une vérification
+# attend son tour (et porte déjà les modifications précédentes).
+concurrency:
+  group: publication-contenu
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    env:
+      SITE: https://www.les4sources.be
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Intégrer main
+        run: |
+          git config user.name "Publication des contenus"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git merge --no-edit origin/main
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install
+        run: bun install --frozen-lockfile
+
+      - name: Vérifier le site (bun run verify)
+        run: bun run verify
+
+      - name: Mettre en ligne sur main
+        run: |
+          # Si main a bougé pendant la vérification, on réintègre et on revérifie une fois.
+          if ! git push origin HEAD:main; then
+            git fetch origin main
+            git merge --no-edit origin/main
+            bun run verify
+            git push origin HEAD:main
+          fi
