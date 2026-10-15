@@ -1,6 +1,6 @@
 ---
 title: "À propos des 4 Sources"
-description: "Un écolieu / tiers-lieu avec des fondements solides et une raison d’être : accès, projet, collectif, animaux, presse, verger et histoire du lieu."
+description: "Au creux d’une clairière de 15 hectares, des habitant·e·s, des ânes et plein de passionné·e·s font vivre un lieu à partager. Bienvenue !"
 legacyPath: "/a-propos"
 cover: "../../assets/migration/a-propos/01-Design_sans_titre_-2.jpg"
 coverAlt: "À propos des 4 Sources"
