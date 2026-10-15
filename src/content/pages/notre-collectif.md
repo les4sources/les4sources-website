@@ -25,8 +25,6 @@ coverAlt: "Le collectif des 4 Sources"
 ### Production et transformation 💛
 
 - [Ferme de Grange](https://fermedegrange.com/)
-- [Les 3 Petits Poids](https://www.facebook.com/les3petitspoids)
-- [Réseau Radis](https://www.reseau-radis.be/)
 - [Ma Terre Nourricière](http://www.materrenourriciere.be/)
 - [Chocamel](https://www.facebook.com/people/Chocamel/61550969679434/)
 - [Savonnerie Snoap](/collectif/olivier-vanhamme)
