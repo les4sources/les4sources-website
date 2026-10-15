@@ -53,6 +53,8 @@ coverAlt: "Le collectif des 4 Sources"
 ### Économie circulaire 💙
 
 - [Petit Kiwi](https://www.petitkiwi.be)
+- [L’épicerie des Massennes](https://www.epiceriedesmassennes.be/)
+- [L’épicerie de la gare](https://www.facebook.com/p/L%C3%A9picerie-de-la-gare-61580180248921/)
 
 ### Restauration ❤️
 
