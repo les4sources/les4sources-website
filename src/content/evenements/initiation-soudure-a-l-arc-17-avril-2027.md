@@ -1,0 +1,56 @@
+---
+title: "⚡ Initiation à la soudure à l’arc"
+description: "NOUVELLE SESSION DU 17 AVRIL 2027 (9h-12h30) — Les 4 Sources, tiers-lieu à Yvoir"
+legacyPath: "/evenements/initiation-soudure-a-l-arc-17-avril-2027"
+cover: "../../assets/migration/shared/9c7a860cd83d-evenement_gnral__a_-1.jpg"
+coverAlt: "⚡ Initiation à la soudure à l’arc"
+icon: "👷🏻"
+properties:
+  Date: "2027-04-17"
+  Horaires: "9h-12h30"
+  Type d'événement: "Formation"
+  Thématique: "Artisanat"
+  Date (fr): "samedi 17 avril"
+  Places disponibles: "4"
+  Tarif: "€100.00"
+  Statut site web: "Publié"
+pole: "artisanat"
+start: "2027-04-17T09:00:00+02:00"
+category: "Artisanat"
+priceText: "100 €"
+registrationUrl: "https://www.billetweb.fr/initiation-a-la-soudure-a-larc-2027"
+registrationLabel: "Je prends ma place !"
+seoTitle: "Initiation à la soudure à l’arc — samedi 17 avril"
+---
+
+**NOUVELLE SESSION : SAMEDI 17 AVRIL 2027 (9h-12h30)**
+
+## Objectifs
+
+- découvrir le poste à souder MMA (soudure à l'électrode enrobée), le matériel associé, les normes de sécurité, les principes de base de cette soudure (l'arc électrique, l'électrode, les bons gestes) ;
+- expérimenter l'amorçage, le cordon à plat, le cordon en angle ;
+- être conseillé pour l'acquisition de son matériel personnel.
+
+## Déroulement
+
+- alternance de temps de transmission théorique et de temps d'expérimentation à l'atelier ;
+- l'intention est de transmettre un maximum de choses par l'expérimentation.
+
+**Prérequis :** aucun
+
+**Âge :** autour de 10 à 110 ans
+
+## Inscription et tarif
+
+👉 [Réserve ta place ici](https://www.billetweb.fr/initiation-a-la-soudure-a-larc-2027)
+
+### Équipement de protection individuel à emporter
+
+- vêtements de travail non synthétiques (pas de short)
+- chaussures de sécurité ou à défaut chaussures fermées de type bottines
+- protections auditives (bouchons d'oreilles disponibles)
+- gants, masques et EPI spécifiques disponibles en prêt
+
+## Instructeur
+
+Sébastien Frennet, membre des 4 Sources
