@@ -1,6 +1,7 @@
 ---
-title: "L’écolieu / tiers-lieu des 4 Sources"
-description: "Les 4 Sources, c’est un lieu de nature, d'habitat collectif et d'activités. Différents pôles prennent soin de chacune de ces trois facettes."
+title: "Microferme, lieu de nature et d’accueil, centre d’animation et de formation"
+seoTitle: "Les 4 Sources : microferme, nature, accueil et formation"
+description: "Les 4 Sources, c’est une microferme, un lieu de nature et d’accueil, un centre d’animation et de formation. Différents pôles en prennent soin."
 legacyPath: "/a-propos/notre-projet"
 cover: "../../assets/migration/a-propos__notre-projet/01-_G0A4757.jpg"
 coverAlt: "Les 4 Sources vues du ciel"
