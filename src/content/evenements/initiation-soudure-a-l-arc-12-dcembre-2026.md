@@ -40,8 +40,6 @@ seoTitle: "Initiation à la soudure à l’arc — samedi 12 décembre"
 
 ## Inscription et tarifs
 
-Le lien arrive bientôt
-
 ### Équipement de protection individuel à emporter
 
 - vêtements de travail non synthétiques (pas de short)
