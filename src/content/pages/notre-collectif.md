@@ -53,6 +53,8 @@ coverAlt: "Le collectif des 4 Sources"
 - [Petit Kiwi](https://www.petitkiwi.be)
 - [L’épicerie des Massennes](https://www.epiceriedesmassennes.be/)
 - [L’épicerie de la gare](https://www.facebook.com/p/L%C3%A9picerie-de-la-gare-61580180248921/)
+- [Les 3 Petits Poids](https://www.facebook.com/les3petitspoids)
+- [Réseau Radis](https://www.reseau-radis.be/)
 
 ### Restauration ❤️
 
