@@ -14,6 +14,8 @@
 import OAuthProvider, { AuthorizationError, CimdFetchError, type AuthRequest } from "@cloudflare/workers-oauth-provider";
 import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js";
 import type { Env } from "./github";
+import { Depot } from "./github";
+import { enregistrerImage, lireEnvoi, TAILLE_MAX, terminerEnvoi } from "./images";
 import { creerServeur } from "./mcp";
 
 type Props = { editeur: string };
@@ -37,7 +39,7 @@ const mcpHandler = {
     if (!editeur || !(editeur in editeurs(env))) return new Response("Accès retiré.", { status: 403 });
     if (request.method !== "POST")
       return new Response(null, { status: 405, headers: { Allow: "POST" } });
-    const server = creerServeur({ env, editeur });
+    const server = creerServeur({ env, editeur, origine: new URL(request.url).origin });
     const transport = new WebStandardStreamableHTTPServerTransport({ sessionIdGenerator: undefined, enableJsonResponse: true });
     await server.connect(transport);
     return transport.handleRequest(request);
@@ -149,10 +151,45 @@ async function authorize(request: Request, env: Env & { OAUTH_PROVIDER: import("
   }
 }
 
+/** La page du lien d'envoi : choisir une photo sur son appareil, elle entre dans le site. */
+async function pageEnvoi(request: Request, env: Env, jeton: string): Promise<Response> {
+  const envoi = await lireEnvoi(env, jeton);
+  if (!envoi) return page("Lien expiré", "<h1>Lien expiré</h1><p>Ce lien n'est plus valable (30 minutes). Demande-en un nouveau à Claude.</p>", 404);
+  if (envoi.fait) return page("Déjà reçue", "<h1>Photo déjà reçue ✅</h1><p>Retourne dans Claude et dis-lui que c'est fait.</p>");
+  if (request.method === "GET")
+    return page(
+      "Envoyer une photo",
+      `<h1>Envoyer une photo au site</h1>
+<p>Choisis le fichier sur ton appareil (JPEG, PNG, WebP ou logo SVG, 10 Mo au plus). Il sera enregistré sous le nom <strong>${escape(envoi.nom)}</strong>.</p>
+<form method="post" enctype="multipart/form-data">
+<input name="fichier" type="file" accept="image/jpeg,image/png,image/webp,image/svg+xml" required>
+<button class="oui">Envoyer</button>
+</form>`,
+    );
+  if (request.method !== "POST") return new Response(null, { status: 405 });
+  const fichier = (await request.formData()).get("fichier");
+  if (!fichier || typeof fichier === "string") return page("Aucun fichier", "<h1>Aucun fichier</h1><p>Reviens en arrière et choisis une photo.</p>", 400);
+  if (fichier.size > TAILLE_MAX) return page("Trop lourde", "<h1>Photo trop lourde</h1><p>10 Mo au plus : reviens en arrière et choisis une version plus légère.</p>", 413);
+  const octets = new Uint8Array(await fichier.arrayBuffer());
+  const message = `${envoi.resume.trim().slice(0, 120)}\n\nEnvoyé depuis le lien d'envoi du MCP contenu.`;
+  let r: Awaited<ReturnType<typeof enregistrerImage>>;
+  try {
+    r = await enregistrerImage(new Depot(env), octets, envoi.nom, message, envoi.editeur);
+  } catch (e) {
+    console.error("envoi d'image", e);
+    return page("Erreur", "<h1>L'envoi n'a pas abouti</h1><p>Le site n'a pas pu enregistrer la photo. Réessaie dans un instant ; si ça recommence, préviens Michael.</p>", 502);
+  }
+  if ("erreur" in r) return page("Refusée", `<h1>Photo refusée</h1><p>${escape(r.erreur)}</p><p>Reviens en arrière pour en choisir une autre.</p>`, 400);
+  await terminerEnvoi(env, jeton, envoi, { chemin: r.chemin, octets: octets.length });
+  return page("Reçue", "<h1>Photo reçue ✅</h1><p>Retourne dans Claude et dis-lui que c'est fait : il l'ajoutera à la page.</p>");
+}
+
 const defaultHandler = {
   async fetch(request: Request, env: Env & { OAUTH_PROVIDER: import("@cloudflare/workers-oauth-provider").OAuthHelpers }): Promise<Response> {
     const url = new URL(request.url);
     if (url.pathname === "/authorize") return authorize(request, env);
+    const envoi = /^\/envoi\/([0-9a-f]{48})$/.exec(url.pathname);
+    if (envoi) return pageEnvoi(request, env, envoi[1]!);
     if (url.pathname === "/")
       return page("MCP contenu", "<h1>Site des 4 Sources</h1><p>Serveur MCP de modification des contenus. Adresse du connecteur : <code>/mcp</code>.</p>");
     return new Response("Introuvable.", { status: 404 });

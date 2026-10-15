@@ -3,7 +3,7 @@
  * avec les vrais contenus du dépôt : on vérifie le protocole MCP, les refus,
  * et surtout qu'une écriture va sur `contenu`, jamais sur `main`.
  */
-import { afterAll, beforeEach, describe, expect, test } from "bun:test";
+import { afterAll, beforeEach, describe, expect, mock, test } from "bun:test";
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 import { join } from "node:path";
@@ -133,7 +133,16 @@ class FauxGitHub {
   }
 }
 
+/** Un KV en mémoire, assez pour les liens d'envoi. */
+const kv = new Map<string, string>();
+const fauxKV = {
+  get: async (k: string) => kv.get(k) ?? null,
+  put: async (k: string, v: string) => void kv.set(k, v),
+  delete: async (k: string) => void kv.delete(k),
+} as unknown as KVNamespace;
+
 const env = {
+  OAUTH_KV: fauxKV,
   GITHUB_TOKEN: "faux",
   EDITEURS: '{"E":"un-mot-de-passe-solide"}',
   GITHUB_REPO: "les4sources/les4sources-website",
@@ -156,7 +165,7 @@ afterAll(() => {
 
 let id = 0;
 async function rpc(method: string, params: Record<string, unknown> = {}) {
-  const server = creerServeur({ env, editeur: "E" });
+  const server = creerServeur({ env, editeur: "E", origine: "https://mcp.test" });
   const transport = new WebStandardStreamableHTTPServerTransport({ sessionIdGenerator: undefined, enableJsonResponse: true });
   await server.connect(transport);
   const entete = { "Content-Type": "application/json", Accept: "application/json, text/event-stream" };
@@ -186,7 +195,20 @@ describe("protocole", () => {
   test("tools/list expose les outils", async () => {
     const r = await rpc("tools/list");
     expect(r.result.tools.map((t: { name: string }) => t.name).sort()).toEqual(
-      ["abandonner_modifications", "ajouter_image", "creer_page", "etat_publication", "lire_page", "lister_images", "lister_pages", "modifier_page", "regles_du_site", "remplacer_texte"].sort(),
+      [
+        "abandonner_modifications",
+        "ajouter_image",
+        "creer_page",
+        "etat_publication",
+        "lire_page",
+        "lister_images",
+        "lister_pages",
+        "modifier_page",
+        "preparer_envoi_image",
+        "regles_du_site",
+        "remplacer_texte",
+        "resultat_envoi_image",
+      ].sort(),
     );
   });
 });
@@ -398,4 +420,51 @@ test("liens de partage Google Drive et Dropbox", () => {
   expect(lienDirect("https://drive.google.com/file/d/1AbC_d-9/view?usp=sharing")).toBe("https://drive.google.com/uc?export=download&id=1AbC_d-9");
   expect(lienDirect("https://www.dropbox.com/scl/fi/x/logo.png?rlkey=k&dl=0")).toBe("https://www.dropbox.com/scl/fi/x/logo.png?rlkey=k&raw=1");
   expect(lienDirect("https://exemple.org/a.jpg")).toBe("https://exemple.org/a.jpg");
+});
+
+describe("lien d'envoi d'une photo", () => {
+  // `cloudflare:workers` n'existe que dans workerd ; le fournisseur OAuth n'en importe qu'une classe de base.
+  mock.module("cloudflare:workers", () => ({ WorkerEntrypoint: class {} }));
+  const worker = async () => (await import("../src/index")).default;
+  const ctx = { waitUntil() {}, passThroughOnException() {}, props: {} } as unknown as ExecutionContext;
+
+  test("préparer, envoyer depuis la page, puis lire le résultat", async () => {
+    const prep = await appeler("preparer_envoi_image", { nom: "affiche-microferme", pour_fichier: "src/content/pages/a-propos.md", resume: "Affiche de la microferme" });
+    const lien = /https:\/\/mcp\.test\/envoi\/([0-9a-f]{48})/.exec(prep.texte)!;
+    expect(lien).not.toBeNull();
+    const jeton = lien[1]!;
+    expect((await appeler("resultat_envoi_image", { jeton })).texte).toContain("Pas encore reçue");
+
+    const w = await worker();
+    const get = await w.fetch(new Request(lien[0]), env, ctx);
+    expect(await get.text()).toContain('type="file"');
+
+    const form = new FormData();
+    form.set("fichier", new File([readFileSync(join(RACINE, "src/assets/migration/index/17-fondation-cyrys.png"))], "affiche.png", { type: "image/png" }));
+    const post = await w.fetch(new Request(lien[0], { method: "POST", body: form }), env, ctx);
+    expect(await post.text()).toContain("Photo reçue");
+    expect(gh.texte("contenu", "src/assets/images/contenu/affiche-microferme.png")).toContain("binaire");
+    expect(gh.texte("main", "src/assets/images/contenu/affiche-microferme.png")).toBeUndefined();
+
+    const res = await appeler("resultat_envoi_image", { jeton });
+    expect(res.texte).toContain('cover: "../../assets/images/contenu/affiche-microferme.png"');
+    // Usage unique.
+    expect(await (await w.fetch(new Request(lien[0]), env, ctx)).text()).toContain("déjà reçue");
+  });
+
+  test("un fichier qui n'est pas une image est refusé, et le lien reste valable", async () => {
+    const prep = await appeler("preparer_envoi_image", { nom: "document", resume: "Essai de refus" });
+    const lien = /https:\/\/mcp\.test\/envoi\/[0-9a-f]{48}/.exec(prep.texte)![0];
+    const w = await worker();
+    const form = new FormData();
+    form.set("fichier", new File(["pas une image"], "x.txt", { type: "text/plain" }));
+    expect(await (await w.fetch(new Request(lien, { method: "POST", body: form }), env, ctx)).text()).toContain("refusée");
+    expect(await (await w.fetch(new Request(lien), env, ctx)).text()).toContain('type="file"');
+  });
+
+  test("un jeton inconnu ne mène nulle part", async () => {
+    const w = await worker();
+    const r = await w.fetch(new Request(`https://mcp.test/envoi/${"0".repeat(48)}`), env, ctx);
+    expect(r.status).toBe(404);
+  });
 });

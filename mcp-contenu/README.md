@@ -33,6 +33,7 @@ Claude ──outil MCP──▶ Worker ──API GitHub──▶ branche `conten
 | `modifier_page` | Réécrit une page Markdown complète |
 | `creer_page` | Crée une page dans une section |
 | `ajouter_image` | Copie une image dans le site (lien https direct, Google Drive ou Dropbox ; JPEG/PNG/WebP ou logo SVG, 10 Mo max) |
+| `preparer_envoi_image` / `resultat_envoi_image` | Lien à usage unique (30 min) où l'éditrice choisit une photo sur son appareil : Claude ne peut pas transmettre lui-même une image déposée dans la conversation |
 | `lister_images` | Les images déjà dans le site, pour en réutiliser ou en échanger une |
 | `etat_publication` | En vérification, en ligne, ou refusé (avec la raison) |
 | `abandonner_modifications` | Jette ce qui n'est pas encore en ligne |

@@ -21,6 +21,7 @@ import {
   type Verdict,
 } from "./contenu";
 import { Depot, type Env } from "./github";
+import { creerEnvoi, enregistrerImage, lireEnvoi, modeEmploi } from "./images";
 
 export const INSTRUCTIONS = `Ce serveur modifie le site web des 4 Sources (www.les4sources.be), un tiers-lieu à Yvoir. Il remplace le travail d'un développeur : chaque modification est vérifiée (build complet du site) puis mise en ligne automatiquement, en quelques minutes.
 
@@ -41,7 +42,7 @@ ${Object.entries(PAGES_COMPOSEES)
   .join("\n")}
   Leur titre et leur description (Google) restent dans le Markdown de même legacyPath.
   Dans un .astro on peut changer un texte, retirer une section entière (de <Section … à </Section>), ou ajouter une image :
-  1. ajouter_image (ou lister_images pour une photo déjà sur le site) ;
+  1. ajouter_image (lien web), preparer_envoi_image (photo sur l'appareil de la personne) ou lister_images (photo déjà sur le site) ;
   2. une ligne d'import en haut du fichier, entre les deux ---, à côté des autres : import logoCommune from "@assets/images/contenu/logo-commune-yvoir.png";
   3. à l'endroit voulu, sur le modèle des images voisines : <Image src={logoCommune} alt="Commune d'Yvoir" widths={[240, 300]} sizes="120px" class="h-auto max-h-[120px] w-auto object-contain" />
   Recopie les classes des éléments voisins : n'invente pas de style. Si le build refuse, etat_publication dit pourquoi.
@@ -63,7 +64,7 @@ ${Object.entries(PAGES_COMPOSEES)
 ## Le texte
 - Markdown : ## pour les intertitres (jamais #), **gras**, listes avec -, liens [texte](/adresse).
 - Chaque image décrit ce qu'elle montre : ![Le four à pain allumé](../../assets/images/contenu/four.jpg).
-- Les images sont ajoutées au site avec ajouter_image (ou reprises du site avec lister_images) : jamais d'image hébergée ailleurs.
+- Les images entrent dans le site par ajouter_image (lien web) ou preparer_envoi_image (fichier sur l'appareil, ou déposé dans la conversation), ou sont reprises avec lister_images : jamais d'image hébergée ailleurs.
 - Remplacer une photo = changer son chemin (cover:, gallery:, ![…](…) ou import) vers une autre image du site.
 - Les vidéos, formulaires Tally et cartes se déclarent dans l'en-tête, champ embeds : [{ kind: "youtube", src: "…", title: "…" }].
 - Rien d'inventé, pas de texte de remplissage : une page vide vaut mieux qu'une page fausse.
@@ -79,7 +80,7 @@ location: "Les 4 Sources, Yvoir"
 
 Texte de la page…`;
 
-type Contexte = { env: Env; editeur: string };
+type Contexte = { env: Env; editeur: string; origine: string };
 
 const texte = (t: string) => ({ content: [{ type: "text" as const, text: t }] });
 const erreur = (t: string) => ({ content: [{ type: "text" as const, text: t }], isError: true });
@@ -108,7 +109,7 @@ function versLegacyPath(saisie: string): string | null {
   return p.startsWith("/") ? p : `/${p}`;
 }
 
-export function creerServeur({ env, editeur }: Contexte): McpServer {
+export function creerServeur({ env, editeur, origine }: Contexte): McpServer {
   const depot = new Depot(env);
   const server = new McpServer({ name: "les4sources-contenu", version: "1.0.0" }, { instructions: INSTRUCTIONS });
   const signer = (resume: string) => `${resume.trim().slice(0, 120)}\n\nModifié depuis Claude (MCP contenu).`;
@@ -284,25 +285,48 @@ export function creerServeur({ env, editeur }: Contexte): McpServer {
       const res = await fetch(u.toString(), { redirect: "follow" });
       if (!res.ok) return erreur(`L'image n'a pas pu être téléchargée (${res.status}). Le lien doit ouvrir l'image directement, sans page de connexion.`);
       const octets = new Uint8Array(await res.arrayBuffer());
-      if (octets.length > 10 * 1024 * 1024) return erreur("Image trop lourde (10 Mo au plus).");
-      const ext = formatImage(octets);
-      if (!ext) return erreur("Ce lien ne renvoie pas une image JPEG, PNG, WebP ou SVG (souvent une page web autour de l'image : prends le lien direct, ou vérifie que le partage est public).");
-      if (ext === "svg" && /<script|\son\w+\s*=|javascript:|<foreignObject/i.test(new TextDecoder().decode(octets)))
-        return erreur("Ce SVG contient du code actif : refusé. Prends le logo en PNG.");
-      const chemin = `${DOSSIER_IMAGES}/${nom}.${ext}`;
-      const base = await depot.base();
-      if (await depot.existe(chemin, base.sha)) return erreur(`${chemin} existe déjà : choisis un autre nom.`);
-      await depot.commit(base, [{ chemin, base64: base64(octets) }], signer(resume), editeur);
-      const depuis = pour_fichier && estContenu(pour_fichier) ? pour_fichier : "src/content/pages/exemple.md";
-      const rel = cheminRelatif(depuis, chemin);
+      const r = await enregistrerImage(depot, octets, nom, signer(resume), editeur);
+      if ("erreur" in r) return erreur(r.erreur);
+      return texte(modeEmploi(r.chemin, octets.length, pour_fichier));
+    },
+  );
+
+  server.registerTool(
+    "preparer_envoi_image",
+    {
+      title: "Lien d'envoi d'une photo",
+      description:
+        "Pour une photo ou un logo que la personne a sur son appareil (ou vient de déposer dans la conversation : tu ne peux pas transmettre ce fichier toi-même). Rend un lien à usage unique, valable 30 minutes, à lui donner : elle y choisit le fichier, qui entre dans le site. Quand elle dit que c'est fait, appelle resultat_envoi_image.",
+      inputSchema: {
+        nom: z.string().describe("Nom de fichier sans extension : minuscules, chiffres, tirets (ex. affiche-microferme)."),
+        pour_fichier: z.string().optional().describe("La page qui l'utilisera, pour rendre le bon chemin relatif."),
+        resume: RESUME,
+      },
+      annotations: { destructiveHint: false },
+    },
+    async ({ nom, pour_fichier, resume }) => {
+      if (!estSlugValide(nom) || nom.includes("/")) return erreur("`nom` : minuscules, chiffres et tirets seulement.");
+      const jeton = await creerEnvoi(env, { nom, pourFichier: pour_fichier, resume, editeur });
       return texte(
-        `Image enregistrée : ${chemin} (${Math.round(octets.length / 1024)} Ko).\n` +
-          `Depuis ${pour_fichier && estContenu(pour_fichier) ? pour_fichier : "une page à la racine d'une section (src/content/<section>/x.md)"}, utilise :\n` +
-          `- en couverture : cover: "${rel}" et coverAlt: "ce que montre l'image"\n` +
-          `- dans le texte : ![ce que montre l'image](${rel})\n` +
-          `- dans une page composée (.astro) : import monImage from "@assets/${chemin.replace("src/assets/", "")}"; puis <Image src={monImage} alt="…" … /> (voir regles_du_site)\n\n` +
-          "Elle n'apparaît sur le site que dans une page qui l'utilise ; tu peux écrire cette page tout de suite, sans attendre la publication de l'image.",
+        `Donne ce lien à la personne (il ouvre une page où elle choisit le fichier sur son ordinateur ou son téléphone) :\n${origine}/envoi/${jeton}\n\n` +
+          `Valable 30 minutes, pour un seul fichier. Ensuite : resultat_envoi_image avec le jeton ${jeton}.`,
       );
+    },
+  );
+
+  server.registerTool(
+    "resultat_envoi_image",
+    {
+      title: "Résultat d'un envoi de photo",
+      description: "Dit si la photo du lien d'envoi est arrivée, et comment l'utiliser dans une page.",
+      inputSchema: { jeton: z.string().describe("Le jeton rendu par preparer_envoi_image.") },
+      annotations: { readOnlyHint: true },
+    },
+    async ({ jeton }) => {
+      const envoi = await lireEnvoi(env, jeton);
+      if (!envoi) return erreur("Lien inconnu ou expiré (30 minutes) : prépares-en un nouveau avec preparer_envoi_image.");
+      if (!envoi.fait) return texte("Pas encore reçue : la personne n'a pas encore envoyé de fichier par ce lien.");
+      return texte(modeEmploi(envoi.fait.chemin, envoi.fait.octets, envoi.pourFichier));
     },
   );
 
@@ -394,19 +418,4 @@ export function lienDirect(url: string): string {
 
 function finLigne(s: string): string {
   return s.endsWith("\n") ? s : `${s}\n`;
-}
-
-function formatImage(o: Uint8Array): "jpg" | "png" | "webp" | "svg" | null {
-  if (o[0] === 0xff && o[1] === 0xd8 && o[2] === 0xff) return "jpg";
-  if (o[0] === 0x89 && o[1] === 0x50 && o[2] === 0x4e && o[3] === 0x47) return "png";
-  if (String.fromCharCode(...o.slice(0, 4)) === "RIFF" && String.fromCharCode(...o.slice(8, 12)) === "WEBP") return "webp";
-  const debut = new TextDecoder().decode(o.slice(0, 512)).trimStart();
-  if (/^(<\?xml[^>]*>\s*)?(<!--[\s\S]*?-->\s*)*(<!DOCTYPE svg[^>]*>\s*)?<svg[\s>]/i.test(debut)) return "svg";
-  return null;
-}
-
-function base64(o: Uint8Array): string {
-  let s = "";
-  for (let i = 0; i < o.length; i += 0x8000) s += String.fromCharCode(...o.subarray(i, i + 0x8000));
-  return btoa(s);
 }
