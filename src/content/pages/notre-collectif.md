@@ -31,6 +31,12 @@ coverAlt: "Le collectif des 4 Sources"
 - [Ma Terre Nourricière](http://www.materrenourriciere.be/)
 - [Chocamel](https://www.facebook.com/people/Chocamel/61550969679434/)
 - [Savonnerie Snoap](/collectif/olivier-vanhamme)
+- [Le Verger de la Molignée](https://www.vergerdelamolignee.com/)
+- La Cafet
+- L’épicerie de la gare
+- L’épicerie des Massennes
+- Un présent pour demain
+- Les Potions de Mana
 
 ### Nature et environnement 💚
 
