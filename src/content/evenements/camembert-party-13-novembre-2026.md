@@ -66,6 +66,6 @@ Bienvenue **le 13 novembre, dès 18h30** :
 
 Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.
 
-Les inscriptions arrivent bientôt ! <3
+👉 [Inscris-toi ici](https://tranchesdevie.les4sources.be/pizza-parties)
 
 ![🧀 Camembert Party de novembre](../../assets/migration/evenements__camembert-party-13-novembre-2026/05-img_20240308_210554.jpg)
