@@ -59,3 +59,5 @@ coverAlt: "Le collectif des 4 Sources"
 ### Restauration ❤️
 
 - [Au fil de l’O](https://www.aufildelo.net/)
+- [La Flobette](https://laflobette.be/)
+- [La Cafet](https://www.mariecharlotte-lacafet.be/)
