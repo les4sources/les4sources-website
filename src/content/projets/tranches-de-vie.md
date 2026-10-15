@@ -86,8 +86,11 @@ Nos pains sont aussi disponibles dans les distributeurs du [Verger de la Molign�
 
 📍Rue de la Molignée, 39 5537 Anhée 🗺️ [Sur Google Maps](https://maps.app.goo.gl/df4tJbhztTCgEVse7)
 
-Lors des **[Vendredis du Terroir](https://www.facebook.com/VendredisDuTerroir)** 2026, de 16h à 20h 🐓
+Nos pains sont également disponibles :
 
-- Vendredi 4 septembre
-- Vendredi 2 octobre
+- à l'épicerie de la gare, le mercredi et le samedi
+- au restaurant [Au fil de l'O](https://www.aufildelo.net/)
+- à la Cafet, à Dinant
+
+Lors des **[Vendredis du Terroir](https://www.facebook.com/VendredisDuTerroir)**, de 16h à 20h 🐓 (reprise en avril 2027, les prochaines dates seront bientôt communiquées)
 <!-- /columns -->
