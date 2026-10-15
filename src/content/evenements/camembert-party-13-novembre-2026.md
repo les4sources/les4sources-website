@@ -18,6 +18,8 @@ pole: "convivialite"
 start: "2026-11-13T18:30:00+01:00"
 category: "Liens et convivialité"
 priceText: "10 €"
+registrationUrl: "https://tranchesdevie.les4sources.be/pizza-parties"
+registrationLabel: "Je m'inscris"
 generatedDescription: true
 ---
 
