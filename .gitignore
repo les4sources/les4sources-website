@@ -9,3 +9,5 @@ nginx-redirects.conf
 # Hatchbox : `public/` d'origine mis de côté par .hatchbox/build
 public-original
 .tmp-upgrade-images/
+.wrangler
+.dev.vars

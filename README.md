@@ -47,6 +47,10 @@ Chaque page éditoriale est un fichier Markdown dans `src/content/<collection>/`
 | `projets` | projets du lieu | `/projets/semisto` |
 | `hebergements` | gîtes et chambres (arborescence imbriquée) | `/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/chambre-mlisse` |
 
+### Depuis Claude (MCP contenu)
+
+Les contenus se modifient aussi depuis claude.ai, sans Git : le serveur MCP de [`mcp-contenu/`](mcp-contenu/README.md) écrit sur la branche `contenu`, et le workflow `publication-contenu.yml` ne pousse sur `main` qu'après un `bun run verify` vert.
+
 ### Le contrat `legacyPath`
 
 **La route d'une page vient de son champ `legacyPath`, jamais de son nom de fichier.**

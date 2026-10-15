@@ -1,0 +1,292 @@
+/**
+ * Le serveur MCP de bout en bout, contre un faux GitHub en mémoire peuplé
+ * avec les vrais contenus du dépôt : on vérifie le protocole MCP, les refus,
+ * et surtout qu'une écriture va sur `contenu`, jamais sur `main`.
+ */
+import { afterAll, beforeEach, describe, expect, test } from "bun:test";
+import { readdirSync, readFileSync } from "node:fs";
+import { join } from "node:path";
+import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js";
+import type { Env } from "../src/github";
+import { creerServeur } from "../src/mcp";
+
+const RACINE = join(import.meta.dir, "../..");
+const API = "https://api.github.com/repos/les4sources/les4sources-website";
+
+function fichiers(dossier: string): string[] {
+  return readdirSync(join(RACINE, dossier), { withFileTypes: true }).flatMap((e) =>
+    e.isDirectory() ? fichiers(`${dossier}/${e.name}`) : /\.(mdx?|astro|yaml)$/.test(e.name) ? [`${dossier}/${e.name}`] : [],
+  );
+}
+
+type Commit = { arbre: Map<string, string>; parent: string | null; message: string };
+
+/** Un faux GitHub : des commits (chemin → texte), deux branches, un historique de runs. */
+class FauxGitHub {
+  commits = new Map<string, Commit>();
+  refs = new Map<string, string>();
+  arbres = new Map<string, Map<string, string>>();
+  blobs = new Map<string, string>();
+  runs: { id: number; status: string; conclusion: string | null; head_sha: string; created_at: string; html_url: string }[] = [];
+  n = 0;
+
+  constructor() {
+    const arbre = new Map<string, string>();
+    for (const f of [...fichiers("src/content"), ...fichiers("src/pages"), "src/data/temoignages.yaml"]) arbre.set(f, readFileSync(join(RACINE, f), "utf8"));
+    this.commits.set("m0", { arbre, parent: null, message: "init" });
+    this.refs.set("main", "m0");
+  }
+
+  ancetre(a: string, b: string): number {
+    // Nombre de commits de b absents de a (b « en avance » sur a).
+    let n = 0;
+    for (let c: string | null = b; c && c !== a; c = this.commits.get(c)!.parent) n++;
+    return n;
+  }
+
+  async fetch(input: string | URL | Request, init?: RequestInit): Promise<Response> {
+    const url = new URL(typeof input === "string" ? input : input instanceof URL ? input : input.url);
+    const methode = init?.method ?? "GET";
+    const corps = init?.body ? JSON.parse(String(init.body)) : null;
+    const json = (d: unknown, s = 200) => new Response(JSON.stringify(d), { status: s });
+    if (url.href === "https://api.github.com/graphql") {
+      const sha = corps.variables.expr.split(":")[0];
+      const arbre = this.commits.get(sha)!.arbre;
+      const entries = [...arbre].filter(([p]) => p.startsWith("src/content/")).map(([path, text]) => ({ path, type: "blob", object: { text } }));
+      return json({ data: { repository: { object: { entries } } } });
+    }
+    const chemin = url.href.replace(API, "");
+    let m: RegExpExecArray | null;
+    if ((m = /^\/git\/ref\/heads\/(.+)$/.exec(chemin))) {
+      const sha = this.refs.get(m[1]!);
+      return sha ? json({ object: { sha } }) : json({ message: "Not Found" }, 404);
+    }
+    if ((m = /^\/compare\/(\w+)\.\.\.(\w+)$/.exec(chemin))) {
+      const commits = [];
+      for (let c: string | null = m[2]!; c && c !== m[1]; c = this.commits.get(c)!.parent)
+        commits.unshift({ sha: c, commit: { message: this.commits.get(c)!.message, author: { date: "2026-10-15T12:00:00Z" } } });
+      return json({ ahead_by: commits.length, commits });
+    }
+    if ((m = /^\/contents\/(.+)\?ref=(\w+)$/.exec(chemin))) {
+      const texte = this.commits.get(m[2]!)!.arbre.get(decodeURI(m[1]!));
+      return texte === undefined ? json({ message: "Not Found" }, 404) : new Response(texte);
+    }
+    if ((m = /^\/git\/commits\/(\w+)$/.exec(chemin))) {
+      this.arbres.set(`t-${m[1]}`, this.commits.get(m[1]!)!.arbre);
+      return json({ tree: { sha: `t-${m[1]}` } });
+    }
+    if (chemin === "/git/blobs" && methode === "POST") {
+      const sha = `b${++this.n}`;
+      this.blobs.set(sha, `[binaire ${corps.content.length}]`);
+      return json({ sha }, 201);
+    }
+    if (chemin === "/git/trees" && methode === "POST") {
+      const arbre = new Map(this.arbres.get(corps.base_tree)!);
+      for (const e of corps.tree) arbre.set(e.path, e.content ?? this.blobs.get(e.sha)!);
+      const sha = `t${++this.n}`;
+      this.arbres.set(sha, arbre);
+      return json({ sha }, 201);
+    }
+    if (chemin === "/git/commits" && methode === "POST") {
+      const sha = `c${++this.n}`;
+      this.commits.set(sha, { arbre: this.arbres.get(corps.tree)!, parent: corps.parents[0], message: corps.message });
+      return json({ sha }, 201);
+    }
+    if ((m = /^\/git\/refs\/heads\/(.+)$/.exec(chemin)) && methode === "PATCH") {
+      expect(m[1]).toBe("contenu"); // le MCP n'écrit jamais ailleurs
+      this.refs.set(m[1]!, corps.sha);
+      return json({});
+    }
+    if (chemin === "/git/refs" && methode === "POST") {
+      expect(corps.ref).toBe("refs/heads/contenu");
+      this.refs.set("contenu", corps.sha);
+      return json({}, 201);
+    }
+    if (/^\/actions\/workflows\/publication-contenu\.yml\/runs/.test(chemin)) return json({ workflow_runs: this.runs });
+    if ((m = /^\/actions\/runs\/(\d+)\/jobs$/.exec(chemin)))
+      return json({ jobs: [{ id: 7, conclusion: "failure", steps: [{ name: "Vérifier le site (bun run verify)", conclusion: "failure" }] }] });
+    if (chemin === "/actions/jobs/7/logs")
+      return new Response("2026-10-15T12:00:00.0000000Z ✗ src/content/pages/coworking.md: erreur de build simulée\n");
+    if (url.hostname === "images.exemple.org")
+      return new Response(new Uint8Array([0xff, 0xd8, 0xff, 0xe0, 1, 2, 3]), { status: 200 });
+    throw new Error(`Requête non simulée : ${methode} ${url.href}`);
+  }
+
+  texte(branche: string, chemin: string) {
+    return this.commits.get(this.refs.get(branche)!)!.arbre.get(chemin);
+  }
+}
+
+const env = {
+  GITHUB_TOKEN: "faux",
+  EDITEURS: '{"E":"un-mot-de-passe-solide"}',
+  GITHUB_REPO: "les4sources/les4sources-website",
+  BRANCHE_PRINCIPALE: "main",
+  BRANCHE_CONTENU: "contenu",
+  WORKFLOW_PUBLICATION: "publication-contenu.yml",
+  COMMIT_EMAIL: "mcp-contenu@users.noreply.github.com",
+  SITE_URL: "https://www.les4sources.be",
+} as Env;
+
+let gh: FauxGitHub;
+const fetchOrigine = globalThis.fetch;
+beforeEach(() => {
+  gh = new FauxGitHub();
+  globalThis.fetch = ((i: never, init?: RequestInit) => gh.fetch(i, init)) as typeof fetch;
+});
+afterAll(() => {
+  globalThis.fetch = fetchOrigine;
+});
+
+let id = 0;
+async function rpc(method: string, params: Record<string, unknown> = {}) {
+  const server = creerServeur({ env, editeur: "E" });
+  const transport = new WebStandardStreamableHTTPServerTransport({ sessionIdGenerator: undefined, enableJsonResponse: true });
+  await server.connect(transport);
+  const entete = { "Content-Type": "application/json", Accept: "application/json, text/event-stream" };
+  // Chaque requête HTTP est autonome (serveur sans état) : initialize puis l'appel, comme le fait le Worker.
+  const res = await transport.handleRequest(
+    new Request("https://mcp.test/mcp", {
+      method: "POST",
+      headers: { ...entete, "mcp-protocol-version": "2025-06-18" },
+      body: JSON.stringify({ jsonrpc: "2.0", id: ++id, method, params }),
+    }),
+  );
+  return (await res.json()) as { result?: any; error?: any };
+}
+
+const appeler = async (name: string, args: Record<string, unknown> = {}) => {
+  const r = await rpc("tools/call", { name, arguments: args });
+  return { texte: r.result.content[0].text as string, erreur: !!r.result.isError };
+};
+
+describe("protocole", () => {
+  test("initialize annonce les instructions", async () => {
+    const r = await rpc("initialize", { protocolVersion: "2025-06-18", capabilities: {}, clientInfo: { name: "test", version: "0" } });
+    expect(r.result.serverInfo.name).toBe("les4sources-contenu");
+    expect(r.result.instructions).toContain("legacyPath");
+  });
+
+  test("tools/list expose les outils", async () => {
+    const r = await rpc("tools/list");
+    expect(r.result.tools.map((t: { name: string }) => t.name).sort()).toEqual(
+      ["abandonner_modifications", "ajouter_image", "creer_page", "etat_publication", "lire_page", "lister_pages", "modifier_page", "regles_du_site", "remplacer_texte"].sort(),
+    );
+  });
+});
+
+describe("lecture", () => {
+  test("lister_pages filtre par mot-clé", async () => {
+    const { texte } = await appeler("lister_pages", { recherche: "coworking" });
+    expect(texte).toContain("/coworking · Coworking dans la Clairière");
+  });
+
+  test("lire_page par adresse complète", async () => {
+    const { texte } = await appeler("lire_page", { page: "https://www.les4sources.be/coworking/" });
+    expect(texte).toContain("Fichier : src/content/pages/coworking.md");
+    expect(texte).toContain('legacyPath: "/coworking"');
+  });
+
+  test("lire_page sur une page composée renvoie vers le .astro", async () => {
+    const { texte } = await appeler("lire_page", { page: "/" });
+    expect(texte).toContain("src/pages/index.astro");
+  });
+
+  test("un fichier de code est refusé", async () => {
+    const { erreur } = await appeler("lire_page", { page: "src/lib/site.ts" });
+    expect(erreur).toBe(true);
+  });
+});
+
+describe("écriture", () => {
+  test("remplacer_texte écrit sur contenu, pas sur main", async () => {
+    const { texte, erreur } = await appeler("remplacer_texte", {
+      fichier: "src/content/pages/coworking.md",
+      ancien: "accessible **du lundi au vendredi",
+      nouveau: "ouvert **du lundi au vendredi",
+      resume: "Coworking : ouvert",
+    });
+    expect(erreur).toBe(false);
+    expect(texte).toContain("Enregistré");
+    expect(gh.texte("contenu", "src/content/pages/coworking.md")).toContain("ouvert **du lundi");
+    expect(gh.texte("main", "src/content/pages/coworking.md")).toContain("accessible **du lundi");
+  });
+
+  test("les écritures s'empilent tant que rien n'est publié, puis repartent de main", async () => {
+    const f = "src/content/pages/coworking.md";
+    const r1 = await appeler("remplacer_texte", { fichier: f, ancien: "accessible **du lundi au vendredi", nouveau: "ouvert **du lundi au vendredi", resume: "Essai un" });
+    expect(r1.texte).toContain("Enregistré");
+    const r2 = await appeler("remplacer_texte", { fichier: f, ancien: "ouvert **du lundi", nouveau: "disponible **du lundi", resume: "Essai deux" });
+    expect(r2.texte).toContain("1 modification(s) précédente(s)");
+    expect(gh.ancetre("m0", gh.refs.get("contenu")!)).toBe(2);
+    // Publication : main rattrape contenu ; l'écriture suivante repart de main.
+    gh.refs.set("main", gh.refs.get("contenu")!);
+    const r3 = await appeler("remplacer_texte", { fichier: f, ancien: "disponible **du lundi", nouveau: "ouvert **du lundi", resume: "Essai trois" });
+    expect(r3.texte).not.toContain("précédente");
+  });
+
+  test("changer legacyPath est refusé et rien n'est écrit", async () => {
+    const r = await appeler("remplacer_texte", {
+      fichier: "src/content/pages/coworking.md",
+      ancien: 'legacyPath: "/coworking"',
+      nouveau: 'legacyPath: "/cowork"',
+      resume: "Nouvelle adresse",
+    });
+    expect(r.erreur).toBe(true);
+    expect(r.texte).toContain("ne change jamais");
+    expect(gh.refs.has("contenu")).toBe(false);
+  });
+
+  test("dans un .astro, le code autour du texte reste intact", async () => {
+    const r = await appeler("remplacer_texte", {
+      fichier: "src/pages/index.astro",
+      ancien: 'title="Nos soutiens 💚"',
+      nouveau: 'title={"Nos soutiens"}',
+      resume: "Test",
+    });
+    expect(r.erreur).toBe(true);
+  });
+
+  test("creer_page : nouvelle page valide", async () => {
+    const contenu = `---\ntitle: "Page de test du MCP"\ndescription: "Une page créée par le test du serveur MCP pour vérifier la création de contenu."\nlegacyPath: "/test-du-mcp"\n---\n\nUn paragraphe.\n`;
+    const r = await appeler("creer_page", { section: "pages", nom: "test-du-mcp", contenu, resume: "Page de test" });
+    expect(r.erreur).toBe(false);
+    expect(gh.texte("contenu", "src/content/pages/test-du-mcp.md")).toBe(contenu);
+  });
+
+  test("creer_page refuse une adresse déjà prise", async () => {
+    const contenu = `---\ntitle: "Encore le coworking"\ndescription: "Une page créée par le test du serveur MCP pour vérifier les doublons d'adresse."\nlegacyPath: "/coworking"\n---\n`;
+    const r = await appeler("creer_page", { section: "pages", nom: "doublon", contenu, resume: "Doublon" });
+    expect(r.erreur).toBe(true);
+    expect(r.texte).toContain("déjà prise");
+  });
+
+  test("ajouter_image vérifie le format et rend le chemin relatif", async () => {
+    const r = await appeler("ajouter_image", {
+      url: "https://images.exemple.org/four.jpg",
+      nom: "four-a-pain",
+      pour_fichier: "src/content/pages/coworking.md",
+      resume: "Photo du four",
+    });
+    expect(r.erreur).toBe(false);
+    expect(r.texte).toContain('cover: "../../assets/images/contenu/four-a-pain.jpg"');
+    expect(gh.texte("contenu", "src/assets/images/contenu/four-a-pain.jpg")).toContain("binaire");
+  });
+});
+
+describe("publication", () => {
+  test("rien en attente", async () => {
+    expect((await appeler("etat_publication")).texte).toContain("Tout est en ligne");
+  });
+
+  test("un refus donne la raison, et abandonner remet contenu sur main", async () => {
+    await appeler("remplacer_texte", { fichier: "src/content/pages/coworking.md", ancien: "accessible **du lundi au vendredi", nouveau: "ouvert **du lundi au vendredi", resume: "Essai" });
+    gh.runs = [{ id: 1, status: "completed", conclusion: "failure", head_sha: gh.refs.get("contenu")!, created_at: "2026-10-15T12:00:00Z", html_url: "" }];
+    const etat = await appeler("etat_publication");
+    expect(etat.texte).toContain("REFUSÉ");
+    expect(etat.texte).toContain("erreur de build simulée");
+    await appeler("abandonner_modifications", { confirmer: true });
+    expect(gh.refs.get("contenu")).toBe("m0");
+    expect((await appeler("etat_publication")).texte).toContain("Tout est en ligne");
+  });
+});
