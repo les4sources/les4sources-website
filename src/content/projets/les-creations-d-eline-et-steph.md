@@ -1,6 +1,6 @@
 ---
 title: "Les Créations d’Eline & Steph"
-description: "Les Créations d’Eline & Steph, aux 4 Sources à Yvoir : bijoux, pochettes, carnets et peinture sur galets, faits main."
+description: "Les Créations d’Eline & Steph, aux 4 Sources à Yvoir : bijoux, pochettes, carnets et peinture sur galets."
 legacyPath: "/projets/les-creations-d-eline-et-steph"
 icon: "🎨"
 ---
