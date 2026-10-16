@@ -7,6 +7,4 @@ coverAlt: "Les projets des 4 Sources"
 icon: "⚙️"
 ---
 
-Et aussi sur le lieu, sans fiche pour le moment :
-
-- **Les Créations d’Eline & Steph** — bijoux, pochettes, carnets, peinture sur galets
+Et aussi sur le lieu : [Les Créations d’Eline & Steph](/projets/les-creations-d-eline-et-steph) — bijoux, pochettes, carnets, peinture sur galets.
