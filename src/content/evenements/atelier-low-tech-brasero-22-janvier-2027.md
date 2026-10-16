@@ -1,0 +1,47 @@
+---
+title: "Atelier low tech : construis ton brasero !"
+description: "Vendredi 22 janvier 2027 (9h-18h) : initiation à la soudure et construis ton brasero dans un tambour de machine à laver, aux 4 Sources."
+legacyPath: "/evenements/atelier-low-tech-brasero-22-janvier-2027"
+cover: "../../assets/images/contenu/brasero-low-tech-2027.jpg"
+coverAlt: "Atelier low tech : construis ton brasero"
+icon: "🔥"
+properties:
+  Date: "2027-01-22"
+  Horaires: "9h-18h"
+  Type d'événement: "Formation"
+  Thématique: "Artisanat"
+  Date (fr): "vendredi 22 janvier"
+  Places disponibles: "4"
+  Tarif: "€180.00"
+  Statut site web: "Publié"
+pole: "artisanat"
+category: "Artisanat"
+start: "2027-01-22T09:00:00+01:00"
+end: "2027-01-22T18:00:00+01:00"
+location: "Les 4 Sources, Yvoir"
+priceText: "180 €"
+registrationUrl: "https://www.billetweb.fr/low-tech-construis-ton-brasero"
+registrationLabel: "Je prends ma place !"
+seoTitle: "Atelier low tech : construis ton brasero — 22 janvier"
+---
+
+Et si un vieux tambour de machine à laver avait une seconde vie… autour d’un feu ?
+
+## Au programme (1 journée)
+
+Initiation à la soudure et au travail du métal, avec la découpe, le cintrage, le pliage et l’assemblage par soudure. On passe de la théorie à la pratique, et on met les mains dans le cambouis (et quelques étincelles bien maîtrisées) dès le matin.
+
+## Pour qui ?
+
+Pour les curieux et curieuses qui n’ont jamais touché un poste à souder, mais aussi pour celles et ceux qui ont déjà participé à une initiation et qui souhaitent se perfectionner.
+
+## En pratique
+
+- de 9h à 18h
+- Apporte ton pique-nique du midi
+- 4 personnes maximum (pour que chacun-e ait de la place et du temps)
+- Prix : 180 €
+
+**Tu repars avec ton brasero au terme de cette journée** (et du feu plein les yeux ?)
+
+👉 [Réserve ta place ici](https://www.billetweb.fr/low-tech-construis-ton-brasero)
