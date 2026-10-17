@@ -8,8 +8,8 @@
   "observability": { "enabled": true },
   "kv_namespaces": [
     // Jetons OAuth et compteur d'essais de mot de passe.
-    // `bunx wrangler kv namespace create OAUTH_KV`, puis recopier l'id ici.
-    { "binding": "OAUTH_KV", "id": "A_REMPLACER_PAR_L_ID_DU_NAMESPACE" }
+    // Créé le 2026-10-15 avec `bunx wrangler kv namespace create OAUTH_KV`.
+    { "binding": "OAUTH_KV", "id": "20fe5f45278c4fd4b05995fa372627c7" }
   ],
   "vars": {
     "GITHUB_REPO": "les4sources/les4sources-website",
