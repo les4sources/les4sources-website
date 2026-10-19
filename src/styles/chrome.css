@@ -502,6 +502,30 @@
     fill: currentColor;
   }
 
+  /* Soutien public : le logo garde son fond blanc, la mention reste lisible
+     sur le teal. */
+  .l4s-footer-support {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 24px 0 0;
+    color: color-mix(in srgb, var(--color-white) 88%, var(--color-teal));
+    font-family: var(--font-ui);
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .l4s-footer-support-logo {
+    flex: none;
+    padding: 6px;
+    border-radius: var(--radius-sm);
+    background: var(--color-white);
+  }
+  .l4s-footer-support-logo img {
+    display: block;
+    width: 88px;
+    height: auto;
+  }
+
   /* Surtitres jaunes, comme les surtitres colorés de Semisto. */
   .l4s-footer-overline {
     margin: 0 0 12px;
