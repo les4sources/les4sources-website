@@ -5,18 +5,23 @@
  * Aplat teal (la seule surface sombre de la charte). Colonne de marque : la
  * marque en blanc (vectorielle, le mot lisible à côté, comme dans l'en-tête), la devise, le bandeau des sept pictos de pôle, le bloc NAP
  * complet (adresse de `site.ts` — la même que le JSON-LD —, e-mail, et le
- * seul téléphone publié, celui des réservations) et les réseaux sociaux.
+ * seul téléphone publié, celui des réservations), les réseaux sociaux et
+ * la mention de nos soutiens (Région wallonne, Fondation Cyrys), logos sur
+ * fond blanc.
  * Puis les quatre groupes de `nav.ts` sous des surtitres jaunes. Barre du
  * bas : licence, conditions, crédit.
  *
  * Règle stricte héritée de src/lib/site.ts : une donnée inconnue n'est pas
  * affichée. Rien n'est inventé ici — ni rue, ni e-mail, ni réseau social.
  */
+import { Image } from "astro:assets";
 import Logo from "@components/ds/Logo.astro";
 import PoleIcon from "@components/ds/PoleIcon.astro";
 import { footerGroups, socials } from "@lib/nav";
 import { POLES, POLE_STRIP } from "@lib/poles";
 import { site } from "@lib/site";
+import fondationCyrys from "@assets/brand/partenaires/fondation-cyrys.png";
+import wallonieRelance from "@assets/brand/partenaires/wallonie-relance.png";
 
 const groups = footerGroups();
 const socialLinks = socials();
@@ -108,6 +113,14 @@ const SOCIAL_ICON: Record<string, string> = {
           </nav>
         ))
       }
+
+      <div class="l4s-footer-support">
+        <p>Avec le soutien de la Région wallonne et de la Fondation Cyrys</p>
+        <ul>
+          <li><Image src={wallonieRelance} alt="Wallonie Relance" width={192} /></li>
+          <li><Image src={fondationCyrys} alt="Fondation Cyrys" width={192} /></li>
+        </ul>
+      </div>
     </div>
 
     <div class="l4s-footer-bottom">

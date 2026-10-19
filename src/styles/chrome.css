@@ -502,6 +502,56 @@
     fill: currentColor;
   }
 
+  /* Soutiens : chaque logo sur sa tuile blanche (la marge blanche est dans
+     le fichier), la mention reste lisible sur le teal. */
+  .l4s-footer-support {
+    grid-column: 1 / -1;
+  }
+  .l4s-footer-support p {
+    max-width: 30ch;
+    margin: 0 0 12px;
+    color: color-mix(in srgb, var(--color-white) 88%, var(--color-teal));
+    font-family: var(--font-ui);
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .l4s-footer-support ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .l4s-footer-support img {
+    display: block;
+    width: 96px;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: contain;
+    border-radius: var(--radius-sm);
+    background: var(--color-white);
+  }
+
+  @media (min-width: 1000px) {
+    /* Sous les colonnes de liens, dans l'espace que laisse la colonne de
+       marque, plus haute. */
+    .l4s-footer-support {
+      display: flex;
+      grid-column: 2 / -1;
+      align-items: center;
+      align-self: end;
+      gap: 24px;
+    }
+    .l4s-footer-support p {
+      max-width: none;
+      margin: 0;
+    }
+    .l4s-footer-brand {
+      grid-row: span 2;
+    }
+  }
+
   /* Surtitres jaunes, comme les surtitres colorés de Semisto. */
   .l4s-footer-overline {
     margin: 0 0 12px;
