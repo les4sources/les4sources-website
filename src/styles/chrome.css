@@ -502,28 +502,35 @@
     fill: currentColor;
   }
 
-  /* Soutien public : le logo garde son fond blanc, la mention reste lisible
-     sur le teal. */
+  /* Soutiens : chaque logo sur sa tuile blanche (la marge blanche est dans
+     le fichier), la mention reste lisible sur le teal. */
   .l4s-footer-support {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    margin: 24px 0 0;
+    margin-top: 24px;
+  }
+  .l4s-footer-support p {
+    max-width: 30ch;
+    margin: 0 0 12px;
     color: color-mix(in srgb, var(--color-white) 88%, var(--color-teal));
     font-family: var(--font-ui);
     font-size: 14px;
     line-height: 1.4;
   }
-  .l4s-footer-support-logo {
-    flex: none;
-    padding: 6px;
+  .l4s-footer-support ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .l4s-footer-support img {
+    display: block;
+    width: 96px;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: contain;
     border-radius: var(--radius-sm);
     background: var(--color-white);
-  }
-  .l4s-footer-support-logo img {
-    display: block;
-    width: 88px;
-    height: auto;
   }
 
   /* Surtitres jaunes, comme les surtitres colorés de Semisto. */
