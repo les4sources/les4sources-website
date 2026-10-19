@@ -2,8 +2,8 @@
 title: "Atelier low tech : construis ton brasero !"
 description: "Vendredi 12 mars 2027 (9h-18h) : initiation à la soudure et construis ton brasero dans un tambour de machine à laver, aux 4 Sources."
 legacyPath: "/evenements/atelier-low-tech-brasero-12-mars-2027"
-cover: "../../assets/images/contenu/brasero-low-tech-2027.jpg"
-coverAlt: "Atelier low tech : construis ton brasero"
+cover: "../../assets/images/contenu/brasero-low-tech-banniere.png"
+coverAlt: "Atelier low tech : construis ton brasero — un brasero fait d'un tambour de machine à laver, allumé au milieu de l'atelier"
 icon: "🔥"
 properties:
   Date: "2027-03-12"
