@@ -1,6 +1,6 @@
 ---
 title: "Semisto"
-description: "Les 4 Sources sont le QG de Semisto, l’association qui œuvre à nous faire passer dans l’ère des forêts comestibles. Semisto a été créé par Michael…"
+description: "Les 4 Sources sont le QG de Semisto, l’association qui œuvre à nous faire passer dans l’ère des forêts comestibles."
 legacyPath: "/projets/semisto"
 cover: "../../assets/migration/projets__semisto/01-w1920quality90fitscale-down.jpg"
 coverAlt: "Semisto"
