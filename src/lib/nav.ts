@@ -31,7 +31,7 @@ export interface NavGroup {
 const PRIMARY: NavLink[] = [
   { label: "Agenda", path: "/agenda" },
   { label: "Séjours", path: "/sejours" },
-  { label: "Salles", path: "/sejours/salles" },
+  { label: "Pour qui ?", path: "/#pour-qui" },
   { label: "Activités", path: "/activites" },
   { label: "Projets", path: "/projets" },
   { label: "À propos", path: "/a-propos" },

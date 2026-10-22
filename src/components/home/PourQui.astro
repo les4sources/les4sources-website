@@ -1,0 +1,66 @@
+---
+/**
+ * PourQui — les cinq publics des 4 Sources, chacun vers sa page (maquette du
+ * 2026-10-22). Les photos sont les couvertures des pages visées ; les lignes
+ * reprennent le texte de ces pages.
+ */
+import Card from "@components/ds/Card.astro";
+import Section from "@components/ds/Section.astro";
+
+import famille from "@assets/migration/sejours__en-famille-aux-4-sources/01-gite_familial_yvoir_dinant.jpg";
+import amis from "@assets/migration/evenements__pizza-party-juin-2026/03-508613796_1023903979919038_8286032347514294983_n.jpg";
+import ecoles from "@assets/migration/sejours__retraites-scolaires/01-20221025_131013_53D43C7E.jpg";
+import equipes from "@assets/migration/sejours__mises-au-vert/01-img_4040.jpg";
+import mariage from "@assets/migration/mariage-champetre/01-photo-4995726.jpg";
+
+const publics = [
+  {
+    label: "Familles",
+    line: "Des gîtes jusqu’à 23 personnes et des ateliers à faire en famille",
+    href: "/sejours/en-famille-aux-4-sources",
+    image: famille,
+    alt: "Un gîte familial des 4 Sources",
+  },
+  {
+    label: "Entre amis",
+    line: "Pizza Party privée, anniversaire, bivouac sous les arbres",
+    href: "/anniversaire",
+    image: amis,
+    alt: "Une Pizza Party entre amis devant le Bar des 4 Sources",
+  },
+  {
+    label: "Écoles",
+    line: "Des retraites scolaires en pleine nature",
+    href: "/sejours/retraites-scolaires",
+    image: ecoles,
+    alt: "Une retraite scolaire aux 4 Sources",
+  },
+  {
+    label: "Entreprises et associations",
+    line: "Mises au vert et team buildings, de 6 à 23 personnes",
+    href: "/sejours/mises-au-vert",
+    image: equipes,
+    alt: "Une mise au vert aux 4 Sources",
+  },
+  {
+    label: "Futurs mariés",
+    line: "Un mariage champêtre au cœur de la clairière",
+    href: "/mariage-champetre",
+    image: mariage,
+    alt: "Un mariage champêtre aux 4 Sources",
+  },
+];
+---
+
+<Section id="pour-qui" overline="Pour qui ?" title="Ce que les 4 Sources t’offrent" highlight="t’offrent" align="center">
+  <div class="l4s-snap-row sm:grid sm:grid-cols-3 sm:gap-5 lg:grid-cols-5">
+    {
+      publics.map((p) => (
+        <Card hoverable href={p.href} image={p.image} imageAlt={p.alt} imageAspect="4/5" imageSizes="(min-width: 1024px) 230px, (min-width: 640px) 33vw, 80vw">
+          <h3 class="mb-1.5 font-display text-h4 font-bold">{p.label}</h3>
+          <p class="font-body text-small text-ink-2">{p.line}</p>
+        </Card>
+      ))
+    }
+  </div>
+</Section>

@@ -11,6 +11,7 @@ import Lead from "@components/ds/Lead.astro";
 import Section from "@components/ds/Section.astro";
 import EventGrid from "@components/home/EventGrid.astro";
 import HeroSplit from "@components/home/HeroSplit.astro";
+import PourQui from "@components/home/PourQui.astro";
 import { activityByPath, eventItems } from "@components/home/events";
 import { byPath, upcomingEventsWithin, visible } from "@lib/content";
 import Temoignages from "@components/ui/Temoignages.astro";
@@ -98,6 +99,8 @@ const featured = await Promise.all(
       <Button variant="secondary" size="lg" href="/agenda">L’agenda des 4 Sources</Button>
     </Fragment>
   </HeroSplit>
+
+  <PourQui />
 
   <Section
     overline="Le lieu"
