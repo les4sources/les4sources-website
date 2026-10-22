@@ -1,6 +1,6 @@
 ---
 title: "Le Fer en mains"
-description: "Passionné par le métal, Seb met son savoir-faire au service de tes projets. Que tu souhaites une création sur-mesure ou la restauration d'une pièce…"
+description: "Passionné par le métal, Seb met son savoir-faire au service de tes projets."
 legacyPath: "/projets/la-ferronnerie"
 cover: "../../assets/migration/projets__la-ferronnerie/01-photo-1585366958730-159aa4001b3c.jpg"
 coverAlt: "Le Fer en mains"
