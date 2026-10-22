@@ -3,7 +3,7 @@
  *
  * Jusqu'à la revue de l'accueil (2026-09-08), la navigation était la copie
  * conforme de `migration/nav.json` (crawl du site Super.so). L'en-tête garde
- * les six liens du site historique ; le pied de page est réorganisé pour
+ * les six liens du site historique (sauf « Salles », devenu « Pour qui ? ») ; le pied de page est réorganisé pour
  * couvrir les pages que l'ancien site n'atteignait que par sa grappe de liens
  * (événements, catalogue, carte de balades, biodiversité, coworking,
  * newsletter, collectif). `migration/nav.json` reste la trace du crawl, il
@@ -27,7 +27,11 @@ export interface NavGroup {
   links: NavLink[];
 }
 
-/** Navigation principale (en-tête) — les six entrées du site historique. */
+/**
+ * Navigation principale (en-tête) — six entrées. « Pour qui ? » remplace
+ * « Salles » (Michael, 2026-10-22) : il mène au bandeau des publics de
+ * l’accueil ; les salles restent sous Séjours.
+ */
 const PRIMARY: NavLink[] = [
   { label: "Agenda", path: "/agenda" },
   { label: "Séjours", path: "/sejours" },
@@ -58,7 +62,7 @@ const FOOTER: NavGroup[] = [
     ],
   },
   {
-    title: "Aux 4 Sources",
+    title: "Pour qui ?",
     links: [
       { label: "Mariages champêtres", path: "/mariage-champetre" },
       { label: "Anniversaires", path: "/anniversaire" },
