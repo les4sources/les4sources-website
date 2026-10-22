@@ -1,9 +1,9 @@
 ---
-title: "⚡ Initiation à la soudure à l’arc"
-description: "NOUVELLE SESSION DU 5 DÉCEMBRE 2026 (9h-12h30) — Les 4 Sources, tiers-lieu à Yvoir"
+title: "⚡ COMPLET ! Initiation à la soudure à l’arc"
+description: "⚠️ COMPLET : SESSION DU 5 DÉCEMBRE 2026 (9h-12h30)"
 legacyPath: "/evenements/initiation-soudure-a-l-arc-5-decembre-2026"
-cover: "../../assets/migration/shared/9c7a860cd83d-evenement_gnral__a_-1.jpg"
-coverAlt: "⚡ Initiation à la soudure à l’arc"
+cover: "../../assets/migration/shared/9537c7b8c89d-evenement_gnral__a_-5.jpg"
+coverAlt: "⚡ COMPLET ! Initiation à la soudure à l’arc"
 icon: "👷🏻"
 properties:
   Date: "2026-12-05"
@@ -19,11 +19,13 @@ start: "2026-12-05T09:00:00+01:00"
 category: "Artisanat"
 priceText: "80 €"
 registrationUrl: "https://www.billetweb.fr/initiation-a-la-soudure-a-larc"
-registrationLabel: "Je prends ma place !"
-seoTitle: "Initiation à la soudure à l’arc — samedi 5 décembre"
+registrationLabel: "Je réserve une autre date !"
+seoTitle: "COMPLET ! Initiation à la soudure à… — samedi 5 décembre"
 ---
 
-**NOUVELLE SESSION : SAMEDI 5 DÉCEMBRE 2026 (9h-12h30)**
+⚠️ COMPLET : **SESSION DU 5 DÉCEMBRE 2026 (9h-12h30)**
+
+Prochaines dates disponibles en 2027 (100 € la session, 4 places) : 23 janvier | 6 février | 27 mars | 17 avril | 29 mai | 5 juin
 
 ## Objectifs
 
@@ -41,8 +43,6 @@ seoTitle: "Initiation à la soudure à l’arc — samedi 5 décembre"
 **Âge :** autour de 10 à 110 ans
 
 ## Inscription et tarif
-
-👉 [Réserve ta place ici](https://www.billetweb.fr/initiation-a-la-soudure-a-larc)
 
 ### Équipement de protection individuel à emporter
 
