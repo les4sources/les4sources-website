@@ -1,9 +1,9 @@
 ---
-title: "⚡ Initiation à la soudure à l’arc"
-description: "NOUVELLE SESSION DU 21 NOVEMBRE 2026 (9h-12h30) — Les 4 Sources, tiers-lieu à Yvoir"
+title: "⚡ COMPLET ! Initiation à la soudure à l’arc"
+description: "⚠️ COMPLET : SESSION DU 21 NOVEMBRE 2026 (9h-12h30)"
 legacyPath: "/evenements/initiation-soudure-a-l-arc-21-novembre-2026"
-cover: "../../assets/migration/shared/9c7a860cd83d-evenement_gnral__a_-1.jpg"
-coverAlt: "⚡ Initiation à la soudure à l’arc"
+cover: "../../assets/migration/shared/9537c7b8c89d-evenement_gnral__a_-5.jpg"
+coverAlt: "⚡ COMPLET ! Initiation à la soudure à l’arc"
 icon: "👷🏻"
 properties:
   Date: "2026-11-21"
@@ -19,10 +19,13 @@ start: "2026-11-21T09:00:00+01:00"
 category: "Artisanat"
 priceText: "80 €"
 registrationUrl: "https://www.billetweb.fr/initiation-a-la-soudure-a-larc"
-registrationLabel: "Je prends ma place !"
+registrationLabel: "Je réserve une autre date !"
+seoTitle: "COMPLET ! Initiation à la soudure à… — samedi 21 novembre"
 ---
 
-**SESSION COMPLETE DU 21 NOVEMBRE 2026 (9h-12h30)**
+⚠️ COMPLET : **SESSION DU 21 NOVEMBRE 2026 (9h-12h30)**
+
+Prochaines dates disponibles en 2027 (100 € la session, 4 places) : 23 janvier | 6 février | 27 mars | 17 avril | 29 mai | 5 juin
 
 ## Objectifs
 
@@ -35,9 +38,9 @@ registrationLabel: "Je prends ma place !"
 - alternance de temps de transmission théorique et de temps d'expérimentation à l'atelier ;
 - l'intention est de transmettre un maximum de choses par l'expérimentation.
 
-**Prérequis :** aucun
+**Prérequis :** aucun
 
-**Âge :** autour de 10 à 110 ans
+**Âge :** autour de 10 à 110 ans
 
 ## Inscription et tarif
 
