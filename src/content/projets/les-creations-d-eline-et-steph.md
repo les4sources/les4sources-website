@@ -19,6 +19,8 @@ Bracelets, boucles d’oreilles, pochettes et carnets : chaque création est ré
 
 ![Carnets faits main par Eline et Steph](../../assets/images/contenu/creations-eline-steph-1.jpg)
 
+![Bracelets faits main par Eline et Steph](../../assets/images/contenu/creations-eline-steph-bracelets.jpg)
+
 ## Où les trouver
 
 Les créations d’Eline et Steph sont en vente sur place, à l’épicerie, et parfois sur quelques marchés.
