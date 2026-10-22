@@ -1,9 +1,9 @@
 ---
-title: "Initiation à la soudure à l’arc ⚡"
-description: "NOUVELLE ET DERNIERE SESSION 2026 : 12 DECEMBRE (9h-12h30)"
+title: "⚡ COMPLET ! Initiation à la soudure à l’arc"
+description: "⚠️ COMPLET : DERNIÈRE SESSION 2026 DU 12 DÉCEMBRE (9h-12h30)"
 legacyPath: "/evenements/initiation-soudure-a-l-arc-12-dcembre-2026"
-cover: "../../assets/migration/shared/9c7a860cd83d-evenement_gnral__a_-1.jpg"
-coverAlt: "Initiation à la soudure à l’arc ⚡"
+cover: "../../assets/migration/shared/9537c7b8c89d-evenement_gnral__a_-5.jpg"
+coverAlt: "⚡ COMPLET ! Initiation à la soudure à l’arc"
 icon: "👷🏻‍♀️"
 properties:
   Date: "2026-12-12"
@@ -18,10 +18,14 @@ pole: "artisanat"
 start: "2026-12-12T09:00:00+01:00"
 category: "Artisanat"
 priceText: "80 €"
-seoTitle: "Initiation à la soudure à l’arc — samedi 12 décembre"
+registrationUrl: "https://www.billetweb.fr/initiation-a-la-soudure-a-larc"
+registrationLabel: "Je réserve une autre date !"
+seoTitle: "COMPLET ! Initiation à la soudure à… — samedi 12 décembre"
 ---
 
-**NOUVELLE ET DERNIERE SESSION COMPLETE : 12 DECEMBRE (9h-12h30)**
+⚠️ COMPLET : **DERNIÈRE SESSION 2026 DU 12 DÉCEMBRE (9h-12h30)**
+
+Prochaines dates disponibles en 2027 (100 € la session, 4 places) : 23 janvier | 6 février | 27 mars | 17 avril | 29 mai | 5 juin
 
 ## Objectifs
 
@@ -34,9 +38,9 @@ seoTitle: "Initiation à la soudure à l’arc — samedi 12 décembre"
 - alternance de temps de transmission théorique et de temps d'expérimentation à l'atelier ;
 - l'intention est de transmettre un maximum de choses par l'expérimentation.
 
-**Prérequis :** aucun
+**Prérequis :** aucun
 
-**Âge :** autour de 10 à 110 ans
+**Âge :** autour de 10 à 110 ans
 
 ## Inscription et tarifs
 
