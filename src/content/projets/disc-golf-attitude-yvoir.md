@@ -1,6 +1,6 @@
 ---
 title: "Découvrir le disc-golf à Yvoir"
-description: "Envie de tester un sport en plein air accessible à tous, mêlant précision, stratégie et nature ? Viens jouer au disc-golf aux 4 Sources, à Yvoir, près de…"
+description: "Envie de tester un sport en plein air accessible à tous, mêlant précision, stratégie et nature ? Viens jouer au disc-golf aux 4 Sources à Yvoir, près de Namur !"
 legacyPath: "/projets/disc-golf-attitude-yvoir"
 cover: "../../assets/migration/projets__disc-golf-attitude-yvoir/01-photo-1655161905949-3b5410c00e99.jpg"
 coverAlt: "Découvrir le disc-golf à Yvoir"
