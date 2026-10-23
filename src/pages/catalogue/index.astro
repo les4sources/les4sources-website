@@ -1,6 +1,5 @@
 ---
 import { displayDescription } from "@lib/text";
-import { activityByPath } from "@components/home/events";
 import { getCollection, render } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import CardGrid, { type CardItem } from "@components/ui/CardGrid.astro";
@@ -8,10 +7,10 @@ import PageHero from "@components/ui/PageHero.astro";
 import Prose from "@components/ui/Prose.astro";
 import Section from "@components/ds/Section.astro";
 import Tag from "@components/ds/Tag.astro";
-import { siteData } from "@lib/data";
+import { catalogueItems, listedExperiences } from "@lib/catalogue";
 import { byPath, visible } from "@lib/content";
 import { POLES, isPole, type PoleSlug } from "@lib/poles";
-import type { MergedExperience } from "@lib/claudy";
+import { PUBLICS, type PublicSlug } from "@lib/publics";
 
 // La page éditoriale /catalogue, si la migration en fournit une, coiffe le listing.
 const pages = visible(await getCollection("pages"));
@@ -20,40 +19,18 @@ const entry = byPath(pages, "/catalogue");
 const rendered = entry?.body?.trim() ? await render(entry) : undefined;
 const Content = rendered?.Content;
 
-const { experiences } = await siteData();
-// Les couvertures des fiches migrées sont des images locales optimisées.
-const legacyCatalogue = await getCollection("catalogue");
-const coverById = new Map(legacyCatalogue.map((e) => [e.id, e.data.cover]));
-
-const listed = experiences
-  .filter((x) => x.archived !== true)
-  .sort((a, b) => a.title.localeCompare(b.title, "fr"));
-
-const participantsOf = (x: MergedExperience): string | undefined =>
-  x.minParticipants && x.maxParticipants
-    ? `${x.minParticipants} à ${x.maxParticipants} personnes`
-    : x.maxParticipants
-      ? `Jusqu'à ${x.maxParticipants} personnes`
-      : x.minParticipants
-        ? `À partir de ${x.minParticipants} personnes`
-        : undefined;
-
-const items: CardItem[] = await Promise.all(listed.map(async (x) => ({
-  title: x.title,
-  href: x.path,
-  description: displayDescription(x.description, x.generatedDescription),
-  eyebrow: x.duration,
-  meta: [participantsOf(x), x.priceText].filter(Boolean).join(" · ") || undefined,
-  icon: x.icon,
-  pole: x.pole,
-  // La photo de la carte : l'image Claudy rapatriée, sinon la couverture migrée.
-  image: (await activityByPath(x.path))?.cover ?? (x.legacyId ? coverById.get(x.legacyId) : undefined),
-})));
+const listed = await listedExperiences();
+const items: CardItem[] = await catalogueItems();
 
 // Filtres : uniquement les pôles réellement représentés dans le catalogue.
 const present: PoleSlug[] = Object.values(POLES)
   .map((p) => p.slug)
   .filter((slug) => listed.some((x) => isPole(x.pole) && x.pole === slug));
+
+// Filtre « Pour qui ? » : uniquement les publics qui ont au moins une activité.
+const presentPublics: PublicSlug[] = Object.values(PUBLICS)
+  .map((p) => p.slug)
+  .filter((slug) => listed.some((x) => x.publics.includes(slug)));
 
 const title = entry?.data.title ?? "Le catalogue d'activités";
 const description =
@@ -87,8 +64,22 @@ const description =
 
   <Section title="Les activités 🎒" id="activites">
     {
+      presentPublics.length > 0 && (
+        <div class="mb-4 flex flex-wrap items-center gap-2" data-filter-group="publics">
+          <span class="mr-1 font-ui text-ui text-ink-2">Pour qui ?</span>
+          <Tag selected data-filter="all">
+            Tout le monde
+          </Tag>
+          {presentPublics.map((slug) => (
+            <Tag data-filter={slug}>{PUBLICS[slug].label}</Tag>
+          ))}
+        </div>
+      )
+    }
+    {
       present.length > 0 && (
-        <div class="mb-8 flex flex-wrap gap-2" data-pole-filter>
+        <div class="mb-8 flex flex-wrap items-center gap-2" data-filter-group="pole">
+          <span class="mr-1 font-ui text-ui text-ink-2">Thème</span>
           <Tag selected data-filter="all">
             Toutes
           </Tag>
@@ -104,31 +95,48 @@ const description =
 </BaseLayout>
 
 <script>
-  // Filtre par pôle : tout est rendu au build, le script ne fait que masquer.
-  // Sans JavaScript, la liste complète reste affichée et lisible.
-  const bar = document.querySelector<HTMLElement>("[data-pole-filter]");
-  if (bar) {
-    const tags = Array.from(bar.querySelectorAll<HTMLElement>("[data-filter]"));
-    const cards = Array.from(document.querySelectorAll<HTMLElement>("[data-card]"));
+  // Deux filtres cumulables, « Pour qui ? » et thème (pôle) : tout est rendu
+  // au build, le script ne fait que masquer. Sans JavaScript, la liste
+  // complète reste affichée et lisible. `?pour=familles` (lien depuis une
+  // page par public) présélectionne le public.
+  const groups = Array.from(document.querySelectorAll<HTMLElement>("[data-filter-group]"));
+  const cards = Array.from(document.querySelectorAll<HTMLElement>("[data-card]"));
+  const state: Record<string, string> = { pole: "all", publics: "all" };
 
-    const apply = (value: string) => {
-      for (const tag of tags) {
-        const on = tag.dataset.filter === value;
-        tag.setAttribute("aria-pressed", on ? "true" : "false");
-        tag.classList.toggle("border-teal", on);
-        tag.classList.toggle("bg-teal", on);
-        tag.classList.toggle("text-white", on);
-        tag.classList.toggle("border-line", !on);
-        tag.classList.toggle("bg-white", !on);
-        tag.classList.toggle("text-ink", !on);
-      }
-      for (const card of cards) {
-        card.hidden = value !== "all" && card.dataset.pole !== value;
-      }
-    };
+  const matches = (card: HTMLElement): boolean =>
+    (state.pole === "all" || card.dataset.pole === state.pole) &&
+    (state.publics === "all" || (card.dataset.publics ?? "").split(" ").includes(state.publics));
 
-    for (const tag of tags) {
-      tag.addEventListener("click", () => apply(tag.dataset.filter ?? "all"));
+  const render = () => {
+    for (const group of groups) {
+      const value = state[group.dataset.filterGroup ?? ""] ?? "all";
+      for (const tag of group.querySelectorAll<HTMLElement>("[data-filter]")) {
+        tag.setAttribute("aria-pressed", tag.dataset.filter === value ? "true" : "false");
+      }
     }
+    for (const card of cards) card.hidden = !matches(card);
+  };
+
+  for (const group of groups) {
+    const key = group.dataset.filterGroup ?? "";
+    for (const tag of group.querySelectorAll<HTMLElement>("[data-filter]")) {
+      tag.addEventListener("click", () => {
+        state[key] = tag.dataset.filter ?? "all";
+        if (key === "publics") {
+          const url = new URL(location.href);
+          if (state.publics === "all") url.searchParams.delete("pour");
+          else url.searchParams.set("pour", state.publics);
+          history.replaceState(null, "", url);
+        }
+        render();
+      });
+    }
+  }
+
+  const asked = new URLSearchParams(location.search).get("pour");
+  const publicsGroup = groups.find((g) => g.dataset.filterGroup === "publics");
+  if (asked && publicsGroup?.querySelector(`[data-filter="${CSS.escape(asked)}"]`)) {
+    state.publics = asked;
+    render();
   }
 </script>

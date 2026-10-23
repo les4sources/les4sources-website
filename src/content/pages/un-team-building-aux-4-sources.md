@@ -5,6 +5,8 @@ legacyPath: "/un-team-building-aux-4-sources"
 icon: "🏨"
 ---
 
+> Tu prépares plutôt un temps de travail et de recul avec ton équipe ? → [Une mise au vert aux 4 Sources](/sejours/mises-au-vert)
+
 ## L'endroit idéal où ton équipe va enfin souffler 🌿
 
 On te propose un cadre vert et ressourçant, des activités en plein air pour se dépenser (et bien rigoler, qui sait), des espaces de travail confortables pour les moments plus sérieux, et des hébergements sur place pour que la bonne ambiance se prolonge jusqu'au lendemain matin.

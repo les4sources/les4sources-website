@@ -9,10 +9,12 @@ import Prose from "@components/ui/Prose.astro";
 import ReservationBand from "@components/ui/ReservationBand.astro";
 import SectionNav from "@components/ui/SectionNav.astro";
 import Temoignages from "@components/ui/Temoignages.astro";
+import ActivitesDuPublic from "@components/ui/ActivitesDuPublic.astro";
 import Section from "@components/ds/Section.astro";
 import { pathOf, visible } from "@lib/content";
 import { isReservedPath } from "@lib/routes";
 import { sectionOf } from "@lib/nav";
+import { PUBLIC_OF_PAGE } from "@lib/publics";
 import { breadcrumbs } from "@lib/seo";
 import { site } from "@lib/site";
 
@@ -74,6 +76,9 @@ const RESERVATION_PAGES = new Set([
   "/activites",
 ]);
 const withReservation = RESERVATION_PAGES.has(pathOf(entry));
+
+/** Une page par public liste en bas les activités de son public. */
+const publicOfPage = PUBLIC_OF_PAGE[pathOf(entry)];
 
 /**
  * Une page de rubrique (À propos…) montre les autres pages de sa rubrique dans
@@ -161,6 +166,8 @@ const jsonld =
       </Section>
     )
   }
+
+  {publicOfPage && <ActivitesDuPublic public={publicOfPage} />}
 
   <Temoignages path={pathOf(entry)} />
 
