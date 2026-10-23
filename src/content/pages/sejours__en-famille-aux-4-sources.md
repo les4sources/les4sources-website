@@ -1,9 +1,9 @@
 ---
-title: "Un temps en famille aux 4 Sources"
-description: "Des gîtes jusqu’à 23 personnes, des salles pour les grands groupes, la cuisine professionnelle et des ateliers à faire en famille."
+title: "Un temps en famille ou entre amis aux 4 Sources"
+description: "Des gîtes jusqu’à 23 personnes, des salles pour les grands groupes, la cuisine professionnelle et des ateliers à faire en famille ou entre amis."
 legacyPath: "/sejours/en-famille-aux-4-sources"
 cover: "../../assets/migration/sejours__en-famille-aux-4-sources/01-gite_familial_yvoir_dinant.jpg"
-coverAlt: "Un temps en famille aux 4 Sources"
+coverAlt: "Un temps en famille ou entre amis aux 4 Sources"
 icon: "👪"
 ---
 
@@ -48,7 +48,7 @@ Les cuisines des gîtes n’étant pas très grandes, la cuisine professionnelle
 
 → [Nos salles et la cuisine professionnelle](/sejours/salles)
 
-## Des ateliers à faire en famille 🎒
+## Des ateliers à faire en famille ou entre amis 🎒
 
 Pizza ou camembert party, ateliers cuisine, fabrication d’allume-feux ou de bombes à graines, visite de la micro-ferme, grimpe dans les arbres, disc-golf, bain d’ânes… Chaque activité s’organise sur demande, en saison ou est toujours disponible.
 

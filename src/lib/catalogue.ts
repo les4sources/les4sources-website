@@ -27,14 +27,14 @@ export async function listedExperiences(): Promise<MergedExperience[]> {
     .sort((a, b) => a.title.localeCompare(b.title, "fr"));
 }
 
-/** Les cartes des activités listées, éventuellement réduites à un public. */
-export async function catalogueItems(publicSlug?: PublicSlug): Promise<CardItem[]> {
+/** Les cartes des activités listées, éventuellement réduites à un ou plusieurs publics. */
+export async function catalogueItems(publics?: PublicSlug[]): Promise<CardItem[]> {
   // Les couvertures des fiches migrées sont des images locales optimisées.
   const legacyCatalogue = await getCollection("catalogue");
   const coverById = new Map(legacyCatalogue.map((e) => [e.id, e.data.cover]));
 
   const listed = (await listedExperiences()).filter(
-    (x) => !publicSlug || x.publics.includes(publicSlug),
+    (x) => !publics || x.publics.some((p) => publics.includes(p)),
   );
 
   return Promise.all(

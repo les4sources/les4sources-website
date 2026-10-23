@@ -1,6 +1,6 @@
 ---
 /**
- * Les activités d'un public, en bas de sa page (Michael, 2026-10-23) : la
+ * Les activités d'un ou plusieurs publics, en bas de leur page (Michael, 2026-10-23) : la
  * grille se construit depuis le catalogue (`src/lib/publics.ts`), si bien
  * qu'une activité étiquetée pour ce public y apparaît sans retouche de la
  * page. Rien n'est rendu quand le public n'a aucune activité.
@@ -9,15 +9,15 @@ import Button from "@components/ds/Button.astro";
 import Section from "@components/ds/Section.astro";
 import CardGrid from "@components/ui/CardGrid.astro";
 import { catalogueItems } from "@lib/catalogue";
-import { PUBLICS, type PublicSlug } from "@lib/publics";
+import { PUBLICS, type PagePublics } from "@lib/publics";
 
-interface Props {
-  public: PublicSlug;
-}
+type Props = PagePublics;
 
-const { public: publicSlug } = Astro.props;
-const items = await catalogueItems(publicSlug);
-const { label, sectionTitle } = PUBLICS[publicSlug];
+const { publics, title } = Astro.props;
+const items = await catalogueItems(publics);
+const first = PUBLICS[publics[0]];
+const label = publics.map((p) => PUBLICS[p].label).join(" · ");
+const sectionTitle = title ?? first.sectionTitle;
 ---
 
 {
@@ -31,7 +31,7 @@ const { label, sectionTitle } = PUBLICS[publicSlug];
     >
       <CardGrid items={items} poleHeader />
       <div class="mt-9 flex justify-center">
-        <Button variant="secondary" href={`/catalogue?pour=${publicSlug}#activites`}>
+        <Button variant="secondary" href={`/catalogue?pour=${first.slug}#activites`}>
           Ces activités dans le catalogue
         </Button>
       </div>

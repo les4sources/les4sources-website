@@ -14,7 +14,7 @@ import Section from "@components/ds/Section.astro";
 import { pathOf, visible } from "@lib/content";
 import { isReservedPath } from "@lib/routes";
 import { sectionOf } from "@lib/nav";
-import { PUBLIC_OF_PAGE } from "@lib/publics";
+import { PUBLICS_OF_PAGE } from "@lib/publics";
 import { breadcrumbs } from "@lib/seo";
 import { site } from "@lib/site";
 
@@ -77,8 +77,8 @@ const RESERVATION_PAGES = new Set([
 ]);
 const withReservation = RESERVATION_PAGES.has(pathOf(entry));
 
-/** Une page par public liste en bas les activités de son public. */
-const publicOfPage = PUBLIC_OF_PAGE[pathOf(entry)];
+/** Une page par public liste en bas les activités de son ou ses publics. */
+const publicsOfPage = PUBLICS_OF_PAGE[pathOf(entry)];
 
 /**
  * Une page de rubrique (À propos…) montre les autres pages de sa rubrique dans
@@ -167,7 +167,7 @@ const jsonld =
     )
   }
 
-  {publicOfPage && <ActivitesDuPublic public={publicOfPage} />}
+  {publicsOfPage && <ActivitesDuPublic {...publicsOfPage} />}
 
   <Temoignages path={pathOf(entry)} />
 

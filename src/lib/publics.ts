@@ -33,13 +33,25 @@ export const PUBLICS: Record<PublicSlug, PublicDef> = {
   },
 };
 
-/** Le public de chaque page par public, pour y lister ses activités. */
-export const PUBLIC_OF_PAGE: Record<string, PublicSlug> = {
-  "/sejours/en-famille-aux-4-sources": "familles",
-  "/anniversaire": "amis",
-  "/sejours/retraites-scolaires": "jeunes",
-  "/sejours/mises-au-vert": "equipes",
-  "/un-team-building-aux-4-sources": "equipes",
+export interface PagePublics {
+  publics: PublicSlug[];
+  /** Titre de la section quand la page réunit plusieurs publics. */
+  title?: string;
+}
+
+/**
+ * Le ou les publics de chaque page par public, pour y lister leurs activités.
+ * La page famille accueille aussi les groupes d'amis (Michael, 2026-10-23).
+ */
+export const PUBLICS_OF_PAGE: Record<string, PagePublics> = {
+  "/sejours/en-famille-aux-4-sources": {
+    publics: ["familles", "amis"],
+    title: "Les activités à faire en famille ou entre amis",
+  },
+  "/anniversaire": { publics: ["amis"] },
+  "/sejours/retraites-scolaires": { publics: ["jeunes"] },
+  "/sejours/mises-au-vert": { publics: ["equipes"] },
+  "/un-team-building-aux-4-sources": { publics: ["equipes"] },
 };
 
 export function isPublic(value: string | undefined): value is PublicSlug {

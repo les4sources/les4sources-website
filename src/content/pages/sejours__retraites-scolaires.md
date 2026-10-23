@@ -21,6 +21,8 @@ Tu es au bon endroit ! Nous proposons des retraites et séjours scolaires incroy
 - 7 chambres avec salle de douche
 - Mezzanine avec 2 lits d’appoint
 
+🏕️ À la belle saison, **25 personnes de plus** peuvent dormir sous tente sur [notre espace pour camper](/sejours/bivouac).
+
 → [Découvre le Grand-Duc](/sejours/hebergements-yvoir/le-grand-duc-gite-25-personnes)
 
 <!-- column width="50%" -->
