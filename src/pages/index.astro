@@ -11,6 +11,7 @@ import Lead from "@components/ds/Lead.astro";
 import Section from "@components/ds/Section.astro";
 import EventGrid from "@components/home/EventGrid.astro";
 import HeroSplit from "@components/home/HeroSplit.astro";
+import PourQui from "@components/home/PourQui.astro";
 import { activityByPath, eventItems } from "@components/home/events";
 import { byPath, upcomingEventsWithin, visible } from "@lib/content";
 import Temoignages from "@components/ui/Temoignages.astro";
@@ -98,6 +99,8 @@ const featured = await Promise.all(
       <Button variant="secondary" size="lg" href="/agenda">L’agenda des 4 Sources</Button>
     </Fragment>
   </HeroSplit>
+
+  <PourQui />
 
   <Section
     overline="Le lieu"
@@ -292,22 +295,9 @@ const featured = await Promise.all(
       </div>
     </div>
 
+    {/* Les pages par public, autrefois listées ici, sont le bandeau « Pour qui ? » sous le hero. */}
     <div class="mt-12">
-      <p class="mb-3 font-body text-body">
-        Nous te proposons <b>une série d’activités passionnantes</b> pour tes…
-      </p>
-      {/* Retrait suspendu : la 2e ligne d'un élément s'aligne sur le texte, pas sous la coche. */}
-      <ul class="m-0 grid list-none gap-2 p-0 font-body text-body sm:grid-cols-2 lg:grid-cols-3 [&>li]:-indent-[1.55em] [&>li]:pl-[1.55em]">
-        <li>✔️ <a href="/sejours/retraites-scolaires">Retraites scolaires</a></li>
-        <li>✔️ <a href="/mariage-champetre">Mariages</a></li>
-        <li>✔️ <a href="/sejours/mises-au-vert">Mises au vert</a> (associations et entreprises)</li>
-        <li>✔️ <a href="/un-team-building-aux-4-sources">Team buildings</a></li>
-        <li>
-          ✔️ <a href="/sejours/en-famille-aux-4-sources">Week-ends familiaux et entre amis</a>
-        </li>
-        <li>✔️ <a href="/coworking">Coworking</a></li>
-      </ul>
-      <div class="mt-6">
+      <div>
         <Button
           variant="secondary"
           href="/activites"
