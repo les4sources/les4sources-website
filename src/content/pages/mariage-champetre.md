@@ -25,7 +25,7 @@ C'est avec une immense joie que nous te le proposons : viens célébrer ton mari
 
 ## Célébrer en beauté dans nos salles 🎉
 
-- Notre grande salle de 145 m² avec bar, sono et vaisselle pour 80 personnes
+- Notre grande salle de 145 m² avec bar, sono et vaisselle pour 80 personnes (80 places assises au grand maximum, 50 pour être bien à l’aise)
 - Ou notre petite salle cosy pour des ateliers ou repas de groupe (jusqu’à 25 personnes)
 - Et la cuisine professionnelle pour préparer les p’tits plats
 - Un bar en intérieur et en extérieur, et le parking
@@ -72,4 +72,4 @@ Compose une fête sur-mesure avec des expériences uniques : ateliers d’artisa
 
 Bref, ce n'est pas nous qui nous marions mais nous sommes aussi enthousiastes à l'idée de t’accueillir. Et on sait qu'un mariage, ça se prépare quelques mois à l'avance…
 
-> 🎂 **Prêt·e à célébrer un mariage inoubliable ?** Contacte Malau pour imaginer ensemble la fête qui te ressemble, à **[sejours@les4sources.be](mailto:sejours@les4sources.be)** ou au **+32 (0)490 46 77 10**.
+> 🎂 **Prêt·e à célébrer un mariage inoubliable ?** Futur·es marié·es ou wedding planners, contacte Malau pour imaginer ensemble la fête qui te ressemble, à **[sejours@les4sources.be](mailto:sejours@les4sources.be)** ou au **+32 (0)490 46 77 10**.

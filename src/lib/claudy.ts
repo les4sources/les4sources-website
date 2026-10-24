@@ -13,6 +13,7 @@
 import { readFileSync } from "node:fs";
 import { z } from "zod";
 import { POLES, type Pole } from "./site";
+import { publicsOf, type PublicSlug } from "./publics";
 
 /* ───────────────────────── Schémas (docs/CLAUDY.md) ───────────────────────── */
 
@@ -283,6 +284,8 @@ export interface MergedExperience extends MergedBase {
   bookingLabel?: string;
   /** Fiche conservée (URL préservée) mais retirée des listings. */
   archived?: boolean;
+  /** Publics visés, lus dans la fiche migrée : une activité née dans Claudy n'en a pas encore. */
+  publics: PublicSlug[];
 }
 
 /** Entrée migrée telle que la fournissent les collections `evenements` / `catalogue`. */
@@ -438,6 +441,7 @@ function fromClaudyExperience(e: ClaudyExperience, twin?: LegacyEntry): MergedEx
     maxParticipants: e.max_participants,
     bookingUrl: e.booking_url ?? twin?.data.bookingUrl,
     bookingLabel: e.booking_url ? undefined : twin?.data.bookingLabel,
+    publics: publicsOf(twin?.data.properties),
   };
 }
 
@@ -460,6 +464,7 @@ function fromLegacyExperience(entry: LegacyEntry): MergedExperience {
     maxParticipants: entry.data.maxParticipants,
     bookingUrl: entry.data.bookingUrl,
     bookingLabel: entry.data.bookingLabel,
+    publics: publicsOf(entry.data.properties),
     // La fiche reste servie (son URL est un contrat) mais quitte les listings.
     archived: entry.data.archived === true,
   };

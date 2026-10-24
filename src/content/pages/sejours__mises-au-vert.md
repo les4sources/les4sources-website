@@ -9,6 +9,8 @@ icon: "🍃"
 
 Les 4 Sources, c'est 15 hectares de nature entre Namur et Dinant, à Yvoir ; un vrai bol d'air pour les équipes qui ont besoin de se retrouver ailleurs qu'au bureau. ASBL, professions libérales, collectifs, startups : de 6 à 23 personnes, on t’accueille les bras ouverts pour une mise au vert qui fait du bien.
 
+> Tu cherches plutôt une journée pour souder ton équipe ? → [Un team building aux 4 Sources](/un-team-building-aux-4-sources)
+
 ![Une équipe en mise au vert aux 4 Sources](../../assets/migration/sejours__mises-au-vert/02-dclic_1.jpg)
 
 ### Pour quel type d’équipe ?

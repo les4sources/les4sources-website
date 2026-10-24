@@ -27,6 +27,8 @@ export interface CardItem {
   image?: ImageMetadata | RemoteImage;
   /** Badge court affiché à côté de l'étiquette de pôle (« Complet ! »). */
   badge?: string;
+  /** Publics de l’activité (`src/lib/publics.ts`), pour le filtre « Pour qui ? » du catalogue. */
+  publics?: string[];
 }
 
 interface Props {
@@ -67,6 +69,7 @@ const { items, empty, aspect = "4/3", columns = 3, poleHeader = false, class: cl
           data-card
           data-l4s-card
           data-pole={item.pole ?? ""}
+          data-publics={item.publics?.join(" ") ?? ""}
           class="relative flex flex-col overflow-hidden rounded-photo border-[1.5px] border-line-soft bg-white transition-[transform,box-shadow] duration-200 ease-[cubic-bezier(0.2,0.7,0.2,1)] hover:-translate-y-0.5 hover:shadow-md focus-within:shadow-md"
         >
           {item.image && (
