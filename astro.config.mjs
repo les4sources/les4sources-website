@@ -4,6 +4,7 @@ import sitemap from "@astrojs/sitemap";
 import { copyFile, readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import mdx from "@astrojs/mdx";
+import { unified } from "@astrojs/markdown-remark";
 import tailwindcss from "@tailwindcss/vite";
 import rehypeColumns from "./src/plugins/rehype-columns.ts";
 import rehypeA11y from "./src/plugins/rehype-a11y.ts";
@@ -53,6 +54,9 @@ export default defineConfig({
   site: SITE,
   output: "static",
   trailingSlash: "never",
+  // Astro 7 compresse par défaut selon les règles JSX ('jsx'), qui retirent
+  // l'espace entre deux éléments en ligne. On garde la compression HTML d'Astro 6.
+  compressHTML: true,
 
   // PAS de bloc i18n : le site est monolingue FR et les URLs sont celles du site
   // actuel, sans préfixe de langue (/sejours/tarifs, pas /fr/sejours/tarifs).
@@ -74,8 +78,12 @@ export default defineConfig({
     // Les vidéos YouTube deviennent une vignette locale, l'iframe n'arrive qu'au clic.
     // Titres vides et grilles tarifaires migrées remis d'aplomb (src/plugins/rehype-tidy.ts).
     // La photo de couverture n'est pas répétée dans le corps (src/plugins/remark-drop-cover.ts).
-    remarkPlugins: [remarkDropCover],
-    rehypePlugins: [rehypeColumns, rehypeTidy, rehypeA11y, rehypeYoutube],
+    // Astro 7 rend le Markdown avec Sätteri par défaut : nos greffons sont des
+    // greffons remark/rehype, on reste donc sur le pipeline unified.
+    processor: unified({
+      remarkPlugins: [remarkDropCover],
+      rehypePlugins: [rehypeColumns, rehypeTidy, rehypeA11y, rehypeYoutube],
+    }),
   },
 
   image: {

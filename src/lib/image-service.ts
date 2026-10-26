@@ -20,7 +20,7 @@ function originalWidth(src: ImageTransform["src"]): number | undefined {
 
 const service: LocalImageService = {
   ...sharp,
-  validateOptions(options, imageConfig) {
+  validateOptions(options, imageConfig, logger) {
     const widths = [...(options.widths ?? [])].sort((a, b) => a - b);
     let target: number | undefined;
     if (widths.length > 0) {
@@ -32,7 +32,7 @@ const service: LocalImageService = {
       if (options.height) options.height = Math.round((options.height * target) / options.width);
       options.width = target;
     }
-    return sharp.validateOptions ? sharp.validateOptions(options, imageConfig) : options;
+    return sharp.validateOptions ? sharp.validateOptions(options, imageConfig, logger) : options;
   },
 };
 
