@@ -27,41 +27,49 @@ generatedDescription: true
 
 Viens déguster une "mini-fondue" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes petits légumes préférés !
 
+Pas fan de fromage ? Aucun souci : tu peux venir avec **un autre petit plat mijoté** à réchauffer au four et à tremper avec ton pain.
+
 ![🧀 Camembert Party de novembre](../../assets/migration/evenements__camembert-party-13-novembre-2026/02-img_20221216_191549.jpg)
 
 Bienvenue **le 13 novembre, dès 18h30** :
 
 - tu amènes…
-  - ton fromage un ou autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre)
+  - ton fromage dans sa boîte en bois **ou** un autre petit plat mijoté (voir idées ci-dessous)
   - tes petits légumes
 - nous mettons à ta disposition…
-  - de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu
+  - **les mini-cocottes** pour cuire ton fromage ou ton plat au four (inutile d'en apporter !)
+  - de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu ou ton mijoté
   - des planches à découper et des platines de cuisson
   - le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage
-  - la grande salle des 4 Sources\*
+  - la grande salle des 4 Sources
 
 ![🧀 Camembert Party de novembre](../../assets/migration/evenements__camembert-party-13-novembre-2026/03-e1089c90-b96b-4195-8594-ac8f4e11c712.jpg)
 
 ## À emporter avec toi
 
-- Ton fromage contenu dans un emballage en bois (cf. photo de l'événement ; bienvenu aux camemberts, vacherins, chaumes, etc.)
+- **Ton fromage** dans son emballage en bois (cf. photo de l'événement ; bienvenue aux camemberts, vacherins, chaumes, etc.)
 
-- Pas très fromage ? Apporte quelque chose d'équivalent si tu le souhaites ou d'autres ingrédients pour accompagner tes légumes.
+- **Ou un autre petit plat mijoté**, déjà préparé, qui se marie bien avec du pain frais. Quelques idées :
+  - fondue de poireaux à la crème
+  - champignons à l'ail et à la crème
+  - ratatouille ou sauce tomate aux légumes (avec une boule de mozzarella dessus, c'est encore mieux)
+  - dal de lentilles corail au lait de coco
+  - chili sin carne
+  - chèvre frais au miel et au thym
 
-- Tes légumes et/ou féculents (ex.: courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces) ou salades froides à manger à côté + assaisonnement
+- **Tes légumes et/ou féculents** (ex. : courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces) ou salades froides à manger à côté + assaisonnement
 
 ![🧀 Camembert Party de novembre](../../assets/migration/evenements__camembert-party-13-novembre-2026/04-a7fc6b1c-4285-4dad-8c2e-8ec985e1f068.jpg)
 
 ## Infos pratiques
 
 - Inscription indispensable jusqu’au jeudi midi avant l'événement
-- Tarif : 10 € par personne (6€ pour les enfants) + cash pour le bar 💰
-- À emporter
-
-- ton fromage ou un autre petit plat mijoté dans sa mini-cocotte (max 10 cm de diamètre) 🧀
-- tes petits légumes 🍆
-- tes ami·e·s 👯
-
+- Tarif : 10 € par personne (6 € pour les enfants) + cash pour le bar 💰
+- À emporter :
+  - ton fromage ou un autre petit plat mijoté 🧀
+  - tes petits légumes 🍆
+  - tes ami·e·s 👯
+- Les mini-cocottes sont fournies sur place 🍲
 - Bar avec boissons bios/locales/de saison sur place 🍹
 
 Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.
