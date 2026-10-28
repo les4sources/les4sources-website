@@ -8,7 +8,7 @@ icon: "🧀"
 properties:
   Date: "2026-11-13"
   Horaires: "à partir de 18h30"
-  Type d'événement: "Pizza Party"
+  Type d'événement: "Pizza ou Camembert Party"
   Thématique: "Liens et convivialité"
   Date (fr): "vendredi 13 novembre"
   Places disponibles: "65"
