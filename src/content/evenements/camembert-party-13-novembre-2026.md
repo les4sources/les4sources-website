@@ -37,7 +37,7 @@ Bienvenue **le 13 novembre, dès 18h30** :
   - ton fromage dans sa boîte en bois **ou** un autre petit plat mijoté (voir idées ci-dessous)
   - tes petits légumes
 - nous mettons à ta disposition…
-  - **les mini-cocottes** pour cuire ton fromage ou ton plat au four (inutile d'en apporter !)
+  - **les mini-cocottes** (environ 10 cm de diamètre) pour cuire ton fromage ou ton plat au four (inutile d'en apporter !)
   - de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu ou ton mijoté
   - des planches à découper et des platines de cuisson
   - le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage
