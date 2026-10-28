@@ -49,7 +49,7 @@ Bienvenue **le 13 novembre, dès 18h30** :
 
 - **Ton fromage** dans son emballage en bois (cf. photo de l'événement ; bienvenue aux camemberts, vacherins, chaumes, etc.)
 
-- **Ou un autre petit plat mijoté**, déjà préparé, qui se marie bien avec du pain frais. Quelques idées :
+- **Ou un autre petit plat mijoté**, déjà préparé, qui se marie bien avec du pain frais. Prévois une quantité qui tient dans une mini-cocotte d'environ 10 cm de diamètre. Quelques idées :
   - fondue de poireaux à la crème
   - champignons à l'ail et à la crème
   - ratatouille ou sauce tomate aux légumes (avec une boule de mozzarella dessus, c'est encore mieux)
