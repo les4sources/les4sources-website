@@ -81,8 +81,9 @@ export default defineConfig({
   image: {
     // Aucun hotlink externe (ISC-8, ISC-13) : les seules images distantes sont
     // celles publiées dans Claudy, téléchargées et converties AU BUILD en
-    // fichiers locaux (src/lib/remote-image.ts, contrat docs/CLAUDY.md).
-    domains: ["app.les4sources.be"],
+    // fichiers locaux (src/lib/remote-image.ts, contrat docs/CLAUDY.md), et la
+    // vignette YouTube de la vidéo d'un événement Claudy (src/lib/youtube.ts).
+    domains: ["app.les4sources.be", "i.ytimg.com"],
     remotePatterns: [],
     // `src` ramené à la plus grande largeur de `widths` (src/lib/image-service.ts).
     service: { entrypoint: "./src/lib/image-service.ts" },

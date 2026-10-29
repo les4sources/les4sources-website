@@ -38,6 +38,7 @@ Paramètres optionnels : `from=YYYY-MM-DD` (défaut : aujourd'hui − 365 j, pou
       "location": "Les 4 Sources, Yvoir",
       "price_text": "Pizzas à prix libre, boissons au bar",
       "registration_url": "https://…",
+      "video_url": "https://www.youtube.com/watch?v=…",
       "image": { "url": "https://app.les4sources.be/rails/active_storage/…/pizza.jpg", "alt": "Pizzas sortant du four à bois", "width": 2000, "height": 1333 },
       "published_at": "2026-09-01T10:00:00+02:00",
       "updated_at": "2026-09-05T08:12:00+02:00",
@@ -54,6 +55,7 @@ Règles :
 - `summary` (≤ 200 caractères, texte brut) sert aux cartes, à la meta description et à l'agenda. `description_html` est du HTML assaini (ActionText) rendu tel quel dans la fiche.
 - `category.pole` vaut un des sept pôles de la charte : `hebergement`, `convivialite`, `nature`, `artisanat`, `ressourcement`, `vie-collective`, `production`. Le site en tire la couleur et le picto. Il manque tant que l'éditrice n'a pas choisi de pôle pour la catégorie dans Claudy ; le site retombe alors sur sa présentation par défaut.
 - `image` est optionnelle ; si absente, le site utilise le visuel de la catégorie/pôle. Le site **télécharge et optimise l'image au build** (aucun hotlink au runtime), l'URL doit donc être stable et publique pendant le build.
+- `video_url` est optionnelle : un lien YouTube (`youtube.com/watch?v=…`, `youtu.be/…`, Shorts, `embed/`), validé par Claudy. Le site en tire l'identifiant et l'affiche **en façade** sous la description : vignette rapatriée au build (aucun hotlink), iframe `youtube-nocookie.com` créée au clic seulement. Sans vignette joignable au build, un simple lien vers YouTube.
 - `all_day: true` → `starts_at`/`ends_at` à minuit heure locale, affichage sans heures.
 
 ### `GET /api/public/v1/experiences`
@@ -113,9 +115,9 @@ Le site conserve les fiches événements et activités migrées depuis l'ancien 
 
 ## Sémantique de publication (côté Claudy)
 
-- `Event` porte `published_at` (datetime, nul = brouillon), `slug` (string, unique, figé tant que publié), `summary` (string ≤ 200), `location`, `price_text`, `public_description` (ActionText, distinct des `notes` internes) et `image` (ActiveStorage `has_one_attached`). `Experience` porte `published_at` et `slug` ; ses autres champs publics existaient déjà (résumé, description, photo CarrierWave, prix, durée, créneaux).
+- `Event` porte `published_at` (datetime, nul = brouillon), `slug` (string, unique, figé tant que publié), `summary` (string ≤ 200), `location`, `price_text`, `video_url` (lien YouTube validé), `public_description` (ActionText, distinct des `notes` internes) et `image` (ActiveStorage `has_one_attached`). `Experience` porte `published_at` et `slug` ; ses autres champs publics existaient déjà (résumé, description, photo CarrierWave, prix, durée, créneaux).
 - `EventCategory` porte `slug`, `pole` (l'un des sept pôles, ou vide) et une couleur hexadécimale.
-- Action **« Dupliquer »** sur un événement : ouvre le formulaire de création prérempli avec titre, résumé, description publique, catégorie, lieu, prix, lien d'inscription et image ; **sans** dates, `published_at` ni `slug`. Rien n'est enregistré avant « Enregistrer », et la copie reste un brouillon.
+- Action **« Dupliquer »** sur un événement : ouvre le formulaire de création prérempli avec titre, résumé, description publique, catégorie, lieu, prix, lien d'inscription, vidéo et image ; **sans** dates, `published_at` ni `slug`. Rien n'est enregistré avant « Enregistrer », et la copie reste un brouillon.
 - La fiche affiche l'état (brouillon / publié), l'adresse publique prévue ou en ligne, et un bouton « Publier sur le site » / « Dépublier » ; le formulaire propose le slug tant que la fiche n'est pas publiée.
 
 ## Déclencheur de rebuild
