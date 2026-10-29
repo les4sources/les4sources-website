@@ -7,6 +7,7 @@ import EventHero from "@components/ui/EventHero.astro";
 import EventPractical from "@components/ui/EventPractical.astro";
 import PageMenu from "@components/ui/PageMenu.astro";
 import Prose from "@components/ui/Prose.astro";
+import VideoFacade from "@components/ui/VideoFacade.astro";
 import Button from "@components/ds/Button.astro";
 import Section from "@components/ds/Section.astro";
 import EventGrid from "@components/home/EventGrid.astro";
@@ -36,6 +37,7 @@ import EventBody from "./_EventBody.astro";
 import { claudyImage, claudyOgImage } from "@lib/remote-image";
 import { event as eventSchema, breadcrumbs, eventDocumentTitle } from "@lib/seo";
 import { site } from "@lib/site";
+import { youtubeVideo } from "@lib/youtube";
 import { cardTitle, seoDescription } from "@lib/text";
 import type { MergedEvent } from "@lib/claudy";
 
@@ -78,6 +80,8 @@ const remoteHero = await claudyImage(remoteCover?.url, [640, 960, 1440, 1920]);
 const cover = remoteHero ? undefined : legacy?.data.cover;
 const heroImage = remoteHero ?? cover;
 const heroAlt = (remoteHero ? remoteCover?.alt : legacy?.data.coverAlt) || event.title;
+// La vidéo publiée dans Claudy (bande-annonce…), en façade sous la description.
+const video = await youtubeVideo(event.videoUrl);
 // Le pôle de la fiche, sinon celui de sa thématique (Environnement → nature…).
 const poleSlug: PoleSlug = eventPole(event);
 const props: Record<string, string> = legacy?.data.properties ?? {};
@@ -265,6 +269,7 @@ const jsonld = [
               </EventBody>
             ) : null
           }
+          {video && <VideoFacade video={video} title={title} />}
         </Prose>
       </div>
     </div>

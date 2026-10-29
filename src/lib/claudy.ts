@@ -46,6 +46,8 @@ export const claudyEventSchema = z.object({
   location: z.string().optional(),
   price_text: z.string().optional(),
   registration_url: z.string().optional(),
+  /** Lien YouTube validé par Claudy (bande-annonce, captation) : façade sous la description. */
+  video_url: z.string().optional(),
   image: claudyImageSchema.optional(),
   published_at: z.string().optional(),
   updated_at: z.string().optional(),
@@ -267,6 +269,8 @@ export interface MergedEvent extends MergedBase {
   registrationUrl?: string;
   /** Libellé du bouton d'inscription (fiche migrée) ; à défaut la fiche en propose un. */
   registrationLabel?: string;
+  /** Lien YouTube publié dans Claudy (une fiche migrée garde ses vidéos dans son Markdown). */
+  videoUrl?: string;
   categoryName?: string;
   /** ISO 8601 — date de publication dans Claudy (inconnue pour une fiche migrée). */
   publishedAt?: string;
@@ -346,6 +350,7 @@ function fromClaudyEvent(e: ClaudyEvent, twin?: LegacyEntry): MergedEvent {
     location: e.location,
     priceText: e.price_text,
     registrationUrl: e.registration_url,
+    videoUrl: e.video_url,
     publishedAt: e.published_at,
   };
 }

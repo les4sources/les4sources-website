@@ -1,0 +1,42 @@
+---
+/**
+ * Vidéo YouTube en façade (styles : global.css, clic : BaseLayout) : la
+ * vignette locale et le bouton lecture ; l'iframe n'existe qu'au clic. Sans
+ * vignette, un lien vers YouTube — jamais une iframe chargée d'office.
+ */
+import type { YoutubeVideo } from "@lib/youtube";
+
+interface Props {
+  video: YoutubeVideo;
+  /** Ce que montre la vidéo, lu par le bouton et repris en titre de l'iframe. */
+  title: string;
+}
+
+const { video, title } = Astro.props;
+const thumbnail = video.thumbnail;
+---
+
+{
+  thumbnail ? (
+    <a class="yt-facade" href={video.watchUrl} data-yt={video.embedUrl} data-yt-title={title}>
+      <img
+        src={thumbnail.src}
+        srcset={thumbnail.srcset}
+        sizes="(min-width: 1024px) 760px, 100vw"
+        alt=""
+        width={thumbnail.width ?? 960}
+        height={thumbnail.height ?? 540}
+        loading="lazy"
+        decoding="async"
+      />
+      <span class="yt-play" aria-hidden="true" />
+      <span class="yt-label">Lire la vidéo · {title}</span>
+    </a>
+  ) : (
+    <p>
+      <a href={video.watchUrl} rel="noopener">
+        Voir la vidéo sur YouTube →
+      </a>
+    </p>
+  )
+}
