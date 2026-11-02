@@ -39,6 +39,11 @@ jobs:
           git fetch origin main
           git merge --no-edit origin/main
 
+      # Astro 7 exige Node >= 22.23 ; on prend la version d'Hatchbox (.tool-versions).
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .tool-versions
+
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest

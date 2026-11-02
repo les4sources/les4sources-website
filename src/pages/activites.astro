@@ -134,12 +134,8 @@ const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
                   <h3 class="m-0 font-display text-[17px] leading-snug font-bold text-ink sm:text-[18px]">
                     {item ? (
                       <>
-                        {item.icon && (
-                          <span class="mr-1.5" aria-hidden="true">
-                            {item.icon}
-                          </span>
-                        )}
-                        {item.title}
+                        {/* Sur une ligne : Astro 7 garde les sauts de ligne en espaces entre le picto et le titre. */}
+                        {item.icon && <span class="mr-1.5" aria-hidden="true">{item.icon}</span>}{item.title}
                       </>
                     ) : (
                       label

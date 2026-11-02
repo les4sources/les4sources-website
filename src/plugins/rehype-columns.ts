@@ -22,6 +22,9 @@
  *    n'est perdu dans aucun des cas, ce que vérifie `scripts/verify/parity.ts`.
  */
 import type { Element, Root, RootContent } from "hast";
+// Le nœud hast `raw` est déclaré par mdast-util-to-hast (types seuls) : Astro 7
+// ne le tire plus dans ses types, et sans lui `node.type === "raw"` ne compile pas.
+import type {} from "mdast-util-to-hast";
 
 type Marker =
   | { kind: "open" }
