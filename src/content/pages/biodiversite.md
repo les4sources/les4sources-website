@@ -13,13 +13,51 @@ embeds:
 
 ## Au fil de l’année 🗓️
 
-- [Les crapauds (mars)](/sejours/hebergements-yvoir/la-hulotte-gite-16-personnes/vue-depuis-la-terrasse)
-- [Cynoglosse d’Allemagne (juillet)](/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-balsamine)
-- [Escargot de Bourgogne (juillet)](/sejours/hebergements-yvoir/la-cheveche-gite-8-personnes/chambre-romarin)
-- [Anax empereur (août)](/sejours/hebergements-yvoir/photos-des-hbergements/anax-empereur)
-- [Alyte accoucheur (août)](/sejours/hebergements-yvoir/photos-des-hbergements/alyte-accoucheur)
-- [Couleuvre helvétique (août)](/sejours/hebergements-yvoir/photos-des-hbergements/couleuvre-helvtique-aot)
-- [Salamandre tachetée (novembre)](/sejours/hebergements-yvoir/photos-des-hbergements/salamandre-tachete-novembre)
+<!-- columns -->
+<!-- column width="33.3%" -->
+
+![Les crapauds dans les mares](../../assets/migration/shared/31495c8186b0-IMG_20230320_142947.jpg)
+*Les crapauds dans les mares (mars)*
+
+<!-- column width="33.3%" -->
+
+![Une cynoglosse d’Allemagne en fleur](../../assets/migration/shared/bad81044223a-p6090523_rec.jpg)
+*Une cynoglosse d’Allemagne en fleur (juillet)*
+
+<!-- column width="33.3%" -->
+
+![Cynoglosse d’Allemagne](../../assets/migration/shared/05f0e22b00e5-cynoglosse_dallemagne.jpg)
+*Cynoglosse d’Allemagne (juillet)*
+<!-- /columns -->
+
+<!-- columns -->
+<!-- column width="33.3%" -->
+
+![Escargot de Bourgogne](../../assets/migration/shared/4ce542448649-escargot_de_bourgogne.jpg)
+*Escargot de Bourgogne (juillet)*
+
+<!-- column width="33.3%" -->
+
+![Anax empereur](../../assets/migration/shared/d36ef9512bbb-20210807_154050_CB1F3FF7.jpg)
+*Anax empereur (août)*
+
+<!-- column width="33.3%" -->
+
+![Alyte accoucheur](../../assets/migration/shared/099d66c64244-alyte_accoucheur.jpg)
+*Alyte accoucheur (août)*
+<!-- /columns -->
+
+<!-- columns -->
+<!-- column width="33.3%" -->
+
+![Couleuvre helvétique](../../assets/migration/shared/7320336afb1d-couleuvre_helvetique.jpg)
+*Couleuvre helvétique (août)*
+
+<!-- column width="33.3%" -->
+
+![Salamandre tachetée](../../assets/migration/shared/f16d783c25dd-20221116_135325_10B47022.jpg)
+*Salamandre tachetée (novembre)*
+<!-- /columns -->
 
 ## Espèces observées 🔍
 
