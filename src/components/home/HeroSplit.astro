@@ -5,10 +5,11 @@
  * l'en-tête (la pilule flotte sur la photo). Le bord gauche de la photo suit
  * une courbe douce : le motif « bord organique » de la charte (BlobPanel).
  *
- * Plusieurs photos : un carrousel manuel (flèches + pastilles, script partagé
- * `@components/ui/carousel`), sans défilement automatique — on regarde à son
- * rythme. Fondu de 400 ms, coupé en
- * mouvement réduit. Sans JavaScript, la première photo reste affichée.
+ * Plusieurs photos : un carrousel (flèches + pastilles, script partagé
+ * `@components/ui/carousel`) qui avance seul toutes les 6 secondes, en pause
+ * au survol, arrêté dès que le visiteur choisit une photo, jamais en
+ * mouvement réduit. Fondu de 400 ms, coupé en mouvement réduit. Sans
+ * JavaScript, la première photo reste affichée.
  *
  * Sous 1 000 px, la photo passe en tête, pleine largeur, puis le texte.
  */
@@ -47,7 +48,7 @@ const sizesOf = (src: ImageMetadata) => {
 };
 ---
 
-<section class="l4s-herosplit" data-l4s-carousel>
+<section class="l4s-herosplit" data-l4s-carousel data-l4s-autoplay="6000">
   <div class="l4s-herosplit-media">
     {
       photos.map((p, i) => (
