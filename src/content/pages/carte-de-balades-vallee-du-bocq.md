@@ -11,6 +11,8 @@ embeds:
     title: "Carnet de balades des 4 Sources.pdf"
 ---
 
+> **Pas de parking pour les promeneurs.** Le parking des 4 Sources est réservé aux personnes qui logent au gîte et aux participants des activités organisées sur le lieu. Merci de ne pas venir t’y garer pour partir en balade.
+
 ![Un aperçu du carnet de balades](../../assets/migration/carte-de-balades-vallee-du-bocq/02-CleanShot_2025-05-25_at_23.49.jpg)
 
 **À télécharger ici, et disponible sur place pour les gîteurs :**
