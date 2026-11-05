@@ -14,6 +14,17 @@
  * devenant une `flex-basis` en ligne (`--col-w`) appliquée à partir de 768 px —
  * en dessous, les colonnes s'empilent. Cf. `src/components/ui/Prose.astro`.
  *
+ * Une galerie de photos s'écrit en mosaïque (à la Pinterest) :
+ *
+ *     <!-- mosaic -->
+ *     ![Alt](photo.jpg)
+ *     *Légende*
+ *     …
+ *     <!-- /mosaic -->
+ *
+ * Chaque photo (et sa légende) devient une tuile `div.mosaic > div.mosaic-tile`,
+ * rendue dans son format d'origine, sans recadrage, en colonnes CSS.
+ *
  * Règles de sûreté :
  *  - un marqueur inconnu ou un commentaire ordinaire n'est jamais touché ;
  *  - un `/columns` orphelin est simplement retiré (c'était un commentaire, donc
@@ -28,6 +39,8 @@ import type {} from "mdast-util-to-hast";
 
 type Marker =
   | { kind: "open" }
+  | { kind: "mosaic" }
+  | { kind: "mosaic-close" }
   | { kind: "column"; width?: string }
   | { kind: "close" };
 
@@ -64,6 +77,8 @@ function parseMarkers(value: string): Marker[] | null {
     const body = match[1].trim();
 
     if (body === "columns") found.push({ kind: "open" });
+    else if (body === "mosaic") found.push({ kind: "mosaic" });
+    else if (body === "/mosaic" || body === "/ mosaic") found.push({ kind: "mosaic-close" });
     else if (body === "/columns" || body === "/ columns") found.push({ kind: "close" });
     else if (/^column\b/.test(body)) {
       const width = /width\s*=\s*"([^"]*)"/.exec(body)?.[1];
@@ -142,6 +157,45 @@ function columnElement(width: string | undefined, children: RootContent[]): Elem
   };
 }
 
+const hasImage = (node: RootContent): boolean =>
+  node.type === "element" &&
+  (node.tagName === "img" || node.children.some((c) => hasImage(c as RootContent)));
+
+/**
+ * Découpe le contenu d'une mosaïque en tuiles : chaque photo ouvre une tuile,
+ * ce qui la suit (sa légende) la rejoint. Rien n'est jamais perdu : un contenu
+ * placé avant la première photo forme sa propre tuile.
+ */
+function mosaicTiles(nodes: RootContent[]): RootContent[][] {
+  const tiles: RootContent[][] = [];
+  let current: RootContent[] | null = null;
+
+  for (const node of nodes) {
+    if (node.type === "text" && node.value.trim() === "") continue;
+    if (!current || hasImage(node)) {
+      current = [];
+      tiles.push(current);
+    }
+    current.push(node);
+  }
+
+  return tiles;
+}
+
+function mosaicElement(tiles: RootContent[][]): RootContent {
+  return {
+    type: "element",
+    tagName: "div",
+    properties: { className: ["mosaic"] },
+    children: tiles.map((children) => ({
+      type: "element",
+      tagName: "div",
+      properties: { className: ["mosaic-tile"] },
+      children: children as Element["children"],
+    })),
+  } as RootContent;
+}
+
 export default function rehypeColumns() {
   return (tree: Root): void => {
     const flat = flatten(tree.children);
@@ -157,6 +211,23 @@ export default function rehypeColumns() {
       if (!isMarkerItem(item)) {
         out.push(item);
         i += 1;
+        continue;
+      }
+
+      if (item.marker.kind === "mosaic") {
+        i += 1;
+        const inside: RootContent[] = [];
+        while (i < flat.length) {
+          const inner = flat[i];
+          i += 1;
+          if (isMarkerItem(inner)) {
+            if (inner.marker.kind === "mosaic-close") break;
+            continue; // marqueurs de colonnes dans une mosaïque : sans objet.
+          }
+          inside.push(inner);
+        }
+        const tiles = mosaicTiles(inside);
+        if (tiles.length > 0) out.push(mosaicElement(tiles));
         continue;
       }
 
