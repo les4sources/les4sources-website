@@ -66,9 +66,7 @@ const {
 const classes = [
   "relative block overflow-hidden rounded-photo no-underline",
   SURFACES[surface],
-  hoverable
-    ? "transition-[transform,box-shadow] duration-200 ease-[cubic-bezier(0.2,0.7,0.2,1)] hover:-translate-y-0.5 hover:shadow-md focus-within:shadow-md"
-    : "",
+  hoverable ? "l4s-card-hover" : "",
   className,
 ];
 
@@ -88,7 +86,7 @@ const fallbackPole = !hasImage && pole ? resolvePole(pole) : undefined;
 <Tag class:list={classes} data-l4s-card {...href ? { href } : {}} {...rest}>
   {
     hasImage ? (
-      <div class="w-full overflow-hidden bg-surface" style={`aspect-ratio:${imageAspect}`}>
+      <div class="l4s-card-photo w-full overflow-hidden bg-surface" style={`aspect-ratio:${imageAspect}`}>
         {isRemoteImage(image) ? (
           <img
             src={image.src}
@@ -118,7 +116,7 @@ const fallbackPole = !hasImage && pole ? resolvePole(pole) : undefined;
       </div>
     ) : fallbackPole ? (
       <div
-        class:list={["flex h-[120px] w-full items-center justify-center", fallbackPole.classes.bgTint]}
+        class:list={["l4s-card-band flex h-[120px] w-full items-center justify-center", fallbackPole.classes.bgTint]}
         aria-hidden="true"
       >
         <PoleIcon pole={fallbackPole.slug} class:list={["h-12", fallbackPole.classes.textInk]} />
