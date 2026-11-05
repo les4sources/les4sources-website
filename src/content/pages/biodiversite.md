@@ -21,7 +21,7 @@ embeds:
 
 <!-- column width="33.3%" -->
 
-![Une cynoglosse d’Allemagne en fleur](../../assets/migration/shared/bad81044223a-p6090523_rec.jpg)
+![Une cynoglosse d’Allemagne en fleur](../../assets/images/contenu/cynoglosse-d-allemagne-en-fleur.jpg)
 *Une cynoglosse d’Allemagne en fleur (juillet)*
 
 <!-- column width="33.3%" -->
