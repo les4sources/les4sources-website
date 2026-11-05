@@ -13,51 +13,33 @@ embeds:
 
 ## Au fil de l’année 🗓️
 
-<!-- columns -->
-<!-- column width="33.3%" -->
+<!-- mosaic -->
 
 ![Les crapauds dans les mares](../../assets/migration/shared/31495c8186b0-IMG_20230320_142947.jpg)
 *Les crapauds dans les mares (mars)*
 
-<!-- column width="33.3%" -->
-
 ![Une cynoglosse d’Allemagne en fleur](../../assets/images/contenu/cynoglosse-d-allemagne-en-fleur.jpg)
 *Une cynoglosse d’Allemagne en fleur (juillet)*
 
-<!-- column width="33.3%" -->
-
 ![Cynoglosse d’Allemagne](../../assets/migration/shared/05f0e22b00e5-cynoglosse_dallemagne.jpg)
 *Cynoglosse d’Allemagne (juillet)*
-<!-- /columns -->
-
-<!-- columns -->
-<!-- column width="33.3%" -->
 
 ![Escargot de Bourgogne](../../assets/migration/shared/4ce542448649-escargot_de_bourgogne.jpg)
 *Escargot de Bourgogne (juillet)*
 
-<!-- column width="33.3%" -->
-
 ![Anax empereur](../../assets/migration/shared/d36ef9512bbb-20210807_154050_CB1F3FF7.jpg)
 *Anax empereur (août)*
 
-<!-- column width="33.3%" -->
-
 ![Alyte accoucheur](../../assets/migration/shared/099d66c64244-alyte_accoucheur.jpg)
 *Alyte accoucheur (août)*
-<!-- /columns -->
-
-<!-- columns -->
-<!-- column width="33.3%" -->
 
 ![Couleuvre helvétique](../../assets/migration/shared/7320336afb1d-couleuvre_helvetique.jpg)
 *Couleuvre helvétique (août)*
 
-<!-- column width="33.3%" -->
-
 ![Salamandre tachetée](../../assets/migration/shared/f16d783c25dd-20221116_135325_10B47022.jpg)
 *Salamandre tachetée (novembre)*
-<!-- /columns -->
+
+<!-- /mosaic -->
 
 ## Espèces observées 🔍
 

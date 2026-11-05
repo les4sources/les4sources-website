@@ -49,7 +49,7 @@ const d = entry.data;
  */
 const body = entry.body ?? "";
 const wide =
-  /<!--\s*columns/.test(body) ||
+  /<!--\s*(columns|mosaic)/.test(body) ||
   /^[ \t]*\|/m.test(body) ||
   /<table/i.test(body) ||
   /embed-iframe|embed-tally|embed-form/.test(body);

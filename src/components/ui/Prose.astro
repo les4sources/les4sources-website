@@ -438,6 +438,40 @@ const { width = "prose", class: className } = Astro.props;
   .prose-4s :global(.column p:has(> img) + p:has(> em:only-child) em) {
     font-style: normal;
   }
+  /* ── Mosaïque (cf. src/plugins/rehype-columns.ts) ──────────────────────
+     Colonnes CSS : chaque photo garde son format, portrait comme paysage. */
+  .prose-4s :global(.mosaic) {
+    columns: 2;
+    column-gap: 1.2rem;
+    margin: 1.6rem 0;
+  }
+  .prose-4s :global(.mosaic-tile) {
+    break-inside: avoid;
+    margin-bottom: 1.2rem;
+  }
+  .prose-4s :global(.mosaic-tile > :last-child) {
+    margin-bottom: 0;
+  }
+  .prose-4s :global(.mosaic-tile img) {
+    width: 100%;
+    height: auto;
+    margin: 0 0 0.5rem;
+  }
+  .prose-4s :global(.mosaic-tile em) {
+    font-family: var(--font-ui);
+    font-size: var(--text-caption);
+    font-style: normal;
+    color: var(--color-ink-3);
+  }
+  @media (min-width: 1024px) {
+    .prose-4s :global(.mosaic) {
+      columns: 3;
+      column-gap: 1.6rem;
+    }
+    .prose-4s :global(.mosaic-tile) {
+      margin-bottom: 1.6rem;
+    }
+  }
   @media (min-width: 768px) {
     .prose-4s :global(.columns) {
       flex-direction: row;
