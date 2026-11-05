@@ -1,5 +1,7 @@
 ---
 /**
+ * Plausible (stats.semisto.org), puis la mesure maison.
+ *
  * Mesure d'audience sans cookie (2026-10-03) : chaque page vue et quelques
  * clics clés partent vers Claudy, qui les compte dans Reporting › Site web.
  *
@@ -17,6 +19,19 @@ const api = process.env.CLAUDY_PUBLIC_API_URL;
 const endpoint = api ? new URL("/site-stats/hits", api).href : undefined;
 const notFound = Astro.url.pathname.replace(/\/+$/, "") === "/404";
 ---
+
+<!-- Privacy-friendly analytics by Plausible -->
+{
+  /* Plausible (2026-11-05) : snippet fourni par stats.semisto.org, recopié à
+     l'identique. Les mesures optionnelles (liens sortants, téléchargements,
+     formulaires) se règlent dans Plausible, pas ici. Plausible ignore de
+     lui-même localhost. */
+}
+<script is:inline async src="https://stats.semisto.org/js/pa-SLV3T_iJj37ET1fYr9uWG.js"></script>
+<script is:inline>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init()
+</script>
 
 {endpoint && <meta name="l4s-stats" content={endpoint} data-not-found={notFound ? "" : undefined} />}
 
