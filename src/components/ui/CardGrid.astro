@@ -70,10 +70,10 @@ const { items, empty, aspect = "4/3", columns = 3, poleHeader = false, class: cl
           data-l4s-card
           data-pole={item.pole ?? ""}
           data-publics={item.publics?.join(" ") ?? ""}
-          class="relative flex flex-col overflow-hidden rounded-photo border-[1.5px] border-line-soft bg-white transition-[transform,box-shadow] duration-200 ease-[cubic-bezier(0.2,0.7,0.2,1)] hover:-translate-y-0.5 hover:shadow-md focus-within:shadow-md"
+          class="relative flex flex-col overflow-hidden rounded-photo border-[1.5px] border-line-soft bg-white l4s-card-hover"
         >
           {item.image && (
-            <div class="w-full overflow-hidden bg-surface" style={`aspect-ratio:${aspect}`}>
+            <div class="l4s-card-photo w-full overflow-hidden bg-surface" style={`aspect-ratio:${aspect}`}>
               <Photo
                 src={item.image}
                 alt={item.title}
@@ -87,7 +87,7 @@ const { items, empty, aspect = "4/3", columns = 3, poleHeader = false, class: cl
           {!item.image && poleHeader && item.pole && isPole(item.pole) && (
             <div
               class:list={[
-                "flex h-[120px] w-full items-center justify-center",
+                "l4s-card-band flex h-[120px] w-full items-center justify-center",
                 resolvePole(item.pole).classes.bgTint,
               ]}
               aria-hidden="true"
@@ -114,7 +114,7 @@ const { items, empty, aspect = "4/3", columns = 3, poleHeader = false, class: cl
             {/* L'émoji ouvre le titre, collé à lui comme sur le site actuel :
                 l'espace est typographique (margin), jamais un blanc de texte. */}
             <h3 class="m-0 font-display text-h4 leading-snug font-bold">
-              <a href={item.href} class="l4s-stretch-link text-inherit no-underline hover:text-teal-soft">
+              <a href={item.href} class="l4s-stretch-link l4s-card-title text-inherit no-underline hover:text-teal-soft">
                 {item.icon && (
                   <span class="mr-1.5 inline-block" aria-hidden="true">
                     {item.icon}

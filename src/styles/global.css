@@ -133,6 +133,68 @@
     }
   }
 
+  /* Survol des cartes (Michael, 2026-11-05) — Card `hoverable`, EventCard,
+     CardGrid. La carte se soulève et penche à peine, alternativement à gauche
+     et à droite d'une carte à l'autre (le côté « imparfait » du surligneur) ;
+     la photo avance doucement, le picto du pôle sautille, et le titre se
+     surligne de jaune, de gauche à droite. Même effet au clavier
+     (focus-within). Sans souris (écran tactile), rien ne bouge : un survol y
+     resterait collé. En mouvement réduit, ni soulèvement ni zoom : seuls
+     l'ombre et le surlignage apparaissent, sans transition. */
+  .l4s-card-hover {
+    --l4s-card-tilt: -0.6deg;
+    transition:
+      transform var(--dur-slow) var(--ease-brand),
+      box-shadow var(--dur-slow) var(--ease-brand);
+  }
+  li:nth-child(even) > .l4s-card-hover,
+  .l4s-card-hover:nth-child(even) {
+    --l4s-card-tilt: 0.6deg;
+  }
+  .l4s-card-hover .l4s-card-photo img,
+  .l4s-card-hover .l4s-card-band > * {
+    transition: transform 600ms var(--ease-brand);
+  }
+  .l4s-card-hover .l4s-card-title {
+    background: linear-gradient(
+        transparent 58%,
+        var(--color-socioculturel) 58%,
+        var(--color-socioculturel) 92%,
+        transparent 92%
+      )
+      no-repeat 0 0 / 0% 100%;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    transition: background-size 450ms var(--ease-brand);
+  }
+  .l4s-card-hover:is(:hover, :focus-within) {
+    box-shadow: var(--shadow-lg);
+  }
+  .l4s-card-hover:is(:hover, :focus-within) .l4s-card-title {
+    background-size: 100% 100%;
+    color: var(--color-teal);
+  }
+  @media (hover: hover) and (prefers-reduced-motion: no-preference) {
+    .l4s-card-hover:is(:hover, :focus-within) {
+      transform: translateY(-6px) rotate(var(--l4s-card-tilt));
+    }
+    .l4s-card-hover:is(:hover, :focus-within) .l4s-card-photo img {
+      transform: scale(1.06);
+    }
+    .l4s-card-hover:is(:hover, :focus-within) .l4s-card-band > * {
+      transform: scale(1.18) rotate(-8deg);
+      transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+  }
+  @media (hover: none) {
+    .l4s-card-hover:hover:not(:focus-within) {
+      box-shadow: none;
+    }
+    .l4s-card-hover:hover:not(:focus-within) .l4s-card-title {
+      background-size: 0% 100%;
+    }
+  }
+
   /* Carte cliquable dont un seul élément est interactif : le lien du titre
      s'étire sur toute la carte. Cf. src/components/ds/EventCard.astro. */
   .l4s-stretch-link::after {

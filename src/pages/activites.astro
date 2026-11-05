@@ -135,10 +135,10 @@ const siteUrl = (Astro.site ?? new URL(site.url)).href.replace(/\/$/, "");
                     {item ? (
                       <>
                         {/* Sur une ligne : Astro 7 garde les sauts de ligne en espaces entre le picto et le titre. */}
-                        {item.icon && <span class="mr-1.5" aria-hidden="true">{item.icon}</span>}{item.title}
+                        {item.icon && <span class="mr-1.5" aria-hidden="true">{item.icon}</span>}<span class="l4s-card-title">{item.title}</span>
                       </>
                     ) : (
-                      label
+                      <span class="l4s-card-title">{label}</span>
                     )}
                   </h3>
                   {item?.participants && (
