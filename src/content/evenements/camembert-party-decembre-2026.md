@@ -1,0 +1,79 @@
+---
+title: "🧀 Camembert Party de décembre"
+description: "Camembert Party de décembre — Les 4 Sources, tiers-lieu à Yvoir"
+legacyPath: "/evenements/camembert-party-decembre-2026"
+cover: "../../assets/migration/shared/3a789b6d1ca5-_Cover_pour_le_site_4S_-2.jpg"
+coverAlt: "🧀 Camembert Party de décembre"
+icon: "🧀"
+properties:
+  Date: "2026-12-11"
+  Horaires: "à partir de 18h30"
+  Type d'événement: "Pizza ou Camembert Party"
+  Thématique: "Liens et convivialité"
+  Date (fr): "vendredi 11 décembre"
+  Places disponibles: "65"
+  Tarif: "€10.00"
+  Statut site web: "Publié"
+pole: "convivialite"
+start: "2026-12-11T18:30:00+01:00"
+category: "Liens et convivialité"
+priceText: "10 €"
+registrationUrl: "https://tranchesdevie.les4sources.be/pizza-parties"
+registrationLabel: "Je m'inscris"
+generatedDescription: true
+---
+
+## Le concept de la Camembert Party ?
+
+Viens déguster une "mini-fondue" en trempant du pain frais dans ton fromage tout juste sorti du four et dégoulinant à point ! 😋 Le tout accompagné de tes petits légumes préférés !
+
+Pas fan de fromage ? Aucun souci : tu peux venir avec **un autre petit plat mijoté** à réchauffer au four et à tremper avec ton pain.
+
+![🧀 Camembert Party de décembre](../../assets/migration/evenements__camembert-party-decembre-2026/02-img_20221216_191549.jpg)
+
+Bienvenue **le 11 décembre, dès 18h30** :
+
+- tu amènes…
+  - ton fromage dans sa boîte en bois **ou** un autre petit plat mijoté (voir idées ci-dessous)
+  - tes petits légumes
+- nous mettons à ta disposition…
+  - **les mini-cocottes** (environ 10 cm de diamètre) pour cuire ton fromage ou ton plat au four (inutile d'en apporter !)
+  - de délicieuses tranches de pain au froment cuit du jour, à tremper dans ton fromage fondu ou ton mijoté
+  - des planches à découper et des platines de cuisson
+  - le four de la boulangerie chauffé au bois pour cuire tes légumes et ton fromage
+  - la grande salle des 4 Sources
+
+![🧀 Camembert Party de décembre](../../assets/migration/evenements__camembert-party-decembre-2026/03-e1089c90-b96b-4195-8594-ac8f4e11c712.jpg)
+
+## À emporter avec toi
+
+- **Ton fromage** dans son emballage en bois (cf. photo de l'événement ; bienvenue aux camemberts, vacherins, chaumes, etc.)
+
+- **Ou un autre petit plat mijoté**, déjà préparé, qui se marie bien avec du pain frais. Prévois une quantité qui tient dans une mini-cocotte d'environ 10 cm de diamètre. Quelques idées :
+  - fondue de poireaux à la crème
+  - champignons à l'ail et à la crème
+  - ratatouille ou sauce tomate aux légumes (avec une boule de mozzarella dessus, c'est encore mieux)
+  - dal de lentilles corail au lait de coco
+  - chili sin carne
+  - chèvre frais au miel et au thym
+
+- **Tes légumes et/ou féculents** (ex. : courges, champignons, topinambours, chicons, épinards, fenouils, oignons, patates, patates douces) ou salades froides à manger à côté + assaisonnement
+
+![🧀 Camembert Party de décembre](../../assets/migration/evenements__camembert-party-decembre-2026/04-a7fc6b1c-4285-4dad-8c2e-8ec985e1f068.jpg)
+
+## Infos pratiques
+
+- Inscription indispensable jusqu’au jeudi midi avant l'événement
+- Tarif : 10 € par personne (6 € pour les enfants) + cash pour le bar 💰
+- À emporter :
+  - ton fromage ou un autre petit plat mijoté 🧀
+  - tes petits légumes 🍆
+  - tes ami·e·s 👯
+- Les mini-cocottes sont fournies sur place 🍲
+- Bar avec boissons bios/locales/de saison sur place 🍹
+
+Les enfournements dans le four de tes préparations ont lieu entre 19h et 19h30.
+
+👉 [Inscris-toi ici](https://tranchesdevie.les4sources.be/pizza-parties)
+
+![🧀 Camembert Party de décembre](../../assets/migration/evenements__camembert-party-decembre-2026/05-img_20240308_210554.jpg)
