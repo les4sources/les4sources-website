@@ -40,5 +40,9 @@
     "mdast-util-to-hast": "^13",
     "tailwindcss": "^4",
     "typescript": "^5.9"
+  },
+  "overrides": {
+    "@emnapi/core": "1.11.3",
+    "@emnapi/runtime": "1.11.3"
   }
 }
